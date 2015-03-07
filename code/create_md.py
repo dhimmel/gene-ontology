@@ -14,6 +14,8 @@ for filename in os.listdir('annotations'):
     taxids.append(int(match.groups()[0]))
 taxids.sort()
 
+taxlist = [{'taxid': taxid} for taxid in taxids]
+taxdict = {x['taxid']: x for x in taxlist}
 
 formated_taxids = ','.join(map(str, taxids))
 taxid_to_name = dict()
@@ -25,17 +27,16 @@ for docsum in etree:
     name = None
     for item in docsum.findall('Item'):
         if item.get('Name') == 'TaxId':
-            taxid = item.text
+            taxid = int(item.text)
         if item.get('Name') == 'ScientificName':
             name = item.text
-    taxid_to_name[taxid] = name
-
+    taxdict[taxid]['scientific_name'] = name
 
 with open('code/template.md') as read_file:
     template_str = read_file.read()
 template = jinja2.Template(template_str)
 
-output = template.render(taxids = taxids, taxid_to_name = taxid_to_name)
+output = template.render(taxids = taxids, taxlist = taxlist)
 
 with open('index.md', 'w') as write_file:
     write_file.write(output)
