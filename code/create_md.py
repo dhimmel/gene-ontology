@@ -1,7 +1,6 @@
 import os
 import re
 import xml.etree.ElementTree
-import untangle
 
 import jinja2
 import requests
@@ -9,6 +8,8 @@ import requests
 
 taxids = list()
 for filename in os.listdir('annotations'):
+    if not filename.startswith('taxid'):
+        continue
     match = re.search(r'taxid_([0-9]+)', filename)
     taxids.append(int(match.groups()[0]))
 taxids.sort()
@@ -36,7 +37,7 @@ template = jinja2.Template(template_str)
 
 output = template.render(taxids = taxids, taxid_to_name = taxid_to_name)
 
-with open('README.md', 'w') as write_file:
+with open('index.md', 'w') as write_file:
     write_file.write(output)
 
 

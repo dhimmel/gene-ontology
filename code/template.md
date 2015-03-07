@@ -1,3 +1,6 @@
+---
+title: Annotating the Gene Ontology with Entrez Genes
+---
 # Annotating the Gene Ontology with Entrez Genes
 
 ## Download annotations by species
