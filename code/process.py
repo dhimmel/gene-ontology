@@ -1,8 +1,11 @@
 import os
 import gzip
 import csv
+import itertools
 
 import goatools.obo_parser
+
+import utilities
 
 go_path = os.path.join('download', 'go-basic.obo')
 go_dag = goatools.obo_parser.GODag(obo_file = go_path)
@@ -14,33 +17,46 @@ def sort_dict_values(dictionary):
 
 # Read Entrez Gene GO annotations
 taxid_to_gene2go = dict()
-gene2go_path = os.path.join('download', 'gene2go.gz')
-gene2go_fields = 'tax_id', 'GeneID', 'GO_ID', 'Evidence', 'Qualifier', 'GO_term', 'PubMed', 'Category'
-with gzip.open(gene2go_path) as read_file:
-    row_generator = (row for row in read_file if not row.startswith('#'))
-    reader = csv.DictReader(row_generator, delimiter='\t', fieldnames = gene2go_fields)
-    for row in reader:
-        taxid_to_gene2go.setdefault(row['tax_id'], list()).append(row)
+for row in utilities.read_gene2go():
+    taxid_to_gene2go.setdefault(row['tax_id'], list()).append(row)
 
+taxids = set(taxid_to_gene2go)
+
+# Read gene info
+coding_genes = set()
+gene_to_symbol = dict()
+print 'Reading Entrez Gene Info'
+for row in utilities.read_gene_info():
+    if row['tax_id'] not in taxids:
+        continue
+    gene = int(row['GeneID'])
+    if row['type_of_gene'] == 'protein-coding':
+        coding_genes.add(gene)
+    gene_to_symbol[gene] = row['Symbol']
+
+
+prop_opts = ['prop', 'unprop']
+coding_opts = ['all', 'coding']
+vocab_opts = ['entrez', 'symbol']
+
+# Iterate by species
 for taxid, gene2go in taxid_to_gene2go.iteritems():
     print 'Initiating taxid', taxid
 
     # create a term --> genes (unpropogated) dictionary
-    annotations = dict()
+    annotations_unprop = dict()
     for annotation in gene2go:
         term = annotation['GO_ID']
         gene_id = int(annotation['GeneID'])
-        annotations.setdefault(term, set()).add(gene_id)
-    sort_dict_values(annotations)
-    len(annotations)
+        annotations_unprop.setdefault(term, set()).add(gene_id)
+    len(annotations_unprop)
 
     # create a gene --> terms (unpropogated) dictionary
     gene_to_terms = dict()
-    for term, genes in annotations.iteritems():
+    for term, genes in annotations_unprop.iteritems():
         for gene in genes:
             gene_to_terms.setdefault(gene, set()).add(term)
     len(gene_to_terms)
-
 
     # update gene_to_terms with propagated terms
     go_dag.update_association(gene_to_terms)
@@ -49,23 +65,26 @@ for taxid, gene2go in taxid_to_gene2go.iteritems():
     for gene, terms in gene_to_terms.iteritems():
         for term in terms:
             annotations_prop.setdefault(term, set()).add(gene)
-    sort_dict_values(annotations_prop)
+    
+    for prop, vocab, coding in itertools.product(prop_opts, vocab_opts, coding_opts):
+        if prop == 'prop':
+            annotations = annotations_prop.copy()
+        if prop == 'unprop':
+            annotations = annotations_unprop.copy()
+        if coding == 'coding':
+            for goid, genes in annotations.items():
+                annotations[goid] = genes & coding_genes
+        if vocab == 'symbol':
+            for goid, genes in annotations.items():
+                symbols = {gene_to_symbol[gene] for gene in genes}
+                symbols.discard(None)
+                annotations[goid] = symbols
+        for goid, genes in annotations.items():
+            if not genes:
+                del annotations[goid]
+        sort_dict_values(annotations)
 
-    def write_annotations(annotations, path):
-        """Write annotations (a dict of term --> genes)"""
-        write_file = open(path, 'w')
-        writer = csv.writer(write_file, delimiter = '\t')
-        writer.writerow(['go_id', 'go_term', 'go_domain', 'size', 'genes'])
-        for term, genes in sorted(annotations.items()):
-            writer.writerow([term, go_dag[term].name, go_dag[term].namespace, len(genes), ';'.join(map(str, genes))])
-        write_file.close()
+        path = utilities.annotation_path(taxid, prop, vocab, coding)
+        utilities.write_annotations(annotations, path, go_dag)
 
-    annotation_dir = os.path.join('annotations', 'taxid_{}'.format(taxid))
-    if not os.path.isdir(annotation_dir):
-        os.mkdir(annotation_dir)
-
-    path = os.path.join(annotation_dir, 'annotations-unprop.tsv')
-    write_annotations(annotations, path)
-
-    path = os.path.join(annotation_dir, 'annotations-prop.tsv')
-    write_annotations(annotations_prop, path)
+print 'complete'

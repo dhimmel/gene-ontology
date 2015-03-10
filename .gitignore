@@ -1,5 +1,12 @@
 # Created by https://www.gitignore.io
 
+download/gene_info.gz
+
+### Jekyll ###
+_site/
+.sass-cache/
+
+
 ### OSX ###
 .DS_Store
 .AppleDouble

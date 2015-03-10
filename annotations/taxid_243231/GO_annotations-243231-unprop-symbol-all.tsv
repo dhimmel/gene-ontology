@@ -1,0 +1,827 @@
+go_id	go_term	go_domain	size	genes
+GO:0000023	maltose metabolic process	biological_process	1	sfsA
+GO:0000036	ACP phosphopantetheine attachment site binding involved in fatty acid biosynthetic process	molecular_function	2	acpP-1|acpP-2
+GO:0000104	succinate dehydrogenase activity	molecular_function	2	frdA|frdB
+GO:0000105	histidine biosynthetic process	biological_process	12	folD-1|folD-2|hisA|hisB|hisC|hisD|hisE|hisF|hisGL|hisGS|hisH|hisI
+GO:0000107	imidazoleglycerol-phosphate synthase activity	molecular_function	2	hisF|hisH
+GO:0000154	rRNA modification	biological_process	7	GSU0671|GSU1197|rlmB|rluD|rsmA|rsmB|trmJ
+GO:0000155	phosphorelay sensor kinase activity	molecular_function	89	GSU0007|GSU0008|GSU0103|GSU0144|GSU0149|GSU0253|GSU0255|GSU0281|GSU0283|GSU0356|GSU0373|GSU0452|GSU0475|GSU0599|GSU0681|GSU0693|GSU0700|GSU0718|GSU0775|GSU0812|GSU0822|GSU0842|GSU0881|GSU0962|GSU1036|GSU1037|GSU1038|GSU1043|GSU1050|GSU1119|GSU1148|GSU1249|GSU1265|GSU1285|GSU1292|GSU1296|GSU1302|GSU1319|GSU1414|GSU1443|GSU1529|GSU1555|GSU1630|GSU1655|GSU1656|GSU1878|GSU1927|GSU1928|GSU1941|GSU1990|GSU2042|GSU2189|GSU2288|GSU2297|GSU2314|GSU2384|GSU2388|GSU2401|GSU2444|GSU2492|GSU2507|GSU2531|GSU2534|GSU2565|GSU2567|GSU2575|GSU2667|GSU2669|GSU2755|GSU2789|GSU2815|GSU2816|GSU2916|GSU2947|GSU2969|GSU2991|GSU3138|GSU3148|GSU3230|GSU3252|GSU3357|GSU3419|GSU3437|fgrK|fgrL|gnfK|gnfL|phoR|pilS
+GO:0000156	phosphorelay response regulator activity	molecular_function	93	GSU0008|GSU0104|GSU0149|GSU0254|GSU0372|GSU0405|GSU0451|GSU0470|GSU0596|GSU0598|GSU0599|GSU0682|GSU0700|GSU0718|GSU0776|GSU0789|GSU0811|GSU0837|GSU0841|GSU0842|GSU0877|GSU0902|GSU0903|GSU0963|GSU1037|GSU1038|GSU1039|GSU1117|GSU1119|GSU1120|GSU1129|GSU1220|GSU1231|GSU1250|GSU1265|GSU1285|GSU1291|GSU1293|GSU1296|GSU1302|GSU1316|GSU1320|GSU1414|GSU1415|GSU1417|GSU1443|GSU1529|GSU1555|GSU1653|GSU1655|GSU1656|GSU1658|GSU1671|GSU1879|GSU1891|GSU1927|GSU1928|GSU1940|GSU1989|GSU2041|GSU2046|GSU2094|GSU2145|GSU2224|GSU2287|GSU2313|GSU2314|GSU2401|GSU2506|GSU2524|GSU2534|GSU2535|GSU2574|GSU2575|GSU2693|GSU2753|GSU2816|GSU2915|GSU3118|GSU3138|GSU3217|GSU3229|GSU3253|GSU3261|GSU3263|GSU3418|cheY40H-2|cheY40H-3|fgrL|gnfM|gnfR|phoB|pilR
+GO:0000160	phosphorelay signal transduction system	biological_process	146	GSU0007|GSU0008|GSU0103|GSU0104|GSU0144|GSU0149|GSU0254|GSU0281|GSU0283|GSU0356|GSU0372|GSU0373|GSU0405|GSU0451|GSU0452|GSU0470|GSU0475|GSU0596|GSU0598|GSU0599|GSU0682|GSU0693|GSU0700|GSU0718|GSU0775|GSU0776|GSU0789|GSU0811|GSU0812|GSU0822|GSU0837|GSU0841|GSU0842|GSU0877|GSU0881|GSU0902|GSU0903|GSU0962|GSU0963|GSU1036|GSU1037|GSU1038|GSU1039|GSU1043|GSU1050|GSU1117|GSU1119|GSU1120|GSU1129|GSU1148|GSU1220|GSU1231|GSU1250|GSU1265|GSU1285|GSU1291|GSU1293|GSU1296|GSU1302|GSU1316|GSU1319|GSU1320|GSU1414|GSU1415|GSU1417|GSU1443|GSU1529|GSU1555|GSU1630|GSU1653|GSU1655|GSU1656|GSU1658|GSU1671|GSU1878|GSU1879|GSU1891|GSU1927|GSU1928|GSU1940|GSU1941|GSU1989|GSU1990|GSU2041|GSU2042|GSU2046|GSU2094|GSU2145|GSU2189|GSU2224|GSU2287|GSU2288|GSU2297|GSU2313|GSU2314|GSU2384|GSU2401|GSU2444|GSU2492|GSU2506|GSU2507|GSU2524|GSU2531|GSU2534|GSU2535|GSU2565|GSU2567|GSU2574|GSU2575|GSU2667|GSU2669|GSU2693|GSU2753|GSU2789|GSU2815|GSU2816|GSU2915|GSU2916|GSU2947|GSU2969|GSU2991|GSU3118|GSU3138|GSU3148|GSU3217|GSU3229|GSU3252|GSU3253|GSU3261|GSU3263|GSU3418|GSU3419|GSU3437|cheY40H-2|cheY40H-3|czcR|fgrK|fgrL|gnfK|gnfL|gnfM|gnfR|phoB|phoR|pilR|pilS
+GO:0000162	tryptophan biosynthetic process	biological_process	6	trpA|trpB2|trpC|trpD|trpE|trpG
+GO:0000166	nucleotide binding	molecular_function	1	hypB
+GO:0000179	rRNA (adenine-N6,N6-)-dimethyltransferase activity	molecular_function	1	rsmA
+GO:0000271	polysaccharide biosynthetic process	biological_process	34	GSU0245|GSU0623|GSU0624|GSU0631|GSU0633|GSU0634|GSU0878|GSU0991|GSU1202|GSU1454|GSU1509|GSU1510|GSU1511|GSU1789|GSU1842|GSU1851|GSU1957|GSU1961|GSU1962|GSU1976|GSU1977|GSU2088|GSU2244|GSU2247|GSU2250|GSU2253|GSU2254|GSU2463|GSU2509|GSU2553|GSU3023|GSU3460|otsA|xapF
+GO:0000272	polysaccharide catabolic process	biological_process	1	GSU0371
+GO:0000286	alanine dehydrogenase activity	molecular_function	1	ald
+GO:0000309	nicotinamide-nucleotide adenylyltransferase activity	molecular_function	1	nadD
+GO:0000774	adenyl-nucleotide exchange factor activity	molecular_function	1	grpE
+GO:0000906	6,7-dimethyl-8-ribityllumazine synthase activity	molecular_function	1	ribH
+GO:0000910	cytokinesis	biological_process	12	GSU0865|GSU1130|GSU1408|GSU1768|GSU3112|flhG|ftsA|ftsH-1|ftsH-2|ftsL|ftsW|ftsX
+GO:0000917	barrier septum assembly	biological_process	2	divIC|maf
+GO:0001510	RNA methylation	biological_process	2	GSU1452|GSU1748
+GO:0001514	selenocysteine incorporation	biological_process	1	selB
+GO:0001539	cilium or flagellum-dependent cell motility	biological_process	27	flaG|flbD|flgA|flgB|flgC|flgD|flgE|flgF|flgG|flgH|flgI|flgM|flhA|flhB|flhF|fliE|fliF|fliG|fliI|fliJ|fliL|fliM|fliN|fliP|fliQ|fliR|fliS
+GO:0001887	selenium compound metabolic process	biological_process	1	selU
+GO:0003674	molecular_function	molecular_function	1391	GSU0005|GSU0014|GSU0015|GSU0016|GSU0019|GSU0023|GSU0024|GSU0038|GSU0040|GSU0042|GSU0043|GSU0044|GSU0045|GSU0049|GSU0050|GSU0055|GSU0060|GSU0061|GSU0062|GSU0063|GSU0066|GSU0070|GSU0071|GSU0073|GSU0075|GSU0076|GSU0077|GSU0078|GSU0081|GSU0083|GSU0095|GSU0107|GSU0118|GSU0124|GSU0125|GSU0131|GSU0133|GSU0136|GSU0137|GSU0139|GSU0140|GSU0141|GSU0155|GSU0157|GSU0163|GSU0164|GSU0165|GSU0168|GSU0170|GSU0171|GSU0172|GSU0173|GSU0176|GSU0180|GSU0181|GSU0182|GSU0183|GSU0185|GSU0186|GSU0187|GSU0188|GSU0192|GSU0194|GSU0195|GSU0196|GSU0198|GSU0202|GSU0203|GSU0208|GSU0209|GSU0210|GSU0214|GSU0216|GSU0224|GSU0231|GSU0233|GSU0236|GSU0237|GSU0239|GSU0241|GSU0243|GSU0244|GSU0246|GSU0248|GSU0249|GSU0250|GSU0251|GSU0256|GSU0257|GSU0258|GSU0263|GSU0265|GSU0268|GSU0269|GSU0272|GSU0275|GSU0279|GSU0286|GSU0287|GSU0288|GSU0289|GSU0291|GSU0292|GSU0294|GSU0302|GSU0310|GSU0312|GSU0313|GSU0314|GSU0315|GSU0316|GSU0317|GSU0354|GSU0355|GSU0360|GSU0361|GSU0362|GSU0368|GSU0369|GSU0370|GSU0381|GSU0382|GSU0384|GSU0386|GSU0388|GSU0390|GSU0393|GSU0395|GSU0396|GSU0398|GSU0402|GSU0406|GSU0415|GSU0418|GSU0427|GSU0434|GSU0435|GSU0438|GSU0444|GSU0450|GSU0455|GSU0456|GSU0457|GSU0459|GSU0463|GSU0464|GSU0467|GSU0468|GSU0469|GSU0472|GSU0476|GSU0478|GSU0480|GSU0481|GSU0485|GSU0498|GSU0499|GSU0502|GSU0504|GSU0505|GSU0506|GSU0512|GSU0516|GSU0519|GSU0524|GSU0527|GSU0530|GSU0536|GSU0539|GSU0540|GSU0542|GSU0543|GSU0544|GSU0545|GSU0546|GSU0551|GSU0553|GSU0562|GSU0563|GSU0564|GSU0568|GSU0570|GSU0574|GSU0576|GSU0584|GSU0590|GSU0597|GSU0602|GSU0603|GSU0613|GSU0614|GSU0617|GSU0619|GSU0621|GSU0622|GSU0625|GSU0628|GSU0632|GSU0636|GSU0637|GSU0638|GSU0639|GSU0640|GSU0644|GSU0647|GSU0650|GSU0657|GSU0659|GSU0667|GSU0672|GSU0673|GSU0675|GSU0676|GSU0679|GSU0680|GSU0690|GSU0695|GSU0698|GSU0699|GSU0703|GSU0704|GSU0705|GSU0709|GSU0710|GSU0711|GSU0712|GSU0713|GSU0714|GSU0715|GSU0716|GSU0717|GSU0719|GSU0722|GSU0723|GSU0724|GSU0725|GSU0727|GSU0737|GSU0747|GSU0748|GSU0751|GSU0753|GSU0754|GSU0755|GSU0757|GSU0758|GSU0759|GSU0767|GSU0788|GSU0790|GSU0791|GSU0792|GSU0793|GSU0794|GSU0795|GSU0797|GSU0801|GSU0808|GSU0810|GSU0813|GSU0815|GSU0817|GSU0819|GSU0821|GSU0824|GSU0825|GSU0826|GSU0827|GSU0832|GSU0834|GSU0835|GSU0850|GSU0851|GSU0852|GSU0853|GSU0854|GSU0855|GSU0857|GSU0861|GSU0863|GSU0864|GSU0865|GSU0866|GSU0868|GSU0869|GSU0871|GSU0872|GSU0874|GSU0876|GSU0882|GSU0887|GSU0888|GSU0891|GSU0895|GSU0897|GSU0899|GSU0900|GSU0904|GSU0905|GSU0907|GSU0912|GSU0915|GSU0917|GSU0919|GSU0926|GSU0929|GSU0931|GSU0934|GSU0938|GSU0943|GSU0952|GSU0953|GSU0954|GSU0956|GSU0958|GSU0959|GSU0964|GSU0966|GSU0967|GSU0968|GSU0970|GSU0971|GSU0973|GSU0974|GSU0976|GSU0977|GSU0978|GSU0979|GSU0980|GSU0981|GSU0982|GSU0983|GSU0985|GSU0987|GSU0988|GSU0989|GSU0990|GSU0992|GSU0993|GSU0996|GSU1000|GSU1001|GSU1006|GSU1007|GSU1011|GSU1012|GSU1014|GSU1015|GSU1018|GSU1021|GSU1026|GSU1042|GSU1045|GSU1046|GSU1047|GSU1048|GSU1049|GSU1051|GSU1055|GSU1056|GSU1057|GSU1060|GSU1067|GSU1069|GSU1071|GSU1073|GSU1074|GSU1079|GSU1080|GSU1081|GSU1082|GSU1083|GSU1084|GSU1085|GSU1086|GSU1087|GSU1088|GSU1090|GSU1091|GSU1092|GSU1093|GSU1094|GSU1100|GSU1104|GSU1107|GSU1114|GSU1121|GSU1125|GSU1126|GSU1127|GSU1128|GSU1131|GSU1135|GSU1136|GSU1147|GSU1149|GSU1152|GSU1153|GSU1154|GSU1157|GSU1160|GSU1166|GSU1167|GSU1168|GSU1169|GSU1179|GSU1181|GSU1185|GSU1188|GSU1192|GSU1195|GSU1196|GSU1206|GSU1207|GSU1208|GSU1209|GSU1211|GSU1212|GSU1213|GSU1217|GSU1218|GSU1222|GSU1223|GSU1224|GSU1225|GSU1229|GSU1230|GSU1232|GSU1235|GSU1236|GSU1239|GSU1240|GSU1241|GSU1247|GSU1251|GSU1253|GSU1254|GSU1255|GSU1256|GSU1258|GSU1259|GSU1262|GSU1264|GSU1269|GSU1275|GSU1278|GSU1282|GSU1283|GSU1295|GSU1306|GSU1308|GSU1309|GSU1314|GSU1318|GSU1323|GSU1327|GSU1328|GSU1333|GSU1336|GSU1337|GSU1339|GSU1344|GSU1345|GSU1353|GSU1354|GSU1357|GSU1358|GSU1360|GSU1361|GSU1362|GSU1366|GSU1367|GSU1368|GSU1369|GSU1375|GSU1376|GSU1381|GSU1391|GSU1395|GSU1396|GSU1397|GSU1398|GSU1406|GSU1409|GSU1410|GSU1412|GSU1418|GSU1424|GSU1429|GSU1430|GSU1431|GSU1432|GSU1436|GSU1438|GSU1440|GSU1444|GSU1446|GSU1447|GSU1448|GSU1449|GSU1453|GSU1455|GSU1456|GSU1457|GSU1458|GSU1464|GSU1471|GSU1472|GSU1473|GSU1474|GSU1476|GSU1477|GSU1478|GSU1479|GSU1488|GSU1489|GSU1500|GSU1508|GSU1527|GSU1532|GSU1536|GSU1538|GSU1540|GSU1541|GSU1544|GSU1546|GSU1547|GSU1548|GSU1549|GSU1551|GSU1552|GSU1553|GSU1554|GSU1556|GSU1558|GSU1562|GSU1565|GSU1566|GSU1568|GSU1570|GSU1571|GSU1572|GSU1573|GSU1574|GSU1575|GSU1578|GSU1580|GSU1585|GSU1590|GSU1597|GSU1598|GSU1608|GSU1614|GSU1615|GSU1616|GSU1638|GSU1639|GSU1642|GSU1643|GSU1646|GSU1647|GSU1652|GSU1654|GSU1661|GSU1662|GSU1664|GSU1665|GSU1667|GSU1668|GSU1669|GSU1670|GSU1673|GSU1674|GSU1676|GSU1679|GSU1680|GSU1682|GSU1683|GSU1684|GSU1685|GSU1696|GSU1697|GSU1698|GSU1701|GSU1702|GSU1712|GSU1715|GSU1719|GSU1726|GSU1728|GSU1743|GSU1744|GSU1745|GSU1749|GSU1762|GSU1763|GSU1768|GSU1770|GSU1771|GSU1773|GSU1788|GSU1796|GSU1797|GSU1801|GSU1806|GSU1807|GSU1811|GSU1813|GSU1817|GSU1824|GSU1829|GSU1830|GSU1837|GSU1840|GSU1841|GSU1842|GSU1844|GSU1845|GSU1846|GSU1849|GSU1850|GSU1852|GSU1853|GSU1857|GSU1858|GSU1866|GSU1867|GSU1869|GSU1870|GSU1872|GSU1874|GSU1876|GSU1884|GSU1898|GSU1899|GSU1901|GSU1924|GSU1925|GSU1926|GSU1929|GSU1931|GSU1932|GSU1937|GSU1938|GSU1939|GSU1943|GSU1944|GSU1945|GSU1947|GSU1948|GSU1949|GSU1950|GSU1952|GSU1954|GSU1955|GSU1958|GSU1959|GSU1963|GSU1964|GSU1965|GSU1966|GSU1967|GSU1969|GSU1971|GSU1974|GSU1980|GSU1981|GSU1982|GSU1983|GSU1984|GSU1985|GSU1986|GSU1987|GSU1988|GSU1991|GSU1994|GSU1995|GSU1997|GSU2002|GSU2003|GSU2010|GSU2014|GSU2023|GSU2024|GSU2047|GSU2048|GSU2057|GSU2060|GSU2062|GSU2063|GSU2073|GSU2074|GSU2077|GSU2082|GSU2086|GSU2090|GSU2104|GSU2105|GSU2106|GSU2107|GSU2108|GSU2109|GSU2110|GSU2112|GSU2114|GSU2115|GSU2116|GSU2117|GSU2121|GSU2122|GSU2123|GSU2124|GSU2126|GSU2129|GSU2131|GSU2132|GSU2133|GSU2138|GSU2143|GSU2146|GSU2148|GSU2152|GSU2153|GSU2154|GSU2155|GSU2156|GSU2157|GSU2159|GSU2160|GSU2161|GSU2162|GSU2163|GSU2164|GSU2165|GSU2166|GSU2167|GSU2168|GSU2172|GSU2173|GSU2174|GSU2175|GSU2176|GSU2177|GSU2178|GSU2179|GSU2181|GSU2182|GSU2183|GSU2186|GSU2190|GSU2193|GSU2197|GSU2199|GSU2200|GSU2205|GSU2211|GSU2213|GSU2216|GSU2221|GSU2227|GSU2231|GSU2233|GSU2248|GSU2249|GSU2251|GSU2255|GSU2257|GSU2267|GSU2272|GSU2275|GSU2276|GSU2277|GSU2282|GSU2284|GSU2285|GSU2293|GSU2295|GSU2296|GSU2298|GSU2300|GSU2301|GSU2304|GSU2305|GSU2310|GSU2311|GSU2315|GSU2317|GSU2319|GSU2320|GSU2321|GSU2322|GSU2323|GSU2324|GSU2326|GSU2327|GSU2328|GSU2330|GSU2331|GSU2332|GSU2333|GSU2345|GSU2346|GSU2347|GSU2348|GSU2353|GSU2355|GSU2357|GSU2359|GSU2373|GSU2374|GSU2376|GSU2377|GSU2385|GSU2386|GSU2387|GSU2395|GSU2396|GSU2397|GSU2398|GSU2399|GSU2400|GSU2402|GSU2403|GSU2404|GSU2405|GSU2406|GSU2407|GSU2411|GSU2412|GSU2414|GSU2417|GSU2421|GSU2424|GSU2426|GSU2427|GSU2429|GSU2430|GSU2437|GSU2438|GSU2440|GSU2441|GSU2442|GSU2447|GSU2450|GSU2453|GSU2454|GSU2455|GSU2457|GSU2460|GSU2461|GSU2466|GSU2468|GSU2469|GSU2470|GSU2472|GSU2473|GSU2474|GSU2476|GSU2477|GSU2478|GSU2479|GSU2486|GSU2488|GSU2493|GSU2496|GSU2497|GSU2498|GSU2499|GSU2502|GSU2505|GSU2508|GSU2510|GSU2512|GSU2516|GSU2517|GSU2518|GSU2522|GSU2526|GSU2527|GSU2528|GSU2532|GSU2533|GSU2542|GSU2543|GSU2546|GSU2548|GSU2551|GSU2552|GSU2554|GSU2555|GSU2558|GSU2560|GSU2561|GSU2563|GSU2564|GSU2573|GSU2576|GSU2577|GSU2580|GSU2584|GSU2585|GSU2586|GSU2590|GSU2592|GSU2596|GSU2601|GSU2609|GSU2610|GSU2611|GSU2615|GSU2621|GSU2622|GSU2626|GSU2631|GSU2632|GSU2633|GSU2634|GSU2635|GSU2638|GSU2639|GSU2640|GSU2641|GSU2642|GSU2644|GSU2645|GSU2646|GSU2647|GSU2648|GSU2659|GSU2660|GSU2661|GSU2662|GSU2663|GSU2668|GSU2671|GSU2672|GSU2673|GSU2674|GSU2675|GSU2676|GSU2677|GSU2679|GSU2680|GSU2682|GSU2684|GSU2688|GSU2689|GSU2690|GSU2691|GSU2692|GSU2710|GSU2713|GSU2715|GSU2726|GSU2727|GSU2728|GSU2730|GSU2733|GSU2739|GSU2742|GSU2746|GSU2747|GSU2749|GSU2750|GSU2756|GSU2763|GSU2764|GSU2765|GSU2768|GSU2770|GSU2771|GSU2773|GSU2774|GSU2775|GSU2776|GSU2778|GSU2780|GSU2783|GSU2784|GSU2785|GSU2788|GSU2790|GSU2791|GSU2792|GSU2793|GSU2799|GSU2810|GSU2818|GSU2827|GSU2828|GSU2880|GSU2885|GSU2888|GSU2889|GSU2890|GSU2891|GSU2892|GSU2893|GSU2894|GSU2895|GSU2896|GSU2901|GSU2902|GSU2904|GSU2905|GSU2906|GSU2907|GSU2908|GSU2909|GSU2910|GSU2911|GSU2914|GSU2922|GSU2924|GSU2925|GSU2928|GSU2929|GSU2936|GSU2938|GSU2940|GSU2943|GSU2948|GSU2949|GSU2955|GSU2959|GSU2965|GSU2967|GSU2968|GSU2970|GSU2971|GSU2973|GSU2976|GSU2978|GSU2983|GSU2988|GSU3003|GSU3014|GSU3016|GSU3018|GSU3021|GSU3022|GSU3024|GSU3030|GSU3032|GSU3033|GSU3034|GSU3035|GSU3079|GSU3080|GSU3084|GSU3088|GSU3091|GSU3105|GSU3110|GSU3111|GSU3114|GSU3115|GSU3120|GSU3121|GSU3123|GSU3130|GSU3131|GSU3134|GSU3139|GSU3141|GSU3144|GSU3150|GSU3151|GSU3167|GSU3168|GSU3169|GSU3170|GSU3171|GSU3175|GSU3176|GSU3178|GSU3180|GSU3181|GSU3182|GSU3183|GSU3184|GSU3185|GSU3186|GSU3189|GSU3191|GSU3202|GSU3209|GSU3215|GSU3219|GSU3222|GSU3224|GSU3225|GSU3227|GSU3242|GSU3243|GSU3244|GSU3248|GSU3251|GSU3255|GSU3258|GSU3264|GSU3267|GSU3270|GSU3271|GSU3273|GSU3275|GSU3276|GSU3277|GSU3278|GSU3280|GSU3283|GSU3288|GSU3289|GSU3290|GSU3293|GSU3295|GSU3305|GSU3306|GSU3309|GSU3310|GSU3311|GSU3314|GSU3316|GSU3317|GSU3318|GSU3326|GSU3327|GSU3328|GSU3335|GSU3336|GSU3337|GSU3342|GSU3343|GSU3344|GSU3345|GSU3349|GSU3350|GSU3351|GSU3356|GSU3358|GSU3359|GSU3361|GSU3362|GSU3376|GSU3382|GSU3386|GSU3388|GSU3389|GSU3390|GSU3397|GSU3402|GSU3403|GSU3407|GSU3409|GSU3410|GSU3413|GSU3414|GSU3415|GSU3416|GSU3422|GSU3425|GSU3426|GSU3427|GSU3428|GSU3435|GSU3440|GSU3442|GSU3451|GSU3459|GSU3461|GSU3462|GSU3467|acpH|atpI|atpZ|cas2-1|cas2-2|cas3-1|cas3-2|cas5e|cbiD|cbiG|cbiMN|cbiX|ccdA|cheC44H|cheD34H|cheD44H|cheD64H|cheX-3|cheX-4|cheX40H|cheX64H|cimA|comM|crcB|cse1|cse2|cse3|cse4|cstA|csx14|cysN|degP|divIC|dprA|dsbD|epsH|epsI|exeA|fimU|flaG|flbD|flgJ|flgN|flhA|flhF|fliH|fliJ|fliK|fliR|fliS|fliW|folE|ftsL|ftsQ|ftsW|fxsA|genX|gidA|gidB|glnE|gltS|gspM|gspN|hgtR|hinT|hisN|hoxP|hpnH|hpnJ|hpnK|hpnN|hxlR|hybB|hypA|hypD|hypE|iscR-1|iscR-2|ispH|lptA|lptC|lptD|lptE|lptF|lptG|maf|mazG|mglA|mglB|miaB|modD|mosC|mqnA|mqnD|mraZ|mreB-1|mreB-2|mreC|mreD|mrpC|mscS-1|mtaB|mviN|nfeD|nifEN|nifU|nifX|nikMN|nth|ompB|ompC|oxpG|phnA|pilA-C|pilA-N|pilB|pilC|pilL|pilM|pilN|pilO|pilP|pilQ|pilV-1|pilV-2|pilW-1|pilW-2|pilX-1|pilX-2|pilY1-1|pilY1-2|plsY|ppk-2|prkA|prx-4|pulE|pulF|pulG|pulM|pulN|pulO|pulP|queC|raiA|rarD|rdgB|recR|recX|rimM|rimO|rlmH|rlmL|rlmN|rnk-1|rnk-2|rny|rodA|rsgA|rsmE|rsmI|scdA|sco|selR|slyX|tatC|thiF-1|thiF-2|tklG|tmk-2|trmFO|truD|tssB|tssC|tssD|tssF|tssG|tssI|tssJ|tssK|tssL|tssM|ttcA|tusA-1|tusA-2|wbjB|wlbA|xapA|xapB|xapI|yadB|yaeQ|yaeT|yajQ|ybhR|ybhS|ycbK|yceG|yciH|yedF|yedY|yfiO|yggS|yhaM|yhbY|yhhJ|yibQ|yicC|yidC|yjeE|yjeF|ylxRQ|ymdB|yqaA|yqeY|yqfO|yrdC|yyaL|zapA|zapB
+GO:0003677	DNA binding	molecular_function	36	GSU0191|GSU0207|GSU0280|GSU0514|GSU0581|GSU0598|GSU0736|GSU1039|GSU1390|GSU1569|GSU1727|GSU1879|GSU1905|GSU2145|GSU2506|GSU2523|GSU2670|GSU2753|GSU3206|GSU3298|dnaA|hup|ihfA-1|ihfA-2|ihfB-1|mutS-2|pilR|recO|sfsA|srtN|topA|usp-1|usp-2|usp-3|usp-4|xerD
+GO:0003678	DNA helicase activity	molecular_function	1	priA
+GO:0003688	DNA replication origin binding	molecular_function	2	dnaA|priA
+GO:0003690	double-stranded DNA binding	molecular_function	1	mfd
+GO:0003697	single-stranded DNA binding	molecular_function	3	recF|ssb-1|ssb-2
+GO:0003700	sequence-specific DNA binding transcription factor activity	molecular_function	55	GSU0013|GSU0018|GSU0175|GSU0205|GSU0254|GSU0266|GSU0267|GSU0359|GSU0366|GSU0399|GSU0473|GSU0598|GSU0682|GSU0776|GSU1039|GSU1072|GSU1115|GSU1268|GSU1293|GSU1483|GSU1626|GSU1653|GSU2033|GSU2113|GSU2149|GSU2202|GSU2354|GSU2362|GSU2475|GSU2506|GSU2523|GSU2581|GSU2625|GSU2698|GSU2735|GSU2741|GSU2753|GSU2779|GSU2787|GSU2817|GSU2941|GSU3031|GSU3060|GSU3118|GSU3229|GSU3363|GSU3370|GSU3387|GSU3396|coaX|fnr-1|fnr-2|modE|phoB|pilR
+GO:0003723	RNA binding	molecular_function	6	GSU1324|ccaA|csrA|hfq|smpB|tex
+GO:0003735	structural constituent of ribosome	molecular_function	52	GSU1200|rplA|rplB|rplC|rplE|rplF|rplI|rplJ|rplK|rplL|rplM|rplN|rplO|rplP|rplQ|rplR|rplS|rplT|rplU|rplV|rplW|rplX|rplY|rpmA|rpmB|rpmC|rpmD|rpmE|rpmF|rpmG|rpmI|rpsA|rpsB|rpsC|rpsD|rpsE|rpsF|rpsG|rpsH|rpsI|rpsJ|rpsK|rpsM|rpsN|rpsO|rpsP|rpsQ|rpsR|rpsS|rpsT|rpsU-1|rpsU-2
+GO:0003743	translation initiation factor activity	molecular_function	4	infA|infB|infC|mtnA
+GO:0003746	translation elongation factor activity	molecular_function	9	efp-1|efp-2|fusA-1|fusA-2|fusA-3|selB|tsf|tuf-1|tuf-2
+GO:0003747	translation release factor activity	molecular_function	3	prfA|prfB|prfC
+GO:0003755	peptidyl-prolyl cis-trans isomerase activity	molecular_function	1	tig
+GO:0003774	motor activity	molecular_function	6	GSU1013|fliG|fliM|fliN|motA|motB
+GO:0003824	catalytic activity	molecular_function	65	GSU0119|GSU0134|GSU0154|GSU0204|GSU0213|GSU0238|GSU0247|GSU0273|GSU0397|GSU0548|GSU0884|GSU0886|GSU0908|GSU1138|GSU1210|GSU1274|GSU1312|GSU1404|GSU1560|GSU1631|GSU1681|GSU1686|GSU1736|GSU1843|GSU2015|GSU2309|GSU2465|GSU2714|GSU2769|GSU2873|GSU3059|GSU3062|GSU3113|GSU3122|GSU3159|GSU3240|GSU3299|GSU3300|GSU3313|GSU3329|GSU3375|GSU3454|cbiB|cbiH/cbiP|cobD|gcvH-1|gcvH-2|moaC|moaE|mobA-1/mobB|mqnC-1|mqnC-2|nudC|nudF|pdxA|pdxJ|plsX|queE|tadA|thiC-1|thiC-2|thiS|ycbL|yhcC-1|yhcC-2
+GO:0003841	1-acylglycerol-3-phosphate O-acyltransferase activity	molecular_function	2	GSU2072|GSU3116
+GO:0003842	1-pyrroline-5-carboxylate dehydrogenase activity	molecular_function	1	putA
+GO:0003848	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase activity	molecular_function	1	folK
+GO:0003849	3-deoxy-7-phosphoheptulonate synthase activity	molecular_function	3	aroF|aroG-1|aroG-2
+GO:0003852	2-isopropylmalate synthase activity	molecular_function	1	leuA
+GO:0003855	3-dehydroquinate dehydratase activity	molecular_function	1	aroQ
+GO:0003856	3-dehydroquinate synthase activity	molecular_function	1	aroB
+GO:0003861	3-isopropylmalate dehydratase activity	molecular_function	2	leuC|leuD
+GO:0003862	3-isopropylmalate dehydrogenase activity	molecular_function	1	leuB
+GO:0003864	3-methyl-2-oxobutanoate hydroxymethyltransferase activity	molecular_function	1	panB
+GO:0003866	3-phosphoshikimate 1-carboxyvinyltransferase activity	molecular_function	1	aroA
+GO:0003872	6-phosphofructokinase activity	molecular_function	2	pfk-1|pfk-2
+GO:0003874	6-pyruvoyltetrahydropterin synthase activity	molecular_function	1	queD
+GO:0003879	ATP phosphoribosyltransferase activity	molecular_function	2	hisGL|hisGS
+GO:0003882	CDP-diacylglycerol-serine O-phosphatidyltransferase activity	molecular_function	1	pssA
+GO:0003883	CTP synthase activity	molecular_function	1	pyrG
+GO:0003886	DNA (cytosine-5-)-methyltransferase activity	molecular_function	1	GSU0227
+GO:0003887	DNA-directed DNA polymerase activity	molecular_function	4	GSU3245|dnaE|dnaN|polA
+GO:0003896	DNA primase activity	molecular_function	1	dnaG
+GO:0003899	DNA-directed RNA polymerase activity	molecular_function	3	rpoA|rpoB|rpoZ
+GO:0003904	deoxyribodipyrimidine photo-lyase activity	molecular_function	1	GSU2829
+GO:0003906	DNA-(apurinic or apyrimidinic site) lyase activity	molecular_function	2	GSU1450|GSU3371
+GO:0003911	DNA ligase (NAD+) activity	molecular_function	1	ligA
+GO:0003917	DNA topoisomerase type I activity	molecular_function	1	topA
+GO:0003918	DNA topoisomerase type II (ATP-hydrolyzing) activity	molecular_function	2	gyrA|gyrB
+GO:0003919	FMN adenylyltransferase activity	molecular_function	1	ribF
+GO:0003922	GMP synthase (glutamine-hydrolyzing) activity	molecular_function	1	guaA
+GO:0003924	GTPase activity	molecular_function	3	ffh|ftsY|mnmE
+GO:0003935	GTP cyclohydrolase II activity	molecular_function	1	ribA
+GO:0003938	IMP dehydrogenase activity	molecular_function	1	guaB
+GO:0003942	N-acetyl-gamma-glutamyl-phosphate reductase activity	molecular_function	1	argC
+GO:0003949	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase activity	molecular_function	1	hisA
+GO:0003951	NAD+ kinase activity	molecular_function	1	ppnK
+GO:0003952	NAD+ synthase (glutamine-hydrolyzing) activity	molecular_function	1	nadE
+GO:0003954	NADH dehydrogenase activity	molecular_function	1	GSU2095
+GO:0003964	RNA-directed DNA polymerase activity	molecular_function	3	GSU0955|GSU1363|GSU2471
+GO:0003977	UDP-N-acetylglucosamine diphosphorylase activity	molecular_function	1	glmU
+GO:0003978	UDP-glucose 4-epimerase activity	molecular_function	1	galE
+GO:0003983	UTP:glucose-1-phosphate uridylyltransferase activity	molecular_function	1	galU
+GO:0003984	acetolactate synthase activity	molecular_function	2	ilvB|ilvN
+GO:0003986	acetyl-CoA hydrolase activity	molecular_function	2	ato-1|ato-2
+GO:0003989	acetyl-CoA carboxylase activity	molecular_function	4	accA|accB|accC|accD
+GO:0003991	acetylglutamate kinase activity	molecular_function	1	argB
+GO:0003993	acid phosphatase activity	molecular_function	1	surE
+GO:0003994	aconitate hydratase activity	molecular_function	3	GSU2445|acnA|acnB
+GO:0003998	acylphosphatase activity	molecular_function	2	GSU0889|hypF
+GO:0003999	adenine phosphoribosyltransferase activity	molecular_function	1	apt
+GO:0004003	ATP-dependent DNA helicase activity	molecular_function	5	dnaB|pcrA|recG|recQ|ruvA
+GO:0004013	adenosylhomocysteinase activity	molecular_function	1	ahcY
+GO:0004015	adenosylmethionine-8-amino-7-oxononanoate transaminase activity	molecular_function	1	bioA
+GO:0004018	N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming) activity	molecular_function	1	purB
+GO:0004019	adenylosuccinate synthase activity	molecular_function	1	purA
+GO:0004024	alcohol dehydrogenase activity, zinc-dependent	molecular_function	4	GSU0573|GSU0771|GSU2637|mtd
+GO:0004028	3-chloroallyl aldehyde dehydrogenase activity	molecular_function	1	GSU1108
+GO:0004029	aldehyde dehydrogenase (NAD) activity	molecular_function	1	GSU0818
+GO:0004040	amidase activity	molecular_function	1	cbiA
+GO:0004044	amidophosphoribosyltransferase activity	molecular_function	1	purF
+GO:0004045	aminoacyl-tRNA hydrolase activity	molecular_function	2	dtd|pth
+GO:0004047	aminomethyltransferase activity	molecular_function	1	gcvT
+GO:0004048	anthranilate phosphoribosyltransferase activity	molecular_function	1	trpD
+GO:0004049	anthranilate synthase activity	molecular_function	2	trpE|trpG
+GO:0004055	argininosuccinate synthase activity	molecular_function	1	argG
+GO:0004056	argininosuccinate lyase activity	molecular_function	1	argH
+GO:0004066	asparagine synthase (glutamine-hydrolyzing) activity	molecular_function	1	asnB
+GO:0004069	L-aspartate:2-oxoglutarate aminotransferase activity	molecular_function	1	GSU1061
+GO:0004070	aspartate carbamoyltransferase activity	molecular_function	1	pyrB
+GO:0004072	aspartate kinase activity	molecular_function	1	GSU1799
+GO:0004076	biotin synthase activity	molecular_function	1	bioB
+GO:0004077	biotin-[acetyl-CoA-carboxylase] ligase activity	molecular_function	1	birA
+GO:0004084	branched-chain-amino-acid transaminase activity	molecular_function	1	ilvE
+GO:0004088	carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity	molecular_function	2	carA|carB
+GO:0004089	carbonate dehydratase activity	molecular_function	3	GSU0809|can-1|can-2
+GO:0004096	catalase activity	molecular_function	1	katG
+GO:0004106	chorismate mutase activity	molecular_function	1	GSU1828
+GO:0004107	chorismate synthase activity	molecular_function	1	aroC
+GO:0004108	citrate (Si)-synthase activity	molecular_function	1	gltA
+GO:0004109	coproporphyrinogen oxidase activity	molecular_function	1	hemN
+GO:0004124	cysteine synthase activity	molecular_function	1	cysK
+GO:0004125	L-seryl-tRNASec selenium transferase activity	molecular_function	1	selA
+GO:0004127	cytidylate kinase activity	molecular_function	1	cmk
+GO:0004129	cytochrome-c oxidase activity	molecular_function	4	coxA|coxB|coxC|coxD
+GO:0004134	4-alpha-glucanotransferase activity	molecular_function	1	malQ
+GO:0004140	dephospho-CoA kinase activity	molecular_function	1	GSU0513
+GO:0004141	dethiobiotin synthase activity	molecular_function	1	bioD
+GO:0004143	diacylglycerol kinase activity	molecular_function	1	GSU2283
+GO:0004146	dihydrofolate reductase activity	molecular_function	1	folA
+GO:0004148	dihydrolipoyl dehydrogenase activity	molecular_function	1	lpdA-2
+GO:0004149	dihydrolipoyllysine-residue succinyltransferase activity	molecular_function	1	sucB
+GO:0004156	dihydropteroate synthase activity	molecular_function	1	folP
+GO:0004160	dihydroxy-acid dehydratase activity	molecular_function	1	ilvD
+GO:0004170	dUTP diphosphatase activity	molecular_function	1	dut
+GO:0004176	ATP-dependent peptidase activity	molecular_function	1	GSU2433
+GO:0004222	metalloendopeptidase activity	molecular_function	6	GSU1834|ftsH-1|ftsH-2|pepF|rseP|ygjD
+GO:0004300	enoyl-CoA hydratase activity	molecular_function	1	GSU1377
+GO:0004309	exopolyphosphatase activity	molecular_function	1	gppA-2
+GO:0004314	[acyl-carrier-protein] S-malonyltransferase activity	molecular_function	1	fabD-2
+GO:0004315	3-oxoacyl-[acyl-carrier-protein] synthase activity	molecular_function	1	fabH-2
+GO:0004316	3-oxoacyl-[acyl-carrier-protein] reductase (NADPH) activity	molecular_function	1	fabG-2
+GO:0004325	ferrochelatase activity	molecular_function	1	hemH
+GO:0004332	fructose-bisphosphate aldolase activity	molecular_function	1	GSU1245
+GO:0004337	geranyltranstransferase activity	molecular_function	1	GSU1765
+GO:0004347	glucose-6-phosphate isomerase activity	molecular_function	1	pgi
+GO:0004349	glutamate 5-kinase activity	molecular_function	1	proB
+GO:0004350	glutamate-5-semialdehyde dehydrogenase activity	molecular_function	1	proA
+GO:0004355	glutamate synthase (NADPH) activity	molecular_function	1	nfnA
+GO:0004356	glutamate-ammonia ligase activity	molecular_function	1	glnA
+GO:0004358	glutamate N-acetyltransferase activity	molecular_function	1	argJ
+GO:0004367	glycerol-3-phosphate dehydrogenase [NAD+] activity	molecular_function	1	gpsA
+GO:0004368	glycerol-3-phosphate dehydrogenase activity	molecular_function	1	glpA
+GO:0004370	glycerol kinase activity	molecular_function	1	glpK
+GO:0004372	glycine hydroxymethyltransferase activity	molecular_function	1	glyA
+GO:0004386	helicase activity	molecular_function	2	GSU0763|GSU1359
+GO:0004399	histidinol dehydrogenase activity	molecular_function	1	hisD
+GO:0004400	histidinol-phosphate transaminase activity	molecular_function	1	hisC
+GO:0004412	homoserine dehydrogenase activity	molecular_function	1	hom
+GO:0004414	homoserine O-acetyltransferase activity	molecular_function	1	metX
+GO:0004422	hypoxanthine phosphoribosyltransferase activity	molecular_function	1	GSU1017
+GO:0004424	imidazoleglycerol-phosphate dehydratase activity	molecular_function	1	hisB
+GO:0004425	indole-3-glycerol-phosphate synthase activity	molecular_function	1	trpC
+GO:0004427	inorganic diphosphatase activity	molecular_function	1	GSU2975
+GO:0004450	isocitrate dehydrogenase (NADP+) activity	molecular_function	1	icd
+GO:0004455	ketol-acid reductoisomerase activity	molecular_function	1	ilvC
+GO:0004476	mannose-6-phosphate isomerase activity	molecular_function	1	GSU2364
+GO:0004477	methenyltetrahydrofolate cyclohydrolase activity	molecular_function	2	folD-1|folD-2
+GO:0004478	methionine adenosyltransferase activity	molecular_function	2	metK-1|metK-2
+GO:0004479	methionyl-tRNA formyltransferase activity	molecular_function	1	fmt
+GO:0004486	methylenetetrahydrofolate dehydrogenase [NAD(P)+] activity	molecular_function	2	folD-1|folD-2
+GO:0004493	methylmalonyl-CoA epimerase activity	molecular_function	1	mceE
+GO:0004494	methylmalonyl-CoA mutase activity	molecular_function	1	GSU3302
+GO:0004514	nicotinate-nucleotide diphosphorylase (carboxylating) activity	molecular_function	1	nadC
+GO:0004515	nicotinate-nucleotide adenylyltransferase activity	molecular_function	1	nadD
+GO:0004516	nicotinate phosphoribosyltransferase activity	molecular_function	1	GSU2289
+GO:0004518	nuclease activity	molecular_function	1	GSU1199
+GO:0004519	endonuclease activity	molecular_function	2	GSU1364|GSU2070
+GO:0004521	endoribonuclease activity	molecular_function	2	GSU2235|rnhB
+GO:0004523	RNA-DNA hybrid ribonuclease activity	molecular_function	1	rnhA
+GO:0004525	ribonuclease III activity	molecular_function	1	GSU0443
+GO:0004527	exonuclease activity	molecular_function	4	sbcC-1|sbcC-2|sbcD-1|sbcD-2
+GO:0004536	deoxyribonuclease activity	molecular_function	1	GSU2489
+GO:0004540	ribonuclease activity	molecular_function	1	GSU0921
+GO:0004556	alpha-amylase activity	molecular_function	4	GSU0601|GSU2360|GSU2636|treS
+GO:0004585	ornithine carbamoyltransferase activity	molecular_function	1	argF
+GO:0004588	orotate phosphoribosyltransferase activity	molecular_function	1	pyrE
+GO:0004590	orotidine-5'-phosphate decarboxylase activity	molecular_function	1	pyrF
+GO:0004591	oxoglutarate dehydrogenase (succinyl-transferring) activity	molecular_function	2	lpdA-1|sucA
+GO:0004592	pantoate-beta-alanine ligase activity	molecular_function	1	panC
+GO:0004601	peroxidase activity	molecular_function	1	katG
+GO:0004604	phosphoadenylyl-sulfate reductase (thioredoxin) activity	molecular_function	1	apr
+GO:0004605	phosphatidate cytidylyltransferase activity	molecular_function	1	cdsA
+GO:0004609	phosphatidylserine decarboxylase activity	molecular_function	1	GSU1908
+GO:0004613	phosphoenolpyruvate carboxykinase (GTP) activity	molecular_function	1	pckA
+GO:0004614	phosphoglucomutase activity	molecular_function	3	GSU2013|GSU3254|GSU3321
+GO:0004615	phosphomannomutase activity	molecular_function	3	GSU2013|GSU3254|GSU3321
+GO:0004617	phosphoglycerate dehydrogenase activity	molecular_function	1	serA
+GO:0004619	phosphoglycerate mutase activity	molecular_function	1	gpmI
+GO:0004632	phosphopantothenate--cysteine ligase activity	molecular_function	1	coaBC
+GO:0004633	phosphopantothenoylcysteine decarboxylase activity	molecular_function	1	coaBC
+GO:0004634	phosphopyruvate hydratase activity	molecular_function	1	eno
+GO:0004635	phosphoribosyl-AMP cyclohydrolase activity	molecular_function	1	hisI
+GO:0004636	phosphoribosyl-ATP diphosphatase activity	molecular_function	1	hisE
+GO:0004637	phosphoribosylamine-glycine ligase activity	molecular_function	1	purD
+GO:0004638	phosphoribosylaminoimidazole carboxylase activity	molecular_function	2	purE-1|purE-2
+GO:0004639	phosphoribosylaminoimidazolesuccinocarboxamide synthase activity	molecular_function	1	purC
+GO:0004640	phosphoribosylanthranilate isomerase activity	molecular_function	1	trpF
+GO:0004641	phosphoribosylformylglycinamidine cyclo-ligase activity	molecular_function	1	purM
+GO:0004642	phosphoribosylformylglycinamidine synthase activity	molecular_function	1	purSL
+GO:0004643	phosphoribosylaminoimidazolecarboxamide formyltransferase activity	molecular_function	1	purH
+GO:0004644	phosphoribosylglycinamide formyltransferase activity	molecular_function	1	purN
+GO:0004645	phosphorylase activity	molecular_function	1	GSU1663
+GO:0004648	O-phospho-L-serine:2-oxoglutarate aminotransferase activity	molecular_function	1	GSU3260
+GO:0004652	polynucleotide adenylyltransferase activity	molecular_function	1	ccaA
+GO:0004655	porphobilinogen synthase activity	molecular_function	1	hemB
+GO:0004657	proline dehydrogenase activity	molecular_function	1	putA
+GO:0004659	prenyltransferase activity	molecular_function	1	xapE
+GO:0004664	prephenate dehydratase activity	molecular_function	1	pheA
+GO:0004668	protein-arginine deiminase activity	molecular_function	1	aguA
+GO:0004673	protein histidine kinase activity	molecular_function	1	GSU0281
+GO:0004689	phosphorylase kinase activity	molecular_function	1	GSU0371
+GO:0004719	protein-L-isoaspartate (D-aspartate) O-methyltransferase activity	molecular_function	1	pcm
+GO:0004722	protein serine/threonine phosphatase activity	molecular_function	1	GSU2630
+GO:0004729	oxygen-dependent protoporphyrinogen oxidase activity	molecular_function	1	hemY
+GO:0004735	pyrroline-5-carboxylate reductase activity	molecular_function	1	proC
+GO:0004736	pyruvate carboxylase activity	molecular_function	1	pyc
+GO:0004737	pyruvate decarboxylase activity	molecular_function	2	iorA-1|iorB-1
+GO:0004742	dihydrolipoyllysine-residue acetyltransferase activity	molecular_function	1	aceF
+GO:0004743	pyruvate kinase activity	molecular_function	2	ppdK|pyk
+GO:0004746	riboflavin synthase activity	molecular_function	1	ribE
+GO:0004748	ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor	molecular_function	1	nrdJ
+GO:0004750	ribulose-phosphate 3-epimerase activity	molecular_function	1	rpe
+GO:0004751	ribose-5-phosphate isomerase activity	molecular_function	1	rpiB
+GO:0004754	saccharopine dehydrogenase (NAD+, L-lysine-forming) activity	molecular_function	1	GSU2539
+GO:0004756	selenide, water dikinase activity	molecular_function	1	selD
+GO:0004764	shikimate 3-dehydrogenase (NADP+) activity	molecular_function	1	aroE
+GO:0004765	shikimate kinase activity	molecular_function	1	aroK
+GO:0004775	succinate-CoA ligase (ADP-forming) activity	molecular_function	2	sucC|sucD
+GO:0004784	superoxide dismutase activity	molecular_function	2	GSU2612|GSU2814
+GO:0004789	thiamine-phosphate diphosphorylase activity	molecular_function	2	tenI|thiE/thiD
+GO:0004791	thioredoxin-disulfide reductase activity	molecular_function	1	trxB
+GO:0004793	threonine aldolase activity	molecular_function	1	ltaE
+GO:0004794	L-threonine ammonia-lyase activity	molecular_function	1	tdcB
+GO:0004795	threonine synthase activity	molecular_function	1	thrC
+GO:0004798	thymidylate kinase activity	molecular_function	1	tmk-1
+GO:0004801	sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase activity	molecular_function	1	GSU2977
+GO:0004802	transketolase activity	molecular_function	1	tkt
+GO:0004803	transposase activity	molecular_function	36	GSU0046|GSU0047|GSU0252|GSU0299|GSU0555|GSU0556|GSU0559|GSU0761|GSU0762|GSU0957|GSU0961|GSU1297|GSU1355|GSU1356|GSU1847|GSU1848|GSU1856|GSU2127|GSU2128|GSU2139|GSU2140|GSU2170|GSU2171|GSU2180|GSU2279|GSU2280|GSU2391|GSU2392|GSU2591|GSU2593|GSU2594|GSU2597|GSU2599|GSU2772|GSU3082|GSU3083
+GO:0004805	trehalose-phosphatase activity	molecular_function	2	GSU2302|otsB
+GO:0004808	tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase activity	molecular_function	1	mnmA
+GO:0004813	alanine-tRNA ligase activity	molecular_function	1	alaS
+GO:0004814	arginine-tRNA ligase activity	molecular_function	1	argS
+GO:0004815	aspartate-tRNA ligase activity	molecular_function	1	aspS
+GO:0004816	asparagine-tRNA ligase activity	molecular_function	1	asnS
+GO:0004817	cysteine-tRNA ligase activity	molecular_function	1	cysS
+GO:0004818	glutamate-tRNA ligase activity	molecular_function	1	gltX
+GO:0004819	glutamine-tRNA ligase activity	molecular_function	1	glnS
+GO:0004820	glycine-tRNA ligase activity	molecular_function	2	glyQ|glyS
+GO:0004821	histidine-tRNA ligase activity	molecular_function	2	hisS|hisZ
+GO:0004822	isoleucine-tRNA ligase activity	molecular_function	1	ileS
+GO:0004823	leucine-tRNA ligase activity	molecular_function	1	leuS
+GO:0004824	lysine-tRNA ligase activity	molecular_function	1	lysS
+GO:0004825	methionine-tRNA ligase activity	molecular_function	1	metG
+GO:0004826	phenylalanine-tRNA ligase activity	molecular_function	2	pheS|pheT
+GO:0004827	proline-tRNA ligase activity	molecular_function	1	proS
+GO:0004828	serine-tRNA ligase activity	molecular_function	1	serS
+GO:0004829	threonine-tRNA ligase activity	molecular_function	1	thrS
+GO:0004830	tryptophan-tRNA ligase activity	molecular_function	1	trpS
+GO:0004831	tyrosine-tRNA ligase activity	molecular_function	1	tyrS
+GO:0004832	valine-tRNA ligase activity	molecular_function	1	valS
+GO:0004834	tryptophan synthase activity	molecular_function	2	trpA|trpB2
+GO:0004844	uracil DNA N-glycosylase activity	molecular_function	1	GSU1613
+GO:0004845	uracil phosphoribosyltransferase activity	molecular_function	1	upp
+GO:0004851	uroporphyrin-III C-methyltransferase activity	molecular_function	1	hemD
+GO:0004852	uroporphyrinogen-III synthase activity	molecular_function	1	hemD
+GO:0004853	uroporphyrinogen decarboxylase activity	molecular_function	1	hemE
+GO:0004871	signal transducer activity	molecular_function	67	GSU0303|GSU0359|GSU0474|GSU0537|GSU0946|GSU1053|GSU1249|GSU1400|GSU2016|GSU2044|GSU2099|GSU2492|GSU2511|GSU2755|GSU3152|cheA40H|cheA44H|cheA64H|cheV|cheW34H-1|cheW34H-2|cheW34H-3|cheW34H-4|cheW40H-1|cheW40H-2|cheW44H|cheW64H-1|cheW64H-2|cheY-4|cheY34H-1|cheY34H-2|cheY40H-1|cheY44H|mcp30H|mcp34H-1|mcp34H-10|mcp34H-11|mcp34H-12|mcp34H-2|mcp34H-3|mcp34H-4|mcp34H-6|mcp34H-7|mcp40H-1|mcp40H-10|mcp40H-11|mcp40H-12|mcp40H-14|mcp40H-18|mcp40H-19|mcp40H-2|mcp40H-20|mcp40H-23|mcp40H-24|mcp40H-25|mcp40H-26|mcp40H-4|mcp40H-5|mcp40H-6|mcp40H-8|mcp40H-9|mcp44H|mcp64H-1|mcp64H-2|mcp64H-8|mvhQ|mvhV
+GO:0004872	receptor activity	molecular_function	34	GSU2982|mcp30H|mcp34H-1|mcp34H-10|mcp34H-11|mcp34H-12|mcp34H-2|mcp34H-3|mcp34H-4|mcp34H-6|mcp34H-7|mcp40H-1|mcp40H-10|mcp40H-11|mcp40H-12|mcp40H-14|mcp40H-18|mcp40H-19|mcp40H-2|mcp40H-20|mcp40H-23|mcp40H-24|mcp40H-25|mcp40H-26|mcp40H-4|mcp40H-5|mcp40H-6|mcp40H-8|mcp40H-9|mcp44H|mcp64H-1|mcp64H-2|mcp64H-8|mvhV
+GO:0005047	signal recognition particle binding	molecular_function	1	ftsY
+GO:0005048	signal sequence binding	molecular_function	1	ffh
+GO:0005198	structural molecule activity	molecular_function	15	GSU0975|flgA|flgB|flgC|flgD|flgE|flgF|flgG|flgH|flgI|flhB|fliE|fliF|fliL|fliQ
+GO:0005199	structural constituent of cell wall	molecular_function	1	GSU3112
+GO:0005215	transporter activity	molecular_function	30	GSU0206|GSU0392|GSU0394|GSU0496|GSU0706|GSU0752|GSU0858|GSU0949|GSU1161|GSU1194|GSU1204|GSU1331|GSU1445|GSU1545|GSU1610|GSU1611|GSU1699|GSU1900|GSU1998|GSU2491|GSU2665|GSU2744|GSU2777|GSU2781|GSU2782|GSU2981|GSU3315|GSU3399|acrB|sugE
+GO:0005216	ion channel activity	molecular_function	4	GSU1557|GSU1723|mscL|mscS-2
+GO:0005247	voltage-gated chloride channel activity	molecular_function	1	GSU2363
+GO:0005375	copper ion transmembrane transporter activity	molecular_function	1	copA
+GO:0005436	sodium:phosphate symporter activity	molecular_function	1	GSU1742
+GO:0005451	monovalent cation:proton antiporter activity	molecular_function	1	mrpF
+GO:0005524	ATP binding	molecular_function	15	GSU0093|GSU0101|GSU0277|GSU1130|GSU2201|clpX|dnaA|ftsA|mfd|mutS-1|pilT-2|pilT-4|radA|recF|recN
+GO:0005525	GTP binding	molecular_function	9	GSU1009|GSU1930|engA|engB|era|lepA|obgE|typA|ychF
+GO:0005575	cellular_component	cellular_component	827	GSU0005|GSU0040|GSU0042|GSU0045|GSU0049|GSU0050|GSU0055|GSU0060|GSU0061|GSU0063|GSU0071|GSU0075|GSU0076|GSU0077|GSU0078|GSU0081|GSU0083|GSU0095|GSU0118|GSU0125|GSU0131|GSU0133|GSU0137|GSU0139|GSU0140|GSU0141|GSU0155|GSU0163|GSU0164|GSU0165|GSU0170|GSU0172|GSU0173|GSU0176|GSU0180|GSU0186|GSU0187|GSU0192|GSU0194|GSU0195|GSU0198|GSU0202|GSU0203|GSU0208|GSU0209|GSU0210|GSU0214|GSU0216|GSU0224|GSU0231|GSU0233|GSU0236|GSU0239|GSU0243|GSU0250|GSU0251|GSU0256|GSU0257|GSU0258|GSU0263|GSU0269|GSU0272|GSU0275|GSU0289|GSU0292|GSU0302|GSU0310|GSU0312|GSU0315|GSU0316|GSU0317|GSU0354|GSU0355|GSU0362|GSU0370|GSU0382|GSU0384|GSU0388|GSU0390|GSU0393|GSU0395|GSU0396|GSU0415|GSU0418|GSU0434|GSU0444|GSU0450|GSU0467|GSU0468|GSU0469|GSU0472|GSU0476|GSU0478|GSU0481|GSU0485|GSU0498|GSU0504|GSU0512|GSU0516|GSU0519|GSU0524|GSU0536|GSU0539|GSU0540|GSU0544|GSU0551|GSU0553|GSU0562|GSU0563|GSU0564|GSU0568|GSU0570|GSU0584|GSU0590|GSU0597|GSU0602|GSU0603|GSU0619|GSU0621|GSU0625|GSU0632|GSU0637|GSU0638|GSU0639|GSU0640|GSU0647|GSU0650|GSU0657|GSU0672|GSU0673|GSU0675|GSU0680|GSU0690|GSU0695|GSU0703|GSU0704|GSU0709|GSU0710|GSU0712|GSU0713|GSU0714|GSU0715|GSU0716|GSU0717|GSU0719|GSU0722|GSU0723|GSU0724|GSU0725|GSU0737|GSU0747|GSU0748|GSU0751|GSU0755|GSU0759|GSU0788|GSU0790|GSU0791|GSU0792|GSU0793|GSU0801|GSU0813|GSU0817|GSU0819|GSU0821|GSU0824|GSU0826|GSU0827|GSU0834|GSU0835|GSU0850|GSU0861|GSU0863|GSU0864|GSU0868|GSU0874|GSU0882|GSU0887|GSU0888|GSU0897|GSU0899|GSU0900|GSU0905|GSU0912|GSU0915|GSU0917|GSU0919|GSU0929|GSU0934|GSU0938|GSU0943|GSU0953|GSU0954|GSU0956|GSU0959|GSU0964|GSU0966|GSU0968|GSU0970|GSU0973|GSU0974|GSU0976|GSU0977|GSU0978|GSU0979|GSU0980|GSU0981|GSU0982|GSU0983|GSU0985|GSU0987|GSU0988|GSU0990|GSU0992|GSU0993|GSU0996|GSU1000|GSU1001|GSU1006|GSU1011|GSU1015|GSU1018|GSU1021|GSU1026|GSU1042|GSU1046|GSU1047|GSU1049|GSU1051|GSU1056|GSU1057|GSU1060|GSU1067|GSU1069|GSU1071|GSU1073|GSU1074|GSU1079|GSU1080|GSU1081|GSU1082|GSU1083|GSU1084|GSU1085|GSU1086|GSU1087|GSU1093|GSU1094|GSU1100|GSU1104|GSU1107|GSU1121|GSU1125|GSU1127|GSU1128|GSU1131|GSU1135|GSU1147|GSU1152|GSU1157|GSU1160|GSU1167|GSU1168|GSU1169|GSU1179|GSU1181|GSU1185|GSU1192|GSU1196|GSU1209|GSU1211|GSU1212|GSU1213|GSU1217|GSU1218|GSU1223|GSU1225|GSU1230|GSU1232|GSU1235|GSU1236|GSU1240|GSU1241|GSU1247|GSU1253|GSU1254|GSU1255|GSU1259|GSU1269|GSU1275|GSU1278|GSU1282|GSU1283|GSU1295|GSU1308|GSU1309|GSU1318|GSU1323|GSU1328|GSU1333|GSU1337|GSU1339|GSU1344|GSU1357|GSU1358|GSU1360|GSU1362|GSU1366|GSU1367|GSU1368|GSU1369|GSU1375|GSU1376|GSU1381|GSU1395|GSU1396|GSU1410|GSU1412|GSU1418|GSU1424|GSU1430|GSU1431|GSU1436|GSU1438|GSU1440|GSU1444|GSU1447|GSU1449|GSU1453|GSU1455|GSU1456|GSU1472|GSU1476|GSU1478|GSU1479|GSU1500|GSU1508|GSU1527|GSU1536|GSU1541|GSU1544|GSU1546|GSU1548|GSU1552|GSU1553|GSU1556|GSU1558|GSU1562|GSU1565|GSU1566|GSU1568|GSU1574|GSU1575|GSU1585|GSU1597|GSU1598|GSU1608|GSU1642|GSU1647|GSU1652|GSU1661|GSU1662|GSU1664|GSU1667|GSU1668|GSU1669|GSU1673|GSU1674|GSU1676|GSU1679|GSU1680|GSU1683|GSU1684|GSU1712|GSU1715|GSU1719|GSU1726|GSU1728|GSU1744|GSU1749|GSU1770|GSU1806|GSU1807|GSU1811|GSU1813|GSU1824|GSU1829|GSU1830|GSU1845|GSU1849|GSU1850|GSU1857|GSU1867|GSU1872|GSU1874|GSU1876|GSU1884|GSU1901|GSU1926|GSU1931|GSU1932|GSU1938|GSU1943|GSU1944|GSU1947|GSU1948|GSU1949|GSU1952|GSU1959|GSU1964|GSU1965|GSU1966|GSU1969|GSU1971|GSU1981|GSU1988|GSU1994|GSU1995|GSU2003|GSU2014|GSU2023|GSU2024|GSU2047|GSU2048|GSU2077|GSU2082|GSU2086|GSU2090|GSU2105|GSU2106|GSU2107|GSU2108|GSU2109|GSU2110|GSU2112|GSU2114|GSU2115|GSU2116|GSU2117|GSU2126|GSU2129|GSU2131|GSU2132|GSU2138|GSU2143|GSU2146|GSU2148|GSU2152|GSU2153|GSU2154|GSU2155|GSU2156|GSU2159|GSU2160|GSU2161|GSU2162|GSU2163|GSU2164|GSU2165|GSU2166|GSU2174|GSU2176|GSU2177|GSU2178|GSU2179|GSU2181|GSU2182|GSU2186|GSU2193|GSU2197|GSU2199|GSU2200|GSU2205|GSU2211|GSU2231|GSU2233|GSU2248|GSU2249|GSU2251|GSU2255|GSU2257|GSU2275|GSU2276|GSU2284|GSU2293|GSU2295|GSU2298|GSU2300|GSU2301|GSU2304|GSU2315|GSU2319|GSU2320|GSU2321|GSU2322|GSU2324|GSU2327|GSU2328|GSU2331|GSU2332|GSU2347|GSU2348|GSU2353|GSU2355|GSU2357|GSU2359|GSU2374|GSU2376|GSU2377|GSU2385|GSU2395|GSU2396|GSU2397|GSU2398|GSU2399|GSU2400|GSU2402|GSU2403|GSU2405|GSU2407|GSU2411|GSU2412|GSU2417|GSU2421|GSU2424|GSU2426|GSU2427|GSU2437|GSU2440|GSU2441|GSU2447|GSU2450|GSU2455|GSU2457|GSU2460|GSU2461|GSU2466|GSU2468|GSU2469|GSU2470|GSU2474|GSU2478|GSU2479|GSU2486|GSU2488|GSU2496|GSU2499|GSU2510|GSU2512|GSU2518|GSU2522|GSU2532|GSU2533|GSU2542|GSU2546|GSU2548|GSU2554|GSU2555|GSU2560|GSU2563|GSU2564|GSU2573|GSU2577|GSU2580|GSU2585|GSU2586|GSU2590|GSU2592|GSU2611|GSU2626|GSU2631|GSU2634|GSU2635|GSU2638|GSU2639|GSU2640|GSU2641|GSU2644|GSU2646|GSU2647|GSU2648|GSU2659|GSU2661|GSU2668|GSU2671|GSU2672|GSU2673|GSU2674|GSU2675|GSU2679|GSU2680|GSU2682|GSU2684|GSU2688|GSU2689|GSU2690|GSU2691|GSU2710|GSU2713|GSU2726|GSU2727|GSU2728|GSU2730|GSU2733|GSU2739|GSU2742|GSU2747|GSU2756|GSU2763|GSU2764|GSU2765|GSU2768|GSU2770|GSU2771|GSU2774|GSU2775|GSU2776|GSU2778|GSU2780|GSU2784|GSU2785|GSU2788|GSU2790|GSU2791|GSU2792|GSU2793|GSU2810|GSU2827|GSU2889|GSU2891|GSU2892|GSU2893|GSU2894|GSU2895|GSU2904|GSU2906|GSU2908|GSU2910|GSU2911|GSU2922|GSU2924|GSU2925|GSU2928|GSU2929|GSU2936|GSU2938|GSU2943|GSU2965|GSU2967|GSU2968|GSU2970|GSU2971|GSU2978|GSU2983|GSU2988|GSU3003|GSU3016|GSU3018|GSU3022|GSU3024|GSU3030|GSU3032|GSU3033|GSU3034|GSU3035|GSU3079|GSU3080|GSU3084|GSU3105|GSU3110|GSU3111|GSU3114|GSU3115|GSU3120|GSU3131|GSU3134|GSU3139|GSU3141|GSU3144|GSU3151|GSU3167|GSU3170|GSU3175|GSU3178|GSU3180|GSU3183|GSU3184|GSU3185|GSU3186|GSU3189|GSU3202|GSU3215|GSU3224|GSU3227|GSU3242|GSU3243|GSU3244|GSU3248|GSU3251|GSU3255|GSU3258|GSU3267|GSU3271|GSU3273|GSU3275|GSU3278|GSU3289|GSU3290|GSU3293|GSU3295|GSU3305|GSU3306|GSU3309|GSU3310|GSU3311|GSU3317|GSU3318|GSU3326|GSU3327|GSU3328|GSU3335|GSU3336|GSU3337|GSU3344|GSU3345|GSU3351|GSU3358|GSU3359|GSU3362|GSU3382|GSU3389|GSU3397|GSU3402|GSU3403|GSU3409|GSU3410|GSU3414|GSU3416|GSU3422|GSU3425|GSU3426|GSU3440|GSU3442|GSU3451|GSU3459|GSU3467|acpH|atpI|atpZ|cas3-1|cheX-3|cheX-4|cheX40H|cheX64H|cse1|cse2|csx14|epsI|fimU|flgN|fliK|fliW|folE|gspM|gspN|hgtR|hoxP|hpnK|hxlR|lptA|lptC|mqnA|mqnD|mscS-1|ompB|phnA|pilA-C|pilL|pilV-1|pilV-2|pilW-1|pilW-2|pilX-1|pilX-2|pilY1-1|pilY1-2|ppk-2|prkA|pulG|pulN|pulO|pulP|rlmH|rlmL|rlmN|rsmE|scdA|sco|slyX|tklG|tmk-2|truD|tssB|tssC|tssF|tssG|tssK|tssM|ttcA|tusA-1|tusA-2|xapI|yaeQ|yajQ|ycbK|yceG|yedF|yggS|yhbY|yibQ|yicC|yjeE|ymdB|yqfO|yyaL|zapA|zapB
+GO:0005658	alpha DNA polymerase:primase complex	cellular_component	1	priA
+GO:0005694	chromosome	cellular_component	1	hup
+GO:0005840	ribosome	cellular_component	1	raiA
+GO:0005887	integral component of plasma membrane	cellular_component	2	lspA|sugE
+GO:0005948	acetolactate synthase complex	cellular_component	1	ilvN
+GO:0005971	ribonucleoside-diphosphate reductase complex	cellular_component	1	nrdJ
+GO:0005975	carbohydrate metabolic process	biological_process	9	GSU0692|GSU1113|GSU1510.1|GSU2013|GSU2364|GSU3254|GSU3321|arnD|kdsD
+GO:0005978	glycogen biosynthetic process	biological_process	1	csrA
+GO:0005980	glycogen catabolic process	biological_process	1	malQ
+GO:0005992	trehalose biosynthetic process	biological_process	2	GSU2302|otsB
+GO:0006012	galactose metabolic process	biological_process	2	galE|galT
+GO:0006071	glycerol metabolic process	biological_process	2	glpA|glpK
+GO:0006072	glycerol-3-phosphate metabolic process	biological_process	1	gpsA
+GO:0006081	cellular aldehyde metabolic process	biological_process	1	GSU1108
+GO:0006086	acetyl-CoA biosynthetic process from pyruvate	biological_process	3	lpdA-2|por|pta
+GO:0006090	pyruvate metabolic process	biological_process	1	ppdK
+GO:0006094	gluconeogenesis	biological_process	6	csrA|fbp|gapA|pckA|pyc|pyk
+GO:0006096	glycolytic process	biological_process	8	GSU1245|eno|gapA|gpmI|pfk-1|pfk-2|pgi|pyk
+GO:0006098	pentose-phosphate shunt	biological_process	3	rpe|rpiB|tkt
+GO:0006099	tricarboxylic acid cycle	biological_process	12	GSU2445|acnA|acnB|frdA|frdB|gltA|icd|lpdA-1|sucA|sucB|sucC|sucD
+GO:0006113	fermentation	biological_process	14	GSU0573|GSU0771|GSU0818|GSU1377|GSU2637|GSU3448|ackA|citG|citX|iorA-1|iorB-1|mtd|por|vorD
+GO:0006120	mitochondrial electron transport, NADH to ubiquinone	biological_process	1	nuoG-1
+GO:0006139	nucleobase-containing compound metabolic process	biological_process	2	GSU0763|GSU1359
+GO:0006166	purine ribonucleoside salvage	biological_process	2	GSU1017|apt
+GO:0006189	'de novo' IMP biosynthetic process	biological_process	2	purD|purM
+GO:0006259	DNA metabolic process	biological_process	1	mutS-2
+GO:0006260	DNA replication	biological_process	19	GSU1613|GSU3245|dnaB|dnaE|dnaN|gyrA|gyrB|holB|ligA|polA|priA|recF|sbcC-1|sbcC-2|sbcD-1|sbcD-2|ssb-1|ssb-2|topA
+GO:0006265	DNA topological change	biological_process	3	gyrA|gyrB|topA
+GO:0006269	DNA replication, synthesis of RNA primer	biological_process	1	dnaG
+GO:0006270	DNA replication initiation	biological_process	1	dnaA
+GO:0006275	regulation of DNA replication	biological_process	1	dnaA
+GO:0006278	RNA-dependent DNA replication	biological_process	1	GSU1363
+GO:0006281	DNA repair	biological_process	24	GSU0386|GSU1450|GSU1613|GSU2168|GSU2758|GSU2829|GSU3371|ligA|mfd|mutM|radA|recB|recC|recD|recF|recN|recO|recR|ssb-1|ssb-2|uvrA|uvrB|uvrC|xth
+GO:0006298	mismatch repair	biological_process	2	mutL|mutS-1
+GO:0006304	DNA modification	biological_process	1	GSU0227
+GO:0006306	DNA methylation	biological_process	1	hemK
+GO:0006308	DNA catabolic process	biological_process	5	GSU1199|GSU2489|polA|xseA|xseB
+GO:0006310	DNA recombination	biological_process	29	GSU1613|GSU1711|ihfA-1|ihfA-2|ihfB-1|ligA|pcrA|recA|recB|recC|recD|recF|recG|recJ|recN|recO|recQ|recR|ruvA|ruvB|ruvC|sbcC-1|sbcC-2|sbcD-1|sbcD-2|ssb-1|ssb-2|xerC|xerD
+GO:0006313	transposition, DNA-mediated	biological_process	36	GSU0046|GSU0047|GSU0252|GSU0299|GSU0555|GSU0556|GSU0559|GSU0761|GSU0762|GSU0957|GSU0961|GSU1297|GSU1355|GSU1356|GSU1847|GSU1848|GSU1856|GSU2127|GSU2128|GSU2139|GSU2140|GSU2170|GSU2171|GSU2180|GSU2279|GSU2280|GSU2391|GSU2392|GSU2591|GSU2593|GSU2594|GSU2597|GSU2599|GSU2772|GSU3082|GSU3083
+GO:0006315	homing of group II introns	biological_process	2	GSU0955|GSU2471
+GO:0006323	DNA packaging	biological_process	1	hup
+GO:0006352	DNA-templated transcription, initiation	biological_process	2	fliA|rpoN
+GO:0006353	DNA-templated transcription, termination	biological_process	1	rho
+GO:0006354	DNA-templated transcription, elongation	biological_process	2	greA|greB
+GO:0006355	regulation of transcription, DNA-templated	biological_process	90	GSU0013|GSU0018|GSU0079|GSU0175|GSU0191|GSU0205|GSU0207|GSU0254|GSU0266|GSU0267|GSU0280|GSU0359|GSU0366|GSU0399|GSU0473|GSU0514|GSU0598|GSU0682|GSU0770|GSU0776|GSU0811|GSU0951|GSU1039|GSU1072|GSU1115|GSU1220|GSU1268|GSU1293|GSU1342|GSU1419|GSU1483|GSU1542|GSU1569|GSU1626|GSU1653|GSU1905|GSU2033|GSU2113|GSU2145|GSU2149|GSU2202|GSU2354|GSU2362|GSU2475|GSU2506|GSU2523|GSU2581|GSU2625|GSU2666|GSU2670|GSU2698|GSU2735|GSU2741|GSU2753|GSU2755|GSU2779|GSU2787|GSU2817|GSU2941|GSU2987|GSU3031|GSU3060|GSU3118|GSU3127|GSU3229|GSU3292|GSU3298|GSU3324|GSU3363|GSU3370|GSU3387|GSU3396|coaX|csrA|flgM|fliA|fnr-1|fnr-2|ideR|ihfA-1|ihfA-2|ihfB-1|modE|phoB|pilR|puuR|rpoN|rsbV|sixA|srtN
+GO:0006364	rRNA processing	biological_process	1	rimM
+GO:0006378	mRNA polyadenylation	biological_process	1	hfq
+GO:0006396	RNA processing	biological_process	7	GSU0443|GSU0921|cafA|ccaA|ccaC|mnmA|rbfA
+GO:0006400	tRNA modification	biological_process	14	GSU1452|GSU1748|GSU1810|miaA|miaB|mnmE|mtaB|nifR3|queA|selU|tgt-1|tgt-2|truA|truB
+GO:0006401	RNA catabolic process	biological_process	2	rnhA|rnhB
+GO:0006402	mRNA catabolic process	biological_process	1	GSU2235
+GO:0006412	translation	biological_process	52	GSU1200|dtd|frr|pth|rplA|rplB|rplC|rplD|rplF|rplI|rplJ|rplK|rplM|rplN|rplO|rplP|rplQ|rplR|rplS|rplU|rplV|rplW|rplX|rplY|rpmA|rpmC|rpmD|rpmE|rpmF|rpmG|rpmI|rpsA|rpsB|rpsC|rpsD|rpsE|rpsF|rpsG|rpsH|rpsI|rpsK|rpsM|rpsN|rpsO|rpsP|rpsQ|rpsR|rpsS|rpsT|rpsU-1|rpsU-2|smpB
+GO:0006413	translational initiation	biological_process	4	infA|infB|infC|mtnA
+GO:0006414	translational elongation	biological_process	9	efp-1|efp-2|fusA-1|fusA-2|fusA-3|selB|tsf|tuf-1|tuf-2
+GO:0006415	translational termination	biological_process	3	prfA|prfB|prfC
+GO:0006417	regulation of translation	biological_process	3	ihfA-1|ihfA-2|ihfB-1
+GO:0006418	tRNA aminoacylation for protein translation	biological_process	2	gatC|selD
+GO:0006419	alanyl-tRNA aminoacylation	biological_process	1	alaS
+GO:0006420	arginyl-tRNA aminoacylation	biological_process	1	argS
+GO:0006421	asparaginyl-tRNA aminoacylation	biological_process	1	asnS
+GO:0006422	aspartyl-tRNA aminoacylation	biological_process	1	aspS
+GO:0006423	cysteinyl-tRNA aminoacylation	biological_process	1	cysS
+GO:0006424	glutamyl-tRNA aminoacylation	biological_process	4	gatA|gatB|gatC|gltX
+GO:0006425	glutaminyl-tRNA aminoacylation	biological_process	1	glnS
+GO:0006426	glycyl-tRNA aminoacylation	biological_process	2	glyQ|glyS
+GO:0006427	histidyl-tRNA aminoacylation	biological_process	2	hisS|hisZ
+GO:0006428	isoleucyl-tRNA aminoacylation	biological_process	1	ileS
+GO:0006429	leucyl-tRNA aminoacylation	biological_process	1	leuS
+GO:0006430	lysyl-tRNA aminoacylation	biological_process	1	lysS
+GO:0006431	methionyl-tRNA aminoacylation	biological_process	2	fmt|metG
+GO:0006432	phenylalanyl-tRNA aminoacylation	biological_process	2	pheS|pheT
+GO:0006433	prolyl-tRNA aminoacylation	biological_process	1	proS
+GO:0006434	seryl-tRNA aminoacylation	biological_process	1	serS
+GO:0006435	threonyl-tRNA aminoacylation	biological_process	1	thrS
+GO:0006436	tryptophanyl-tRNA aminoacylation	biological_process	1	trpS
+GO:0006437	tyrosyl-tRNA aminoacylation	biological_process	1	tyrS
+GO:0006438	valyl-tRNA aminoacylation	biological_process	1	valS
+GO:0006457	protein folding	biological_process	5	groEL|groES|hslO|hypB|tig
+GO:0006461	protein complex assembly	biological_process	2	GSU1696|hypC
+GO:0006464	cellular protein modification process	biological_process	12	GSU3320|def-1|def-2|draG|hypA|hypD|hypF|lnt-N|lplA|map|prmA|rimI
+GO:0006465	signal peptide processing	biological_process	3	GSU1234|lepB|sppA
+GO:0006470	protein dephosphorylation	biological_process	1	GSU2630
+GO:0006508	proteolysis	biological_process	24	GSU0318|GSU0462|GSU0927|GSU0928|GSU1159|GSU1189|GSU1437|GSU1594|GSU2556|GSU3140|GSU3347|GSU3360|ctpA-2|htpX-1|htpX-2|lon-1|lon-2|lon-3|lspA|pepF|rseP|tssH|yeaZ|ygjD
+GO:0006520	cellular amino acid metabolic process	biological_process	2	GSU2945|yjiL
+GO:0006522	alanine metabolic process	biological_process	1	ald
+GO:0006526	arginine biosynthetic process	biological_process	6	argB|argC|argF|argG|argH|argJ
+GO:0006529	asparagine biosynthetic process	biological_process	1	asnB
+GO:0006532	aspartate biosynthetic process	biological_process	1	GSU1061
+GO:0006535	cysteine biosynthetic process from serine	biological_process	2	cysE-1|cysK
+GO:0006537	glutamate biosynthetic process	biological_process	1	nfnA
+GO:0006542	glutamine biosynthetic process	biological_process	1	glnA
+GO:0006545	glycine biosynthetic process	biological_process	1	glyA
+GO:0006546	glycine catabolic process	biological_process	1	gcvT
+GO:0006549	isoleucine metabolic process	biological_process	1	tdcB
+GO:0006555	methionine metabolic process	biological_process	2	metK-1|metK-2
+GO:0006556	S-adenosylmethionine biosynthetic process	biological_process	2	metK-1|metK-2
+GO:0006561	proline biosynthetic process	biological_process	3	proA|proB|proC
+GO:0006562	proline catabolic process	biological_process	1	putA
+GO:0006564	L-serine biosynthetic process	biological_process	2	GSU3260|serA
+GO:0006567	threonine catabolic process	biological_process	1	ltaE
+GO:0006568	tryptophan metabolic process	biological_process	1	trpF
+GO:0006571	tyrosine biosynthetic process	biological_process	1	GSU1828
+GO:0006596	polyamine biosynthetic process	biological_process	1	GSU2502
+GO:0006602	creatinine catabolic process	biological_process	1	GSU1722
+GO:0006629	lipid metabolic process	biological_process	2	GSU2415|GSU3313
+GO:0006633	fatty acid biosynthetic process	biological_process	10	accA|accB|accC|accD|acpP-1|acpP-2|fabD-2|fabG-2|fabH-2|fabZ-2
+GO:0006660	phosphatidylserine catabolic process	biological_process	1	GSU1908
+GO:0006688	glycosphingolipid biosynthetic process	biological_process	1	hpnI
+GO:0006694	steroid biosynthetic process	biological_process	1	hpnA
+GO:0006729	tetrahydrobiopterin biosynthetic process	biological_process	1	queD
+GO:0006730	one-carbon metabolic process	biological_process	2	ahcY|glyA
+GO:0006734	NADH metabolic process	biological_process	1	hoxE
+GO:0006744	ubiquinone biosynthetic process	biological_process	3	GSU0439|GSU0440|GSU2004
+GO:0006747	FAD biosynthetic process	biological_process	1	ribF
+GO:0006760	folic acid-containing compound metabolic process	biological_process	2	GSU0523|folA
+GO:0006768	biotin metabolic process	biological_process	1	bioF
+GO:0006777	Mo-molybdopterin cofactor biosynthetic process	biological_process	4	GSU0908|moaC|moaE|mobA-1/mobB
+GO:0006779	porphyrin-containing compound biosynthetic process	biological_process	8	hemA|hemB|hemD|hemE|hemH|hemL|hemN|hemY
+GO:0006790	sulfur compound metabolic process	biological_process	1	apr
+GO:0006793	phosphorus metabolic process	biological_process	2	GSU2975|gppA-2
+GO:0006807	nitrogen compound metabolic process	biological_process	1	aguB
+GO:0006808	regulation of nitrogen utilization	biological_process	1	gnfM
+GO:0006810	transport	biological_process	102	GSU0011|GSU0025|GSU0026|GSU0027|GSU0028|GSU0093|GSU0101|GSU0169|GSU0211|GSU0212|GSU0261|GSU0277|GSU0278|GSU0391|GSU0392|GSU0394|GSU0496|GSU0677|GSU0678|GSU0706|GSU0752|GSU0814|GSU0816|GSU0858|GSU0922|GSU0924|GSU0925|GSU0947|GSU0948|GSU0949|GSU0950|GSU1013|GSU1161|GSU1162|GSU1163|GSU1164|GSU1194|GSU1203|GSU1204|GSU1227|GSU1260|GSU1261|GSU1331|GSU1340|GSU1341|GSU1411|GSU1445|GSU1482|GSU1528|GSU1545|GSU1557|GSU1609|GSU1610|GSU1611|GSU1644|GSU1699|GSU1723|GSU1900|GSU1998|GSU2055|GSU2093|GSU2187|GSU2188|GSU2389|GSU2413|GSU2491|GSU2664|GSU2665|GSU2695|GSU2744|GSU2777|GSU2781|GSU2782|GSU2950|GSU2951|GSU2981|GSU2982|GSU2984|GSU2985|GSU3315|GSU3399|acrB|aplA|aplB|aplC|aplD|cydC|lolD|lolE|lptB|motA|motB|mscL|mscS-2|ompJ|rbbA|tupA|tupB|tupC|uup|xapD|xapH
+GO:0006812	cation transport	biological_process	6	GSU1678|GSU2325|GSU2351|dmeF|fieF|mrpB
+GO:0006813	potassium ion transport	biological_process	5	GSU0844|GSU1016|GSU2485|GSU3346|kefB
+GO:0006814	sodium ion transport	biological_process	2	mrpE|mrpG
+GO:0006817	phosphate ion transport	biological_process	5	GSU0389|GSU1742|pstA|pstC|pstS
+GO:0006818	hydrogen transport	biological_process	2	mrpE|mrpG
+GO:0006821	chloride transport	biological_process	1	GSU2363
+GO:0006824	cobalt ion transport	biological_process	6	cbiO|cbiQ|corA-1|corA-2|nikO|nikQ
+GO:0006825	copper ion transport	biological_process	1	copA
+GO:0006855	drug transmembrane transport	biological_process	5	GSU0773|GSU1481|GSU2653|norM|sugE
+GO:0006865	amino acid transport	biological_process	6	GSU0768|GSU0798|GSU0800|GSU2650|GSU3405|GSU3406
+GO:0006886	intracellular protein transport	biological_process	7	fdnT|hybT|secD|secF|secG|tatA|tatB
+GO:0006928	movement of cell or subcellular component	biological_process	4	mglA|mglB|pilT-2|pilT-4
+GO:0006935	chemotaxis	biological_process	68	GSU1013|cheA40H|cheA44H|cheA64H|cheB34H|cheB40H|cheB64H-1|cheC44H|cheD34H|cheD44H|cheD64H|cheR34H|cheR40H|cheR64H|cheV|cheW34H-1|cheW34H-2|cheW34H-3|cheW34H-4|cheW40H-1|cheW40H-2|cheW44H|cheW64H-1|cheW64H-2|cheY-4|cheY34H-1|cheY34H-2|cheY40H-1|cheY44H|fliG|fliJ|fliL|mcp30H|mcp34H-1|mcp34H-10|mcp34H-11|mcp34H-12|mcp34H-2|mcp34H-3|mcp34H-4|mcp34H-6|mcp34H-7|mcp40H-1|mcp40H-10|mcp40H-11|mcp40H-12|mcp40H-14|mcp40H-18|mcp40H-19|mcp40H-2|mcp40H-20|mcp40H-23|mcp40H-24|mcp40H-25|mcp40H-26|mcp40H-4|mcp40H-5|mcp40H-6|mcp40H-8|mcp40H-9|mcp44H|mcp64H-1|mcp64H-2|mcp64H-8|motA|motB|mvhQ|mvhV
+GO:0006950	response to stress	biological_process	9	GSU1727|dnaK|grpE|rplY|surE|usp-1|usp-2|usp-3|usp-4
+GO:0006979	response to oxidative stress	biological_process	3	hslO|katG|prx-3
+GO:0007059	chromosome segregation	biological_process	2	scpA|scpB
+GO:0007155	cell adhesion	biological_process	1	acdA
+GO:0007165	signal transduction	biological_process	19	GSU0253|GSU0255|GSU0303|GSU0474|GSU0537|GSU0681|GSU0946|GSU1053|GSU1249|GSU1292|GSU1400|GSU2016|GSU2044|GSU2099|GSU2388|GSU2511|GSU3152|GSU3230|GSU3357
+GO:0008047	enzyme activator activity	molecular_function	2	GSU2945|yjiL
+GO:0008080	N-acetyltransferase activity	molecular_function	4	GSU0177|GSU1956|GSU2798|argA
+GO:0008094	DNA-dependent ATPase activity	molecular_function	1	recA
+GO:0008097	5S rRNA binding	molecular_function	1	rplY
+GO:0008113	peptide-methionine (S)-S-oxide reductase activity	molecular_function	1	msrA
+GO:0008120	ceramide glucosyltransferase activity	molecular_function	1	hpnI
+GO:0008131	primary amine oxidase activity	molecular_function	1	GSU1512
+GO:0008135	translation factor activity, nucleic acid binding	molecular_function	1	frr
+GO:0008137	NADH dehydrogenase (ubiquinone) activity	molecular_function	7	ehrA-1|ehrB|ehrC|ehrD|ehrL|ehrS|nuoG-1
+GO:0008150	biological_process	biological_process	1381	GSU0005|GSU0014|GSU0015|GSU0016|GSU0018|GSU0019|GSU0023|GSU0024|GSU0038|GSU0040|GSU0042|GSU0044|GSU0045|GSU0049|GSU0050|GSU0055|GSU0060|GSU0061|GSU0063|GSU0066|GSU0071|GSU0073|GSU0075|GSU0076|GSU0077|GSU0078|GSU0081|GSU0083|GSU0095|GSU0107|GSU0117|GSU0118|GSU0125|GSU0131|GSU0133|GSU0136|GSU0137|GSU0139|GSU0140|GSU0141|GSU0155|GSU0157|GSU0163|GSU0164|GSU0165|GSU0168|GSU0170|GSU0171|GSU0172|GSU0173|GSU0176|GSU0179|GSU0180|GSU0181|GSU0182|GSU0183|GSU0185|GSU0186|GSU0187|GSU0188|GSU0192|GSU0194|GSU0195|GSU0196|GSU0198|GSU0202|GSU0203|GSU0204|GSU0208|GSU0209|GSU0210|GSU0213|GSU0214|GSU0216|GSU0224|GSU0231|GSU0233|GSU0236|GSU0237|GSU0238|GSU0239|GSU0241|GSU0243|GSU0244|GSU0246|GSU0247|GSU0248|GSU0249|GSU0250|GSU0251|GSU0256|GSU0257|GSU0258|GSU0263|GSU0265|GSU0268|GSU0269|GSU0272|GSU0273|GSU0275|GSU0279|GSU0286|GSU0287|GSU0288|GSU0289|GSU0291|GSU0292|GSU0294|GSU0302|GSU0310|GSU0312|GSU0313|GSU0314|GSU0315|GSU0316|GSU0317|GSU0354|GSU0355|GSU0360|GSU0361|GSU0362|GSU0368|GSU0369|GSU0370|GSU0381|GSU0382|GSU0384|GSU0388|GSU0390|GSU0393|GSU0395|GSU0396|GSU0397|GSU0402|GSU0406|GSU0415|GSU0418|GSU0427|GSU0434|GSU0438|GSU0444|GSU0448|GSU0450|GSU0455|GSU0456|GSU0457|GSU0459|GSU0463|GSU0464|GSU0467|GSU0468|GSU0469|GSU0472|GSU0476|GSU0478|GSU0480|GSU0481|GSU0485|GSU0498|GSU0499|GSU0502|GSU0504|GSU0505|GSU0512|GSU0516|GSU0519|GSU0524|GSU0527|GSU0530|GSU0536|GSU0539|GSU0540|GSU0542|GSU0543|GSU0544|GSU0545|GSU0546|GSU0548|GSU0551|GSU0553|GSU0562|GSU0563|GSU0564|GSU0568|GSU0570|GSU0574|GSU0576|GSU0584|GSU0590|GSU0597|GSU0602|GSU0603|GSU0613|GSU0617|GSU0619|GSU0621|GSU0622|GSU0625|GSU0628|GSU0632|GSU0636|GSU0637|GSU0638|GSU0639|GSU0640|GSU0644|GSU0647|GSU0650|GSU0657|GSU0659|GSU0667|GSU0672|GSU0673|GSU0675|GSU0676|GSU0679|GSU0680|GSU0690|GSU0695|GSU0698|GSU0699|GSU0703|GSU0704|GSU0709|GSU0710|GSU0711|GSU0712|GSU0713|GSU0714|GSU0715|GSU0716|GSU0717|GSU0719|GSU0720|GSU0722|GSU0723|GSU0724|GSU0725|GSU0727|GSU0737|GSU0747|GSU0748|GSU0751|GSU0753|GSU0754|GSU0755|GSU0757|GSU0758|GSU0759|GSU0767|GSU0772|GSU0788|GSU0790|GSU0791|GSU0792|GSU0793|GSU0794|GSU0795|GSU0797|GSU0801|GSU0808|GSU0810|GSU0813|GSU0815|GSU0817|GSU0819|GSU0821|GSU0824|GSU0825|GSU0826|GSU0827|GSU0832|GSU0834|GSU0835|GSU0850|GSU0851|GSU0852|GSU0853|GSU0854|GSU0855|GSU0857|GSU0861|GSU0863|GSU0864|GSU0866|GSU0868|GSU0869|GSU0871|GSU0872|GSU0874|GSU0876|GSU0880|GSU0882|GSU0884|GSU0886|GSU0887|GSU0888|GSU0891|GSU0895|GSU0897|GSU0899|GSU0900|GSU0904|GSU0905|GSU0907|GSU0912|GSU0915|GSU0917|GSU0919|GSU0926|GSU0929|GSU0930|GSU0931|GSU0934|GSU0938|GSU0943|GSU0952|GSU0953|GSU0954|GSU0956|GSU0958|GSU0959|GSU0964|GSU0966|GSU0967|GSU0968|GSU0970|GSU0971|GSU0973|GSU0974|GSU0976|GSU0977|GSU0978|GSU0979|GSU0980|GSU0981|GSU0982|GSU0983|GSU0985|GSU0987|GSU0988|GSU0989|GSU0990|GSU0992|GSU0993|GSU0996|GSU1000|GSU1001|GSU1006|GSU1007|GSU1009|GSU1011|GSU1012|GSU1014|GSU1015|GSU1018|GSU1021|GSU1026|GSU1042|GSU1045|GSU1046|GSU1047|GSU1048|GSU1049|GSU1051|GSU1052|GSU1055|GSU1056|GSU1057|GSU1060|GSU1067|GSU1069|GSU1071|GSU1073|GSU1074|GSU1079|GSU1080|GSU1081|GSU1082|GSU1083|GSU1084|GSU1085|GSU1086|GSU1087|GSU1090|GSU1091|GSU1092|GSU1093|GSU1094|GSU1100|GSU1104|GSU1107|GSU1114|GSU1121|GSU1125|GSU1126|GSU1127|GSU1128|GSU1131|GSU1135|GSU1136|GSU1138|GSU1147|GSU1149|GSU1152|GSU1153|GSU1154|GSU1157|GSU1160|GSU1166|GSU1167|GSU1168|GSU1169|GSU1179|GSU1181|GSU1185|GSU1188|GSU1192|GSU1195|GSU1196|GSU1206|GSU1207|GSU1208|GSU1209|GSU1211|GSU1212|GSU1213|GSU1217|GSU1218|GSU1222|GSU1223|GSU1224|GSU1225|GSU1229|GSU1230|GSU1232|GSU1233|GSU1235|GSU1236|GSU1239|GSU1240|GSU1241|GSU1244|GSU1247|GSU1251|GSU1253|GSU1254|GSU1255|GSU1256|GSU1258|GSU1259|GSU1262|GSU1264|GSU1269|GSU1274|GSU1275|GSU1278|GSU1282|GSU1283|GSU1295|GSU1306|GSU1308|GSU1309|GSU1310|GSU1312|GSU1314|GSU1318|GSU1323|GSU1324|GSU1327|GSU1328|GSU1333|GSU1336|GSU1337|GSU1338|GSU1339|GSU1344|GSU1345|GSU1353|GSU1354|GSU1357|GSU1358|GSU1360|GSU1361|GSU1362|GSU1364|GSU1366|GSU1367|GSU1368|GSU1369|GSU1375|GSU1376|GSU1381|GSU1383|GSU1390|GSU1391|GSU1395|GSU1396|GSU1397|GSU1398|GSU1404|GSU1406|GSU1409|GSU1410|GSU1412|GSU1418|GSU1424|GSU1429|GSU1430|GSU1431|GSU1432|GSU1436|GSU1438|GSU1440|GSU1444|GSU1446|GSU1447|GSU1448|GSU1449|GSU1453|GSU1455|GSU1456|GSU1457|GSU1458|GSU1464|GSU1471|GSU1472|GSU1473|GSU1474|GSU1476|GSU1477|GSU1478|GSU1479|GSU1488|GSU1489|GSU1500|GSU1508|GSU1512|GSU1527|GSU1532|GSU1536|GSU1540|GSU1541|GSU1544|GSU1546|GSU1547|GSU1548|GSU1549|GSU1551|GSU1552|GSU1553|GSU1554|GSU1556|GSU1558|GSU1560|GSU1562|GSU1565|GSU1566|GSU1568|GSU1570|GSU1571|GSU1572|GSU1573|GSU1574|GSU1575|GSU1578|GSU1580|GSU1585|GSU1590|GSU1597|GSU1598|GSU1608|GSU1614|GSU1615|GSU1631|GSU1638|GSU1639|GSU1642|GSU1643|GSU1646|GSU1647|GSU1652|GSU1654|GSU1661|GSU1662|GSU1664|GSU1665|GSU1667|GSU1668|GSU1669|GSU1670|GSU1673|GSU1674|GSU1676|GSU1679|GSU1680|GSU1682|GSU1683|GSU1684|GSU1685|GSU1686|GSU1697|GSU1698|GSU1701|GSU1702|GSU1708|GSU1712|GSU1715|GSU1719|GSU1726|GSU1728|GSU1743|GSU1744|GSU1745|GSU1749|GSU1762|GSU1763|GSU1770|GSU1771|GSU1773|GSU1788|GSU1796|GSU1801|GSU1806|GSU1807|GSU1811|GSU1813|GSU1817|GSU1824|GSU1829|GSU1830|GSU1834|GSU1837|GSU1840|GSU1841|GSU1843|GSU1844|GSU1845|GSU1846|GSU1849|GSU1850|GSU1852|GSU1853|GSU1857|GSU1858|GSU1866|GSU1867|GSU1869|GSU1870|GSU1872|GSU1874|GSU1876|GSU1884|GSU1898|GSU1901|GSU1924|GSU1925|GSU1926|GSU1929|GSU1930|GSU1931|GSU1932|GSU1937|GSU1938|GSU1939|GSU1943|GSU1944|GSU1945|GSU1947|GSU1948|GSU1949|GSU1950|GSU1952|GSU1954|GSU1955|GSU1958|GSU1959|GSU1963|GSU1964|GSU1965|GSU1966|GSU1967|GSU1969|GSU1971|GSU1974|GSU1980|GSU1981|GSU1982|GSU1984|GSU1985|GSU1986|GSU1987|GSU1988|GSU1991|GSU1994|GSU1995|GSU1997|GSU2002|GSU2003|GSU2010|GSU2014|GSU2023|GSU2024|GSU2047|GSU2048|GSU2057|GSU2062|GSU2063|GSU2070|GSU2073|GSU2074|GSU2077|GSU2082|GSU2086|GSU2090|GSU2104|GSU2105|GSU2106|GSU2107|GSU2108|GSU2109|GSU2110|GSU2112|GSU2114|GSU2115|GSU2116|GSU2117|GSU2121|GSU2123|GSU2124|GSU2126|GSU2129|GSU2131|GSU2132|GSU2133|GSU2138|GSU2143|GSU2146|GSU2148|GSU2152|GSU2153|GSU2154|GSU2155|GSU2156|GSU2157|GSU2159|GSU2160|GSU2161|GSU2162|GSU2163|GSU2164|GSU2165|GSU2166|GSU2167|GSU2172|GSU2173|GSU2174|GSU2175|GSU2176|GSU2177|GSU2178|GSU2179|GSU2181|GSU2182|GSU2183|GSU2186|GSU2190|GSU2193|GSU2197|GSU2199|GSU2200|GSU2201|GSU2205|GSU2211|GSU2213|GSU2216|GSU2221|GSU2227|GSU2231|GSU2233|GSU2248|GSU2249|GSU2251|GSU2255|GSU2257|GSU2267|GSU2272|GSU2275|GSU2276|GSU2277|GSU2282|GSU2284|GSU2285|GSU2293|GSU2295|GSU2296|GSU2298|GSU2300|GSU2301|GSU2304|GSU2305|GSU2309|GSU2310|GSU2311|GSU2315|GSU2317|GSU2319|GSU2320|GSU2321|GSU2322|GSU2323|GSU2324|GSU2326|GSU2327|GSU2328|GSU2330|GSU2331|GSU2332|GSU2333|GSU2345|GSU2346|GSU2347|GSU2348|GSU2353|GSU2355|GSU2357|GSU2359|GSU2373|GSU2374|GSU2376|GSU2377|GSU2385|GSU2386|GSU2387|GSU2395|GSU2396|GSU2397|GSU2398|GSU2399|GSU2400|GSU2402|GSU2403|GSU2404|GSU2405|GSU2406|GSU2407|GSU2411|GSU2412|GSU2414|GSU2417|GSU2421|GSU2424|GSU2426|GSU2427|GSU2429|GSU2430|GSU2437|GSU2438|GSU2439|GSU2440|GSU2441|GSU2442|GSU2447|GSU2450|GSU2453|GSU2454|GSU2455|GSU2457|GSU2460|GSU2461|GSU2466|GSU2468|GSU2469|GSU2470|GSU2474|GSU2476|GSU2477|GSU2478|GSU2479|GSU2486|GSU2488|GSU2493|GSU2496|GSU2497|GSU2498|GSU2499|GSU2505|GSU2508|GSU2510|GSU2512|GSU2516|GSU2517|GSU2518|GSU2522|GSU2526|GSU2527|GSU2528|GSU2532|GSU2533|GSU2542|GSU2543|GSU2546|GSU2548|GSU2551|GSU2552|GSU2554|GSU2555|GSU2558|GSU2560|GSU2561|GSU2563|GSU2564|GSU2573|GSU2576|GSU2577|GSU2580|GSU2584|GSU2585|GSU2586|GSU2590|GSU2592|GSU2596|GSU2601|GSU2610|GSU2611|GSU2615|GSU2621|GSU2622|GSU2626|GSU2631|GSU2632|GSU2633|GSU2634|GSU2635|GSU2638|GSU2639|GSU2640|GSU2641|GSU2642|GSU2644|GSU2645|GSU2646|GSU2647|GSU2648|GSU2659|GSU2660|GSU2661|GSU2662|GSU2663|GSU2668|GSU2671|GSU2672|GSU2673|GSU2674|GSU2675|GSU2676|GSU2677|GSU2679|GSU2680|GSU2682|GSU2684|GSU2688|GSU2689|GSU2690|GSU2691|GSU2692|GSU2710|GSU2713|GSU2714|GSU2715|GSU2726|GSU2727|GSU2728|GSU2730|GSU2733|GSU2739|GSU2742|GSU2746|GSU2747|GSU2749|GSU2750|GSU2756|GSU2763|GSU2764|GSU2765|GSU2768|GSU2769|GSU2770|GSU2771|GSU2773|GSU2774|GSU2775|GSU2776|GSU2778|GSU2780|GSU2783|GSU2784|GSU2785|GSU2788|GSU2790|GSU2791|GSU2792|GSU2793|GSU2799|GSU2810|GSU2818|GSU2827|GSU2828|GSU2873|GSU2885|GSU2888|GSU2889|GSU2891|GSU2892|GSU2893|GSU2894|GSU2895|GSU2896|GSU2901|GSU2902|GSU2904|GSU2905|GSU2906|GSU2907|GSU2908|GSU2909|GSU2910|GSU2911|GSU2914|GSU2922|GSU2924|GSU2925|GSU2928|GSU2929|GSU2936|GSU2938|GSU2940|GSU2943|GSU2948|GSU2949|GSU2955|GSU2959|GSU2965|GSU2967|GSU2968|GSU2970|GSU2971|GSU2973|GSU2976|GSU2977|GSU2978|GSU2983|GSU2988|GSU3003|GSU3014|GSU3016|GSU3018|GSU3021|GSU3022|GSU3024|GSU3030|GSU3032|GSU3033|GSU3034|GSU3035|GSU3059|GSU3062|GSU3079|GSU3080|GSU3084|GSU3088|GSU3091|GSU3105|GSU3110|GSU3111|GSU3113|GSU3114|GSU3115|GSU3120|GSU3121|GSU3123|GSU3130|GSU3131|GSU3134|GSU3139|GSU3141|GSU3144|GSU3150|GSU3151|GSU3157|GSU3167|GSU3168|GSU3169|GSU3170|GSU3171|GSU3175|GSU3176|GSU3178|GSU3180|GSU3181|GSU3182|GSU3183|GSU3184|GSU3185|GSU3186|GSU3189|GSU3191|GSU3202|GSU3209|GSU3215|GSU3219|GSU3222|GSU3224|GSU3225|GSU3227|GSU3240|GSU3242|GSU3243|GSU3244|GSU3248|GSU3251|GSU3255|GSU3258|GSU3264|GSU3267|GSU3270|GSU3271|GSU3273|GSU3275|GSU3276|GSU3277|GSU3278|GSU3280|GSU3288|GSU3289|GSU3290|GSU3293|GSU3295|GSU3299|GSU3300|GSU3305|GSU3306|GSU3309|GSU3310|GSU3311|GSU3314|GSU3317|GSU3318|GSU3326|GSU3327|GSU3328|GSU3329|GSU3335|GSU3336|GSU3337|GSU3342|GSU3343|GSU3344|GSU3345|GSU3349|GSU3350|GSU3351|GSU3356|GSU3358|GSU3359|GSU3361|GSU3362|GSU3376|GSU3382|GSU3386|GSU3388|GSU3389|GSU3390|GSU3397|GSU3402|GSU3403|GSU3407|GSU3409|GSU3410|GSU3413|GSU3414|GSU3415|GSU3416|GSU3417|GSU3422|GSU3425|GSU3426|GSU3427|GSU3428|GSU3435|GSU3440|GSU3442|GSU3451|GSU3454|GSU3459|GSU3461|GSU3462|GSU3467|acpH|ato-1|ato-2|atpI|atpZ|cas2-1|cas2-2|cas3-1|cas3-2|cas5e|cbiX|cheX-3|cheX-4|cheX40H|cheX64H|cimA|comM|crcB|cse1|cse2|cse3|cse4|csx14|cysN|dapL|degP|dsbD|engA|engB|epsH|epsI|era|exeA|fimU|flgJ|flgN|fliK|fliW|folE|fxsA|genX|gidA|gidB|glnE|gltS|gspM|gspN|hgtR|hinT|hisN|hoxP|hpnH|hpnJ|hpnK|hxlR|iscR-1|iscR-2|kdsC|lepA|lptA|lptC|lptE|lptF|lptG|mazG|modD|mosC|mqnA|mqnC-1|mqnC-2|mqnD|mraZ|mrpC|mscS-1|nfeD|nifU|nth|obgE|ompB|oxpG|phnA|pilA-C|pilA-N|pilL|pilP|pilV-1|pilV-2|pilW-1|pilW-2|pilX-1|pilX-2|pilY1-1|pilY1-2|plsY|ppk-2|prkA|prx-4|pulG|pulM|pulN|pulO|pulP|queC|queE|raiA|rarD|rdgB|rimO|rlmH|rlmL|rlmN|rny|rsgA|rsmE|rsmH|rsmI|scdA|sco|selR|slyX|tadA|tatC|tex|thiF-1|thiF-2|tklG|tmk-2|trmB|trmFO|truD|tssB|tssC|tssD|tssF|tssG|tssI|tssJ|tssK|tssL|tssM|ttcA|tusA-1|tusA-2|typA|wbjB|wlbA|xapA|xapB|xapE|xapI|yadB|yaeQ|yaeT|yajQ|ybhR|ybhS|ycbK|yceG|ychF|yciH|yedF|yedY|yfiO|yggS|yhaM|yhbY|yhcC-1|yhcC-2|yhhJ|yibQ|yicC|yidC|yjeE|yjeF|ylxRQ|ymdB|yqaA|yqeY|yqfO|yrdC|yyaL|zapA|zapB
+GO:0008152	metabolic process	biological_process	79	GSU0029|GSU0084|GSU0119|GSU0134|GSU0154|GSU0177|GSU0184|GSU0197|GSU0217|GSU0477|GSU0493|GSU0528|GSU0569|GSU0572|GSU0651|GSU0694|GSU0802|GSU0809|GSU0870|GSU0889|GSU0909|GSU0936|GSU1002|GSU1193|GSU1210|GSU1237|GSU1343|GSU1370|GSU1442|GSU1550|GSU1576|GSU1663|GSU1677|GSU1681|GSU1694|GSU1736|GSU1765|GSU1818|GSU1839|GSU1877|GSU1904|GSU1956|GSU1968|GSU1973|GSU2015|GSU2069|GSU2196|GSU2465|GSU2525|GSU2536|GSU2583|GSU2766|GSU2798|GSU3020|GSU3029|GSU3122|GSU3126|GSU3159|GSU3206|GSU3287|GSU3330|GSU3375|argA|can-1|can-2|cysE-2|gmhB|gnnA|gppA-1|metF-1|metF-2|namA|nudC|nudF|paaK-1|paaK-2|ycbL|ycgM|yrdA
+GO:0008168	methyltransferase activity	molecular_function	5	GSU1244|GSU3320|cbiL|rsmH|trmB
+GO:0008171	O-methyltransferase activity	molecular_function	1	GSU1214
+GO:0008175	tRNA methyltransferase activity	molecular_function	2	GSU1452|GSU1748
+GO:0008198	ferrous iron binding	molecular_function	1	GSU0720
+GO:0008216	spermidine metabolic process	biological_process	1	nspC
+GO:0008233	peptidase activity	molecular_function	21	GSU0318|GSU0462|GSU0927|GSU0928|GSU1159|GSU1189|GSU1437|GSU1561|GSU1594|GSU2458|GSU2556|GSU3140|GSU3347|GSU3360|ftsI|htpX-1|htpX-2|mrcA|mrdA|tssH|yeaZ
+GO:0008270	zinc ion binding	molecular_function	4	GSU0573|GSU0771|GSU2637|mtd
+GO:0008272	sulfate transport	biological_process	3	GSU2312|cysA|cysU
+GO:0008287	protein serine/threonine phosphatase complex	cellular_component	1	GSU2630
+GO:0008297	single-stranded DNA exodeoxyribonuclease activity	molecular_function	1	recJ
+GO:0008299	isoprenoid biosynthetic process	biological_process	6	dxr|dxs-1|dxs-2|ispD|ispE|ispF
+GO:0008324	cation transmembrane transporter activity	molecular_function	2	dmeF|fieF
+GO:0008360	regulation of cell shape	biological_process	2	mreB-2|mreC
+GO:0008409	5'-3' exonuclease activity	molecular_function	1	polA
+GO:0008412	4-hydroxybenzoate octaprenyltransferase activity	molecular_function	1	GSU0439
+GO:0008413	8-oxo-7,8-dihydroguanosine triphosphate pyrophosphatase activity	molecular_function	1	GSU0870
+GO:0008460	dTDP-glucose 4,6-dehydratase activity	molecular_function	1	rmlB
+GO:0008463	formylmethionine deformylase activity	molecular_function	2	def-1|def-2
+GO:0008479	queuine tRNA-ribosyltransferase activity	molecular_function	2	tgt-1|tgt-2
+GO:0008483	transaminase activity	molecular_function	5	GSU0018|GSU0084|GSU0117|GSU1868|dapL
+GO:0008490	arsenite secondary active transmembrane transporter activity	molecular_function	1	arsB
+GO:0008508	bile acid:sodium symporter activity	molecular_function	1	GSU1411
+GO:0008519	ammonium transmembrane transporter activity	molecular_function	2	GSU1221|amtB
+GO:0008531	riboflavin kinase activity	molecular_function	1	ribF
+GO:0008534	oxidized purine nucleobase lesion DNA N-glycosylase activity	molecular_function	1	mutM
+GO:0008565	protein transporter activity	molecular_function	19	GSU0276|GSU2687|fdnT|fliP|gspC|gspD|gspE|gspF|gspG|gspH|gspI|gspL|hybT|secD|secF|secG|tatA|tatB|ybhG
+GO:0008610	lipid biosynthetic process	biological_process	3	GSU2318|acpS|plsX
+GO:0008615	pyridoxine biosynthetic process	biological_process	4	dxs-1|dxs-2|pdxA|pdxJ
+GO:0008616	queuosine biosynthetic process	biological_process	1	queA
+GO:0008643	carbohydrate transport	biological_process	2	GSU3455|xapG
+GO:0008649	rRNA methyltransferase activity	molecular_function	4	GSU1197|rlmB|rsmB|trmJ
+GO:0008652	cellular amino acid biosynthetic process	biological_process	2	metY-1|metY-2
+GO:0008654	phospholipid biosynthetic process	biological_process	6	GSU2072|GSU2283|GSU3116|cdsA|gpsA|pssA
+GO:0008655	pyrimidine-containing compound salvage	biological_process	1	upp
+GO:0008661	1-deoxy-D-xylulose-5-phosphate synthase activity	molecular_function	2	dxs-1|dxs-2
+GO:0008676	3-deoxy-8-phosphooctulonate synthase activity	molecular_function	1	kdsA
+GO:0008677	2-dehydropantoate 2-reductase activity	molecular_function	1	panE
+GO:0008685	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase activity	molecular_function	1	ispF
+GO:0008686	3,4-dihydroxy-2-butanone-4-phosphate synthase activity	molecular_function	1	ribA
+GO:0008690	3-deoxy-manno-octulosonate cytidylyltransferase activity	molecular_function	1	kdsB
+GO:0008694	3-octaprenyl-4-hydroxybenzoate carboxy-lyase activity	molecular_function	2	GSU0440|GSU2004
+GO:0008703	5-amino-6-(5-phosphoribosylamino)uracil reductase activity	molecular_function	1	ribD
+GO:0008710	8-amino-7-oxononanoate synthase activity	molecular_function	1	bioF
+GO:0008716	D-alanine-D-alanine ligase activity	molecular_function	1	ddl
+GO:0008734	L-aspartate oxidase activity	molecular_function	1	nadB
+GO:0008745	N-acetylmuramoyl-L-alanine amidase activity	molecular_function	1	GSU1821
+GO:0008752	FMN reductase activity	molecular_function	2	GSU0179|GSU0772
+GO:0008757	S-adenosylmethionine-dependent methyltransferase activity	molecular_function	6	cheR34H|cheR40H|cheR64H|hemK|prmA|queA
+GO:0008758	UDP-2,3-diacylglucosamine hydrolase activity	molecular_function	1	lpxH
+GO:0008759	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase activity	molecular_function	1	lpxC
+GO:0008760	UDP-N-acetylglucosamine 1-carboxyvinyltransferase activity	molecular_function	1	murA
+GO:0008761	UDP-N-acetylglucosamine 2-epimerase activity	molecular_function	2	GSU2243|GSU2245
+GO:0008762	UDP-N-acetylmuramate dehydrogenase activity	molecular_function	1	murB
+GO:0008763	UDP-N-acetylmuramate-L-alanine ligase activity	molecular_function	1	murC
+GO:0008764	UDP-N-acetylmuramoylalanine-D-glutamate ligase activity	molecular_function	1	murD
+GO:0008776	acetate kinase activity	molecular_function	2	GSU3448|ackA
+GO:0008780	acyl-[acyl-carrier-protein]-UDP-N-acetylglucosamine O-acyltransferase activity	molecular_function	1	lpxA-1
+GO:0008784	alanine racemase activity	molecular_function	1	alr
+GO:0008794	arsenate reductase (glutaredoxin) activity	molecular_function	1	arsC
+GO:0008800	beta-lactamase activity	molecular_function	1	GSU1378
+GO:0008817	cob(I)yrinic acid a,c-diamide adenosyltransferase activity	molecular_function	1	cobA
+GO:0008818	cobalamin 5'-phosphate synthase activity	molecular_function	1	cobS
+GO:0008819	cobinamide kinase activity	molecular_function	1	cobU
+GO:0008820	cobinamide phosphate guanylyltransferase activity	molecular_function	1	cobU
+GO:0008821	crossover junction endodeoxyribonuclease activity	molecular_function	1	ruvC
+GO:0008825	cyclopropane-fatty-acyl-phospholipid synthase activity	molecular_function	1	GSU2318
+GO:0008831	dTDP-4-dehydrorhamnose reductase activity	molecular_function	1	rmlD
+GO:0008832	dGTPase activity	molecular_function	1	GSU1246
+GO:0008835	diaminohydroxyphosphoribosylaminopyrimidine deaminase activity	molecular_function	1	ribD
+GO:0008836	diaminopimelate decarboxylase activity	molecular_function	1	lysA
+GO:0008837	diaminopimelate epimerase activity	molecular_function	1	dapF
+GO:0008839	4-hydroxy-tetrahydrodipicolinate reductase	molecular_function	1	dapB
+GO:0008840	4-hydroxy-tetrahydrodipicolinate synthase	molecular_function	1	dapA
+GO:0008853	exodeoxyribonuclease III activity	molecular_function	1	xth
+GO:0008854	exodeoxyribonuclease V activity	molecular_function	3	recB|recC|recD
+GO:0008855	exodeoxyribonuclease VII activity	molecular_function	2	xseA|xseB
+GO:0008863	formate dehydrogenase (NAD+) activity	molecular_function	1	fdhD/mobA-2
+GO:0008879	glucose-1-phosphate thymidylyltransferase activity	molecular_function	1	rmlA
+GO:0008881	glutamate racemase activity	molecular_function	1	murI
+GO:0008883	glutamyl-tRNA reductase activity	molecular_function	1	hemA
+GO:0008891	glycolate oxidase activity	molecular_function	2	glcD-1|glcD-2
+GO:0008897	holo-[acyl-carrier-protein] synthase activity	molecular_function	1	acpS
+GO:0008907	integrase activity	molecular_function	4	GSU0064|GSU1710|GSU2118|GSU2119
+GO:0008915	lipid-A-disaccharide synthase activity	molecular_function	1	lpxB
+GO:0008920	lipopolysaccharide heptosyltransferase activity	molecular_function	5	GSU1514|GSU2242|GSU2252|GSU3025|xapJ
+GO:0008928	mannose-1-phosphate guanylyltransferase (GDP) activity	molecular_function	1	GSU1202
+GO:0008959	phosphate acetyltransferase activity	molecular_function	1	pta
+GO:0008961	phosphatidylglycerol-prolipoprotein diacylglyceryl transferase activity	molecular_function	1	lgt
+GO:0008963	phospho-N-acetylmuramoyl-pentapeptide-transferase activity	molecular_function	1	mraY
+GO:0008966	phosphoglucosamine mutase activity	molecular_function	1	glmM
+GO:0008968	D-sedoheptulose 7-phosphate isomerase activity	molecular_function	1	gmhA
+GO:0008969	phosphohistidine phosphatase activity	molecular_function	1	sixA
+GO:0008972	phosphomethylpyrimidine kinase activity	molecular_function	1	thiE/thiD
+GO:0008977	prephenate dehydrogenase activity	molecular_function	1	tyrA
+GO:0008982	protein-N(PI)-phosphohistidine-sugar phosphotransferase activity	molecular_function	2	GSU0735|GSU1883
+GO:0008983	protein-glutamate O-methyltransferase activity	molecular_function	3	cheR34H|cheR40H|cheR64H
+GO:0008984	protein-glutamate methylesterase activity	molecular_function	3	cheB34H|cheB40H|cheB64H-1
+GO:0008987	quinolinate synthetase A activity	molecular_function	1	nadA
+GO:0008999	ribosomal-protein-alanine N-acetyltransferase activity	molecular_function	1	rimI
+GO:0009001	serine O-acetyltransferase activity	molecular_function	1	cysE-1
+GO:0009007	site-specific DNA-methyltransferase (adenine-specific) activity	molecular_function	1	hemK
+GO:0009009	site-specific recombinase activity	molecular_function	2	GSU1711|xerC
+GO:0009019	tRNA (guanine-N1-)-methyltransferase activity	molecular_function	1	trmD
+GO:0009029	tetraacyldisaccharide 4'-kinase activity	molecular_function	1	lpxK
+GO:0009030	thiamine-phosphate kinase activity	molecular_function	1	thiL
+GO:0009038	undecaprenol kinase activity	molecular_function	1	uppP
+GO:0009055	electron carrier activity	molecular_function	111	GSU0068|GSU0069|GSU0105|GSU0259|GSU0274|GSU0357|GSU0358|GSU0494|GSU0533|GSU0591|GSU0594|GSU0615|GSU0616|GSU0702|GSU0729|GSU0746|GSU0774|GSU0845|GSU0847|GSU1062|GSU1089|GSU1205|GSU1284|GSU1334|GSU1351|GSU1416|GSU1620|GSU1648|GSU1650|GSU1666|GSU1740|GSU1785|GSU1786|GSU1787|GSU1996|GSU2210|GSU2299|GSU2494|GSU2495|GSU2501|GSU2513|GSU2515|GSU2612|GSU2643|GSU2681|GSU2724|GSU2725|GSU2732|GSU2738|GSU2743|GSU2748|GSU2795|GSU2801|GSU2808|GSU2811|GSU2872|GSU2887|GSU2899|GSU2930|GSU2932|GSU2933|GSU2934|GSU2956|GSU3124|GSU3137|GSU3188|GSU3214|GSU3218|GSU3221|GSU3223|GSU3226|GSU3228|GSU3232|GSU3233|GSU3238|GSU3247|GSU3259|GSU3274|GSU3332|dhc1|dhc2|etfA|frdC|glcF-1|hdrE|korD|mrpA|mrpD|omcA|omcB|omcC|omcE|omcF|omcG|omcH|omcI|omcJ|omcK|omcL|omcM|omcN|omcO|omcP|omcQ|omcS|omcT|omcX|omcZ|pgcA|yccM-1|yccM-2
+GO:0009061	anaerobic respiration	biological_process	7	fdhD/mobA-2|frdA|frdB|frdC|nrfH|sfrA|sfrB
+GO:0009067	aspartate family amino acid biosynthetic process	biological_process	1	hom
+GO:0009073	aromatic amino acid family biosynthetic process	biological_process	1	aroC
+GO:0009082	branched-chain amino acid biosynthetic process	biological_process	2	ilvC|ilvE
+GO:0009083	branched-chain amino acid catabolic process	biological_process	3	GSU1564|gdhA|lpdA-2
+GO:0009085	lysine biosynthetic process	biological_process	1	GSU2539
+GO:0009086	methionine biosynthetic process	biological_process	3	folD-1|folD-2|metX
+GO:0009088	threonine biosynthetic process	biological_process	1	thrC
+GO:0009089	lysine biosynthetic process via diaminopimelate	biological_process	5	GSU1799|dapA|dapB|dapF|lysA
+GO:0009095	aromatic amino acid family biosynthetic process, prephenate pathway	biological_process	1	pheA
+GO:0009097	isoleucine biosynthetic process	biological_process	4	ilvB|ilvC|ilvD|ilvN
+GO:0009098	leucine biosynthetic process	biological_process	4	leuA|leuB|leuC|leuD
+GO:0009099	valine biosynthetic process	biological_process	4	ilvB|ilvC|ilvD|ilvN
+GO:0009102	biotin biosynthetic process	biological_process	4	bioA|bioB|bioD|birA
+GO:0009103	lipopolysaccharide biosynthetic process	biological_process	7	GSU1854|GSU2243|GSU2245|glmM|glmU|rmlA|rmlB
+GO:0009107	lipoate biosynthetic process	biological_process	2	lipA|lipB
+GO:0009113	purine nucleobase biosynthetic process	biological_process	3	folD-1|folD-2|purD
+GO:0009118	regulation of nucleoside metabolic process	biological_process	2	rnk-1|rnk-2
+GO:0009152	purine ribonucleotide biosynthetic process	biological_process	12	guaA|guaB|purA|purB|purC|purD|purE-1|purE-2|purF|purH|purN|purSL
+GO:0009220	pyrimidine ribonucleotide biosynthetic process	biological_process	6	carA|carB|pyrB|pyrE|pyrF|pyrG
+GO:0009225	nucleotide-sugar metabolic process	biological_process	3	GSU1975|galU|uxs
+GO:0009228	thiamine biosynthetic process	biological_process	8	dxs-1|dxs-2|tenI|thiC-1|thiC-2|thiE/thiD|thiL|thiS
+GO:0009231	riboflavin biosynthetic process	biological_process	5	ribA|ribD|ribE|ribF|ribH
+GO:0009236	cobalamin biosynthetic process	biological_process	16	GSU0885|cbiA|cbiB|cbiC|cbiD|cbiET|cbiF|cbiG|cbiH/cbiP|cbiL|cbiMN|cobA|cobD|cobS|cobU|nikMN
+GO:0009243	O antigen biosynthetic process	biological_process	1	rmlD
+GO:0009244	lipopolysaccharide core region biosynthetic process	biological_process	8	GSU1514|GSU2242|GSU2252|GSU3025|gmhA|kdsB|kdtA|xapJ
+GO:0009245	lipid A biosynthetic process	biological_process	4	lpxB|lpxC|lpxH|lpxK
+GO:0009249	protein lipoylation	biological_process	1	lgt
+GO:0009252	peptidoglycan biosynthetic process	biological_process	14	GSU0116|GSU2458|alr|ddl|glmM|glmU|mraY|murA|murB|murC|murD|murG|murI|uppS
+GO:0009253	peptidoglycan catabolic process	biological_process	5	GSU0301|GSU1010|GSU1484|GSU1821|GSU1826
+GO:0009257	10-formyltetrahydrofolate biosynthetic process	biological_process	2	folD-1|folD-2
+GO:0009265	2'-deoxyribonucleotide biosynthetic process	biological_process	2	nrdJ|thyX
+GO:0009271	phage shock	biological_process	1	GSU0398
+GO:0009279	cell outer membrane	cellular_component	1	yaeT
+GO:0009288	bacterial-type flagellum	cellular_component	12	cheA64H|flbD|flhA|flhF|fliG|fliI|fliJ|fliL|fliM|fliP|fliQ|fliS
+GO:0009291	unidirectional conjugation	biological_process	1	GSU2122
+GO:0009294	DNA mediated transformation	biological_process	4	GSU0062|GSU0124|GSU1797|dprA
+GO:0009297	pilus assembly	biological_process	6	GSU0435|pilC|pilM|pilN|pilO|pulE
+GO:0009306	protein secretion	biological_process	17	GSU0276|GSU2687|fdnT|ffh|ftsY|hpnN|hybT|lepB|lspA|secA|secD|secF|secG|tatA|tatB|yajC|ybhG
+GO:0009307	DNA restriction-modification system	biological_process	1	GSU1365
+GO:0009316	3-isopropylmalate dehydratase complex	cellular_component	2	leuC|leuD
+GO:0009317	acetyl-CoA carboxylase complex	cellular_component	3	accA|accB|accD
+GO:0009318	exodeoxyribonuclease VII complex	cellular_component	2	xseA|xseB
+GO:0009326	formate dehydrogenase complex	cellular_component	1	fdhD/mobA-2
+GO:0009330	DNA topoisomerase complex (ATP-hydrolyzing)	cellular_component	2	gyrA|gyrB
+GO:0009338	exodeoxyribonuclease V complex	cellular_component	3	recB|recC|recD
+GO:0009345	glycine-tRNA ligase complex	cellular_component	2	glyQ|glyS
+GO:0009360	DNA polymerase III complex	cellular_component	2	dnaE|dnaN
+GO:0009368	endopeptidase Clp complex	cellular_component	2	clpP|clpX
+GO:0009378	four-way junction helicase activity	molecular_function	2	ruvA|ruvB
+GO:0009379	Holliday junction helicase complex	cellular_component	1	ruvA
+GO:0009380	excinuclease repair complex	cellular_component	4	GSU2758|uvrA|uvrB|uvrC
+GO:0009381	excinuclease ABC activity	molecular_function	4	GSU2758|uvrA|uvrB|uvrC
+GO:0009394	2'-deoxyribonucleotide metabolic process	biological_process	1	dut
+GO:0009396	folic acid-containing compound biosynthetic process	biological_process	2	folK|folP
+GO:0009398	FMN biosynthetic process	biological_process	1	ribF
+GO:0009399	nitrogen fixation	biological_process	7	draG|nifB|nifD|nifEN|nifH|nifK|nifX
+GO:0009401	phosphoenolpyruvate-dependent sugar phosphotransferase system	biological_process	2	GSU0735|GSU1883
+GO:0009405	pathogenesis	biological_process	7	GSU0435|GSU1420|GSU1899|GSU2472|GSU2473|acdA|mviN
+GO:0009408	response to heat	biological_process	8	GSU2408|GSU2409|GSU2678|GSU3192|dnaJ|hrcA|hspA-1|hspA-2
+GO:0009409	response to cold	biological_process	4	GSU0191|GSU0207|GSU0581|GSU1905
+GO:0009420	bacterial-type flagellum filament	cellular_component	1	flaG
+GO:0009423	chorismate biosynthetic process	biological_process	8	aroA|aroB|aroE|aroF|aroG-1|aroG-2|aroK|aroQ
+GO:0009424	bacterial-type flagellum hook	cellular_component	2	flgD|flgE
+GO:0009425	bacterial-type flagellum basal body	cellular_component	1	fliN
+GO:0009426	bacterial-type flagellum basal body, distal rod	cellular_component	2	flgF|flgG
+GO:0009427	bacterial-type flagellum basal body, distal rod, L ring	cellular_component	1	flgH
+GO:0009428	bacterial-type flagellum basal body, distal rod, P ring	cellular_component	2	flgA|flgI
+GO:0009429	bacterial-type flagellum basal body, proximal rod	cellular_component	2	flgB|flgC
+GO:0009431	bacterial-type flagellum basal body, MS ring	cellular_component	1	fliF
+GO:0009432	SOS response	biological_process	2	recA|recF
+GO:0009435	NAD biosynthetic process	biological_process	3	nadC|nadD|nadE
+GO:0009451	RNA modification	biological_process	2	GSU3353|rluB
+GO:0009636	response to toxic substance	biological_process	1	lptD
+GO:0009650	UV protection	biological_process	2	GSU0043|GSU1616
+GO:0009678	hydrogen-translocating pyrophosphatase activity	molecular_function	1	hppA
+GO:0009982	pseudouridine synthase activity	molecular_function	6	GSU0671|GSU3353|rluB|rluD|truA|truB
+GO:0015031	protein transport	biological_process	1	GSU3203
+GO:0015036	disulfide oxidoreductase activity	molecular_function	8	GSU0493|GSU0909|GSU1237|hdrA|hdrB|hdrC|hdrD|hdrG
+GO:0015074	DNA integration	biological_process	5	GSU0064|GSU1710|GSU2118|GSU2119|xerD
+GO:0015079	potassium ion transmembrane transporter activity	molecular_function	5	GSU0844|GSU1016|GSU2485|GSU3346|kefB
+GO:0015087	cobalt ion transmembrane transporter activity	molecular_function	6	cbiO|cbiQ|corA-1|corA-2|nikO|nikQ
+GO:0015095	magnesium ion transmembrane transporter activity	molecular_function	2	corA-1|corA-2
+GO:0015112	nitrate transmembrane transporter activity	molecular_function	1	fdhC
+GO:0015114	phosphate ion transmembrane transporter activity	molecular_function	1	GSU0389
+GO:0015116	sulfate transmembrane transporter activity	molecular_function	1	GSU2312
+GO:0015129	lactate transmembrane transporter activity	molecular_function	1	GSU0226
+GO:0015144	carbohydrate transmembrane transporter activity	molecular_function	2	GSU3455|xapG
+GO:0015171	amino acid transmembrane transporter activity	molecular_function	1	GSU0768
+GO:0015204	urea transmembrane transporter activity	molecular_function	1	GSU2939
+GO:0015211	purine nucleoside transmembrane transporter activity	molecular_function	1	pbuG
+GO:0015288	porin activity	molecular_function	2	GSU2939|ompJ
+GO:0015297	antiporter activity	molecular_function	1	GSU2490
+GO:0015298	solute:cation antiporter activity	molecular_function	1	mrpB
+GO:0015370	solute:sodium symporter activity	molecular_function	4	aplA|aplB|aplC|aplD
+GO:0015385	sodium:proton antiporter activity	molecular_function	4	GSU0261|GSU1203|mrpE|mrpG
+GO:0015412	molybdate transmembrane-transporting ATPase activity	molecular_function	2	modA|modC
+GO:0015415	phosphate ion transmembrane-transporting ATPase activity	molecular_function	3	pstA|pstC|pstS
+GO:0015419	sulfate transmembrane-transporting ATPase activity	molecular_function	2	cysA|cysU
+GO:0015424	amino acid-transporting ATPase activity	molecular_function	5	GSU0798|GSU0800|GSU2650|GSU3405|GSU3406
+GO:0015434	cadmium-transporting ATPase activity	molecular_function	1	GSU2147
+GO:0015437	lipopolysaccharide-transporting ATPase activity	molecular_function	1	GSU0629
+GO:0015450	P-P-bond-hydrolysis-driven protein transmembrane transporter activity	molecular_function	2	secA|yajC
+GO:0015499	formate transmembrane transporter activity	molecular_function	1	fdhC
+GO:0015505	uracil:cation symporter activity	molecular_function	1	uraA
+GO:0015556	C4-dicarboxylate transmembrane transporter activity	molecular_function	2	GSU2056|dcuB
+GO:0015562	efflux transmembrane transporter activity	molecular_function	14	GSU0278|GSU0391|GSU0814|GSU0828|GSU0950|GSU1330|GSU1482|GSU1609|GSU2137|GSU2664|GSU2695|GSU3398|dmeF|fieF
+GO:0015627	type II protein secretion system complex	cellular_component	8	gspC|gspD|gspE|gspF|gspG|gspH|gspI|gspL
+GO:0015628	protein secretion by the type II secretion system	biological_process	11	gspC|gspD|gspE|gspF|gspG|gspH|gspI|gspL|pilC|pulE|pulQ
+GO:0015639	ferrous iron uptake transmembrane transporter activity	molecular_function	2	feoB-1|feoB-2
+GO:0015658	branched-chain amino acid transmembrane transporter activity	molecular_function	4	GSU2005|GSU2007|livK-1|livK-2
+GO:0015662	ATPase activity, coupled to transmembrane movement of ions, phosphorylative mechanism	molecular_function	1	copA
+GO:0015666	restriction endodeoxyribonuclease activity	molecular_function	1	GSU1365
+GO:0015672	monovalent inorganic cation transport	biological_process	1	mrpF
+GO:0015684	ferrous iron transport	biological_process	2	feoB-1|feoB-2
+GO:0015689	molybdate ion transport	biological_process	3	modA|modC|modE
+GO:0015691	cadmium ion transport	biological_process	1	GSU2147
+GO:0015693	magnesium ion transport	biological_process	2	corA-1|corA-2
+GO:0015696	ammonium transport	biological_process	2	GSU1221|amtB
+GO:0015700	arsenite transport	biological_process	1	arsB
+GO:0015707	nitrite transport	biological_process	1	fdhC
+GO:0015724	formate transport	biological_process	1	fdhC
+GO:0015727	lactate transport	biological_process	1	GSU0226
+GO:0015740	C4-dicarboxylate transport	biological_process	2	GSU2056|dcuB
+GO:0015774	polysaccharide transport	biological_process	1	GSU1842
+GO:0015803	branched-chain amino acid transport	biological_process	4	GSU2005|GSU2007|livK-1|livK-2
+GO:0015809	arginine transport	biological_process	1	GSU1579
+GO:0015819	lysine transport	biological_process	1	GSU1579
+GO:0015822	ornithine transport	biological_process	1	GSU1579
+GO:0015840	urea transport	biological_process	1	GSU2939
+GO:0015857	uracil transport	biological_process	1	uraA
+GO:0015860	purine nucleoside transmembrane transport	biological_process	1	pbuG
+GO:0015920	lipopolysaccharide transport	biological_process	2	GSU0629|GSU2490
+GO:0015934	large ribosomal subunit	cellular_component	3	rplT|rplV|rpmB
+GO:0015935	small ribosomal subunit	cellular_component	1	GSU1200
+GO:0015937	coenzyme A biosynthetic process	biological_process	2	GSU0513|coaBC
+GO:0015939	pantothenate metabolic process	biological_process	1	coaBC
+GO:0015940	pantothenate biosynthetic process	biological_process	5	folD-1|folD-2|panB|panC|panE
+GO:0015949	nucleobase-containing small molecule interconversion	biological_process	3	GSU1246|cmk|tmk-1
+GO:0015968	stringent response	biological_process	1	ispH
+GO:0015976	carbon utilization	biological_process	2	glcD-1|glcD-2
+GO:0015986	ATP synthesis coupled proton transport	biological_process	8	atpA|atpB|atpC|atpD|atpE|atpF|atpG|atpH
+GO:0015992	proton transport	biological_process	1	hppA
+GO:0016020	membrane	cellular_component	1	GSU3388
+GO:0016021	integral component of membrane	cellular_component	17	GSU0622|GSU0851|GSU0854|GSU0855|GSU1336|GSU1429|GSU1570|GSU1665|GSU2323|GSU2610|GSU2632|GSU2828|GSU2948|GSU2959|fxsA|mrpC|nfeD
+GO:0016032	viral process	biological_process	1	GSU0975
+GO:0016052	carbohydrate catabolic process	biological_process	5	GSU0601|GSU2360|GSU2636|treS|treZ
+GO:0016070	RNA metabolic process	biological_process	1	hfq
+GO:0016163	nitrogenase activity	molecular_function	4	nifB|nifD|nifH|nifK
+GO:0016208	AMP binding	molecular_function	1	GSU1677
+GO:0016260	selenocysteine biosynthetic process	biological_process	1	selA
+GO:0016298	lipase activity	molecular_function	1	GSU2415
+GO:0016301	kinase activity	molecular_function	4	GSU0692|GSU1113|cheA40H|cheA44H
+GO:0016410	N-acyltransferase activity	molecular_function	1	lnt-N
+GO:0016491	oxidoreductase activity	molecular_function	19	GSU0197|GSU0802|GSU0880|GSU1370|GSU1564|GSU1576|GSU1877|GSU3019|GSU3126|GSU3330|GSU3417|gdhA|gnnA|metF-1|metF-2|namA|pdhA|pdhB|sfrB
+GO:0016530	metallochaperone activity	molecular_function	2	hypB|hypC
+GO:0016611	iron-iron nitrogenase complex	cellular_component	1	nifH
+GO:0016612	molybdenum-iron nitrogenase complex	cellular_component	3	nifD|nifH|nifK
+GO:0016613	vanadium-iron nitrogenase complex	cellular_component	1	nifH
+GO:0016614	oxidoreductase activity, acting on CH-OH group of donors	molecular_function	1	GSU2247
+GO:0016616	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	molecular_function	3	GSU1854|capL|dxr
+GO:0016651	oxidoreductase activity, acting on NAD(P)H	molecular_function	2	GSU1310|sfrA
+GO:0016657	oxidoreductase activity, acting on NAD(P)H, nitrogenous group as acceptor	molecular_function	3	GSU0217|GSU0528|GSU2525
+GO:0016682	oxidoreductase activity, acting on diphenols and related substances as donors, oxygen as acceptor	molecular_function	1	cydB
+GO:0016696	oxidoreductase activity, acting on hydrogen as donor, NAD or NADP as acceptor	molecular_function	1	hoxE
+GO:0016730	oxidoreductase activity, acting on iron-sulfur proteins as donors	molecular_function	1	vorD
+GO:0016740	transferase activity	molecular_function	1	kdtA
+GO:0016747	transferase activity, transferring acyl groups other than amino-acyl groups	molecular_function	1	argJ
+GO:0016757	transferase activity, transferring glycosyl groups	molecular_function	35	GSU0245|GSU0301|GSU0623|GSU0624|GSU0631|GSU0633|GSU0634|GSU0878|GSU0991|GSU1454|GSU1484|GSU1509|GSU1510|GSU1510.1|GSU1511|GSU1789|GSU1826|GSU1851|GSU1957|GSU1961|GSU1962|GSU1976|GSU1977|GSU2088|GSU2244|GSU2250|GSU2253|GSU2254|GSU2463|GSU2509|GSU2553|GSU3023|GSU3460|otsA|xapF
+GO:0016758	transferase activity, transferring hexosyl groups	molecular_function	1	murG
+GO:0016763	transferase activity, transferring pentosyl groups	molecular_function	3	GSU0116|GSU1561|mrcA
+GO:0016772	transferase activity, transferring phosphorus-containing groups	molecular_function	1	GSU1579
+GO:0016779	nucleotidyltransferase activity	molecular_function	3	GSU1968|ccaC|citX
+GO:0016783	sulfurtransferase activity	molecular_function	1	GSU0930
+GO:0016787	hydrolase activity	molecular_function	17	GSU0184|GSU0477|GSU0569|GSU0572|GSU0694|GSU1002|GSU1052|GSU1343|GSU1694|GSU1839|GSU2069|GSU2196|GSU2583|GSU3157|GSU3287|gmhB|ycgM
+GO:0016788	hydrolase activity, acting on ester bonds	molecular_function	1	GSU1233
+GO:0016791	phosphatase activity	molecular_function	2	gppA-1|kdsC
+GO:0016797	exonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 3'-phosphomonoesters	molecular_function	1	GSU1383
+GO:0016798	hydrolase activity, acting on glycosyl bonds	molecular_function	1	GSU1010
+GO:0016799	hydrolase activity, hydrolyzing N-glycosyl compounds	molecular_function	2	aguB|draG
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	molecular_function	2	GSU0029|GSU0651
+GO:0016812	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amides	molecular_function	1	GSU1722
+GO:0016829	lyase activity	molecular_function	2	GSU1975|uxs
+GO:0016831	carboxy-lyase activity	molecular_function	4	GSU1313|GSU1904|GSU2766|nspC
+GO:0016832	aldehyde-lyase activity	molecular_function	1	GSU1193
+GO:0016835	carbon-oxygen lyase activity	molecular_function	2	metY-1|metY-2
+GO:0016836	hydro-lyase activity	molecular_function	3	GSU1442|GSU2944|fabZ-2
+GO:0016853	isomerase activity	molecular_function	1	kdsD
+GO:0016857	racemase and epimerase activity, acting on carbohydrates and derivatives	molecular_function	2	GSU1975|uxs
+GO:0016862	intramolecular oxidoreductase activity, interconverting keto- and enol-groups	molecular_function	1	GSU1550
+GO:0016866	intramolecular transferase activity	molecular_function	3	GSU1818|shc-1|shc-2
+GO:0016868	intramolecular transferase activity, phosphotransferases	molecular_function	1	cobC
+GO:0016869	intramolecular transferase activity, transferring amino groups	molecular_function	2	hemL|yjeK
+GO:0016874	ligase activity	molecular_function	2	paaK-1|paaK-2
+GO:0016879	ligase activity, forming carbon-nitrogen bonds	molecular_function	2	GSU1810|lplA
+GO:0016884	carbon-nitrogen ligase activity, with glutamine as amido-N-donor	molecular_function	2	GSU0936|hisH
+GO:0016887	ATPase activity	molecular_function	11	GSU0972|GSU1408|GSU2745|flhG|fliI|ftsH-1|ftsH-2|groEL|mfd|mutL|rarA
+GO:0016987	sigma factor activity	molecular_function	2	fliA|rpoN
+GO:0016989	sigma factor antagonist activity	molecular_function	1	rsbV
+GO:0016993	precorrin-8X methylmutase activity	molecular_function	1	cbiC
+GO:0017000	antibiotic biosynthetic process	biological_process	1	GSU1214
+GO:0017004	cytochrome complex assembly	biological_process	6	GSU0614|GSU0705|GSU2880|GSU2890|GSU3283|GSU3316
+GO:0017103	UTP:galactose-1-phosphate uridylyltransferase activity	molecular_function	1	galT
+GO:0017150	tRNA dihydrouridine synthase activity	molecular_function	1	nifR3
+GO:0018054	peptidyl-lysine biotinylation	biological_process	1	birA
+GO:0018271	biotin-protein ligase activity	molecular_function	1	birA
+GO:0019012	virion	cellular_component	1	GSU0975
+GO:0019156	isoamylase activity	molecular_function	1	treZ
+GO:0019164	pyruvate synthase activity	molecular_function	1	por
+GO:0019213	deacetylase activity	molecular_function	1	arnD
+GO:0019288	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	biological_process	1	ispG
+GO:0019294	keto-3-deoxy-D-manno-octulosonic acid biosynthetic process	biological_process	1	kdsA
+GO:0019305	dTDP-rhamnose biosynthetic process	biological_process	3	rmlA|rmlB|rmlD
+GO:0019354	siroheme biosynthetic process	biological_process	1	cysG
+GO:0019358	nicotinate nucleotide salvage	biological_process	1	GSU2289
+GO:0019361	2'-(5''-triphosphoribosyl)-3'-dephospho-CoA biosynthetic process	biological_process	1	citG
+GO:0019363	pyridine nucleotide biosynthetic process	biological_process	3	nadA|nadB|ppnK
+GO:0019426	bisulfite reduction	biological_process	1	GSU0259
+GO:0019430	removal of superoxide radicals	biological_process	2	GSU2612|GSU2814
+GO:0019464	glycine decarboxylation via glycine cleavage system	biological_process	2	gcvH-1|gcvH-2
+GO:0019477	L-lysine catabolic process	biological_process	1	yjeK
+GO:0019534	toxin transporter activity	molecular_function	4	GSU0025|GSU0026|GSU0027|GSU0028
+GO:0019538	protein metabolic process	biological_process	3	GSU0972|GSU2745|rarA
+GO:0019546	arginine deiminase pathway	biological_process	1	aguA
+GO:0019552	glutamate catabolic process via 2-hydroxyglutarate	biological_process	1	GSU2944
+GO:0019605	butyrate metabolic process	biological_process	1	GSU1377
+GO:0019619	protocatechuate catabolic process	biological_process	1	GSU1313
+GO:0019637	organophosphate metabolic process	biological_process	1	cobC
+GO:0019645	anaerobic electron transport chain	biological_process	2	omcB|omcC
+GO:0019678	propionate metabolic process, methylmalonyl pathway	biological_process	2	GSU3302|mceE
+GO:0019740	nitrogen utilization	biological_process	4	GSU0831|GSU2134|glnB|glnK
+GO:0019746	hopanoid biosynthetic process	biological_process	2	shc-1|shc-2
+GO:0019829	cation-transporting ATPase activity	molecular_function	3	GSU1678|GSU2325|GSU2351
+GO:0019836	hemolysis by symbiont of host erythrocytes	biological_process	1	GSU1420
+GO:0019843	rRNA binding	molecular_function	1	rbfA
+GO:0019867	outer membrane	cellular_component	11	GSU0073|GSU0278|GSU0828|GSU0950|GSU1330|GSU1482|GSU1609|GSU1817|GSU2137|GSU2982|GSU3398
+GO:0020037	heme binding	molecular_function	1	GSU2201
+GO:0030001	metal ion transport	biological_process	11	GSU0206|GSU0828|GSU0829|GSU0830|GSU1330|GSU1332|GSU2135|GSU2136|GSU2137|GSU3398|GSU3400
+GO:0030091	protein repair	biological_process	2	msrA|pcm
+GO:0030151	molybdenum ion binding	molecular_function	1	modE
+GO:0030234	enzyme regulator activity	molecular_function	4	GSU0831|GSU2134|glnB|glnK
+GO:0030261	chromosome condensation	biological_process	2	scpA|scpB
+GO:0030288	outer membrane-bounded periplasmic space	cellular_component	2	modA|tupA
+GO:0030413	competence pheromone activity	molecular_function	1	GSU1657
+GO:0030420	establishment of competence for transformation	biological_process	1	GSU1657
+GO:0030428	cell septum	cellular_component	1	maf
+GO:0030435	sporulation resulting in formation of a cellular spore	biological_process	1	ftsW
+GO:0030488	tRNA methylation	biological_process	1	trmD
+GO:0030655	beta-lactam antibiotic catabolic process	biological_process	1	GSU1378
+GO:0040008	regulation of growth	biological_process	1	GSU0736
+GO:0042132	fructose 1,6-bisphosphate 1-phosphatase activity	molecular_function	1	fbp
+GO:0042242	cobyrinic acid a,c-diamide synthase activity	molecular_function	1	GSU0885
+GO:0042254	ribosome biogenesis	biological_process	55	GSU3320|prmA|rimI|rplA|rplB|rplC|rplD|rplE|rplF|rplI|rplJ|rplK|rplL|rplM|rplN|rplO|rplP|rplQ|rplR|rplS|rplT|rplU|rplV|rplW|rplX|rplY|rpmA|rpmB|rpmC|rpmD|rpmE|rpmF|rpmG|rpmI|rpsA|rpsB|rpsC|rpsD|rpsE|rpsF|rpsG|rpsH|rpsI|rpsJ|rpsK|rpsM|rpsN|rpsO|rpsP|rpsQ|rpsR|rpsS|rpsT|rpsU-1|rpsU-2
+GO:0042493	response to drug	biological_process	5	GSU0773|GSU1481|GSU2653|GSU2998|norM
+GO:0042626	ATPase activity, coupled to transmembrane movement of substances	molecular_function	52	GSU0011|GSU0093|GSU0101|GSU0169|GSU0211|GSU0212|GSU0277|GSU0677|GSU0678|GSU0816|GSU0922|GSU0924|GSU0925|GSU0947|GSU1162|GSU1163|GSU1164|GSU1227|GSU1260|GSU1261|GSU1340|GSU1341|GSU1528|GSU1644|GSU2005|GSU2007|GSU2093|GSU2187|GSU2188|GSU2389|GSU2413|GSU2950|GSU2951|GSU2984|GSU2985|cbiO|cbiQ|livK-1|livK-2|lolD|lolE|lptB|modC|nikO|nikQ|rbbA|tupA|tupB|tupC|uup|xapD|xapH
+GO:0043115	precorrin-2 dehydrogenase activity	molecular_function	1	cysG
+GO:0045248	cytosolic oxoglutarate dehydrogenase complex	cellular_component	3	lpdA-1|sucA|sucB
+GO:0045262	plasma membrane proton-transporting ATP synthase complex, catalytic core F(1)	cellular_component	5	atpA|atpC|atpD|atpG|atpH
+GO:0045264	plasma membrane proton-transporting ATP synthase complex, coupling factor F(o)	cellular_component	3	atpB|atpE|atpF
+GO:0045284	plasma membrane fumarate reductase complex	cellular_component	1	frdC
+GO:0045552	dihydrokaempferol 4-reductase activity	molecular_function	1	hpnA
+GO:0046025	precorrin-6Y C5,15-methyltransferase (decarboxylating) activity	molecular_function	1	cbiET
+GO:0046026	precorrin-4 C11-methyltransferase activity	molecular_function	1	cbiF
+GO:0046429	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase activity	molecular_function	1	ispG
+GO:0046677	response to antibiotic	biological_process	4	GSU1378|ispH|rsmA|uppP
+GO:0046685	response to arsenic-containing substance	biological_process	2	arsB|arsC
+GO:0046820	4-amino-4-deoxychorismate synthase activity	molecular_function	1	GSU0523
+GO:0046872	metal ion binding	molecular_function	1	GSU1338
+GO:0046873	metal ion transmembrane transporter activity	molecular_function	6	GSU0829|GSU0830|GSU1332|GSU2135|GSU2136|GSU3400
+GO:0046917	triphosphoribosyl-dephospho-CoA synthase activity	molecular_function	1	citG
+GO:0046933	proton-transporting ATP synthase activity, rotational mechanism	molecular_function	8	atpA|atpB|atpC|atpD|atpE|atpF|atpG|atpH
+GO:0048501	signal recognition particle, plasma membrane targeting	cellular_component	1	ffh
+GO:0050421	nitrite reductase (NO-forming) activity	molecular_function	1	nrfH
+GO:0050515	4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase activity	molecular_function	1	ispE
+GO:0050518	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase activity	molecular_function	1	ispD
+GO:0050797	thymidylate synthase (FAD) activity	molecular_function	1	thyX
+GO:0050821	protein stabilization	biological_process	7	GSU2408|GSU2409|GSU2678|GSU3192|hslO|hspA-1|hspA-2
+GO:0051082	unfolded protein binding	molecular_function	1	hypC
+GO:0051087	chaperone binding	molecular_function	1	groES
+GO:0051266	sirohydrochlorin ferrochelatase activity	molecular_function	1	cysG

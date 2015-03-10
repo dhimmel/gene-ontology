@@ -1,0 +1,5 @@
+go_id	go_term	go_domain	size	genes
+GO:0005739	mitochondrion	cellular_component	53	atp6|atp9|ccmB|ccmC|ccmFc|ccmFn|cob|cox1|cox2|cox3|mat-r|nad1|nad2|nad3|nad4|nad4L|nad6|nad7|nad9|orf152a|orf152b|orf153|orf160|orf161|orf162|orf165|orf173|orf176|orf181|orf183|orf187|orf194|orf224|orf241|orf25|orf284|orf288|orf490|orfB|orfX|psaB|psbA|rpl16|rpl2|rpl5|rps1|rps12|rps13|rps19|rps2|rps3|rps4|rps7
+GO:0009536	plastid	cellular_component	51	atpA|atpE|atpH|atpI|ccsA|clpP|infA|matK|ndhC|ndhD|ndhE|ndhF|ndhG|ndhH|ndhI|ndhJ|ndhK|petA|petD|psaA|psaB|psaC|psbA|psbB|psbC|psbD|psbE|psbF|psbH|psbI|psbK|psbM|psbN|rbcL|rpl14|rpl16|rpl22|rpl32|rpl33|rpoA|rpoB|rpoC1|rpoC2|rps11|rps14|rps18|rps2|rps3|rps4|rps8|ycf4
+GO:0016020	membrane	cellular_component	28	atp6|atpI|ccmC|ccmFc|ccsA|cob|cox1|cox3|nad1|nad2|nad3|nad4|nad4L|nad6|ndhC|ndhD|ndhE|ndhF|ndhG|orf224|orf241|petD|psaA|psaB|psbA|psbB|psbC|psbD
+GO:0016023	cytoplasmic membrane-bounded vesicle	cellular_component	22	atpH|ccmB|ccsA|cox2|matK|nad1|nad2|ndhC|ndhD|ndhE|ndhF|ndhG|orf152b|orf224|orf241|orf288|orfB|psbF|psbI|psbK|psbM|psbN

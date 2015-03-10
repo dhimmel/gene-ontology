@@ -1,5 +1,6 @@
 ---
 title: Annotating the Gene Ontology with Entrez Genes
+layout: page
 ---
 # Annotating the Gene Ontology with Entrez Genes
 

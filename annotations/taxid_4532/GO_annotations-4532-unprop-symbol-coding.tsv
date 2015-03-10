@@ -1,0 +1,5 @@
+go_id	go_term	go_domain	size	genes
+GO:0005739	mitochondrion	cellular_component	1	rpoA
+GO:0008380	RNA splicing	biological_process	1	matK
+GO:0009536	plastid	cellular_component	8	matK|ndhA|petA|psaA|psbJ|psbL|rpl16|rpoA
+GO:0016023	cytoplasmic membrane-bounded vesicle	cellular_component	1	psbJ
