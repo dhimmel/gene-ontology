@@ -12,7 +12,6 @@
 
   </head>
   <body>
-    {% include navbar.html %}
     
     <div class="container">
     {{ content }}
@@ -23,6 +22,75 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+
+    function renderDownload(data, type, full) {
+        if (type != 'display') {return data};
+        return '<a href="' + data + '" target="_blank">link</a>';
+    }
+
+    function renderTaxId(data, type, full) {
+        if (type != 'display') {return data};
+        return '<a href="//www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=' + data + '" target="_blank">' + data + '</a>';
+    }
+
+    function numberWithCommas(data, type, full) {
+        if (type != 'display') {return data};
+        return data.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+    }
+
+
+    var aoColumns = [
+        {'aTargets': ['TaxId'], 'mRender': renderTaxId, 'sType': 'numeric'},
+        {'aTargets': ['Scientific Name']},
+        {'aTargets': ['Terms'], 'mRender': numberWithCommas, 'sType': 'numeric'},
+        {'aTargets': ['Annotations'], 'mRender': numberWithCommas, 'sType': 'numeric'},
+        {'aTargets': ['Download'], 'mRender': renderDownload}];
+
+
+
+    function renderTable() {
+      var prop = $('input[name=prop]').filter(':checked').val();
+      var vocab = $('input[name=vocab]').filter(':checked').val();
+      var coding = $('input[name=coding]').filter(':checked').val();
+      console.log([prop, vocab, coding]);
+
+      var table_id = prop + '-' + vocab + '-' + coding;
+      var path = 'summaries/summary-' + table_id +'.json'
+      var table_html = '<table cellpadding="0" cellspacing="0" border="0" class="display" width="100%" id="table_' + table_id + '"><thead><th>TaxId</th><th>Scientific Name</th><th>Terms</th><th>Annotations</th><th>Download</th></thead><tbody></tbody></table>';
+      $('#dynamic-table').fadeOut(1).html(table_html).fadeIn(900);
+      $('#table_' + table_id).dataTable({
+        'ajax': path, 'bProcessing': true, 'aoColumns': aoColumns
+        })
+    }
+    renderTable()
+
+    $('body').on('mousedown', '#prop_button .btn', function(event) {
+      event.stopPropagation(); // prevent default bootstrap behavior
+      if ($(this).attr('data-toggle') != 'button') { // don't toggle if data-toggle="button"
+        $(this).button('toggle')
+      }
+      renderTable()
+    });
+
+     $('body').on('mousedown', '#vocab_button .btn', function(event) {
+      event.stopPropagation(); // prevent default bootstrap behavior
+      if ($(this).attr('data-toggle') != 'button') { // don't toggle if data-toggle="button"
+        $(this).button('toggle')
+      }
+      renderTable()
+    });
+
+    $('body').on('mousedown', '#coding_button .btn', function(event) {
+      event.stopPropagation(); // prevent default bootstrap behavior
+      if ($(this).attr('data-toggle') != 'button') { // don't toggle if data-toggle="button"
+        $(this).button('toggle')
+      }
+      renderTable()
+    });
+ 
+    </script>
     {% include piwik.html %}
   </body>
 </html>

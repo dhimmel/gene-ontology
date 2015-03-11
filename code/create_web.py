@@ -29,12 +29,11 @@ etree = xml.etree.ElementTree.fromstring(response.content)
 for docsum in etree:
     taxid = None
     name = None
-    for item in docsum.findall('Item'):
-        if item.get('Name') == 'TaxId':
-            taxid = int(item.text)
-        if item.get('Name') == 'ScientificName':
-            name = item.text
-    taxdict[taxid]['scientific_name'] = name
+    item_dict = {item.get('Name'): item.text for item in docsum.findall('Item')}
+    taxid = int(item_dict['TaxId'])
+    taxdict[taxid]['scientific_name'] = tem_dict['ScientificName']
+    taxdict[taxid]['common_name'] = tem_dict['CommonName']
+    taxdict[taxid]['division'] = tem_dict['Division']
 
 prop_opts = ['prop', 'unprop']
 coding_opts = ['all', 'coding']
