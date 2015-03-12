@@ -14,7 +14,7 @@ GO:0000146	microfilament motor activity	molecular_function	2	MYH8|MYH9
 GO:0000155	phosphorelay sensor kinase activity	molecular_function	1	KCNH2
 GO:0000160	phosphorelay signal transduction system	biological_process	1	KCNH2
 GO:0000165	MAPK cascade	biological_process	9	CAV1|CCL3|CCR5|IL1B|MAP2K2|MEN1|MYC|NLK|TGFB1
-GO:0000166	nucleotide binding	molecular_function	4	HPRT1|RBM47|SULT1A1|TRIB2
+GO:0000166	nucleotide binding	molecular_function	3	HPRT1|RBM47|SULT1A1
 GO:0000178	exosome (RNase complex)	cellular_component	1	AICDA
 GO:0000185	activation of MAPKKK activity	biological_process	1	TNF
 GO:0000187	activation of MAPK activity	biological_process	8	GHRL|HGF|IL1B|KIT|MAP2K2|MET|PDE6G|TNF
@@ -320,7 +320,7 @@ GO:0004175	endopeptidase activity	molecular_function	1	TPP1
 GO:0004177	aminopeptidase activity	molecular_function	1	ANPEP
 GO:0004181	metallocarboxypeptidase activity	molecular_function	1	CPB1
 GO:0004190	aspartic-type endopeptidase activity	molecular_function	5	CTSD|PGA|PGB|PSEN1|REN
-GO:0004197	cysteine-type endopeptidase activity	molecular_function	4	CASP12|CASP3|CASP4|USP37
+GO:0004197	cysteine-type endopeptidase activity	molecular_function	3	CASP12|CASP4|USP37
 GO:0004222	metalloendopeptidase activity	molecular_function	2	MMP3|MMP9
 GO:0004252	serine-type endopeptidase activity	molecular_function	13	CELA1|CMA1|F9|HGF|HGFAC|KLK2|LOC100049001|LOC100686744|LOC448801|LOC476104|LOC479649|RHBDF2|TPP1
 GO:0004298	threonine-type endopeptidase activity	molecular_function	1	PSMB8
@@ -356,7 +356,7 @@ GO:0004601	peroxidase activity	molecular_function	2	DUOX1|PTGS1
 GO:0004602	glutathione peroxidase activity	molecular_function	1	GPX5
 GO:0004666	prostaglandin-endoperoxide synthase activity	molecular_function	1	PTGS1
 GO:0004667	prostaglandin-D synthase activity	molecular_function	1	PTGDS
-GO:0004672	protein kinase activity	molecular_function	5	CCL3|CCL8|GUCY2D|SOX9|TRIB2
+GO:0004672	protein kinase activity	molecular_function	4	CCL3|CCL8|GUCY2D|SOX9
 GO:0004673	protein histidine kinase activity	molecular_function	1	NME2
 GO:0004674	protein serine/threonine kinase activity	molecular_function	2	DSTYK|MAP2K2
 GO:0004677	DNA-dependent protein kinase activity	molecular_function	1	PRKDC
@@ -435,7 +435,7 @@ GO:0005088	Ras guanyl-nucleotide exchange factor activity	molecular_function	2	A
 GO:0005089	Rho guanyl-nucleotide exchange factor activity	molecular_function	1	ARHGEF2
 GO:0005093	Rab GDP-dissociation inhibitor activity	molecular_function	2	GDI1|GDI2
 GO:0005095	GTPase inhibitor activity	molecular_function	1	PDE6D
-GO:0005096	GTPase activator activity	molecular_function	4	ARHGAP35|DLC1|GDI1|GDI2
+GO:0005096	GTPase activator activity	molecular_function	5	ARHGAP35|DLC1|GDI1|GDI2|RAPGEF2
 GO:0005102	receptor binding	molecular_function	6	ASIP|CAV1|CNTFR|PLA2G1B|REN|TRDN
 GO:0005104	fibroblast growth factor receptor binding	molecular_function	3	FGF5|FGF7|FGF8
 GO:0005109	frizzled binding	molecular_function	1	MYOC
@@ -499,7 +499,7 @@ GO:0005344	oxygen transporter activity	molecular_function	1	NGB
 GO:0005351	sugar:proton symporter activity	molecular_function	2	SLC35A2|SLC35A3
 GO:0005355	glucose transmembrane transporter activity	molecular_function	1	SLC2A3
 GO:0005369	taurine:sodium symporter activity	molecular_function	1	SLC6A6
-GO:0005372	water transmembrane transporter activity	molecular_function	2	AQP1|PDPN
+GO:0005372	water transmembrane transporter activity	molecular_function	1	AQP1
 GO:0005384	manganese ion transmembrane transporter activity	molecular_function	2	SLC11A1|ZP3
 GO:0005388	calcium-transporting ATPase activity	molecular_function	1	ATP2A2
 GO:0005391	sodium:potassium-exchanging ATPase activity	molecular_function	2	ATP1A1|ATP4A
@@ -528,7 +528,7 @@ GO:0005576	extracellular region	cellular_component	70	ANGPT1|ARSI|ARSK|ASIP|BCHE
 GO:0005578	proteinaceous extracellular matrix	cellular_component	16	ACAN|BGN|COL1A1|COL1A2|DCN|FN1|MMP3|MMP9|MYOC|OPTC|TFF3|TFIP11|TGFB1|VWF|ZP2|ZP3
 GO:0005581	collagen trimer	cellular_component	4	COL17A1|COL1A1|COL1A2|COL4A5
 GO:0005604	basement membrane	cellular_component	4	ANXA2|COL17A1|COL4A5|DAG1
-GO:0005615	extracellular space	cellular_component	83	ADM|AFP|ALB|ANGPT2|ANPEP|ANXA13|APP|ARSG|BMP7|CCL13|CCL17|CCL2|CCL24|CCL25|CCL26|CCL28|CCL3|CCL4|CCL5|CCL8|CD40LG|CLU|CMA1|CSF2|CTSD|CTSK|CXCL10|CXCL8|DAG1|DCN|EDN1|EDN2|F8|GAL|GH1|GHRL|HGFAC|HMGB1|IAPP|IFNA7|IFNG|IGF1|IL10|IL12A|IL12B|IL13|IL18|IL1A|IL1B|IL1RN|IL2|IL21|IL3|IL33|IL4|IL5|IL6|KIT|KITLG|LEP|LOC100686744|LOC448801|LOC479649|LTA|MMP9|MSTN|MYOC|NPPA|PLA2G1B|PLA2G7|PPY|PTGDS|PTH|REN|S100A4|SFRP2|TGFB1|TIMP1|TNF|TPI1|TPO|VEGFA|ZP3
+GO:0005615	extracellular space	cellular_component	84	ADM|AFP|ALB|ANGPT2|ANPEP|ANXA13|APP|ARSG|BMP7|CCL13|CCL17|CCL2|CCL24|CCL25|CCL26|CCL28|CCL3|CCL4|CCL5|CCL8|CD40LG|CLU|CMA1|CSF2|CTSD|CTSK|CXCL10|CXCL8|DAG1|DCN|EDN1|EDN2|F8|GAL|GH1|GHRL|HGFAC|HMGB1|IAPP|IFNA7|IFNG|IGF1|IL10|IL12A|IL12B|IL13|IL18|IL1A|IL1B|IL1RN|IL2|IL21|IL3|IL33|IL4|IL5|IL6|KIT|KITLG|LEP|LOC100686744|LOC448801|LOC479649|LTA|MMP9|MSTN|MYOC|NPPA|PLA2G1B|PLA2G7|PPY|PTGDS|PTH|REN|S100A4|SAA1|SFRP2|TGFB1|TIMP1|TNF|TPI1|TPO|VEGFA|ZP3
 GO:0005622	intracellular	cellular_component	5	CCL3|CMA1|MAP2K2|PTH1R|REN
 GO:0005634	nucleus	cellular_component	116	ADRA1A|ADRA1B|AGL|AICDA|ANP32A|AQP1|AR|ARHGAP35|ASPM|BCL2L2|BIRC3|BIRC5|BRD2|CAV2|CCNB3|CCND1|CDKN1B|CLN3|CLNS1A|CLU|COMMD1|CREM|CRX|CRYAA|CRYGB|CRYGC|CTNNB1|CYCS|DNASE1|DYNLT3|EPB41|ERBB2|ESRRA|FER|FOSB|FOXI3|GAPDH|GATA4|GH1|GNAI2|HEY1|HMGA1|HMGB1|HMGN2|HSF4|HSP90B1|HSPB1|HSPB8|ID3|IL33|INVS|KDM5C|KDM5D|MAPK14|MGMT|MSX2|MT1E|MT2A|MTPN|MYC|MYH9|NFKB1|NICN1|NLK|NME1|NR4A1|ODAM|PAX8|PDC|PDGFRB|PGR|PMAIP1|PMCH|POU1F1|PPARA|PPARD|PPARG|PRKACA|PRKCD|PROP1|PSMB8|PTHLH|QKI|RAD51|RAN|RARA|RBM47|RPL15|RPS18|RPS3|S100A4|SIRT5|SMN|SOD1|SOX9|SRP54|T|TBX19|TBX2|TBX4|TCF4|TFAP2B|TGFB1|TJP2|TMEM190|TNP2|TP53|TPI1|TUBD1|UACA|UBA52|USP11|USP37|VHL|ZNF252|ZNF331
 GO:0005635	nuclear envelope	cellular_component	2	CLGN|DNASE1
@@ -558,7 +558,7 @@ GO:0005768	endosome	cellular_component	9	ACKR3|APP|CAV1|CCR5|CDH1|CDKN1B|RAB10|R
 GO:0005769	early endosome	cellular_component	10	ACKR3|ADRB1|CFTR|CLN3|COMMD1|CXCR4|RAB1A|RAB22A|RAB5A|RAB5C
 GO:0005770	late endosome	cellular_component	6	CLN3|CXCR4|RAB22A|RAB7A|RAB9A|RAPGEF2
 GO:0005771	multivesicular body	cellular_component	4	CD79A|RAB11A|ZP2|ZP3
-GO:0005774	vacuolar membrane	cellular_component	2	RAB7A|RAB9A
+GO:0005774	vacuolar membrane	cellular_component	1	RAB7A
 GO:0005775	vacuolar lumen	cellular_component	1	CLN5
 GO:0005776	autophagic vacuole	cellular_component	1	RAB12
 GO:0005777	peroxisome	cellular_component	2	CAT|UOX
@@ -570,7 +570,7 @@ GO:0005788	endoplasmic reticulum lumen	cellular_component	3	CLN6|EOGT|HSP90B1
 GO:0005789	endoplasmic reticulum membrane	cellular_component	46	BCL2|CANX|CLGN|CLN6|CLN8|CYB5R3|CYP21A2|CYP2B6|CYP2C18|CYP2C41|CYP2D15|CYP2E1|CYP3A12|DIO1|FMO1|FMO3|G6PC|GTDC2|HSD3B2|HSP90B1|KCNA2|KRTCAP2|MX1|PSEN1|PTGS1|PTPLA|RAB1A|RAB2A|RHBDF2|SEC11A|SEC11C|SEC61A1|SEC61B|SEC61G|SLC39A7|SPCS2|SPCS3|SSR1|SSR2|TAPBP|TLR9|TMED11|TRAM1|UGT2B31|XYLT1|XYLT2
 GO:0005791	rough endoplasmic reticulum	cellular_component	3	HCRT|MYOC|PTGDS
 GO:0005793	endoplasmic reticulum-Golgi intermediate compartment	cellular_component	2	ANPEP|CLN8
-GO:0005794	Golgi apparatus	cellular_component	26	AP3B1|APP|AQP2|ARHGEF2|CLN3|CLN5|DBI|FGF7|GDI1|GLB1|LMAN2|MYOC|NOS3|PSEN1|PTGDS|RAB10|RAB27A|RAB7A|RABAC1|RHO|RPGR|SLC39A7|SYN1|VPS52|ZP2|ZP3
+GO:0005794	Golgi apparatus	cellular_component	27	AP3B1|APP|AQP2|ARHGEF2|CLN3|CLN5|DBI|FGF7|GDI1|GLB1|LMAN2|MYOC|NOS3|PSEN1|PTGDS|RAB10|RAB27A|RAB7A|RABAC1|RHO|RPGR|SLC35A3|SLC39A7|SYN1|VPS52|ZP2|ZP3
 GO:0005795	Golgi stack	cellular_component	1	CLN3
 GO:0005802	trans-Golgi network	cellular_component	7	CDH1|CLN3|GH1|PLEKHA8|RAB10|RAB11A|RAB13
 GO:0005811	lipid particle	cellular_component	1	RAB5A
@@ -591,7 +591,7 @@ GO:0005868	cytoplasmic dynein complex	cellular_component	1	DYNLT3
 GO:0005869	dynactin complex	cellular_component	1	ACTR1A
 GO:0005874	microtubule	cellular_component	8	ARHGEF2|ASPM|DYNLT3|INVS|MAP2K2|NICN1|TEKT1|TUBD1
 GO:0005875	microtubule associated complex	cellular_component	1	RP1
-GO:0005876	spindle microtubule	cellular_component	2	BIRC3|BIRC5
+GO:0005876	spindle microtubule	cellular_component	1	BIRC5
 GO:0005881	cytoplasmic microtubule	cellular_component	1	BIRC5
 GO:0005882	intermediate filament	cellular_component	3	DES|KRT10|KRT9
 GO:0005886	plasma membrane	cellular_component	113	AAMP|ABCC1|ACKR3|ACTB|ADCY5|ADORA1|ADORA2A|ADORA2B|ADRA1A|ADRA1B|ADRB1|ADRB2|ADRB3|APP|AQP1|ATP1A1|ATP4A|ATP6V1G2|BDKRB1|CCKBR|CCR3|CD163|CD34|CD44|CD52|CDC42|CFOLF1|CFOLF4|CFTR|CLDN2|CLN3|CLNS1A|CNTFR|CTLA4|CTNNB1|CXCR2|CXCR3|CXCR4|DSG1|DSG3|EDNRA|EDNRB|ERBB2|FER|GH1|GHR|GNA11|GNAI2|GNAS|GNRHR|GP2|GPR83|HRH2|HSP90B1|HTR2A|KCNMA1|KITLG|KRT1|LIFR|MC1R|MYH9|NME2|NPY1R|NPY5R|OR1E2|PDE6A|PDGFRB|PDPN|PLP1|PODXL|PRKACA|PTGER2|RAB10|RAB11A|RAB13|RAB22A|RAB4B|RAB5A|RAB5C|RAB8A|RAB9A|RABAC1|RAC1|RAPGEF2|RHAG|RHBDF2|RHBG|RHCG|RHO|RHOA|RPE65|RXFP2|SLC2A4|SSTR2|STXBP2|TACR1|TACR2|TAS1R2|TAS1R3|TFRC|THBD|TJP1|TJP2|TJP3|TMEM47|TSHR|VNN1|YES1|ZACN|ZDHHC5|ZP2|ZP3|cOR13M4
@@ -609,7 +609,7 @@ GO:0005916	fascia adherens	cellular_component	2	CTNNB1|DES
 GO:0005921	gap junction	cellular_component	3	MIP|SPECC1L|TJP1
 GO:0005922	connexon complex	cellular_component	3	GJA1|GJA5|GJC1
 GO:0005923	tight junction	cellular_component	12	ARHGEF2|CGN|CLDN2|CLDN3|CTNNB1|NPHP1|OCLN|RAB13|TJP1|TJP2|TJP3|VASP
-GO:0005925	focal adhesion	cellular_component	15	ACTB|CAV1|CDH1|CTNNB1|DAG1|DLC1|HMGA1|HSP90B1|NME2|PDGFRB|RPL19|RPS18|RPS3|TES|VASP
+GO:0005925	focal adhesion	cellular_component	15	ACTB|CAV1|CDH1|CTNNB1|DAG1|DLC1|HMGA1|HSP90B1|MYH9|PDGFRB|RPL19|RPS18|RPS3|TES|VASP
 GO:0005929	cilium	cellular_component	5	CAV1|MYOC|NPHP1|RAB8A|TEKT1
 GO:0005938	cell cortex	cellular_component	6	CAV1|CTNNB1|EPB41|FER|OOEP|RHOA
 GO:0005975	carbohydrate metabolic process	biological_process	4	FGFRL1|GALC|GLB1|GUSB
@@ -667,7 +667,7 @@ GO:0006417	regulation of translation	biological_process	4	APP|GAPDH|QKI|RPS3
 GO:0006457	protein folding	biological_process	5	APOA2|CANX|CLGN|HSP90B1|PFDN6
 GO:0006461	protein complex assembly	biological_process	2	CLGN|SOX9
 GO:0006465	signal peptide processing	biological_process	5	CLN5|SEC11A|SEC11C|SPCS2|SPCS3
-GO:0006468	protein phosphorylation	biological_process	12	APP|BIRC5|CCL3|CCL8|GUCY2D|OOEP|PDGFB|PRKACA|PRKDC|RHO|SOX9|TRIB2
+GO:0006468	protein phosphorylation	biological_process	11	APP|BIRC5|CCL3|CCL8|GUCY2D|OOEP|PDGFB|PRKACA|PRKDC|RHO|SOX9
 GO:0006469	negative regulation of protein kinase activity	biological_process	1	TRIB2
 GO:0006470	protein dephosphorylation	biological_process	2	PPP1CA|PTEN
 GO:0006476	protein deacetylation	biological_process	1	SIRT5
@@ -719,14 +719,13 @@ GO:0006821	chloride transport	biological_process	1	CLNS1A
 GO:0006824	cobalt ion transport	biological_process	1	GIF
 GO:0006825	copper ion transport	biological_process	2	ATOX1|COX17
 GO:0006826	iron ion transport	biological_process	2	FTH1|FTL
-GO:0006828	manganese ion transport	biological_process	3	SLC11A1|ZP2|ZP3
+GO:0006828	manganese ion transport	biological_process	2	SLC11A1|ZP3
 GO:0006829	zinc II ion transport	biological_process	1	SLC39A7
-GO:0006833	water transport	biological_process	3	AQP1|MIP|PDPN
+GO:0006833	water transport	biological_process	2	AQP1|MIP
 GO:0006835	dicarboxylic acid transport	biological_process	1	SLC1A6
 GO:0006836	neurotransmitter transport	biological_process	2	SLC6A12|SLC6A6
 GO:0006839	mitochondrial transport	biological_process	3	UCP1|UCP2|UCP3
 GO:0006857	oligopeptide transport	biological_process	1	SLC15A1
-GO:0006865	amino acid transport	biological_process	1	PDPN
 GO:0006869	lipid transport	biological_process	3	APOC2|APOC3|PLEKHA8
 GO:0006873	cellular ion homeostasis	biological_process	1	RHCG
 GO:0006874	cellular calcium ion homeostasis	biological_process	7	ATP2A2|CCL3|CCL8|PLN|PTH|PTH1R|TNNI3
@@ -744,6 +743,7 @@ GO:0006897	endocytosis	biological_process	5	APP|GHR|NME1|RAB1A|RAB5A
 GO:0006898	receptor-mediated endocytosis	biological_process	5	ADRB2|CD163|CLN3|CUBN|TFRC
 GO:0006904	vesicle docking involved in exocytosis	biological_process	5	EXOC6|PLEK|RAB27A|RAB8A|STXBP2
 GO:0006906	vesicle fusion	biological_process	1	CAV2
+GO:0006911	phagocytosis, engulfment	biological_process	1	MYH9
 GO:0006913	nucleocytoplasmic transport	biological_process	2	ANP32A|RAN
 GO:0006914	autophagy	biological_process	2	RAB12|RAB1A
 GO:0006915	apoptotic process	biological_process	10	BCL2|CASP12|CASP4|DNASE1|EBAG9|MAPK14|PRKCD|PSEN1|PTEN|RPS3
@@ -948,7 +948,6 @@ GO:0008395	steroid hydroxylase activity	molecular_function	1	CYP2E1
 GO:0008424	glycoprotein 6-alpha-L-fucosyltransferase activity	molecular_function	1	FUT8
 GO:0008483	transaminase activity	molecular_function	1	AMT
 GO:0008484	sulfuric ester hydrolase activity	molecular_function	3	ARSH|ARSI|ARSK
-GO:0008517	folic acid transporter activity	molecular_function	1	PDPN
 GO:0008519	ammonium transmembrane transporter activity	molecular_function	4	AQP1|RHAG|RHBG|RHCG
 GO:0008534	oxidized purine nucleobase lesion DNA N-glycosylase activity	molecular_function	1	RPS3
 GO:0008535	respiratory chain complex IV assembly	biological_process	1	COX3
@@ -1110,9 +1109,8 @@ GO:0015078	hydrogen ion transmembrane transporter activity	molecular_function	3	
 GO:0015106	bicarbonate transmembrane transporter activity	molecular_function	1	CFTR
 GO:0015108	chloride transmembrane transporter activity	molecular_function	1	CFTR
 GO:0015168	glycerol transmembrane transporter activity	molecular_function	2	AQP1|AQP2
-GO:0015171	amino acid transmembrane transporter activity	molecular_function	1	PDPN
 GO:0015198	oligopeptide transporter activity	molecular_function	1	SLC15A1
-GO:0015250	water channel activity	molecular_function	4	AQP1|AQP2|MIP|PDPN
+GO:0015250	water channel activity	molecular_function	3	AQP1|AQP2|MIP
 GO:0015254	glycerol channel activity	molecular_function	1	AQP1
 GO:0015269	calcium-activated potassium channel activity	molecular_function	1	KCNMB1
 GO:0015278	calcium-release channel activity	molecular_function	1	TRPV1
@@ -1136,8 +1134,6 @@ GO:0015793	glycerol transport	biological_process	2	AQP1|AQP2
 GO:0015798	myo-inositol transport	biological_process	1	SLC5A3
 GO:0015809	arginine transport	biological_process	1	CLN3
 GO:0015812	gamma-aminobutyric acid transport	biological_process	1	SLC6A12
-GO:0015849	organic acid transport	biological_process	1	SLC6A6
-GO:0015884	folic acid transport	biological_process	1	PDPN
 GO:0015889	cobalamin transport	biological_process	1	GIF
 GO:0015908	fatty acid transport	biological_process	1	PPARD
 GO:0015909	long-chain fatty acid transport	biological_process	1	PPARG
@@ -1149,7 +1145,7 @@ GO:0015992	proton transport	biological_process	3	ATP4B|SLC35A2|SLC35A3
 GO:0016004	phospholipase activator activity	molecular_function	2	CCL3|CCL8
 GO:0016011	dystroglycan complex	cellular_component	1	DAG1
 GO:0016012	sarcoglycan complex	cellular_component	1	SGCG
-GO:0016020	membrane	cellular_component	26	CAPZA2|CCL13|CCL2|CCND1|CDC42|CYP19A1|DLC1|GALK1|GDI2|HGF|IL12B|INPP5A|INVS|LTA|MCL1|PDE6B|PLEKHA8|PON2|PRKCD|RAC1|REN|RPL19|RPS18|TGM1|VEGFA|VHL
+GO:0016020	membrane	cellular_component	25	CAPZA2|CCL13|CCL2|CCND1|CDC42|CYP19A1|DLC1|GDI2|HGF|IL12B|INPP5A|INVS|LTA|MCL1|PDE6B|PLEKHA8|PON2|PRKCD|RAC1|REN|RPL19|RPS18|TGM1|VEGFA|VHL
 GO:0016021	integral component of membrane	cellular_component	196	ABCC1|ACKR3|ADCY5|ADORA1|ADORA2A|ADORA2B|ADRA1A|ADRA1B|ADRB1|ADRB2|ADRB3|ALCAM|AMN|APP|AQP2|ARSH|ATP1A1|ATP2A2|ATP4A|ATP6|ATP6V0E1|ATP8|B3GALT4|B3GAT1|B3GAT2|BCL2|BDKRB1|C5AR1|CANX|CCKBR|CCR3|CCR4|CCR5|CD163|CD3E|CD4|CD40|CD40LG|CD44|CD79A|CD8A|CDH1|CFOLF1|CFOLF4|CLDN2|CLDN3|CLGN|CLN3|CLN5|CLN6|CLN8|CNGB3|CNTNAP5|COL17A1|COX1|COX2|COX3|CTLA4|CXCR2|CXCR3|CXCR4|CYTB|DAG1|DBH|DDOST|DIO1|DSG1|DSG3|DUOX1|EBAG9|EDNRA|EDNRB|EGF|EMR2|EPOR|ERBB2|FMO1|FMO3|FUT10|FUT8|FUT9|G6PC|GBGT1|GHR|GJA1|GJC1|GNRHR|GP1BA|GPR83|GRIN1|GTDC2|GUCY2D|GYPA|HLA-DRB1|HRH2|HSD3B2|ICAM1|IL13RA2|IL2RA|IL2RG|KCNH2|KCNMB1|KIT|KITLG|KLRD1|KRTCAP2|LIFR|LMAN2|MAL|MAOA|MAOB|MC1R|MCL1|MET|ND1|ND2|ND3|ND4|ND4L|ND5|ND6|NPY1R|NPY5R|OCLN|OPN1LW|OR1E2|OSTC|PDGFRB|PDPN|PLP1|PODXL|PRCD|PRPH2|PTGER2|PTGES|PTPLA|RABAC1|RHAG|RHBDF2|RHBG|RHO|RXFP2|SCAMPER|SEC11A|SEC11C|SEC61B|SELE|SGCG|SLAMF1|SLC11A1|SLC15A1|SLC1A6|SLC2A3|SLC2A4|SLC35A2|SLC35A3|SLC39A7|SLC46A2|SLC5A3|SMIM12|SPCS2|SPCS3|SSR1|SSR2|SSTR2|TACR1|TACR2|TAPBP|TAS1R2|TAS1R3|TFRC|THBD|TLR2|TLR9|TMED11|TMEM190|TMEM47|TMEM57|TPO|TRAM1|TRPV1|TSHR|TYR|UCP1|UCP2|UCP3|UGT2B31|VCAM1|XYLT1|XYLT2|ZACN|ZDHHC5|ZDHHC8|ZP2|ZP3|cOR13M4
 GO:0016023	cytoplasmic membrane-bounded vesicle	cellular_component	12	ANXA13|ARHGEF2|BDNF|C5AR1|COMMD1|CXCR4|GAD2|HCRT|HTR2A|MYOC|PDGFRB|RAB25
 GO:0016032	viral process	biological_process	2	SLAMF1|TFRC
@@ -1170,14 +1166,13 @@ GO:0016235	aggresome	cellular_component	1	CDH1
 GO:0016262	protein N-acetylglucosaminyltransferase activity	molecular_function	1	EOGT
 GO:0016264	gap junction assembly	biological_process	1	GJA5
 GO:0016272	prefoldin complex	cellular_component	1	PFDN6
-GO:0016298	lipase activity	molecular_function	1	PNLIPRP1
 GO:0016301	kinase activity	molecular_function	1	CCL3
 GO:0016310	phosphorylation	biological_process	4	CCL3|CKB|CKM|PKLR
 GO:0016311	dephosphorylation	biological_process	3	G6PC|PPP1CB|PPP1CC
 GO:0016314	phosphatidylinositol-3,4,5-trisphosphate 3-phosphatase activity	molecular_function	1	PTEN
 GO:0016322	neuron remodeling	biological_process	1	APP
 GO:0016323	basolateral plasma membrane	cellular_component	13	ANXA13|AQP1|AQP2|C5AR1|CAV1|CDH1|CTNNB1|DSTYK|PDGFB|RHBG|RHCG|SLC8A1|UMOD
-GO:0016324	apical plasma membrane	cellular_component	17	ANXA13|AQP1|AQP2|CAV1|CD34|CFTR|DSTYK|DUOX1|FZD6|KCNMA1|PDGFRB|PODXL|RHCG|SCNN1B|SLC46A2|STXBP2|UMOD
+GO:0016324	apical plasma membrane	cellular_component	19	AMN|ANXA13|AQP1|AQP2|CAV1|CD34|CFTR|CUBN|DSTYK|DUOX1|FZD6|KCNMA1|PDGFRB|PODXL|RHCG|SCNN1B|SLC46A2|STXBP2|UMOD
 GO:0016328	lateral plasma membrane	cellular_component	4	CDH1|CLDN3|CTNNB1|RAB13
 GO:0016337	single organismal cell-cell adhesion	biological_process	6	CD34|CDH1|CTNNB1|ICAM1|PNN|VCAM1
 GO:0016338	calcium-independent cell-cell adhesion via plasma membrane cell-adhesion molecules	biological_process	2	CLDN2|CLDN3
@@ -1214,7 +1209,7 @@ GO:0016787	hydrolase activity	molecular_function	1	ATP6V0E1
 GO:0016791	phosphatase activity	molecular_function	1	PPP1CA
 GO:0016853	isomerase activity	molecular_function	1	RPE65
 GO:0016874	ligase activity	molecular_function	4	BIRC3|BRCA1|MDM2|RING1
-GO:0016887	ATPase activity	molecular_function	4	ATP6|CLU|MYH8|MYH9
+GO:0016887	ATPase activity	molecular_function	3	ATP6|MYH8|MYH9
 GO:0017015	regulation of transforming growth factor beta receptor signaling pathway	biological_process	1	TGFB1
 GO:0017018	myosin phosphatase activity	molecular_function	1	PPP1CB
 GO:0017034	Rap guanyl-nucleotide exchange factor activity	molecular_function	1	RAPGEF2
@@ -1249,7 +1244,7 @@ GO:0018279	protein N-linked glycosylation via asparagine	biological_process	2	DD
 GO:0018298	protein-chromophore linkage	biological_process	2	OPN1LW|RHO
 GO:0018345	protein palmitoylation	biological_process	1	ZDHHC8
 GO:0018812	3-hydroxyacyl-CoA dehydratase activity	molecular_function	1	PTPLA
-GO:0019003	GDP binding	molecular_function	15	RAB10|RAB11A|RAB12|RAB13|RAB1A|RAB22A|RAB25|RAB27A|RAB2A|RAB5A|RAB5C|RAB7A|RAB8A|RAB9A|SRP54
+GO:0019003	GDP binding	molecular_function	11	RAB10|RAB12|RAB22A|RAB27A|RAB2A|RAB5A|RAB5C|RAB7A|RAB8A|RAB9A|SRP54
 GO:0019005	SCF ubiquitin ligase complex	cellular_component	1	FBXL15
 GO:0019048	modulation by virus of host morphology or physiology	biological_process	1	DAG1
 GO:0019049	evasion or tolerance of host defenses by virus	biological_process	1	TGFB1
@@ -1341,7 +1336,7 @@ GO:0030056	hemidesmosome	cellular_component	1	COL17A1
 GO:0030057	desmosome	cellular_component	3	DSG1|DSG3|PNN
 GO:0030072	peptide hormone secretion	biological_process	1	EDN1
 GO:0030073	insulin secretion	biological_process	1	IL1RN
-GO:0030097	hemopoiesis	biological_process	2	MEN1|PDGFB
+GO:0030097	hemopoiesis	biological_process	1	MEN1
 GO:0030100	regulation of endocytosis	biological_process	2	RAB5A|RAB5C
 GO:0030101	natural killer cell activation	biological_process	1	IL12B
 GO:0030123	AP-3 adaptor complex	cellular_component	1	AP3B1
@@ -1723,13 +1718,12 @@ GO:0034714	type III transforming growth factor beta receptor binding	molecular_f
 GO:0034715	pICln-Sm protein complex	cellular_component	1	CLNS1A
 GO:0034719	SMN-Sm protein complex	cellular_component	1	SMN
 GO:0034750	Scrib-APC-beta-catenin complex	cellular_component	1	CTNNB1
-GO:0034765	regulation of ion transmembrane transport	biological_process	9	CLCN1|KCNA2|KCNB2|KCNH2|KCNJ2|KCNMA1|SCN10A|SCN1B|SCN2B
+GO:0034765	regulation of ion transmembrane transport	biological_process	8	KCNA2|KCNB2|KCNH2|KCNJ2|KCNMA1|SCN10A|SCN1B|SCN2B
 GO:0034899	trimethylamine monooxygenase activity	molecular_function	1	FMO3
 GO:0034968	histone lysine methylation	biological_process	1	MEN1
 GO:0034976	response to endoplasmic reticulum stress	biological_process	1	CXCL8
 GO:0034979	NAD-dependent protein deacetylase activity	molecular_function	1	SIRT5
 GO:0035019	somatic stem cell maintenance	biological_process	1	SOX9
-GO:0035023	regulation of Rho protein signal transduction	biological_process	1	DLC1
 GO:0035024	negative regulation of Rho protein signal transduction	biological_process	1	MYOC
 GO:0035036	sperm-egg recognition	biological_process	1	SPACA3
 GO:0035050	embryonic heart tube development	biological_process	3	CTNNB1|GJA5|SLC8A1
@@ -1842,7 +1836,7 @@ GO:0040014	regulation of multicellular organism growth	biological_process	2	APP|
 GO:0040018	positive regulation of multicellular organism growth	biological_process	1	GH1
 GO:0042030	ATPase inhibitor activity	molecular_function	1	PLN
 GO:0042053	regulation of dopamine metabolic process	biological_process	1	HTR1A
-GO:0042056	chemoattractant activity	molecular_function	5	CCL3|FGF7|HGF|PDGFB|VEGFA
+GO:0042056	chemoattractant activity	molecular_function	6	CCL3|FGF7|HGF|PDGFB|SAA1|VEGFA
 GO:0042058	regulation of epidermal growth factor receptor signaling pathway	biological_process	1	FER
 GO:0042060	wound healing	biological_process	3	AQP1|PPARA|PPARD
 GO:0042073	intraciliary transport	biological_process	1	RPGR
@@ -1915,7 +1909,6 @@ GO:0042583	chromaffin granule	cellular_component	1	CLU
 GO:0042584	chromaffin granule membrane	cellular_component	1	DBH
 GO:0042593	glucose homeostasis	biological_process	4	DBH|MET|PPARG|TFAP2B
 GO:0042596	fear response	biological_process	1	DBH
-GO:0042597	periplasmic space	cellular_component	1	ZP2
 GO:0042613	MHC class II protein complex	cellular_component	1	HLA-DRB1
 GO:0042622	photoreceptor outer segment membrane	cellular_component	2	CNGA1|RHO
 GO:0042626	ATPase activity, coupled to transmembrane movement of substances	molecular_function	1	ABCC1
@@ -2034,7 +2027,7 @@ GO:0043534	blood vessel endothelial cell migration	biological_process	1	MYH9
 GO:0043536	positive regulation of blood vessel endothelial cell migration	biological_process	3	PDGFB|TGFB1|VEGFA
 GO:0043537	negative regulation of blood vessel endothelial cell migration	biological_process	2	ANGPT2|TGFB1
 GO:0043539	protein serine/threonine kinase activator activity	molecular_function	1	MAP2K2
-GO:0043547	positive regulation of GTPase activity	biological_process	5	ARHGAP35|DLC1|GDI1|GDI2|RPGR
+GO:0043547	positive regulation of GTPase activity	biological_process	9	ADRB1|ARHGAP35|ARHGEF2|DLC1|GDI1|GDI2|GNAS|RAPGEF2|RPGR
 GO:0043552	positive regulation of phosphatidylinositol 3-kinase activity	biological_process	3	PDGFB|PDGFRB|TGFB1
 GO:0043565	sequence-specific DNA binding	molecular_function	17	AR|CRX|ESRRA|FOSB|FOXI3|HSF4|MEN1|NKX2-1|NR4A1|PGR|POU1F1|PPARA|PPARD|PROP1|RARA|TFAP2B|TP53
 GO:0043576	regulation of respiratory gaseous exchange	biological_process	1	SLC5A3
@@ -2051,7 +2044,6 @@ GO:0043890	N-acetylgalactosamine-6-sulfatase activity	molecular_function	1	GALNS
 GO:0043922	negative regulation by host of viral transcription	biological_process	1	CCL3
 GO:0043932	ossification involved in bone remodeling	biological_process	1	TGFB1
 GO:0043950	positive regulation of cAMP-mediated signaling	biological_process	4	ADRB1|CXCL10|GNAS|RAPGEF2
-GO:0044070	regulation of anion transport	biological_process	1	CLCN1
 GO:0044130	negative regulation of growth of symbiont in host	biological_process	3	IFNG|LTA|TNF
 GO:0044183	protein binding involved in protein folding	molecular_function	1	CLGN
 GO:0044212	transcription regulatory region DNA binding	molecular_function	9	AR|CTNNB1|GFI1|MEN1|MSX2|PAX8|PPARG|TFAP2B|TNF
@@ -2386,7 +2378,7 @@ GO:0050909	sensory perception of taste	biological_process	3	GNB1|SCNN1B|TAS1R2
 GO:0050910	detection of mechanical stimulus involved in sensory perception of sound	biological_process	1	KIT
 GO:0050911	detection of chemical stimulus involved in sensory perception of smell	biological_process	4	CFOLF1|CFOLF4|OR1E2|cOR13M4
 GO:0050917	sensory perception of umami taste	biological_process	1	GNAT1
-GO:0050918	positive chemotaxis	biological_process	6	CCL3|FGF7|HGF|MET|PDGFB|VEGFA
+GO:0050918	positive chemotaxis	biological_process	7	CCL3|FGF7|HGF|MET|PDGFB|SAA1|VEGFA
 GO:0050920	regulation of chemotaxis	biological_process	1	CXCR4
 GO:0050921	positive regulation of chemotaxis	biological_process	3	CXCR3|PDGFB|TGFB1
 GO:0050927	positive regulation of positive chemotaxis	biological_process	1	VEGFA
@@ -2519,7 +2511,7 @@ GO:0055074	calcium ion homeostasis	biological_process	1	TFAP2B
 GO:0055075	potassium ion homeostasis	biological_process	1	TFAP2B
 GO:0055077	gap junction hemi-channel activity	molecular_function	1	GJA5
 GO:0055078	sodium ion homeostasis	biological_process	2	SCNN1B|TFAP2B
-GO:0055085	transmembrane transport	biological_process	12	ABCC1|GJA1|GJA5|SLC15A1|SLC1A6|SLC2A3|SLC2A4|SLC39A7|SLC46A2|SLC5A3|SLC6A12|SLC6A6
+GO:0055085	transmembrane transport	biological_process	11	ABCC1|GJA1|GJA5|SLC15A1|SLC1A6|SLC2A3|SLC2A4|SLC39A7|SLC46A2|SLC5A3|SLC6A12
 GO:0055098	response to low-density lipoprotein particle	biological_process	1	PPARG
 GO:0055102	lipase inhibitor activity	molecular_function	1	APOA2
 GO:0055106	ubiquitin-protein transferase regulator activity	molecular_function	1	TRIB2
@@ -2559,7 +2551,7 @@ GO:0060307	regulation of ventricular cardiac muscle cell membrane repolarization
 GO:0060314	regulation of ryanodine-sensitive calcium-release channel activity	biological_process	1	PLN
 GO:0060315	negative regulation of ryanodine-sensitive calcium-release channel activity	biological_process	1	CASQ2
 GO:0060316	positive regulation of ryanodine-sensitive calcium-release channel activity	biological_process	1	TRDN
-GO:0060326	cell chemotaxis	biological_process	13	CCL13|CCL17|CCL2|CCL25|CCL26|CCL28|CCL4|CCL5|CCL8|HGF|KIT|PDGFB|PDGFRB
+GO:0060326	cell chemotaxis	biological_process	14	CCL13|CCL17|CCL2|CCL25|CCL26|CCL28|CCL4|CCL5|CCL8|HGF|KIT|PDGFB|PDGFRB|SAA1
 GO:0060336	negative regulation of interferon-gamma-mediated signaling pathway	biological_process	1	PPARG
 GO:0060342	photoreceptor inner segment membrane	cellular_component	1	RHO
 GO:0060346	bone trabecula formation	biological_process	1	MSX2
@@ -2840,13 +2832,13 @@ GO:0090263	positive regulation of canonical Wnt signaling pathway	biological_pro
 GO:0090279	regulation of calcium ion import	biological_process	1	CTNNB1
 GO:0090280	positive regulation of calcium ion import	biological_process	2	PDGFB|ZP3
 GO:0090306	spindle assembly involved in meiosis	biological_process	1	ASPM
-GO:0090307	mitotic spindle assembly	biological_process	2	BIRC3|BIRC5
+GO:0090307	mitotic spindle assembly	biological_process	1	BIRC5
 GO:0090310	negative regulation of methylation-dependent chromatin silencing	biological_process	1	AICDA
 GO:0090315	negative regulation of protein targeting to membrane	biological_process	1	GDI1
 GO:0090331	negative regulation of platelet aggregation	biological_process	1	PRKCD
 GO:0090336	positive regulation of brown fat cell differentiation	biological_process	1	MAPK14
 GO:0090383	phagosome acidification	biological_process	1	RAB7A
-GO:0090385	phagosome-lysosome fusion	biological_process	2	RAB7A|RAB9A
+GO:0090385	phagosome-lysosome fusion	biological_process	1	RAB7A
 GO:0090398	cellular senescence	biological_process	1	TBX2
 GO:0090400	stress-induced premature senescence	biological_process	1	MAPK14
 GO:0090402	oncogene-induced cell senescence	biological_process	1	HMGA1
@@ -2867,6 +2859,7 @@ GO:0097192	extrinsic apoptotic signaling pathway in absence of ligand	biological
 GO:0097193	intrinsic apoptotic signaling pathway	biological_process	1	CLU
 GO:0097194	execution phase of apoptosis	biological_process	1	CASP3
 GO:0097195	pilomotor reflex	biological_process	1	ADRA1A
+GO:0097200	cysteine-type endopeptidase activity involved in execution phase of apoptosis	molecular_function	1	CASP3
 GO:0097211	cellular response to gonadotropin-releasing hormone	biological_process	1	GNRHR
 GO:0097252	oligodendrocyte apoptotic process	biological_process	1	TP53
 GO:0097275	cellular ammonia homeostasis	biological_process	1	TFAP2B
@@ -2940,6 +2933,10 @@ GO:1903307	positive regulation of regulated secretory pathway	biological_process
 GO:1903361	protein localization to basolateral plasma membrane	biological_process	1	CAV1
 GO:1903435	positive regulation of constitutive secretory pathway	biological_process	1	RAB27A
 GO:1903572	positive regulation of protein kinase D signaling	biological_process	1	VEGFA
+GO:1903825	organic acid transmembrane transport	biological_process	1	SLC6A6
+GO:1903919	negative regulation of actin filament severing	biological_process	1	MYH9
+GO:1903923	positive regulation of protein processing in phagocytic vesicle	biological_process	1	MYH9
+GO:1903959	regulation of anion transmembrane transport	biological_process	1	CLCN1
 GO:1990001	inhibition of cysteine-type endopeptidase activity involved in apoptotic process	biological_process	2	BIRC3|BIRC5
 GO:1990090	cellular response to nerve growth factor stimulus	biological_process	1	RAPGEF2
 GO:1990111	spermatoproteasome complex	cellular_component	1	PSMB8

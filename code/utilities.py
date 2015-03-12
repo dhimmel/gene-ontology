@@ -17,10 +17,13 @@ def read_entrez_file(path, fieldnames):
         yield row
     read_file.close()
 
-def read_gene2go():
+def read_gene2go(exclude_NOT_qualifier = True):
     fieldnames = 'tax_id', 'GeneID', 'GO_ID', 'Evidence', 'Qualifier', 'GO_term', 'PubMed', 'Category'
     path = os.path.join('download', 'gene2go.gz')
-    return read_entrez_file(path, fieldnames)
+    row_generator = read_entrez_file(path, fieldnames)
+    if exclude_NOT_qualifier:
+        row_generator = (row for row in row_generator if row['Qualifier'] != 'NOT')
+    return row_generator
 
 def read_gene_info():
     fieldnames = ['tax_id', 'GeneID', 'Symbol', 'LocusTag', 'Synonyms',

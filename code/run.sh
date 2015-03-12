@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 # Download the Gene Ontology
 wget --timestamping --directory-prefix download/ http://purl.obolibrary.org/obo/go/go-basic.obo
 
@@ -8,7 +11,11 @@ wget --timestamping --directory-prefix download/ ftp://ftp.ncbi.nih.gov/gene/DAT
 wget --timestamping --directory-prefix download/ ftp://ftp.ncbi.nih.gov/gene/DATA/gene_info.gz
 
 # Run python
-python code/gene-ontology.py
+python code/process.py
+python code/create_web.py
 
 # Run R
-Rscript code/gene-ontology.R
+#Rscript code/gene-ontology.R
+
+# For local development, run
+#jekyll serve

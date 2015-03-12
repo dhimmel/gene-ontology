@@ -4,13 +4,14 @@ GO:0000012	single strand break repair	biological_process	1	100513764
 GO:0000015	phosphopyruvate hydratase complex	cellular_component	1	692156
 GO:0000028	ribosomal small subunit assembly	biological_process	2	397607|641351
 GO:0000042	protein targeting to Golgi	biological_process	1	397011
-GO:0000045	autophagic vacuole assembly	biological_process	1	595116
+GO:0000045	autophagic vacuole assembly	biological_process	2	595116|733576
 GO:0000050	urea cycle	biological_process	2	397115|397438
 GO:0000056	ribosomal small subunit export from nucleus	biological_process	1	397607
 GO:0000060	protein import into nucleus, translocation	biological_process	7	396991|397078|397086|397123|397216|397276|406188
 GO:0000077	DNA damage checkpoint	biological_process	1	100101922
 GO:0000082	G1/S transition of mitotic cell cycle	biological_process	2	397093|100144492
 GO:0000086	G2/M transition of mitotic cell cycle	biological_process	4	397266|397361|397362|100144474
+GO:0000103	sulfate assimilation	biological_process	1	397581
 GO:0000104	succinate dehydrogenase activity	molecular_function	1	100524676
 GO:0000122	negative regulation of transcription from RNA polymerase II promoter	biological_process	30	396628|396629|396692|396717|396726|396766|396832|396955|397086|397157|397199|397276|397280|397581|397661|397671|397680|399502|404693|414911|494020|654298|733590|733688|100037273|100127461|100294706|100381266|100517321|100622956
 GO:0000123	histone acetyltransferase complex	cellular_component	1	664652
@@ -105,6 +106,7 @@ GO:0001533	cornified envelope	cellular_component	1	407242
 GO:0001540	beta-amyloid binding	molecular_function	4	397084|397576|397691|100144481
 GO:0001541	ovarian follicle development	biological_process	5	396810|397036|397093|397157|100622956
 GO:0001553	luteinization	biological_process	2	397340|397550
+GO:0001556	oocyte maturation	biological_process	1	396891
 GO:0001558	regulation of cell growth	biological_process	6	397064|397182|448812|100037966|100144490|100152141
 GO:0001568	blood vessel development	biological_process	2	397280|733590
 GO:0001569	patterning of blood vessels	biological_process	2	396659|397157
@@ -115,7 +117,7 @@ GO:0001601	peptide YY receptor activity	molecular_function	2	397547|100517770
 GO:0001602	pancreatic polypeptide receptor activity	molecular_function	2	397547|100517770
 GO:0001605	adrenomedullin receptor activity	molecular_function	1	397172
 GO:0001616	growth hormone secretagogue receptor activity	molecular_function	1	397372
-GO:0001618	virus receptor activity	molecular_function	8	397031|397050|397520|397623|404698|445519|641351|100037276
+GO:0001618	virus receptor activity	molecular_function	7	397031|397050|397520|397623|445519|641351|100037276
 GO:0001626	nociceptin receptor activity	molecular_function	1	397364
 GO:0001635	calcitonin gene-related peptide receptor activity	molecular_function	1	397172
 GO:0001649	osteoblast differentiation	biological_process	5	396717|397530|397607|397608|733590
@@ -165,6 +167,7 @@ GO:0001822	kidney development	biological_process	5	397002|397157|595114|10015395
 GO:0001824	blastocyst development	biological_process	2	396984|100499502
 GO:0001825	blastocyst formation	biological_process	1	396927
 GO:0001829	trophectodermal cell differentiation	biological_process	2	396692|100127461
+GO:0001832	blastocyst growth	biological_process	1	396891
 GO:0001836	release of cytochrome c from mitochondria	biological_process	2	397276|594852
 GO:0001837	epithelial to mesenchymal transition	biological_process	3	396840|397084|397512
 GO:0001843	neural tube closure	biological_process	2	396629|397195
@@ -268,10 +271,12 @@ GO:0002504	antigen processing and presentation of peptide or polysaccharide anti
 GO:0002532	production of molecular mediator involved in inflammatory response	biological_process	1	397614
 GO:0002540	leukotriene production involved in inflammatory response	biological_process	1	397392
 GO:0002548	monocyte chemotaxis	biological_process	1	397422
+GO:0002551	mast cell chemotaxis	biological_process	1	397540
 GO:0002554	serotonin secretion by platelet	biological_process	2	397406|100125540
 GO:0002573	myeloid leukocyte differentiation	biological_process	1	780410
 GO:0002575	basophil chemotaxis	biological_process	1	397157
 GO:0002634	regulation of germinal center formation	biological_process	1	733590
+GO:0002639	positive regulation of immunoglobulin production	biological_process	1	396721
 GO:0002683	negative regulation of immune system process	biological_process	1	396840
 GO:0002687	positive regulation of leukocyte migration	biological_process	1	396927
 GO:0002690	positive regulation of leukocyte chemotaxis	biological_process	3	396870|396900|100049663
@@ -395,7 +400,7 @@ GO:0004058	aromatic-L-amino-acid decarboxylase activity	molecular_function	1	396
 GO:0004069	L-aspartate:2-oxoglutarate aminotransferase activity	molecular_function	2	396967|396968
 GO:0004081	bis(5'-nucleosyl)-tetraphosphatase (asymmetrical) activity	molecular_function	1	397577
 GO:0004085	butyryl-CoA dehydrogenase activity	molecular_function	1	396932
-GO:0004089	carbonate dehydratase activity	molecular_function	2	445526|494016
+GO:0004089	carbonate dehydratase activity	molecular_function	1	494016
 GO:0004090	carbonyl reductase (NADPH) activity	molecular_function	3	396780|397082|397143
 GO:0004095	carnitine O-palmitoyltransferase activity	molecular_function	1	399528
 GO:0004096	catalase activity	molecular_function	1	397568
@@ -524,14 +529,13 @@ GO:0004791	thioredoxin-disulfide reductase activity	molecular_function	1	396681
 GO:0004792	thiosulfate sulfurtransferase activity	molecular_function	1	100124378
 GO:0004796	thromboxane-A synthase activity	molecular_function	1	397112
 GO:0004800	thyroxine 5'-deiodinase activity	molecular_function	3	414378|414379|414380
-GO:0004806	triglyceride lipase activity	molecular_function	1	497624
 GO:0004807	triose-phosphate isomerase activity	molecular_function	1	100157582
 GO:0004832	valine-tRNA ligase activity	molecular_function	1	100144457
 GO:0004835	tubulin-tyrosine ligase activity	molecular_function	1	445530
 GO:0004842	ubiquitin-protein transferase activity	molecular_function	4	396629|397374|397506|780418
 GO:0004843	ubiquitin-specific protease activity	molecular_function	3	396637|768115|100144472
 GO:0004846	urate oxidase activity	molecular_function	1	397510
-GO:0004857	enzyme inhibitor activity	molecular_function	4	396845|397110|397628|733688
+GO:0004857	enzyme inhibitor activity	molecular_function	5	396845|397110|397628|404088|733688
 GO:0004859	phospholipase inhibitor activity	molecular_function	1	406192
 GO:0004860	protein kinase inhibitor activity	molecular_function	2	406235|100037966
 GO:0004862	cAMP-dependent protein kinase inhibitor activity	molecular_function	2	397408|397661
@@ -593,13 +597,13 @@ GO:0005085	guanyl-nucleotide exchange factor activity	molecular_function	1	44896
 GO:0005088	Ras guanyl-nucleotide exchange factor activity	molecular_function	1	397355
 GO:0005089	Rho guanyl-nucleotide exchange factor activity	molecular_function	1	100145887
 GO:0005093	Rab GDP-dissociation inhibitor activity	molecular_function	1	414427
-GO:0005096	GTPase activator activity	molecular_function	1	414427
-GO:0005102	receptor binding	molecular_function	12	397084|397134|397267|397362|397405|397492|404693|445525|492276|493772|791125|100126290
+GO:0005096	GTPase activator activity	molecular_function	2	414427|100155163
+GO:0005102	receptor binding	molecular_function	13	397084|397134|397267|397362|397405|397492|404693|445525|492276|493772|733577|791125|100126290
 GO:0005104	fibroblast growth factor receptor binding	molecular_function	3	396717|397281|397497
 GO:0005112	Notch binding	molecular_function	1	397343
 GO:0005114	type II transforming growth factor beta receptor binding	molecular_function	4	397078|397084|397096|397400
 GO:0005125	cytokine activity	molecular_function	36	396721|396726|396839|396862|396868|396991|397053|397057|397076|397086|397087|397093|397094|397106|397122|397208|397225|397231|397253|397400|397409|397412|397602|397683|397686|399500|399534|403123|407742|449530|493187|595123|733577|100125969|100155546|100155581
-GO:0005126	cytokine receptor binding	molecular_function	6	396721|397412|397683|397686|403123|100125969
+GO:0005126	cytokine receptor binding	molecular_function	5	397412|397683|397686|403123|100125969
 GO:0005128	erythropoietin receptor binding	molecular_function	1	397249
 GO:0005129	granulocyte macrophage colony-stimulating factor receptor binding	molecular_function	1	397208
 GO:0005133	interferon-gamma receptor binding	molecular_function	1	396991
@@ -610,6 +614,7 @@ GO:0005138	interleukin-6 receptor binding	molecular_function	1	399500
 GO:0005139	interleukin-7 receptor binding	molecular_function	1	397253
 GO:0005141	interleukin-10 receptor binding	molecular_function	1	397106
 GO:0005143	interleukin-12 receptor binding	molecular_function	1	397053
+GO:0005144	interleukin-13 receptor binding	molecular_function	1	396721
 GO:0005149	interleukin-1 receptor binding	molecular_function	3	397094|397122|397499
 GO:0005152	interleukin-1 receptor antagonist activity	molecular_function	1	397499
 GO:0005153	interleukin-8 receptor binding	molecular_function	1	396880
@@ -663,7 +668,7 @@ GO:0005501	retinoid binding	molecular_function	1	397456
 GO:0005504	fatty acid binding	molecular_function	2	396960|100151890
 GO:0005506	iron ion binding	molecular_function	27	396590|396670|396971|397112|397467|397557|397687|403111|403216|403324|403326|403327|403328|403329|403330|403331|403332|403333|403334|403337|407066|407067|414438|448985|808503|100170114|100170131
 GO:0005507	copper ion binding	molecular_function	9	397036|397094|397123|397217|397276|397339|494014|641350|808504
-GO:0005509	calcium ion binding	molecular_function	54	396801|396807|396874|396919|396939|396942|396954|397027|397060|397083|397097|397119|397177|397206|397265|397274|397320|397349|397393|397397|397436|397471|397518|397530|397587|397596|397647|397664|406192|414736|414737|414836|414905|445522|445525|445534|492276|595124|641350|641355|733608|768107|768111|100144442|100144505|100144506|100144521|100145892|100156435|100157760|100187727|100301483|100312960|100381266
+GO:0005509	calcium ion binding	molecular_function	55	396801|396807|396874|396919|396939|396942|396954|397027|397060|397083|397097|397119|397177|397206|397265|397274|397320|397349|397393|397397|397436|397471|397518|397530|397587|397596|397647|397664|404088|406192|414736|414737|414836|414905|445522|445525|445534|492276|595124|641350|641355|733608|768107|768111|100144442|100144505|100144506|100144521|100145892|100156435|100157760|100187727|100301483|100312960|100381266
 GO:0005515	protein binding	molecular_function	17	396724|396766|396851|396875|396898|396959|397078|397098|397317|397436|397481|397488|414412|733686|780433|100048954|100524676
 GO:0005516	calmodulin binding	molecular_function	19	396718|396848|396859|396860|396911|397045|397085|397256|397326|397458|397557|397565|397636|397674|407740|733654|100038002|100125538|100144306
 GO:0005518	collagen binding	molecular_function	5	396957|397142|397569|399543|100037961
@@ -708,7 +713,7 @@ GO:0005687	U4 snRNP	cellular_component	2	448813|100038330
 GO:0005688	U6 snRNP	cellular_component	1	448813
 GO:0005694	chromosome	cellular_component	2	100144453|100499502
 GO:0005730	nucleolus	cellular_component	24	387596|396629|396655|396917|396926|396946|397162|397276|397338|397378|414398|414422|414430|448810|448855|595107|733670|733671|768109|100037961|100125839|100127461|100144418|100144492
-GO:0005737	cytoplasm	cellular_component	236	396611|396646|396648|396655|396656|396673|396681|396689|396721|396723|396740|396765|396816|396823|396827|396828|396832|396837|396851|396865|396866|396867|396918|396923|396927|396930|396942|396955|396959|396961|396966|396979|396983|397015|397027|397032|397036|397038|397040|397043|397053|397066|397076|397077|397078|397085|397087|397089|397107|397109|397115|397117|397128|397130|397136|397141|397142|397143|397189|397195|397198|397201|397205|397244|397260|397266|397276|397308|397318|397319|397338|397340|397349|397351|397361|397362|397371|397374|397378|397379|397383|397393|397403|397412|397417|397423|397425|397436|397442|397444|397458|397463|397469|397482|397493|397494|397495|397504|397530|397546|397550|397563|397570|397582|397583|397587|397592|397602|397605|397610|397618|397625|397640|397645|397656|397661|397663|397664|397680|397682|399501|399532|399533|399536|399538|404698|406188|406235|407242|407608|407611|407773|414388|414427|414430|414852|414913|414917|431672|445516|445517|445532|445534|445535|445540|448813|448855|492277|493184|494016|494020|494457|494458|494463|494562|494567|497059|497636|574063|595106|595123|641357|654298|654326|654327|654413|733588|733590|733601|733648|733654|733657|733658|733683|733688|768099|768107|768109|768115|780420|100037270|100037920|100037965|100037966|100037992|100037998|100037999|100038004|100048934|100048942|100048943|100048945|100048957|100049695|100101926|100125376|100125839|100125954|100126291|100126293|100127139|100127461|100127484|100134955|100136900|100137084|100142661|100144452|100144474|100144480|100144508|100145887|100145903|100151743|100151890|100152272|100153993|100155163|100170117|100170128|100188977|100294706|100301483|100302505|100415808|100502559|100502562|100514582|100514624|100517321|100519789|100520304|100520446|100524500|100621540|100737301
+GO:0005737	cytoplasm	cellular_component	237	396611|396646|396648|396655|396656|396673|396681|396689|396721|396723|396740|396765|396816|396823|396827|396828|396832|396837|396851|396865|396866|396867|396918|396923|396927|396930|396942|396955|396959|396961|396966|396979|396983|397015|397027|397032|397036|397038|397040|397043|397053|397066|397076|397077|397078|397085|397087|397089|397107|397109|397115|397117|397128|397130|397136|397141|397142|397143|397189|397195|397198|397201|397205|397244|397260|397266|397276|397308|397318|397319|397338|397340|397349|397351|397361|397362|397371|397374|397378|397379|397383|397393|397403|397412|397417|397423|397425|397436|397442|397444|397458|397463|397469|397482|397493|397494|397495|397504|397530|397546|397550|397563|397570|397582|397583|397587|397592|397602|397605|397610|397618|397625|397640|397645|397656|397661|397663|397664|397680|397682|399501|399532|399533|399536|399538|404698|406188|406235|407242|407608|407611|407773|414388|414427|414430|414852|414913|414917|431672|445516|445517|445532|445534|445535|445540|448813|448855|492277|493184|494016|494020|494457|494458|494463|494562|494567|497059|497636|574063|595106|595123|641357|654298|654326|654327|654413|733588|733590|733601|733606|733648|733654|733657|733658|733683|733688|768099|768107|768109|768115|780420|100037270|100037920|100037965|100037966|100037992|100037998|100037999|100038004|100048934|100048942|100048943|100048945|100048957|100049695|100101926|100125376|100125839|100125954|100126291|100126293|100127139|100127461|100127484|100134955|100136900|100137084|100142661|100144452|100144474|100144480|100144508|100145887|100145903|100151743|100151890|100152272|100153993|100155163|100170117|100170128|100188977|100294706|100301483|100302505|100415808|100502559|100502562|100514582|100514624|100517321|100519789|100520304|100520446|100524500|100621540|100737301
 GO:0005739	mitochondrion	cellular_component	50	396597|396629|396689|396740|396841|396896|396944|396968|396978|396999|397026|397036|397065|397082|397212|397262|397276|397438|397500|397570|397577|397581|397583|397601|397641|397646|397652|397690|399537|399539|399540|399685|403330|407245|414799|595117|641350|733683|733689|780405|100037961|100037981|100038002|100144457|100144465|100144496|100154394|100156435|100158013|100519789
 GO:0005741	mitochondrial outer membrane	cellular_component	13	397010|397134|397148|397567|397651|397659|399528|414424|414909|664654|733591|100217389|100415808
 GO:0005742	mitochondrial outer membrane translocase complex	cellular_component	1	100037982
@@ -722,7 +727,7 @@ GO:0005758	mitochondrial intermembrane space	cellular_component	4	100126844|1001
 GO:0005759	mitochondrial matrix	cellular_component	22	396614|396688|396780|396931|396932|396968|397039|397104|397129|397133|397276|397438|397500|397519|397536|397604|399535|733685|100141400|100154319|100158147|100294678
 GO:0005764	lysosome	cellular_component	23	396659|396801|396926|396958|396969|397000|397007|397172|397398|397410|397569|397591|399538|404696|404698|448965|606749|733610|100037961|100124381|100144481|100144519|100174943
 GO:0005765	lysosomal membrane	cellular_component	11	397263|397418|397492|397591|449572|733610|780410|100124381|100144481|100151746|100524730
-GO:0005768	endosome	cellular_component	8	396584|397007|397172|397431|404693|780425|791125|100151746
+GO:0005768	endosome	cellular_component	9	396584|397007|397172|397431|404693|780425|791125|100144498|100151746
 GO:0005769	early endosome	cellular_component	5	396659|396801|397355|403154|595116
 GO:0005770	late endosome	cellular_component	4	396659|396801|503700|733610
 GO:0005771	multivesicular body	cellular_component	4	396846|396927|397664|595117
@@ -757,7 +762,7 @@ GO:0005861	troponin complex	cellular_component	3	396579|414906|100156435
 GO:0005865	striated muscle thin filament	cellular_component	1	100154254
 GO:0005874	microtubule	cellular_component	6	396584|397482|494463|733686|100145887|100520304
 GO:0005875	microtubule associated complex	cellular_component	1	397482
-GO:0005876	spindle microtubule	cellular_component	4	397266|397374|574063|595114
+GO:0005876	spindle microtubule	cellular_component	3	397266|574063|595114
 GO:0005881	cytoplasmic microtubule	cellular_component	4	397266|595114|733594|100151836
 GO:0005882	intermediate filament	cellular_component	4	396725|397592|100126859|100522394
 GO:0005884	actin filament	cellular_component	2	791125|100154254
@@ -768,14 +773,14 @@ GO:0005891	voltage-gated calcium channel complex	cellular_component	1	733677
 GO:0005901	caveola	cellular_component	7	397018|397432|397557|397583|404693|641358|100125375
 GO:0005902	microvillus	cellular_component	2	397078|100126278
 GO:0005903	brush border	cellular_component	1	407773
-GO:0005905	coated pit	cellular_component	4	396801|397085|397663|100144480
+GO:0005905	coated pit	cellular_component	3	396801|397663|100144480
 GO:0005911	cell-cell junction	cellular_component	6	396659|396974|397437|414386|414737|780428
 GO:0005912	adherens junction	cellular_component	1	396974
 GO:0005913	cell-cell adherens junction	cellular_component	1	397592
 GO:0005916	fascia adherens	cellular_component	2	396725|396974
 GO:0005922	connexon complex	cellular_component	3	100048959|100518636|100620145
 GO:0005923	tight junction	cellular_component	6	396665|396723|403163|100144492|100145887|100153106
-GO:0005925	focal adhesion	cellular_component	28	396860|396911|396974|396980|397027|397347|397492|397592|397607|397608|404693|414396|414397|414398|733592|733683|768114|780425|780428|100037995|100125376|100126293|100137084|100144480|100151746|100381266|100522394|100737826
+GO:0005925	focal adhesion	cellular_component	27	396860|396911|396974|396980|397027|397347|397492|397592|397607|397608|404693|414396|414397|414398|733592|768114|780425|780428|100037995|100125376|100126293|100137084|100144480|100151746|100381266|100522394|100737826
 GO:0005927	muscle tendon junction	cellular_component	1	780438
 GO:0005929	cilium	cellular_component	3	396942|404693|100520304
 GO:0005930	axoneme	cellular_component	1	641362
@@ -867,7 +872,7 @@ GO:0006414	translational elongation	biological_process	3	397022|100049695|100170
 GO:0006417	regulation of translation	biological_process	9	396823|397605|397663|492277|654327|733670|733671|100101926|100144418
 GO:0006438	valyl-tRNA aminoacylation	biological_process	1	100144457
 GO:0006450	regulation of translational fidelity	biological_process	1	100144457
-GO:0006457	protein folding	biological_process	5	397028|397191|397637|100154317|100381266
+GO:0006457	protein folding	biological_process	6	397028|397191|397581|397637|100154317|100381266
 GO:0006461	protein complex assembly	biological_process	3	396840|397349|397404
 GO:0006464	cellular protein modification process	biological_process	1	445530
 GO:0006465	signal peptide processing	biological_process	1	100135675
@@ -949,13 +954,13 @@ GO:0006810	transport	biological_process	27	396596|396704|396736|396739|396861|39
 GO:0006811	ion transport	biological_process	4	396764|397108|397414|397573
 GO:0006813	potassium ion transport	biological_process	3	397131|397293|397552
 GO:0006814	sodium ion transport	biological_process	5	397113|397131|397376|497235|100126275
-GO:0006816	calcium ion transport	biological_process	8	396628|397172|397284|397421|397632|404693|733604|780410
+GO:0006816	calcium ion transport	biological_process	9	396628|397172|397284|397421|397632|404088|404693|733604|780410
 GO:0006820	anion transport	biological_process	3	397010|397651|397659
 GO:0006821	chloride transport	biological_process	1	397263
 GO:0006824	cobalt ion transport	biological_process	1	396873
 GO:0006825	copper ion transport	biological_process	1	100156799
 GO:0006826	iron ion transport	biological_process	6	396845|396996|397030|397649|100049699|100153993
-GO:0006828	manganese ion transport	biological_process	2	396846|396927
+GO:0006828	manganese ion transport	biological_process	1	396927
 GO:0006829	zinc II ion transport	biological_process	1	397123
 GO:0006833	water transport	biological_process	2	407773|100126278
 GO:0006839	mitochondrial transport	biological_process	2	397116|397549
@@ -968,16 +973,16 @@ GO:0006882	cellular zinc ion homeostasis	biological_process	1	397123
 GO:0006883	cellular sodium ion homeostasis	biological_process	3	396828|396898|397481
 GO:0006884	cell volume homeostasis	biological_process	1	407773
 GO:0006885	regulation of pH	biological_process	3	397458|414911|733644
-GO:0006886	intracellular protein transport	biological_process	12	396846|396927|397085|397110|397163|397401|494017|595115|595117|606749|100144491|100337660
+GO:0006886	intracellular protein transport	biological_process	13	396846|396927|397085|397110|397163|397401|494017|595115|595117|606749|100144491|100144498|100337660
 GO:0006887	exocytosis	biological_process	3	397154|414386|595117
 GO:0006888	ER to Golgi vesicle-mediated transport	biological_process	2	396584|595116
 GO:0006895	Golgi to endosome transport	biological_process	1	595112
 GO:0006897	endocytosis	biological_process	11	396801|396979|397085|397263|397488|397536|397622|397623|397663|595116|100144499
 GO:0006898	receptor-mediated endocytosis	biological_process	8	396735|397018|397031|397062|397152|397192|397357|751862
-GO:0006904	vesicle docking involved in exocytosis	biological_process	1	606749
+GO:0006904	vesicle docking involved in exocytosis	biological_process	2	606749|100144498
 GO:0006906	vesicle fusion	biological_process	1	100125375
 GO:0006911	phagocytosis, engulfment	biological_process	1	397406
-GO:0006914	autophagy	biological_process	10	397077|397504|503700|595116|641362|733576|733610|100141400|100144502|100145903
+GO:0006914	autophagy	biological_process	8	397077|397504|595116|641362|733610|100141400|100144502|100145903
 GO:0006915	apoptotic process	biological_process	34	396611|396655|396665|396726|396826|396865|396907|396984|397010|397020|397051|397077|397244|397249|397319|397398|397536|397577|397605|397625|397663|403155|414915|445512|641362|664652|733599|733671|100037273|100037303|100126275|100141400|100217389|100514624
 GO:0006919	activation of cysteine-type endopeptidase activity involved in apoptotic process	biological_process	7	396655|396969|397086|397671|448810|594852|641350
 GO:0006927	transformed cell apoptotic process	biological_process	1	397086
@@ -1015,7 +1020,7 @@ GO:0007021	tubulin complex assembly	biological_process	1	100519789
 GO:0007026	negative regulation of microtubule depolymerization	biological_process	1	100145887
 GO:0007029	endoplasmic reticulum organization	biological_process	1	100125375
 GO:0007041	lysosomal transport	biological_process	1	397591
-GO:0007049	cell cycle	biological_process	10	397162|397378|397589|397605|397625|497618|733584|733670|733688|100144453
+GO:0007049	cell cycle	biological_process	11	396584|397162|397378|397589|397605|397625|497618|733584|733670|733688|100144453
 GO:0007050	cell cycle arrest	biological_process	9	396611|396991|397053|397076|397078|397084|397093|100381266|100521423
 GO:0007052	mitotic spindle organization	biological_process	2	494463|574063
 GO:0007059	chromosome segregation	biological_process	3	397088|397266|100514624
@@ -1034,7 +1039,7 @@ GO:0007156	homophilic cell adhesion via plasma membrane adhesion molecules	biolo
 GO:0007159	leukocyte cell-cell adhesion	biological_process	1	100125540
 GO:0007160	cell-matrix adhesion	biological_process	4	396943|396974|397019|100037276
 GO:0007163	establishment or maintenance of cell polarity	biological_process	1	494013
-GO:0007165	signal transduction	biological_process	19	396826|396840|396923|397089|397090|397114|397151|397201|397512|397528|397591|397592|397622|574068|595124|100144492|100144506|100514624|100524730
+GO:0007165	signal transduction	biological_process	20	396826|396840|396923|397089|397090|397114|397151|397201|397512|397528|397591|397592|397622|574068|595124|733577|100144492|100144506|100514624|100524730
 GO:0007166	cell surface receptor signaling pathway	biological_process	7	396661|397020|397302|397412|397455|494013|100049663
 GO:0007168	receptor guanylyl cyclase signaling pathway	biological_process	3	396844|397496|493772
 GO:0007169	transmembrane receptor protein tyrosine kinase signaling pathway	biological_process	4	397495|397511|654328|791125
@@ -1052,14 +1057,16 @@ GO:0007189	adenylate cyclase-activating G-protein coupled receptor signaling pat
 GO:0007190	activation of adenylate cyclase activity	biological_process	3	397098|397356|397357
 GO:0007193	adenylate cyclase-inhibiting G-protein coupled receptor signaling pathway	biological_process	4	397216|397309|397364|497059
 GO:0007194	negative regulation of adenylate cyclase activity	biological_process	2	396802|399501
+GO:0007197	adenylate cyclase-inhibiting G-protein coupled acetylcholine receptor signaling pathway	biological_process	1	397099
 GO:0007198	adenylate cyclase-inhibiting serotonin receptor signaling pathway	biological_process	1	397563
 GO:0007200	phospholipase C-activating G-protein coupled receptor signaling pathway	biological_process	6	396802|396811|397216|397435|397675|450248
 GO:0007202	activation of phospholipase C activity	biological_process	2	396837|397638
 GO:0007204	positive regulation of cytosolic calcium ion concentration	biological_process	3	396728|396811|397435
 GO:0007205	protein kinase C-activating G-protein coupled receptor signaling pathway	biological_process	3	396837|397097|397563
+GO:0007207	phospholipase C-activating G-protein coupled acetylcholine receptor signaling pathway	biological_process	1	397099
 GO:0007210	serotonin receptor signaling pathway	biological_process	4	396837|397309|397431|397432
 GO:0007212	dopamine receptor signaling pathway	biological_process	1	100144487
-GO:0007213	G-protein coupled acetylcholine receptor signaling pathway	biological_process	3	397099|397498|100144478
+GO:0007213	G-protein coupled acetylcholine receptor signaling pathway	biological_process	2	397498|100144478
 GO:0007214	gamma-aminobutyric acid signaling pathway	biological_process	1	397495
 GO:0007217	tachykinin receptor signaling pathway	biological_process	1	492314
 GO:0007218	neuropeptide signaling pathway	biological_process	20	396680|396772|396802|396863|397110|397216|397252|397275|397291|397295|397304|397305|397465|397547|414283|445529|492314|497059|100517770|100739231
@@ -1073,13 +1080,14 @@ GO:0007254	JNK cascade	biological_process	1	397086
 GO:0007259	JAK-STAT cascade	biological_process	3	396655|397340|397550
 GO:0007260	tyrosine phosphorylation of STAT protein	biological_process	1	396832
 GO:0007262	STAT protein import into nucleus	biological_process	1	397083
-GO:0007264	small GTPase mediated signal transduction	biological_process	12	397559|397596|595112|595114|595116|780425|780428|100144496|100144498|100144499|100144502|100739349
+GO:0007264	small GTPase mediated signal transduction	biological_process	11	397559|397596|595112|595114|595116|780425|780428|100144496|100144499|100144502|100739349
 GO:0007265	Ras protein signal transduction	biological_process	1	397276
 GO:0007266	Rho protein signal transduction	biological_process	2	396941|100519976
-GO:0007267	cell-cell signaling	biological_process	5	396717|397253|397495|780420|100518636
+GO:0007267	cell-cell signaling	biological_process	6	396717|397253|397495|733577|780420|100518636
 GO:0007268	synaptic transmission	biological_process	8	397252|397309|397431|397563|445529|497059|100048959|100517770
 GO:0007269	neurotransmitter secretion	biological_process	1	414386
 GO:0007270	neuron-neuron synaptic transmission	biological_process	1	397010
+GO:0007271	synaptic transmission, cholinergic	biological_process	1	397099
 GO:0007274	neuromuscular synaptic transmission	biological_process	2	396896|100144498
 GO:0007275	multicellular organismal development	biological_process	25	396558|396559|396943|397019|397276|397398|397486|397487|397489|397632|399537|407068|414917|431672|492277|493185|654328|751862|100037276|100038028|100048945|100126291|100136903|100153106|100513764
 GO:0007276	gamete generation	biological_process	1	100302639
@@ -1090,7 +1098,6 @@ GO:0007290	spermatid nucleus elongation	biological_process	1	100513764
 GO:0007338	single fertilization	biological_process	12	396701|396758|396783|396806|396817|396818|396829|396922|397098|397140|397545|399529
 GO:0007339	binding of sperm to zona pellucida	biological_process	4	396846|396927|397194|397676
 GO:0007340	acrosome reaction	biological_process	2	397098|397119
-GO:0007341	penetration of zona pellucida	biological_process	1	397098
 GO:0007342	fusion of sperm to egg plasma membrane	biological_process	1	397067
 GO:0007343	egg activation	biological_process	1	397632
 GO:0007356	thorax and anterior abdomen determination	biological_process	1	397338
@@ -1132,6 +1139,7 @@ GO:0007599	hemostasis	biological_process	1	399543
 GO:0007601	visual perception	biological_process	6	397114|397151|397437|397622|606748|100048959
 GO:0007602	phototransduction	biological_process	1	397437
 GO:0007605	sensory perception of sound	biological_process	3	397036|397085|397373
+GO:0007606	sensory perception of chemical stimulus	biological_process	1	397099
 GO:0007608	sensory perception of smell	biological_process	1	396704
 GO:0007610	behavior	biological_process	3	396837|397364|397432
 GO:0007611	learning or memory	biological_process	3	397212|397495|733590
@@ -1205,7 +1213,7 @@ GO:0008260	3-oxoacid CoA-transferase activity	molecular_function	1	396978
 GO:0008269	JAK pathway signal transduction adaptor activity	molecular_function	1	100037966
 GO:0008270	zinc ion binding	molecular_function	58	396557|396628|396629|396697|396712|396723|396740|396827|396847|396939|397036|397079|397080|397123|397196|397266|397320|397338|397341|397368|397371|397374|397383|397387|397417|397435|397471|397476|397506|397520|397582|397600|397671|397678|414403|414421|414917|445465|494016|494020|497636|641350|654326|733651|733653|768107|100037295|100037920|100038028|100049679|100125376|100137084|100144418|100144459|100144460|100144461|100152381|100301483
 GO:0008277	regulation of G-protein coupled receptor protein signaling pathway	biological_process	3	397163|397401|414283
-GO:0008283	cell proliferation	biological_process	6	397080|397102|397142|397157|397412|733648
+GO:0008283	cell proliferation	biological_process	7	397080|397102|397142|397157|397412|733577|733648
 GO:0008284	positive regulation of cell proliferation	biological_process	22	396655|396840|396862|396969|397057|397078|397084|397195|397249|397340|397492|397497|397513|397550|397582|397675|403163|448810|100049663|100154394|100381266|100739349
 GO:0008285	negative regulation of cell proliferation	biological_process	12	397078|397084|397093|397094|397142|397338|397675|497059|497618|733648|100125376|100294706
 GO:0008286	insulin receptor signaling pathway	biological_process	1	397077
@@ -1282,9 +1290,8 @@ GO:0009086	methionine biosynthetic process	biological_process	1	397371
 GO:0009142	nucleoside triphosphate biosynthetic process	biological_process	2	733683|100521423
 GO:0009253	peptidoglycan catabolic process	biological_process	1	396557
 GO:0009267	cellular response to starvation	biological_process	5	396960|397077|397252|397490|404693
-GO:0009295	nucleoid	cellular_component	1	396917
 GO:0009303	rRNA transcription	biological_process	1	397276
-GO:0009306	protein secretion	biological_process	1	606749
+GO:0009306	protein secretion	biological_process	2	606749|100144498
 GO:0009312	oligosaccharide biosynthetic process	biological_process	2	397634|100151745
 GO:0009313	oligosaccharide catabolic process	biological_process	1	100124381
 GO:0009314	response to radiation	biological_process	2	397581|448810
@@ -1302,6 +1309,7 @@ GO:0009612	response to mechanical stimulus	biological_process	4	396865|397490|10
 GO:0009615	response to virus	biological_process	9	396752|397022|397025|397050|397053|397086|397410|404698|494463
 GO:0009636	response to toxic substance	biological_process	3	397639|407774|414425
 GO:0009651	response to salt stress	biological_process	1	397276
+GO:0009653	anatomical structure morphogenesis	biological_process	1	100622956
 GO:0009725	response to hormone	biological_process	3	396728|397372|397538
 GO:0009749	response to glucose	biological_process	1	100151836
 GO:0009755	hormone-mediated signaling pathway	biological_process	3	397275|397372|414439
@@ -1329,6 +1337,7 @@ GO:0010165	response to X-ray	biological_process	1	397276
 GO:0010181	FMN binding	molecular_function	3	397109|397557|100170114
 GO:0010212	response to ionizing radiation	biological_process	2	100037949|100101922
 GO:0010224	response to UV-B	biological_process	2	397053|397076
+GO:0010248	establishment or maintenance of transmembrane electrochemical gradient	biological_process	2	396898|397481
 GO:0010332	response to gamma radiation	biological_process	3	397276|448810|100145903
 GO:0010388	cullin deneddylation	biological_process	1	100125960
 GO:0010390	histone monoubiquitination	biological_process	1	397506
@@ -1359,7 +1368,7 @@ GO:0010611	regulation of cardiac muscle hypertrophy	biological_process	1	494020
 GO:0010613	positive regulation of cardiac muscle hypertrophy	biological_process	1	397674
 GO:0010614	negative regulation of cardiac muscle hypertrophy	biological_process	1	733670
 GO:0010628	positive regulation of gene expression	biological_process	17	396665|396717|396969|397029|397057|397078|397123|397225|397462|397513|414426|606749|654298|733590|780428|100381266|100522394
-GO:0010629	negative regulation of gene expression	biological_process	9	397077|397078|397216|397412|654298|733590|780428|791125|100519789
+GO:0010629	negative regulation of gene expression	biological_process	10	397077|397078|397216|397412|397671|654298|733590|780428|791125|100519789
 GO:0010634	positive regulation of epithelial cell migration	biological_process	4	396840|396969|397084|404698
 GO:0010642	negative regulation of platelet-derived growth factor receptor signaling pathway	biological_process	1	641350
 GO:0010649	regulation of cell communication by electrical coupling	biological_process	1	397436
@@ -1392,7 +1401,7 @@ GO:0010866	regulation of triglyceride biosynthetic process	biological_process	2	
 GO:0010867	positive regulation of triglyceride biosynthetic process	biological_process	1	397308
 GO:0010871	negative regulation of receptor biosynthetic process	biological_process	1	397671
 GO:0010873	positive regulation of cholesterol esterification	biological_process	2	397691|100519976
-GO:0010875	positive regulation of cholesterol efflux	biological_process	1	406188
+GO:0010875	positive regulation of cholesterol efflux	biological_process	2	397671|406188
 GO:0010881	regulation of cardiac muscle contraction by regulation of the release of sequestered calcium ion	biological_process	2	397421|397436
 GO:0010882	regulation of cardiac muscle contraction by calcium ion signaling	biological_process	1	396898
 GO:0010884	positive regulation of lipid storage	biological_process	1	397072
@@ -1450,7 +1459,7 @@ GO:0014891	striated muscle atrophy	biological_process	1	497618
 GO:0014894	response to denervation involved in regulation of muscle adaptation	biological_process	2	497618|733657
 GO:0015026	coreceptor activity	molecular_function	1	397512
 GO:0015030	Cajal body	cellular_component	1	448855
-GO:0015031	protein transport	biological_process	15	397172|397477|414427|494013|595112|595114|751862|780410|780425|100141400|100144496|100144498|100144499|100144502|100154546
+GO:0015031	protein transport	biological_process	14	397172|397477|414427|494013|595112|595114|751862|780410|780425|100141400|100144496|100144499|100144502|100154546
 GO:0015035	protein disulfide oxidoreductase activity	molecular_function	3	397463|397581|100192435
 GO:0015037	peptide disulfide oxidoreductase activity	molecular_function	1	397581
 GO:0015052	beta3-adrenergic receptor activity	molecular_function	1	397356
@@ -1477,7 +1486,6 @@ GO:0015631	tubulin binding	molecular_function	4	397266|494014|494463|791125
 GO:0015643	toxic substance binding	molecular_function	1	396960
 GO:0015670	carbon dioxide transport	biological_process	2	407773|100126278
 GO:0015671	oxygen transport	biological_process	4	397467|407066|407067|414438
-GO:0015672	monovalent inorganic cation transport	biological_process	1	397245
 GO:0015696	ammonium transport	biological_process	3	397056|407773|733644
 GO:0015701	bicarbonate transport	biological_process	3	396811|403154|503546
 GO:0015711	organic anion transport	biological_process	1	397223
@@ -1519,7 +1527,8 @@ GO:0016209	antioxidant activity	molecular_function	5	397032|397061|445535|692188
 GO:0016212	kynurenine-oxoglutarate transaminase activity	molecular_function	1	396968
 GO:0016234	inclusion body	cellular_component	3	397123|397189|641350
 GO:0016235	aggresome	cellular_component	1	397383
-GO:0016236	macroautophagy	biological_process	1	397011
+GO:0016236	macroautophagy	biological_process	3	397011|503700|733576
+GO:0016241	regulation of macroautophagy	biological_process	1	397504
 GO:0016255	attachment of GPI anchor to protein	biological_process	1	606750
 GO:0016262	protein N-acetylglucosaminyltransferase activity	molecular_function	1	664652
 GO:0016279	protein-lysine N-methyltransferase activity	molecular_function	1	100294706
@@ -1531,7 +1540,7 @@ GO:0016309	1-phosphatidylinositol-5-phosphate 4-kinase activity	molecular_functi
 GO:0016310	phosphorylation	biological_process	10	396673|396688|396983|397097|397264|407608|733648|100037302|100037303|100152301
 GO:0016311	dephosphorylation	biological_process	5	397038|397136|397414|397656|100156925
 GO:0016322	neuron remodeling	biological_process	1	397663
-GO:0016323	basolateral plasma membrane	cellular_component	16	396898|396942|397049|397056|397169|397223|403163|404693|407773|407774|414386|503546|654410|733644|733693|100144478
+GO:0016323	basolateral plasma membrane	cellular_component	17	396898|396942|397018|397049|397056|397169|397223|403163|404693|407773|407774|414386|503546|654410|733644|733693|100144478
 GO:0016324	apical plasma membrane	cellular_component	14	396570|396898|397018|397060|397177|397196|397492|403163|404693|407773|494458|733644|780410|100126278
 GO:0016327	apicolateral plasma membrane	cellular_component	1	654410
 GO:0016328	lateral plasma membrane	cellular_component	2	403163|100153106
@@ -1576,7 +1585,7 @@ GO:0016607	nuclear speck	cellular_component	8	397338|448813|654327|733590|768117
 GO:0016608	growth hormone-releasing hormone activity	molecular_function	1	396728
 GO:0016616	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	molecular_function	2	397298|100134955
 GO:0016667	oxidoreductase activity, acting on a sulfur group of donors	molecular_function	1	100174943
-GO:0016671	oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor	molecular_function	1	100192435
+GO:0016671	oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor	molecular_function	2	397581|100192435
 GO:0016701	oxidoreductase activity, acting on single donors with incorporation of molecular oxygen	molecular_function	1	397189
 GO:0016705	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	molecular_function	4	397112|403331|403332|403333
 GO:0016706	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors	molecular_function	1	100037295
@@ -1594,7 +1603,7 @@ GO:0016813	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds
 GO:0016874	ligase activity	molecular_function	7	396629|396637|397383|414917|654326|780418|100038004
 GO:0016881	acid-amino acid ligase activity	molecular_function	1	397506
 GO:0016884	carbon-nitrogen ligase activity, with glutamine as amido-N-donor	molecular_function	1	396949
-GO:0016887	ATPase activity	molecular_function	4	396950|397025|808506|100144452
+GO:0016887	ATPase activity	molecular_function	3	396950|808506|100144452
 GO:0016888	endodeoxyribonuclease activity, producing 5'-phosphomonoesters	molecular_function	1	654408
 GO:0016907	G-protein coupled acetylcholine receptor activity	molecular_function	3	397099|397498|100144478
 GO:0016918	retinal binding	molecular_function	2	397124|407611
@@ -1640,7 +1649,7 @@ GO:0018344	protein geranylgeranylation	biological_process	1	100049679
 GO:0018393	internal peptidyl-lysine acetylation	biological_process	1	100153950
 GO:0018685	alkane 1-monooxygenase activity	molecular_function	1	403326
 GO:0018738	S-formylglutathione hydrolase activity	molecular_function	1	397127
-GO:0019003	GDP binding	molecular_function	6	595112|595114|595117|606749|100144491|100144499
+GO:0019003	GDP binding	molecular_function	4	595112|595114|606749|100144499
 GO:0019048	modulation by virus of host morphology or physiology	biological_process	1	100144536
 GO:0019049	evasion or tolerance of host defenses by virus	biological_process	1	397078
 GO:0019079	viral genome replication	biological_process	1	448965
@@ -1786,7 +1795,7 @@ GO:0030139	endocytic vesicle	cellular_component	4	397085|397492|397691|780425
 GO:0030141	secretory granule	cellular_component	10	396846|396927|397110|397111|397154|397157|397252|397540|497237|606749
 GO:0030145	manganese ion binding	molecular_function	3	397425|397538|100154319
 GO:0030150	protein import into mitochondrial matrix	biological_process	1	100037982
-GO:0030154	cell differentiation	biological_process	27	396570|396584|396730|396737|397009|397048|397077|397206|397482|397486|397487|397489|397511|397520|397578|397628|407740|414917|492277|497624|751862|791125|100038028|100048945|100126291|100153950|100240720
+GO:0030154	cell differentiation	biological_process	28	396570|396584|396730|396737|397009|397048|397077|397206|397482|397486|397487|397489|397511|397520|397578|397628|407740|414917|492277|497624|751862|791125|100038028|100048945|100126291|100153950|100240720|100622956
 GO:0030155	regulation of cell adhesion	biological_process	3	397340|397378|397550
 GO:0030157	pancreatic juice secretion	biological_process	1	100126278
 GO:0030163	protein catabolic process	biological_process	2	396939|397135
@@ -1843,7 +1852,7 @@ GO:0030308	negative regulation of cell growth	biological_process	10	397038|39707
 GO:0030314	junctional membrane complex	cellular_component	1	397436
 GO:0030315	T-tubule	cellular_component	2	396828|397349
 GO:0030316	osteoclast differentiation	biological_process	2	396629|397086
-GO:0030317	sperm motility	biological_process	1	100513764
+GO:0030317	sperm motility	biological_process	2	396891|100513764
 GO:0030318	melanocyte differentiation	biological_process	5	396810|414911|606749|733590|100049663
 GO:0030324	lung development	biological_process	6	396865|397471|397497|100127468|100144498|100153950
 GO:0030325	adrenal gland development	biological_process	4	397338|397680|397691|100127468
@@ -1898,6 +1907,7 @@ GO:0030621	U4 snRNA binding	molecular_function	1	448813
 GO:0030658	transport vesicle membrane	cellular_component	4	397540|751862|768111|100048996
 GO:0030659	cytoplasmic vesicle membrane	cellular_component	2	397056|397326
 GO:0030660	Golgi-associated vesicle membrane	cellular_component	1	595120
+GO:0030667	secretory granule membrane	cellular_component	1	100144498
 GO:0030670	phagocytic vesicle membrane	cellular_component	4	595112|595117|100144491|100144496
 GO:0030672	synaptic vesicle membrane	cellular_component	1	397536
 GO:0030676	Rac guanyl-nucleotide exchange factor activity	molecular_function	1	100145887
@@ -1922,7 +1932,7 @@ GO:0030878	thyroid gland development	biological_process	1	406869
 GO:0030879	mammary gland development	biological_process	1	397550
 GO:0030886	negative regulation of myeloid dendritic cell activation	biological_process	1	397106
 GO:0030889	negative regulation of B cell proliferation	biological_process	1	397106
-GO:0030890	positive regulation of B cell proliferation	biological_process	6	396868|397225|397253|397395|397412|733590
+GO:0030890	positive regulation of B cell proliferation	biological_process	7	396721|396868|397225|397253|397395|397412|733590
 GO:0030898	actin-dependent ATPase activity	molecular_function	2	396807|396860
 GO:0030900	forebrain development	biological_process	2	780410|791125
 GO:0030911	TPR domain binding	molecular_function	1	397028
@@ -2094,6 +2104,7 @@ GO:0032332	positive regulation of chondrocyte differentiation	biological_process
 GO:0032354	response to follicle-stimulating hormone	biological_process	1	397512
 GO:0032355	response to estradiol	biological_process	3	397078|733648|100037966
 GO:0032367	intracellular cholesterol transport	biological_process	1	397410
+GO:0032385	positive regulation of intracellular cholesterol transport	biological_process	1	397671
 GO:0032387	negative regulation of intracellular transport	biological_process	1	100519789
 GO:0032391	photoreceptor connecting cilium	cellular_component	1	595114
 GO:0032402	melanosome transport	biological_process	5	414439|595117|606749|100049671|100049677
@@ -2118,7 +2129,7 @@ GO:0032466	negative regulation of cytokinesis	biological_process	1	396955
 GO:0032467	positive regulation of cytokinesis	biological_process	2	396955|780428
 GO:0032469	endoplasmic reticulum calcium ion homeostasis	biological_process	1	780410
 GO:0032481	positive regulation of type I interferon production	biological_process	3	396611|100144461|100217389
-GO:0032482	Rab protein signal transduction	biological_process	3	595117|606749|100144491
+GO:0032482	Rab protein signal transduction	biological_process	4	595117|606749|100144491|100144498
 GO:0032486	Rap protein signal transduction	biological_process	1	100144507
 GO:0032489	regulation of Cdc42 protein signal transduction	biological_process	2	397691|406187
 GO:0032495	response to muramyl dipeptide	biological_process	1	406188
@@ -2134,7 +2145,6 @@ GO:0032592	integral component of mitochondrial membrane	cellular_component	1	594
 GO:0032593	insulin-responsive compartment	cellular_component	1	396754
 GO:0032608	interferon-beta production	biological_process	1	100217389
 GO:0032609	interferon-gamma production	biological_process	1	397462
-GO:0032612	interleukin-1 production	biological_process	1	445525
 GO:0032637	interleukin-8 production	biological_process	1	445525
 GO:0032642	regulation of chemokine production	biological_process	1	396900
 GO:0032680	regulation of tumor necrosis factor production	biological_process	1	397649
@@ -2160,7 +2170,7 @@ GO:0032747	positive regulation of interleukin-23 production	biological_process	1
 GO:0032753	positive regulation of interleukin-4 production	biological_process	1	396927
 GO:0032755	positive regulation of interleukin-6 production	biological_process	4	397007|397086|397406|100145887
 GO:0032760	positive regulation of tumor necrosis factor production	biological_process	6	396991|397007|397025|397076|397406|100145887
-GO:0032762	mast cell cytokine production	biological_process	1	396810
+GO:0032762	mast cell cytokine production	biological_process	2	396810|397540
 GO:0032765	positive regulation of mast cell cytokine production	biological_process	1	397406
 GO:0032769	negative regulation of monooxygenase activity	biological_process	1	641350
 GO:0032781	positive regulation of ATPase activity	biological_process	1	396898
@@ -2228,6 +2238,7 @@ GO:0033572	transferrin transport	biological_process	1	397062
 GO:0033578	protein glycosylation in Golgi	biological_process	1	396933
 GO:0033580	protein galactosylation at cell surface	biological_process	1	396733
 GO:0033598	mammary gland epithelial cell proliferation	biological_process	1	654298
+GO:0033604	negative regulation of catecholamine secretion	biological_process	1	397540
 GO:0033613	activating transcription factor binding	molecular_function	2	397671|100037273
 GO:0033619	membrane protein proteolysis	biological_process	1	396969
 GO:0033630	positive regulation of cell adhesion mediated by integrin	biological_process	2	397084|100125540
@@ -2286,7 +2297,7 @@ GO:0034501	protein localization to kinetochore	biological_process	1	396955
 GO:0034504	protein localization to nucleus	biological_process	3	414422|100126859|100381266
 GO:0034511	U3 snoRNA binding	molecular_function	1	448855
 GO:0034587	piRNA metabolic process	biological_process	1	100048945
-GO:0034599	cellular response to oxidative stress	biological_process	5	397013|397077|397123|641350|100151836
+GO:0034599	cellular response to oxidative stress	biological_process	6	397013|397077|397123|397581|641350|100151836
 GO:0034605	cellular response to heat	biological_process	2	397094|397497
 GO:0034612	response to tumor necrosis factor	biological_process	2	396735|396865
 GO:0034613	cellular protein localization	biological_process	2	780428|100144507
@@ -2305,6 +2316,7 @@ GO:0035020	regulation of Rac protein signal transduction	biological_process	1	78
 GO:0035022	positive regulation of Rac protein signal transduction	biological_process	1	100739349
 GO:0035023	regulation of Rho protein signal transduction	biological_process	1	100151746
 GO:0035025	positive regulation of Rho protein signal transduction	biological_process	2	397691|100154546
+GO:0035032	phosphatidylinositol 3-kinase complex, class III	cellular_component	2	503700|733576
 GO:0035033	histone deacetylase regulator activity	molecular_function	1	397276
 GO:0035035	histone acetyltransferase binding	molecular_function	2	397276|100037273
 GO:0035038	female pronucleus assembly	biological_process	1	100048934
@@ -2321,7 +2333,7 @@ GO:0035198	miRNA binding	molecular_function	1	733590
 GO:0035234	ectopic germ cell programmed cell death	biological_process	1	397094
 GO:0035235	ionotropic glutamate receptor signaling pathway	biological_process	1	397663
 GO:0035253	ciliary rootlet	cellular_component	1	780410
-GO:0035257	nuclear hormone receptor binding	molecular_function	2	397592|574068
+GO:0035257	nuclear hormone receptor binding	molecular_function	1	574068
 GO:0035258	steroid hormone receptor binding	molecular_function	1	397680
 GO:0035264	multicellular organism growth	biological_process	3	396766|397276|780428
 GO:0035267	NuA4 histone acetyltransferase complex	cellular_component	1	414396
@@ -2460,7 +2472,7 @@ GO:0042134	rRNA primary transcript binding	molecular_function	1	397583
 GO:0042135	neurotransmitter catabolic process	biological_process	2	397500|414424
 GO:0042136	neurotransmitter biosynthetic process	biological_process	3	396896|396928|396929
 GO:0042138	meiotic DNA double-strand break formation	biological_process	1	100499502
-GO:0042149	cellular response to glucose starvation	biological_process	2	397276|100145903
+GO:0042149	cellular response to glucose starvation	biological_process	5	397276|397504|503700|733576|100145903
 GO:0042157	lipoprotein metabolic process	biological_process	5	397576|397681|397691|406187|692188
 GO:0042158	lipoprotein biosynthetic process	biological_process	1	397691
 GO:0042163	interleukin-12 beta subunit binding	molecular_function	1	397053
@@ -2471,7 +2483,7 @@ GO:0042176	regulation of protein catabolic process	biological_process	1	780428
 GO:0042177	negative regulation of protein catabolic process	biological_process	2	397142|791125
 GO:0042178	xenobiotic catabolic process	biological_process	2	397117|733653
 GO:0042182	ketone catabolic process	biological_process	1	396978
-GO:0042254	ribosome biogenesis	biological_process	2	100049695|100144452
+GO:0042254	ribosome biogenesis	biological_process	1	100049695
 GO:0042255	ribosome assembly	biological_process	1	595107
 GO:0042274	ribosomal small subunit biogenesis	biological_process	2	414397|414420
 GO:0042277	peptide binding	molecular_function	3	397462|397515|397637
@@ -2535,7 +2547,7 @@ GO:0042613	MHC class II protein complex	cellular_component	2	100037921|100153387
 GO:0042622	photoreceptor outer segment membrane	cellular_component	1	397437
 GO:0042626	ATPase activity, coupled to transmembrane movement of substances	molecular_function	1	397073
 GO:0042627	chylomicron	cellular_component	5	397537|397576|397681|397691|406187
-GO:0042629	mast cell granule	cellular_component	1	396810
+GO:0042629	mast cell granule	cellular_component	2	396810|397540
 GO:0042632	cholesterol homeostasis	biological_process	6	397410|397591|397691|404693|406187|448985
 GO:0042633	hair cycle	biological_process	1	100038330
 GO:0042637	catagen	biological_process	1	397084
@@ -2598,7 +2610,8 @@ GO:0043065	positive regulation of apoptotic process	biological_process	8	396917|
 GO:0043066	negative regulation of apoptotic process	biological_process	30	396728|396837|396840|396907|396954|396960|396969|396984|397050|397123|397196|397266|397276|397280|397338|397340|397349|397350|397374|397491|397513|397550|397649|407773|448810|494014|733654|780410|100145903|100153950
 GO:0043069	negative regulation of programmed cell death	biological_process	1	396689
 GO:0043085	positive regulation of catalytic activity	biological_process	6	397036|397123|397392|397407|448812|780410
-GO:0043086	negative regulation of catalytic activity	biological_process	11	396845|396942|397110|397205|397253|397361|397362|397610|406192|733688|100144450
+GO:0043086	negative regulation of catalytic activity	biological_process	12	396845|396942|397110|397205|397253|397361|397362|397610|404088|406192|733688|100144450
+GO:0043087	regulation of GTPase activity	biological_process	1	100153106
 GO:0043103	hypoxanthine salvage	biological_process	1	397351
 GO:0043116	negative regulation of vascular permeability	biological_process	1	397195
 GO:0043117	positive regulation of vascular permeability	biological_process	1	397157
@@ -2632,13 +2645,14 @@ GO:0043242	negative regulation of protein complex disassembly	biological_process
 GO:0043243	positive regulation of protein complex disassembly	biological_process	1	397086
 GO:0043249	erythrocyte maturation	biological_process	1	397249
 GO:0043268	positive regulation of potassium ion transport	biological_process	1	399501
+GO:0043269	regulation of ion transport	biological_process	1	397099
 GO:0043270	positive regulation of ion transport	biological_process	1	397099
 GO:0043277	apoptotic cell clearance	biological_process	1	396971
 GO:0043278	response to morphine	biological_process	1	397090
 GO:0043280	positive regulation of cysteine-type endopeptidase activity involved in apoptotic process	biological_process	4	448810|595127|100170131|100622956
 GO:0043297	apical junction assembly	biological_process	1	396974
-GO:0043303	mast cell degranulation	biological_process	1	396810
-GO:0043306	positive regulation of mast cell degranulation	biological_process	1	397406
+GO:0043303	mast cell degranulation	biological_process	2	396810|397540
+GO:0043306	positive regulation of mast cell degranulation	biological_process	2	396721|397406
 GO:0043312	neutrophil degranulation	biological_process	1	396870
 GO:0043313	regulation of neutrophil degranulation	biological_process	1	100125540
 GO:0043316	cytotoxic T cell degranulation	biological_process	1	606749
@@ -2685,7 +2699,7 @@ GO:0043534	blood vessel endothelial cell migration	biological_process	1	397691
 GO:0043536	positive regulation of blood vessel endothelial cell migration	biological_process	1	397078
 GO:0043537	negative regulation of blood vessel endothelial cell migration	biological_process	1	397078
 GO:0043542	endothelial cell migration	biological_process	1	397492
-GO:0043547	positive regulation of GTPase activity	biological_process	3	397605|414427|448965
+GO:0043547	positive regulation of GTPase activity	biological_process	7	397355|397605|414283|414427|448965|100049657|100145887
 GO:0043548	phosphatidylinositol 3-kinase binding	molecular_function	1	397267
 GO:0043551	regulation of phosphatidylinositol 3-kinase activity	biological_process	1	396851
 GO:0043552	positive regulation of phosphatidylinositol 3-kinase activity	biological_process	2	397078|780428
@@ -2712,7 +2726,6 @@ GO:0043984	histone H4-K16 acetylation	biological_process	1	664652
 GO:0043988	histone H3-S28 phosphorylation	biological_process	1	396955
 GO:0043995	histone acetyltransferase activity (H4-K5 specific)	molecular_function	1	664652
 GO:0043996	histone acetyltransferase activity (H4-K8 specific)	molecular_function	1	664652
-GO:0044070	regulation of anion transport	biological_process	4	397010|397263|397651|397659
 GO:0044130	negative regulation of growth of symbiont in host	biological_process	6	396991|397076|397086|397106|407742|492276
 GO:0044208	'de novo' AMP biosynthetic process	biological_process	2	100048942|100048943
 GO:0044212	transcription regulatory region DNA binding	molecular_function	8	397086|397338|397582|397671|733590|733648|100038004|100302639
@@ -2751,10 +2764,10 @@ GO:0045121	membrane raft	cellular_component	9	396724|396941|397086|397372|397492
 GO:0045143	homologous chromosome segregation	biological_process	1	397015
 GO:0045165	cell fate commitment	biological_process	1	397671
 GO:0045174	glutathione dehydrogenase (ascorbate) activity	molecular_function	1	397117
-GO:0045177	apical part of cell	cellular_component	5	397087|397196|397263|407773|780428
+GO:0045177	apical part of cell	cellular_component	6	397087|397196|397263|407773|780428|100151746
 GO:0045187	regulation of circadian sleep/wake cycle, sleep	biological_process	1	397456
 GO:0045199	maintenance of epithelial cell apical/basal polarity	biological_process	1	414386
-GO:0045202	synapse	cellular_component	5	396837|397305|397622|414386|641350
+GO:0045202	synapse	cellular_component	6	396837|397099|397305|397622|414386|641350
 GO:0045211	postsynaptic membrane	cellular_component	4	397099|397498|497636|100144478
 GO:0045214	sarcomere organization	biological_process	3	397349|397436|497233
 GO:0045216	cell-cell junction organization	biological_process	3	397078|397084|397400
@@ -2792,7 +2805,7 @@ GO:0045519	interleukin-23 receptor binding	molecular_function	1	397076
 GO:0045523	interleukin-27 receptor binding	molecular_function	1	493187
 GO:0045541	negative regulation of cholesterol biosynthetic process	biological_process	1	397036
 GO:0045542	positive regulation of cholesterol biosynthetic process	biological_process	1	397497
-GO:0045576	mast cell activation	biological_process	1	397406
+GO:0045576	mast cell activation	biological_process	2	397406|397540
 GO:0045578	negative regulation of B cell differentiation	biological_process	1	654298
 GO:0045579	positive regulation of B cell differentiation	biological_process	2	397340|397550
 GO:0045582	positive regulation of T cell differentiation	biological_process	3	397053|397225|397253
@@ -2875,7 +2888,7 @@ GO:0045927	positive regulation of growth	biological_process	2	397064|404698
 GO:0045930	negative regulation of mitotic cell cycle	biological_process	2	397078|100048957
 GO:0045931	positive regulation of mitotic cell cycle	biological_process	4	397266|397340|397550|397663
 GO:0045932	negative regulation of muscle contraction	biological_process	1	396579
-GO:0045944	positive regulation of transcription from RNA polymerase II promoter	biological_process	56	396611|396628|396629|396661|396740|396766|396840|396868|396917|396959|396991|397005|397007|397013|397020|397044|397078|397085|397086|397093|397094|397106|397142|397199|397225|397276|397280|397338|397340|397395|397465|397497|397550|397582|397592|397671|399502|403163|406188|407604|414283|445525|448810|497618|595123|664652|733590|733596|733648|733683|100037273|100038004|100127461|100144486|100145887|100622956
+GO:0045944	positive regulation of transcription from RNA polymerase II promoter	biological_process	55	396611|396628|396629|396661|396740|396766|396840|396868|396917|396959|396991|397005|397007|397013|397020|397044|397078|397085|397086|397093|397094|397106|397142|397199|397225|397276|397280|397338|397340|397395|397465|397497|397550|397582|397671|399502|403163|406188|407604|414283|445525|448810|497618|595123|664652|733590|733596|733648|733683|100037273|100038004|100127461|100144486|100145887|100622956
 GO:0045954	positive regulation of natural killer cell mediated cytotoxicity	biological_process	1	396737
 GO:0045955	negative regulation of calcium ion-dependent exocytosis	biological_process	1	100127461
 GO:0045964	positive regulation of dopamine metabolic process	biological_process	1	397351
@@ -2893,7 +2906,7 @@ GO:0046100	hypoxanthine metabolic process	biological_process	1	397351
 GO:0046294	formaldehyde catabolic process	biological_process	1	397127
 GO:0046322	negative regulation of fatty acid oxidation	biological_process	1	396931
 GO:0046325	negative regulation of glucose import	biological_process	2	397086|100188977
-GO:0046326	positive regulation of glucose import	biological_process	2	397491|399502
+GO:0046326	positive regulation of glucose import	biological_process	3	396891|397491|399502
 GO:0046328	regulation of JNK cascade	biological_process	2	397350|100144507
 GO:0046330	positive regulation of JNK cascade	biological_process	2	397094|397122
 GO:0046332	SMAD binding	molecular_function	1	100037273
@@ -2937,7 +2950,7 @@ GO:0046849	bone remodeling	biological_process	2	396669|397563
 GO:0046854	phosphatidylinositol phosphorylation	biological_process	5	396979|397425|503700|100156925|100520446
 GO:0046855	inositol phosphate dephosphorylation	biological_process	1	397425
 GO:0046870	cadmium ion binding	molecular_function	1	397123
-GO:0046872	metal ion binding	molecular_function	106	387596|396665|396730|396733|396752|396766|396810|396820|396828|396842|396859|396862|396875|396884|396918|396921|396930|396943|396955|396960|396983|396998|396999|397000|397019|397038|397040|397108|397109|397115|397133|397136|397142|397199|397211|397260|397284|397294|397316|397343|397378|397434|397437|397442|397443|397503|397504|397506|397507|397568|397570|397573|397586|397601|397608|397636|397646|397656|397677|399535|399540|414391|414412|414799|414851|414913|414916|445512|445538|448822|448845|448855|492822|494017|494562|574066|595114|613129|654405|733588|733596|733601|733658|733683|780405|791125|100037965|100038004|100048954|100048996|100049657|100124378|100134961|100136903|100142661|100144450|100144451|100145887|100145903|100153993|100156925|100158236|100294706|100302639|100519789|100524676
+GO:0046872	metal ion binding	molecular_function	107	387596|396665|396730|396733|396752|396766|396810|396820|396828|396842|396859|396862|396875|396884|396918|396921|396930|396943|396955|396960|396983|396998|396999|397000|397019|397038|397040|397108|397109|397115|397133|397136|397142|397199|397211|397260|397284|397294|397316|397343|397378|397434|397437|397442|397443|397500|397503|397504|397506|397507|397568|397570|397573|397586|397601|397608|397636|397646|397656|397677|399535|399540|414391|414412|414799|414851|414913|414916|445512|445538|448822|448845|448855|492822|494017|494562|574066|595114|613129|654405|733588|733596|733601|733658|733683|780405|791125|100037965|100038004|100048954|100048996|100049657|100124378|100134961|100136903|100142661|100144450|100144451|100145887|100145903|100153993|100156925|100158236|100294706|100302639|100519789|100524676
 GO:0046875	ephrin receptor binding	molecular_function	1	791125
 GO:0046878	positive regulation of saliva secretion	biological_process	1	407773
 GO:0046880	regulation of follicle-stimulating hormone secretion	biological_process	1	397093
@@ -3099,7 +3112,6 @@ GO:0050405	[acetyl-CoA carboxylase] kinase activity	molecular_function	2	397504|
 GO:0050431	transforming growth factor beta binding	molecular_function	3	396665|397400|397512
 GO:0050435	beta-amyloid metabolic process	biological_process	1	780410
 GO:0050473	arachidonate 15-lipoxygenase activity	molecular_function	1	396971
-GO:0050482	arachidonic acid secretion	biological_process	1	445525
 GO:0050501	hyaluronan synthase activity	molecular_function	1	404698
 GO:0050544	arachidonic acid binding	molecular_function	2	397392|641350
 GO:0050571	1,5-anhydro-D-fructose reductase activity	molecular_function	1	733633
@@ -3110,7 +3122,7 @@ GO:0050662	coenzyme binding	molecular_function	2	397012|397065
 GO:0050665	hydrogen peroxide biosynthetic process	biological_process	2	397036|397177
 GO:0050667	homocysteine metabolic process	biological_process	1	397196
 GO:0050672	negative regulation of lymphocyte proliferation	biological_process	1	396868
-GO:0050679	positive regulation of epithelial cell proliferation	biological_process	6	396717|396840|397484|397497|404698|448810
+GO:0050679	positive regulation of epithelial cell proliferation	biological_process	7	396717|396840|396891|397484|397497|404698|448810
 GO:0050680	negative regulation of epithelial cell proliferation	biological_process	4	396840|397078|397084|414852
 GO:0050681	androgen receptor binding	molecular_function	1	100381266
 GO:0050682	AF-2 domain binding	molecular_function	1	397680
@@ -3118,7 +3130,7 @@ GO:0050699	WW domain binding	molecular_function	1	100144474
 GO:0050707	regulation of cytokine secretion	biological_process	2	397007|399541
 GO:0050709	negative regulation of protein secretion	biological_process	1	396752
 GO:0050713	negative regulation of interleukin-1 beta secretion	biological_process	1	397691
-GO:0050714	positive regulation of protein secretion	biological_process	3	396959|397078|397084
+GO:0050714	positive regulation of protein secretion	biological_process	4	396959|397078|397084|397671
 GO:0050715	positive regulation of cytokine secretion	biological_process	6	396837|397050|397086|397094|397106|397412
 GO:0050718	positive regulation of interleukin-1 beta secretion	biological_process	1	396991
 GO:0050727	regulation of inflammatory response	biological_process	1	397585
@@ -3145,8 +3157,8 @@ GO:0050812	regulation of acyl-CoA biosynthetic process	biological_process	1	6413
 GO:0050820	positive regulation of coagulation	biological_process	1	780410
 GO:0050821	protein stabilization	biological_process	9	396823|396898|397025|397123|397691|445511|100153950|100174943|100381266
 GO:0050828	regulation of liquid surface tension	biological_process	1	449524
-GO:0050829	defense response to Gram-negative bacterium	biological_process	3	397011|397076|399541
-GO:0050830	defense response to Gram-positive bacterium	biological_process	6	396557|396646|397053|397086|407742|492276
+GO:0050829	defense response to Gram-negative bacterium	biological_process	4	397011|397076|397540|399541
+GO:0050830	defense response to Gram-positive bacterium	biological_process	7	396557|396646|397053|397086|397540|407742|492276
 GO:0050832	defense response to fungus	biological_process	2	396869|100301483
 GO:0050840	extracellular matrix binding	molecular_function	3	397087|397157|397676
 GO:0050847	progesterone receptor signaling pathway	biological_process	1	494562
@@ -3230,7 +3242,7 @@ GO:0051281	positive regulation of release of sequestered calcium ion into cytoso
 GO:0051287	NAD binding	molecular_function	4	396823|397538|397603|100144529
 GO:0051289	protein homotetramerization	biological_process	5	397038|397293|397351|445465|100038002
 GO:0051296	establishment of meiotic spindle orientation	biological_process	1	100127484
-GO:0051301	cell division	biological_process	15	397015|397162|397266|397361|397362|397378|397379|397482|574063|595110|733671|100144474|100144492|100145887|100514624
+GO:0051301	cell division	biological_process	16	396584|397015|397162|397266|397361|397362|397378|397379|397482|574063|595110|733671|100144474|100144492|100145887|100514624
 GO:0051302	regulation of cell division	biological_process	1	397605
 GO:0051303	establishment of chromosome localization	biological_process	1	397266
 GO:0051321	meiotic cell cycle	biological_process	2	397656|100048945
@@ -3257,7 +3269,7 @@ GO:0051489	regulation of filopodium assembly	biological_process	2	780425|780428
 GO:0051493	regulation of cytoskeleton organization	biological_process	2	397393|494463
 GO:0051496	positive regulation of stress fiber assembly	biological_process	1	397691
 GO:0051533	positive regulation of NFAT protein import into nucleus	biological_process	1	397086
-GO:0051537	2 iron, 2 sulfur cluster binding	molecular_function	3	396918|397133|414412
+GO:0051537	2 iron, 2 sulfur cluster binding	molecular_function	4	396918|397133|397500|414412
 GO:0051538	3 iron, 4 sulfur cluster binding	molecular_function	1	414412
 GO:0051539	4 iron, 4 sulfur cluster binding	molecular_function	5	396752|396999|397109|414412|100153993
 GO:0051549	positive regulation of keratinocyte migration	biological_process	1	397564
@@ -3499,7 +3511,6 @@ GO:0070375	ERK5 cascade	biological_process	1	100037273
 GO:0070382	exocytic vesicle	cellular_component	1	606749
 GO:0070402	NADPH binding	molecular_function	1	733653
 GO:0070403	NAD+ binding	molecular_function	2	396914|397604
-GO:0070404	NADH binding	molecular_function	1	733653
 GO:0070411	I-SMAD binding	molecular_function	1	397142
 GO:0070412	R-SMAD binding	molecular_function	3	396959|397142|100144486
 GO:0070427	nucleotide-binding oligomerization domain containing 1 signaling pathway	biological_process	1	406188
@@ -3723,7 +3734,6 @@ GO:0090280	positive regulation of calcium ion import	biological_process	2	396927
 GO:0090285	negative regulation of protein glycosylation in Golgi	biological_process	1	733610
 GO:0090303	positive regulation of wound healing	biological_process	2	397564|399501
 GO:0090305	nucleic acid phosphodiester bond hydrolysis	biological_process	3	396976|397506|448855
-GO:0090307	mitotic spindle assembly	biological_process	1	397374
 GO:0090330	regulation of platelet aggregation	biological_process	1	100125540
 GO:0090343	positive regulation of cell aging	biological_process	2	397276|100126859
 GO:0090344	negative regulation of cell aging	biological_process	1	397412
@@ -3735,6 +3745,7 @@ GO:0090403	oxidative stress-induced premature senescence	biological_process	1	39
 GO:0090503	RNA phosphodiester bond hydrolysis, exonucleolytic	biological_process	1	448855
 GO:0090526	regulation of gluconeogenesis involved in cellular glucose homeostasis	biological_process	1	664652
 GO:0090534	calcium ion-transporting ATPase complex	cellular_component	1	397421
+GO:0090630	activation of GTPase activity	biological_process	1	100155163
 GO:0097028	dendritic cell differentiation	biological_process	1	397225
 GO:0097038	perinuclear endoplasmic reticulum	cellular_component	1	397212
 GO:0097052	L-kynurenine metabolic process	biological_process	1	396968
@@ -3836,6 +3847,7 @@ GO:1902891	negative regulation of root hair elongation	biological_process	1	3974
 GO:1902949	positive regulation of tau-protein kinase activity	biological_process	1	397025
 GO:1902966	positive regulation of protein localization to early endosome	biological_process	1	397157
 GO:1902998	positive regulation of neurofibrillary tangle assembly	biological_process	1	397025
+GO:1903076	regulation of protein localization to plasma membrane	biological_process	1	397671
 GO:1903142	positive regulation of establishment of endothelial barrier	biological_process	1	397225
 GO:1903206	negative regulation of hydrogen peroxide-induced cell death	biological_process	1	397581
 GO:1903237	negative regulation of leukocyte tethering or rolling	biological_process	1	448799
@@ -3849,14 +3861,18 @@ GO:1903348	positive regulation of tight junction assembly	biological_process	1	3
 GO:1903361	protein localization to basolateral plasma membrane	biological_process	1	414386
 GO:1903416	response to glycoside	biological_process	1	396828
 GO:1903435	positive regulation of constitutive secretory pathway	biological_process	1	606749
+GO:1903488	negative regulation of lactation	biological_process	1	404088
 GO:1903507	negative regulation of nucleic acid-templated transcription	biological_process	1	396959
+GO:1903572	positive regulation of protein kinase D signaling	biological_process	1	397157
 GO:1903659	regulation of complement-dependent cytotoxicity	biological_process	1	414737
 GO:1903660	negative regulation of complement-dependent cytotoxicity	biological_process	2	396721|397225
 GO:1903661	positive regulation of complement-dependent cytotoxicity	biological_process	1	397077
+GO:1903959	regulation of anion transmembrane transport	biological_process	4	397010|397263|397651|397659
 GO:1990001	inhibition of cysteine-type endopeptidase activity involved in apoptotic process	biological_process	1	397374
 GO:1990050	phosphatidic acid transporter activity	molecular_function	1	100134984
 GO:1990182	exosomal secretion	biological_process	2	595117|606749
 GO:1990239	steroid hormone binding	molecular_function	2	396740|396828
+GO:1990573	potassium ion import across plasma membrane	biological_process	2	396898|397481
 GO:2000002	negative regulation of DNA damage checkpoint	biological_process	1	448813
 GO:2000010	positive regulation of protein localization to cell surface	biological_process	1	397086
 GO:2000020	positive regulation of male gonad development	biological_process	2	396840|397338
@@ -3878,7 +3894,7 @@ GO:2000309	positive regulation of tumor necrosis factor (ligand) superfamily mem
 GO:2000310	regulation of N-methyl-D-aspartate selective glutamate receptor activity	biological_process	2	396802|100127468
 GO:2000320	negative regulation of T-helper 17 cell differentiation	biological_process	1	397225
 GO:2000343	positive regulation of chemokine (C-X-C motif) ligand 2 production	biological_process	2	397086|397412
-GO:2000344	positive regulation of acrosome reaction	biological_process	2	396927|397111
+GO:2000344	positive regulation of acrosome reaction	biological_process	3	396891|396927|397111
 GO:2000352	negative regulation of endothelial cell apoptotic process	biological_process	3	396721|397225|397628
 GO:2000353	positive regulation of endothelial cell apoptotic process	biological_process	2	397086|397395
 GO:2000354	regulation of ovarian follicle development	biological_process	1	397516
@@ -3905,10 +3921,12 @@ GO:2000648	positive regulation of stem cell proliferation	biological_process	1	4
 GO:2000650	negative regulation of sodium ion transmembrane transporter activity	biological_process	1	397674
 GO:2000675	negative regulation of type B pancreatic cell apoptotic process	biological_process	1	397135
 GO:2000679	positive regulation of transcription regulatory region DNA binding	biological_process	2	396629|397078
+GO:2000707	positive regulation of dense core granule biogenesis	biological_process	1	397540
 GO:2000727	positive regulation of cardiac muscle cell differentiation	biological_process	2	396571|733590
 GO:2000741	positive regulation of mesenchymal stem cell differentiation	biological_process	1	396840
 GO:2000811	negative regulation of anoikis	biological_process	1	404693
 GO:2000818	negative regulation of myoblast proliferation	biological_process	1	399534
+GO:2000866	positive regulation of estradiol secretion	biological_process	3	397086|397122|399500
 GO:2000987	positive regulation of behavioral fear response	biological_process	1	733590
 GO:2001013	epithelial cell proliferation involved in renal tubule morphogenesis	biological_process	1	733590
 GO:2001016	positive regulation of skeletal muscle cell differentiation	biological_process	1	733590

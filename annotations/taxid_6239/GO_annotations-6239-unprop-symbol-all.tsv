@@ -74,7 +74,7 @@ GO:0000280	nuclear division	biological_process	1	gld-3
 GO:0000281	mitotic cytokinesis	biological_process	22	act-2|act-3|cdc-14|cls-2|cpg-1|cpg-2|csc-1|csn-3|cyk-4|ect-2|emr-1|evl-20|gld-3|icp-1|lem-2|mbk-2|mlc-4|mlc-5|nmy-2|ptr-2|rack-1|sep-1
 GO:0000287	magnesium ion binding	molecular_function	33	C26E6.12|C37H5.6|CELE_W04G3.5|CELE_Y105E8B.5|F25B5.3|F58H1.3|T26C12.1|crn-1|enol-1|fars-2|figl-1|idh-1|idh-2|idha-1|idhb-1|idhg-1|idhg-2|kin-4|ndx-3|pyk-1|pyk-2|pyp-1|rev-1|rnh-1.0|rskn-1|rskn-2|tat-1|tat-2|tat-3|tat-4|tat-5|tat-6|ttx-7
 GO:0000288	nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay	biological_process	2	dcs-1|rpb-4
-GO:0000290	deadenylation-dependent decapping of nuclear-transcribed mRNA	biological_process	3	dcap-1|dcap-2|dcs-1
+GO:0000290	deadenylation-dependent decapping of nuclear-transcribed mRNA	biological_process	2	dcap-2|dcs-1
 GO:0000291	nuclear-transcribed mRNA catabolic process, exonucleolytic	biological_process	2	F48E8.6|rpb-7
 GO:0000295	adenine nucleotide transmembrane transporter activity	molecular_function	1	ant-1.3
 GO:0000302	response to reactive oxygen species	biological_process	7	gcs-1|gst-32|gst-44|immt-1|immt-2|pmk-1|sek-1
@@ -115,7 +115,7 @@ GO:0000502	proteasome complex	cellular_component	28	C56G2.7|dss-1|pas-1|pas-2|pa
 GO:0000578	embryonic axis specification	biological_process	2	cap-2|gpa-16
 GO:0000703	oxidized pyrimidine nucleobase lesion DNA N-glycosylase activity	molecular_function	1	nth-1
 GO:0000707	meiotic DNA recombinase assembly	biological_process	1	brc-2
-GO:0000710	meiotic mismatch repair	biological_process	4	him-14|msh-2|msh-5|msh-6
+GO:0000710	meiotic mismatch repair	biological_process	2	msh-2|msh-6
 GO:0000712	resolution of meiotic recombination intermediates	biological_process	5	R05D3.12|cin-4|helq-1|him-14|him-17
 GO:0000723	telomere maintenance	biological_process	14	C11G6.2|CELE_F33H12.6|CELE_T19C9.10|CELE_Y116F11A.1|CELE_Y16E11A.2|ceh-37|cku-70|cku-80|clk-2|dog-1|hus-1|mre-11|mrt-2|pif-1
 GO:0000724	double-strand break repair via homologous recombination	biological_process	7	C23H4.6|brc-1|brc-2|dss-1|gen-1|smc-5|smc-6
@@ -251,7 +251,7 @@ GO:0002128	tRNA nucleoside ribose methylation	biological_process	1	R74.7
 GO:0002143	tRNA wobble position uridine thiolation	biological_process	1	moc-3
 GO:0002161	aminoacyl-tRNA editing activity	molecular_function	2	iars-2|vars-1
 GO:0002164	larval development	biological_process	2	col-10|skr-10
-GO:0002181	cytoplasmic translation	biological_process	5	R74.7|cyld-1|rps-1|rps-3|rps-7
+GO:0002181	cytoplasmic translation	biological_process	4	R74.7|rps-1|rps-3|rps-7
 GO:0002183	cytoplasmic translational initiation	biological_process	1	cif-1
 GO:0002376	immune system process	biological_process	6	akt-1|akt-2|daf-2|dapk-1|dkf-2|tir-1
 GO:0002791	regulation of peptide secretion	biological_process	1	hid-1
@@ -268,7 +268,7 @@ GO:0003677	DNA binding	molecular_function	705	B0035.1|B0261.1|B0310.2|C01F1.1|C0
 GO:0003678	DNA helicase activity	molecular_function	15	C11G6.2|CELE_F33H12.6|CELE_T19C9.10|CELE_Y116F11A.1|CELE_Y16E11A.2|chd-3|mcm-2|mcm-3|mcm-4|mcm-5|mcm-6|mcm-7|pif-1|ruvb-1|ruvb-2
 GO:0003680	AT DNA binding	molecular_function	1	tbp-1
 GO:0003682	chromatin binding	molecular_function	23	B0261.1|F54F2.9|K10D2.1|ada-2|chd-3|chd-7|dnj-11|egl-27|ekl-4|gei-8|gfl-1|him-1|him-17|isw-1|lin-40|lin-59|pbrm-1|saeg-1|smc-3|spr-1|sptf-3|swsn-1|zfp-1
-GO:0003684	damaged DNA binding	molecular_function	21	agt-1|cku-70|cku-80|coh-1|ercc-1|him-14|mrt-2|msh-2|msh-5|msh-6|polh-1|polk-1|rad-23|rad-51|rec-8|rev-1|scc-1|ubc-1|ubql-1|xpa-1|xpc-1
+GO:0003684	damaged DNA binding	molecular_function	19	agt-1|cku-70|cku-80|coh-1|ercc-1|mrt-2|msh-2|msh-6|polh-1|polk-1|rad-23|rad-51|rec-8|rev-1|scc-1|ubc-1|ubql-1|xpa-1|xpc-1
 GO:0003689	DNA clamp loader activity	molecular_function	1	rfc-1
 GO:0003690	double-stranded DNA binding	molecular_function	9	F21D5.5|baf-1|crn-5|elt-2|elt-4|lin-14|plp-1|rad-51|sox-3
 GO:0003691	double-stranded telomeric DNA binding	molecular_function	1	plp-1
@@ -280,13 +280,13 @@ GO:0003712	transcription cofactor activity	molecular_function	8	C29F9.5|C29F9.6|
 GO:0003713	transcription coactivator activity	molecular_function	11	bar-1|bro-1|eya-1|gmeb-1|gmeb-2|gmeb-3|hmp-2|mdt-15|sys-1|taf-7.1|wrm-1
 GO:0003714	transcription corepressor activity	molecular_function	5	hda-1|hda-2|hda-3|hda-4|unc-37
 GO:0003721	telomeric template RNA reverse transcriptase activity	molecular_function	1	trt-1
-GO:0003723	RNA binding	molecular_function	206	B0024.11|B0035.16|B0205.8|B0336.3|B0511.6|BE0003N10.1|C05C8.2|C06G4.1|C07H6.4|C11D2.7|C15C6.4|C23H3.3|C36E6.1|C41G7.3|C43E11.9|C44B7.2|C44E4.4|C47B2.9|C48B6.2|C50D2.5|CELE_F43G6.5|CELE_F53F4.11|CELE_M04B2.2|CELE_R11H6.5|CELE_Y18D10A.8|CELE_Y43B11AR.3|CELE_Y45F3A.9|CELE_Y52B11A.10|CELE_Y57G11C.36|CELE_Y59A8B.10|CELE_Y69A2AR.32|E02H1.1|E02H1.2|EEED8.10|EEED8.12|EEED8.4|F02A9.4|F08B4.7|F25G6.8|F37F2.2|F48E8.6|K01G5.5|K02A11.3|M28.5|R05D3.8|R11A8.7|W02B12.10|Y48A6B.3|Y66H1A.4|ZK512.2|ZK512.4|ZK686.2|ZK856.11|aars-1|aars-2|aco-1|adr-1|adr-2|asd-2|bcc-1|cacn-1|ccf-1|cdd-1|cdd-2|cdl-1|cgh-1|cpb-1|cpb-2|cpb-3|cpsf-1|cpsf-2|cyn-13|daz-1|dcap-2|dcr-1|dis-3|dom-3|drsh-1|eif-3.B|eif-3.C|eif-3.G|eif-3.K|emb-5|eri-1|exc-7|exos-1|exos-2|exos-3|exos-4.1|fbf-1|fbf-2|fib-1|fox-1|gld-1|gld-3|glh-1|glh-2|glh-3|glh-4|hel-1|hpo-31|hrp-1|ife-1|ife-2|ife-3|ife-4|ife-5|iff-1|iff-2|ifg-1|inf-1|larp-1|let-716|let-858|lsm-4|mbl-1|mep-1|mex-1|mex-3|mog-2|mog-5|mrps-17|mrps-5|mrps-7|ncbp-1|ncbp-2|nol-1|nol-6|nos-1|nos-2|npp-10|nuo-2|nxf-1|nxf-2|pab-1|pab-2|pap-1|patr-1|pes-4|pgl-1|pgl-3|prp-21|prp-8|ptb-1|puf-11|puf-12|puf-3|puf-5|puf-6|puf-7|puf-8|puf-9|pus-1|rha-1|rha-2|rnh-2|rnp-1|rnp-4|rop-1|rpb-7|rpl-1|rpl-12|rpl-25.1|rpl-25.2|rpl-37|rpl-5|rpl-7|rps-15|rps-18|rps-2|rps-3|rps-4|rps-5|rps-9|rsp-1|rsp-2|rsp-3|rsp-4|rsp-5|rsp-6|rsp-7|rsp-8|sap-49|sbds-1|secs-1|set-2|sfa-1|smg-2|smg-3|smn-1|snr-2|snr-5|snr-6|snr-7|sop-2|sor-1|swp-1|sym-2|tag-124|tag-72|trm-1|tut-1|uaf-1|uaf-2|xrn-1|yars-1
+GO:0003723	RNA binding	molecular_function	205	B0024.11|B0035.16|B0205.8|B0336.3|B0511.6|BE0003N10.1|C05C8.2|C06G4.1|C07H6.4|C11D2.7|C15C6.4|C23H3.3|C36E6.1|C41G7.3|C43E11.9|C44B7.2|C44E4.4|C47B2.9|C48B6.2|C50D2.5|CELE_F43G6.5|CELE_F53F4.11|CELE_M04B2.2|CELE_R11H6.5|CELE_Y18D10A.8|CELE_Y43B11AR.3|CELE_Y45F3A.9|CELE_Y52B11A.10|CELE_Y57G11C.36|CELE_Y59A8B.10|CELE_Y69A2AR.32|E02H1.1|E02H1.2|EEED8.10|EEED8.12|EEED8.4|F02A9.4|F08B4.7|F25G6.8|F37F2.2|F48E8.6|K01G5.5|K02A11.3|M28.5|R05D3.8|R11A8.7|W02B12.10|Y48A6B.3|Y66H1A.4|ZK512.2|ZK512.4|ZK686.2|ZK856.11|aars-1|aars-2|adr-1|adr-2|asd-2|bcc-1|cacn-1|ccf-1|cdd-1|cdd-2|cdl-1|cgh-1|cpb-1|cpb-2|cpb-3|cpsf-1|cpsf-2|cyn-13|daz-1|dcap-2|dcr-1|dis-3|dom-3|drsh-1|eif-3.B|eif-3.C|eif-3.G|eif-3.K|emb-5|eri-1|exc-7|exos-1|exos-2|exos-3|exos-4.1|fbf-1|fbf-2|fib-1|fox-1|gld-1|gld-3|glh-1|glh-2|glh-3|glh-4|hel-1|hpo-31|hrp-1|ife-1|ife-2|ife-3|ife-4|ife-5|iff-1|iff-2|ifg-1|inf-1|larp-1|let-716|let-858|lsm-4|mbl-1|mep-1|mex-1|mex-3|mog-2|mog-5|mrps-17|mrps-5|mrps-7|ncbp-1|ncbp-2|nol-1|nol-6|nos-1|nos-2|npp-10|nuo-2|nxf-1|nxf-2|pab-1|pab-2|pap-1|patr-1|pes-4|pgl-1|pgl-3|prp-21|prp-8|ptb-1|puf-11|puf-12|puf-3|puf-5|puf-6|puf-7|puf-8|puf-9|pus-1|rha-1|rha-2|rnh-2|rnp-1|rnp-4|rop-1|rpb-7|rpl-1|rpl-12|rpl-25.1|rpl-25.2|rpl-37|rpl-5|rpl-7|rps-15|rps-18|rps-2|rps-3|rps-4|rps-5|rps-9|rsp-1|rsp-2|rsp-3|rsp-4|rsp-5|rsp-6|rsp-7|rsp-8|sap-49|sbds-1|secs-1|set-2|sfa-1|smg-2|smg-3|smn-1|snr-2|snr-5|snr-6|snr-7|sop-2|sor-1|swp-1|sym-2|tag-124|tag-72|trm-1|tut-1|uaf-1|uaf-2|xrn-1|yars-1
 GO:0003724	RNA helicase activity	molecular_function	4	cgh-1|glh-1|glh-2|glh-4
 GO:0003725	double-stranded RNA binding	molecular_function	5	drh-3|pash-1|rde-4|sea-2|stau-1
 GO:0003727	single-stranded RNA binding	molecular_function	12	asd-2|drh-3|exc-7|gld-1|mex-3|pos-1|rde-4|rnp-8|rpb-4|rpb-7|sea-2|unc-75
 GO:0003729	mRNA binding	molecular_function	14	B0495.8|C50D2.8|F08B4.7|ccdc-55|cdl-1|cfim-1|lsy-6|mir-273|mir-35|mir-36|mir-37|msi-1|pab-1|unc-75
 GO:0003730	mRNA 3'-UTR binding	molecular_function	18	cdl-1|cpb-1|fbf-1|fbf-2|fog-1|gld-1|let-7|lin-4|mex-5|mex-6|mir-71|oma-1|pos-1|puf-3|puf-6|puf-8|puf-9|sup-26
-GO:0003735	structural constituent of ribosome	molecular_function	112	CELE_Y54G11A.17|cyld-1|mrpl-11|mrpl-12|mrpl-13|mrpl-14|mrpl-15|mrpl-16|mrpl-17|mrpl-19|mrpl-2|mrpl-20|mrpl-22|mrpl-23|mrpl-24|mrpl-28|mrpl-32|mrpl-35|mrpl-36|mrpl-37|mrpl-4|mrpl-41|mrpl-47|mrpl-49|mrpl-51|mrpl-9|mrps-11|mrps-12|mrps-14|mrps-16|mrps-18C|mrps-2|mrps-21|mrps-23|mrps-24|mrps-30|mrps-31|mrps-5|mrps-6|mrps-7|mrps-9|rla-1|rla-2|rpa-2|rpl-10|rpl-11.1|rpl-11.2|rpl-12|rpl-13|rpl-14|rpl-15|rpl-16|rpl-17|rpl-18|rpl-19|rpl-21|rpl-22|rpl-23|rpl-25.1|rpl-25.2|rpl-26|rpl-27|rpl-28|rpl-29|rpl-3|rpl-30|rpl-31|rpl-32|rpl-33|rpl-34|rpl-35|rpl-36|rpl-37|rpl-38|rpl-39|rpl-4|rpl-41|rpl-43|rpl-5|rpl-6|rpl-9|rps-0|rps-1|rps-11|rps-12|rps-13|rps-14|rps-15|rps-16|rps-17|rps-18|rps-19|rps-2|rps-20|rps-21|rps-22|rps-23|rps-24|rps-26|rps-27|rps-28|rps-29|rps-3|rps-30|rps-4|rps-5|rps-6|rps-7|rps-8|rps-9|ubl-1|ubq-2
+GO:0003735	structural constituent of ribosome	molecular_function	111	CELE_Y54G11A.17|mrpl-11|mrpl-12|mrpl-13|mrpl-14|mrpl-15|mrpl-16|mrpl-17|mrpl-19|mrpl-2|mrpl-20|mrpl-22|mrpl-23|mrpl-24|mrpl-28|mrpl-32|mrpl-35|mrpl-36|mrpl-37|mrpl-4|mrpl-41|mrpl-47|mrpl-49|mrpl-51|mrpl-9|mrps-11|mrps-12|mrps-14|mrps-16|mrps-18C|mrps-2|mrps-21|mrps-23|mrps-24|mrps-30|mrps-31|mrps-5|mrps-6|mrps-7|mrps-9|rla-1|rla-2|rpa-2|rpl-10|rpl-11.1|rpl-11.2|rpl-12|rpl-13|rpl-14|rpl-15|rpl-16|rpl-17|rpl-18|rpl-19|rpl-21|rpl-22|rpl-23|rpl-25.1|rpl-25.2|rpl-26|rpl-27|rpl-28|rpl-29|rpl-3|rpl-30|rpl-31|rpl-32|rpl-33|rpl-34|rpl-35|rpl-36|rpl-37|rpl-38|rpl-39|rpl-4|rpl-41|rpl-43|rpl-5|rpl-6|rpl-9|rps-0|rps-1|rps-11|rps-12|rps-13|rps-14|rps-15|rps-16|rps-17|rps-18|rps-19|rps-2|rps-20|rps-21|rps-22|rps-23|rps-24|rps-26|rps-27|rps-28|rps-29|rps-3|rps-30|rps-4|rps-5|rps-6|rps-7|rps-8|rps-9|ubl-1|ubq-2
 GO:0003743	translation initiation factor activity	molecular_function	27	C03H5.5|C37C3.2|E04D5.1|Y47D3A.21|ZK1098.4|ZK856.11|cif-1|egl-45|eif-1|eif-3.B|eif-3.C|eif-3.D|eif-3.E|eif-3.F|eif-3.G|eif-3.H|eif-3.I|eif-3.K|eif-6|ife-1|ife-2|ife-3|ife-4|ife-5|iffb-1|inf-1|ppp-1
 GO:0003746	translation elongation factor activity	molecular_function	9	eef-1B.1|eef-1B.2|eef-1G|eef-2|iff-1|iff-2|tsfm-1|tufm-1|tufm-2
 GO:0003747	translation release factor activity	molecular_function	1	W03F8.3
@@ -486,14 +486,13 @@ GO:0004422	hypoxanthine phosphoribosyltransferase activity	molecular_function	1	
 GO:0004427	inorganic diphosphatase activity	molecular_function	1	pyp-1
 GO:0004430	1-phosphatidylinositol 4-kinase activity	molecular_function	2	CELE_Y75B8A.24|pifk-1
 GO:0004435	phosphatidylinositol phospholipase C activity	molecular_function	6	egl-8|plc-1|plc-2|plc-3|plc-4|pll-1
-GO:0004438	phosphatidylinositol-3-phosphatase activity	molecular_function	3	mtm-1|mtm-3|mtm-9
+GO:0004438	phosphatidylinositol-3-phosphatase activity	molecular_function	2	mtm-1|mtm-3
 GO:0004445	inositol-polyphosphate 5-phosphatase activity	molecular_function	1	ipp-5
 GO:0004449	isocitrate dehydrogenase (NAD+) activity	molecular_function	4	idha-1|idhb-1|idhg-1|idhg-2
 GO:0004450	isocitrate dehydrogenase (NADP+) activity	molecular_function	2	idh-1|idh-2
 GO:0004451	isocitrate lyase activity	molecular_function	1	icl-1
 GO:0004452	isopentenyl-diphosphate delta-isomerase activity	molecular_function	1	idi-1
 GO:0004459	L-lactate dehydrogenase activity	molecular_function	1	ldh-1
-GO:0004463	leukotriene-A4 hydrolase activity	molecular_function	1	C42C1.11
 GO:0004468	lysine N-acetyltransferase activity, acting on acetyl phosphate as donor	molecular_function	3	atat-2|cbp-1|mec-17
 GO:0004470	malic enzyme activity	molecular_function	1	men-1
 GO:0004471	malate dehydrogenase (decarboxylating) (NAD+) activity	molecular_function	1	men-1
@@ -705,7 +704,7 @@ GO:0005078	MAP-kinase scaffold activity	molecular_function	1	unc-16
 GO:0005080	protein kinase C binding	molecular_function	4	CELE_Y57G11C.22|num-1|par-6|rpn-2
 GO:0005085	guanyl-nucleotide exchange factor activity	molecular_function	24	CELE_F11A3.2|CELE_Y47H9C.7|Y97E10AR.7|ZK1098.4|aex-3|ced-12|ced-5|ect-2|epac-1|exc-5|glo-4|grp-1|mdt-9|plc-1|pxf-1|ran-3|rgef-1|rgl-1|ric-8|rme-6|sos-1|uig-1|unc-73|vav-1
 GO:0005086	ARF guanyl-nucleotide exchange factor activity	molecular_function	7	CELE_Y106G6G.2|CELE_Y106G6G.6|agef-1|efa-6|gbf-1|grp-1|mon-2
-GO:0005088	Ras guanyl-nucleotide exchange factor activity	molecular_function	3	let-60|rgef-1|sos-1
+GO:0005088	Ras guanyl-nucleotide exchange factor activity	molecular_function	2	rgef-1|sos-1
 GO:0005089	Rho guanyl-nucleotide exchange factor activity	molecular_function	15	CELE_Y105E8A.24|CELE_Y37A1B.17|cgef-1|ect-2|exc-5|pix-1|rhgf-1|rhgf-2|sos-1|tag-52|tag-77|uig-1|unc-73|unc-89|vav-1
 GO:0005092	GDP-dissociation inhibitor activity	molecular_function	2	gpr-1|gpr-2
 GO:0005093	Rab GDP-dissociation inhibitor activity	molecular_function	2	gdi-1|rep-1
@@ -747,7 +746,7 @@ GO:0005246	calcium channel regulator activity	molecular_function	3	stim-1|stn-1|
 GO:0005247	voltage-gated chloride channel activity	molecular_function	6	clh-1|clh-2|clh-3|clh-4|clh-5|clh-6
 GO:0005249	voltage-gated potassium channel activity	molecular_function	22	C32C4.1|cng-1|cng-2|cng-3|egl-2|egl-36|exp-2|kqt-1|kqt-2|kqt-3|kvs-1|kvs-3|kvs-4|kvs-5|shk-1|shl-1|shw-1|shw-3|slo-1|tax-2|tax-4|unc-103
 GO:0005250	A-type (transient outward) potassium channel activity	molecular_function	1	shl-1
-GO:0005251	delayed rectifier potassium channel activity	molecular_function	10	C32C4.1|kqt-1|kqt-2|kqt-3|kvs-1|kvs-3|kvs-4|kvs-5|shk-1|shl-1
+GO:0005251	delayed rectifier potassium channel activity	molecular_function	9	C32C4.1|kqt-1|kqt-2|kqt-3|kvs-1|kvs-3|kvs-4|kvs-5|shk-1
 GO:0005254	chloride channel activity	molecular_function	22	best-1|best-12|best-13|best-15|best-17|best-18|best-2|best-22|best-24|best-25|best-26|best-5|best-9|dat-1|exc-4|exl-1|gab-1|ggr-1|glc-2|lgc-55|mod-1|ttyh-1
 GO:0005261	cation channel activity	molecular_function	8	CELE_F17C8.6|CELE_Y57A10A.10|CELE_Y57A10A.28|nca-2|osm-9|unc-77|unc-8|unc-80
 GO:0005262	calcium channel activity	molecular_function	15	CELE_F20D1.1|cca-1|cup-5|egl-19|itr-1|lov-1|pkd-2|spe-41|stim-1|trp-1|trp-2|trp-4|unc-2|unc-36|unc-68
@@ -784,7 +783,7 @@ GO:0005519	cytoskeletal regulatory protein binding	molecular_function	2	wip-1|ws
 GO:0005520	insulin-like growth factor binding	molecular_function	1	crm-1
 GO:0005521	lamin binding	molecular_function	2	emr-1|lem-2
 GO:0005523	tropomyosin binding	molecular_function	2	tmd-2|unc-94
-GO:0005524	ATP binding	molecular_function	718	B0001.4|B0035.16|B0198.3|B0207.7|B0218.5|B0252.1|B0286.3|B0495.2|B0511.6|C01C4.3|C01H6.9|C03B1.5|C03C10.2|C05C10.2|C05C12.1|C05D10.2|C09B9.4|C09D4.3|C10G11.8|C11G6.2|C14A4.13|C16A11.10|C16A3.1|C18H7.4|C24A1.3|C24G6.2|C25A8.5|C25F9.4|C25F9.5|C26D10.4|C28A5.6|C28H8.3|C30C11.4|C30F12.2|C34B2.3|C34B2.6|C34F11.5|C35E7.10|C36B7.1|C36B7.2|C39B5.6|C42C1.9|C44H4.6|C45G9.1|C46F11.4|C49C8.1|C52B9.8|C55C3.4|C55C3.8|C56C10.6|C56G2.5|CELE_F19B2.5|CELE_F19B2.7|CELE_F23C8.7|CELE_F23C8.8|CELE_F36H12.9|CELE_F38E1.3|CELE_F38E11.6|CELE_F44G3.2|CELE_F46F5.5|CELE_F53C3.1|CELE_F53H1.1|CELE_F59A6.4|CELE_F59A7.8|CELE_K08F4.1|CELE_M04F3.3|CELE_M05D6.1|CELE_R09D1.12|CELE_R09D1.13|CELE_R10D12.10|CELE_R11H6.5|CELE_T08D2.7|CELE_T17A3.10|CELE_T24D5.4|CELE_T26E3.7|CELE_T28F3.5|CELE_VY10G11R.1|CELE_W01B6.2|CELE_W01B6.5|CELE_W03A5.1|CELE_W04G5.10|CELE_Y105C5A.24|CELE_Y105E8A.20|CELE_Y106G6D.4|CELE_Y106G6E.1|CELE_Y111B2A.1|CELE_Y116A8C.13|CELE_Y116A8C.24|CELE_Y116A8C.38|CELE_Y116F11A.1|CELE_Y38H6C.20|CELE_Y38H8A.3|CELE_Y38H8A.4|CELE_Y39B6A.36|CELE_Y39G8B.5|CELE_Y40A1A.1|CELE_Y42A5A.4|CELE_Y43D4A.6|CELE_Y43F8B.14|CELE_Y43F8B.15|CELE_Y47G6A.13|CELE_Y47G6A.5|CELE_Y48B6A.10|CELE_Y48B6A.13|CELE_Y51B9A.9|CELE_Y52D5A.2|CELE_Y53F4B.1|CELE_Y54E2A.4|CELE_Y54G11A.3|CELE_Y61A9LA.10|CELE_Y73B3A.10|CELE_Y73B3A.16|CELE_ZK354.2|CELE_ZK354.6|CELE_ZK666.8|CELE_ZK938.3|D1005.1|E02H1.6|F02A9.4|F09A5.2|F10G8.6|F16A11.2|F25B5.6|F31E3.2|F38B2.4|F40F8.1|F44B9.8|F46F11.1|F46H5.3|F56D2.6|F57C9.1|H28O16.1|K02B2.1|K02F3.12|K06H7.8|M03C11.8|R05D3.12|R107.2|R11F4.1|R53.2|T05G5.5|T10B11.2|Y66D12A.7|Y67D2.6|ZC434.8|ZK177.2|ZK507.1|ZK507.3|ZK512.2|ZK686.2|aak-1|aak-2|aars-1|aars-2|abce-1|abcf-1|abcf-2|abcf-3|abch-1|abl-1|abt-1|abt-2|abt-4|abt-5|abt-6|abtm-1|acly-2|acs-19|act-1|act-2|act-3|act-4|act-5|age-1|air-1|air-2|akt-1|akt-2|alh-13|ark-1|arx-1|arx-2|asna-1|asna-2|asns-1|asns-2|atad-3|atl-1|atm-1|atp-2|bcs-1|bmk-1|btf-1|bub-1|cam-1|cars-1|catp-1|catp-2|catp-3|catp-4|catp-6|catp-7|cct-1|cct-2|cct-3|cct-4|cct-5|cct-6|cct-7|cct-8|cdc-48.1|cdc-48.2|cdc-48.3|cdc-6|cdc-7|cdk-1|cdk-2|cdk-4|cdk-5|cdk-7|cdk-8|cdk-9|cdtl-7|cec-9|ced-4|ced-7|cft-1|cgh-1|chd-1|chd-3|chd-7|che-3|chk-1|chk-2|chl-1|cin-4|ckb-1|ckb-2|ckb-3|ckk-1|clpf-1|cmk-1|csb-1|csk-1|csnk-1|cst-1|cst-2|ctps-1|cua-1|daf-1|daf-11|daf-2|daf-21|daf-4|dapk-1|dars-2|dcr-1|ddr-1|ddr-2|ddx-19|ddx-23|dgk-1|dgk-2|dgk-3|dgk-4|dgk-5|dhc-1|dkf-1|dkf-2|dlk-1|dnj-10|dnj-12|dnj-19|dog-1|dpy-27|drh-1|drh-3|dyf-18|dyf-5|ears-1|ears-2|eat-6|efk-1|egl-15|eri-7|fars-1|fars-2|figl-1|flr-4|frk-1|gars-1|gck-1|gck-2|gck-3|gck-4|gcn-2|gcs-1|gcy-1|gcy-11|gcy-12|gcy-13|gcy-14|gcy-15|gcy-17|gcy-18|gcy-19|gcy-2|gcy-20|gcy-21|gcy-22|gcy-23|gcy-25|gcy-27|gcy-28|gcy-29|gcy-3|gcy-4|gcy-5|gcy-6|gcy-7|gcy-8|gcy-9|gld-2|gld-4|glh-1|glh-2|glh-3|glh-4|gln-2|gln-3|grk-1|grk-2|gro-1|gsk-3|gska-3|gss-1|haf-1|haf-2|haf-3|haf-4|haf-6|haf-7|haf-8|haf-9|hel-1|helq-1|him-1|him-14|him-6|hmt-1|hpk-1|hpo-11|hsp-1|hsp-3|hsp-4|hsp-6|hsp-60|hsp-70|hum-1|hum-10|hum-2|hum-4|hum-5|hum-6|hum-7|hum-8|hum-9|iars-2|ikke-1|inf-1|ire-1|isw-1|jkk-1|jnk-1|kars-1|kgb-1|kgb-2|kin-1|kin-14|kin-15|kin-16|kin-18|kin-19|kin-20|kin-21|kin-23|kin-24|kin-26|kin-29|kin-3|kin-30|kin-31|kin-32|kin-33|kin-34|kin-4|kin-5|kin-6|kin-9|klp-11|klp-12|klp-13|klp-15|klp-16|klp-17|klp-18|klp-19|klp-20|klp-3|klp-4|klp-6|klp-7|ksr-1|ksr-2|laf-1|lars-2|let-23|let-363|let-418|let-502|let-70|let-754|lex-1|lig-1|lig-4|lin-18|lin-2|lin-45|lit-1|lrk-1|mac-1|mak-2|mars-1|max-2|mbk-1|mbk-2|mca-1|mca-2|mca-3|mcm-2|mcm-3|mcm-4|mcm-5|mcm-6|mcm-7|mei-1|mek-1|mek-2|mel-46|mes-1|mig-15|mix-1|mkk-4|mlh-1|mlk-1|mmaa-1|mnk-1|moc-3|mog-1|mog-4|mog-5|mom-4|mpk-1|mpk-2|mrck-1|mrp-1|mrp-2|mrp-3|mrp-4|mrp-5|mrp-6|mrp-7|mrp-8|msh-2|msh-5|msh-6|mspn-1|mtk-1|mtr-4|mut-14|mvk-1|myo-2|myo-3|myo-5|myo-6|nars-2|nath-10|ndk-1|ndx-4|nekl-1|nekl-2|nekl-3|nekl-4|nipi-3|nipi-4|nmy-1|nmy-2|nol-9|nsf-1|nuo-4|odr-1|old-1|old-2|ooc-5|orc-1|osm-3|pak-1|pak-2|panl-3|par-1|par-2|par-4|pars-1|pars-2|pat-4|pcca-1|pch-2|pct-1|pdhk-2|pdk-1|pek-1|pgk-1|pgp-1|pgp-10|pgp-11|pgp-12|pgp-13|pgp-14|pgp-2|pgp-3|pgp-4|pgp-5|pgp-6|pgp-7|pgp-8|pgp-9|pif-1|pig-1|pik-1|piki-1|pink-1|pkc-1|pkc-2|pkc-3|pkg-2|pkn-1|plk-1|plk-2|plk-3|pmk-1|pmk-2|pmk-3|pmp-1|pmp-2|pmp-3|pmp-5|pmr-1|pms-2|pnk-1|pnk-4|pod-2|polq-1|ppgn-1|ppk-3|pps-1|prk-1|prk-2|prpf-4|prx-1|prx-6|pyc-1|pyr-1|qars-1|qns-1|rad-26|rad-50|rad-51|rad-54|rars-1|rars-2|rcq-5|rfc-1|rfc-2|rfc-4|rha-1|rha-2|riok-1|riok-2|riok-3|rnr-1|rnt-1|rol-3|rpt-1|rpt-2|rpt-3|rpt-4|rpt-5|rpt-6|rskd-1|rskn-1|rskn-2|rsks-1|rtel-1|ruvb-1|ruvb-2|sacy-1|sad-1|sams-1|sams-3|sams-4|sams-5|sars-2|sax-1|sca-1|scd-2|sek-1|sel-5|seld-1|sgk-1|skih-2|sma-5|sma-6|smc-3|smc-4|smc-6|smg-1|smg-2|smgl-2|snn-1|spas-1|spe-15|spe-5|spe-6|spe-8|spg-7|sphk-1|spk-1|spo-11|src-1|src-2|ssl-1|stc-1|strd-1|sur-5|svh-2|swsn-4|tag-172|tag-191|tag-210|tag-257|tag-344|tag-96|tars-1|tat-1|tat-2|tat-3|tat-4|tat-5|tat-6|tbck-1|thk-1|tlk-1|tor-1|tor-2|tpa-1|tpk-1|trk-1|ttbk-2|ttn-1|uba-1|ubc-1|ubc-12|ubc-21|ubc-7|ubc-9|unc-104|unc-116|unc-22|unc-43|unc-51|unc-54|unc-82|unc-89|vab-1|vab-8|vars-1|vbh-1|ver-1|ver-2|ver-3|ver-4|vha-12|vha-13|vps-34|vps-4|vrk-1|wars-1|wee-1.1|wee-1.3|wht-1|wht-2|wht-3|wht-4|wht-5|wht-6|wht-7|wht-8|wnk-1|wrn-1|wts-1|xnp-1|xol-1|yars-1|ymel-1|zak-1|zen-4|zyg-1|zyg-8
+GO:0005524	ATP binding	molecular_function	717	B0001.4|B0035.16|B0198.3|B0207.7|B0218.5|B0252.1|B0286.3|B0495.2|B0511.6|C01C4.3|C01H6.9|C03B1.5|C03C10.2|C05C10.2|C05C12.1|C05D10.2|C09B9.4|C09D4.3|C10G11.8|C11G6.2|C14A4.13|C16A11.10|C16A3.1|C18H7.4|C24A1.3|C24G6.2|C25A8.5|C25F9.4|C25F9.5|C26D10.4|C28A5.6|C28H8.3|C30C11.4|C30F12.2|C34B2.3|C34B2.6|C34F11.5|C35E7.10|C36B7.1|C36B7.2|C39B5.6|C42C1.9|C44H4.6|C45G9.1|C46F11.4|C49C8.1|C52B9.8|C55C3.4|C55C3.8|C56C10.6|C56G2.5|CELE_F19B2.5|CELE_F19B2.7|CELE_F23C8.7|CELE_F23C8.8|CELE_F36H12.9|CELE_F38E1.3|CELE_F38E11.6|CELE_F44G3.2|CELE_F46F5.5|CELE_F53C3.1|CELE_F53H1.1|CELE_F59A6.4|CELE_F59A7.8|CELE_K08F4.1|CELE_M04F3.3|CELE_M05D6.1|CELE_R09D1.12|CELE_R09D1.13|CELE_R10D12.10|CELE_R11H6.5|CELE_T08D2.7|CELE_T17A3.10|CELE_T24D5.4|CELE_T26E3.7|CELE_T28F3.5|CELE_VY10G11R.1|CELE_W01B6.2|CELE_W01B6.5|CELE_W03A5.1|CELE_W04G5.10|CELE_Y105C5A.24|CELE_Y105E8A.20|CELE_Y106G6D.4|CELE_Y106G6E.1|CELE_Y111B2A.1|CELE_Y116A8C.13|CELE_Y116A8C.24|CELE_Y116A8C.38|CELE_Y116F11A.1|CELE_Y38H6C.20|CELE_Y38H8A.3|CELE_Y38H8A.4|CELE_Y39B6A.36|CELE_Y39G8B.5|CELE_Y40A1A.1|CELE_Y42A5A.4|CELE_Y43D4A.6|CELE_Y43F8B.14|CELE_Y43F8B.15|CELE_Y47G6A.13|CELE_Y47G6A.5|CELE_Y48B6A.10|CELE_Y48B6A.13|CELE_Y51B9A.9|CELE_Y52D5A.2|CELE_Y53F4B.1|CELE_Y54E2A.4|CELE_Y54G11A.3|CELE_Y61A9LA.10|CELE_Y73B3A.10|CELE_Y73B3A.16|CELE_ZK354.2|CELE_ZK354.6|CELE_ZK666.8|CELE_ZK938.3|D1005.1|E02H1.6|F02A9.4|F09A5.2|F10G8.6|F16A11.2|F25B5.6|F31E3.2|F38B2.4|F40F8.1|F44B9.8|F46F11.1|F46H5.3|F56D2.6|F57C9.1|H28O16.1|K02B2.1|K02F3.12|K06H7.8|M03C11.8|R05D3.12|R107.2|R11F4.1|R53.2|T05G5.5|T10B11.2|Y66D12A.7|Y67D2.6|ZC434.8|ZK177.2|ZK507.1|ZK507.3|ZK512.2|ZK686.2|aak-1|aak-2|aars-1|aars-2|abce-1|abcf-1|abcf-2|abcf-3|abch-1|abl-1|abt-1|abt-2|abt-4|abt-5|abt-6|abtm-1|acly-2|acs-19|act-1|act-2|act-3|act-4|act-5|age-1|air-1|air-2|akt-1|akt-2|alh-13|ark-1|arx-1|arx-2|asna-1|asna-2|asns-1|asns-2|atad-3|atl-1|atm-1|atp-2|bcs-1|bmk-1|btf-1|bub-1|cam-1|cars-1|catp-1|catp-2|catp-3|catp-4|catp-6|catp-7|cct-1|cct-2|cct-3|cct-4|cct-5|cct-6|cct-7|cct-8|cdc-48.1|cdc-48.2|cdc-48.3|cdc-6|cdc-7|cdk-1|cdk-2|cdk-4|cdk-5|cdk-7|cdk-8|cdk-9|cdtl-7|cec-9|ced-4|ced-7|cft-1|cgh-1|chd-1|chd-3|chd-7|che-3|chk-1|chk-2|chl-1|cin-4|ckb-1|ckb-2|ckb-3|ckk-1|clpf-1|cmk-1|csb-1|csk-1|csnk-1|cst-1|cst-2|ctps-1|cua-1|daf-1|daf-11|daf-2|daf-21|daf-4|dapk-1|dars-2|dcr-1|ddr-1|ddr-2|ddx-19|ddx-23|dgk-1|dgk-2|dgk-3|dgk-4|dgk-5|dhc-1|dkf-1|dkf-2|dlk-1|dnj-10|dnj-12|dnj-19|dog-1|dpy-27|drh-1|drh-3|dyf-18|dyf-5|ears-1|ears-2|eat-6|efk-1|egl-15|eri-7|fars-1|fars-2|figl-1|flr-4|frk-1|gars-1|gck-1|gck-2|gck-3|gck-4|gcn-2|gcs-1|gcy-1|gcy-11|gcy-12|gcy-13|gcy-14|gcy-15|gcy-17|gcy-18|gcy-19|gcy-2|gcy-20|gcy-21|gcy-22|gcy-23|gcy-25|gcy-27|gcy-28|gcy-29|gcy-3|gcy-4|gcy-5|gcy-6|gcy-7|gcy-8|gcy-9|gld-2|gld-4|glh-1|glh-2|glh-3|glh-4|gln-2|gln-3|grk-1|grk-2|gro-1|gsk-3|gska-3|gss-1|haf-1|haf-2|haf-3|haf-4|haf-6|haf-7|haf-8|haf-9|hel-1|helq-1|him-1|him-14|him-6|hmt-1|hpk-1|hpo-11|hsp-1|hsp-3|hsp-4|hsp-6|hsp-60|hsp-70|hum-1|hum-10|hum-2|hum-4|hum-5|hum-6|hum-7|hum-8|hum-9|iars-2|ikke-1|inf-1|ire-1|isw-1|jkk-1|jnk-1|kars-1|kgb-1|kgb-2|kin-1|kin-14|kin-15|kin-16|kin-18|kin-19|kin-20|kin-21|kin-23|kin-24|kin-26|kin-29|kin-3|kin-30|kin-31|kin-32|kin-33|kin-34|kin-4|kin-5|kin-6|kin-9|klp-11|klp-12|klp-13|klp-15|klp-16|klp-17|klp-18|klp-19|klp-20|klp-3|klp-4|klp-6|klp-7|ksr-1|ksr-2|laf-1|lars-2|let-23|let-363|let-418|let-502|let-70|let-754|lex-1|lig-1|lig-4|lin-18|lin-2|lin-45|lit-1|lrk-1|mac-1|mak-2|mars-1|max-2|mbk-1|mbk-2|mca-1|mca-2|mca-3|mcm-2|mcm-3|mcm-4|mcm-5|mcm-6|mcm-7|mei-1|mek-1|mek-2|mel-46|mes-1|mig-15|mix-1|mkk-4|mlh-1|mlk-1|mmaa-1|mnk-1|moc-3|mog-1|mog-4|mog-5|mom-4|mpk-1|mpk-2|mrck-1|mrp-1|mrp-2|mrp-3|mrp-4|mrp-5|mrp-6|mrp-7|mrp-8|msh-2|msh-5|msh-6|mspn-1|mtk-1|mtr-4|mut-14|mvk-1|myo-2|myo-3|myo-5|myo-6|nars-2|nath-10|ndk-1|ndx-4|nekl-1|nekl-2|nekl-3|nekl-4|nipi-3|nipi-4|nmy-1|nmy-2|nol-9|nsf-1|nuo-4|odr-1|old-1|old-2|ooc-5|orc-1|osm-3|pak-1|pak-2|panl-3|par-1|par-2|par-4|pars-1|pars-2|pat-4|pcca-1|pch-2|pct-1|pdhk-2|pdk-1|pek-1|pgk-1|pgp-1|pgp-10|pgp-11|pgp-12|pgp-13|pgp-14|pgp-2|pgp-3|pgp-4|pgp-5|pgp-6|pgp-7|pgp-8|pgp-9|pif-1|pig-1|pik-1|piki-1|pink-1|pkc-1|pkc-2|pkc-3|pkg-2|pkn-1|plk-1|plk-2|plk-3|pmk-1|pmk-2|pmk-3|pmp-1|pmp-2|pmp-3|pmp-5|pmr-1|pms-2|pnk-1|pnk-4|pod-2|polq-1|ppgn-1|ppk-3|pps-1|prk-1|prk-2|prpf-4|prx-1|prx-6|pyc-1|pyr-1|qars-1|qns-1|rad-26|rad-50|rad-51|rad-54|rars-1|rars-2|rcq-5|rfc-1|rfc-2|rfc-4|rha-1|rha-2|riok-1|riok-2|riok-3|rnr-1|rnt-1|rol-3|rpt-1|rpt-2|rpt-3|rpt-4|rpt-5|rpt-6|rskd-1|rskn-1|rskn-2|rsks-1|rtel-1|ruvb-1|ruvb-2|sacy-1|sad-1|sams-1|sams-3|sams-4|sams-5|sars-2|sax-1|sca-1|scd-2|sek-1|sel-5|seld-1|sgk-1|skih-2|sma-5|sma-6|smc-3|smc-4|smc-6|smg-1|smg-2|smgl-2|snn-1|spas-1|spe-15|spe-5|spe-6|spe-8|spg-7|sphk-1|spk-1|spo-11|src-1|src-2|ssl-1|stc-1|strd-1|sur-5|svh-2|swsn-4|tag-172|tag-191|tag-210|tag-257|tag-344|tag-96|tars-1|tat-1|tat-2|tat-3|tat-4|tat-5|tat-6|tbck-1|thk-1|tlk-1|tor-1|tor-2|tpa-1|tpk-1|trk-1|ttbk-2|ttn-1|uba-1|ubc-1|ubc-12|ubc-21|ubc-7|ubc-9|unc-104|unc-116|unc-22|unc-43|unc-51|unc-54|unc-82|unc-89|vab-1|vab-8|vars-1|vbh-1|ver-1|ver-2|ver-3|ver-4|vha-12|vha-13|vps-34|vps-4|vrk-1|wars-1|wee-1.1|wee-1.3|wht-1|wht-2|wht-3|wht-4|wht-5|wht-6|wht-7|wht-8|wnk-1|wrn-1|wts-1|xnp-1|yars-1|ymel-1|zak-1|zen-4|zyg-1|zyg-8
 GO:0005525	GTP binding	molecular_function	155	4R79.2|C02F5.3|C18B2.5|C26E6.12|C37C3.2|C37H5.6|C46E1.3|C52B11.5|C53H9.2|C56E6.2|CELE_F11A5.3|CELE_F11A5.4|CELE_F38A1.8|CELE_T04H1.2|CELE_Y116A8C.10|CELE_Y39G10AR.8|CELE_Y52B11A.4|CELE_Y54E10BR.2|CELE_Y61A9LA.10|E02H1.2|F49E2.1|F52A8.6|T07A9.9|aex-6|arc-1|arf-1.1|arf-1.2|arf-3|arf-6|arl-1|arl-13|arl-3|arl-5|arl-6|arl-8|ben-1|cat-4|cdc-42|ced-10|cel-1|cgp-1|chw-1|cnt-2|crp-1|drn-1|drp-1|dyn-1|eat-3|eef-2|eftu-2|egl-30|erfa-3|evl-20|fzo-1|gcy-1|gcy-31|gcy-32|gcy-33|gcy-34|gcy-35|gcy-36|gcy-37|glo-1|goa-1|gop-2|gpa-1|gpa-10|gpa-11|gpa-12|gpa-13|gpa-14|gpa-15|gpa-16|gpa-17|gpa-18|gpa-2|gpa-3|gpa-4|gpa-5|gpa-6|gpa-7|gpa-8|gpa-9|gsa-1|iffb-1|ifta-2|let-60|lrk-1|mec-12|mec-7|mig-2|miro-2|mmaa-1|ngp-1|nst-1|odr-3|pak-1|pck-1|pck-2|pck-3|rab-1|rab-10|rab-11.1|rab-11.2|rab-14|rab-18|rab-19|rab-21|rab-28|rab-3|rab-30|rab-33|rab-35|rab-37|rab-39|rab-5|rab-6.1|rab-6.2|rab-7|rab-8|rac-2|raga-1|ragc-1|ral-1|ran-1|rap-1|rap-2|rap-3|ras-1|ras-2|rheb-1|rho-1|rme-1|ssr-2|tag-210|tag-312|tag-335|tba-1|tba-2|tba-4|tba-5|tba-6|tba-7|tba-8|tba-9|tbb-1|tbb-2|tbb-4|tbb-6|tbg-1|tufm-1|tufm-2|unc-108|unc-59|unc-61
 GO:0005528	FK506 binding	molecular_function	8	fkb-1|fkb-2|fkb-3|fkb-4|fkb-5|fkb-6|fkb-7|fkb-8
 GO:0005542	folic acid binding	molecular_function	3	folt-1|folt-2|folt-3
@@ -879,7 +878,7 @@ GO:0005796	Golgi lumen	cellular_component	2	hst-3.1|hst-3.2
 GO:0005797	Golgi medial cisterna	cellular_component	9	gly-12|gly-13|gly-14|hid-1|hsp-16.1|rab-10|tbc-8|ugtp-1|vps-52
 GO:0005798	Golgi-associated vesicle	cellular_component	3	dab-1|lrp-1|lrp-2
 GO:0005801	cis-Golgi network	cellular_component	3	cogc-3|exoc-7|gos-28
-GO:0005802	trans-Golgi network	cellular_component	10	CELE_Y106G6G.6|agef-1|crp-1|efa-6|gbf-1|grp-1|mon-2|rab-14|tpst-1|unc-108
+GO:0005802	trans-Golgi network	cellular_component	8	CELE_Y106G6G.6|agef-1|crp-1|gbf-1|mon-2|rab-14|tpst-1|unc-108
 GO:0005811	lipid particle	cellular_component	5	C05D11.7|his-11|his-20|his-41|his-48
 GO:0005813	centrosome	cellular_component	47	air-1|cdc-14|cdc-42|che-13|che-2|cls-2|cmd-1|dnc-1|dnc-2|dyf-11|dyf-6|dyrb-1|ebp-1|evl-20|ift-20|ift-74|ift-81|kin-19|klp-7|let-92|mbk-2|mdf-2|mei-1|mex-5|oma-1|oma-2|paa-1|pie-1|pig-1|plk-1|pph-4.1|rack-1|rga-3|rsa-1|rsa-2|sep-1|spd-5|sys-1|szy-20|tac-1|tag-241|tbg-1|tpxl-1|zen-4|zyg-1|zyg-8|zyg-9
 GO:0005814	centriole	cellular_component	9	C54C6.6|hyls-1|osm-6|sas-4|sas-5|sas-6|spd-2|tag-241|zyg-1
@@ -888,7 +887,7 @@ GO:0005818	aster	cellular_component	6	evl-20|gpr-1|gpr-2|lis-1|ooc-5|ric-8
 GO:0005819	spindle	cellular_component	26	air-2|ani-1|aspm-1|bmk-1|car-1|cdc-14|cls-2|csc-1|dhc-1|dnc-1|dyrb-1|gpr-1|gpr-2|hcp-1|klp-19|lin-5|mei-1|nmy-2|ooc-5|pie-1|ric-8|sbds-1|sep-1|smc-3|tac-1|zyg-8
 GO:0005826	actomyosin contractile ring	cellular_component	1	cyk-1
 GO:0005828	kinetochore microtubule	cellular_component	4	air-1|lfi-1|lin-5|ric-8
-GO:0005829	cytosol	cellular_component	92	C06G3.5|C42C1.11|C44B7.12|C53H9.2|CELE_Y105E8B.5|CELE_Y48B6A.13|F10G8.6|F46F11.1|K10D2.7|R06F6.8|Y54G2A.17|abcf-3|aco-1|ahcy-1|aos-1|arl-6|atg-10|atg-13|atg-3|atg-7|bar-1|cars-1|cdc-42|ced-10|ced-4|ceh-6|cha-1|cpx-1|crtc-1|cuc-1|cyld-1|daf-16|daf-8|dao-3|dcr-1|dgk-1|djr-1.2|dnj-11|egl-1|emb-8|gcn-1|gld-1|gsr-1|hid-1|hmp-2|hsp-1|icln-1|ifg-1|ipla-1|kin-2|let-754|moag-4|moc-3|mtm-1|mut-7|mvb-12|mvk-1|pak-1|pcm-1|pdr-1|pie-1|pkc-2|pkc-3|pmk-1|pptr-1|prmt-1|prmt-5|prmt-7|prx-5|rde-2|rhi-1|rme-6|rps-1|rps-18|rsd-2|sams-1|sams-3|sod-1|ssu-1|tbc-8|trxr-1|tsn-1|tut-1|tut-2|uba-1|ubl-5|uev-1|ula-1|unc-51|urm-1|vps-37|wah-1
+GO:0005829	cytosol	cellular_component	91	C06G3.5|C42C1.11|C53H9.2|CELE_Y105E8B.5|CELE_Y48B6A.13|F10G8.6|F46F11.1|K10D2.7|R06F6.8|Y54G2A.17|abcf-3|aco-1|ahcy-1|aos-1|arl-6|atg-10|atg-13|atg-3|atg-7|bar-1|cars-1|cdc-42|ced-10|ced-4|ceh-6|cha-1|cpx-1|crtc-1|cuc-1|cyld-1|daf-16|daf-8|dao-3|dcr-1|dgk-1|djr-1.2|dnj-11|egl-1|emb-8|gcn-1|gld-1|gsr-1|hid-1|hmp-2|hsp-1|icln-1|ifg-1|ipla-1|kin-2|let-754|moag-4|moc-3|mtm-1|mut-7|mvb-12|mvk-1|pak-1|pcm-1|pdr-1|pie-1|pkc-2|pkc-3|pmk-1|pptr-1|prmt-1|prmt-5|prmt-7|prx-5|rde-2|rhi-1|rme-6|rps-1|rps-18|rsd-2|sams-1|sams-3|sod-1|ssu-1|tbc-8|trxr-1|tsn-1|tut-1|tut-2|uba-1|ubl-5|uev-1|ula-1|unc-51|urm-1|vps-37|wah-1
 GO:0005832	chaperonin-containing T-complex	cellular_component	3	cct-1|cct-5|hsp-70
 GO:0005834	heterotrimeric G-protein complex	cellular_component	26	eat-16|egl-10|egl-30|goa-1|gpa-1|gpa-10|gpa-11|gpa-12|gpa-13|gpa-14|gpa-15|gpa-16|gpa-17|gpa-2|gpa-3|gpa-4|gpa-5|gpa-6|gpa-7|gpa-8|gpa-9|gpb-1|gpc-1|gpc-2|gsa-1|odr-3
 GO:0005838	proteasome regulatory particle	cellular_component	3	rpn-11|rpn-12|rpn-9
@@ -1039,7 +1038,7 @@ GO:0006281	DNA repair	biological_process	65	C11G6.2|C23H4.6|CELE_F33H12.6|CELE_F
 GO:0006283	transcription-coupled nucleotide-excision repair	biological_process	1	rpb-9
 GO:0006284	base-excision repair	biological_process	6	apn-1|crn-1|exo-3|mre-11|nth-1|ung-1
 GO:0006287	base-excision repair, gap-filling	biological_process	1	F10C2.4
-GO:0006289	nucleotide-excision repair	biological_process	16	CELE_R02D3.3|CELE_Y73F8A.24|brc-1|dog-1|fcd-2|hus-1|lig-1|lig-4|mre-11|mrt-1|mrt-2|rad-23|ubql-1|xpa-1|xpc-1|xpg-1
+GO:0006289	nucleotide-excision repair	biological_process	15	CELE_R02D3.3|CELE_Y73F8A.24|brc-1|dog-1|fcd-2|hus-1|lig-4|mre-11|mrt-1|mrt-2|rad-23|ubql-1|xpa-1|xpc-1|xpg-1
 GO:0006297	nucleotide-excision repair, DNA gap filling	biological_process	1	F10C2.4
 GO:0006298	mismatch repair	biological_process	8	C25F9.2|him-14|mlh-1|msh-2|msh-5|msh-6|pcn-1|pms-2
 GO:0006301	postreplication repair	biological_process	1	msh-2
@@ -1691,7 +1690,6 @@ GO:0009264	deoxyribonucleotide catabolic process	biological_process	1	F09E5.3
 GO:0009266	response to temperature stimulus	biological_process	1	mek-1
 GO:0009267	cellular response to starvation	biological_process	1	bec-1
 GO:0009269	response to desiccation	biological_process	1	lea-1
-GO:0009295	nucleoid	cellular_component	2	R05D3.12|cin-4
 GO:0009298	GDP-mannose biosynthetic process	biological_process	3	C05C8.7|ZK632.4|tag-335
 GO:0009299	mRNA transcription	biological_process	2	cdk-7|ceh-37
 GO:0009303	rRNA transcription	biological_process	2	C46G7.1|dao-5
@@ -1925,7 +1923,7 @@ GO:0016048	detection of temperature stimulus	biological_process	2	ceh-14|sel-12
 GO:0016049	cell growth	biological_process	3	Y97E10AR.7|bag-1|maa-1
 GO:0016050	vesicle organization	biological_process	1	unc-26
 GO:0016051	carbohydrate biosynthetic process	biological_process	2	bre-5|fut-1
-GO:0016055	Wnt signaling pathway	biological_process	32	apr-1|axl-1|bar-1|cfz-2|cwn-1|dsh-1|dsh-2|egl-20|egl-27|eor-1|eor-2|gsk-3|hmg-1.2|kin-10|kin-19|kin-3|lin-17|lin-44|lit-1|mig-1|mig-14|mig-5|mom-1|mom-2|mom-4|mom-5|pop-1|pry-1|sfrp-1|sop-2|tcl-2|wrm-1
+GO:0016055	Wnt signaling pathway	biological_process	31	apr-1|axl-1|bar-1|cfz-2|cwn-1|dsh-1|dsh-2|egl-20|egl-27|eor-1|eor-2|gsk-3|hmg-1.2|kin-10|kin-19|kin-3|lin-17|lin-44|lit-1|mig-1|mig-14|mig-5|mom-1|mom-2|mom-4|mom-5|pop-1|pry-1|sfrp-1|tcl-2|wrm-1
 GO:0016070	RNA metabolic process	biological_process	5	cdd-1|glh-1|glh-2|ncbp-1|rnh-2
 GO:0016071	mRNA metabolic process	biological_process	4	cgh-1|fox-1|pab-1|unc-75
 GO:0016075	rRNA catabolic process	biological_process	2	dcr-1|drsh-1
@@ -1942,7 +1940,7 @@ GO:0016174	NAD(P)H oxidase activity	molecular_function	1	bli-3
 GO:0016180	snRNA processing	biological_process	1	CELE_F19F10.12
 GO:0016185	synaptic vesicle budding from presynaptic membrane	biological_process	1	unc-26
 GO:0016191	synaptic vesicle uncoating	biological_process	1	unc-26
-GO:0016192	vesicle-mediated transport	biological_process	66	C13B9.3|C18E9.10|C28H8.4|CELE_E03H4.8|CELE_F27D4.7|CELE_Y106G6G.6|F41C3.4|F59E10.3|T14G10.5|apa-2|apb-1|apb-3|apd-3|apg-1|apm-1|apm-3|aps-1|aps-2|aps-3|arf-1.1|arf-1.2|arl-1|arl-3|arl-5|ccz-1|chc-1|clic-1|dpy-23|efa-6|erd-2|gon-1|gos-28|grp-1|mon-2|npp-20|sec-22|sedl-1|sel-9|snb-1|snb-2|snb-5|snb-6|snb-7|syx-16|syx-17|syx-2|syx-3|syx-4|syx-5|syx-7|unc-101|unc-104|unc-16|unc-18|unc-41|unc-64|vamp-7|vamp-8|vps-11|vps-33.1|vps-33.2|vps-39|vps-41|vps-45|vti-1|ykt-6
+GO:0016192	vesicle-mediated transport	biological_process	64	C13B9.3|C18E9.10|C28H8.4|CELE_E03H4.8|CELE_F27D4.7|CELE_Y106G6G.6|F41C3.4|F59E10.3|T14G10.5|apa-2|apb-1|apb-3|apd-3|apg-1|apm-1|apm-3|aps-1|aps-2|aps-3|arf-1.1|arf-1.2|arl-1|arl-3|arl-5|ccz-1|chc-1|clic-1|dpy-23|erd-2|gon-1|gos-28|mon-2|npp-20|sec-22|sedl-1|sel-9|snb-1|snb-2|snb-5|snb-6|snb-7|syx-16|syx-17|syx-2|syx-3|syx-4|syx-5|syx-7|unc-101|unc-104|unc-16|unc-18|unc-41|unc-64|vamp-7|vamp-8|vps-11|vps-33.1|vps-33.2|vps-39|vps-41|vps-45|vti-1|ykt-6
 GO:0016197	endosomal transport	biological_process	3	rab-7|sel-2|snx-27
 GO:0016203	muscle attachment	biological_process	2	pxn-2|spon-1
 GO:0016204	determination of muscle attachment site	biological_process	1	unc-53
@@ -2197,7 +2195,6 @@ GO:0019344	cysteine biosynthetic process	biological_process	2	cbs-1|cth-2
 GO:0019348	dolichol metabolic process	biological_process	1	B0024.13
 GO:0019358	nicotinate nucleotide salvage	biological_process	1	Y54G2A.17
 GO:0019363	pyridine nucleotide biosynthetic process	biological_process	3	CELE_F17C8.9|Y54G2A.17|haao-1
-GO:0019370	leukotriene biosynthetic process	biological_process	1	C42C1.11
 GO:0019395	fatty acid oxidation	biological_process	1	paqr-1
 GO:0019427	acetyl-CoA biosynthetic process from acetate	biological_process	1	acs-19
 GO:0019430	removal of superoxide radicals	biological_process	5	sod-1|sod-2|sod-3|sod-4|sod-5
@@ -2208,7 +2205,7 @@ GO:0019442	tryptophan catabolic process to acetyl-CoA	biological_process	1	C28H8
 GO:0019464	glycine decarboxylation via glycine cleavage system	biological_process	1	gcsh-1
 GO:0019478	D-amino acid catabolic process	biological_process	1	pqn-68
 GO:0019483	beta-alanine biosynthetic process	biological_process	1	dpyd-1
-GO:0019509	L-methionine biosynthetic process from methylthioadenosine	biological_process	9	B0228.7|CELE_F11A3.2|CELE_F42F12.4|CELE_Y47H9C.7|F58H1.3|K07E1.1|T01D1.4|ZC373.5|ZK1098.4
+GO:0019509	L-methionine biosynthetic process from methylthioadenosine	biological_process	6	B0228.7|CELE_F42F12.4|F58H1.3|K07E1.1|T01D1.4|ZC373.5
 GO:0019510	S-adenosylhomocysteine catabolic process	biological_process	1	ahcy-1
 GO:0019511	peptidyl-proline hydroxylation	biological_process	3	dpy-18|pdi-1|phy-2
 GO:0019521	D-gluconate metabolic process	biological_process	1	T25B9.9
@@ -2266,9 +2263,8 @@ GO:0019941	modification-dependent protein catabolic process	biological_process	1
 GO:0019948	SUMO activating enzyme activity	molecular_function	1	aos-1
 GO:0019950	SMT3-dependent protein catabolic process	biological_process	1	aos-1
 GO:0019953	sexual reproduction	biological_process	4	drsh-1|lat-1|orai-1|ten-1
-GO:0019985	translesion synthesis	biological_process	1	F10C2.4
 GO:0019992	diacylglycerol binding	molecular_function	1	unc-13
-GO:0020037	heme binding	molecular_function	85	B0361.4|C28H8.11|C46A5.4|CELE_D2023.1|CELE_F09F3.5|CELE_T19C4.5|CELE_Y52B11A.3|CELE_Y57G11B.97|K10D2.5|bli-3|cbs-1|ctl-1|ctl-2|ctl-3|cyc-1|cyc-2.1|cyc-2.2|cyp-13A1|cyp-13A10|cyp-13A2|cyp-13A3|cyp-13A4|cyp-13A5|cyp-13A6|cyp-13A7|cyp-13A8|cyp-13B1|cyp-36A1|cyp-44A1|cytb-5.1|cytb-5.2|daf-9|duox-2|fat-3|fat-4|gcy-31|gcy-32|gcy-33|gcy-34|gcy-35|gcy-36|gcy-37|glb-1|glb-10|glb-11|glb-12|glb-13|glb-14|glb-15|glb-16|glb-17|glb-18|glb-19|glb-2|glb-20|glb-21|glb-22|glb-23|glb-24|glb-25|glb-26|glb-27|glb-28|glb-29|glb-3|glb-30|glb-31|glb-32|glb-33|glb-5|glb-6|glb-7|glb-8|glb-9|hrg-1|hrg-4|mev-1|mlt-7|pxn-1|pxn-2|sdhd-1|suox-1|tag-131|tub-2|vem-1
+GO:0020037	heme binding	molecular_function	84	B0361.4|C28H8.11|C46A5.4|CELE_D2023.1|CELE_F09F3.5|CELE_T19C4.5|CELE_Y52B11A.3|CELE_Y57G11B.97|K10D2.5|bli-3|ctl-1|ctl-2|ctl-3|cyc-1|cyc-2.1|cyc-2.2|cyp-13A1|cyp-13A10|cyp-13A2|cyp-13A3|cyp-13A4|cyp-13A5|cyp-13A6|cyp-13A7|cyp-13A8|cyp-13B1|cyp-36A1|cyp-44A1|cytb-5.1|cytb-5.2|daf-9|duox-2|fat-3|fat-4|gcy-31|gcy-32|gcy-33|gcy-34|gcy-35|gcy-36|gcy-37|glb-1|glb-10|glb-11|glb-12|glb-13|glb-14|glb-15|glb-16|glb-17|glb-18|glb-19|glb-2|glb-20|glb-21|glb-22|glb-23|glb-24|glb-25|glb-26|glb-27|glb-28|glb-29|glb-3|glb-30|glb-31|glb-32|glb-33|glb-5|glb-6|glb-7|glb-8|glb-9|hrg-1|hrg-4|mev-1|mlt-7|pxn-1|pxn-2|sdhd-1|suox-1|tag-131|tub-2|vem-1
 GO:0022008	neurogenesis	biological_process	3	aha-1|klp-20|osm-3
 GO:0022401	negative adaptation of signaling pathway	biological_process	3	odr-7|osm-9|ttx-3
 GO:0022409	positive regulation of cell-cell adhesion	biological_process	1	srgp-1
@@ -2377,7 +2373,7 @@ GO:0030297	transmembrane receptor protein tyrosine kinase activator activity	mol
 GO:0030301	cholesterol transport	biological_process	2	ncr-1|ncr-2
 GO:0030308	negative regulation of cell growth	biological_process	2	pek-1|sax-1
 GO:0030312	external encapsulating structure	cellular_component	1	bli-2
-GO:0030317	sperm motility	biological_process	7	cca-1|fer-1|gsp-3|gsp-4|nca-2|spe-10|unc-77
+GO:0030317	sperm motility	biological_process	5	cca-1|fer-1|gsp-3|gsp-4|spe-10
 GO:0030334	regulation of cell migration	biological_process	50	acin-1|apr-1|bar-1|cacn-1|ced-10|ced-12|ceh-10|cogc-1|cogc-2|cogc-3|cogc-4|cogc-6|cogc-8|crml-1|daf-9|egl-17|egl-20|egl-27|egl-43|hst-2|itr-1|lin-11|lin-17|lrp-1|lrp-2|mab-20|mab-5|mig-1|mig-10|mig-14|mig-17|mig-21|mig-23|mig-32|mtm-6|mtm-9|ndc-80|ndk-1|pmr-1|rack-1|sop-2|sor-3|spat-3|unc-39|unc-40|unc-6|unc-83|unc-84|vab-8|wip-1
 GO:0030335	positive regulation of cell migration	biological_process	3	cacn-1|mig-13|unc-53
 GO:0030336	negative regulation of cell migration	biological_process	4	abl-1|pdr-1|srgp-1|swan-1
@@ -2622,7 +2618,7 @@ GO:0032263	GMP salvage	biological_process	1	CELE_Y105E8B.5
 GO:0032264	IMP salvage	biological_process	2	C34F11.3|CELE_Y105E8B.5
 GO:0032266	phosphatidylinositol-3-phosphate binding	molecular_function	13	ZK632.12|aka-1|atg-18|eea-1|epg-6|hgrs-1|lst-2|ppk-3|rabs-5|snx-27|tag-77|vps-36|wdfy-2
 GO:0032281	alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid selective glutamate receptor complex	cellular_component	2	glr-1|glr-2
-GO:0032300	mismatch repair complex	cellular_component	4	him-14|mlh-1|msh-5|pms-2
+GO:0032300	mismatch repair complex	cellular_component	2	mlh-1|pms-2
 GO:0032301	MutSalpha complex	cellular_component	2	msh-2|msh-6
 GO:0032302	MutSbeta complex	cellular_component	1	msh-2
 GO:0032324	molybdopterin cofactor biosynthetic process	biological_process	2	lin-46|moc-1
@@ -3016,7 +3012,7 @@ GO:0042981	regulation of apoptotic process	biological_process	11	CELE_Y116F11A.6
 GO:0042987	amyloid precursor protein catabolic process	biological_process	3	hop-1|sel-12|spe-4
 GO:0042990	regulation of transcription factor import into nucleus	biological_process	1	daf-28
 GO:0042992	negative regulation of transcription factor import into nucleus	biological_process	2	daf-18|daf-2
-GO:0042995	cell projection	cellular_component	42	acr-16|arl-13|atp-2|cam-1|cfz-2|che-13|che-3|daf-25|dsc-1|dyf-1|dyf-3|egl-8|exc-5|glt-1|ifta-2|irk-1|kin-10|kin-3|lov-1|mig-1|mks-5|msp-10|msp-113|msp-152|msp-3|msp-32|msp-33|msp-38|msp-49|msp-55|msp-63|msp-77|msp-78|odr-10|odr-3|odr-4|osm-1|pkd-2|sfrp-1|sphk-1|stam-1|ttx-3
+GO:0042995	cell projection	cellular_component	41	acr-16|arl-13|atp-2|cam-1|cfz-2|che-13|che-3|daf-25|dsc-1|dyf-1|dyf-3|egl-8|exc-5|glt-1|ifta-2|irk-1|kin-10|kin-3|lov-1|mig-1|mks-5|msp-10|msp-113|msp-152|msp-3|msp-32|msp-33|msp-38|msp-49|msp-55|msp-63|msp-77|msp-78|odr-10|odr-3|odr-4|osm-1|pkd-2|sphk-1|stam-1|ttx-3
 GO:0043005	neuron projection	cellular_component	59	C34E10.8|acr-2|apl-1|bbs-1|bbs-2|bbs-8|bkip-1|cam-1|cha-1|cho-1|dli-1|eat-16|egl-10|egl-30|elpc-1|fsn-1|gcy-28|glr-1|hid-1|ins-1|irk-1|kcnl-2|kel-8|lev-1|lin-10|lite-1|lnp-1|mec-2|mec-7|mig-2|nmr-1|odr-2|osm-10|osm-12|osm-3|osm-5|pat-3|pkc-2|ptl-1|pyp-1|rhgf-2|ric-3|ric-4|rsbp-1|snap-29|snb-1|snf-11|stn-2|strd-1|trim-9|uev-1|unc-116|unc-17|unc-29|unc-33|unc-38|unc-43|unc-51|vab-19
 GO:0043014	alpha-tubulin binding	molecular_function	1	ddl-2
 GO:0043021	ribonucleoprotein complex binding	molecular_function	4	cey-3|cey-4|lpd-7|tag-345
@@ -3045,7 +3041,7 @@ GO:0043073	germ cell nucleus	cellular_component	9	ceh-39|dpy-28|fbf-1|gon-4|hda-
 GO:0043085	positive regulation of catalytic activity	biological_process	1	aph-1
 GO:0043086	negative regulation of catalytic activity	biological_process	3	C08G9.2|ZK484.1|crm-1
 GO:0043087	regulation of GTPase activity	biological_process	3	eat-16|rbg-1|rbg-2
-GO:0043103	hypoxanthine salvage	biological_process	2	C06G3.5|C44B7.12
+GO:0043103	hypoxanthine salvage	biological_process	1	C06G3.5
 GO:0043113	receptor clustering	biological_process	2	syd-2|unc-104
 GO:0043130	ubiquitin binding	molecular_function	4	dcn-1|hgrs-1|stam-1|vps-36
 GO:0043134	regulation of hindgut contraction	biological_process	1	snb-1
@@ -3304,7 +3300,6 @@ GO:0046477	glycosylceramide catabolic process	biological_process	1	gana-1
 GO:0046488	phosphatidylinositol metabolic process	biological_process	7	bus-18|cil-1|ipla-1|mtm-6|ppk-1|ppk-2|ppk-3
 GO:0046496	nicotinamide nucleotide metabolic process	biological_process	1	R107.2
 GO:0046513	ceramide biosynthetic process	biological_process	4	asm-1|asm-2|asm-3|hyl-1
-GO:0046523	S-methyl-5-thioribose-1-phosphate isomerase activity	molecular_function	3	CELE_F11A3.2|CELE_Y47H9C.7|ZK1098.4
 GO:0046536	dosage compensation complex	cellular_component	5	capg-1|dpy-26|dpy-27|dpy-28|mix-1
 GO:0046540	U4/U6 x U5 tri-snRNP complex	cellular_component	2	prp-3|prp-31
 GO:0046570	methylthioribulose 1-phosphate dehydratase activity	molecular_function	1	ZC373.5
@@ -3463,7 +3458,7 @@ GO:0048871	multicellular organismal homeostasis	biological_process	6	F56A4.3|abt
 GO:0050031	L-pipecolate oxidase activity	molecular_function	1	C15B12.1
 GO:0050038	L-xylulose reductase (NADP+) activity	molecular_function	1	dhs-21
 GO:0050062	long-chain-fatty-acyl-CoA reductase activity	molecular_function	1	let-767
-GO:0050072	m7G(5')pppN diphosphatase activity	molecular_function	3	dcap-1|dcap-2|dcs-1
+GO:0050072	m7G(5')pppN diphosphatase activity	molecular_function	2	dcap-2|dcs-1
 GO:0050080	malonyl-CoA decarboxylase activity	molecular_function	1	mlcd-1
 GO:0050113	inositol oxygenase activity	molecular_function	1	C54E4.5
 GO:0050265	RNA uridylyltransferase activity	molecular_function	2	cid-1|pup-2
@@ -3531,7 +3526,7 @@ GO:0051033	RNA transmembrane transporter activity	molecular_function	7	C30E1.2|C
 GO:0051046	regulation of secretion	biological_process	1	vha-5
 GO:0051056	regulation of small GTPase mediated signal transduction	biological_process	11	epac-1|gap-1|gap-2|ooc-3|pes-7|pxf-1|rgef-1|rgl-1|rme-6|sipa-1|sos-1
 GO:0051081	nuclear envelope disassembly	biological_process	1	lpin-1
-GO:0051082	unfolded protein binding	molecular_function	32	C05G5.3|CELE_Y39G10AR.20|cct-1|cct-2|cct-3|cct-4|cct-5|cct-6|cct-7|cct-8|cnx-1|crt-1|daf-21|dnj-10|dnj-12|dnj-13|dnj-19|dnj-20|hsp-12.3|hsp-12.6|hsp-16.1|hsp-16.2|hsp-16.41|hsp-16.48|hsp-6|nud-1|pfd-1|pfd-3|pfd-4|pfd-5|pfd-6|uri-1
+GO:0051082	unfolded protein binding	molecular_function	30	C05G5.3|CELE_Y39G10AR.20|cct-1|cct-2|cct-3|cct-4|cct-5|cct-6|cct-7|cct-8|cnx-1|crt-1|daf-21|dnj-10|dnj-12|dnj-13|dnj-19|dnj-20|hsp-16.1|hsp-16.2|hsp-16.41|hsp-16.48|hsp-6|nud-1|pfd-1|pfd-3|pfd-4|pfd-5|pfd-6|uri-1
 GO:0051085	chaperone mediated protein folding requiring cofactor	biological_process	3	ooc-5|tor-1|tor-2
 GO:0051087	chaperone binding	molecular_function	9	C34C12.8|bag-1|chn-1|dnj-15|dve-1|rme-8|ufd-2|unc-23|unc-64
 GO:0051090	regulation of sequence-specific DNA binding transcription factor activity	biological_process	2	taf-6.1|taf-6.2
