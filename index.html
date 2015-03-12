@@ -4,11 +4,18 @@ layout: page
 
 <h1>Gene Ontology annotations <small>user-friendly and customizable</small></h1>
 
-
-<h2>Source Files</h2>
-{% include files.html %}
+<h2>About</h2>
+{% capture include_to_markdownify %}
+{% include about.md %}
+{% endcapture %}
+{{ include_to_markdownify | markdownify }}
 
 <h2>Annotation Options</h2>
+{% capture include_to_markdownify %}
+{% include options.md %}
+{% endcapture %}
+{{ include_to_markdownify | markdownify }}
+
 <form>
   <div class="btn-group btn-group-justified" id="prop_button" data-toggle="buttons">
     <label class="btn btn-default active">
@@ -34,3 +41,6 @@ layout: page
 
 <h2>Download Annotations</h2>
 <div id="dynamic-table">Generating Table...</div>
+
+<h2>Source Files</h2>
+{% include files.html %}
