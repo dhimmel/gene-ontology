@@ -5,6 +5,8 @@ import time
 import xml.etree.ElementTree
 import itertools
 import hashlib
+import datetime
+import time
 
 import jinja2
 import requests
@@ -62,11 +64,14 @@ for prop, vocab, coding in itertools.product(prop_opts, vocab_opts, coding_opts)
 
 ##
 
+datetime_format = '%Y-%m-%d %H:%M:%S'
+current_datetime = datetime.datetime.now().strftime(datetime_format)
+
 files = list()
 for filename in 'go-basic.obo', 'gene_info.gz', 'gene2go.gz':
     path = os.path.join('download', filename)
-    seconds = os.path.getmtime(path)
-    mtime = time.ctime(seconds)
+    ts_epoch = os.path.getmtime(path)
+    mtime = datetime.datetime.fromtimestamp(ts_epoch).strftime(datetime_format)
     with open(path, 'rb') as read_file:
         hash_ = hashlib.sha1(read_file.read()).hexdigest()
     hash_ = hash_.upper()
@@ -78,7 +83,7 @@ with open('code/files.html') as read_file:
     template_str = read_file.read()
 template = jinja2.Template(template_str)
 
-output = template.render(files = files)
+output = template.render(files = files, date = current_datetime)
 
 with open('_includes/files.html', 'w') as write_file:
     write_file.write(output)
