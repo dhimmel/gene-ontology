@@ -2,8 +2,13 @@
 layout: page
 ---
 
+<h1>Gene Ontology annotations <small>user-friendly and customizable</small></h1>
 
 
+<h2>Source Files</h2>
+{% include files.html %}
+
+<h2>Annotation Options</h2>
 <form>
   <div class="btn-group btn-group-justified" id="prop_button" data-toggle="buttons">
     <label class="btn btn-default active">
@@ -27,17 +32,5 @@ layout: page
   </div>
 </form>
 
+<h2>Download Annotations</h2>
 <div id="dynamic-table">Generating Table...</div>
-
-<!-- <table id="summary-table" class="display" cellspacing="0" width="100%">
-    <thead>
-        <tr>
-            <th>TaxId</th>
-            <th>Scientific Name</th>
-            <th>Terms</th>
-            <th>Annotations</th>
-            <th>Download</th>
-        </tr>
-    </thead>
-</table>
- -->

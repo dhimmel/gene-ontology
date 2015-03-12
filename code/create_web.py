@@ -1,8 +1,10 @@
 import os
 import re
 import json
+import time
 import xml.etree.ElementTree
 import itertools
+import hashlib
 
 import jinja2
 import requests
@@ -31,9 +33,9 @@ for docsum in etree:
     name = None
     item_dict = {item.get('Name'): item.text for item in docsum.findall('Item')}
     taxid = int(item_dict['TaxId'])
-    taxdict[taxid]['scientific_name'] = tem_dict['ScientificName']
-    taxdict[taxid]['common_name'] = tem_dict['CommonName']
-    taxdict[taxid]['division'] = tem_dict['Division']
+    taxdict[taxid]['scientific_name'] = item_dict['ScientificName']
+    taxdict[taxid]['common_name'] = item_dict['CommonName']
+    taxdict[taxid]['division'] = item_dict['Division']
 
 prop_opts = ['prop', 'unprop']
 coding_opts = ['all', 'coding']
@@ -57,14 +59,29 @@ for prop, vocab, coding in itertools.product(prop_opts, vocab_opts, coding_opts)
         json_data = {'data': table}
         json.dump(json_data, write_file, indent = 2)
 
-"""
-with open('code/template.md') as read_file:
+
+##
+
+files = list()
+for filename in 'go-basic.obo', 'gene_info.gz', 'gene2go.gz':
+    path = os.path.join('download', filename)
+    seconds = os.path.getmtime(path)
+    mtime = time.ctime(seconds)
+    with open(path, 'rb') as read_file:
+        hash_ = hashlib.sha1(read_file.read()).hexdigest()
+    hash_ = hash_.upper()
+    hash_ = ' '.join(a + b for a, b in zip(hash_[::2], hash_[1::2]))
+    file_dict = {'filename': filename, 'hash': hash_, 'time': mtime}
+    files.append(file_dict)
+
+with open('code/files.html') as read_file:
     template_str = read_file.read()
 template = jinja2.Template(template_str)
 
-output = template.render(taxids = taxids, taxlist = taxlist)
+output = template.render(files = files)
 
-with open('index.md', 'w') as write_file:
+with open('_includes/files.html', 'w') as write_file:
     write_file.write(output)
 
-"""
+
+

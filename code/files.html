@@ -1,0 +1,14 @@
+<div class="row">
+{% for file_dict in files -%}
+<div class="col-md-4">
+<dl class="dl-horizontal">
+  <dt>Filename</dt>
+  <dd>{{file_dict.filename}}</dd>
+  <dt>Last Modified</dt>
+  <dd>{{file_dict.time}}</dd>
+  <dt>SHA1 Hash</dt>
+  <dd><font size="1">{{file_dict.hash}}</font></dd>
+</dl>
+</div>
+{% endfor %}
+</div>

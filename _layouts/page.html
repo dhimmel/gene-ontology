@@ -26,12 +26,18 @@
 
     function renderDownload(data, type, full) {
         if (type != 'display') {return data};
-        return '<a href="' + data + '" target="_blank">link</a>';
+        // return '<a href="' + data + '" target="_blank">link</a>';
+        return '<a href="' + data + '" class="btn btn-sm btn-default" download>Download</a>';
     }
 
     function renderTaxId(data, type, full) {
         if (type != 'display') {return data};
         return '<a href="//www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=' + data + '" target="_blank">' + data + '</a>';
+    }
+
+    function renderItalic(data, type, full) {
+        if (type != 'display') {return data};
+        return '<i>' + data + '</i>';
     }
 
     function numberWithCommas(data, type, full) {
@@ -43,11 +49,10 @@
 
     var aoColumns = [
         {'aTargets': ['TaxId'], 'mRender': renderTaxId, 'sType': 'numeric'},
-        {'aTargets': ['Scientific Name']},
+        {'aTargets': ['Scientific Name'], 'mRender': renderItalic},
         {'aTargets': ['Terms'], 'mRender': numberWithCommas, 'sType': 'numeric'},
         {'aTargets': ['Annotations'], 'mRender': numberWithCommas, 'sType': 'numeric'},
         {'aTargets': ['Download'], 'mRender': renderDownload}];
-
 
 
     function renderTable() {
