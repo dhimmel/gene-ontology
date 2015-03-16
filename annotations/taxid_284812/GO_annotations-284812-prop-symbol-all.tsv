@@ -6724,7 +6724,7 @@ GO:0097506	deaminated base DNA N-glycosylase activity	molecular_function	2	thp1|
 GO:0097507	hypoxanthine DNA N-glycosylase activity	molecular_function	1	thp1
 GO:0097508	xanthine DNA N-glycosylase activity	molecular_function	1	thp1
 GO:0097509	oxanine DNA N-glycosylase activity	molecular_function	1	thp1
-GO:0097525	spliceosomal snRNP complex	cellular_component	27	SPAC227.12|SPCC162.01c|brr2|cdc28|cwf10|dim1|lsm2|lsm3|lsm4|lsm5|lsm6|lsm7|prp1|prp3|prp31|prp38|smb1|smd1|smd2|smd3|sme1|smf1|smg1|snu13|snu23|snu66|spp42
+GO:0097525	spliceosomal snRNP complex	cellular_component	55	SPAC227.12|SPBC11C11.01|SPBC1861.04c|SPBC83.09c|SPCC162.01c|aar2|brr2|cdc28|cwf10|cwf29|dim1|ini1|lea1|lsm2|lsm3|lsm4|lsm5|lsm6|lsm7|msl1|prp1|prp10|prp12|prp3|prp31|prp38|sab10|sab14|sap114|sap145|sap49|sap61|sap62|smb1|smd1|smd2|smd3|sme1|smf1|smg1|snu13|snu23|snu66|spf38|spp42|uap2|usp101|usp102|usp103|usp104|usp105|usp106|usp107|usp108|usp109
 GO:0097526	spliceosomal tri-snRNP complex	cellular_component	27	SPAC227.12|SPCC162.01c|brr2|cdc28|cwf10|dim1|lsm2|lsm3|lsm4|lsm5|lsm6|lsm7|prp1|prp3|prp31|prp38|smb1|smd1|smd2|smd3|sme1|smf1|smg1|snu13|snu23|snu66|spp42
 GO:0097549	chromatin organization involved in negative regulation of transcription	biological_process	6	SPBC29A10.09c|ago1|clr4|dcr1|mst2|stc1
 GO:0097553	calcium ion transmembrane import into cytosol	biological_process	1	yam8

@@ -21,8 +21,9 @@ GO:0000159	protein phosphatase type 2A complex	cellular_component	1	PF13_0302
 GO:0000162	tryptophan biosynthetic process	biological_process	1	PF13_0157
 GO:0000164	protein phosphatase type 1 complex	cellular_component	1	PF10_0320a
 GO:0000166	nucleotide binding	molecular_function	1	PF14_0052
-GO:0000175	3'-5'-exoribonuclease activity	molecular_function	4	MAL13P1.204|MAL7P1.104|PF13_0340|PFD0515w
-GO:0000178	exosome (RNase complex)	cellular_component	5	MAL13P1.289|MAL7P1.104|PF13_0340|PF14_0256|PFD0515w
+GO:0000172	ribonuclease MRP complex	cellular_component	3	MAL7P1.28|PFF1040w|PFF1355w
+GO:0000175	3'-5'-exoribonuclease activity	molecular_function	6	MAL13P1.204|MAL13P1.289|MAL7P1.104|PF13_0340|PFD0515w|PFI0295c
+GO:0000178	exosome (RNase complex)	cellular_component	6	MAL13P1.289|MAL7P1.104|PF13_0340|PF14_0256|PF14_0473|PFD0515w
 GO:0000179	rRNA (adenine-N6,N6-)-dimethyltransferase activity	molecular_function	1	PFL2395c
 GO:0000213	tRNA-intron endonuclease activity	molecular_function	1	PF14_0514
 GO:0000214	tRNA-intron endonuclease complex	cellular_component	1	PF14_0514
@@ -43,6 +44,7 @@ GO:0000338	protein deneddylation	biological_process	1	PF14_0576
 GO:0000339	RNA cap binding	molecular_function	2	PFC0635c|PFD0750w
 GO:0000375	RNA splicing, via transesterification reactions	biological_process	21	MAL13P1.120|MAL13P1.253|MAL13P1.322|MAL8P1.43|MAL8P1.48|PF08_0049|PF10_0041|PF10_0217|PF11_0266|PF13_0142|PF14_0194|PFB0865w|PFD0265w|PFD0450c|PFD1060w|PFF0500c|PFF1135w|PFL0460w|PFL0970w|PFL1520w|PFL1680w
 GO:0000398	mRNA splicing, via spliceosome	biological_process	7	MAL13P1.322|MAL13P1.35|MAL8P1.9|PF10_0041|PF11_0200|PF14_0656|PFL0460w
+GO:0000408	EKC/KEOPS complex	cellular_component	3	MAL7P1.26|PF10_0299|PFE0580w
 GO:0000492	box C/D snoRNP assembly	biological_process	1	PFL1690w
 GO:0000502	proteasome complex	cellular_component	5	PF11_0303|PF11_0314|PFD0165w|PFD0680c|PFL2345c
 GO:0000703	oxidized pyrimidine nucleobase lesion DNA N-glycosylase activity	molecular_function	1	PF11_0306
@@ -57,7 +59,7 @@ GO:0000910	cytokinesis	biological_process	2	PFL0925w|PFL2460w
 GO:0000922	spindle pole	cellular_component	1	PFC0165w
 GO:0002253	activation of immune response	biological_process	1	PF10_0155
 GO:0003676	nucleic acid binding	molecular_function	10	MAL8P1.19|PF11_0083|PF14_0437|PFC0780w|PFD0700c|PFD0775c|PFE0160c|PFE0750c|PFE1245w|PFF0485c
-GO:0003677	DNA binding	molecular_function	31	MAL13P1.233|MAL13P1.237|MAL7P1.151|PF07_0054|PF08_0074|PF10_0063|PF10_0327|PF10_0369|PF11_0061|PF11_0062|PF11_0264|PF11_0358|PF11_0477|PF13_0043|PF13_0185|PF13_0291|PF13_0341|PF14_0051|PF14_0393|PFB0180w|PFC0920w|PFD0360w|PFF0350w|PFF0510w|PFF0860c|PFF0865w|PFF1225c|PFI0930c|PFL0185c|PFL0465c|PFL2140c
+GO:0003677	DNA binding	molecular_function	32	MAL13P1.233|MAL13P1.237|MAL7P1.151|PF07_0054|PF08_0074|PF10_0063|PF10_0327|PF10_0369|PF11_0061|PF11_0062|PF11_0264|PF11_0358|PF11_0477|PF13_0043|PF13_0185|PF13_0291|PF13_0341|PF14_0051|PF14_0393|PFB0180w|PFC0920w|PFD0360w|PFD0440w|PFF0350w|PFF0510w|PFF0860c|PFF0865w|PFF1225c|PFI0930c|PFL0185c|PFL0465c|PFL2140c
 GO:0003678	DNA helicase activity	molecular_function	6	MAL13P1.216|PF08_0100|PF11_0071|PF13_0308|PF14_0081|PFB0730w
 GO:0003680	AT DNA binding	molecular_function	1	PF11_0317
 GO:0003682	chromatin binding	molecular_function	5	MAL7P1.38|PF10_0293|PF13_0149|PFL1005c|PFL1180w
@@ -68,7 +70,7 @@ GO:0003700	sequence-specific DNA binding transcription factor activity	molecular
 GO:0003712	transcription cofactor activity	molecular_function	1	PFL2345c
 GO:0003713	transcription coactivator activity	molecular_function	1	PF11_0293
 GO:0003714	transcription corepressor activity	molecular_function	1	MAL7P1.37
-GO:0003723	RNA binding	molecular_function	41	MAL13P1.233|MAL13P1.237|MAL13P1.289|MAL13P1.338|MAL7P1.113|MAL8P1.40|PF08_0074|PF10_0063|PF10_0085|PF10_0103|PF11_0065|PF11_0200|PF13_0122|PF13_0129|PF13_0315|PF14_0028|PF14_0056|PF14_0096|PF14_0151|PF14_0513|PF14_0656|PFC0865w|PFC1050w|PFD0180c|PFD0775c|PFD0825c|PFE0350c|PFE0810c|PFE1275c|PFE1470w|PFF0250w|PFF0300w|PFF0760w|PFF1000w|PFF1125c|PFF1135w|PFF1185w|PFF1425w|PFF1500c|PFL1310c|PFL1745c
+GO:0003723	RNA binding	molecular_function	38	MAL13P1.233|MAL13P1.237|MAL13P1.289|MAL13P1.338|MAL7P1.113|MAL8P1.40|PF08_0074|PF10_0063|PF10_0085|PF10_0103|PF11_0065|PF11_0200|PF13_0122|PF13_0129|PF13_0315|PF14_0056|PF14_0151|PF14_0513|PF14_0656|PFC0865w|PFC1050w|PFD0180c|PFD0775c|PFD0825c|PFE0810c|PFE1275c|PFE1470w|PFF0250w|PFF0300w|PFF0760w|PFF1000w|PFF1125c|PFF1135w|PFF1185w|PFF1425w|PFF1500c|PFL1310c|PFL1745c
 GO:0003724	RNA helicase activity	molecular_function	2	PF08_0096|PF10_0209
 GO:0003729	mRNA binding	molecular_function	4	MAL13P1.120|PF14_0057|PFC0825c|PFL1170w
 GO:0003735	structural constituent of ribosome	molecular_function	99	MAL13P1.209|MAL13P1.92|MAL7P1.93|MAL8P1.110|PF07_0046|PF07_0079|PF07_0080|PF07_0088|PF08_0014|PF08_0039|PF08_0075|PF08_0076|PF10_0038|PF10_0043|PF10_0187|PF10_0264|PF10_0272|PF10_0332|PF11_0043|PF11_0065|PF11_0106|PF11_0113|PF11_0260|PF11_0272|PF11_0312|PF11_0313|PF11_0337|PF11_0382|PF11_0386|PF11_0438|PF11_0454|PF13_0014|PF13_0045|PF13_0049|PF13_0129|PF13_0132|PF13_0213|PF13_0224|PF13_0228|PF13_0268|PF13_0316|PF13_0346|PF14_0027|PF14_0041|PF14_0083|PF14_0132|PF14_0141|PF14_0205|PF14_0230|PF14_0231|PF14_0240|PF14_0270|PF14_0276|PF14_0289|PF14_0296|PF14_0391|PF14_0448|PF14_0451|PF14_0519|PF14_0579|PF14_0581|PF14_0584|PF14_0585|PF14_0627|PF14_0709|PFB0455w|PFB0545c|PFB0645c|PFB0830w|PFB0885w|PFC0200w|PFC0290w|PFC0295c|PFC0300c|PFC0535w|PFC0735w|PFC0775w|PFC1020c|PFD0600c|PFD0675w|PFD0770c|PFD0960c|PFD1055w|PFE0145w|PFE0185c|PFE0300c|PFE0350c|PFE0845c|PFE1125w|PFE1225w|PFF0245w|PFF0650w|PFF0700c|PFF0885w|PFL0500w|PFL1150c|PFL1895w|PFL2055w|PFL2180w
@@ -79,9 +81,9 @@ GO:0003755	peptidyl-prolyl cis-trans isomerase activity	molecular_function	3	PF1
 GO:0003756	protein disulfide isomerase activity	molecular_function	1	PF13_0272
 GO:0003774	motor activity	molecular_function	7	MAL13P1.148|MAL8P1.46|PF10_0224|PF11_0240|PF11_0416|PFL0660w|PFL2165w
 GO:0003777	microtubule motor activity	molecular_function	12	MAL7P1.161|MAL7P1.162|PF07_0104|PF10_0196|PF10_0224|PF10_0368|PF13_0306|PF14_0243a|PFC0770c|PFC0860w|PFL0545w|PFL0660w
-GO:0003779	actin binding	molecular_function	5	MAL7P1.137|PF11_0416|PFE0175c|PFL0925w|PFL2460w
+GO:0003779	actin binding	molecular_function	6	MAL7P1.137|PF11_0416|PF14_0425|PFE0175c|PFL0925w|PFL2460w
 GO:0003785	actin monomer binding	molecular_function	2	PF13_0326|PFE0165w
-GO:0003824	catalytic activity	molecular_function	10	MAL13P1.328|PF08_0066|PF10_0316|PF13_0344|PF14_0423|PFB0585w|PFE1010w|PFF1025c|PFL1260w|PFL1550w
+GO:0003824	catalytic activity	molecular_function	9	MAL13P1.328|PF10_0316|PF13_0344|PF14_0423|PFB0585w|PFE1010w|PFF1025c|PFL1260w|PFL1550w
 GO:0003826	alpha-ketoacid dehydrogenase activity	molecular_function	1	PF13_0070
 GO:0003860	3-hydroxyisobutyryl-CoA hydrolase activity	molecular_function	1	PFL1940w
 GO:0003863	3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring) activity	molecular_function	1	PFE0225w
@@ -98,10 +100,10 @@ GO:0003904	deoxyribodipyrimidine photo-lyase activity	molecular_function	1	PFE06
 GO:0003905	alkylbase DNA N-glycosylase activity	molecular_function	1	PF14_0639
 GO:0003906	DNA-(apurinic or apyrimidinic site) lyase activity	molecular_function	1	PFC0250c
 GO:0003917	DNA topoisomerase type I activity	molecular_function	1	PFE0520c
-GO:0003918	DNA topoisomerase type II (ATP-hydrolyzing) activity	molecular_function	2	PF13_0251|PF14_0316
+GO:0003918	DNA topoisomerase type II (ATP-hydrolyzing) activity	molecular_function	1	PF14_0316
 GO:0003919	FMN adenylyltransferase activity	molecular_function	1	PF10_0147
 GO:0003921	GMP synthase activity	molecular_function	1	PF10_0123
-GO:0003924	GTPase activity	molecular_function	10	MAL13P1.241|MAL13P1.297|PF10_0041|PF10_0368|PF13_0090|PF14_0159|PF14_0221|PF14_0399|PFD0950w|PFL2245w
+GO:0003924	GTPase activity	molecular_function	12	MAL13P1.241|MAL13P1.297|PF08_0018|PF10_0041|PF10_0368|PF13_0069|PF13_0090|PF14_0159|PF14_0221|PF14_0399|PFD0950w|PFL2245w
 GO:0003960	NADPH:quinone reductase activity	molecular_function	1	PFI0735c
 GO:0003975	UDP-N-acetylglucosamine-dolichyl-phosphate N-acetylglucosaminephosphotransferase activity	molecular_function	1	PFC0935c
 GO:0003977	UDP-N-acetylglucosamine diphosphorylase activity	molecular_function	1	MAL13P1.218
@@ -118,9 +120,9 @@ GO:0004016	adenylate cyclase activity	molecular_function	1	MAL8P1.150
 GO:0004017	adenylate kinase activity	molecular_function	1	PF10_0086
 GO:0004033	aldo-keto reductase (NADP) activity	molecular_function	1	MAL13P1.324
 GO:0004047	aminomethyltransferase activity	molecular_function	1	PF13_0345
-GO:0004053	arginase activity	molecular_function	1	PFI0320w
 GO:0004066	asparagine synthase (glutamine-hydrolyzing) activity	molecular_function	1	PFC0395w
 GO:0004081	bis(5'-nucleosyl)-tetraphosphatase (asymmetrical) activity	molecular_function	1	PFE1035c
+GO:0004089	carbonate dehydratase activity	molecular_function	1	PF11_0411
 GO:0004103	choline kinase activity	molecular_function	1	PF14_0020
 GO:0004108	citrate (Si)-synthase activity	molecular_function	1	PF10_0218
 GO:0004109	coproporphyrinogen oxidase activity	molecular_function	1	PF11_0436
@@ -143,8 +145,8 @@ GO:0004176	ATP-dependent peptidase activity	molecular_function	4	PF14_0147|PF14_
 GO:0004177	aminopeptidase activity	molecular_function	1	MAL13P1.56
 GO:0004190	aspartic-type endopeptidase activity	molecular_function	10	PF08_0108|PF10_0329|PF13_0133|PF14_0075|PF14_0076|PF14_0077|PF14_0078|PF14_0281|PF14_0625|PFC0495w
 GO:0004197	cysteine-type endopeptidase activity	molecular_function	5	PF11_0161|PF11_0162|PF11_0165|PF11_0298|PF13_0289
-GO:0004222	metalloendopeptidase activity	molecular_function	6	MAL13P1.184|MAL13P1.56|MAL7P1.26|PF14_0382|PFE1155c|PFL1925w
-GO:0004252	serine-type endopeptidase activity	molecular_function	5	MAL8P1.126|PF14_0063|PF14_0147|PF14_0348|PFE0355c
+GO:0004222	metalloendopeptidase activity	molecular_function	5	MAL13P1.184|MAL13P1.56|PF14_0382|PFE1155c|PFL1925w
+GO:0004252	serine-type endopeptidase activity	molecular_function	3	PF14_0063|PF14_0147|PF14_0348
 GO:0004305	ethanolamine kinase activity	molecular_function	1	PF11_0257
 GO:0004306	ethanolamine-phosphate cytidylyltransferase activity	molecular_function	1	PF13_0253
 GO:0004307	ethanolaminephosphotransferase activity	molecular_function	1	PFF1375c
@@ -159,7 +161,7 @@ GO:0004354	glutamate dehydrogenase (NADP+) activity	molecular_function	2	PF14_01
 GO:0004359	glutaminase activity	molecular_function	2	PF11_0169|PFF1025c
 GO:0004360	glutamine-fructose-6-phosphate transaminase (isomerizing) activity	molecular_function	1	PF10_0245
 GO:0004362	glutathione-disulfide reductase activity	molecular_function	1	PF14_0192
-GO:0004364	glutathione transferase activity	molecular_function	2	PF13_0214|PF14_0187
+GO:0004364	glutathione transferase activity	molecular_function	3	PF11_0224|PF13_0214|PF14_0187
 GO:0004366	glycerol-3-phosphate O-acyltransferase activity	molecular_function	1	PF13_0100
 GO:0004367	glycerol-3-phosphate dehydrogenase [NAD+] activity	molecular_function	2	PF11_0157|PFL0780w
 GO:0004368	glycerol-3-phosphate dehydrogenase activity	molecular_function	1	PFC0275w
@@ -182,14 +184,15 @@ GO:0004476	mannose-6-phosphate isomerase activity	molecular_function	1	MAL8P1.15
 GO:0004479	methionyl-tRNA formyltransferase activity	molecular_function	1	MAL13P1.67
 GO:0004512	inositol-3-phosphate synthase activity	molecular_function	1	PFE0585c
 GO:0004515	nicotinate-nucleotide adenylyltransferase activity	molecular_function	1	PF13_0159
-GO:0004518	nuclease activity	molecular_function	2	PF14_0470|PFC1050w
+GO:0004518	nuclease activity	molecular_function	1	PFC1050w
 GO:0004519	endonuclease activity	molecular_function	4	PF11_0184|PFB0265c|PFC0925w|PFF0715c
 GO:0004520	endodeoxyribonuclease activity	molecular_function	1	PFB0160w
 GO:0004523	RNA-DNA hybrid ribonuclease activity	molecular_function	1	PFF1150w
-GO:0004527	exonuclease activity	molecular_function	2	MAL13P1.289|PF14_0256
+GO:0004526	ribonuclease P activity	molecular_function	2	MAL13P1.153|MAL7P1.28
+GO:0004527	exonuclease activity	molecular_function	1	PF14_0256
 GO:0004535	poly(A)-specific ribonuclease activity	molecular_function	1	PF14_0413
 GO:0004536	deoxyribonuclease activity	molecular_function	1	PF14_0285
-GO:0004540	ribonuclease activity	molecular_function	1	PFF0745c
+GO:0004540	ribonuclease activity	molecular_function	3	PFF0745c|PFF1040w|PFF1355w
 GO:0004550	nucleoside diphosphate kinase activity	molecular_function	2	PF13_0349|PFF0275c
 GO:0004568	chitinase activity	molecular_function	1	PFL2510w
 GO:0004576	oligosaccharyl transferase activity	molecular_function	1	PF11_0173
@@ -198,7 +201,6 @@ GO:0004587	ornithine-oxo-acid transaminase activity	molecular_function	1	PFF0435
 GO:0004590	orotidine-5'-phosphate decarboxylase activity	molecular_function	1	PF10_0225
 GO:0004591	oxoglutarate dehydrogenase (succinyl-transferring) activity	molecular_function	1	PF08_0045
 GO:0004594	pantothenate kinase activity	molecular_function	1	PF14_0200
-GO:0004602	glutathione peroxidase activity	molecular_function	1	PFL0595c
 GO:0004607	phosphatidylcholine-sterol O-acyltransferase activity	molecular_function	1	PFF1420w
 GO:0004610	phosphoacetylglucosamine mutase activity	molecular_function	1	PF11_0311
 GO:0004615	phosphomannomutase activity	molecular_function	1	PF10_0169
@@ -218,13 +220,13 @@ GO:0004683	calmodulin-dependent protein kinase activity	molecular_function	3	MAL
 GO:0004693	cyclin-dependent protein serine/threonine kinase activity	molecular_function	2	PF10_0141|PFL2280w
 GO:0004719	protein-L-isoaspartate (D-aspartate) O-methyltransferase activity	molecular_function	1	PF14_0309
 GO:0004721	phosphoprotein phosphatase activity	molecular_function	1	PFD0505c
-GO:0004722	protein serine/threonine phosphatase activity	molecular_function	6	MAL13P1.44|MAL8P1.108|PF08_0129|PF11_0396|PF14_0523|PFC0595c
+GO:0004722	protein serine/threonine phosphatase activity	molecular_function	7	MAL13P1.44|MAL8P1.108|MAL8P1.109|PF08_0129|PF11_0396|PF14_0523|PFC0595c
 GO:0004723	calcium-dependent protein serine/threonine phosphatase activity	molecular_function	1	PF08_0129
 GO:0004725	protein tyrosine phosphatase activity	molecular_function	1	PFL0300c
 GO:0004730	pseudouridylate synthase activity	molecular_function	3	PF10_0175|PFB0890c|PFE1080w
 GO:0004733	pyridoxamine-phosphate oxidase activity	molecular_function	1	PF14_0570
 GO:0004735	pyrroline-5-carboxylate reductase activity	molecular_function	1	MAL13P1.284
-GO:0004739	pyruvate dehydrogenase (acetyl-transferring) activity	molecular_function	4	PF08_0066|PF10_0407|PF11_0256|PF14_0441
+GO:0004739	pyruvate dehydrogenase (acetyl-transferring) activity	molecular_function	3	PF10_0407|PF11_0256|PF14_0441
 GO:0004742	dihydrolipoyllysine-residue acetyltransferase activity	molecular_function	1	PF10_0407
 GO:0004743	pyruvate kinase activity	molecular_function	2	PF10_0363|PFF1300w
 GO:0004748	ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor	molecular_function	2	PF10_0154|PF14_0053
@@ -236,7 +238,6 @@ GO:0004768	stearoyl-CoA 9-desaturase activity	molecular_function	1	PFE0555w
 GO:0004775	succinate-CoA ligase (ADP-forming) activity	molecular_function	1	PF14_0295
 GO:0004776	succinate-CoA ligase (GDP-forming) activity	molecular_function	1	PF11_0097
 GO:0004789	thiamine-phosphate diphosphorylase activity	molecular_function	1	PFF0680c
-GO:0004791	thioredoxin-disulfide reductase activity	molecular_function	1	PFI1170c
 GO:0004806	triglyceride lipase activity	molecular_function	1	PF14_0250
 GO:0004807	triose-phosphate isomerase activity	molecular_function	2	PF14_0378|PFC0831w
 GO:0004809	tRNA (guanine-N2-)-methyltransferase activity	molecular_function	1	PF13_0109
@@ -245,8 +246,7 @@ GO:0004813	alanine-tRNA ligase activity	molecular_function	1	PF13_0354
 GO:0004814	arginine-tRNA ligase activity	molecular_function	1	PFL0900c
 GO:0004815	aspartate-tRNA ligase activity	molecular_function	1	PFE0715w
 GO:0004816	asparagine-tRNA ligase activity	molecular_function	2	PFB0525w|PFE0475w
-GO:0004817	cysteine-tRNA ligase activity	molecular_function	1	PF10_0149
-GO:0004818	glutamate-tRNA ligase activity	molecular_function	3	MAL13P1.281|PF13_0257|PFL0670c
+GO:0004818	glutamate-tRNA ligase activity	molecular_function	2	MAL13P1.281|PF13_0257
 GO:0004819	glutamine-tRNA ligase activity	molecular_function	1	MAL13P1.281
 GO:0004820	glycine-tRNA ligase activity	molecular_function	1	PF14_0198
 GO:0004821	histidine-tRNA ligase activity	molecular_function	1	PF14_0428
@@ -261,7 +261,7 @@ GO:0004830	tryptophan-tRNA ligase activity	molecular_function	2	PF13_0205|PFL248
 GO:0004831	tyrosine-tRNA ligase activity	molecular_function	2	MAL8P1.125|PF11_0181
 GO:0004832	valine-tRNA ligase activity	molecular_function	2	PF14_0589|PFC0470w
 GO:0004839	ubiquitin activating enzyme activity	molecular_function	2	PFL1245w|PFL1790w
-GO:0004842	ubiquitin-protein transferase activity	molecular_function	16	MAL13P1.227|MAL7P1.19|MAL8P1.23|PF08_0085|PF10_0330|PF13_0301|PF14_0128|PF14_0215|PFC0255c|PFC0510w|PFC0740c|PFC0845c|PFC0855w|PFE1350c|PFL0190w|PFL2175w
+GO:0004842	ubiquitin-protein transferase activity	molecular_function	17	MAL13P1.227|MAL7P1.19|MAL8P1.23|PF08_0085|PF10_0330|PF13_0182|PF13_0301|PF14_0128|PF14_0215|PFC0255c|PFC0510w|PFC0740c|PFC0845c|PFC0855w|PFE1350c|PFL0190w|PFL2175w
 GO:0004843	ubiquitin-specific protease activity	molecular_function	2	PFE0835w|PFE1355c
 GO:0004844	uracil DNA N-glycosylase activity	molecular_function	1	PF14_0148
 GO:0004864	protein phosphatase inhibitor activity	molecular_function	1	PF10_0311
@@ -273,40 +273,40 @@ GO:0005047	signal recognition particle binding	molecular_function	2	PF13_0350|PF
 GO:0005048	signal sequence binding	molecular_function	2	PF11_0375|PF14_0477
 GO:0005085	guanyl-nucleotide exchange factor activity	molecular_function	1	PF11_0171
 GO:0005093	Rab GDP-dissociation inhibitor activity	molecular_function	1	PFL2060c
+GO:0005096	GTPase activator activity	molecular_function	3	PF10_0071|PFL2060c|PFL2140c
 GO:0005198	structural molecule activity	molecular_function	2	PF14_0725|PFD1050w
 GO:0005200	structural constituent of cytoskeleton	molecular_function	7	PF10_0084|PF11_0114|PF11_0431|PF14_0124|PF14_0218|PFD0487c|PFE0255w
 GO:0005201	extracellular matrix structural constituent	molecular_function	1	MAL13P1.132
-GO:0005215	transporter activity	molecular_function	10	PF07_0070|PF10_0337|PF11_0466|PF14_0260|PFC0725c|PFD0895c|PFE0445c|PFE0825w|PFE1185w|PFF0450c
+GO:0005215	transporter activity	molecular_function	9	PF07_0070|PF10_0337|PF11_0466|PF14_0260|PFD0895c|PFE0445c|PFE0825w|PFE1185w|PFF0450c
 GO:0005216	ion channel activity	molecular_function	1	PF14_0622
 GO:0005267	potassium channel activity	molecular_function	2	PF14_0622|PFL1315w
 GO:0005310	dicarboxylic acid transmembrane transporter activity	molecular_function	1	PF08_0031
 GO:0005315	inorganic phosphate transmembrane transporter activity	molecular_function	1	MAL13P1.206
-GO:0005319	lipid transporter activity	molecular_function	1	PF14_0493
+GO:0005319	lipid transporter activity	molecular_function	2	PF14_0244|PF14_0493
 GO:0005337	nucleoside transmembrane transporter activity	molecular_function	2	MAL8P1.32|PF14_0662
 GO:0005351	sugar:proton symporter activity	molecular_function	1	PFE1455w
-GO:0005375	copper ion transmembrane transporter activity	molecular_function	1	PF14_0369
-GO:0005385	zinc ion transmembrane transporter activity	molecular_function	1	PF07_0065
+GO:0005381	iron ion transmembrane transporter activity	molecular_function	1	PF10_0216
+GO:0005385	zinc ion transmembrane transporter activity	molecular_function	2	PF07_0065|PF10_0216
 GO:0005459	UDP-galactose transmembrane transporter activity	molecular_function	1	PF11_0141
 GO:0005471	ATP:ADP antiporter activity	molecular_function	2	PF10_0051|PF10_0366
 GO:0005483	soluble NSF attachment protein activity	molecular_function	1	PFE0445c
 GO:0005487	nucleocytoplasmic transporter activity	molecular_function	2	PF14_0706|PFC0380w
 GO:0005506	iron ion binding	molecular_function	2	PF13_0229|PF14_0518
 GO:0005507	copper ion binding	molecular_function	1	PFI0240c
-GO:0005509	calcium ion binding	molecular_function	7	MAL7P1.69|PF10_0271|PF10_0301|PF14_0181|PF14_0323|PFD0430c|PFD0692c
-GO:0005515	protein binding	molecular_function	41	MAL13P1.122|MAL7P1.158|MAL8P1.126|MAL8P1.46|PF07_0029|PF07_0068|PF08_0054|PF10_0063|PF10_0143|PF10_0155|PF10_0193|PF10_0225|PF10_0311|PF10_0320a|PF10_0327|PF11_0071|PF11_0165|PF11_0175|PF11_0184|PF11_0216|PF11_0266|PF13_0323|PF13_0330|PF14_0344|PF14_0477|PFB0100c|PFB0270w|PFC0365w|PFC0805w|PFC0915w|PFC1045c|PFD0090c|PFE0355c|PFE0435c|PFE0610c|PFE0705c|PFI0185w|PFI0280c|PFL0160w|PFL0785c|PFL2505c
+GO:0005509	calcium ion binding	molecular_function	8	MAL7P1.69|PF10_0271|PF10_0301|PF14_0181|PF14_0323|PFD0430c|PFD0692c|PFE0545c
+GO:0005515	protein binding	molecular_function	64	MAL13P1.122|MAL7P1.158|MAL7P1.26|MAL8P1.126|MAL8P1.46|PF07_0007|PF07_0008|PF07_0029|PF07_0068|PF08_0054|PF10_0063|PF10_0143|PF10_0155|PF10_0193|PF10_0221|PF10_0225|PF10_0299|PF10_0311|PF10_0320a|PF10_0327|PF10_0348|PF10_0355|PF11_0071|PF11_0090|PF11_0165|PF11_0175|PF11_0184|PF11_0216|PF11_0266|PF13_0062|PF13_0323|PF13_0330|PF14_0102|PF14_0344|PF14_0477|PFB0100c|PFB0270w|PFB0635w|PFC0225c|PFC0365w|PFC0380w|PFC0805w|PFC0886w|PFC0915w|PFC1045c|PFD0090c|PFD0440w|PFD1130w|PFE0060w|PFE0215w|PFE0355c|PFE0435c|PFE0580w|PFE0610c|PFE0705c|PFE1605w|PFF0090w|PFI0185w|PFI0265c|PFI0280c|PFI1650w|PFL0160w|PFL0785c|PFL2505c
 GO:0005516	calmodulin binding	molecular_function	1	MAL7P1.73
-GO:0005524	ATP binding	molecular_function	46	MAL7P1.113|MAL7P1.145|MAL7P1.73|MAL8P1.19|PF07_0073|PF07_0104|PF08_0048|PF10_0340|PF11_0053|PF11_0181|PF11_0184|PF11_0188|PF11_0225|PF11_0270|PF11_0331|PF11_0466|PF11_0488|PF13_0218|PF13_0257|PF13_0261|PF13_0262|PF13_0271|PF13_0349|PF14_0063|PF14_0126|PF14_0423|PFC0770c|PFD0685c|PFE0175c|PFF0775w|PFI0755c|PFL0075w|PFL0100c|PFL0380c|PFL0495c|PFL0545w|PFL0560c|PFL0580w|PFL1125w|PFL1410c|PFL1425w|PFL1435c|PFL1925w|PFL2005w|PFL2440w|PFL2485c
-GO:0005525	GTP binding	molecular_function	26	MAL13P1.164|MAL13P1.241|MAL13P1.243|MAL13P1.294|MAL7P1.122|MAL8P1.33|PF07_0062|PF10_0203|PF10_0337|PF11_0171|PF11_0245|PF13_0350|PF14_0104|PF14_0114|PF14_0159|PF14_0345a|PF14_0486|PFD0530c|PFD0710w|PFD0950w|PFE0830c|PFE1435c|PFF0625w|PFL0835w|PFL1590c|PFL2430c
+GO:0005524	ATP binding	molecular_function	45	MAL7P1.113|MAL7P1.145|MAL7P1.73|MAL8P1.19|PF07_0073|PF07_0104|PF08_0048|PF10_0340|PF11_0053|PF11_0181|PF11_0184|PF11_0188|PF11_0225|PF11_0270|PF11_0331|PF11_0466|PF11_0488|PF13_0218|PF13_0257|PF13_0261|PF13_0262|PF13_0271|PF13_0349|PF14_0063|PF14_0126|PF14_0423|PFD0685c|PFE0175c|PFF0775w|PFI0755c|PFL0075w|PFL0100c|PFL0380c|PFL0495c|PFL0545w|PFL0560c|PFL0580w|PFL1125w|PFL1410c|PFL1425w|PFL1435c|PFL1925w|PFL2005w|PFL2440w|PFL2485c
+GO:0005525	GTP binding	molecular_function	28	MAL13P1.164|MAL13P1.241|MAL13P1.243|MAL13P1.294|MAL7P1.122|MAL8P1.33|PF07_0062|PF08_0018|PF10_0203|PF10_0337|PF11_0171|PF11_0245|PF13_0069|PF13_0350|PF14_0104|PF14_0114|PF14_0159|PF14_0345a|PF14_0486|PFD0530c|PFD0710w|PFD0950w|PFE0830c|PFE1435c|PFF0625w|PFL0835w|PFL1590c|PFL2430c
+GO:0005544	calcium-dependent phospholipid binding	molecular_function	1	PFL2110c
 GO:0005546	phosphatidylinositol-4,5-bisphosphate binding	molecular_function	1	PF11_0242
 GO:0005548	phospholipid transporter activity	molecular_function	1	MAL13P1.256
-GO:0005575	cellular_component	cellular_component	1	PFE1460w
 GO:0005578	proteinaceous extracellular matrix	cellular_component	1	MAL13P1.132
 GO:0005622	intracellular	cellular_component	4	PF11_0108|PF14_0126|PFD0405c|PFE1435c
-GO:0005634	nucleus	cellular_component	76	MAL13P1.233|MAL13P1.237|MAL13P1.322|MAL13P1.56|MAL7P1.151|MAL7P1.158|MAL7P1.38|MAL8P1.113|MAL8P1.69|PF07_0105|PF08_0054|PF08_0074|PF10_0063|PF10_0091|PF10_0111|PF10_0115|PF10_0141|PF10_0155|PF10_0261|PF10_0268|PF10_0278|PF10_0311|PF10_0328|PF11_0071|PF11_0192|PF11_0216|PF11_0250|PF11_0254|PF11_0332|PF11_0429|PF11_0477|PF13_0042|PF13_0291|PF13_0328|PF13_0330|PF14_0035|PF14_0068|PF14_0176|PF14_0177|PF14_0242|PF14_0280|PF14_0408|PF14_0433|PF14_0463|PF14_0477|PF14_0630|PFB0540w|PFB0875c|PFC0130c|PFC0690c|PFC0780w|PFC0886w|PFC0910w|PFE0520c|PFE0610c|PFE0705c|PFE0865c|PFE0870w|PFE1530c|PFF0510w|PFF0860c|PFF1185w|PFI0180w|PFI0250c|PFI0485c|PFI0610w|PFI0930c|PFI1355w|PFL0160w|PFL0460w|PFL0465c|PFL0565w|PFL0635c|PFL0785c|PFL1010c|PFL2560c
+GO:0005634	nucleus	cellular_component	99	MAL13P1.168|MAL13P1.233|MAL13P1.237|MAL13P1.275|MAL13P1.322|MAL13P1.44|MAL13P1.56|MAL7P1.151|MAL7P1.158|MAL7P1.38|MAL8P1.108|MAL8P1.109|MAL8P1.69|PF07_0105|PF07_0110|PF08_0054|PF08_0074|PF10_0063|PF10_0078|PF10_0091|PF10_0111|PF10_0115|PF10_0124|PF10_0141|PF10_0155|PF10_0177a|PF10_0217|PF10_0261|PF10_0268|PF10_0278|PF10_0311|PF10_0328|PF11_0156|PF11_0192|PF11_0216|PF11_0250|PF11_0254|PF11_0332|PF11_0362|PF11_0396|PF11_0429|PF11_0477|PF13_0042|PF13_0315|PF13_0328|PF13_0330|PF14_0035|PF14_0068|PF14_0176|PF14_0177|PF14_0242|PF14_0280|PF14_0408|PF14_0433|PF14_0463|PF14_0477|PF14_0523|PF14_0524|PF14_0630|PF14_0660|PFB0540w|PFB0875c|PFC0105w|PFC0130c|PFC0380w|PFC0595c|PFC0690c|PFC0780w|PFC0886w|PFC0910w|PFD0505c|PFE0105c|PFE0160c|PFE0520c|PFE0705c|PFE0865c|PFE0870w|PFE1530c|PFF0860c|PFF1185w|PFI0180w|PFI0250c|PFI0295c|PFI0485c|PFI0610w|PFI0930c|PFI1355w|PFI1360c|PFI1650w|PFL0160w|PFL0300c|PFL0460w|PFL0465c|PFL0565w|PFL0635c|PFL0785c|PFL1010c|PFL2365w|PFL2560c
 GO:0005635	nuclear envelope	cellular_component	1	MAL13P1.320
 GO:0005643	nuclear pore	cellular_component	6	PF08_0069|PF08_0087|PFE1195w|PFF1345w|PFI0250c|PFL1480w
 GO:0005654	nucleoplasm	cellular_component	2	PF11_0090|PFL1480w
-GO:0005655	nucleolar ribonuclease P complex	cellular_component	1	MAL7P1.28
 GO:0005656	nuclear pre-replicative complex	cellular_component	2	PFL0560c|PFL0580w
 GO:0005658	alpha DNA polymerase:primase complex	cellular_component	2	PF14_0366|PF14_0602
 GO:0005662	DNA replication factor A complex	cellular_component	1	PFD0470c
@@ -323,8 +323,8 @@ GO:0005686	U2 snRNP	cellular_component	1	PF11_0200
 GO:0005730	nucleolus	cellular_component	6	PF10_0085|PF10_0278|PF11_0250|PF13_0080|PF14_0068|PFE0465c
 GO:0005732	small nucleolar ribonucleoprotein complex	cellular_component	10	MAL13P1.253|MAL8P1.43|MAL8P1.48|MAL8P1.9|PF08_0049|PF08_0055|PF14_0068|PF14_0411|PFD0455w|PFL0460w
 GO:0005736	DNA-directed RNA polymerase I complex	cellular_component	2	PF11_0358|PFE0465c
-GO:0005737	cytoplasm	cellular_component	56	MAL13P1.233|MAL13P1.237|MAL13P1.256|MAL13P1.56|MAL7P1.158|MAL8P1.46|MAL8P1.69|PF07_0033|PF08_0008|PF08_0054|PF08_0074|PF08_0077|PF08_0083|PF10_0111|PF10_0137|PF10_0155|PF11_0071|PF11_0095|PF11_0192|PF11_0216|PF11_0257|PF11_0359|PF13_0153|PF13_0159|PF13_0205|PF14_0177|PF14_0192|PF14_0242|PF14_0280|PF14_0408|PF14_0425|PF14_0548|PF14_0630|PFB0100c|PFC0581w|PFC0886w|PFC0910w|PFC0915w|PFD0660w|PFD0825c|PFE0865c|PFE1195w|PFF1095w|PFF1410c|PFI0755c|PFI0930c|PFI1170c|PFI1310w|PFL0160w|PFL0185c|PFL0190w|PFL0450c|PFL0565w|PFL0785c|PFL1245w|PFL1720w
-GO:0005739	mitochondrion	cellular_component	87	MAL13P1.164|MAL13P1.326|MAL13P1.47|MAL13P1.53|MAL7P1.150|MAL7P1.75|PF07_0036|PF08_0018|PF10_0051|PF10_0080|PF10_0120|PF10_0153|PF10_0218|PF10_0275|PF10_0321|PF10_0334|PF11_0097|PF11_0188|PF11_0248|PF11_0258|PF11_0264|PF11_0265|PF11_0339|PF11_0351|PF11_0407|PF11_0466|PF11_0485|PF13_0061|PF13_0069|PF13_0121|PF13_0229|PF13_0242|PF13_0345|PF14_0038|PF14_0240|PF14_0248|PF14_0276|PF14_0288|PF14_0289|PF14_0295|PF14_0328|PF14_0331|PF14_0339|PF14_0373|PF14_0375|PF14_0508|PF14_0518|PF14_0519|PF14_0534|PF14_0581|PF14_0597|PF14_0709|PF14_0721|PFB0220w|PFB0320c|PFB0545c|PFB0795w|PFB0885w|PFC0126c|PFC0275w|PFD0990w|PFE1155c|PFE1230c|PFF0170w|PFF0370w|PFI0735c|PFI1170c|PFI1835c|PFL0180w|PFL0400w|PFL0415w|PFL0495c|PFL0595c|PFL0630w|PFL0690c|PFL0705c|PFL0735w|PFL1185c|PFL1590c|PFL1720w|PFL1725w|PFL1895w|PFL1925w|PFL2000w|PFL2055w|PFL2210w|PFL2395c
+GO:0005737	cytoplasm	cellular_component	84	MAL13P1.168|MAL13P1.233|MAL13P1.237|MAL13P1.256|MAL13P1.44|MAL13P1.56|MAL7P1.158|MAL7P1.26|MAL8P1.108|MAL8P1.150|MAL8P1.46|MAL8P1.69|PF07_0033|PF07_0110|PF08_0008|PF08_0054|PF08_0074|PF08_0077|PF08_0083|PF08_0119|PF10_0111|PF10_0137|PF10_0155|PF10_0177a|PF10_0299|PF10_0325|PF10_0340|PF11_0071|PF11_0095|PF11_0156|PF11_0192|PF11_0216|PF11_0257|PF11_0359|PF11_0362|PF11_0396|PF13_0153|PF13_0159|PF13_0315|PF14_0177|PF14_0192|PF14_0242|PF14_0280|PF14_0408|PF14_0425|PF14_0523|PF14_0524|PF14_0548|PF14_0630|PF14_0660|PFB0100c|PFC0105w|PFC0380w|PFC0581w|PFC0595c|PFC0886w|PFC0910w|PFC0915w|PFD0505c|PFD0660w|PFD0825c|PFE0545c|PFE0580w|PFE0795c|PFE0865c|PFE1195w|PFF1095w|PFF1410c|PFI0755c|PFI0930c|PFI1170c|PFI1310w|PFI1360c|PFI1650w|PFL0160w|PFL0175c|PFL0185c|PFL0190w|PFL0450c|PFL0565w|PFL0670c|PFL0785c|PFL1245w|PFL1720w
+GO:0005739	mitochondrion	cellular_component	90	MAL13P1.164|MAL13P1.326|MAL13P1.47|MAL13P1.53|MAL7P1.150|MAL7P1.75|MAL8P1.27|PF07_0036|PF10_0051|PF10_0080|PF10_0097|PF10_0120|PF10_0153|PF10_0218|PF10_0275|PF10_0321|PF10_0334|PF11_0097|PF11_0188|PF11_0248|PF11_0258|PF11_0264|PF11_0265|PF11_0339|PF11_0351|PF11_0407|PF11_0466|PF11_0485|PF13_0061|PF13_0069|PF13_0121|PF13_0223|PF13_0229|PF13_0242|PF13_0345|PF14_0038|PF14_0248|PF14_0276|PF14_0288|PF14_0289|PF14_0295|PF14_0328|PF14_0331|PF14_0339|PF14_0373|PF14_0375|PF14_0508|PF14_0518|PF14_0519|PF14_0534|PF14_0581|PF14_0597|PF14_0671|PF14_0709|PF14_0721|PFB0220w|PFB0320c|PFB0545c|PFB0795w|PFC0126c|PFC0170c|PFC0275w|PFD0990w|PFE1155c|PFE1230c|PFF0170w|PFF0180w|PFF0370w|PFI0735c|PFI1170c|PFI1835c|PFL0180w|PFL0400w|PFL0415w|PFL0495c|PFL0595c|PFL0630w|PFL0690c|PFL0705c|PFL0735w|PFL1185c|PFL1590c|PFL1720w|PFL1725w|PFL1895w|PFL1925w|PFL2000w|PFL2055w|PFL2210w|PFL2395c
 GO:0005743	mitochondrial inner membrane	cellular_component	12	PF08_0031|PF10_0051|PF10_0366|PF11_0265|PF13_0359|PF14_0331|PFF0155w|PFF0160c|PFL0180w|PFL1185c|PFL2000w|PFL2065c
 GO:0005744	mitochondrial inner membrane presequence translocase complex	cellular_component	4	PF13_0300|PF14_0328|PFF1330c|PFL0430w
 GO:0005746	mitochondrial respiratory chain	cellular_component	2	MAL13P1.55|PF14_0038
@@ -338,22 +338,23 @@ GO:0005759	mitochondrial matrix	cellular_component	6	PF08_0045|PF10_0218|PF11_00
 GO:0005762	mitochondrial large ribosomal subunit	cellular_component	4	PF11_0337|PF14_0276|PFE1125w|PFL2180w
 GO:0005763	mitochondrial small ribosomal subunit	cellular_component	3	MAL7P1.93|PF14_0451|PF14_0584
 GO:0005764	lysosome	cellular_component	1	PFL2290w
-GO:0005783	endoplasmic reticulum	cellular_component	30	MAL13P1.126|MAL13P1.163|MAL13P1.540|MAL7P1.19|MAL8P1.32|MAL8P1.92|PF08_0003|PF10_0317|PF10_0368|PF11_0099|PF11_0251|PF13_0133|PF13_0324|PF14_0046|PF14_0215|PF14_0421|PF14_0462|PF14_0653|PF14_0660|PFC0550w|PFC0912w|PFC0995c|PFE0380c|PFE0445c|PFE0555w|PFF0940c|PFI0875w|PFL0190w|PFL1070c|PFL1790w
+GO:0005783	endoplasmic reticulum	cellular_component	33	MAL13P1.126|MAL13P1.163|MAL13P1.348|MAL13P1.540|MAL7P1.19|MAL8P1.32|MAL8P1.92|PF08_0003|PF10_0316|PF10_0317|PF10_0368|PF11_0099|PF11_0251|PF13_0133|PF13_0324|PF14_0046|PF14_0215|PF14_0421|PF14_0462|PF14_0653|PF14_0660|PFC0550w|PFC0912w|PFC0995c|PFE0380c|PFE0445c|PFE0555w|PFF0940c|PFI0875w|PFL0190w|PFL0685w|PFL1070c|PFL1790w
 GO:0005784	Sec61 translocon complex	cellular_component	4	MAL8P1.51|PF13_0102|PF14_0361|PFB0450w
 GO:0005785	signal recognition particle receptor complex	cellular_component	2	PF13_0350|PFL2245w
 GO:0005786	signal recognition particle, endoplasmic reticulum targeting	cellular_component	5	MAL7P1.158|PF11_0375|PF14_0477|PFF1055c|PFL0785c
 GO:0005787	signal peptidase complex	cellular_component	2	PF14_0317|PFC0912w
 GO:0005788	endoplasmic reticulum lumen	cellular_component	1	MAL13P1.121
 GO:0005789	endoplasmic reticulum membrane	cellular_component	9	MAL7P1.158|MAL8P1.51|PF14_0034|PF14_0215|PF14_0361|PF14_0477|PFB0450w|PFL0160w|PFL0785c
-GO:0005794	Golgi apparatus	cellular_component	6	MAL7P1.19|PF10_0168|PF10_0368|PF14_0493|PFE0445c|PFF1450w
+GO:0005794	Golgi apparatus	cellular_component	8	MAL7P1.19|PF10_0168|PF10_0368|PF13_0062|PF14_0493|PFD0895c|PFE0445c|PFF1450w
 GO:0005802	trans-Golgi network	cellular_component	1	PF14_0529
 GO:0005813	centrosome	cellular_component	1	PF10_0271
+GO:0005814	centriole	cellular_component	1	PFF0375c
 GO:0005815	microtubule organizing center	cellular_component	1	PFC0165w
-GO:0005829	cytosol	cellular_component	36	MAL8P1.126|PF07_0059|PF08_0132|PF10_0086|PF10_0107|PF10_0149|PF10_0193|PF10_0363|PF11_0169|PF11_0208|PF11_0270|PF11_0293|PF11_0301|PF11_0436|PF11_0463|PF13_0229|PF13_0253|PF14_0020|PF14_0060|PF14_0164|PF14_0324|PF14_0477|PF14_0517|PF14_0590|PFC0690c|PFD0990w|PFE0165w|PFF0340c|PFF0775w|PFF1025c|PFF1155w|PFI0580c|PFI1550c|PFL0285w|PFL0595c|PFL2550w
-GO:0005832	chaperonin-containing T-complex	cellular_component	6	MAL13P1.283|PF11_0331|PFC0285c|PFC0350c|PFC0900w|PFL1425w
+GO:0005829	cytosol	cellular_component	39	MAL8P1.126|PF07_0059|PF08_0018|PF08_0132|PF10_0086|PF10_0107|PF10_0149|PF10_0193|PF10_0363|PF11_0169|PF11_0208|PF11_0270|PF11_0293|PF11_0301|PF11_0436|PF11_0463|PF13_0229|PF13_0253|PF14_0020|PF14_0060|PF14_0164|PF14_0324|PF14_0477|PF14_0517|PF14_0590|PFB0595w|PFC0690c|PFD0990w|PFE0165w|PFE0830c|PFF0340c|PFF0775w|PFF1025c|PFF1155w|PFF1335c|PFI0580c|PFI1550c|PFL0285w|PFL0595c
+GO:0005832	chaperonin-containing T-complex	cellular_component	8	MAL13P1.283|PF11_0331|PFB0635w|PFC0285c|PFC0350c|PFC0900w|PFF0430w|PFL1425w
 GO:0005838	proteasome regulatory particle	cellular_component	13	MAL13P1.190|MAL13P1.343|PF10_0081|PF10_0174|PF10_0298|PF13_0033|PF13_0063|PF14_0025|PF14_0632|PFB0260w|PFC0520w|PFC0785c|PFD0665c
 GO:0005839	proteasome core complex	cellular_component	11	MAL13P1.270|MAL8P1.128|MAL8P1.142|PF10_0111|PF13_0156|PF13_0282|PF14_0676|PF14_0716|PFC0745c|PFE0915c|PFF0420c
-GO:0005840	ribosome	cellular_component	8	MAL13P1.327|PF07_0046|PF13_0346|PFD0675w|PFD0770c|PFD0960c|PFF0650w|PFL1895w
+GO:0005840	ribosome	cellular_component	7	MAL13P1.327|PF07_0046|PFD0675w|PFD0770c|PFD0960c|PFF0650w|PFL1895w
 GO:0005846	nuclear cap binding complex	cellular_component	1	PFD0750w
 GO:0005847	mRNA cleavage and polyadenylation specificity factor complex	cellular_component	2	PF14_0364|PFC0825c
 GO:0005848	mRNA cleavage stimulating factor complex	cellular_component	1	PFF1000w
@@ -369,16 +370,16 @@ GO:0005871	kinesin complex	cellular_component	5	PF07_0104|PFC0770c|PFC0860w|PFL0
 GO:0005874	microtubule	cellular_component	3	PF10_0084|PF14_0725|PFD1050w
 GO:0005875	microtubule associated complex	cellular_component	6	MAL7P1.161|PF10_0333|PF10_0368|PF13_0306|PFI0945w|PFL0660w
 GO:0005884	actin filament	cellular_component	3	PF11_0114|PF14_0124|PF14_0218
-GO:0005886	plasma membrane	cellular_component	10	MAL8P1.13|PF10_0155|PF11_0172|PF14_0369|PF14_0622|PFB0275w|PFC0750w|PFD0260c|PFE0830c|PFI0240c
-GO:0005887	integral component of plasma membrane	cellular_component	8	MAL13P1.206|PF07_0065|PF11_0173|PF11_0395|PF13_0218|PF14_0679|PFE1265w|PFL1410c
+GO:0005886	plasma membrane	cellular_component	12	MAL8P1.13|PF10_0155|PF10_0216|PF10_0303|PF11_0172|PF14_0369|PF14_0622|PFB0275w|PFC0750w|PFD0260c|PFE0830c|PFI0240c
+GO:0005887	integral component of plasma membrane	cellular_component	9	MAL13P1.206|PF07_0065|PF11_0173|PF11_0395|PF13_0218|PF14_0679|PFC0725c|PFE1265w|PFL1410c
 GO:0005923	tight junction	cellular_component	1	PFE1545c
+GO:0005938	cell cortex	cellular_component	1	PFL0260c
 GO:0005945	6-phosphofructokinase complex	cellular_component	1	PF11_0294
 GO:0005947	mitochondrial alpha-ketoglutarate dehydrogenase complex	cellular_component	1	PF13_0070
 GO:0005952	cAMP-dependent protein kinase complex	cellular_component	1	MAL13P1.278
 GO:0005955	calcineurin complex	cellular_component	1	PF14_0492
 GO:0005965	protein farnesyltransferase complex	cellular_component	2	PF11_0483|PF11_0483a
 GO:0005971	ribonucleoside-diphosphate reductase complex	cellular_component	1	PF14_0352
-GO:0005975	carbohydrate metabolic process	biological_process	1	MAL8P1.156
 GO:0006004	fucose metabolic process	biological_process	1	PF08_0077
 GO:0006021	inositol biosynthetic process	biological_process	1	PFE0585c
 GO:0006032	chitin catabolic process	biological_process	1	PFL2510w
@@ -391,7 +392,7 @@ GO:0006091	generation of precursor metabolites and energy	biological_process	2	P
 GO:0006094	gluconeogenesis	biological_process	3	PF10_0155|PF14_0341|PF14_0378
 GO:0006096	glycolytic process	biological_process	12	PF10_0155|PF10_0363|PF11_0208|PF11_0294|PF14_0341|PF14_0357|PF14_0378|PF14_0425|PFC0831w|PFD0660w|PFF1155w|PFF1300w
 GO:0006098	pentose-phosphate shunt	biological_process	6	PF10_0210|PF13_0143|PF14_0341|PF14_0378|PF14_0511|PF14_0520
-GO:0006099	tricarboxylic acid cycle	biological_process	13	PF08_0045|PF08_0066|PF10_0218|PF10_0334|PF10_0407|PF11_0097|PF11_0256|PF13_0229|PF14_0295|PF14_0357|PF14_0441|PFE0225w|PFL0630w
+GO:0006099	tricarboxylic acid cycle	biological_process	12	PF08_0045|PF10_0218|PF10_0334|PF10_0407|PF11_0097|PF11_0256|PF13_0229|PF14_0295|PF14_0357|PF14_0441|PFE0225w|PFL0630w
 GO:0006101	citrate metabolic process	biological_process	1	PF10_0218
 GO:0006102	isocitrate metabolic process	biological_process	1	PF13_0242
 GO:0006103	2-oxoglutarate metabolic process	biological_process	2	PF08_0045|PF13_0121
@@ -408,7 +409,6 @@ GO:0006206	pyrimidine nucleobase metabolic process	biological_process	1	PF14_010
 GO:0006207	'de novo' pyrimidine nucleobase biosynthetic process	biological_process	3	PF10_0225|PF14_0697|PFF0160c
 GO:0006228	UTP biosynthetic process	biological_process	2	PF13_0349|PFF0275c
 GO:0006241	CTP biosynthetic process	biological_process	2	PF13_0349|PFF0275c
-GO:0006259	DNA metabolic process	biological_process	1	PF14_0470
 GO:0006260	DNA replication	biological_process	18	MAL7P1.145|PF10_0154|PF10_0165|PF10_0362|PF11_0117|PF11_0282|PF14_0053|PF14_0177|PF14_0352|PF14_0601|PFB0840w|PFB0895c|PFC0765c|PFD0470c|PFD0590c|PFD0950w|PFF1225c|PFL2005w
 GO:0006261	DNA-dependent DNA replication	biological_process	2	PFD0470c|PFF1470c
 GO:0006265	DNA topological change	biological_process	2	PF14_0316|PFE0520c
@@ -433,7 +433,7 @@ GO:0006354	DNA-templated transcription, elongation	biological_process	1	PFD0360w
 GO:0006355	regulation of transcription, DNA-templated	biological_process	14	MAL13P1.122|MAL13P1.290|MAL8P1.131|PF10_0115|PF10_0143|PF10_0327|PF11_0053|PF11_0293|PF11_0477|PF13_0043|PF14_0207|PF14_0690|PFD0360w|PFL0465c
 GO:0006357	regulation of transcription from RNA polymerase II promoter	biological_process	2	MAL7P1.37|PF07_0057
 GO:0006360	transcription from RNA polymerase I promoter	biological_process	2	PF11_0358|PFE0465c
-GO:0006364	rRNA processing	biological_process	8	MAL7P1.104|PF10_0085|PF13_0052|PF13_0286|PF14_0068|PF14_0256|PFD0515w|PFE1080w
+GO:0006364	rRNA processing	biological_process	9	MAL7P1.104|PF10_0085|PF10_0277|PF13_0052|PF13_0286|PF14_0068|PF14_0256|PFD0515w|PFE1080w
 GO:0006366	transcription from RNA polymerase II promoter	biological_process	10	PF07_0027|PF10_0269|PF13_0023|PF13_0341|PFB0245c|PFB0715w|PFC0155c|PFC0805w|PFE0305w|PFE0415w
 GO:0006367	transcription initiation from RNA polymerase II promoter	biological_process	1	MAL7P1.86
 GO:0006378	mRNA polyadenylation	biological_process	3	PF14_0364|PFC0825c|PFF1240w
@@ -441,7 +441,7 @@ GO:0006379	mRNA cleavage	biological_process	2	PF14_0364|PFC0825c
 GO:0006383	transcription from RNA polymerase III promoter	biological_process	3	PF13_0150|PFB0290c|PFL0330c
 GO:0006384	transcription initiation from RNA polymerase III promoter	biological_process	1	PF14_0469
 GO:0006388	tRNA splicing, via endonucleolytic cleavage and ligation	biological_process	1	PF14_0514
-GO:0006396	RNA processing	biological_process	12	MAL13P1.253|MAL13P1.303|MAL13P1.338|PF08_0055|PF10_0175|PF13_0340|PF14_0028|PF14_0242|PFE1275c|PFF0745c|PFF1000w|PFL1170w
+GO:0006396	RNA processing	biological_process	11	MAL13P1.253|MAL13P1.303|MAL13P1.338|PF08_0055|PF10_0175|PF13_0340|PF14_0242|PFE1275c|PFF0745c|PFF1000w|PFL1170w
 GO:0006397	mRNA processing	biological_process	3	PFC0465c|PFD0750w|PFE0865c
 GO:0006399	tRNA metabolic process	biological_process	1	PF11_0282
 GO:0006400	tRNA modification	biological_process	2	PF07_0071|PF13_0109
@@ -456,7 +456,6 @@ GO:0006419	alanyl-tRNA aminoacylation	biological_process	1	PF13_0354
 GO:0006420	arginyl-tRNA aminoacylation	biological_process	1	PFL0900c
 GO:0006421	asparaginyl-tRNA aminoacylation	biological_process	2	PFB0525w|PFE0475w
 GO:0006422	aspartyl-tRNA aminoacylation	biological_process	1	PFE0715w
-GO:0006423	cysteinyl-tRNA aminoacylation	biological_process	1	PF10_0149
 GO:0006424	glutamyl-tRNA aminoacylation	biological_process	3	MAL13P1.281|PF13_0257|PFF1395c
 GO:0006426	glycyl-tRNA aminoacylation	biological_process	1	PF14_0198
 GO:0006429	leucyl-tRNA aminoacylation	biological_process	2	PF08_0011|PFF1095w
@@ -471,7 +470,7 @@ GO:0006438	valyl-tRNA aminoacylation	biological_process	2	PF14_0589|PFC0470w
 GO:0006446	regulation of translational initiation	biological_process	5	MAL7P1.81|PFD1070w|PFL0310c|PFL0335c|PFL0625c
 GO:0006447	regulation of translational initiation by iron	biological_process	1	PF13_0229
 GO:0006449	regulation of translational termination	biological_process	1	PFB0550w
-GO:0006457	protein folding	biological_process	23	MAL13P1.277|MAL13P1.283|PF10_0153|PF11_0099|PF11_0170|PF11_0251|PF11_0331|PF13_0102|PF13_0122|PF14_0223|PFB0635w|PFC0285c|PFC0350c|PFC0900w|PFE0505w|PFE0595w|PFE1430c|PFF0430w|PFL0120c|PFL0735w|PFL1425w|PFL1545c|PFL2550w
+GO:0006457	protein folding	biological_process	25	MAL13P1.277|MAL13P1.283|PF10_0153|PF11_0099|PF11_0170|PF11_0251|PF11_0331|PF13_0102|PF13_0122|PF14_0223|PFB0595w|PFC0285c|PFC0350c|PFC0900w|PFE0505w|PFE0595w|PFE1430c|PFE1460w|PFF0430w|PFF1335c|PFL0120c|PFL0735w|PFL1425w|PFL1545c|PFL2550w
 GO:0006458	'de novo' protein folding	biological_process	1	MAL7P1.94
 GO:0006461	protein complex assembly	biological_process	2	PFF0155w|PFF0830w
 GO:0006464	cellular protein modification process	biological_process	4	PF10_0150|PF13_0346|PF14_0327|PFL0190w
@@ -482,7 +481,7 @@ GO:0006471	protein ADP-ribosylation	biological_process	3	MAL13P1.297|PF10_0203|P
 GO:0006486	protein glycosylation	biological_process	2	PF10_0137|PF11_0173
 GO:0006488	dolichol-linked oligosaccharide biosynthetic process	biological_process	1	PFC0935c
 GO:0006506	GPI anchor biosynthetic process	biological_process	3	PF10_0316|PFF0915w|PFF1190c
-GO:0006508	proteolysis	biological_process	30	MAL13P1.184|MAL13P1.56|MAL8P1.113|MAL8P1.126|MAL8P1.140|MAL8P1.157|PF08_0108|PF10_0081|PF10_0150|PF10_0329|PF11_0161|PF11_0162|PF11_0165|PF11_0298|PF11_0303|PF11_0314|PF13_0133|PF13_0289|PF14_0025|PF14_0281|PF14_0348|PF14_0382|PF14_0517|PF14_0553|PFC0310c|PFC0495w|PFE0355c|PFE1360c|PFL1925w|PFL2290w
+GO:0006508	proteolysis	biological_process	29	MAL13P1.184|MAL13P1.56|MAL8P1.126|MAL8P1.140|MAL8P1.157|PF08_0108|PF10_0081|PF10_0150|PF10_0329|PF11_0161|PF11_0162|PF11_0165|PF11_0298|PF11_0303|PF11_0314|PF13_0133|PF13_0289|PF14_0025|PF14_0281|PF14_0348|PF14_0382|PF14_0517|PF14_0553|PFC0310c|PFC0495w|PFE0355c|PFE1360c|PFL1925w|PFL2290w
 GO:0006511	ubiquitin-dependent protein catabolic process	biological_process	35	MAL13P1.190|MAL13P1.270|MAL13P1.343|MAL8P1.128|MAL8P1.23|PF07_0112|PF08_0085|PF10_0111|PF10_0174|PF10_0298|PF10_0330|PF13_0033|PF13_0063|PF13_0096|PF13_0156|PF13_0282|PF13_0301|PF13_0346|PF14_0128|PF14_0576|PF14_0632|PF14_0676|PF14_0716|PFB0260w|PFC0255c|PFC0520w|PFC0745c|PFC0785c|PFC0845c|PFD0665c|PFD0680c|PFE0915c|PFF0420c|PFL1830w|PFL2345c
 GO:0006520	cellular amino acid metabolic process	biological_process	2	PF14_0286|PFB0200c
 GO:0006529	asparagine biosynthetic process	biological_process	1	PFC0395w
@@ -501,7 +500,7 @@ GO:0006617	SRP-dependent cotranslational protein targeting to membrane, signal s
 GO:0006626	protein targeting to mitochondrion	biological_process	9	PF10_0153|PF11_0265|PF13_0300|PF13_0358|PF14_0328|PFE0140c|PFF1330c|PFL0430w|PFL2065c
 GO:0006629	lipid metabolic process	biological_process	5	PF11_0257|PF14_0020|PF14_0250|PFF1375c|PFF1420w
 GO:0006631	fatty acid metabolic process	biological_process	1	PF14_0484
-GO:0006633	fatty acid biosynthetic process	biological_process	9	PF08_0066|PF10_0407|PF11_0256|PF14_0378|PF14_0441|PFD0980w|PFD1035w|PFE0555w|PFL0415w
+GO:0006633	fatty acid biosynthetic process	biological_process	8	PF10_0407|PF11_0256|PF14_0378|PF14_0441|PFD0980w|PFD1035w|PFE0555w|PFL0415w
 GO:0006644	phospholipid metabolic process	biological_process	2	PF07_0005|PF07_0040
 GO:0006646	phosphatidylethanolamine biosynthetic process	biological_process	1	PF11_0257
 GO:0006656	phosphatidylcholine biosynthetic process	biological_process	2	PF11_0257|PF14_0020
@@ -510,9 +509,10 @@ GO:0006661	phosphatidylinositol biosynthetic process	biological_process	1	MAL13P
 GO:0006730	one-carbon metabolic process	biological_process	2	PFE1050w|PFL1720w
 GO:0006743	ubiquinone metabolic process	biological_process	1	PFF0370w
 GO:0006744	ubiquinone biosynthetic process	biological_process	1	MAL7P1.130
+GO:0006749	glutathione metabolic process	biological_process	1	PF11_0224
 GO:0006783	heme biosynthetic process	biological_process	4	MAL13P1.326|PF10_0275|PF11_0436|PFL2210w
 GO:0006797	polyphosphate metabolic process	biological_process	2	PF14_0021|PF14_0022
-GO:0006810	transport	biological_process	19	MAL13P1.256|PF07_0070|PF11_0225|PF11_0466|PF13_0218|PF13_0271|PF13_0359|PF14_0133|PF14_0244|PF14_0260|PF14_0321|PFC0725c|PFD0367w|PFE0825w|PFE1185w|PFF0450c|PFL0495c|PFL1410c|PFL2000w
+GO:0006810	transport	biological_process	17	MAL13P1.256|PF07_0070|PF11_0225|PF11_0466|PF13_0218|PF13_0271|PF13_0359|PF14_0133|PF14_0260|PF14_0321|PFD0367w|PFE0825w|PFE1185w|PFF0450c|PFL0495c|PFL1410c|PFL2000w
 GO:0006811	ion transport	biological_process	1	PFD0725c
 GO:0006813	potassium ion transport	biological_process	1	PFL1315w
 GO:0006814	sodium ion transport	biological_process	1	PF13_0019
@@ -525,9 +525,10 @@ GO:0006835	dicarboxylic acid transport	biological_process	1	PF08_0031
 GO:0006839	mitochondrial transport	biological_process	1	PF08_0031
 GO:0006855	drug transmembrane transport	biological_process	1	PFC0125w
 GO:0006865	amino acid transport	biological_process	1	PFF1430c
+GO:0006869	lipid transport	biological_process	1	PF14_0244
 GO:0006879	cellular iron ion homeostasis	biological_process	1	PF14_0518
 GO:0006885	regulation of pH	biological_process	1	PF14_0541
-GO:0006886	intracellular protein transport	biological_process	15	MAL13P1.163|MAL13P1.171|MAL8P1.51|PF10_0203|PF10_0337|PF13_0062|PF13_0082|PF13_0090|PF14_0529|PF14_0548|PFB0750w|PFB0805c|PFD0745c|PFF0830w|PFL2425w
+GO:0006886	intracellular protein transport	biological_process	16	MAL13P1.163|MAL13P1.171|MAL8P1.51|PF10_0203|PF10_0337|PF13_0062|PF13_0082|PF13_0090|PF14_0529|PF14_0548|PFB0750w|PFB0805c|PFD0745c|PFE0100w|PFF0830w|PFL2425w
 GO:0006887	exocytosis	biological_process	1	PF14_0218
 GO:0006888	ER to Golgi vesicle-mediated transport	biological_process	5	PF11_0171|PF13_0174|PF13_0324|PFC0140c|PFD0895c
 GO:0006890	retrograde vesicle-mediated transport, Golgi to ER	biological_process	2	PF11_0359|PF14_0277
@@ -540,7 +541,8 @@ GO:0006928	movement of cell or subcellular component	biological_process	1	PFL246
 GO:0006974	cellular response to DNA damage stimulus	biological_process	1	PF13_0334
 GO:0006979	response to oxidative stress	biological_process	2	MAL8P1.126|PF14_0192
 GO:0006986	response to unfolded protein	biological_process	13	MAL13P1.162|MAL8P1.78|PF07_0029|PF07_0030|PF08_0054|PF10_0153|PF11_0175|PF11_0188|PF11_0351|PF13_0021|PFB0595w|PFF1415c|PFL0565w
-GO:0007010	cytoskeleton organization	biological_process	11	MAL13P1.148|MAL7P1.137|PF10_0039|PF11_0114|PF11_0331|PF11_0416|PF14_0124|PF14_0218|PFD0487c|PFE0255w|PFF1480w
+GO:0007004	telomere maintenance via telomerase	biological_process	1	PF13_0080
+GO:0007010	cytoskeleton organization	biological_process	10	MAL13P1.148|MAL7P1.137|PF10_0039|PF11_0114|PF11_0416|PF14_0124|PF14_0218|PFD0487c|PFE0255w|PFF1480w
 GO:0007015	actin filament organization	biological_process	1	PFL1435c
 GO:0007017	microtubule-based process	biological_process	5	PF07_0104|PF10_0224|PF10_0368|PF13_0306|PFL2460w
 GO:0007018	microtubule-based movement	biological_process	12	MAL7P1.161|MAL7P1.162|PF07_0098|PF10_0196|PF11_0240|PF14_0243a|PF14_0725|PFC0860w|PFD1050w|PFL0545w|PFL0660w|PFL2165w
@@ -548,6 +550,7 @@ GO:0007030	Golgi organization	biological_process	1	PF10_0168
 GO:0007035	vacuolar acidification	biological_process	5	PF11_0412|PF13_0034|PF13_0130|PF14_0615|PFD0305c
 GO:0007049	cell cycle	biological_process	3	MAL7P1.38|PF13_0027|PF14_0126
 GO:0007050	cell cycle arrest	biological_process	1	PF14_0261
+GO:0007052	mitotic spindle organization	biological_process	1	PFF0375c
 GO:0007059	chromosome segregation	biological_process	1	PF13_0185
 GO:0007131	reciprocal meiotic recombination	biological_process	1	MAL8P1.76
 GO:0007155	cell adhesion	biological_process	1	PF08_0136b
@@ -561,7 +564,7 @@ GO:0007276	gamete generation	biological_process	1	PF10_0374
 GO:0007530	sex determination	biological_process	1	MAL7P1.139
 GO:0008023	transcription elongation factor complex	cellular_component	1	PF07_0057
 GO:0008026	ATP-dependent helicase activity	molecular_function	7	MAL8P1.19|PF08_0048|PF11_0053|PFE0205w|PFE0215w|PFF1185w|PFL2440w
-GO:0008028	monocarboxylic acid transmembrane transporter activity	molecular_function	1	PFB0465c
+GO:0008028	monocarboxylic acid transmembrane transporter activity	molecular_function	2	PFB0465c|PFI1295c
 GO:0008033	tRNA processing	biological_process	3	MAL13P1.204|PFE0815w|PFL0380c
 GO:0008061	chitin binding	molecular_function	1	PFL2510w
 GO:0008080	N-acetyltransferase activity	molecular_function	1	PF10_0036
@@ -574,7 +577,7 @@ GO:0008139	nuclear localization sequence binding	molecular_function	1	PF08_0069
 GO:0008143	poly(A) binding	molecular_function	2	MAL13P1.303|PFL1170w
 GO:0008152	metabolic process	biological_process	6	MAL13P1.324|PF07_0059|PF10_0379|PFF1265w|PFL1475w|PFL1940w
 GO:0008153	para-aminobenzoic acid biosynthetic process	biological_process	1	PFI1100w
-GO:0008154	actin polymerization or depolymerization	biological_process	2	PF13_0326|PFE1545c
+GO:0008154	actin polymerization or depolymerization	biological_process	3	PF13_0326|PF14_0425|PFE1545c
 GO:0008168	methyltransferase activity	molecular_function	2	PF11_0284|PFL1475w
 GO:0008170	N-methyltransferase activity	molecular_function	1	PF13_0016
 GO:0008171	O-methyltransferase activity	molecular_function	1	PFL1780w
@@ -583,19 +586,19 @@ GO:0008177	succinate dehydrogenase (ubiquinone) activity	molecular_function	1	PF
 GO:0008187	poly-pyrimidine tract binding	molecular_function	1	PFF0320c
 GO:0008198	ferrous iron binding	molecular_function	2	MAL13P1.326|PFI0380c
 GO:0008201	heparin binding	molecular_function	1	PF08_0136b
-GO:0008233	peptidase activity	molecular_function	3	MAL8P1.113|PF14_0317|PFC0950c
-GO:0008234	cysteine-type peptidase activity	molecular_function	4	MAL8P1.157|PF11_0174|PF14_0553|PFD0230c
+GO:0008233	peptidase activity	molecular_function	3	PF14_0317|PFC0950c|PFF1335c
+GO:0008234	cysteine-type peptidase activity	molecular_function	3	MAL8P1.157|PF14_0553|PFD0230c
 GO:0008235	metalloexopeptidase activity	molecular_function	5	MAL8P1.140|PF10_0150|PF14_0261|PF14_0327|PFE1360c
 GO:0008239	dipeptidyl-peptidase activity	molecular_function	1	PFL2290w
 GO:0008250	oligosaccharyltransferase complex	cellular_component	1	PF11_0173
-GO:0008270	zinc ion binding	molecular_function	24	MAL13P1.117|MAL13P1.126|MAL13P1.56|MAL8P1.156|PF07_0071|PF08_0056|PF11_0483|PF11_0483a|PF13_0055|PF13_0259|PF13_0313|PF14_0349|PFB0725c|PFC0380w|PFC0630w|PFC0740c|PFD0360w|PFD0405c|PFD0765w|PFE0200c|PFE0895c|PFE0985w|PFE1490c|PFF1325c
+GO:0008270	zinc ion binding	molecular_function	24	MAL13P1.117|MAL13P1.126|MAL8P1.156|PF07_0071|PF08_0056|PF11_0483|PF11_0483a|PF13_0055|PF13_0259|PF13_0313|PF14_0349|PFB0725c|PFC0380w|PFC0630w|PFC0740c|PFD0360w|PFD0405c|PFD0765w|PFE0100w|PFE0200c|PFE0895c|PFE0985w|PFE1490c|PFF1325c
 GO:0008271	secondary active sulfate transmembrane transporter activity	molecular_function	1	PF14_0679
 GO:0008272	sulfate transport	biological_process	1	PF14_0679
 GO:0008273	calcium, potassium:sodium antiporter activity	molecular_function	1	PFF0170w
 GO:0008278	cohesin complex	cellular_component	1	PF11_0317
-GO:0008283	cell proliferation	biological_process	1	PF14_0261
+GO:0008283	cell proliferation	biological_process	2	PF14_0261|PFL1005c
 GO:0008287	protein serine/threonine phosphatase complex	cellular_component	3	MAL13P1.44|MAL8P1.108|PF14_0630
-GO:0008290	F-actin capping protein complex	cellular_component	1	PFE0880c
+GO:0008290	F-actin capping protein complex	cellular_component	2	PFE0880c|PFE1420w
 GO:0008295	spermidine biosynthetic process	biological_process	1	PF11_0301
 GO:0008299	isoprenoid biosynthetic process	biological_process	2	PF11_0295|PFE0150c
 GO:0008310	single-stranded DNA 3'-5' exodeoxyribonuclease activity	molecular_function	1	PF10_0165
@@ -641,7 +644,7 @@ GO:0009001	serine O-acetyltransferase activity	molecular_function	1	PF14_0155
 GO:0009020	tRNA (guanosine-2'-O-)-methyltransferase activity	molecular_function	1	PF13_0236
 GO:0009052	pentose-phosphate shunt, non-oxidative branch	biological_process	2	PFE0730c|PFL0960w
 GO:0009055	electron carrier activity	molecular_function	10	MAL13P1.55|MAL13P1.95|PF07_0085|PF08_0113|PF13_0353|PF14_0038|PF14_0597|PFL0630w|PFL0705c|PFL1555w
-GO:0009107	lipoate biosynthetic process	biological_process	2	MAL13P1.220|MAL8P1.37
+GO:0009107	lipoate biosynthetic process	biological_process	1	MAL8P1.37
 GO:0009116	nucleoside metabolic process	biological_process	1	PF13_0157
 GO:0009186	deoxyribonucleoside diphosphate metabolic process	biological_process	1	PF10_0154
 GO:0009187	cyclic nucleotide metabolic process	biological_process	1	PF14_0672
@@ -650,11 +653,12 @@ GO:0009228	thiamine biosynthetic process	biological_process	4	PFE1030c|PFF0680c|
 GO:0009231	riboflavin biosynthetic process	biological_process	1	MAL13P1.292
 GO:0009266	response to temperature stimulus	biological_process	1	MAL8P1.126
 GO:0009268	response to pH	biological_process	1	MAL8P1.150
-GO:0009298	GDP-mannose biosynthetic process	biological_process	1	PF10_0169
+GO:0009298	GDP-mannose biosynthetic process	biological_process	2	MAL8P1.156|PF10_0169
 GO:0009306	protein secretion	biological_process	1	PFF0665c
 GO:0009328	phenylalanine-tRNA ligase complex	cellular_component	1	PF11_0051
 GO:0009331	glycerol-3-phosphate dehydrogenase complex	cellular_component	2	PF11_0157|PFL0780w
 GO:0009368	endopeptidase Clp complex	cellular_component	1	PFC0310c
+GO:0009405	pathogenesis	biological_process	1	PFI1765c
 GO:0009408	response to heat	biological_process	15	MAL13P1.162|MAL8P1.78|PF07_0029|PF07_0030|PF08_0054|PF11_0099|PF11_0175|PF11_0188|PF11_0351|PF13_0021|PF14_0417|PFB0595w|PFF1415c|PFL0565w|PFL1070c
 GO:0009438	methylglyoxal metabolic process	biological_process	2	PFF0230c|PFL0285w
 GO:0009445	putrescine metabolic process	biological_process	1	PF10_0322
@@ -663,10 +667,12 @@ GO:0009670	triose-phosphate:phosphate antiporter activity	molecular_function	1	P
 GO:0009678	hydrogen-translocating pyrophosphatase activity	molecular_function	1	PF14_0541
 GO:0009931	calcium-dependent protein serine/threonine kinase activity	molecular_function	1	PF11_0239
 GO:0009982	pseudouridine synthase activity	molecular_function	1	PFE0815w
-GO:0009986	cell surface	cellular_component	14	MAL13P1.195|MAL13P1.269|PF07_0006|PF10_0026|PF10_0155|PF10_0281|PF10_0348|PF10_0352|PF10_0355|PFB0570w|PFC0210c|PFC0435w|PFE0060w|PFF1420w
+GO:0009986	cell surface	cellular_component	16	MAL13P1.195|MAL13P1.269|PF07_0006|PF08_0088|PF10_0026|PF10_0155|PF10_0281|PF10_0348|PF10_0352|PF10_0355|PFB0570w|PFC0400w|PFC0435w|PFE0060w|PFE0680w|PFF1420w
 GO:0009987	cellular process	biological_process	2	PF10_0144|PF14_0051
 GO:0010295	(+)-abscisic acid 8'-hydroxylase activity	molecular_function	1	PFE1015c
+GO:0010323	negative regulation of isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	biological_process	1	PF10_0325
 GO:0010452	histone H3-K36 methylation	biological_process	1	MAL13P1.122
+GO:0010468	regulation of gene expression	biological_process	1	PF10_0078
 GO:0010501	RNA secondary structure unwinding	biological_process	1	PFF1500c
 GO:0010564	regulation of cell cycle process	biological_process	17	MAL13P1.227|MAL8P1.92|PF07_0047|PF08_0067|PF10_0317|PF13_0182|PF13_0344|PF14_0215|PF14_0462|PF14_0653|PFC0550w|PFC0590c|PFE0380c|PFF0940c|PFI0810c|PFL0190w|PFL1790w
 GO:0010608	posttranscriptional regulation of gene expression	biological_process	1	PF14_0423
@@ -684,30 +690,30 @@ GO:0015367	oxoglutarate:malate antiporter activity	molecular_function	1	PF08_003
 GO:0015446	arsenite-transmembrane transporting ATPase activity	molecular_function	1	PFD0725c
 GO:0015450	P-P-bond-hydrolysis-driven protein transmembrane transporter activity	molecular_function	4	PF11_0265|PF13_0358|PFL0430w|PFL2065c
 GO:0015629	actin cytoskeleton	cellular_component	4	PF13_0326|PFD0487c|PFE0165w|PFE0255w
+GO:0015650	lactate:proton symporter activity	molecular_function	1	PFC0725c
 GO:0015717	triose phosphate transport	biological_process	1	PFL0890c
-GO:0015718	monocarboxylic acid transport	biological_process	1	PFB0465c
+GO:0015718	monocarboxylic acid transport	biological_process	2	PFB0465c|PFI1295c
 GO:0015742	alpha-ketoglutarate transport	biological_process	1	PF08_0031
 GO:0015743	malate transport	biological_process	1	PF08_0031
 GO:0015785	UDP-galactose transport	biological_process	1	PF11_0141
 GO:0015858	nucleoside transport	biological_process	1	MAL8P1.32
 GO:0015887	pantothenate transmembrane transport	biological_process	1	PFB0275w
 GO:0015917	aminophospholipid transport	biological_process	1	PFL1125w
-GO:0015934	large ribosomal subunit	cellular_component	12	PF11_0043|PF11_0260|PF11_0438|PF13_0129|PFC0400w|PFE0145w|PFE0185c|PFE0300c|PFE0350c|PFE0845c|PFE1225w|PFF0885w
+GO:0015934	large ribosomal subunit	cellular_component	9	PF11_0043|PF11_0260|PF11_0438|PF13_0129|PFC0400w|PFE0145w|PFE0300c|PFE1225w|PFF0885w
 GO:0015935	small ribosomal subunit	cellular_component	5	PF11_0065|PF11_0272|PF11_0382|PF11_0386|PFD0600c
 GO:0015937	coenzyme A biosynthetic process	biological_process	1	PF14_0415
 GO:0015966	diadenosine tetraphosphate biosynthetic process	biological_process	1	PF13_0262
 GO:0015977	carbon fixation	biological_process	1	PF14_0246
 GO:0015986	ATP synthesis coupled proton transport	biological_process	5	MAL13P1.47|MAL7P1.340|MAL7P1.75|PF11_0412|PF13_0061
 GO:0016018	cyclosporin A binding	molecular_function	3	PFE0505w|PFE1430c|PFL0735w
-GO:0016020	membrane	cellular_component	51	MAL13P1.114|MAL13P1.121|MAL13P1.126|MAL13P1.131|MAL13P1.133|MAL13P1.134|MAL13P1.150|MAL13P1.171|MAL13P1.329|MAL13P1.335|MAL13P1.348|MAL13P1.351|MAL7P1.12|MAL7P1.340|MAL8P1.32|PF07_0070|PF08_0066|PF08_0113|PF10_0302|PF10_0303|PF10_0407|PF11_0141|PF11_0225|PF11_0256|PF11_0486|PF11_0512|PF13_0124|PF13_0133|PF13_0134|PF13_0139|PF13_0154|PF13_0182|PF13_0184|PF13_0248|PF13_0271|PF13_0344|PF14_0321|PF14_0441|PF14_0541|PF14_0679|PFB0760w|PFC0725c|PFC1045c|PFC1090w|PFD0367w|PFD0725c|PFE0965c|PFE1185w|PFE1340w|PFL0805w|PFL1555w
-GO:0016021	integral component of membrane	cellular_component	25	MAL8P1.13|MAL8P1.3|PF07_0115|PF10_0317|PF10_0390|PF11_0173|PF11_0466|PF13_0019|PF13_0133|PF14_0317|PF14_0508|PF14_0653|PFC0125w|PFC0590c|PFD0310w|PFE0405c|PFE0825w|PFE1455w|PFE1460w|PFF0170w|PFF0290w|PFF0450c|PFF0485c|PFF0645c|PFL1125w
+GO:0016020	membrane	cellular_component	45	MAL13P1.114|MAL13P1.121|MAL13P1.126|MAL13P1.131|MAL13P1.133|MAL13P1.134|MAL13P1.150|MAL13P1.171|MAL13P1.329|MAL13P1.335|MAL13P1.351|MAL7P1.12|MAL7P1.340|MAL8P1.32|PF07_0070|PF08_0113|PF10_0193|PF10_0302|PF10_0407|PF11_0141|PF11_0225|PF11_0256|PF11_0486|PF11_0512|PF13_0124|PF13_0134|PF13_0139|PF13_0154|PF13_0184|PF13_0271|PF13_0344|PF14_0321|PF14_0441|PF14_0528|PF14_0679|PFB0760w|PFC1045c|PFD0367w|PFD0725c|PFE0100w|PFE0965c|PFE1185w|PFE1340w|PFL0805w|PFL1555w
+GO:0016021	integral component of membrane	cellular_component	27	MAL8P1.13|MAL8P1.3|PF07_0115|PF10_0317|PF10_0390|PF11_0173|PF11_0466|PF13_0019|PF13_0133|PF14_0317|PF14_0508|PF14_0653|PFB0106c|PFB0465c|PFC0125w|PFC0590c|PFD0310w|PFE0405c|PFE0825w|PFE1455w|PFE1460w|PFF0170w|PFF0290w|PFF0450c|PFF0485c|PFI1295c|PFL1125w
 GO:0016023	cytoplasmic membrane-bounded vesicle	cellular_component	1	PFE0765w
 GO:0016035	zeta DNA polymerase complex	cellular_component	1	PF10_0362
 GO:0016049	cell growth	biological_process	1	PF14_0159
 GO:0016070	RNA metabolic process	biological_process	11	MAL7P1.113|PF14_0242|PFD0245c|PFD0565c|PFD0700c|PFF1140c|PFF1500c|PFL0100c|PFL1310c|PFL2010c|PFL2475w
-GO:0016192	vesicle-mediated transport	biological_process	13	MAL7P1.164|PF11_0187|PF11_0202|PF11_0463|PF13_0062|PF13_0174|PF14_0377|PFD1090c|PFE1400c|PFF0655c|PFF0830w|PFF1450w|PFL2060c
+GO:0016192	vesicle-mediated transport	biological_process	14	MAL7P1.164|PF11_0187|PF11_0202|PF11_0463|PF13_0062|PF13_0174|PF14_0377|PFD1090c|PFE0100w|PFE1400c|PFF0655c|PFF0830w|PFF1450w|PFL2060c
 GO:0016226	iron-sulfur cluster assembly	biological_process	1	PF14_0518
-GO:0016255	attachment of GPI anchor to protein	biological_process	10	PF08_0008|PF10_0302|PF10_0303|PF14_0293|PF14_0325|PFC0750w|PFE0125w|PFE0220w|PFE0710w|PFF0975c
 GO:0016272	prefoldin complex	cellular_component	2	MAL7P1.94|PF14_0167
 GO:0016274	protein-arginine N-methyltransferase activity	molecular_function	1	PF14_0242
 GO:0016281	eukaryotic translation initiation factor 4F complex	cellular_component	2	PFC0635c|PFD1070w
@@ -716,43 +722,47 @@ GO:0016298	lipase activity	molecular_function	1	PFF1420w
 GO:0016301	kinase activity	molecular_function	1	PFE1030c
 GO:0016303	1-phosphatidylinositol-3-kinase activity	molecular_function	1	PFE0765w
 GO:0016310	phosphorylation	biological_process	1	PFF0775w
-GO:0016337	single organismal cell-cell adhesion	biological_process	11	PF10_0001|PF10_0348|PF10_0406|PF11_0007|PF11_0008|PF11_0506|PF11_0521|PFB0010w|PFB0570w|PFB1055c|PFC0700c
+GO:0016311	dephosphorylation	biological_process	1	PF10_0325
+GO:0016337	single organismal cell-cell adhesion	biological_process	10	PF10_0001|PF10_0406|PF11_0007|PF11_0008|PF11_0506|PF11_0521|PFB0010w|PFB0570w|PFB1055c|PFC0700c
 GO:0016363	nuclear matrix	cellular_component	1	PFC0365w
-GO:0016409	palmitoyltransferase activity	molecular_function	1	PFC0160w
+GO:0016409	palmitoyltransferase activity	molecular_function	3	PF10_0273|PFB0140w|PFC0160w
 GO:0016422	mRNA (2'-O-methyladenosine-N6-)-methyltransferase activity	molecular_function	1	PF07_0123
+GO:0016441	posttranscriptional gene silencing	biological_process	1	PFI0295c
 GO:0016458	gene silencing	biological_process	2	PFL1180w|PFL1780w
 GO:0016459	myosin complex	cellular_component	4	MAL13P1.148|PF11_0416|PFE0175c|PFL1435c
 GO:0016469	proton-transporting two-sector ATPase complex	cellular_component	2	MAL7P1.340|PF08_0113
 GO:0016471	vacuolar proton-transporting V-type ATPase complex	cellular_component	1	MAL13P1.271
 GO:0016491	oxidoreductase activity	molecular_function	6	PF10_0137|PF10_0268|PF11_0251|PF14_0088|PFD1035w|PFF1265w
 GO:0016514	SWI/SNF complex	cellular_component	1	PFB0730w
+GO:0016567	protein ubiquitination	biological_process	2	MAL13P1.227|PF13_0182
 GO:0016571	histone methylation	biological_process	1	PF14_0242
 GO:0016574	histone ubiquitination	biological_process	1	PF14_0054
 GO:0016579	protein deubiquitination	biological_process	5	MAL7P1.147|PF14_0576|PFD0165w|PFE0835w|PFE1355c
 GO:0016591	DNA-directed RNA polymerase II, holoenzyme	cellular_component	1	PF13_0023
 GO:0016602	CCAAT-binding factor complex	cellular_component	1	PF14_0374
 GO:0016740	transferase activity	molecular_function	2	PFC0930c|PFD0980w
-GO:0016773	phosphotransferase activity, alcohol group as acceptor	molecular_function	2	PF11_0307|PFE0485w
+GO:0016773	phosphotransferase activity, alcohol group as acceptor	molecular_function	1	PF11_0307
 GO:0016780	phosphotransferase activity, for other substituted phosphate groups	molecular_function	1	MAL13P1.335
 GO:0016787	hydrolase activity	molecular_function	15	MAL13P1.248|PF07_0005|PF07_0040|PF10_0379|PF13_0048|PF13_0153|PF13_0259|PF14_0015|PF14_0017|PF14_0737|PF14_0738|PFC0065c|PFC0310c|PFF1420w|PFL1260w
 GO:0016791	phosphatase activity	molecular_function	2	PF07_0059|PF14_0660
 GO:0016857	racemase and epimerase activity, acting on carbohydrates and derivatives	molecular_function	1	PF10_0137
 GO:0016887	ATPase activity	molecular_function	36	MAL13P1.227|MAL8P1.92|PF07_0029|PF07_0047|PF08_0063|PF08_0067|PF08_0100|PF10_0317|PF11_0071|PF11_0184|PF11_0188|PF11_0314|PF11_0317|PF13_0182|PF13_0330|PF13_0344|PF14_0133|PF14_0215|PF14_0326|PF14_0462|PF14_0548|PF14_0653|PFC0140c|PFC0550w|PFC0590c|PFC0860w|PFD0390c|PFD0665c|PFE0380c|PFF0155w|PFF0940c|PFI0810c|PFL0190w|PFL0545w|PFL1790w|PFL2345c
-GO:0016925	protein sumoylation	biological_process	3	MAL13P1.227|MAL13P1.302|PFI0740c
+GO:0016925	protein sumoylation	biological_process	2	MAL13P1.302|PFI0740c
 GO:0016929	SUMO-specific protease activity	molecular_function	1	PFL1635w
 GO:0016979	lipoate-protein ligase activity	molecular_function	1	MAL8P1.37
-GO:0016992	lipoate synthase activity	molecular_function	1	MAL13P1.220
 GO:0017057	6-phosphogluconolactonase activity	molecular_function	1	PF14_0511
 GO:0017070	U6 snRNA binding	molecular_function	1	MAL8P1.9
 GO:0017086	3-methyl-2-oxobutanoate dehydrogenase (lipoamide) complex	cellular_component	1	PFL1550w
 GO:0017110	nucleoside-diphosphatase activity	molecular_function	1	PF14_0297
 GO:0017111	nucleoside-triphosphatase activity	molecular_function	2	PF14_0126|PF14_0297
+GO:0017121	phospholipid scrambling	biological_process	1	PF10_0220
+GO:0017128	phospholipid scramblase activity	molecular_function	1	PF10_0220
 GO:0017148	negative regulation of translation	biological_process	1	PFD0825c
 GO:0017176	phosphatidylinositol N-acetylglucosaminyltransferase activity	molecular_function	1	PFF0915w
 GO:0018063	cytochrome c-heme linkage	biological_process	1	PFL1185c
 GO:0018343	protein farnesylation	biological_process	2	PF11_0483|PF11_0483a
-GO:0018344	protein geranylgeranylation	biological_process	3	PFF0120w|PFL0692c|PFL0695c
-GO:0018345	protein palmitoylation	biological_process	1	PFC0160w
+GO:0018344	protein geranylgeranylation	biological_process	2	PFF0120w|PFL0692c
+GO:0018345	protein palmitoylation	biological_process	3	PF10_0273|PFB0140w|PFC0160w
 GO:0019001	guanyl nucleotide binding	molecular_function	1	PFE0665c
 GO:0019104	DNA N-glycosylase activity	molecular_function	1	PF11_0306
 GO:0019288	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	biological_process	2	PF10_0221|PF14_0641
@@ -769,24 +779,25 @@ GO:0019899	enzyme binding	molecular_function	1	PF14_0323
 GO:0019904	protein domain specific binding	molecular_function	3	PF08_0087|PFE1195w|PFF1440w
 GO:0019932	second-messenger-mediated signaling	biological_process	1	PF14_0681
 GO:0019941	modification-dependent protein catabolic process	biological_process	2	MAL13P1.64|PF13_0084
-GO:0020002	host cell plasma membrane	cellular_component	64	MAL8P1.126|PF10_0001|PF10_0002|PF10_0003|PF10_0004|PF10_0005|PF10_0006|PF10_0393|PF10_0394|PF10_0396|PF10_0397|PF10_0398|PF10_0399|PF10_0400|PF10_0401|PF10_0402|PF10_0403|PF10_0404|PF10_0405|PF10_0406|PF11_0007|PF11_0008|PF11_0009|PF11_0010|PF11_0011|PF11_0020|PF11_0021|PF11_0515|PF11_0517|PF11_0519|PF11_0520|PF11_0521|PF11_0529|PF14_0002|PF14_0003|PF14_0004|PF14_0005|PF14_0006|PF14_0008|PF14_0358|PF14_0369|PF14_0766|PF14_0768|PF14_0769|PF14_0770|PF14_0772|PFB0010w|PFB0015c|PFB0030c|PFB0035c|PFB0040c|PFB0055c|PFB0060w|PFB1005w|PFB1010w|PFB1015w|PFB1035w|PFB1040w|PFB1050w|PFB1055c|PFC0435w|PFI0240c|PFI1780w|PFL1315w
-GO:0020003	symbiont-containing vacuole	cellular_component	13	MAL13P1.174|MAL8P1.126|PF10_0166|PF10_0343|PF11_0174|PF11_0175|PF11_0302|PF14_0060|PF14_0179|PF14_0744|PF14_0748|PFD0260c|PFI0185w
-GO:0020005	symbiont-containing vacuole membrane	cellular_component	9	PF07_0037|PF08_0062|PF10_0212a|PF11_0175|PF11_0224|PF14_0344|PFD0090c|PFD0310w|PFD0430c
+GO:0020002	host cell plasma membrane	cellular_component	65	MAL8P1.126|PF10_0001|PF10_0002|PF10_0003|PF10_0004|PF10_0005|PF10_0006|PF10_0393|PF10_0394|PF10_0396|PF10_0397|PF10_0398|PF10_0399|PF10_0400|PF10_0401|PF10_0402|PF10_0403|PF10_0404|PF10_0405|PF10_0406|PF11_0007|PF11_0008|PF11_0009|PF11_0010|PF11_0011|PF11_0020|PF11_0021|PF11_0515|PF11_0517|PF11_0519|PF11_0520|PF11_0521|PF11_0529|PF14_0002|PF14_0003|PF14_0004|PF14_0005|PF14_0006|PF14_0008|PF14_0358|PF14_0369|PF14_0766|PF14_0768|PF14_0769|PF14_0770|PF14_0772|PFB0010w|PFB0015c|PFB0030c|PFB0035c|PFB0040c|PFB0055c|PFB0060w|PFB1005w|PFB1010w|PFB1015w|PFB1035w|PFB1040w|PFB1050w|PFB1055c|PFC0435w|PFI0240c|PFI1780w|PFL1315w|PFL2110c
+GO:0020003	symbiont-containing vacuole	cellular_component	14	MAL13P1.174|MAL8P1.126|PF10_0166|PF10_0343|PF11_0174|PF11_0175|PF11_0302|PF14_0060|PF14_0744|PF14_0748|PFD0260c|PFI0185w|PFI1765c|PFL2505c
+GO:0020005	symbiont-containing vacuole membrane	cellular_component	10	PF07_0037|PF08_0062|PF10_0212a|PF11_0175|PF11_0224|PF14_0179|PF14_0344|PFD0090c|PFD0310w|PFD0430c
 GO:0020007	apical complex	cellular_component	3	PF11_0175|PF11_0486|PF14_0344
-GO:0020008	rhoptry	cellular_component	7	PF14_0102|PFB0570w|PFB0935w|PFD0720w|PFE1415w|PFF0645c|PFI0265c
-GO:0020009	microneme	cellular_component	10	MAL13P1.212|MAL13P1.56|PF08_0008|PF10_0281|PF14_0467|PFC0700c|PFC1045c|PFD0430c|PFI1145w|PFL2510w
-GO:0020011	apicoplast	cellular_component	434	MAL13P1.114|MAL13P1.131|MAL13P1.156|MAL13P1.160|MAL13P1.161|MAL13P1.171|MAL13P1.186|MAL13P1.196|MAL13P1.217|MAL13P1.220|MAL13P1.227|MAL13P1.25|MAL13P1.255|MAL13P1.262|MAL13P1.281|MAL13P1.297|MAL13P1.300|MAL13P1.324|MAL13P1.332|MAL13P1.342|MAL13P1.49|MAL13P1.540|MAL13P1.59|MAL13P1.61|MAL13P1.62|MAL13P1.67|MAL13P1.68|MAL13P1.70|MAL13P1.75|MAL13P1.87|MAL13P1.95|MAL7P1.141|MAL7P1.149|MAL7P1.178|MAL7P1.20|MAL7P1.23|MAL7P1.26|MAL7P1.31|MAL7P1.32|MAL7P1.33|MAL7P1.6|MAL7P1.76|MAL8P1.101|MAL8P1.124|MAL8P1.138|MAL8P1.140|MAL8P1.143|MAL8P1.161|MAL8P1.163|MAL8P1.19|MAL8P1.26|MAL8P1.27|MAL8P1.29|MAL8P1.37|MAL8P1.61|PF07_0047|PF07_0068|PF07_0073|PF07_0081|PF07_0087|PF07_0089|PF07_0100|PF07_0109|PF07_0113|PF07_0115|PF08_0011|PF08_0014|PF08_0016|PF08_0047|PF08_0063|PF08_0066|PF08_0067|PF08_0078|PF08_0101|PF08_0112|PF08_0137|PF10_0013|PF10_0027|PF10_0030|PF10_0035|PF10_0053|PF10_0055|PF10_0060|PF10_0071|PF10_0082|PF10_0088|PF10_0093|PF10_0098|PF10_0116|PF10_0119|PF10_0138|PF10_0149|PF10_0175|PF10_0186|PF10_0193|PF10_0197|PF10_0207|PF10_0221|PF10_0233|PF10_0245|PF10_0246|PF10_0246a|PF10_0260|PF10_0290|PF10_0313|PF10_0332|PF10_0359|PF10_0363|PF10_0365|PF10_0368|PF10_0369|PF10_0407|PF11_0044|PF11_0045|PF11_0055|PF11_0059|PF11_0072|PF11_0073|PF11_0074|PF11_0076|PF11_0099|PF11_0118|PF11_0135|PF11_0157|PF11_0178|PF11_0181|PF11_0197|PF11_0211|PF11_0212|PF11_0218|PF11_0228|PF11_0230|PF11_0231|PF11_0238|PF11_0256|PF11_0261|PF11_0270|PF11_0285|PF11_0304|PF11_0306|PF11_0307|PF11_0323|PF11_0324|PF11_0328|PF11_0333|PF11_0372|PF11_0386|PF11_0435|PF11_0459|PF11_0464|PF11_0466|PF11_0470|PF11_0503|PF13_0025|PF13_0032|PF13_0039|PF13_0040|PF13_0077|PF13_0100|PF13_0109|PF13_0114|PF13_0125|PF13_0133|PF13_0134|PF13_0148|PF13_0157|PF13_0168|PF13_0172|PF13_0182|PF13_0271|PF13_0277|PF13_0290|PF13_0344|PF13_0354|PF13_0355|PF13_0361|PF14_0014|PF14_0015|PF14_0030|PF14_0051|PF14_0063|PF14_0071|PF14_0088|PF14_0089|PF14_0094|PF14_0105|PF14_0114|PF14_0132|PF14_0133|PF14_0155|PF14_0165|PF14_0166|PF14_0192|PF14_0198|PF14_0211|PF14_0249|PF14_0250|PF14_0265|PF14_0268|PF14_0270|PF14_0284|PF14_0286|PF14_0296|PF14_0318|PF14_0342|PF14_0348|PF14_0351|PF14_0367|PF14_0382|PF14_0415|PF14_0417|PF14_0422|PF14_0427|PF14_0435|PF14_0440|PF14_0441|PF14_0447|PF14_0470|PF14_0508|PF14_0566|PF14_0581|PF14_0641|PF14_0658|PF14_0660|PF14_0691|PF14_0695|PF14_0696|PF14_0712|PF14_0736|PF14_0742|PF14_0753|PF14_0756|PF14_0757|PF14_0762|PFB0075c|PFB0110w|PFB0180w|PFB0194w|PFB0205c|PFB0270w|PFB0385w|PFB0390w|PFB0395w|PFB0485c|PFB0545c|PFB0600c|PFB0675w|PFB0725c|PFB0850c|PFB0855c|PFB0890c|PFB0921c|PFB0923c|PFB0930w|PFC0055w|PFC0065c|PFC0075c|PFC0080c|PFC0125w|PFC0225c|PFC0250c|PFC0260w|PFC0310c|PFC0330w|PFC0416w|PFC0450w|PFC0470w|PFC0510w|PFC0545c|PFC0555c|PFC0556c|PFC0580c|PFC0590c|PFC0670c|PFC0715c|PFC0740c|PFC0795w|PFC0810c|PFC0831w|PFC0845c|PFC0850c|PFC0885c|PFC0925w|PFC1065w|PFD0075w|PFD0207c|PFD0230c|PFD0480w|PFD0530c|PFD0545w|PFD0555c|PFD0675w|PFD0690c|PFD0710w|PFD0760c|PFD0780w|PFD0820w|PFD0835c|PFD0980w|PFD1100c|PFE0100w|PFE0115c|PFE0145w|PFE0150c|PFE0205w|PFE0215w|PFE0265c|PFE0345c|PFE0355c|PFE0405c|PFE0435c|PFE0455w|PFE0475w|PFE0480c|PFE0495w|PFE0560c|PFE0710w|PFE0715w|PFE0815w|PFE0830c|PFE0875c|PFE0925c|PFE1000c|PFE1045c|PFE1075c|PFE1135w|PFE1225w|PFE1295c|PFE1300w|PFE1330c|PFE1445c|PFE1460w|PFE1595c|PFE1610w|PFF0110w|PFF0115c|PFF0215w|PFF0230c|PFF0400w|PFF0595c|PFF0650w|PFF0655c|PFF0660w|PFF1015w|PFF1220w|PFF1395c|PFF1415c|PFI0140w|PFI0205w|PFI0305c|PFI0375w|PFI0380c|PFI0390c|PFI0405w|PFI0490c|PFI0570w|PFI0585c|PFI0660c|PFI0680c|PFI0685w|PFI0695c|PFI0700c|PFI0810c|PFI0900w|PFI0920c|PFI0990c|PFI1010w|PFI1050c|PFI1065c|PFI1195c|PFI1240c|PFI1285w|PFI1468c|PFI1470c|PFI1530c|PFI1580c|PFI1585c|PFI1645c|PFI1745c|PFI1765c|PFI1795c|PFL0115w|PFL0205w|PFL0245w|PFL0285w|PFL0365c|PFL0375w|PFL0380c|PFL0400w|PFL0455c|PFL0500w|PFL0595c|PFL0600w|PFL0615w|PFL0655w|PFL0700w|PFL0715w|PFL0770w|PFL0835w|PFL0840c|PFL0875w|PFL0990w|PFL1050w|PFL1060c|PFL1190c|PFL1210w|PFL1255c|PFL1295w|PFL1390w|PFL1405w|PFL1430c|PFL1515c|PFL1540c|PFL1545c|PFL1670c|PFL1710c|PFL1720w|PFL1740w|PFL1775c|PFL1780w|PFL1815c|PFL1835w|PFL2015w|PFL2030w|PFL2115c|PFL2130w|PFL2185w|PFL2320w|PFL2330w|PFL2395c|PFL2410w|PFL2485c|PFL2565w|PFL2575c
-GO:0020013	modulation by symbiont of host erythrocyte aggregation	biological_process	6	PF10_0001|PF10_0406|PF11_0007|PF11_0008|PF11_0521|PFB1055c
-GO:0020020	food vacuole	cellular_component	28	MAL13P1.56|MAL8P1.69|MAL8P1.95|PF07_0037|PF10_0068|PF10_0155|PF10_0203|PF11_0161|PF11_0162|PF11_0165|PF11_0168a|PF11_0174|PF11_0281|PF13_0130|PF13_0194|PF14_0060|PF14_0075|PF14_0076|PF14_0077|PF14_0078|PF14_0517|PF14_0541|PF14_0574|PF14_0615|PFC0140c|PFE0765w|PFI1670c|PFL1555w
+GO:0020008	rhoptry	cellular_component	11	PF11_0486|PF13_0062|PF14_0102|PFB0145c|PFB0570w|PFB0935w|PFD0720w|PFE1415w|PFF0645c|PFI0265c|PFL2505c
+GO:0020009	microneme	cellular_component	12	MAL13P1.212|MAL13P1.56|PF08_0008|PF10_0281|PF14_0467|PFB0570w|PFC0700c|PFC1045c|PFD0430c|PFD1130w|PFI1145w|PFL2510w
+GO:0020011	apicoplast	cellular_component	431	MAL13P1.114|MAL13P1.131|MAL13P1.156|MAL13P1.160|MAL13P1.161|MAL13P1.171|MAL13P1.186|MAL13P1.196|MAL13P1.217|MAL13P1.220|MAL13P1.227|MAL13P1.25|MAL13P1.255|MAL13P1.262|MAL13P1.281|MAL13P1.297|MAL13P1.300|MAL13P1.324|MAL13P1.332|MAL13P1.342|MAL13P1.49|MAL13P1.540|MAL13P1.59|MAL13P1.61|MAL13P1.62|MAL13P1.67|MAL13P1.68|MAL13P1.70|MAL13P1.75|MAL13P1.87|MAL13P1.95|MAL7P1.141|MAL7P1.149|MAL7P1.178|MAL7P1.20|MAL7P1.23|MAL7P1.31|MAL7P1.32|MAL7P1.33|MAL7P1.6|MAL7P1.76|MAL8P1.101|MAL8P1.124|MAL8P1.138|MAL8P1.140|MAL8P1.143|MAL8P1.161|MAL8P1.163|MAL8P1.19|MAL8P1.26|MAL8P1.29|MAL8P1.37|MAL8P1.61|PF07_0047|PF07_0068|PF07_0073|PF07_0081|PF07_0087|PF07_0089|PF07_0100|PF07_0109|PF07_0113|PF07_0115|PF08_0011|PF08_0014|PF08_0016|PF08_0047|PF08_0063|PF08_0066|PF08_0067|PF08_0078|PF08_0101|PF08_0112|PF08_0137|PF10_0013|PF10_0027|PF10_0030|PF10_0035|PF10_0053|PF10_0055|PF10_0060|PF10_0071|PF10_0082|PF10_0088|PF10_0093|PF10_0098|PF10_0116|PF10_0119|PF10_0138|PF10_0149|PF10_0175|PF10_0186|PF10_0193|PF10_0197|PF10_0207|PF10_0221|PF10_0233|PF10_0245|PF10_0246|PF10_0246a|PF10_0260|PF10_0290|PF10_0313|PF10_0332|PF10_0336|PF10_0359|PF10_0363|PF10_0365|PF10_0368|PF10_0369|PF10_0407|PF11_0044|PF11_0045|PF11_0055|PF11_0059|PF11_0072|PF11_0073|PF11_0074|PF11_0076|PF11_0099|PF11_0118|PF11_0135|PF11_0157|PF11_0178|PF11_0181|PF11_0197|PF11_0211|PF11_0212|PF11_0218|PF11_0228|PF11_0230|PF11_0231|PF11_0238|PF11_0256|PF11_0261|PF11_0270|PF11_0285|PF11_0304|PF11_0306|PF11_0307|PF11_0323|PF11_0324|PF11_0328|PF11_0333|PF11_0372|PF11_0386|PF11_0435|PF11_0459|PF11_0464|PF11_0466|PF11_0470|PF11_0503|PF13_0025|PF13_0032|PF13_0039|PF13_0040|PF13_0077|PF13_0100|PF13_0109|PF13_0114|PF13_0125|PF13_0134|PF13_0148|PF13_0157|PF13_0168|PF13_0172|PF13_0182|PF13_0271|PF13_0277|PF13_0290|PF13_0344|PF13_0354|PF13_0355|PF13_0361|PF14_0014|PF14_0015|PF14_0030|PF14_0051|PF14_0063|PF14_0071|PF14_0088|PF14_0089|PF14_0094|PF14_0105|PF14_0114|PF14_0132|PF14_0133|PF14_0155|PF14_0165|PF14_0166|PF14_0192|PF14_0198|PF14_0211|PF14_0249|PF14_0250|PF14_0265|PF14_0268|PF14_0270|PF14_0284|PF14_0286|PF14_0296|PF14_0318|PF14_0342|PF14_0348|PF14_0351|PF14_0367|PF14_0382|PF14_0415|PF14_0417|PF14_0422|PF14_0427|PF14_0435|PF14_0440|PF14_0441|PF14_0447|PF14_0470|PF14_0508|PF14_0566|PF14_0581|PF14_0641|PF14_0658|PF14_0660|PF14_0691|PF14_0695|PF14_0696|PF14_0712|PF14_0736|PF14_0742|PF14_0753|PF14_0756|PF14_0757|PF14_0762|PFB0075c|PFB0110w|PFB0180w|PFB0194w|PFB0205c|PFB0270w|PFB0385w|PFB0390w|PFB0395w|PFB0485c|PFB0545c|PFB0600c|PFB0675w|PFB0725c|PFB0850c|PFB0855c|PFB0890c|PFB0921c|PFB0923c|PFB0930w|PFC0055w|PFC0065c|PFC0075c|PFC0080c|PFC0125w|PFC0225c|PFC0250c|PFC0260w|PFC0310c|PFC0330w|PFC0416w|PFC0450w|PFC0470w|PFC0510w|PFC0545c|PFC0555c|PFC0556c|PFC0580c|PFC0590c|PFC0670c|PFC0715c|PFC0740c|PFC0795w|PFC0810c|PFC0831w|PFC0845c|PFC0850c|PFC0885c|PFC0925w|PFC1065w|PFD0075w|PFD0207c|PFD0230c|PFD0440w|PFD0480w|PFD0530c|PFD0545w|PFD0555c|PFD0675w|PFD0690c|PFD0710w|PFD0760c|PFD0780w|PFD0820w|PFD0835c|PFD0980w|PFD1100c|PFE0100w|PFE0115c|PFE0145w|PFE0150c|PFE0205w|PFE0215w|PFE0265c|PFE0345c|PFE0355c|PFE0405c|PFE0435c|PFE0455w|PFE0475w|PFE0480c|PFE0495w|PFE0560c|PFE0710w|PFE0715w|PFE0815w|PFE0875c|PFE0925c|PFE1000c|PFE1045c|PFE1075c|PFE1135w|PFE1225w|PFE1295c|PFE1300w|PFE1330c|PFE1445c|PFE1460w|PFE1595c|PFE1610w|PFF0110w|PFF0115c|PFF0215w|PFF0230c|PFF0400w|PFF0595c|PFF0650w|PFF0655c|PFF0660w|PFF1015w|PFF1220w|PFF1395c|PFF1415c|PFI0140w|PFI0205w|PFI0305c|PFI0375w|PFI0380c|PFI0390c|PFI0405w|PFI0490c|PFI0570w|PFI0585c|PFI0660c|PFI0680c|PFI0685w|PFI0695c|PFI0700c|PFI0810c|PFI0900w|PFI0920c|PFI0990c|PFI1010w|PFI1050c|PFI1065c|PFI1195c|PFI1240c|PFI1285w|PFI1468c|PFI1470c|PFI1530c|PFI1580c|PFI1585c|PFI1645c|PFI1745c|PFI1795c|PFL0115w|PFL0205w|PFL0245w|PFL0285w|PFL0365c|PFL0375w|PFL0380c|PFL0400w|PFL0455c|PFL0500w|PFL0595c|PFL0600w|PFL0615w|PFL0655w|PFL0700w|PFL0715w|PFL0770w|PFL0835w|PFL0840c|PFL0875w|PFL0990w|PFL1050w|PFL1060c|PFL1190c|PFL1210w|PFL1255c|PFL1295w|PFL1390w|PFL1405w|PFL1430c|PFL1515c|PFL1540c|PFL1545c|PFL1670c|PFL1710c|PFL1720w|PFL1740w|PFL1775c|PFL1780w|PFL1815c|PFL1835w|PFL2015w|PFL2030w|PFL2115c|PFL2130w|PFL2185w|PFL2320w|PFL2330w|PFL2395c|PFL2410w|PFL2485c|PFL2565w|PFL2575c
+GO:0020012	evasion or tolerance of host immune response	biological_process	1	PF13_0248
+GO:0020013	modulation by symbiont of host erythrocyte aggregation	biological_process	21	MAL7P1.223|MAL7P1.310|MAL8P1.217|PF10_0001|PF10_0395|PF10_0406|PF11_0007|PF11_0008|PF11_0516|PF11_0521|PF14_0007|PF14_0767|PF14_0771|PFB0025c|PFB0065w|PFB0955w|PFB1020w|PFB1055c|PFL2610w|PFL2620w|PFL2635w
+GO:0020020	food vacuole	cellular_component	31	MAL13P1.56|MAL8P1.69|MAL8P1.95|PF07_0037|PF10_0068|PF10_0155|PF10_0203|PF11_0161|PF11_0162|PF11_0165|PF11_0168a|PF11_0174|PF11_0281|PF13_0130|PF13_0194|PF13_0229|PF14_0060|PF14_0075|PF14_0076|PF14_0077|PF14_0078|PF14_0517|PF14_0528|PF14_0541|PF14_0574|PF14_0615|PFC0140c|PFE0545c|PFE0765w|PFI1670c|PFL1555w
 GO:0020025	subpellicular microtubule	cellular_component	1	PFI0460w
-GO:0020030	infected host cell surface knob	cellular_component	9	PF10_0001|PF10_0406|PF11_0007|PF11_0008|PF11_0521|PFB0010w|PFB0090c|PFB0100c|PFB1055c
+GO:0020030	infected host cell surface knob	cellular_component	10	PF10_0001|PF10_0406|PF11_0007|PF11_0008|PF11_0521|PFB0010w|PFB0090c|PFB0100c|PFB1055c|PFE1605w
 GO:0020033	antigenic variation	biological_process	59	MAL13P1.122|PF10_0001|PF10_0002|PF10_0003|PF10_0004|PF10_0005|PF10_0006|PF10_0393|PF10_0394|PF10_0396|PF10_0397|PF10_0398|PF10_0399|PF10_0400|PF10_0401|PF10_0402|PF10_0403|PF10_0404|PF10_0405|PF10_0406|PF11_0007|PF11_0008|PF11_0009|PF11_0010|PF11_0011|PF11_0020|PF11_0021|PF11_0515|PF11_0517|PF11_0519|PF11_0520|PF11_0521|PF11_0529|PF14_0002|PF14_0003|PF14_0004|PF14_0005|PF14_0006|PF14_0008|PF14_0766|PF14_0768|PF14_0769|PF14_0770|PF14_0772|PFB0010w|PFB0015c|PFB0030c|PFB0035c|PFB0040c|PFB0055c|PFB0060w|PFB1005w|PFB1010w|PFB1015w|PFB1035w|PFB1040w|PFB1050w|PFB1055c|PFL1010c
-GO:0020035	cytoadherence to microvasculature, mediated by symbiont protein	biological_process	8	PF10_0001|PF10_0406|PF11_0007|PF11_0008|PF11_0521|PFB0010w|PFB1055c|PFD0260c
-GO:0020036	Maurer's cleft	cellular_component	58	MAL7P1.172|MAL7P1.174|MAL7P1.223|MAL7P1.310|MAL7P1.4|MAL8P1.217|PF07_0002|PF07_0007|PF07_0008|PF08_0003|PF08_0004|PF10_0013|PF10_0023|PF10_0212a|PF10_0390|PF10_0391|PF10_0392|PF10_0395|PF11_0013|PF11_0023|PF11_0026|PF11_0505|PF11_0506|PF11_0516|PF13_0192|PF13_0276|PF14_0007|PF14_0434|PF14_0767|PF14_0771|PFB0025c|PFB0065w|PFB0100c|PFB0106c|PFB0955w|PFB0980w|PFB0990c|PFB1020w|PFC1075w|PFC1085c|PFC1090w|PFD0080c|PFE0050w|PFE0060w|PFF0050c|PFF0055w|PFF0065c|PFF0090w|PFF0165c|PFF1520w|PFF1525c|PFF1530c|PFF1535w|PFL0065w|PFL2515c|PFL2610w|PFL2620w|PFL2635w
+GO:0020035	cytoadherence to microvasculature, mediated by symbiont protein	biological_process	9	PF10_0001|PF10_0406|PF11_0007|PF11_0008|PF11_0521|PFB0010w|PFB0080c|PFB1055c|PFD0260c
+GO:0020036	Maurer's cleft	cellular_component	62	MAL7P1.172|MAL7P1.174|MAL7P1.223|MAL7P1.310|MAL7P1.4|MAL8P1.217|MAL8P1.4|PF07_0002|PF07_0007|PF07_0008|PF08_0003|PF08_0004|PF10_0013|PF10_0023|PF10_0212a|PF10_0390|PF10_0391|PF10_0392|PF10_0395|PF11_0013|PF11_0023|PF11_0026|PF11_0505|PF11_0506|PF11_0516|PF13_0192|PF13_0276|PF14_0007|PF14_0434|PF14_0767|PF14_0771|PFB0025c|PFB0065w|PFB0100c|PFB0106c|PFB0955w|PFB0980w|PFB0990c|PFB1020w|PFC1075w|PFC1085c|PFC1090w|PFD0080c|PFE0050w|PFE0060w|PFE1605w|PFF0050c|PFF0055w|PFF0065c|PFF0090w|PFF0165c|PFF1520w|PFF1525c|PFF1530c|PFF1535w|PFI1765c|PFI1780w|PFL0065w|PFL2515c|PFL2610w|PFL2620w|PFL2635w
 GO:0020038	subpellicular network	cellular_component	2	PF10_0039|PF11_0431
 GO:0020039	pellicle	cellular_component	1	PFI1455c
-GO:0022625	cytosolic large ribosomal subunit	cellular_component	32	MAL13P1.209|PF07_0079|PF08_0039|PF08_0075|PF10_0043|PF10_0187|PF10_0272|PF11_0106|PF11_0312|PF11_0313|PF13_0049|PF13_0132|PF13_0213|PF13_0224|PF13_0268|PF14_0141|PF14_0230|PF14_0231|PF14_0240|PF14_0391|PF14_0579|PFB0455w|PFB0545c|PFB0645c|PFC0200w|PFC0300c|PFC0400w|PFC0535w|PFF0245w|PFF0700c|PFL0500w|PFL1150c
-GO:0022627	cytosolic small ribosomal subunit	cellular_component	27	MAL13P1.92|PF07_0080|PF07_0088|PF08_0076|PF10_0038|PF10_0264|PF11_0454|PF13_0014|PF13_0045|PF13_0228|PF13_0316|PF14_0083|PF14_0205|PF14_0296|PF14_0448|PF14_0585|PF14_0627|PFB0830w|PFB0885w|PFC0290w|PFC0295c|PFC0735w|PFC0775w|PFC1020c|PFD1055w|PFE0810c|PFL2055w
+GO:0022625	cytosolic large ribosomal subunit	cellular_component	42	MAL13P1.209|MAL7P1.320|PF07_0043|PF07_0079|PF08_0039|PF08_0075|PF10_0043|PF10_0187|PF10_0272|PF11_0106|PF11_0312|PF11_0313|PF11_0437|PF11_0455a|PF13_0049|PF13_0132|PF13_0213|PF13_0224|PF13_0268|PF13_0346|PF14_0141|PF14_0230|PF14_0231|PF14_0240|PF14_0391|PF14_0579|PFB0455w|PFB0545c|PFB0645c|PFC0200w|PFC0300c|PFC0400w|PFC0535w|PFE0185c|PFE0350c|PFE0845c|PFF0245w|PFF0573c|PFF0700c|PFI0190w|PFL0500w|PFL1150c
+GO:0022627	cytosolic small ribosomal subunit	cellular_component	28	MAL13P1.92|PF07_0080|PF07_0088|PF08_0076|PF10_0038|PF10_0264|PF11_0454|PF13_0014|PF13_0045|PF13_0228|PF13_0316|PF14_0083|PF14_0205|PF14_0296|PF14_0448|PF14_0585|PF14_0627|PFB0830w|PFB0885w|PFC0290w|PFC0295c|PFC0735w|PFC0775w|PFC1020c|PFD1055w|PFE0810c|PFE0975c|PFL2055w
 GO:0022829	wide pore channel activity	molecular_function	2	PFD0430c|PFL0805w
 GO:0022857	transmembrane transporter activity	molecular_function	1	PF14_0211
 GO:0030014	CCR4-NOT complex	cellular_component	1	PF14_0170
@@ -809,10 +820,10 @@ GO:0030150	protein import into mitochondrial matrix	biological_process	1	PF11_02
 GO:0030154	cell differentiation	biological_process	1	PFE0375w
 GO:0030163	protein catabolic process	biological_process	1	PFD0230c
 GO:0030176	integral component of endoplasmic reticulum membrane	cellular_component	2	PF11_0171|PF13_0102
-GO:0030260	entry into host cell	biological_process	12	PF08_0052|PF10_0268|PF10_0281|PF10_0348|PF11_0486|PF14_0553|PFC0210c|PFC0700c|PFE1415w|PFF1420w|PFI0580c|PFI1145w
+GO:0030260	entry into host cell	biological_process	17	PF08_0052|PF10_0268|PF10_0281|PF10_0348|PF11_0486|PF14_0553|PFC0210c|PFC0400w|PFC0700c|PFD1130w|PFE0880c|PFE1415w|PFF1420w|PFI0265c|PFI0580c|PFI1145w|PFL2505c
 GO:0030261	chromosome condensation	biological_process	1	MAL7P1.38
 GO:0030286	dynein complex	cellular_component	1	PF11_0240
-GO:0030430	host cell cytoplasm	cellular_component	13	PF07_0007|PF07_0008|PF10_0159|PF10_0374|PF11_0024|PF14_0744|PF14_0758|PFB0106c|PFC0140c|PFC0210c|PFD0260c|PFI0580c|PFL0565w
+GO:0030430	host cell cytoplasm	cellular_component	16	PF07_0007|PF07_0008|PF10_0159|PF10_0374|PF11_0024|PF14_0744|PF14_0758|PFB0106c|PFB0635w|PFC0140c|PFC0210c|PFD0260c|PFE0060w|PFI0580c|PFL0565w|PFL2550w
 GO:0030433	ER-associated ubiquitin-dependent protein catabolic process	biological_process	17	MAL13P1.227|MAL8P1.92|PF07_0047|PF08_0067|PF10_0317|PF13_0182|PF13_0344|PF14_0215|PF14_0462|PF14_0653|PFC0550w|PFC0590c|PFE0380c|PFF0940c|PFI0810c|PFL0190w|PFL1790w
 GO:0030492	hemoglobin binding	molecular_function	1	PFE0765w
 GO:0030497	fatty acid elongation	biological_process	1	PF14_0749
@@ -823,47 +834,54 @@ GO:0030544	Hsp70 protein binding	molecular_function	1	PFL0565w
 GO:0030552	cAMP binding	molecular_function	1	PF14_0672
 GO:0030554	adenyl nucleotide binding	molecular_function	1	PF14_0126
 GO:0030580	quinone cofactor methyltransferase activity	molecular_function	1	PFB0220w
+GO:0030677	ribonuclease P complex	cellular_component	4	MAL13P1.153|MAL7P1.28|PFF1040w|PFF1355w
 GO:0030743	rRNA (adenosine-2'-O-)-methyltransferase activity	molecular_function	1	PF14_0273
 GO:0031071	cysteine desulfurase activity	molecular_function	1	PF07_0068
-GO:0031072	heat shock protein binding	molecular_function	2	PF08_0054|PFL0565w
+GO:0031072	heat shock protein binding	molecular_function	1	PF08_0054
 GO:0031074	nucleocytoplasmic shuttling complex	cellular_component	1	PFC0380w
 GO:0031090	organelle membrane	cellular_component	1	PF14_0211
 GO:0031225	anchored component of membrane	cellular_component	1	PFD0720w
 GO:0031244	extrinsic component of cell outer membrane	cellular_component	1	PF08_0008
 GO:0031365	N-terminal protein amino acid modification	biological_process	1	PFI0380c
 GO:0031386	protein tag	molecular_function	1	PF13_0346
-GO:0031410	cytoplasmic vesicle	cellular_component	1	PFI0240c
+GO:0031410	cytoplasmic vesicle	cellular_component	4	PF10_0193|PF13_0062|PFI0240c|PFL2110c
 GO:0031497	chromatin assembly	biological_process	3	PF13_0149|PF14_0314|PFL1180w
 GO:0031910	cytostome	cellular_component	1	PF07_0037
+GO:0031935	regulation of chromatin silencing	biological_process	1	PFL1005c
 GO:0031965	nuclear membrane	cellular_component	1	PF10_0271
 GO:0031982	vesicle	cellular_component	2	PF11_0242|PFL0805w
 GO:0032147	activation of protein kinase activity	biological_process	1	PFE0610c
+GO:0032203	telomere formation via telomerase	biological_process	1	PF13_0080
 GO:0032266	phosphatidylinositol-3-phosphate binding	molecular_function	1	PF14_0574
-GO:0032508	DNA duplex unwinding	biological_process	1	PFF1500c
+GO:0032508	DNA duplex unwinding	biological_process	2	PFF1500c|PFI0910w
 GO:0032552	deoxyribonucleotide binding	molecular_function	1	PF13_0349
 GO:0032553	ribonucleotide binding	molecular_function	1	PF13_0349
+GO:0032715	negative regulation of interleukin-6 production	biological_process	1	PFE0545c
 GO:0032780	negative regulation of ATPase activity	biological_process	1	PFC0581w
 GO:0032784	regulation of DNA-templated transcription, elongation	biological_process	1	PF07_0057
 GO:0032790	ribosome disassembly	biological_process	2	PFB0390w|PFD0990w
 GO:0032958	inositol phosphate biosynthetic process	biological_process	1	PF10_0078
 GO:0033116	endoplasmic reticulum-Golgi intermediate compartment membrane	cellular_component	1	PFI0150c
 GO:0033265	choline binding	molecular_function	1	PF14_0020
-GO:0033643	host cell part	cellular_component	3	PFB0070w|PFB0080c|PFB0085c
-GO:0033644	host cell membrane	cellular_component	4	PF10_0212a|PF11_0506|PFD0430c|PFE1605w
+GO:0033643	host cell part	cellular_component	2	PFB0070w|PFB0085c
+GO:0033644	host cell membrane	cellular_component	6	PF07_0007|PF10_0212a|PF11_0506|PFD0430c|PFE1605w|PFI1765c
 GO:0034214	protein hexamerization	biological_process	1	PF11_0175
-GO:0034399	nuclear periphery	cellular_component	14	MAL13P1.122|PF08_0012|PF11_0293|PF13_0099|PF13_0185|PF13_0293|PF14_0176|PFB0540w|PFI0930c|PFI1710w|PFL0450c|PFL0575w|PFL1005c|PFL1010c
+GO:0034399	nuclear periphery	cellular_component	16	MAL13P1.122|PF08_0012|PF11_0293|PF13_0099|PF13_0185|PF13_0293|PF14_0176|PF14_0473|PFB0540w|PFI0295c|PFI0930c|PFI1710w|PFL0450c|PFL0575w|PFL1005c|PFL1010c
 GO:0034494	microneme lumen	cellular_component	1	PF08_0136b
+GO:0035690	cellular response to drug	biological_process	1	PFL0885w
+GO:0035873	lactate transmembrane transport	biological_process	1	PFC0725c
+GO:0035891	exit from host cell	biological_process	3	PF13_0211|PF14_0467|PFL2405c
 GO:0042000	translocation of peptides or proteins into host	biological_process	1	PF10_0390
 GO:0042025	host cell nucleus	cellular_component	2	PFC0210c|PFD0260c
 GO:0042127	regulation of cell proliferation	biological_process	1	PF08_0006
 GO:0042147	retrograde transport, endosome to Golgi	biological_process	2	PF11_0112|PFL2415w
-GO:0042254	ribosome biogenesis	biological_process	8	PF08_0041|PF10_0200|PF11_0090|PF11_0305|PF14_0242|PF14_0677|PFF0650w|PFL1150c
+GO:0042254	ribosome biogenesis	biological_process	9	PF08_0041|PF10_0200|PF10_0277|PF11_0090|PF11_0305|PF14_0242|PF14_0677|PFF0650w|PFL1150c
 GO:0042273	ribosomal large subunit biogenesis	biological_process	1	PF07_0121
 GO:0042393	histone binding	molecular_function	5	MAL8P1.69|PF13_0149|PF14_0314|PFI0930c|PFL0185c
-GO:0042493	response to drug	biological_process	13	MAL7P1.19|PF10_0084|PF10_0193|PF10_0355|PF13_0019|PF13_0027|PF13_0238|PF14_0127|PFC0970w|PFE0485w|PFE0520c|PFF0160c|PFL1410c
+GO:0042493	response to drug	biological_process	18	MAL7P1.19|PF10_0084|PF10_0193|PF10_0289|PF10_0355|PF11_0224|PF11_0270|PF13_0019|PF13_0027|PF13_0211|PF13_0238|PF14_0127|PFC0970w|PFE0485w|PFE0520c|PFF0160c|PFL0670c|PFL1410c
 GO:0042540	hemoglobin catabolic process	biological_process	6	PF11_0162|PF14_0075|PF14_0076|PF14_0077|PF14_0517|PF14_0553
 GO:0042594	response to starvation	biological_process	1	PF14_0423
-GO:0042623	ATPase activity, coupled	molecular_function	4	MAL13P1.283|PF10_0153|PF14_0417|PFB0635w
+GO:0042623	ATPase activity, coupled	molecular_function	2	PF10_0153|PF14_0417
 GO:0042626	ATPase activity, coupled to transmembrane movement of substances	molecular_function	8	PF11_0225|PF11_0466|PF13_0218|PF13_0271|PF14_0244|PF14_0321|PFC0125w|PFL0495c
 GO:0042643	actomyosin, actin portion	cellular_component	2	MAL13P1.130|PFD1110w
 GO:0042719	mitochondrial intermembrane space protein transporter complex	cellular_component	1	PFE0140c
@@ -871,14 +889,16 @@ GO:0042781	3'-tRNA processing endoribonuclease activity	molecular_function	2	PF1
 GO:0042800	histone methyltransferase activity (H3-K4 specific)	molecular_function	1	PFL1010c
 GO:0042803	protein homodimerization activity	molecular_function	3	PF08_0066|PF14_0517|PFL1550w
 GO:0042819	vitamin B6 biosynthetic process	biological_process	3	PF11_0169|PFF0775w|PFF1025c
-GO:0043022	ribosome binding	molecular_function	3	MAL7P1.158|PF14_0477|PFL0785c
+GO:0043022	ribosome binding	molecular_function	5	MAL7P1.158|MAL8P1.27|PF14_0477|PF14_0658|PFL0785c
 GO:0043087	regulation of GTPase activity	biological_process	1	PFE1305c
 GO:0043130	ubiquitin binding	molecular_function	2	PF07_0047|PF14_0576
+GO:0043139	5'-3' DNA helicase activity	molecular_function	1	PFI1650w
 GO:0043140	ATP-dependent 3'-5' DNA helicase activity	molecular_function	1	PFE0705c
 GO:0043141	ATP-dependent 5'-3' DNA helicase activity	molecular_function	2	PF08_0100|PF11_0071
-GO:0043142	single-stranded DNA-dependent ATPase activity	molecular_function	1	PFE0705c
+GO:0043142	single-stranded DNA-dependent ATPase activity	molecular_function	2	PFE0705c|PFI1650w
 GO:0043190	ATP-binding cassette (ABC) transporter complex	cellular_component	2	PF13_0218|PFL1410c
 GO:0043231	intracellular membrane-bounded organelle	cellular_component	1	PF14_0317
+GO:0043234	protein complex	cellular_component	1	PFB0106c
 GO:0043248	proteasome assembly	biological_process	1	PFD0880w
 GO:0043395	heparan sulfate proteoglycan binding	molecular_function	1	PFC0210c
 GO:0043487	regulation of RNA stability	biological_process	1	PFE0935c
@@ -886,31 +906,41 @@ GO:0043492	ATPase activity, coupled to movement of substances	molecular_function
 GO:0043625	delta DNA polymerase complex	cellular_component	2	PF10_0165|PFC0340w
 GO:0043626	PCNA complex	cellular_component	1	PF14_0601
 GO:0043656	intracellular region of host	cellular_component	1	PFE0765w
-GO:0043657	host cell	cellular_component	4	PF13_0191|PF14_0045|PFE0060w|PFL0300c
+GO:0043657	host cell	cellular_component	4	PF10_0161a|PF13_0191|PF14_0045|PFL0300c
 GO:0043666	regulation of phosphoprotein phosphatase activity	biological_process	1	PFC0886w
 GO:0043686	co-translational protein modification	biological_process	1	PFI0380c
 GO:0043952	protein transport by the Sec complex	biological_process	6	MAL8P1.51|PF13_0102|PF13_0324|PF14_0361|PFB0450w|PFD0250c
+GO:0043981	histone H4-K5 acetylation	biological_process	1	PF11_0192
+GO:0043982	histone H4-K8 acetylation	biological_process	1	PF11_0192
+GO:0043983	histone H4-K12 acetylation	biological_process	1	PF11_0192
+GO:0043984	histone H4-K16 acetylation	biological_process	1	PF11_0192
 GO:0044053	translocation of peptides or proteins into host cell cytoplasm	biological_process	3	PF11_0067|PF11_0175|PF14_0344
-GO:0044164	host cell cytosol	cellular_component	10	MAL8P1.125|MAL8P1.126|PF08_0005|PF13_0194|PF14_0607|PFD0495c|PFE0055c|PFE1605w|PFE1615c|PFL0600w
-GO:0044228	host cell surface	cellular_component	1	PFC0400w
+GO:0044068	modulation by symbiont of host cellular process	biological_process	1	PF13_0248
+GO:0044161	host cell cytoplasmic vesicle	cellular_component	1	PFD0495c
+GO:0044164	host cell cytosol	cellular_component	14	MAL8P1.125|MAL8P1.126|PF08_0005|PF10_0017|PF13_0194|PF14_0607|PFB0080c|PFD0495c|PFE0055c|PFE1605w|PFE1615c|PFI1770w|PFI1780w|PFL0600w
+GO:0044179	hemolysis in other organism	biological_process	1	PF14_0528
+GO:0044228	host cell surface	cellular_component	2	PFB0080c|PFC0400w
 GO:0044310	osmiophilic body	cellular_component	2	PF14_0467|PFL2405c
+GO:0044312	crystalloid	cellular_component	3	PF14_0491|PFD0910w|PFI0185w
 GO:0044409	entry into host	biological_process	1	PFL2110c
+GO:0044444	cytoplasmic part	cellular_component	1	PF14_0244
+GO:0044538	host cell periphery	cellular_component	5	PF11_0037|PFD0080c|PFD1170c|PFE1605w|PFL2535w
 GO:0044613	nuclear pore central transport channel	cellular_component	3	PF08_0087|PF14_0706|PFE1195w
 GO:0045017	glycerolipid biosynthetic process	biological_process	1	PF13_0100
 GO:0045039	protein import into mitochondrial inner membrane	biological_process	1	PFE0140c
 GO:0045047	protein targeting to ER	biological_process	1	PF13_0102
-GO:0045173	O-sialoglycoprotein catabolic process	biological_process	1	MAL7P1.26
-GO:0045177	apical part of cell	cellular_component	2	PF10_0107|PFD0425w
+GO:0045177	apical part of cell	cellular_component	5	PF10_0107|PF14_0524|PFB0635w|PFD0425w|PFD1130w
 GO:0045244	succinate-CoA ligase complex (GDP-forming)	cellular_component	1	PF11_0097
 GO:0045254	pyruvate dehydrogenase complex	cellular_component	4	PF08_0066|PF10_0407|PF11_0256|PF14_0441
 GO:0045836	positive regulation of meiotic nuclear division	biological_process	1	PFF1125c
 GO:0046403	polynucleotide 3'-phosphatase activity	molecular_function	1	PF13_0334
 GO:0046488	phosphatidylinositol metabolic process	biological_process	3	PF11_0307|PFE0485w|PFE0765w
-GO:0046658	anchored component of plasma membrane	cellular_component	4	PF11_0373|PF13_0248|PFC0210c|PFF0620c
+GO:0046658	anchored component of plasma membrane	cellular_component	7	PF08_0008|PF10_0303|PF11_0373|PF13_0248|PFC0210c|PFD1130w|PFF0620c
 GO:0046789	host cell surface receptor binding	molecular_function	11	MAL7P1.119|MAL8P1.125|PF10_0001|PF10_0281|PF10_0406|PF11_0007|PF11_0008|PF11_0506|PF11_0521|PFB0010w|PFB1055c
-GO:0046812	host cell surface binding	molecular_function	5	MAL8P1.73|PF08_0008|PF10_0355|PFC0210c|PFC0700c
+GO:0046812	host cell surface binding	molecular_function	8	MAL8P1.73|PF08_0008|PF10_0348|PF10_0355|PF11_0486|PFC0210c|PFC0700c|PFL2505c
 GO:0046823	negative regulation of nucleocytoplasmic transport	biological_process	1	PFC0380w
-GO:0046854	phosphatidylinositol phosphorylation	biological_process	2	PF11_0307|PFE0485w
+GO:0046854	phosphatidylinositol phosphorylation	biological_process	1	PF11_0307
+GO:0046873	metal ion transmembrane transporter activity	molecular_function	1	PF10_0216
 GO:0046907	intracellular transport	biological_process	2	PFD0207c|PFE0765w
 GO:0046933	proton-transporting ATP synthase activity, rotational mechanism	molecular_function	3	MAL7P1.340|PF08_0113|PF13_0034
 GO:0046961	proton-transporting ATPase activity, rotational mechanism	molecular_function	6	MAL7P1.340|PF08_0113|PF11_0412|PF13_0034|PFD0305c|PFE0965c
@@ -918,27 +948,28 @@ GO:0046975	histone methyltransferase activity (H3-K36 specific)	molecular_functi
 GO:0046982	protein heterodimerization activity	molecular_function	2	PF08_0087|PFE1195w
 GO:0046983	protein dimerization activity	molecular_function	1	PF10_0168
 GO:0047812	D-amino-acid N-acetyltransferase activity	molecular_function	1	PF14_0350
-GO:0048015	phosphatidylinositol-mediated signaling	biological_process	2	PF11_0307|PFE0485w
+GO:0048015	phosphatidylinositol-mediated signaling	biological_process	1	PF11_0307
 GO:0048037	cofactor binding	molecular_function	2	PF08_0066|PFL1550w
-GO:0048471	perinuclear region of cytoplasm	cellular_component	2	PF11_0242|PFL0300c
+GO:0048471	perinuclear region of cytoplasm	cellular_component	3	MAL13P1.289|PF11_0242|PFL0300c
 GO:0048870	cell motility	biological_process	2	MAL13P1.212|PFI0580c
+GO:0050308	sugar-phosphatase activity	molecular_function	1	PF10_0325
 GO:0050515	4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase activity	molecular_function	1	PFE0150c
 GO:0050567	glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity	molecular_function	2	PFD0780w|PFF1395c
 GO:0050577	GDP-L-fucose synthase activity	molecular_function	1	PF10_0137
 GO:0050693	LBD domain binding	molecular_function	1	PF08_0136b
-GO:0050839	cell adhesion molecule binding	molecular_function	9	PF08_0136b|PF10_0001|PF10_0406|PF11_0007|PF11_0008|PF11_0521|PFB0010w|PFB1055c|PFD0260c
+GO:0050839	cell adhesion molecule binding	molecular_function	10	PF08_0136b|PF10_0001|PF10_0406|PF11_0007|PF11_0008|PF11_0521|PFB0010w|PFB1055c|PFD0260c|PFI1765c
 GO:0050983	deoxyhypusine biosynthetic process from spermidine	biological_process	1	PF14_0125
 GO:0051014	actin filament severing	biological_process	1	PFE0165w
-GO:0051015	actin filament binding	molecular_function	1	PF13_0326
+GO:0051015	actin filament binding	molecular_function	2	PF13_0326|PFE1420w
 GO:0051016	barbed-end actin filament capping	biological_process	1	PFE0880c
 GO:0051052	regulation of DNA metabolic process	biological_process	1	PFD0470c
 GO:0051082	unfolded protein binding	molecular_function	22	MAL13P1.277|MAL13P1.283|MAL7P1.94|PF07_0103|PF11_0099|PF11_0258|PF11_0331|PF13_0102|PF13_0149|PF14_0314|PFC0285c|PFC0350c|PFC0900w|PFE0055c|PFE0595w|PFF0430w|PFL0565w|PFL1070c|PFL1180w|PFL1425w|PFL1545c|PFL2550w
 GO:0051083	'de novo' cotranslational protein folding	biological_process	1	PFF1050w
-GO:0051087	chaperone binding	molecular_function	1	PFC0270w
 GO:0051131	chaperone-mediated protein complex assembly	biological_process	1	PFC0581w
 GO:0051156	glucose 6-phosphate metabolic process	biological_process	1	PF14_0511
 GO:0051276	chromosome organization	biological_process	7	PF11_0061|PF11_0062|PFD0685c|PFE1255w|PFF0510w|PFF0860c|PFF0865w
 GO:0051289	protein homotetramerization	biological_process	1	PFF1300w
+GO:0051693	actin filament capping	biological_process	2	PFE0880c|PFE1420w
 GO:0051721	protein phosphatase 2A binding	molecular_function	1	PF14_0280
 GO:0051726	regulation of cell cycle	biological_process	9	PF07_0091|PF10_0141|PF11_0090|PF14_0177|PFE1470w|PFF0270c|PFF1445c|PFL1525c|PFL1855w
 GO:0051879	Hsp90 protein binding	molecular_function	2	PFC0270w|PFC0581w
@@ -952,12 +983,15 @@ GO:0061025	membrane fusion	biological_process	1	PF14_0377
 GO:0065002	intracellular protein transmembrane transport	biological_process	1	PF14_0034
 GO:0070006	metalloaminopeptidase activity	molecular_function	1	PF14_0517
 GO:0070178	D-serine metabolic process	biological_process	1	PFL1720w
-GO:0070258	inner membrane complex	cellular_component	17	MAL13P1.130|MAL13P1.228|MAL13P1.260|PF10_0039|PF10_0107|PF11_0167|PF11_0217|PF11_0431|PF14_0065|PF14_0578|PFC0180c|PFC0185w|PFD1110w|PFE1130w|PFE1285w|PFF1035w|PFL1030w
+GO:0070258	inner membrane complex	cellular_component	25	MAL13P1.130|MAL13P1.228|MAL13P1.260|PF07_0031|PF08_0033|PF10_0039|PF10_0107|PF10_0283|PF11_0167|PF11_0217|PF11_0431|PF13_0226|PF14_0065|PF14_0168|PF14_0578|PFC0160w|PFC0180c|PFC0185w|PFD1110w|PFE0510c|PFE0785c|PFE1130w|PFE1285w|PFF1035w|PFL1030w
 GO:0070280	pyridoxal binding	molecular_function	1	PFF0775w
 GO:0070281	pyridoxamine binding	molecular_function	1	PFF0775w
 GO:0070282	pyridoxine binding	molecular_function	1	PFF0775w
 GO:0070389	chaperone cofactor-dependent protein refolding	biological_process	1	PFE1370w
-GO:0071944	cell periphery	cellular_component	1	PF14_0578
+GO:0071944	cell periphery	cellular_component	2	PF14_0578|PFE0510c
+GO:0071976	cell gliding	biological_process	1	PF08_0088
+GO:0085026	tubovesicular membrane network	cellular_component	1	PFC0435w
 GO:0097255	R2TP complex	cellular_component	1	PFL1690w
+GO:0097619	PTEX complex	cellular_component	3	PF11_0067|PF11_0175|PF14_0344
 GO:1901663	quinone biosynthetic process	biological_process	1	PFB0220w
-GO:1990225	rhoptry neck	cellular_component	5	MAL7P1.119|MAL8P1.73|PF10_0166|PFE0575c|PFL2505c
+GO:1990225	rhoptry neck	cellular_component	4	MAL7P1.119|MAL8P1.73|PF10_0166|PFE0575c

@@ -5600,6 +5600,7 @@ GO:0097484	dendrite extension	biological_process	1	403461
 GO:0097485	neuron projection guidance	biological_process	3	403461|476623|483900
 GO:0097502	mannosylation	biological_process	1	485621
 GO:0097504	Gemini of coiled bodies	cellular_component	1	403896
+GO:0097525	spliceosomal snRNP complex	cellular_component	2	474839|608109
 GO:0097527	necroptotic signaling pathway	biological_process	1	403922
 GO:0097529	myeloid leukocyte migration	biological_process	9	403508|403801|403811|403850|403974|442986|445452|448787|610750
 GO:0097530	granulocyte migration	biological_process	7	403508|403801|403850|403974|445452|448787|610750

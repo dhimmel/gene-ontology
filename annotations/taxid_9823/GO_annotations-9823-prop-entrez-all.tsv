@@ -6807,6 +6807,7 @@ GO:0097484	dendrite extension	biological_process	1	397495
 GO:0097485	neuron projection guidance	biological_process	5	396659|397142|397157|397495|100038004
 GO:0097502	mannosylation	biological_process	1	100124379
 GO:0097503	sialylation	biological_process	1	445537
+GO:0097525	spliceosomal snRNP complex	cellular_component	3	448813|768109|100038330
 GO:0097527	necroptotic signaling pathway	biological_process	1	397086
 GO:0097529	myeloid leukocyte migration	biological_process	13	396870|396880|396991|397084|397087|397157|397406|397422|397540|414911|445525|100049663|100125540
 GO:0097530	granulocyte migration	biological_process	10	396870|396880|396991|397084|397087|397157|397406|445525|100049663|100125540

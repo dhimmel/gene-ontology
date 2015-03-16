@@ -4,7 +4,7 @@
       3702, 
       "Arabidopsis thaliana", 
       8584, 
-      1193161, 
+      1193179, 
       "annotations/taxid_3702/GO_annotations-3702-prop-entrez-coding.tsv"
     ], 
     [
@@ -39,77 +39,77 @@
       6239, 
       "Caenorhabditis elegans", 
       6387, 
-      353767, 
+      353772, 
       "annotations/taxid_6239/GO_annotations-6239-prop-entrez-coding.tsv"
     ], 
     [
       7227, 
       "Drosophila melanogaster", 
       9633, 
-      478036, 
+      478078, 
       "annotations/taxid_7227/GO_annotations-7227-prop-entrez-coding.tsv"
     ], 
     [
       7955, 
       "Danio rerio", 
       10124, 
-      501986, 
+      501993, 
       "annotations/taxid_7955/GO_annotations-7955-prop-entrez-coding.tsv"
     ], 
     [
       9031, 
       "Gallus gallus", 
       8301, 
-      139692, 
+      139668, 
       "annotations/taxid_9031/GO_annotations-9031-prop-entrez-coding.tsv"
     ], 
     [
       9606, 
       "Homo sapiens", 
       19014, 
-      1482079, 
+      1482103, 
       "annotations/taxid_9606/GO_annotations-9606-prop-entrez-coding.tsv"
     ], 
     [
       9615, 
       "Canis lupus familiaris", 
-      6152, 
-      53662, 
+      6153, 
+      53664, 
       "annotations/taxid_9615/GO_annotations-9615-prop-entrez-coding.tsv"
     ], 
     [
       9823, 
       "Sus scrofa", 
-      7475, 
-      86076, 
+      7476, 
+      86079, 
       "annotations/taxid_9823/GO_annotations-9823-prop-entrez-coding.tsv"
     ], 
     [
       9913, 
       "Bos taurus", 
       12614, 
-      357567, 
+      357579, 
       "annotations/taxid_9913/GO_annotations-9913-prop-entrez-coding.tsv"
     ], 
     [
       10090, 
       "Mus musculus", 
-      19274, 
-      1374668, 
+      19373, 
+      1384830, 
       "annotations/taxid_10090/GO_annotations-10090-prop-entrez-coding.tsv"
     ], 
     [
       10116, 
       "Rattus norvegicus", 
       18956, 
-      1359650, 
+      1359565, 
       "annotations/taxid_10116/GO_annotations-10116-prop-entrez-coding.tsv"
     ], 
     [
       36329, 
       "Plasmodium falciparum 3D7", 
-      2158, 
-      40311, 
+      2247, 
+      41799, 
       "annotations/taxid_36329/GO_annotations-36329-prop-entrez-coding.tsv"
     ], 
     [
@@ -151,7 +151,7 @@
       214684, 
       "Cryptococcus neoformans var. neoformans JEC21", 
       3841, 
-      118859, 
+      118878, 
       "annotations/taxid_214684/GO_annotations-214684-prop-entrez-coding.tsv"
     ], 
     [
@@ -172,7 +172,7 @@
       227321, 
       "Aspergillus nidulans FGSC A4", 
       2806, 
-      98143, 
+      98145, 
       "annotations/taxid_227321/GO_annotations-227321-prop-entrez-coding.tsv"
     ], 
     [
@@ -200,14 +200,14 @@
       284812, 
       "Schizosaccharomyces pombe 972h-", 
       7420, 
-      275737, 
+      275765, 
       "annotations/taxid_284812/GO_annotations-284812-prop-entrez-coding.tsv"
     ], 
     [
       352472, 
       "Dictyostelium discoideum AX4", 
       5552, 
-      247277, 
+      247290, 
       "annotations/taxid_352472/GO_annotations-352472-prop-entrez-coding.tsv"
     ], 
     [
@@ -221,7 +221,7 @@
       559292, 
       "Saccharomyces cerevisiae S288c", 
       7732, 
-      365272, 
+      365298, 
       "annotations/taxid_559292/GO_annotations-559292-prop-entrez-coding.tsv"
     ]
   ]

@@ -9015,7 +9015,7 @@ GO:0097493	structural molecule activity conferring elasticity	molecular_function
 GO:0097501	stress response to metal ion	biological_process	1	MTF-1
 GO:0097502	mannosylation	biological_process	2	rt|tw
 GO:0097506	deaminated base DNA N-glycosylase activity	molecular_function	1	CG5285
-GO:0097525	spliceosomal snRNP complex	cellular_component	2	Prp3|Prp31
+GO:0097525	spliceosomal snRNP complex	cellular_component	44	CG10333|CG10418|CG10754|CG11985|CG13298|CG13900|CG1646|CG16941|CG17764|CG2021|CG2807|CG3198|CG3436|CG3542|CG3605|CG4291|CG44249|CG4849|CG5205|CG6610|CG6841|CG7564|CG7810|CG9344|Dim1|LS2|LSm3|LSm7|Prp3|Prp31|Prp8|Psi|Rox8|Spx|U2A|U2af38|U2af50|U4-U6-60K|l(3)72Ab|mus301|noi|snRNP-U1-70K|snRNP-U1-C|snf
 GO:0097526	spliceosomal tri-snRNP complex	cellular_component	2	Prp3|Prp31
 GO:0097542	ciliary tip	cellular_component	2	CCDC151|CG13889
 GO:0097549	chromatin organization involved in negative regulation of transcription	biological_process	11	AGO2|CG8290|CG8677|Dcr-2|Lam|Mcm10|Su(var)205|Su(var)3-9|XNP|piwi|r2d2

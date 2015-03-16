@@ -11456,7 +11456,7 @@ GO:0097503	sialylation	biological_process	6	ST3GAL5|ST3GAL6|ST6GAL2|ST6GALNAC6|S
 GO:0097504	Gemini of coiled bodies	cellular_component	5	GEMIN6|GEMIN7|GEMIN8|SMN2|ZPR1
 GO:0097506	deaminated base DNA N-glycosylase activity	molecular_function	1	SMUG1
 GO:0097513	myosin II filament	cellular_component	2	MYH10|MYL12A
-GO:0097525	spliceosomal snRNP complex	cellular_component	5	LSM8|PPIH|PRPF3|PRPF4|PRPF6
+GO:0097525	spliceosomal snRNP complex	cellular_component	17	DDX39B|LSM8|LUC7L3|PPIH|PRPF3|PRPF4|PRPF6|SF3A1|SNRNP70|SNRPA|SNRPB|SNRPC|SNRPD1|SNRPD2|SNRPE|SNRPF|SNRPG
 GO:0097526	spliceosomal tri-snRNP complex	cellular_component	5	LSM8|PPIH|PRPF3|PRPF4|PRPF6
 GO:0097527	necroptotic signaling pathway	biological_process	3	FADD|FAS|TNF
 GO:0097529	myeloid leukocyte migration	biological_process	23	CCL11|CCL2|CCL3|CCL5|CHGA|CT|CX3CR1|CXADR|CXCL8|EDN2|EDNRB|FCER1G|HRH1|IFNG|IL1B|ITGB2|JAGN1|KIT|NUP85|RPS19|S100A8|S100A9|SCG2

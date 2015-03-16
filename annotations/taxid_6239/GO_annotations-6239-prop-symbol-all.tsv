@@ -6009,7 +6009,7 @@ GO:0097501	stress response to metal ion	biological_process	9	cdr-1|cdr-2|cdr-3|c
 GO:0097502	mannosylation	biological_process	2	bre-3|dpy-19
 GO:0097506	deaminated base DNA N-glycosylase activity	molecular_function	1	ung-1
 GO:0097516	microvillar actin bundle	cellular_component	1	act-5
-GO:0097525	spliceosomal snRNP complex	cellular_component	2	prp-3|prp-31
+GO:0097525	spliceosomal snRNP complex	cellular_component	7	B0495.8|C50D2.8|F08B4.7|let-756|mog-2|prp-3|prp-31
 GO:0097526	spliceosomal tri-snRNP complex	cellular_component	2	prp-3|prp-31
 GO:0097543	ciliary inversin compartment	cellular_component	1	arl-13
 GO:0097546	ciliary base	cellular_component	2	ifta-2|tram-1

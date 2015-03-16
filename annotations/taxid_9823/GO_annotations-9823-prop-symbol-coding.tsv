@@ -6807,6 +6807,7 @@ GO:0097484	dendrite extension	biological_process	1	BDNF
 GO:0097485	neuron projection guidance	biological_process	5	BDNF|CXCR4|EGR2|SMAD4|VEGFA
 GO:0097502	mannosylation	biological_process	1	DPM1
 GO:0097503	sialylation	biological_process	1	ST3GAL1
+GO:0097525	spliceosomal snRNP complex	cellular_component	3	DDX39B|SNRPA|SNRPE
 GO:0097527	necroptotic signaling pathway	biological_process	1	TNF
 GO:0097529	myeloid leukocyte migration	biological_process	13	CCL2|CHGA|EDN3|EDNRB|FCER1G|IFNG|IL8|PLA2G1B|PPBP|SPP1|SYK|TGFB2|VEGFA
 GO:0097530	granulocyte migration	biological_process	10	EDN3|FCER1G|IFNG|IL8|PLA2G1B|PPBP|SPP1|SYK|TGFB2|VEGFA

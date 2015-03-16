@@ -4,7 +4,7 @@
       3702, 
       "Arabidopsis thaliana", 
       8590, 
-      1211623, 
+      1211653, 
       "annotations/taxid_3702/GO_annotations-3702-prop-symbol-all.tsv"
     ], 
     [
@@ -39,77 +39,77 @@
       6239, 
       "Caenorhabditis elegans", 
       6395, 
-      358481, 
+      358486, 
       "annotations/taxid_6239/GO_annotations-6239-prop-symbol-all.tsv"
     ], 
     [
       7227, 
       "Drosophila melanogaster", 
       9705, 
-      508908, 
+      508977, 
       "annotations/taxid_7227/GO_annotations-7227-prop-symbol-all.tsv"
     ], 
     [
       7955, 
       "Danio rerio", 
       10129, 
-      505725, 
+      505732, 
       "annotations/taxid_7955/GO_annotations-7955-prop-symbol-all.tsv"
     ], 
     [
       9031, 
       "Gallus gallus", 
       8301, 
-      139651, 
+      139627, 
       "annotations/taxid_9031/GO_annotations-9031-prop-symbol-all.tsv"
     ], 
     [
       9606, 
       "Homo sapiens", 
       19020, 
-      1493327, 
+      1493351, 
       "annotations/taxid_9606/GO_annotations-9606-prop-symbol-all.tsv"
     ], 
     [
       9615, 
       "Canis lupus familiaris", 
-      6152, 
-      53740, 
+      6153, 
+      53742, 
       "annotations/taxid_9615/GO_annotations-9615-prop-symbol-all.tsv"
     ], 
     [
       9823, 
       "Sus scrofa", 
-      7475, 
-      86076, 
+      7476, 
+      86079, 
       "annotations/taxid_9823/GO_annotations-9823-prop-symbol-all.tsv"
     ], 
     [
       9913, 
       "Bos taurus", 
       12614, 
-      357444, 
+      357456, 
       "annotations/taxid_9913/GO_annotations-9913-prop-symbol-all.tsv"
     ], 
     [
       10090, 
       "Mus musculus", 
-      19294, 
-      1396908, 
+      19393, 
+      1407057, 
       "annotations/taxid_10090/GO_annotations-10090-prop-symbol-all.tsv"
     ], 
     [
       10116, 
       "Rattus norvegicus", 
       18965, 
-      1370817, 
+      1370733, 
       "annotations/taxid_10116/GO_annotations-10116-prop-symbol-all.tsv"
     ], 
     [
       36329, 
       "Plasmodium falciparum 3D7", 
-      2158, 
-      40343, 
+      2249, 
+      41840, 
       "annotations/taxid_36329/GO_annotations-36329-prop-symbol-all.tsv"
     ], 
     [
@@ -151,7 +151,7 @@
       214684, 
       "Cryptococcus neoformans var. neoformans JEC21", 
       3841, 
-      118859, 
+      118878, 
       "annotations/taxid_214684/GO_annotations-214684-prop-symbol-all.tsv"
     ], 
     [
@@ -172,7 +172,7 @@
       227321, 
       "Aspergillus nidulans FGSC A4", 
       2806, 
-      98143, 
+      98145, 
       "annotations/taxid_227321/GO_annotations-227321-prop-symbol-all.tsv"
     ], 
     [
@@ -200,14 +200,14 @@
       284812, 
       "Schizosaccharomyces pombe 972h-", 
       7475, 
-      282665, 
+      282693, 
       "annotations/taxid_284812/GO_annotations-284812-prop-symbol-all.tsv"
     ], 
     [
       352472, 
       "Dictyostelium discoideum AX4", 
       5557, 
-      247717, 
+      247730, 
       "annotations/taxid_352472/GO_annotations-352472-prop-symbol-all.tsv"
     ], 
     [
@@ -221,7 +221,7 @@
       559292, 
       "Saccharomyces cerevisiae S288c", 
       7738, 
-      375747, 
+      375774, 
       "annotations/taxid_559292/GO_annotations-559292-prop-symbol-all.tsv"
     ]
   ]

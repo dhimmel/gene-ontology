@@ -5273,7 +5273,7 @@ GO:0097472	cyclin-dependent protein kinase activity	molecular_function	11	DDB_G0
 GO:0097502	mannosylation	biological_process	11	alg1|alg11|alg12|alg2|alg3|alg9|dgtB|dpm2-1|dpm2-2|dpm3|pigB
 GO:0097504	Gemini of coiled bodies	cellular_component	3	gemin1|gemin2|gemin5
 GO:0097506	deaminated base DNA N-glycosylase activity	molecular_function	2	uglA|uglB
-GO:0097525	spliceosomal snRNP complex	cellular_component	14	DDB_G0281621|lsm2|lsm3|lsm4|lsm5|lsm6|lsm7|lsm8|prpf3|prpf31|prpf4|prpf6|snrpE|txnl4a
+GO:0097525	spliceosomal snRNP complex	cellular_component	27	DDB_G0281621|crop|lsm2|lsm3|lsm4|lsm5|lsm6|lsm7|lsm8|phf5a|prp40|prpf3|prpf31|prpf4|prpf6|prpf8|sf3a1|sf3b1|sf3b5|snrp70|snrpC|snrpD2|snrpE|snrpF|snrpG|snrpb|txnl4a
 GO:0097526	spliceosomal tri-snRNP complex	cellular_component	14	DDB_G0281621|lsm2|lsm3|lsm4|lsm5|lsm6|lsm7|lsm8|prpf3|prpf31|prpf4|prpf6|snrpE|txnl4a
 GO:0097574	lateral part of cell	cellular_component	2	ctxA|rgaA
 GO:0097576	vacuole fusion	biological_process	7	vps11|vps16|vps18|vps33|vps39|vps41|vps8

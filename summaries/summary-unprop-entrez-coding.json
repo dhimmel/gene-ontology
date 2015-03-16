@@ -60,7 +60,7 @@
       9031, 
       "Gallus gallus", 
       4781, 
-      18424, 
+      18420, 
       "annotations/taxid_9031/GO_annotations-9031-unprop-entrez-coding.tsv"
     ], 
     [
@@ -94,22 +94,22 @@
     [
       10090, 
       "Mus musculus", 
-      15759, 
-      284255, 
+      15872, 
+      285678, 
       "annotations/taxid_10090/GO_annotations-10090-unprop-entrez-coding.tsv"
     ], 
     [
       10116, 
       "Rattus norvegicus", 
       15364, 
-      221219, 
+      221208, 
       "annotations/taxid_10116/GO_annotations-10116-unprop-entrez-coding.tsv"
     ], 
     [
       36329, 
       "Plasmodium falciparum 3D7", 
-      962, 
-      4083, 
+      996, 
+      4304, 
       "annotations/taxid_36329/GO_annotations-36329-unprop-entrez-coding.tsv"
     ], 
     [
