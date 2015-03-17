@@ -44,3 +44,9 @@ layout: page
 
 <h2>Source Files</h2>
 {% include files.html %}
+
+<h2>Citations</h2>
+{% capture include_to_markdownify %}
+{% include citations.md %}
+{% endcapture %}
+{{ include_to_markdownify | markdownify }}
