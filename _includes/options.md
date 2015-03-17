@@ -1,3 +1,3 @@
-+ **Propagation**: In general, genes (or gene products) are annotated to the most specific GO term possible. Propagation refers to transmitting a term's annotations to all of that term's ancestors. For most use cases, propagated annotations are desired.
-+ **Vocabulary**: Annotations are provided as Entrez Gene Identifiers or as symbols.
++ **Propagation**: In general, genes (or gene products) are annotated to the most specific GO term possible. Propagation refers to transmitting a term's annotations to each ancestor of that term. For most use cases, propagated annotations are desired.
++ **Vocabulary**: Annotations are provided as Entrez Gene identifiers or as symbols.
 + **Coding**: Annotations can be limited to protein-coding genes. In practice, very few annotations refer to noncoding genes.

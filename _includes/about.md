@@ -2,4 +2,4 @@ The [Gene Ontology](http://geneontology.org/) (GO) is a structured vocabulary of
 
 GO annotations are frequently incorporated into bioinformatics analyses; however, parsing the ontology and annotations can be difficult. This website aims to simplify the process of retreiving GO annotations. The annotations are current (see [last updated date](#last-updated)) and customizable to an individual user's needs. Annotations are provided separately for each species.
 
-Please share any feedback, suggestions, or bug reports. The [project is open source](//github.com/dhimmel/gene-ontology) and contributions are welcome.
+Please share any feedback, suggestions, or bug reports. See the [ThinkLab discussion](//thinklab.com/discussion/compiling-gene-ontology-annotations-into-an-easy-to-use-format/39) to learn more or comment. The [project is open source](//github.com/dhimmel/gene-ontology) and contributions are welcome.

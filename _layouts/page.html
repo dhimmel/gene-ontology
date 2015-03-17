@@ -12,7 +12,7 @@
 
   </head>
   <body>
-    
+    {% include navbar.html %}
     <div class="container">
     {{ content }}
     </div>
@@ -66,7 +66,7 @@
       var table_html = '<table cellpadding="0" cellspacing="0" border="0" class="display" width="100%" id="table_' + table_id + '"><thead><th>TaxId</th><th>Scientific Name</th><th>Terms</th><th>Annotations</th><th>Download</th></thead><tbody></tbody></table>';
       $('#dynamic-table').fadeOut(1).html(table_html).fadeIn(900);
       $('#table_' + table_id).dataTable({
-        'ajax': path, 'bProcessing': true, 'aoColumns': aoColumns
+        'ajax': path, 'bProcessing': true, 'aoColumns': aoColumns, 'order': [[ 3, 'desc' ]]
         })
     }
     renderTable()
