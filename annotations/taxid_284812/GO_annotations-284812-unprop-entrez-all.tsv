@@ -3014,7 +3014,7 @@ GO:0038071	MAP kinase activity involved in conjugation with cellular fusion	mole
 GO:0038079	MAP kinase activity involved in osmosensory signaling pathway	molecular_function	1	2541652
 GO:0038083	peptidyl-tyrosine autophosphorylation	biological_process	7	2539123|2539610|2540237|2540239|2540718|2541929|2542652
 GO:0040010	positive regulation of growth rate	biological_process	1	2540469
-GO:0040020	regulation of meiosis	biological_process	1	2539703
+GO:0040020	regulation of meiotic nuclear division	biological_process	1	2539703
 GO:0040023	establishment of nucleus localization	biological_process	4	2539467|2539911|2539951|2541264
 GO:0042026	protein refolding	biological_process	6	2539225|2539501|2540898|2542875|2543131|3361514
 GO:0042030	ATPase inhibitor activity	molecular_function	1	2539474
@@ -3241,7 +3241,7 @@ GO:0044845	chain elongation of O-linked mannose residue	biological_process	2	254
 GO:0044853	plasma membrane raft	cellular_component	2	2539659|2542586
 GO:0044855	plasma membrane raft distribution	biological_process	3	2539659|2543336|2543645
 GO:0044859	protein insertion into plasma membrane raft	biological_process	1	2542109
-GO:0044875	gamma-glutamyl hercynylcysteine S-oxide synthase	molecular_function	1	2539656
+GO:0044875	gamma-glutamyl hercynylcysteine sulfoxide synthase	molecular_function	1	2539656
 GO:0044876	hercynylselenocysteine synthase	molecular_function	1	2539656
 GO:0044878	cytokinesis after mitosis checkpoint	biological_process	3	2539123|2542358|2543372
 GO:0045002	double-strand break repair via single-strand annealing	biological_process	1	2538760
@@ -4111,7 +4111,6 @@ GO:1900237	positive regulation of induction of conjugation with cellular fusion	
 GO:1900247	regulation of cytoplasmic translational elongation	biological_process	2	2540597|2542235
 GO:1900382	regulation of thiamine biosynthetic process by regulation of transcription from RNA polymerase II promoter	biological_process	2	2541388|2541581
 GO:1900387	negative regulation of cell-cell adhesion by negative regulation of transcription from RNA polymerase II promoter	biological_process	3	2541900|2542571|2543467
-GO:1900388	regulation of vesicle-mediated transport by regulation of transcription from RNA polymerase II promoter	biological_process	2	2540749|2541419
 GO:1900389	regulation of glucose import by regulation of transcription from RNA polymerase II promoter	biological_process	2	2538881|2541801
 GO:1900391	regulation of cAMP-mediated signaling by regulation of transcription from RNA polymerase II promoter	biological_process	2	2541652|2542047
 GO:1900392	regulation of transport by negative regulation of transcription from RNA polymerase II promoter	biological_process	1	2538868
@@ -4132,7 +4131,6 @@ GO:1900475	positive regulation of meiosis by negative regulation of transcriptio
 GO:1900482	positive regulation of diacylglycerol biosynthetic process	biological_process	1	2541606
 GO:1900486	positive regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway	biological_process	1	2538758
 GO:1900490	positive regulation of hydroxymethylglutaryl-CoA reductase (NADPH) activity	biological_process	1	2538758
-GO:1900528	regulation of cell shape involved in G1 to G0 transition	biological_process	2	2541055|2541652
 GO:1900535	palmitic acid biosynthetic process	biological_process	1	2543618
 GO:1900922	positive regulation of L-glutamate import	biological_process	1	2541339
 GO:1900925	positive regulation of glycine import	biological_process	1	2541339

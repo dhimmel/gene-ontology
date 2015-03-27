@@ -26,6 +26,7 @@ python code/create_web.py
 
 
 # Commit
-#git pull
-#git commit -a -m "Updates"
-#git push origin gh-pages
+git pull
+git add .
+git commit -m "Update with new data releases"
+git push origin gh-pages

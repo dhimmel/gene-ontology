@@ -58,8 +58,8 @@ GO:0006099	tricarboxylic acid cycle	biological_process	1	3131436
 GO:0006101	citrate metabolic process	biological_process	1	3131436
 GO:0006120	mitochondrial electron transport, NADH to ubiquinone	biological_process	2	6450162|6450198
 GO:0006123	mitochondrial electron transport, cytochrome c to oxygen	biological_process	3	6450122|6450138|6450161
-GO:0006139	nucleobase-containing compound metabolic process	biological_process	2	3131462|6450195
-GO:0006163	purine nucleotide metabolic process	biological_process	2	3131462|6450195
+GO:0006139	nucleobase-containing compound metabolic process	biological_process	3	3131462|4331495|6450195
+GO:0006163	purine nucleotide metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0006164	purine nucleotide biosynthetic process	biological_process	2	3131462|6450195
 GO:0006355	regulation of transcription, DNA-templated	biological_process	1	4327247
 GO:0006412	translation	biological_process	12	3131425|3131435|3131436|3131439|3131441|3131442|3131457|6450128|6450135|6450142|6450166|6450179
@@ -68,12 +68,14 @@ GO:0006464	cellular protein modification process	biological_process	1	4333728
 GO:0006629	lipid metabolic process	biological_process	3	4329724|4335090|4335094
 GO:0006720	isoprenoid metabolic process	biological_process	3	4329724|4335090|4335094
 GO:0006721	terpenoid metabolic process	biological_process	3	4329724|4335090|4335094
-GO:0006725	cellular aromatic compound metabolic process	biological_process	2	3131462|6450195
-GO:0006753	nucleoside phosphate metabolic process	biological_process	2	3131462|6450195
+GO:0006725	cellular aromatic compound metabolic process	biological_process	3	3131462|4331495|6450195
+GO:0006732	coenzyme metabolic process	biological_process	1	4331495
+GO:0006733	oxidoreduction coenzyme metabolic process	biological_process	1	4331495
+GO:0006753	nucleoside phosphate metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0006754	ATP biosynthetic process	biological_process	2	3131462|6450195
-GO:0006793	phosphorus metabolic process	biological_process	2	3131462|6450195
-GO:0006796	phosphate-containing compound metabolic process	biological_process	2	3131462|6450195
-GO:0006807	nitrogen compound metabolic process	biological_process	3	3131462|4336263|6450195
+GO:0006793	phosphorus metabolic process	biological_process	3	3131462|4331495|6450195
+GO:0006796	phosphate-containing compound metabolic process	biological_process	3	3131462|4331495|6450195
+GO:0006807	nitrogen compound metabolic process	biological_process	4	3131462|4331495|4336263|6450195
 GO:0006810	transport	biological_process	4	4330845|4334148|4334151|6450195
 GO:0006811	ion transport	biological_process	1	6450195
 GO:0006812	cation transport	biological_process	1	6450195
@@ -92,30 +94,30 @@ GO:0009057	macromolecule catabolic process	biological_process	1	4336263
 GO:0009058	biosynthetic process	biological_process	17	3131425|3131435|3131436|3131439|3131441|3131442|3131457|3131462|4335090|4335790|4348869|6450128|6450135|6450142|6450166|6450179|6450195
 GO:0009059	macromolecule biosynthetic process	biological_process	13	3131425|3131435|3131436|3131439|3131441|3131442|3131457|4348869|6450128|6450135|6450142|6450166|6450179
 GO:0009060	aerobic respiration	biological_process	3	6450122|6450138|6450161
-GO:0009116	nucleoside metabolic process	biological_process	2	3131462|6450195
-GO:0009117	nucleotide metabolic process	biological_process	2	3131462|6450195
-GO:0009119	ribonucleoside metabolic process	biological_process	2	3131462|6450195
-GO:0009123	nucleoside monophosphate metabolic process	biological_process	2	3131462|6450195
+GO:0009116	nucleoside metabolic process	biological_process	3	3131462|4331495|6450195
+GO:0009117	nucleotide metabolic process	biological_process	3	3131462|4331495|6450195
+GO:0009119	ribonucleoside metabolic process	biological_process	3	3131462|4331495|6450195
+GO:0009123	nucleoside monophosphate metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0009124	nucleoside monophosphate biosynthetic process	biological_process	2	3131462|6450195
-GO:0009126	purine nucleoside monophosphate metabolic process	biological_process	2	3131462|6450195
+GO:0009126	purine nucleoside monophosphate metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0009127	purine nucleoside monophosphate biosynthetic process	biological_process	2	3131462|6450195
 GO:0009141	nucleoside triphosphate metabolic process	biological_process	2	3131462|6450195
 GO:0009142	nucleoside triphosphate biosynthetic process	biological_process	2	3131462|6450195
 GO:0009144	purine nucleoside triphosphate metabolic process	biological_process	2	3131462|6450195
 GO:0009145	purine nucleoside triphosphate biosynthetic process	biological_process	2	3131462|6450195
-GO:0009150	purine ribonucleotide metabolic process	biological_process	2	3131462|6450195
+GO:0009150	purine ribonucleotide metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0009152	purine ribonucleotide biosynthetic process	biological_process	2	3131462|6450195
 GO:0009156	ribonucleoside monophosphate biosynthetic process	biological_process	2	3131462|6450195
-GO:0009161	ribonucleoside monophosphate metabolic process	biological_process	2	3131462|6450195
+GO:0009161	ribonucleoside monophosphate metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0009163	nucleoside biosynthetic process	biological_process	2	3131462|6450195
 GO:0009165	nucleotide biosynthetic process	biological_process	2	3131462|6450195
-GO:0009167	purine ribonucleoside monophosphate metabolic process	biological_process	2	3131462|6450195
+GO:0009167	purine ribonucleoside monophosphate metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0009168	purine ribonucleoside monophosphate biosynthetic process	biological_process	2	3131462|6450195
 GO:0009199	ribonucleoside triphosphate metabolic process	biological_process	2	3131462|6450195
 GO:0009201	ribonucleoside triphosphate biosynthetic process	biological_process	2	3131462|6450195
 GO:0009205	purine ribonucleoside triphosphate metabolic process	biological_process	2	3131462|6450195
 GO:0009206	purine ribonucleoside triphosphate biosynthetic process	biological_process	2	3131462|6450195
-GO:0009259	ribonucleotide metabolic process	biological_process	2	3131462|6450195
+GO:0009259	ribonucleotide metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0009260	ribonucleotide biosynthetic process	biological_process	2	3131462|6450195
 GO:0009311	oligosaccharide metabolic process	biological_process	1	4335790
 GO:0009312	oligosaccharide biosynthetic process	biological_process	1	4335790
@@ -189,10 +191,11 @@ GO:0017111	nucleoside-triphosphatase activity	molecular_function	1	4334151
 GO:0018130	heterocycle biosynthetic process	biological_process	2	3131462|6450195
 GO:0019219	regulation of nucleobase-containing compound metabolic process	biological_process	1	4327247
 GO:0019222	regulation of metabolic process	biological_process	1	4327247
+GO:0019362	pyridine nucleotide metabolic process	biological_process	1	4331495
 GO:0019438	aromatic compound biosynthetic process	biological_process	2	3131462|6450195
 GO:0019538	protein metabolic process	biological_process	13	3131425|3131435|3131436|3131439|3131441|3131442|3131457|4333728|6450128|6450135|6450142|6450166|6450179
-GO:0019637	organophosphate metabolic process	biological_process	2	3131462|6450195
-GO:0019693	ribose phosphate metabolic process	biological_process	2	3131462|6450195
+GO:0019637	organophosphate metabolic process	biological_process	3	3131462|4331495|6450195
+GO:0019693	ribose phosphate metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0019748	secondary metabolic process	biological_process	2	4329724|4335094
 GO:0019752	carboxylic acid metabolic process	biological_process	3	3131436|4331495|4335090
 GO:0019787	ubiquitin-like protein transferase activity	molecular_function	1	4333728
@@ -230,7 +233,7 @@ GO:0034277	ent-cassa-12,15-diene synthase activity	molecular_function	1	4329724
 GO:0034279	syn-pimara-7,15-diene synthase activity	molecular_function	1	4335094
 GO:0034622	cellular macromolecular complex assembly	biological_process	1	6450169
 GO:0034637	cellular carbohydrate biosynthetic process	biological_process	1	4335790
-GO:0034641	cellular nitrogen compound metabolic process	biological_process	2	3131462|6450195
+GO:0034641	cellular nitrogen compound metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0034645	cellular macromolecule biosynthetic process	biological_process	12	3131425|3131435|3131436|3131439|3131441|3131442|3131457|6450128|6450135|6450142|6450166|6450179
 GO:0034654	nucleobase-containing compound biosynthetic process	biological_process	2	3131462|6450195
 GO:0035639	purine ribonucleoside triphosphate binding	molecular_function	4	3131462|4326912|4334151|4335552
@@ -238,7 +241,7 @@ GO:0036094	small molecule binding	molecular_function	4	3131462|4326912|4334151|4
 GO:0036211	protein modification process	biological_process	1	4333728
 GO:0042214	terpene metabolic process	biological_process	1	4335090
 GO:0042221	response to chemical	biological_process	1	4350632
-GO:0042278	purine nucleoside metabolic process	biological_process	2	3131462|6450195
+GO:0042278	purine nucleoside metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0042451	purine nucleoside biosynthetic process	biological_process	2	3131462|6450195
 GO:0042455	ribonucleoside biosynthetic process	biological_process	2	3131462|6450195
 GO:0042623	ATPase activity, coupled	molecular_function	1	4334151
@@ -302,13 +305,14 @@ GO:0045271	respiratory chain complex I	cellular_component	9	6450121|6450132|6450
 GO:0045277	respiratory chain complex IV	cellular_component	1	6450161
 GO:0045333	cellular respiration	biological_process	3	6450122|6450138|6450161
 GO:0046034	ATP metabolic process	biological_process	2	3131462|6450195
-GO:0046128	purine ribonucleoside metabolic process	biological_process	2	3131462|6450195
+GO:0046128	purine ribonucleoside metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0046129	purine ribonucleoside biosynthetic process	biological_process	2	3131462|6450195
 GO:0046246	terpene biosynthetic process	biological_process	1	4335090
 GO:0046348	amino sugar catabolic process	biological_process	1	4336263
 GO:0046351	disaccharide biosynthetic process	biological_process	1	4335790
 GO:0046390	ribose phosphate biosynthetic process	biological_process	2	3131462|6450195
-GO:0046483	heterocycle metabolic process	biological_process	2	3131462|6450195
+GO:0046483	heterocycle metabolic process	biological_process	3	3131462|4331495|6450195
+GO:0046496	nicotinamide nucleotide metabolic process	biological_process	1	4331495
 GO:0046872	metal ion binding	molecular_function	7	4329923|4330574|4332842|4336260|4340156|4342050|4346474
 GO:0046907	intracellular transport	biological_process	1	6450195
 GO:0046914	transition metal ion binding	molecular_function	7	4329923|4330574|4332842|4336260|4340156|4342050|4346474
@@ -321,6 +325,7 @@ GO:0050896	response to stimulus	biological_process	2	4336263|4350632
 GO:0051082	unfolded protein binding	molecular_function	1	4326912
 GO:0051171	regulation of nitrogen compound metabolic process	biological_process	1	4327247
 GO:0051179	localization	biological_process	4	4330845|4334148|4334151|6450195
+GO:0051186	cofactor metabolic process	biological_process	1	4331495
 GO:0051234	establishment of localization	biological_process	4	4330845|4334148|4334151|6450195
 GO:0051252	regulation of RNA metabolic process	biological_process	1	4327247
 GO:0051498	syn-copalyl diphosphate synthase activity	molecular_function	1	4335090
@@ -331,7 +336,7 @@ GO:0051704	multi-organism process	biological_process	1	4336263
 GO:0051707	response to other organism	biological_process	1	4336263
 GO:0052314	phytoalexin metabolic process	biological_process	2	4329724|4335094
 GO:0055085	transmembrane transport	biological_process	1	6450195
-GO:0055086	nucleobase-containing small molecule metabolic process	biological_process	2	3131462|6450195
+GO:0055086	nucleobase-containing small molecule metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0055114	oxidation-reduction process	biological_process	9	3131395|3131403|3131436|4338930|6450122|6450138|6450161|6450162|6450198
 GO:0060255	regulation of macromolecule metabolic process	biological_process	1	4327247
 GO:0065003	macromolecular complex assembly	biological_process	1	6450169
@@ -343,8 +348,9 @@ GO:0071704	organic substance metabolic process	biological_process	22	3131425|313
 GO:0071822	protein complex subunit organization	biological_process	1	6450169
 GO:0071840	cellular component organization or biogenesis	biological_process	1	6450169
 GO:0072350	tricarboxylic acid metabolic process	biological_process	1	3131436
-GO:0072521	purine-containing compound metabolic process	biological_process	2	3131462|6450195
+GO:0072521	purine-containing compound metabolic process	biological_process	3	3131462|4331495|6450195
 GO:0072522	purine-containing compound biosynthetic process	biological_process	2	3131462|6450195
+GO:0072524	pyridine-containing compound metabolic process	biological_process	1	4331495
 GO:0080090	regulation of primary metabolic process	biological_process	1	4327247
 GO:0090407	organophosphate biosynthetic process	biological_process	2	3131462|6450195
 GO:0090599	alpha-glucosidase activity	molecular_function	1	4335790
@@ -356,20 +362,20 @@ GO:0098660	inorganic ion transmembrane transport	biological_process	1	6450195
 GO:0098662	inorganic cation transmembrane transport	biological_process	1	6450195
 GO:1901071	glucosamine-containing compound metabolic process	biological_process	1	4336263
 GO:1901072	glucosamine-containing compound catabolic process	biological_process	1	4336263
-GO:1901135	carbohydrate derivative metabolic process	biological_process	3	3131462|4336263|6450195
+GO:1901135	carbohydrate derivative metabolic process	biological_process	4	3131462|4331495|4336263|6450195
 GO:1901136	carbohydrate derivative catabolic process	biological_process	1	4336263
 GO:1901137	carbohydrate derivative biosynthetic process	biological_process	2	3131462|6450195
 GO:1901265	nucleoside phosphate binding	molecular_function	4	3131462|4326912|4334151|4335552
 GO:1901293	nucleoside phosphate biosynthetic process	biological_process	2	3131462|6450195
-GO:1901360	organic cyclic compound metabolic process	biological_process	2	3131462|6450195
+GO:1901360	organic cyclic compound metabolic process	biological_process	3	3131462|4331495|6450195
 GO:1901362	organic cyclic compound biosynthetic process	biological_process	2	3131462|6450195
 GO:1901363	heterocyclic compound binding	molecular_function	11	3131425|3131462|4326912|4329923|4330574|4334151|4335552|4336260|4340156|4342050|4346474
-GO:1901564	organonitrogen compound metabolic process	biological_process	3	3131462|4336263|6450195
+GO:1901564	organonitrogen compound metabolic process	biological_process	4	3131462|4331495|4336263|6450195
 GO:1901565	organonitrogen compound catabolic process	biological_process	1	4336263
 GO:1901566	organonitrogen compound biosynthetic process	biological_process	2	3131462|6450195
 GO:1901575	organic substance catabolic process	biological_process	2	4331495|4336263
 GO:1901576	organic substance biosynthetic process	biological_process	17	3131425|3131435|3131436|3131439|3131441|3131442|3131457|3131462|4335090|4335790|4348869|6450128|6450135|6450142|6450166|6450179|6450195
-GO:1901657	glycosyl compound metabolic process	biological_process	2	3131462|6450195
+GO:1901657	glycosyl compound metabolic process	biological_process	3	3131462|4331495|6450195
 GO:1901659	glycosyl compound biosynthetic process	biological_process	2	3131462|6450195
 GO:1902494	catalytic complex	cellular_component	10	4334151|6450121|6450132|6450140|6450143|6450148|6450154|6450162|6450168|6450198
 GO:1902495	transmembrane transporter complex	cellular_component	1	4334151

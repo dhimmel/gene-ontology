@@ -1023,7 +1023,7 @@ GO:0010557	positive regulation of macromolecule biosynthetic process	biological_
 GO:0010564	regulation of cell cycle process	biological_process	1	SOX9
 GO:0010569	regulation of double-strand break repair via homologous recombination	biological_process	1	RAD51
 GO:0010572	positive regulation of platelet activation	biological_process	1	PLEK
-GO:0010575	positive regulation vascular endothelial growth factor production	biological_process	3	GATA4|IL1A|IL1B
+GO:0010575	positive regulation of vascular endothelial growth factor production	biological_process	3	GATA4|IL1A|IL1B
 GO:0010595	positive regulation of endothelial cell migration	biological_process	2	AAMP|VEGFA
 GO:0010596	negative regulation of endothelial cell migration	biological_process	1	APOH
 GO:0010613	positive regulation of cardiac muscle hypertrophy	biological_process	3	EDN1|MTPN|PDE5A
@@ -2626,7 +2626,7 @@ GO:0061371	determination of heart left/right asymmetry	biological_process	1	T
 GO:0061467	basolateral protein localization	biological_process	1	RAB10
 GO:0061469	regulation of type B pancreatic cell proliferation	biological_process	1	BIRC5
 GO:0061549	sympathetic ganglion development	biological_process	1	CTNNB1
-GO:0070062	extracellular vesicular exosome	cellular_component	63	ACTB|ACTR1A|ANPEP|ANXA13|APOA2|APOC1|APOH|APP|AQP1|AQP2|ATP6|BCL2L2|BGN|CAPZA2|CCL28|CDH1|CFTR|CLDN3|CLN5|CLPS|COX2|CTNNB1|CXCR4|DAG1|DES|DNASE1|DSG3|F9|GALK1|GALNS|GLB1|GNAI2|GNB1|HSP90B1|IL1RN|INPP5A|LIFR|MAPK14|MTPN|MYOC|PDGFRB|PKLR|PLA2G15|PSMB8|PTH1R|RAB11A|RAB13|RAB25|RAB27A|RAB2A|RAB5A|RAB7A|RAB9A|RHCG|RPL15|RPS18|RPS3|S100A4|SEC11A|SLAMF1|TPI1|TPMT|UBA52
+GO:0070062	extracellular exosome	cellular_component	63	ACTB|ACTR1A|ANPEP|ANXA13|APOA2|APOC1|APOH|APP|AQP1|AQP2|ATP6|BCL2L2|BGN|CAPZA2|CCL28|CDH1|CFTR|CLDN3|CLN5|CLPS|COX2|CTNNB1|CXCR4|DAG1|DES|DNASE1|DSG3|F9|GALK1|GALNS|GLB1|GNAI2|GNB1|HSP90B1|IL1RN|INPP5A|LIFR|MAPK14|MTPN|MYOC|PDGFRB|PKLR|PLA2G15|PSMB8|PTH1R|RAB11A|RAB13|RAB25|RAB27A|RAB2A|RAB5A|RAB7A|RAB9A|RHCG|RPL15|RPS18|RPS3|S100A4|SEC11A|SLAMF1|TPI1|TPMT|UBA52
 GO:0070085	glycosylation	biological_process	1	CLN5
 GO:0070098	chemokine-mediated signaling pathway	biological_process	10	ACKR3|CCL5|CCR3|CCR4|CCR5|CXCL10|CXCL8|CXCR2|CXCR3|CXCR4
 GO:0070105	positive regulation of interleukin-6-mediated signaling pathway	biological_process	1	GFI1
@@ -2775,7 +2775,7 @@ GO:0072289	metanephric nephron tubule formation	biological_process	2	PAX8|SOX9
 GO:0072305	negative regulation of mesenchymal cell apoptotic process involved in metanephric nephron morphogenesis	biological_process	1	PAX8
 GO:0072307	regulation of metanephric nephron tubule epithelial cell differentiation	biological_process	1	PAX8
 GO:0072357	PTW/PP1 phosphatase complex	cellular_component	3	PPP1CA|PPP1CB|PPP1CC
-GO:0072363	regulation of glycolytic by positive regulation of transcription from RNA polymerase II promoter	biological_process	1	PPARA
+GO:0072363	regulation of glycolytic process by positive regulation of transcription from RNA polymerase II promoter	biological_process	1	PPARA
 GO:0072366	regulation of cellular ketone metabolic process by positive regulation of transcription from RNA polymerase II promoter	biological_process	1	PPARA
 GO:0072369	regulation of lipid transport by positive regulation of transcription from RNA polymerase II promoter	biological_process	1	PPARA
 GO:0072372	primary cilium	cellular_component	3	ADCY5|RAB10|UMOD

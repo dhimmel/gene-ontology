@@ -571,7 +571,7 @@ GO:0008080	N-acetyltransferase activity	molecular_function	1	810194
 GO:0008092	cytoskeletal protein binding	molecular_function	1	3885770
 GO:0008094	DNA-dependent ATPase activity	molecular_function	6	810605|811165|811169|812537|814255|2655059
 GO:0008121	ubiquinol-cytochrome-c reductase activity	molecular_function	3	811830|811955|813046
-GO:0008135	translation factor activity, nucleic acid binding	molecular_function	1	812981
+GO:0008135	translation factor activity, RNA binding	molecular_function	1	812981
 GO:0008138	protein tyrosine/serine/threonine phosphatase activity	molecular_function	1	814406
 GO:0008139	nuclear localization sequence binding	molecular_function	1	2655268
 GO:0008143	poly(A) binding	molecular_function	2	811286|813867

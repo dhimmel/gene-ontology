@@ -4792,7 +4792,7 @@ GO:0040014	regulation of multicellular organism growth	biological_process	15	312
 GO:0040015	negative regulation of multicellular organism growth	biological_process	9	31227|35717|38144|40180|41709|41809|43096|43383|43991
 GO:0040016	embryonic cleavage	biological_process	4	35330|36491|39130|40935
 GO:0040018	positive regulation of multicellular organism growth	biological_process	24	31220|31310|32257|32805|34780|35286|35425|35900|37723|38600|38654|39150|40195|41341|41957|42549|42564|42890|43149|43812|47396|64880|3346167|3885565
-GO:0040020	regulation of meiosis	biological_process	3	31535|33399|45969
+GO:0040020	regulation of meiotic nuclear division	biological_process	3	31535|33399|45969
 GO:0040023	establishment of nucleus localization	biological_process	3	36810|38491|3771968
 GO:0040027	negative regulation of vulval development	biological_process	1	41709
 GO:0040029	regulation of gene expression, epigenetic	biological_process	2	31015|37962
@@ -6191,7 +6191,7 @@ GO:0070037	rRNA (pseudouridine) methyltransferase activity	molecular_function	1	
 GO:0070050	neuron cellular homeostasis	biological_process	13	32007|32849|33212|35931|36054|36914|37230|38541|38863|40336|41983|53585|19893539
 GO:0070055	HAC1-type intron splice site recognition and cleavage	biological_process	1	42358
 GO:0070059	intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	biological_process	4	33271|34385|36727|42253
-GO:0070062	extracellular vesicular exosome	cellular_component	1	39259
+GO:0070062	extracellular exosome	cellular_component	1	39259
 GO:0070064	proline-rich region binding	molecular_function	1	42491
 GO:0070073	clustering of voltage-gated calcium channels	biological_process	2	33765|42150
 GO:0070085	glycosylation	biological_process	1	41528

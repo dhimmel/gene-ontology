@@ -3,8 +3,8 @@
     [
       3702, 
       "Arabidopsis thaliana", 
-      6112, 
-      183416, 
+      6110, 
+      183398, 
       "annotations/taxid_3702/GO_annotations-3702-unprop-entrez-coding.tsv"
     ], 
     [
@@ -52,8 +52,8 @@
     [
       7955, 
       "Danio rerio", 
-      6907, 
-      93524, 
+      6906, 
+      93509, 
       "annotations/taxid_7955/GO_annotations-7955-unprop-entrez-coding.tsv"
     ], 
     [
@@ -66,8 +66,8 @@
     [
       9606, 
       "Homo sapiens", 
-      15282, 
-      236331, 
+      15280, 
+      236327, 
       "annotations/taxid_9606/GO_annotations-9606-unprop-entrez-coding.tsv"
     ], 
     [
@@ -94,15 +94,15 @@
     [
       10090, 
       "Mus musculus", 
-      15872, 
-      285678, 
+      15892, 
+      286185, 
       "annotations/taxid_10090/GO_annotations-10090-unprop-entrez-coding.tsv"
     ], 
     [
       10116, 
       "Rattus norvegicus", 
-      15364, 
-      221208, 
+      15409, 
+      223177, 
       "annotations/taxid_10116/GO_annotations-10116-unprop-entrez-coding.tsv"
     ], 
     [
@@ -137,7 +137,7 @@
       198094, 
       "Bacillus anthracis str. Ames", 
       850, 
-      11059, 
+      11051, 
       "annotations/taxid_198094/GO_annotations-198094-unprop-entrez-coding.tsv"
     ], 
     [
@@ -199,8 +199,8 @@
     [
       284812, 
       "Schizosaccharomyces pombe 972h-", 
-      4389, 
-      34288, 
+      4387, 
+      34284, 
       "annotations/taxid_284812/GO_annotations-284812-unprop-entrez-coding.tsv"
     ], 
     [
@@ -221,7 +221,7 @@
       559292, 
       "Saccharomyces cerevisiae S288c", 
       5145, 
-      61946, 
+      61912, 
       "annotations/taxid_559292/GO_annotations-559292-unprop-entrez-coding.tsv"
     ]
   ]

@@ -1597,7 +1597,7 @@ GO:0010559	regulation of glycoprotein biosynthetic process	biological_process	1	
 GO:0010564	regulation of cell cycle process	biological_process	1	SOX9
 GO:0010569	regulation of double-strand break repair via homologous recombination	biological_process	3	RAD51|STT3A|TERF2IP
 GO:0010574	regulation of vascular endothelial growth factor production	biological_process	1	IL6
-GO:0010575	positive regulation vascular endothelial growth factor production	biological_process	3	ADORA2B|GATA4|ISL1
+GO:0010575	positive regulation of vascular endothelial growth factor production	biological_process	3	ADORA2B|GATA4|ISL1
 GO:0010579	positive regulation of adenylate cyclase activity involved in G-protein coupled receptor signaling pathway	biological_process	1	CRHR1
 GO:0010586	miRNA metabolic process	biological_process	1	TRIM71
 GO:0010587	miRNA catabolic process	biological_process	2	LIN28A|LIN28B
@@ -2943,7 +2943,7 @@ GO:0040014	regulation of multicellular organism growth	biological_process	5	FGFR
 GO:0040017	positive regulation of locomotion	biological_process	1	BVES
 GO:0040018	positive regulation of multicellular organism growth	biological_process	3	BCL2|CHD7|GH
 GO:0040019	positive regulation of embryonic development	biological_process	1	LHX1
-GO:0040020	regulation of meiosis	biological_process	1	MOS
+GO:0040020	regulation of meiotic nuclear division	biological_process	1	MOS
 GO:0040023	establishment of nucleus localization	biological_process	1	NTN1
 GO:0040036	regulation of fibroblast growth factor receptor signaling pathway	biological_process	1	FGFR2
 GO:0040037	negative regulation of fibroblast growth factor receptor signaling pathway	biological_process	1	WNT4
@@ -4188,7 +4188,7 @@ GO:0070050	neuron cellular homeostasis	biological_process	1	CHRNA1
 GO:0070053	thrombospondin receptor activity	molecular_function	1	SDC4
 GO:0070059	intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	biological_process	1	BCL2
 GO:0070061	fructose binding	molecular_function	1	ALDOB
-GO:0070062	extracellular vesicular exosome	cellular_component	177	ACP1|ACTB|ACTC1|ACTG1|ACTN2|ACTR2|ACTR3|ACYP1|ADSS|AGMAT|AK1|ALCAM|ALDOB|ALDOC|ANXA2|AP2M1|APOA1|ARF6|ARL6IP5|ATP1B3|ATP6|ATP6V0D2|B2M|BASP1|BID|BLMH|BSG|C11H16ORF80|C1H11ORF73|C3H20ORF3|CA2|CALB1|CALM|CAPN1|CAPZA1|CAPZA2|CCT7|CDC42|CDH2|CDH6|CFL2|CHMP4B|CHMP6|CHP1|CNTN1|COCH|COX2|CREG1|CRK|CRYAB|CSRP1|CYB5A|DAD1|DNAJC3|EDF1|EEF1A1|EIF2S1|EIF3H|ENTPD5|FTH1|FZD4|GAPDH|GDF2|GFRA1|GNAI2|GNB2L1|GOLGA7|H2AFY|H2AFZ|HBAD|HIST1H47|HNRNPDL|HPCAL1|HSPA5|HSPD1|IGF2|KCNG2|LAMP2|LAMTOR3|LDHB|LEPRE1|LIN7B|LPL|LUM|LYZ|MB|MBLAC2|MDH1|MGAT4A|MGP|MIF|MXRA8|N6AMT2|NCALD|NCS1|NEGR1|NRAS|OAF|OGN|OLA1|PAFAH1B1|PAICS|PCBD1|PCNA|PDCD10|PDGFC|PDIA3|PGRMC1|PI15|PLS1|PPP1CB|PPP2CB|PRDX1|PRKRIP1|PRNP|PRPS2|PVALB|QSOX1|RAB11A|RAB14|RAB18|RAB2A|RAB33B|RAB8A|RAN|RAP1B|RBP4|RFNG|RHOC|RP2|RPL27|RPL37A|RPL5|RPL7A|RPLP1|RPS13|RPS17L|RPS27A|RPS4X|S100A10|S100A11|SCIN|SDC4|SDF4|SERPINH1|SERPINI1|SH3GL2|SNRPE|SRC|SRSF2|ST3GAL1|STMN1|STUB1|SUMO3|TAF1B|THRB|TOM1|TPI1|TPT1|TTR|TUBB1|TUBB6|TWSG1|UBC|UBE2V1|UBE2V2|UFM1|UGDH|URM1|VAMP7|VCL|VMO1|YES1|YWHAB|YWHAE|YWHAQ|YWHAZ
+GO:0070062	extracellular exosome	cellular_component	177	ACP1|ACTB|ACTC1|ACTG1|ACTN2|ACTR2|ACTR3|ACYP1|ADSS|AGMAT|AK1|ALCAM|ALDOB|ALDOC|ANXA2|AP2M1|APOA1|ARF6|ARL6IP5|ATP1B3|ATP6|ATP6V0D2|B2M|BASP1|BID|BLMH|BSG|C11H16ORF80|C1H11ORF73|C3H20ORF3|CA2|CALB1|CALM|CAPN1|CAPZA1|CAPZA2|CCT7|CDC42|CDH2|CDH6|CFL2|CHMP4B|CHMP6|CHP1|CNTN1|COCH|COX2|CREG1|CRK|CRYAB|CSRP1|CYB5A|DAD1|DNAJC3|EDF1|EEF1A1|EIF2S1|EIF3H|ENTPD5|FTH1|FZD4|GAPDH|GDF2|GFRA1|GNAI2|GNB2L1|GOLGA7|H2AFY|H2AFZ|HBAD|HIST1H47|HNRNPDL|HPCAL1|HSPA5|HSPD1|IGF2|KCNG2|LAMP2|LAMTOR3|LDHB|LEPRE1|LIN7B|LPL|LUM|LYZ|MB|MBLAC2|MDH1|MGAT4A|MGP|MIF|MXRA8|N6AMT2|NCALD|NCS1|NEGR1|NRAS|OAF|OGN|OLA1|PAFAH1B1|PAICS|PCBD1|PCNA|PDCD10|PDGFC|PDIA3|PGRMC1|PI15|PLS1|PPP1CB|PPP2CB|PRDX1|PRKRIP1|PRNP|PRPS2|PVALB|QSOX1|RAB11A|RAB14|RAB18|RAB2A|RAB33B|RAB8A|RAN|RAP1B|RBP4|RFNG|RHOC|RP2|RPL27|RPL37A|RPL5|RPL7A|RPLP1|RPS13|RPS17L|RPS27A|RPS4X|S100A10|S100A11|SCIN|SDC4|SDF4|SERPINH1|SERPINI1|SH3GL2|SNRPE|SRC|SRSF2|ST3GAL1|STMN1|STUB1|SUMO3|TAF1B|THRB|TOM1|TPI1|TPT1|TTR|TUBB1|TUBB6|TWSG1|UBC|UBE2V1|UBE2V2|UFM1|UGDH|URM1|VAMP7|VCL|VMO1|YES1|YWHAB|YWHAE|YWHAQ|YWHAZ
 GO:0070072	vacuolar proton-transporting V-type ATPase complex assembly	biological_process	2	ALDOB|VMA21
 GO:0070078	histone H3-R2 demethylation	biological_process	1	JMJD6
 GO:0070079	histone H4-R3 demethylation	biological_process	1	JMJD6

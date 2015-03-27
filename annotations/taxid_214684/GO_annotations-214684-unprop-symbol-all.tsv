@@ -1907,7 +1907,7 @@ GO:0030693	caspase activity	molecular_function	2	CNB00130|CNJ00740
 GO:0030846	termination of RNA polymerase II transcription, poly(A)-coupled	biological_process	4	CNB02030|CNC00180|CND01850|CNF01910
 GO:0030847	termination of RNA polymerase II transcription, exosome-dependent	biological_process	4	CNB02030|CNC00180|CND01850|CNF01910
 GO:0040008	regulation of growth	biological_process	4	CNC02890|CNI01040|CNI02130|CNI03560
-GO:0040020	regulation of meiosis	biological_process	9	CNA01180|CNA04030|CNC00600|CNC01750|CNG02130|CNG03960|CNK00690|CNK02230|CNM01920
+GO:0040020	regulation of meiotic nuclear division	biological_process	9	CNA01180|CNA04030|CNC00600|CNC01750|CNG02130|CNG03960|CNK00690|CNK02230|CNM01920
 GO:0040031	snRNA modification	biological_process	1	CNH03600
 GO:0042124	1,3-beta-glucanosyltransferase activity	molecular_function	1	CNN02260
 GO:0042132	fructose 1,6-bisphosphate 1-phosphatase activity	molecular_function	1	CNA00470

@@ -1361,7 +1361,7 @@ GO:0010535	positive regulation of activation of JAK2 kinase activity	biological_
 GO:0010543	regulation of platelet activation	biological_process	2	FCER1G|SYK
 GO:0010564	regulation of cell cycle process	biological_process	1	SOX9
 GO:0010574	regulation of vascular endothelial growth factor production	biological_process	1	CCL2
-GO:0010575	positive regulation vascular endothelial growth factor production	biological_process	1	IL1A
+GO:0010575	positive regulation of vascular endothelial growth factor production	biological_process	1	IL1A
 GO:0010579	positive regulation of adenylate cyclase activity involved in G-protein coupled receptor signaling pathway	biological_process	2	ADCYAP1|DRD1
 GO:0010595	positive regulation of endothelial cell migration	biological_process	1	VEGFA
 GO:0010611	regulation of cardiac muscle hypertrophy	biological_process	1	LMCD1
@@ -2447,7 +2447,7 @@ GO:0040015	negative regulation of multicellular organism growth	biological_proce
 GO:0040016	embryonic cleavage	biological_process	1	TOPOII
 GO:0040017	positive regulation of locomotion	biological_process	1	BVES
 GO:0040018	positive regulation of multicellular organism growth	biological_process	3	GHSR|STAT5A|STAT5B
-GO:0040020	regulation of meiosis	biological_process	3	CALR|CDC20|MOS
+GO:0040020	regulation of meiotic nuclear division	biological_process	3	CALR|CDC20|MOS
 GO:0040030	regulation of molecular function, epigenetic	biological_process	1	ASIP
 GO:0042030	ATPase inhibitor activity	molecular_function	2	ATPIF1|PLN
 GO:0042056	chemoattractant activity	molecular_function	2	MIF|VEGFA
@@ -3482,7 +3482,7 @@ GO:0070006	metalloaminopeptidase activity	molecular_function	1	ENPEP
 GO:0070008	serine-type exopeptidase activity	molecular_function	1	PREP
 GO:0070053	thrombospondin receptor activity	molecular_function	1	SDC4
 GO:0070059	intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	biological_process	2	BAG6|ERO1L
-GO:0070062	extracellular vesicular exosome	cellular_component	111	ABAT|ACTA1|ACTB|ACYP1|AGRP|AK1|AKR1B1|AMBP|APOA1|APOC3|APOM|AQP5|ARF6|ARL6IP5|ASPA|ATP1B1|ATP5A1|ATP6|BID|CALR|CAPN1|CAPNS1|CD40|CD59|CD70|CDC42|CFL2|CLPS|CLU|COASY|COPS4|COX2|CRYAB|CTSB|CTSH|CXCR4|CYB5A|DAD1|DBI|DES|DLST|DPP4|DSTN|E4|EEF1G|EPCAM|ESD|ETFB|FABP1|FGF9|FLOT1|FUT2|GALM|GATM|GOT1|GUCA2B|GUSB|IDH2|IL18|ITIH2|ITM2C|JUP|LDHA|LOC100737301|LOC396877|LYZ|MGP|MIF|NAMPT|NPC2|NRAS|OSTF1|PGRMC1|PMP2|PPP2R1A|PRDX6|PRKAG1|PRNP|PSMB7|PTH1R|RAB11A|RAB27A|RHCG|RPL23|RPL27|RPL31|RPS16|RPS18|RPS28|SAR1A|SDC4|SLC22A8|SLC44A2|SLC44A4|SOD1|SPP1|SRSF1|STMN1|TBP10|TMEM59|TPM4|TTR|TUBA1B|TUBB2A|TXN|UBA52|UBC|VCL|VDAC1|VIM|XPNPEP2
+GO:0070062	extracellular exosome	cellular_component	111	ABAT|ACTA1|ACTB|ACYP1|AGRP|AK1|AKR1B1|AMBP|APOA1|APOC3|APOM|AQP5|ARF6|ARL6IP5|ASPA|ATP1B1|ATP5A1|ATP6|BID|CALR|CAPN1|CAPNS1|CD40|CD59|CD70|CDC42|CFL2|CLPS|CLU|COASY|COPS4|COX2|CRYAB|CTSB|CTSH|CXCR4|CYB5A|DAD1|DBI|DES|DLST|DPP4|DSTN|E4|EEF1G|EPCAM|ESD|ETFB|FABP1|FGF9|FLOT1|FUT2|GALM|GATM|GOT1|GUCA2B|GUSB|IDH2|IL18|ITIH2|ITM2C|JUP|LDHA|LOC100737301|LOC396877|LYZ|MGP|MIF|NAMPT|NPC2|NRAS|OSTF1|PGRMC1|PMP2|PPP2R1A|PRDX6|PRKAG1|PRNP|PSMB7|PTH1R|RAB11A|RAB27A|RHCG|RPL23|RPL27|RPL31|RPS16|RPS18|RPS28|SAR1A|SDC4|SLC22A8|SLC44A2|SLC44A4|SOD1|SPP1|SRSF1|STMN1|TBP10|TMEM59|TPM4|TTR|TUBA1B|TUBB2A|TXN|UBA52|UBC|VCL|VDAC1|VIM|XPNPEP2
 GO:0070093	negative regulation of glucagon secretion	biological_process	1	LEP
 GO:0070098	chemokine-mediated signaling pathway	biological_process	6	AMCF-II|CCRL2|CMKLR1|CXCR4|IL8|PPBP
 GO:0070102	interleukin-6-mediated signaling pathway	biological_process	1	STAT3

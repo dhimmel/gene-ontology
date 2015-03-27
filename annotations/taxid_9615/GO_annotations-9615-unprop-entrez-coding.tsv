@@ -1023,7 +1023,7 @@ GO:0010557	positive regulation of macromolecule biosynthetic process	biological_
 GO:0010564	regulation of cell cycle process	biological_process	1	403464
 GO:0010569	regulation of double-strand break repair via homologous recombination	biological_process	1	403568
 GO:0010572	positive regulation of platelet activation	biological_process	1	442956
-GO:0010575	positive regulation vascular endothelial growth factor production	biological_process	3	403782|403974|486079
+GO:0010575	positive regulation of vascular endothelial growth factor production	biological_process	3	403782|403974|486079
 GO:0010595	positive regulation of endothelial cell migration	biological_process	2	403802|478908
 GO:0010596	negative regulation of endothelial cell migration	biological_process	1	403945
 GO:0010613	positive regulation of cardiac muscle hypertrophy	biological_process	3	403424|403487|403825
@@ -2626,7 +2626,7 @@ GO:0061371	determination of heart left/right asymmetry	biological_process	1	4036
 GO:0061467	basolateral protein localization	biological_process	1	403958
 GO:0061469	regulation of type B pancreatic cell proliferation	biological_process	1	442936
 GO:0061549	sympathetic ganglion development	biological_process	1	477032
-GO:0070062	extracellular vesicular exosome	cellular_component	63	403403|403407|403413|403470|403487|403536|403580|403642|403648|403660|403685|403694|403722|403732|403779|403787|403791|403856|403873|403905|403912|403913|403935|403937|403945|403947|403957|403970|404004|404007|404008|404009|404015|404019|442858|442957|442985|448795|449478|474865|476437|476623|476804|477032|477046|477711|478982|479040|483900|485498|486552|489661|490344|490418|490425|490611|492302|497091|503863|608699|612294|804479|804488
+GO:0070062	extracellular exosome	cellular_component	63	403403|403407|403413|403470|403487|403536|403580|403642|403648|403660|403685|403694|403722|403732|403779|403787|403791|403856|403873|403905|403912|403913|403935|403937|403945|403947|403957|403970|404004|404007|404008|404009|404015|404019|442858|442957|442985|448795|449478|474865|476437|476623|476804|477032|477046|477711|478982|479040|483900|485498|486552|489661|490344|490418|490425|490611|492302|497091|503863|608699|612294|804479|804488
 GO:0070085	glycosylation	biological_process	1	485498
 GO:0070098	chemokine-mediated signaling pathway	biological_process	10	403522|403541|403850|403964|448802|478432|478905|483900|484789|491952
 GO:0070105	positive regulation of interleukin-6-mediated signaling pathway	biological_process	1	490156
@@ -2775,7 +2775,7 @@ GO:0072289	metanephric nephron tubule formation	biological_process	2	403464|4039
 GO:0072305	negative regulation of mesenchymal cell apoptotic process involved in metanephric nephron morphogenesis	biological_process	1	403927
 GO:0072307	regulation of metanephric nephron tubule epithelial cell differentiation	biological_process	1	403927
 GO:0072357	PTW/PP1 phosphatase complex	cellular_component	3	403557|403558|403609
-GO:0072363	regulation of glycolytic by positive regulation of transcription from RNA polymerase II promoter	biological_process	1	403654
+GO:0072363	regulation of glycolytic process by positive regulation of transcription from RNA polymerase II promoter	biological_process	1	403654
 GO:0072366	regulation of cellular ketone metabolic process by positive regulation of transcription from RNA polymerase II promoter	biological_process	1	403654
 GO:0072369	regulation of lipid transport by positive regulation of transcription from RNA polymerase II promoter	biological_process	1	403654
 GO:0072372	primary cilium	cellular_component	3	403510|403859|403958
