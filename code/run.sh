@@ -3,6 +3,8 @@
 # Exit immediately if a command exits with a non-zero status
 set -e
 
+# Retrieve changes
+git pull origin gh-pages
 
 # Download the Gene Ontology
 wget --timestamping --directory-prefix download/ http://purl.obolibrary.org/obo/go/go-basic.obo
@@ -26,7 +28,6 @@ python code/create_web.py
 
 
 # Commit
-git pull
 git add .
 git commit -m "Update with new data releases"
 git push origin gh-pages
