@@ -3,8 +3,8 @@
     [
       3702, 
       "Arabidopsis thaliana", 
-      8599, 
-      1218755, 
+      8427, 
+      1171047, 
       "annotations/taxid_3702/GO_annotations-3702-prop-symbol-all.tsv"
     ], 
     [
@@ -38,78 +38,78 @@
     [
       6239, 
       "Caenorhabditis elegans", 
-      6404, 
-      359305, 
+      6409, 
+      359210, 
       "annotations/taxid_6239/GO_annotations-6239-prop-symbol-all.tsv"
     ], 
     [
       7227, 
       "Drosophila melanogaster", 
-      9717, 
-      510207, 
+      9756, 
+      513421, 
       "annotations/taxid_7227/GO_annotations-7227-prop-symbol-all.tsv"
     ], 
     [
       7955, 
       "Danio rerio", 
-      10139, 
-      507106, 
+      10528, 
+      600090, 
       "annotations/taxid_7955/GO_annotations-7955-prop-symbol-all.tsv"
     ], 
     [
       9031, 
       "Gallus gallus", 
-      8325, 
-      140158, 
+      8385, 
+      141369, 
       "annotations/taxid_9031/GO_annotations-9031-prop-symbol-all.tsv"
     ], 
     [
       9606, 
       "Homo sapiens", 
-      19035, 
-      1497192, 
+      19193, 
+      1520376, 
       "annotations/taxid_9606/GO_annotations-9606-prop-symbol-all.tsv"
     ], 
     [
       9615, 
       "Canis lupus familiaris", 
-      6172, 
-      53946, 
+      6197, 
+      54297, 
       "annotations/taxid_9615/GO_annotations-9615-prop-symbol-all.tsv"
     ], 
     [
       9823, 
       "Sus scrofa", 
-      7498, 
-      86622, 
+      7576, 
+      87536, 
       "annotations/taxid_9823/GO_annotations-9823-prop-symbol-all.tsv"
     ], 
     [
       9913, 
       "Bos taurus", 
-      12635, 
-      358707, 
+      12798, 
+      364010, 
       "annotations/taxid_9913/GO_annotations-9913-prop-symbol-all.tsv"
     ], 
     [
       10090, 
       "Mus musculus", 
-      19441, 
-      1414022, 
+      19579, 
+      1430725, 
       "annotations/taxid_10090/GO_annotations-10090-prop-symbol-all.tsv"
     ], 
     [
       10116, 
       "Rattus norvegicus", 
-      19029, 
-      1388477, 
+      19224, 
+      1431152, 
       "annotations/taxid_10116/GO_annotations-10116-prop-symbol-all.tsv"
     ], 
     [
       36329, 
       "Plasmodium falciparum 3D7", 
-      2252, 
-      42199, 
+      2253, 
+      42257, 
       "annotations/taxid_36329/GO_annotations-36329-prop-symbol-all.tsv"
     ], 
     [
@@ -122,8 +122,8 @@
     [
       39947, 
       "Oryza sativa Japonica Group", 
-      389, 
-      39108, 
+      390, 
+      39110, 
       "annotations/taxid_39947/GO_annotations-39947-prop-symbol-all.tsv"
     ], 
     [
@@ -136,92 +136,92 @@
     [
       198094, 
       "Bacillus anthracis str. Ames", 
-      1794, 
-      53596, 
+      1793, 
+      53610, 
       "annotations/taxid_198094/GO_annotations-198094-prop-symbol-all.tsv"
     ], 
     [
       211586, 
       "Shewanella oneidensis MR-1", 
       1246, 
-      27601, 
+      27612, 
       "annotations/taxid_211586/GO_annotations-211586-prop-symbol-all.tsv"
     ], 
     [
       214684, 
       "Cryptococcus neoformans var. neoformans JEC21", 
-      3859, 
-      119504, 
+      3864, 
+      119968, 
       "annotations/taxid_214684/GO_annotations-214684-prop-symbol-all.tsv"
     ], 
     [
       220664, 
       "Pseudomonas protegens Pf-5", 
-      2500, 
-      75077, 
+      2496, 
+      75114, 
       "annotations/taxid_220664/GO_annotations-220664-prop-symbol-all.tsv"
     ], 
     [
       223283, 
       "Pseudomonas syringae pv. tomato str. DC3000", 
-      2062, 
-      49355, 
+      2063, 
+      49368, 
       "annotations/taxid_223283/GO_annotations-223283-prop-symbol-all.tsv"
     ], 
     [
       227321, 
       "Aspergillus nidulans FGSC A4", 
-      2808, 
-      98219, 
+      2806, 
+      98172, 
       "annotations/taxid_227321/GO_annotations-227321-prop-symbol-all.tsv"
     ], 
     [
       227377, 
       "Coxiella burnetii RSA 493", 
       1455, 
-      23031, 
+      23038, 
       "annotations/taxid_227377/GO_annotations-227377-prop-symbol-all.tsv"
     ], 
     [
       243231, 
       "Geobacter sulfurreducens PCA", 
       1733, 
-      38752, 
+      38750, 
       "annotations/taxid_243231/GO_annotations-243231-prop-symbol-all.tsv"
     ], 
     [
       265669, 
       "Listeria monocytogenes serotype 4b str. F2365", 
       1621, 
-      36562, 
+      36574, 
       "annotations/taxid_265669/GO_annotations-265669-prop-symbol-all.tsv"
     ], 
     [
       284812, 
       "Schizosaccharomyces pombe 972h-", 
-      7487, 
-      283442, 
+      7528, 
+      281637, 
       "annotations/taxid_284812/GO_annotations-284812-prop-symbol-all.tsv"
     ], 
     [
       352472, 
       "Dictyostelium discoideum AX4", 
-      5568, 
-      248390, 
+      5669, 
+      253814, 
       "annotations/taxid_352472/GO_annotations-352472-prop-symbol-all.tsv"
     ], 
     [
       511145, 
       "Escherichia coli str. K-12 substr. MG1655", 
       672, 
-      50572, 
+      50580, 
       "annotations/taxid_511145/GO_annotations-511145-prop-symbol-all.tsv"
     ], 
     [
       559292, 
       "Saccharomyces cerevisiae S288c", 
-      7756, 
-      377107, 
+      7774, 
+      378381, 
       "annotations/taxid_559292/GO_annotations-559292-prop-symbol-all.tsv"
     ]
   ]

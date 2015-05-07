@@ -349,7 +349,7 @@ GO:0006352	DNA-templated transcription, initiation	biological_process	2	rpoH|rpo
 GO:0006353	DNA-templated transcription, termination	biological_process	3	nusA|nusB|rho
 GO:0006355	regulation of transcription, DNA-templated	biological_process	21	CBU_0744|CBU_0775|CBU_0818|CBU_1238|CBU_1804|CBU_1805|CBU_1972|CBU_2006|fis|gacA.1|gacA.2|gacA.3|gacA.4|hipB|ihfA|nusG|ptsH|qseB|rfaH|sixA|trpR
 GO:0006364	rRNA processing	biological_process	8	CBU_0986|CBU_1131|CBU_1517|ksgA|rimM|rluD|rrmJ|sun
-GO:0006396	RNA processing	biological_process	6	CBU_0486|mnmA|rbfA|rnc|rnpA|rnt
+GO:0006396	RNA processing	biological_process	22	CBU_0486|CBU_0986|CBU_1131|CBU_1517|ksgA|miaA|mnmA|queA|rbfA|rimM|rluD|rnc|rnpA|rnt|rrmJ|sun|tgt|tilS|trmD|trmE|truA|truB
 GO:0006399	tRNA metabolic process	biological_process	34	CBU_1817|alaS|argS|aspS|cysS|fmt|gatA|gatB|gatC|gltX|gltX-2|glyQ|glyS|hisS|ileS|leuS|lysS|metG|miaA|pheS|pheT|proS|queA|serS|tgt|thrS|tilS|trmD|trmE|trpS|truA|truB|tyrS|valS
 GO:0006400	tRNA modification	biological_process	8	miaA|queA|tgt|tilS|trmD|trmE|truA|truB
 GO:0006401	RNA catabolic process	biological_process	2	rnhA|rnhB
@@ -384,7 +384,7 @@ GO:0006464	cellular protein modification process	biological_process	9	CBU_0488|C
 GO:0006465	signal peptide processing	biological_process	1	lepB-2
 GO:0006468	protein phosphorylation	biological_process	2	CBU_1168|CBU_1379
 GO:0006470	protein dephosphorylation	biological_process	1	CBU_0488
-GO:0006508	proteolysis	biological_process	20	CBU_0073|CBU_0103|CBU_0353|CBU_0362|CBU_0572|CBU_1376|CBU_1416|CBU_1529|CBU_1538|CBU_1901|CBU_1902|clpB|clpX|degP.2|gcp|lepB-1|lon|lspA|prlC|sppA
+GO:0006508	proteolysis	biological_process	21	CBU_0073|CBU_0103|CBU_0353|CBU_0362|CBU_0572|CBU_1376|CBU_1416|CBU_1529|CBU_1538|CBU_1901|CBU_1902|clpB|clpX|degP.2|gcp|lepB-1|lepB-2|lon|lspA|prlC|sppA
 GO:0006518	peptide metabolic process	biological_process	4	dedE|gshB|lepB-2|pmbA
 GO:0006520	cellular amino acid metabolic process	biological_process	71	CBU_0418|CBU_0641|CBU_0673|CBU_0984|CBU_1051|CBU_1817|CBU_2024|CBU_2070|alaS|ald|arcB|argS|aroC|aroD|asd|asnB-1|asnB-2|aspB|aspS|cysS|dapA|dapB|dapD|dapE|dapF|fmt|folA|folB|folC|folE|folK-2|gatA|gatB|gatC|gcvH|gcvT|glnA|gltX|gltX-2|glyA|glyQ|glyS|hisS|ileS|kbl|leuS|lysS|metC|metE|metF|metG|pabA|pabB|pheS|pheT|proC|proS|putA|sda|serC|serS|tdh|thrS|trpA|trpBF|trpC|trpE|trpR|trpS|tyrS|valS
 GO:0006522	alanine metabolic process	biological_process	1	ald
@@ -730,11 +730,11 @@ GO:0009898	cytoplasmic side of plasma membrane	cellular_component	1	secA
 GO:0009982	pseudouridine synthase activity	molecular_function	4	CBU_1059|rluD|truA|truB
 GO:0009987	cellular process	biological_process	457	CBUA0005|CBUA0010|CBUA0038|CBUA0039|CBU_0030|CBU_0034|CBU_0035|CBU_0036|CBU_0038|CBU_0086|CBU_0168|CBU_0182|CBU_0323|CBU_0331|CBU_0418|CBU_0486|CBU_0488|CBU_0523|CBU_0574|CBU_0597|CBU_0610|CBU_0641|CBU_0664|CBU_0673|CBU_0675|CBU_0677|CBU_0678|CBU_0680|CBU_0686|CBU_0691|CBU_0700|CBU_0720|CBU_0754|CBU_0758|CBU_0766|CBU_0788|CBU_0797|CBU_0803|CBU_0807|CBU_0812|CBU_0819|CBU_0829|CBU_0830|CBU_0838|CBU_0839|CBU_0841|CBU_0843|CBU_0847|CBU_0920|CBU_0954|CBU_0959|CBU_0973|CBU_0974|CBU_0975|CBU_0976|CBU_0982|CBU_0984|CBU_0986|CBU_1023|CBU_1031|CBU_1035|CBU_1051|CBU_1059|CBU_1074|CBU_1085|CBU_1093|CBU_1094|CBU_1131|CBU_1158|CBU_1168|CBU_1179|CBU_1204|CBU_1208|CBU_1233|CBU_1244|CBU_1255|CBU_1261|CBU_1269|CBU_1346|CBU_1379|CBU_1491|CBU_1492|CBU_1517|CBU_1551|CBU_1555|CBU_1722|CBU_1756|CBU_1797|CBU_1817|CBU_1840|CBU_1879|CBU_1933|CBU_1934|CBU_1967|CBU_1998|CBU_2024|CBU_2040|CBU_2069|CBU_2070|accA|accB|accC|accD|acnA|acpP|ahcY|alaS|ald|aldC|alr|ampG|apaH|arcB|argS|aroA|aroB|aroC|aroD|aroE|aroK|asd|asnB-1|asnB-2|aspB|aspS|atpA|atpB|atpC|atpD|atpE|atpF|atpG|atpH|bioA|bioB|bioC.2|bioD|bioF|carA|cdsA|cmk|coaA|coaBC|coaE|csrA-2|ctaB|cutE|cysQ-1|cysQ-2|cysS|dacB|dapA|dapB|dapD|dapE|dapF|ddl|dedE|def|deoC|dnaA|dnaB|dnaG|dnaN|dnaQ|eda|efp|eno|era|fabD|fabG|fabH|fabZ|fadE|fbaA|ffh|fimT|fmt|folA|folB|folC|folE|folK-2|frr|ftsA|ftsE|ftsH|ftsK|ftsL|ftsQ|ftsW|ftsX|ftsY|ftsZ|fumC|fusA|gap|gatA|gatB|gatC|gcvH|gcvT|glmM|glmU|glnA|gltX|gltX-2|glyA|glyQ|glyS|gmd|gplK|groES|gshB|guaA|guaB|gyrA|gyrB|hemA|hemB|hemD|hemE|hemF|hemH|hemL|hemY|higA|hipB|hisS|holA|holB|icd|ihfA|ileS|infA|infB|infC|ispZ|kbl|kdsA|kdsB|ksgA|lepB-1|lepB-2|leuS|lgt|ligA|lipA|lipB|lolA|lolB|lpdA|lpxB|lpxC|lpxK|lspA|lysS|map|metC|metE|metF|metG|metK|mfd|mgsA|miaA|mnmA|mraY|msrA|murA|murB|murC|murD|murE|murF|murG|murI|mutS|mutT|mutY|mvaD|nadA|nadB|nadC|nadE|nrdA|nrdB|nth|nudE|nuoE|nusA|nusB|ogt|pabA|pabB|panB|panC|panD|parB|parC|parE|pbpA|pbpB|pdxA|pdxH|pdxJ|pgsA|pheS|pheT|phrB|pilA|pilB|pilC|pilE|pilQ|pksH|pmbA|prfA|prfC|priA|proC|proS|prpD|psd|pssA|pth|purA|purB|purC|purD|purE|purF|purH|purM|purN|putA|pyk|pyrB|pyrC|pyrD|pyrE|pyrF|pyrG|queA|radA|rbfA|recA|recF|recG|recJ|recN|recO|recQ|recR|relE|rfbA|rfbC|rho|ribA|ribD|ribE|ribF|ribH|rimM|rluD|rmlA|rnc|rnhA|rnhB|rnpA|rnt|rpe|rpiA|rplC|rplO|rplP|rplW|rplX|rpmA|rpmB|rpmC|rpmD|rpmE|rpmJ|rpoH|rpoS|rpsE|rrmJ|ruvA|ruvB|ruvC|scpA|scpB|sda|sdhC|secA|secB|secD|secE|secF|secG|secY|serC|serS|smc|sodB|sodC|ssb|sucA|sucB|sucC|sucD|sun|tdh|tgt|thiC|thiDE|thiI|thiL|thiS|thrS|thyA|tig|tilS|tkt|tmk|topA|tpiA|trmD|trmE|trpA|trpBF|trpC|trpE|trpR|trpS|truA|truB|trxB|tsf|tuf-2|tyrS|ubiA|udk|ung|uppS|uvrA|uvrB|uvrC|uvrD|valS|wecB|xseA|xseB|xth|yajC|yibO
 GO:0009991	response to extracellular stimulus	biological_process	2	recA|recF
-GO:0010468	regulation of gene expression	biological_process	24	CBU_0744|CBU_0775|CBU_0818|CBU_1169|CBU_1238|CBU_1804|CBU_1805|CBU_1972|CBU_2006|fis|gacA.1|gacA.2|gacA.3|gacA.4|hipB|ihfA|nusG|ptsH|qseB|rfaH|secB|sixA|smpB|trpR
+GO:0010468	regulation of gene expression	biological_process	22	CBU_0744|CBU_0775|CBU_0818|CBU_1238|CBU_1804|CBU_1805|CBU_1972|CBU_2006|fis|gacA.1|gacA.2|gacA.3|gacA.4|hipB|ihfA|nusG|ptsH|qseB|rfaH|sixA|smpB|trpR
 GO:0010556	regulation of macromolecule biosynthetic process	biological_process	22	CBU_0744|CBU_0775|CBU_0818|CBU_1238|CBU_1804|CBU_1805|CBU_1972|CBU_2006|fis|gacA.1|gacA.2|gacA.3|gacA.4|hipB|ihfA|nusG|ptsH|qseB|rfaH|sixA|smpB|trpR
 GO:0010558	negative regulation of macromolecule biosynthetic process	biological_process	2	CBU_0744|ptsH
 GO:0010605	negative regulation of macromolecule metabolic process	biological_process	2	CBU_0744|ptsH
-GO:0010608	posttranscriptional regulation of gene expression	biological_process	3	CBU_1169|secB|smpB
+GO:0010608	posttranscriptional regulation of gene expression	biological_process	1	smpB
 GO:0010629	negative regulation of gene expression	biological_process	2	CBU_0744|ptsH
 GO:0015031	protein transport	biological_process	22	CBU_0754|CBU_0803|CBU_1094|CBU_2040|ffh|ftsY|lepB-1|lepB-2|lolA|lolB|lspA|pilB|pilC|pilQ|secA|secB|secD|secE|secF|secG|secY|yajC
 GO:0015036	disulfide oxidoreductase activity	molecular_function	3	CBU_0276|CBU_0716|CBU_0888
@@ -975,7 +975,7 @@ GO:0019205	nucleobase-containing compound kinase activity	molecular_function	4	C
 GO:0019206	nucleoside kinase activity	molecular_function	2	CBU_2069|udk
 GO:0019213	deacetylase activity	molecular_function	1	lpxC
 GO:0019219	regulation of nucleobase-containing compound metabolic process	biological_process	21	CBU_0744|CBU_0775|CBU_0818|CBU_1238|CBU_1804|CBU_1805|CBU_1972|CBU_2006|fis|gacA.1|gacA.2|gacA.3|gacA.4|hipB|ihfA|nusG|ptsH|qseB|rfaH|sixA|trpR
-GO:0019222	regulation of metabolic process	biological_process	26	CBU_0744|CBU_0775|CBU_0818|CBU_1169|CBU_1238|CBU_1804|CBU_1805|CBU_1972|CBU_2006|csrA-1|csrA-2|fis|gacA.1|gacA.2|gacA.3|gacA.4|hipB|ihfA|nusG|ptsH|qseB|rfaH|secB|sixA|smpB|trpR
+GO:0019222	regulation of metabolic process	biological_process	24	CBU_0744|CBU_0775|CBU_0818|CBU_1238|CBU_1804|CBU_1805|CBU_1972|CBU_2006|csrA-1|csrA-2|fis|gacA.1|gacA.2|gacA.3|gacA.4|hipB|ihfA|nusG|ptsH|qseB|rfaH|sixA|smpB|trpR
 GO:0019238	cyclohydrolase activity	molecular_function	2	folE|ribA
 GO:0019239	deaminase activity	molecular_function	2	arcB|ribD
 GO:0019242	methylglyoxal biosynthetic process	biological_process	1	mgsA
@@ -1307,7 +1307,7 @@ GO:0048519	negative regulation of biological process	biological_process	3	CBU_07
 GO:0048523	negative regulation of cellular process	biological_process	3	CBU_0744|ptsH|soj
 GO:0050136	NADH dehydrogenase (quinone) activity	molecular_function	2	nuoE|nuoL
 GO:0050657	nucleic acid transport	biological_process	1	CBU_0532
-GO:0050789	regulation of biological process	biological_process	39	CBU_0634|CBU_0744|CBU_0775|CBU_0789|CBU_0818|CBU_1084|CBU_1169|CBU_1238|CBU_1761|CBU_1804|CBU_1805|CBU_1972|CBU_2006|csrA-1|csrA-2|fis|gacA.1|gacA.2|gacA.3|gacA.4|gacS|hipB|ihfA|mreB|mreC|mreD|nusG|ptsH|qseB|qseC|rfaH|rodA|rstB|secB|sixA|smpB|soj|suhB|trpR
+GO:0050789	regulation of biological process	biological_process	37	CBU_0634|CBU_0744|CBU_0775|CBU_0789|CBU_0818|CBU_1084|CBU_1238|CBU_1761|CBU_1804|CBU_1805|CBU_1972|CBU_2006|csrA-1|csrA-2|fis|gacA.1|gacA.2|gacA.3|gacA.4|gacS|hipB|ihfA|mreB|mreC|mreD|nusG|ptsH|qseB|qseC|rfaH|rodA|rstB|sixA|smpB|soj|suhB|trpR
 GO:0050793	regulation of developmental process	biological_process	5	mreB|mreC|mreD|rodA|soj
 GO:0050794	regulation of cellular process	biological_process	35	CBU_0634|CBU_0744|CBU_0775|CBU_0789|CBU_0818|CBU_1084|CBU_1238|CBU_1761|CBU_1804|CBU_1805|CBU_1972|CBU_2006|fis|gacA.1|gacA.2|gacA.3|gacA.4|gacS|hipB|ihfA|mreB|mreC|mreD|nusG|ptsH|qseB|qseC|rfaH|rodA|rstB|sixA|smpB|soj|suhB|trpR
 GO:0050821	protein stabilization	biological_process	2	CBU_1169|secB
@@ -1346,7 +1346,7 @@ GO:0055085	transmembrane transport	biological_process	28	CBU_0797|CBU_0812|CBU_0
 GO:0055086	nucleobase-containing small molecule metabolic process	biological_process	58	CBU_0829|CBU_1035|CBU_1074|CBU_1233|CBU_2069|aldC|atpA|atpB|atpC|atpD|atpE|atpF|atpG|atpH|carA|cmk|coaA|coaBC|coaE|deoC|eno|fbaA|gap|guaA|guaB|metK|nadA|nadB|nadC|nadE|nrdA|nrdB|purA|purB|purC|purD|purE|purF|purH|purM|purN|pyk|pyrB|pyrC|pyrD|pyrE|pyrF|pyrG|queA|ribF|rmlA|thyA|tkt|tmk|tpiA|trxB|udk|yibO
 GO:0055114	oxidation-reduction process	biological_process	5	CBU_0686|CBU_1023|CBU_1204|aldC|nuoE
 GO:0060089	molecular transducer activity	molecular_function	13	CBU_0634|CBU_0789|CBU_1084|CBU_1761|CBU_2006|gacA.1|gacA.2|gacA.3|gacA.4|gacS|qseB|qseC|rstB
-GO:0060255	regulation of macromolecule metabolic process	biological_process	24	CBU_0744|CBU_0775|CBU_0818|CBU_1169|CBU_1238|CBU_1804|CBU_1805|CBU_1972|CBU_2006|fis|gacA.1|gacA.2|gacA.3|gacA.4|hipB|ihfA|nusG|ptsH|qseB|rfaH|secB|sixA|smpB|trpR
+GO:0060255	regulation of macromolecule metabolic process	biological_process	22	CBU_0744|CBU_0775|CBU_0818|CBU_1238|CBU_1804|CBU_1805|CBU_1972|CBU_2006|fis|gacA.1|gacA.2|gacA.3|gacA.4|hipB|ihfA|nusG|ptsH|qseB|rfaH|sixA|smpB|trpR
 GO:0060589	nucleoside-triphosphatase regulator activity	molecular_function	1	grpE
 GO:0060590	ATPase regulator activity	molecular_function	1	grpE
 GO:0061505	DNA topoisomerase II activity	molecular_function	3	gyrB|parC|parE

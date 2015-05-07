@@ -372,7 +372,7 @@ GO:0005875	microtubule associated complex	cellular_component	6	MAL7P1.161|PF10_0
 GO:0005884	actin filament	cellular_component	3	PF11_0114|PF14_0124|PF14_0218
 GO:0005886	plasma membrane	cellular_component	12	MAL8P1.13|PF10_0155|PF10_0216|PF10_0303|PF11_0172|PF14_0369|PF14_0622|PFB0275w|PFC0750w|PFD0260c|PFE0830c|PFI0240c
 GO:0005887	integral component of plasma membrane	cellular_component	9	MAL13P1.206|PF07_0065|PF11_0173|PF11_0395|PF13_0218|PF14_0679|PFC0725c|PFE1265w|PFL1410c
-GO:0005923	tight junction	cellular_component	1	PFE1545c
+GO:0005923	bicellular tight junction	cellular_component	1	PFE1545c
 GO:0005938	cell cortex	cellular_component	1	PFL0260c
 GO:0005945	6-phosphofructokinase complex	cellular_component	1	PF11_0294
 GO:0005947	mitochondrial alpha-ketoglutarate dehydrogenase complex	cellular_component	1	PF13_0070

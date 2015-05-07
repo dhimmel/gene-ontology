@@ -65,6 +65,7 @@ GO:0006355	regulation of transcription, DNA-templated	biological_process	1	Os01g
 GO:0006412	translation	biological_process	9	rpl20|rpl5|rps1|rps11|rps14|rps16|rps19|rps2|rps4
 GO:0006461	protein complex assembly	biological_process	1	ccmFc
 GO:0006464	cellular protein modification process	biological_process	1	Os03g0681400
+GO:0006508	proteolysis	biological_process	1	Os03g0681400
 GO:0006629	lipid metabolic process	biological_process	3	Os02g0570400|Os04g0178300|Os04g0179700
 GO:0006720	isoprenoid metabolic process	biological_process	3	Os02g0570400|Os04g0178300|Os04g0179700
 GO:0006721	terpenoid metabolic process	biological_process	3	Os02g0570400|Os04g0178300|Os04g0179700
@@ -136,7 +137,7 @@ GO:0009725	response to hormone	biological_process	1	Os11g0528700
 GO:0009733	response to auxin	biological_process	1	Os11g0528700
 GO:0009889	regulation of biosynthetic process	biological_process	1	Os01g0922800
 GO:0009899	ent-kaurene synthase activity	molecular_function	2	Os02g0570400|Os04g0179700
-GO:0009987	cellular process	biological_process	28	Os02g0570400|Os03g0129100|Os03g0129300|Os03g0681400|Os04g0178300|Os04g0179700|Os04g0413500|Os04g0493400|Os05g0443500|atp6|atpB|cox1|cox2|cox3|nad1|nad7|ndhA|petB|psaI|rpl20|rpl5|rps1|rps11|rps14|rps16|rps19|rps2|rps4
+GO:0009987	cellular process	biological_process	29	Os02g0570400|Os03g0129100|Os03g0129300|Os03g0681400|Os04g0178300|Os04g0179700|Os04g0413500|Os04g0493400|Os05g0443500|atp6|atpB|ccmFc|cox1|cox2|cox3|nad1|nad7|ndhA|petB|psaI|rpl20|rpl5|rps1|rps11|rps14|rps16|rps19|rps2|rps4
 GO:0010025	wax biosynthetic process	biological_process	1	Os10g0471100
 GO:0010033	response to organic substance	biological_process	1	Os11g0528700
 GO:0010143	cutin biosynthetic process	biological_process	1	Os10g0471100

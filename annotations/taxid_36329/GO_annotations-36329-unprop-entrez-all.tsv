@@ -372,7 +372,7 @@ GO:0005875	microtubule associated complex	cellular_component	6	810490|810525|811
 GO:0005884	actin filament	cellular_component	3	810663|811705|811800
 GO:0005886	plasma membrane	cellular_component	12	810313|810373|810460|810719|811951|812204|812430|812654|812981|813328|2655218|9221780
 GO:0005887	integral component of plasma membrane	cellular_component	9	810720|810941|811334|812261|813068|813764|814185|814480|2655109
-GO:0005923	tight junction	cellular_component	1	812822
+GO:0005923	bicellular tight junction	cellular_component	1	812822
 GO:0005938	cell cortex	cellular_component	1	811105
 GO:0005945	6-phosphofructokinase complex	cellular_component	1	810841
 GO:0005947	mitochondrial alpha-ketoglutarate dehydrogenase complex	cellular_component	1	814048
