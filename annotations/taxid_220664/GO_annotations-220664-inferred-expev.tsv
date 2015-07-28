@@ -1,10 +1,10 @@
 go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
-GO:0000988	protein binding transcription factor activity	molecular_function	220664	inferred	1	3475797	PFL_RS07315
-GO:0000989	transcription factor binding transcription factor activity	molecular_function	220664	inferred	1	3475797	PFL_RS07315
+GO:0000988	transcription factor activity, protein binding	molecular_function	220664	inferred	1	3475797	PFL_RS07315
+GO:0000989	transcription factor activity, transcription factor binding	molecular_function	220664	inferred	1	3475797	PFL_RS07315
 GO:0001071	nucleic acid binding transcription factor activity	molecular_function	220664	inferred	3	3475381|3477218|3477874	PFL_RS17995|PFL_RS08235|PFL_RS16425
 GO:0001539	cilium or flagellum-dependent cell motility	biological_process	220664	inferred	3	3477217|3477218|3478209	PFL_RS08230|PFL_RS08235|PFL_RS08215
 GO:0003674	molecular_function	molecular_function	220664	inferred	9	3475381|3475797|3476082|3477059|3477218|3477874|3478038|3478209|3480324	PFL_RS17995|PFL_RS07315|PFL_RS15135|PFL_RS14080|PFL_RS08235|PFL_RS16425|PFL_RS14100|PFL_RS08215|PFL_RS30160
-GO:0003700	sequence-specific DNA binding transcription factor activity	molecular_function	220664	inferred	3	3475381|3477218|3477874	PFL_RS17995|PFL_RS08235|PFL_RS16425
+GO:0003700	transcription factor activity, sequence-specific DNA binding	molecular_function	220664	inferred	3	3475381|3477218|3477874	PFL_RS17995|PFL_RS08235|PFL_RS16425
 GO:0003824	catalytic activity	molecular_function	220664	inferred	4	3476082|3477059|3478038|3480324	PFL_RS15135|PFL_RS14080|PFL_RS14100|PFL_RS30160
 GO:0003995	acyl-CoA dehydrogenase activity	molecular_function	220664	inferred	1	3478038	PFL_RS14100
 GO:0004497	monooxygenase activity	molecular_function	220664	inferred	1	3476082	PFL_RS15135

@@ -11,7 +11,7 @@ GO:0003006	developmental process involved in reproduction	biological_process	399
 GO:0003674	molecular_function	molecular_function	39947	inferred	44	3131395|3131425|3131435|3131436|3131439|3131441|3131442|3131457|3131462|3131470|4326912|4327247|4329724|4329923|4330574|4331495|4331500|4332842|4333728|4334151|4335090|4335094|4335552|4335790|4336260|4336263|4340156|4342050|4345634|4346474|4349185|4349189|4349190|4349191|4349196|6450124|6450128|6450135|6450142|6450144|6450162|6450166|6450179|6450198	ndhA|rpl20|rps11|rps14|rps16|rps19|rps2|rps4|atpB|cemA|Os01g0281000|Os01g0922800|Os02g0570400|Os02g0606200|Os02g0724000|Os03g0129300|Os03g0130100|Os03g0351100|Os03g0681400|Os03g0755100|Os04g0178300|Os04g0179700|Os04g0350300|Os04g0413500|Os04g0493000|Os04g0493400|Os06g0152200|Os06g0713000|Os08g0430500|Os09g0240200|Os10g0527800|Os10g0528300|Os10g0528400|Os10g0528900|Os10g0529700|rps11|rps1|rps19|rpl5|rps14|nad1|rps2|rps4|nad7
 GO:0003676	nucleic acid binding	molecular_function	39947	inferred	7	3131425|4329923|4330574|4336260|4340156|4342050|4346474	rpl20|Os02g0606200|Os02g0724000|Os04g0493000|Os06g0152200|Os06g0713000|Os09g0240200
 GO:0003677	DNA binding	molecular_function	39947	inferred	6	4329923|4330574|4336260|4340156|4342050|4346474	Os02g0606200|Os02g0724000|Os04g0493000|Os06g0152200|Os06g0713000|Os09g0240200
-GO:0003700	sequence-specific DNA binding transcription factor activity	molecular_function	39947	inferred	1	4327247	Os01g0922800
+GO:0003700	transcription factor activity, sequence-specific DNA binding	molecular_function	39947	inferred	1	4327247	Os01g0922800
 GO:0003723	RNA binding	molecular_function	39947	inferred	1	3131425	rpl20
 GO:0003735	structural constituent of ribosome	molecular_function	39947	inferred	14	3131425|3131435|3131436|3131439|3131441|3131442|3131457|6450124|6450128|6450135|6450142|6450144|6450166|6450179	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|rps11|rps1|rps19|rpl5|rps14|rps2|rps4
 GO:0003824	catalytic activity	molecular_function	39947	inferred	19	3131395|3131436|4329724|4331495|4331500|4333728|4334151|4335090|4335094|4335790|4336263|4349185|4349189|4349190|4349191|4349196|6450144|6450162|6450198	ndhA|rps14|Os02g0570400|Os03g0129300|Os03g0130100|Os03g0681400|Os03g0755100|Os04g0178300|Os04g0179700|Os04g0413500|Os04g0493400|Os10g0527800|Os10g0528300|Os10g0528400|Os10g0528900|Os10g0529700|rps14|nad1|nad7
@@ -71,11 +71,13 @@ GO:0006123	mitochondrial electron transport, cytochrome c to oxygen	biological_p
 GO:0006139	nucleobase-containing compound metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0006163	purine nucleotide metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0006164	purine nucleotide biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
+GO:0006165	nucleoside diphosphate phosphorylation	biological_process	39947	inferred	1	4331495	Os03g0129300
 GO:0006355	regulation of transcription, DNA-templated	biological_process	39947	inferred	1	4327247	Os01g0922800
 GO:0006412	translation	biological_process	39947	inferred	14	3131425|3131435|3131436|3131439|3131441|3131442|3131457|6450124|6450128|6450135|6450142|6450144|6450166|6450179	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|rps11|rps1|rps19|rpl5|rps14|rps2|rps4
 GO:0006461	protein complex assembly	biological_process	39947	inferred	1	6450169	ccmFc
 GO:0006464	cellular protein modification process	biological_process	39947	inferred	1	4333728	Os03g0681400
 GO:0006508	proteolysis	biological_process	39947	inferred	1	4333728	Os03g0681400
+GO:0006518	peptide metabolic process	biological_process	39947	inferred	14	3131425|3131435|3131436|3131439|3131441|3131442|3131457|6450124|6450128|6450135|6450142|6450144|6450166|6450179	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|rps11|rps1|rps19|rpl5|rps14|rps2|rps4
 GO:0006629	lipid metabolic process	biological_process	39947	inferred	3	4329724|4335090|4335094	Os02g0570400|Os04g0178300|Os04g0179700
 GO:0006720	isoprenoid metabolic process	biological_process	39947	inferred	3	4329724|4335090|4335094	Os02g0570400|Os04g0178300|Os04g0179700
 GO:0006721	terpenoid metabolic process	biological_process	39947	inferred	3	4329724|4335090|4335094	Os02g0570400|Os04g0178300|Os04g0179700
@@ -84,9 +86,10 @@ GO:0006732	coenzyme metabolic process	biological_process	39947	inferred	1	433149
 GO:0006733	oxidoreduction coenzyme metabolic process	biological_process	39947	inferred	1	4331495	Os03g0129300
 GO:0006753	nucleoside phosphate metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0006754	ATP biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
+GO:0006757	ATP generation from ADP	biological_process	39947	inferred	1	4331495	Os03g0129300
 GO:0006793	phosphorus metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0006796	phosphate-containing compound metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
-GO:0006807	nitrogen compound metabolic process	biological_process	39947	inferred	9	3131462|4331495|4336263|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|Os04g0493400|cox1|cox3|cox2|nad1|atp6|nad7
+GO:0006807	nitrogen compound metabolic process	biological_process	39947	inferred	23	3131425|3131435|3131436|3131439|3131441|3131442|3131457|3131462|4331495|4336263|6450122|6450124|6450128|6450135|6450138|6450142|6450144|6450161|6450162|6450166|6450179|6450195|6450198	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|atpB|Os03g0129300|Os04g0493400|cox1|rps11|rps1|rps19|cox3|rpl5|rps14|cox2|nad1|rps2|rps4|atp6|nad7
 GO:0006810	transport	biological_process	39947	inferred	4	4330845|4334148|4334151|6450195	Os02g0767500|Os03g0754800|Os03g0755100|atp6
 GO:0006811	ion transport	biological_process	39947	inferred	1	6450195	atp6
 GO:0006812	cation transport	biological_process	39947	inferred	1	6450195	atp6
@@ -113,9 +116,11 @@ GO:0009123	nucleoside monophosphate metabolic process	biological_process	39947	i
 GO:0009124	nucleoside monophosphate biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
 GO:0009126	purine nucleoside monophosphate metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0009127	purine nucleoside monophosphate biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
-GO:0009141	nucleoside triphosphate metabolic process	biological_process	39947	inferred	7	3131462|6450122|6450138|6450161|6450162|6450195|6450198	atpB|cox1|cox3|cox2|nad1|atp6|nad7
+GO:0009132	nucleoside diphosphate metabolic process	biological_process	39947	inferred	1	4331495	Os03g0129300
+GO:0009135	purine nucleoside diphosphate metabolic process	biological_process	39947	inferred	1	4331495	Os03g0129300
+GO:0009141	nucleoside triphosphate metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0009142	nucleoside triphosphate biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
-GO:0009144	purine nucleoside triphosphate metabolic process	biological_process	39947	inferred	7	3131462|6450122|6450138|6450161|6450162|6450195|6450198	atpB|cox1|cox3|cox2|nad1|atp6|nad7
+GO:0009144	purine nucleoside triphosphate metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0009145	purine nucleoside triphosphate biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
 GO:0009150	purine ribonucleotide metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0009152	purine ribonucleotide biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
@@ -125,9 +130,11 @@ GO:0009163	nucleoside biosynthetic process	biological_process	39947	inferred	2	3
 GO:0009165	nucleotide biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
 GO:0009167	purine ribonucleoside monophosphate metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0009168	purine ribonucleoside monophosphate biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
-GO:0009199	ribonucleoside triphosphate metabolic process	biological_process	39947	inferred	7	3131462|6450122|6450138|6450161|6450162|6450195|6450198	atpB|cox1|cox3|cox2|nad1|atp6|nad7
+GO:0009179	purine ribonucleoside diphosphate metabolic process	biological_process	39947	inferred	1	4331495	Os03g0129300
+GO:0009185	ribonucleoside diphosphate metabolic process	biological_process	39947	inferred	1	4331495	Os03g0129300
+GO:0009199	ribonucleoside triphosphate metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0009201	ribonucleoside triphosphate biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
-GO:0009205	purine ribonucleoside triphosphate metabolic process	biological_process	39947	inferred	7	3131462|6450122|6450138|6450161|6450162|6450195|6450198	atpB|cox1|cox3|cox2|nad1|atp6|nad7
+GO:0009205	purine ribonucleoside triphosphate metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0009206	purine ribonucleoside triphosphate biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
 GO:0009259	ribonucleotide metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0009260	ribonucleotide biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
@@ -184,7 +191,7 @@ GO:0016101	diterpenoid metabolic process	biological_process	39947	inferred	3	432
 GO:0016102	diterpenoid biosynthetic process	biological_process	39947	inferred	1	4335090	Os04g0178300
 GO:0016114	terpenoid biosynthetic process	biological_process	39947	inferred	1	4335090	Os04g0178300
 GO:0016265	death	biological_process	39947	inferred	1	4331493	Os03g0129100
-GO:0016310	phosphorylation	biological_process	39947	inferred	5	6450122|6450138|6450161|6450162|6450198	cox1|cox3|cox2|nad1|nad7
+GO:0016310	phosphorylation	biological_process	39947	inferred	6	4331495|6450122|6450138|6450161|6450162|6450198	Os03g0129300|cox1|cox3|cox2|nad1|nad7
 GO:0016462	pyrophosphatase activity	molecular_function	39947	inferred	1	4334151	Os03g0755100
 GO:0016469	proton-transporting two-sector ATPase complex	cellular_component	39947	inferred	2	3131462|6450195	atpB|atp6
 GO:0016491	oxidoreductase activity	molecular_function	39947	inferred	6	3131395|3131436|4331495|6450144|6450162|6450198	ndhA|rps14|Os03g0129300|rps14|nad1|nad7
@@ -261,7 +268,7 @@ GO:0034279	syn-pimara-7,15-diene synthase activity	molecular_function	39947	infe
 GO:0034357	photosynthetic membrane	cellular_component	39947	inferred	1	3131467	psaI
 GO:0034622	cellular macromolecular complex assembly	biological_process	39947	inferred	1	6450169	ccmFc
 GO:0034637	cellular carbohydrate biosynthetic process	biological_process	39947	inferred	1	4335790	Os04g0413500
-GO:0034641	cellular nitrogen compound metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
+GO:0034641	cellular nitrogen compound metabolic process	biological_process	39947	inferred	22	3131425|3131435|3131436|3131439|3131441|3131442|3131457|3131462|4331495|6450122|6450124|6450128|6450135|6450138|6450142|6450144|6450161|6450162|6450166|6450179|6450195|6450198	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|atpB|Os03g0129300|cox1|rps11|rps1|rps19|cox3|rpl5|rps14|cox2|nad1|rps2|rps4|atp6|nad7
 GO:0034645	cellular macromolecule biosynthetic process	biological_process	39947	inferred	14	3131425|3131435|3131436|3131439|3131441|3131442|3131457|6450124|6450128|6450135|6450142|6450144|6450166|6450179	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|rps11|rps1|rps19|rpl5|rps14|rps2|rps4
 GO:0034654	nucleobase-containing compound biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
 GO:0035639	purine ribonucleoside triphosphate binding	molecular_function	39947	inferred	4	3131462|4326912|4334151|4335552	atpB|Os01g0281000|Os03g0755100|Os04g0350300
@@ -277,6 +284,7 @@ GO:0042626	ATPase activity, coupled to transmembrane movement of substances	mole
 GO:0042773	ATP synthesis coupled electron transport	biological_process	39947	inferred	5	6450122|6450138|6450161|6450162|6450198	cox1|cox3|cox2|nad1|nad7
 GO:0042775	mitochondrial ATP synthesis coupled electron transport	biological_process	39947	inferred	5	6450122|6450138|6450161|6450162|6450198	cox1|cox3|cox2|nad1|nad7
 GO:0042776	mitochondrial ATP synthesis coupled proton transport	biological_process	39947	inferred	1	6450195	atp6
+GO:0043043	peptide biosynthetic process	biological_process	39947	inferred	14	3131425|3131435|3131436|3131439|3131441|3131442|3131457|6450124|6450128|6450135|6450142|6450144|6450166|6450179	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|rps11|rps1|rps19|rpl5|rps14|rps2|rps4
 GO:0043167	ion binding	molecular_function	39947	inferred	11	3131462|4326912|4329923|4330574|4332842|4334151|4335552|4336260|4340156|4342050|4346474	atpB|Os01g0281000|Os02g0606200|Os02g0724000|Os03g0351100|Os03g0755100|Os04g0350300|Os04g0493000|Os06g0152200|Os06g0713000|Os09g0240200
 GO:0043168	anion binding	molecular_function	39947	inferred	4	3131462|4326912|4334151|4335552	atpB|Os01g0281000|Os03g0755100|Os04g0350300
 GO:0043169	cation binding	molecular_function	39947	inferred	7	4329923|4330574|4332842|4336260|4340156|4342050|4346474	Os02g0606200|Os02g0724000|Os03g0351100|Os04g0493000|Os06g0152200|Os06g0713000|Os09g0240200
@@ -294,9 +302,12 @@ GO:0043234	protein complex	cellular_component	39947	inferred	15	3131462|3131467|
 GO:0043412	macromolecule modification	biological_process	39947	inferred	1	4333728	Os03g0681400
 GO:0043436	oxoacid metabolic process	biological_process	39947	inferred	4	3131436|4331495|4335090|6450144	rps14|Os03g0129300|Os04g0178300|rps14
 GO:0043492	ATPase activity, coupled to movement of substances	molecular_function	39947	inferred	1	4334151	Os03g0755100
+GO:0043603	cellular amide metabolic process	biological_process	39947	inferred	14	3131425|3131435|3131436|3131439|3131441|3131442|3131457|6450124|6450128|6450135|6450142|6450144|6450166|6450179	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|rps11|rps1|rps19|rpl5|rps14|rps2|rps4
+GO:0043604	amide biosynthetic process	biological_process	39947	inferred	14	3131425|3131435|3131436|3131439|3131441|3131442|3131457|6450124|6450128|6450135|6450142|6450144|6450166|6450179	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|rps11|rps1|rps19|rpl5|rps14|rps2|rps4
 GO:0043623	cellular protein complex assembly	biological_process	39947	inferred	1	6450169	ccmFc
 GO:0043667	pollen wall	cellular_component	39947	inferred	1	4348869	Os10g0471100
 GO:0043668	exine	cellular_component	39947	inferred	1	4348869	Os10g0471100
+GO:0043891	glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating) activity	molecular_function	39947	inferred	1	4331495	Os03g0129300
 GO:0043933	macromolecular complex subunit organization	biological_process	39947	inferred	1	6450169	ccmFc
 GO:0044036	cell wall macromolecule metabolic process	biological_process	39947	inferred	1	4336263	Os04g0493400
 GO:0044085	cellular component biogenesis	biological_process	39947	inferred	1	6450169	ccmFc
@@ -308,7 +319,7 @@ GO:0044255	cellular lipid metabolic process	biological_process	39947	inferred	3	
 GO:0044260	cellular macromolecule metabolic process	biological_process	39947	inferred	16	3131425|3131435|3131436|3131439|3131441|3131442|3131457|4333728|4336263|6450124|6450128|6450135|6450142|6450144|6450166|6450179	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|Os03g0681400|Os04g0493400|rps11|rps1|rps19|rpl5|rps14|rps2|rps4
 GO:0044262	cellular carbohydrate metabolic process	biological_process	39947	inferred	1	4335790	Os04g0413500
 GO:0044267	cellular protein metabolic process	biological_process	39947	inferred	15	3131425|3131435|3131436|3131439|3131441|3131442|3131457|4333728|6450124|6450128|6450135|6450142|6450144|6450166|6450179	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|Os03g0681400|rps11|rps1|rps19|rpl5|rps14|rps2|rps4
-GO:0044271	cellular nitrogen compound biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
+GO:0044271	cellular nitrogen compound biosynthetic process	biological_process	39947	inferred	16	3131425|3131435|3131436|3131439|3131441|3131442|3131457|3131462|6450124|6450128|6450135|6450142|6450144|6450166|6450179|6450195	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|atpB|rps11|rps1|rps19|rpl5|rps14|rps2|rps4|atp6
 GO:0044281	small molecule metabolic process	biological_process	39947	inferred	11	3131436|3131462|4331495|4335090|6450122|6450138|6450144|6450161|6450162|6450195|6450198	rps14|atpB|Os03g0129300|Os04g0178300|cox1|cox3|rps14|cox2|nad1|atp6|nad7
 GO:0044391	ribosomal subunit	cellular_component	39947	inferred	17	3131385|3131441|3131442|3131443|3131444|3131445|3131457|3131499|6450128|6450135|6450142|6450151|6450166|6450179|6450193|6450196|6450201	rps12|rps19|rps2|rps3|rps7|rps7|rps4|rps12|rps1|rps19|rpl5|rps7|rps2|rps4|rps13|rps3|rps12
 GO:0044446	intracellular organelle part	cellular_component	39947	inferred	31	3131385|3131441|3131442|3131443|3131444|3131445|3131457|3131499|4330845|4334148|4335552|6450121|6450128|6450132|6450135|6450140|6450142|6450143|6450148|6450151|6450154|6450161|6450162|6450166|6450168|6450179|6450193|6450195|6450196|6450198|6450201	rps12|rps19|rps2|rps3|rps7|rps7|rps4|rps12|Os02g0767500|Os03g0754800|Os04g0350300|nad4|rps1|nad6|rps19|nad2|rpl5|nad5|nad4L|rps7|nad9|cox2|nad1|rps2|nad3|rps4|rps13|atp6|rps3|nad7|rps12
@@ -329,7 +340,8 @@ GO:0045263	proton-transporting ATP synthase complex, coupling factor F(o)	cellul
 GO:0045271	respiratory chain complex I	cellular_component	39947	inferred	9	6450121|6450132|6450140|6450143|6450148|6450154|6450162|6450168|6450198	nad4|nad6|nad2|nad5|nad4L|nad9|nad1|nad3|nad7
 GO:0045277	respiratory chain complex IV	cellular_component	39947	inferred	1	6450161	cox2
 GO:0045333	cellular respiration	biological_process	39947	inferred	7	3131436|6450122|6450138|6450144|6450161|6450162|6450198	rps14|cox1|cox3|rps14|cox2|nad1|nad7
-GO:0046034	ATP metabolic process	biological_process	39947	inferred	7	3131462|6450122|6450138|6450161|6450162|6450195|6450198	atpB|cox1|cox3|cox2|nad1|atp6|nad7
+GO:0046031	ADP metabolic process	biological_process	39947	inferred	1	4331495	Os03g0129300
+GO:0046034	ATP metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0046128	purine ribonucleoside metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:0046129	purine ribonucleoside biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
 GO:0046246	terpene biosynthetic process	biological_process	39947	inferred	1	4335090	Os04g0178300
@@ -341,6 +353,7 @@ GO:0046496	nicotinamide nucleotide metabolic process	biological_process	39947	in
 GO:0046872	metal ion binding	molecular_function	39947	inferred	7	4329923|4330574|4332842|4336260|4340156|4342050|4346474	Os02g0606200|Os02g0724000|Os03g0351100|Os04g0493000|Os06g0152200|Os06g0713000|Os09g0240200
 GO:0046907	intracellular transport	biological_process	39947	inferred	1	6450195	atp6
 GO:0046914	transition metal ion binding	molecular_function	39947	inferred	7	4329923|4330574|4332842|4336260|4340156|4342050|4346474	Os02g0606200|Os02g0724000|Os03g0351100|Os04g0493000|Os06g0152200|Os06g0713000|Os09g0240200
+GO:0046939	nucleotide phosphorylation	biological_process	39947	inferred	1	4331495	Os03g0129300
 GO:0048367	shoot system development	biological_process	39947	inferred	1	4348869	Os10g0471100
 GO:0048437	floral organ development	biological_process	39947	inferred	1	4348869	Os10g0471100
 GO:0048438	floral whorl development	biological_process	39947	inferred	1	4348869	Os10g0471100
@@ -405,6 +418,11 @@ GO:0098533	ATPase dependent transmembrane transport complex	cellular_component	3
 GO:0098655	cation transmembrane transport	biological_process	39947	inferred	1	6450195	atp6
 GO:0098660	inorganic ion transmembrane transport	biological_process	39947	inferred	1	6450195	atp6
 GO:0098662	inorganic cation transmembrane transport	biological_process	39947	inferred	1	6450195	atp6
+GO:0098796	membrane protein complex	cellular_component	39947	inferred	14	3131462|3131467|4334151|6450121|6450132|6450140|6450143|6450148|6450154|6450161|6450162|6450168|6450195|6450198	atpB|psaI|Os03g0755100|nad4|nad6|nad2|nad5|nad4L|nad9|cox2|nad1|nad3|atp6|nad7
+GO:0098797	plasma membrane protein complex	cellular_component	39947	inferred	1	4334151	Os03g0755100
+GO:0098798	mitochondrial protein complex	cellular_component	39947	inferred	11	6450121|6450132|6450140|6450143|6450148|6450154|6450161|6450162|6450168|6450195|6450198	nad4|nad6|nad2|nad5|nad4L|nad9|cox2|nad1|nad3|atp6|nad7
+GO:0098800	inner mitochondrial membrane protein complex	cellular_component	39947	inferred	11	6450121|6450132|6450140|6450143|6450148|6450154|6450161|6450162|6450168|6450195|6450198	nad4|nad6|nad2|nad5|nad4L|nad9|cox2|nad1|nad3|atp6|nad7
+GO:0098803	respiratory chain complex	cellular_component	39947	inferred	10	6450121|6450132|6450140|6450143|6450148|6450154|6450161|6450162|6450168|6450198	nad4|nad6|nad2|nad5|nad4L|nad9|cox2|nad1|nad3|nad7
 GO:1901071	glucosamine-containing compound metabolic process	biological_process	39947	inferred	1	4336263	Os04g0493400
 GO:1901072	glucosamine-containing compound catabolic process	biological_process	39947	inferred	1	4336263	Os04g0493400
 GO:1901135	carbohydrate derivative metabolic process	biological_process	39947	inferred	9	3131462|4331495|4336263|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|Os04g0493400|cox1|cox3|cox2|nad1|atp6|nad7
@@ -415,9 +433,9 @@ GO:1901293	nucleoside phosphate biosynthetic process	biological_process	39947	in
 GO:1901360	organic cyclic compound metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7
 GO:1901362	organic cyclic compound biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
 GO:1901363	heterocyclic compound binding	molecular_function	39947	inferred	11	3131425|3131462|4326912|4329923|4330574|4334151|4335552|4336260|4340156|4342050|4346474	rpl20|atpB|Os01g0281000|Os02g0606200|Os02g0724000|Os03g0755100|Os04g0350300|Os04g0493000|Os06g0152200|Os06g0713000|Os09g0240200
-GO:1901564	organonitrogen compound metabolic process	biological_process	39947	inferred	9	3131462|4331495|4336263|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|Os04g0493400|cox1|cox3|cox2|nad1|atp6|nad7
+GO:1901564	organonitrogen compound metabolic process	biological_process	39947	inferred	23	3131425|3131435|3131436|3131439|3131441|3131442|3131457|3131462|4331495|4336263|6450122|6450124|6450128|6450135|6450138|6450142|6450144|6450161|6450162|6450166|6450179|6450195|6450198	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|atpB|Os03g0129300|Os04g0493400|cox1|rps11|rps1|rps19|cox3|rpl5|rps14|cox2|nad1|rps2|rps4|atp6|nad7
 GO:1901565	organonitrogen compound catabolic process	biological_process	39947	inferred	1	4336263	Os04g0493400
-GO:1901566	organonitrogen compound biosynthetic process	biological_process	39947	inferred	2	3131462|6450195	atpB|atp6
+GO:1901566	organonitrogen compound biosynthetic process	biological_process	39947	inferred	16	3131425|3131435|3131436|3131439|3131441|3131442|3131457|3131462|6450124|6450128|6450135|6450142|6450144|6450166|6450179|6450195	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|atpB|rps11|rps1|rps19|rpl5|rps14|rps2|rps4|atp6
 GO:1901575	organic substance catabolic process	biological_process	39947	inferred	2	4331495|4336263	Os03g0129300|Os04g0493400
 GO:1901576	organic substance biosynthetic process	biological_process	39947	inferred	19	3131425|3131435|3131436|3131439|3131441|3131442|3131457|3131462|4335090|4335790|4348869|6450124|6450128|6450135|6450142|6450144|6450166|6450179|6450195	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|atpB|Os04g0178300|Os04g0413500|Os10g0471100|rps11|rps1|rps19|rpl5|rps14|rps2|rps4|atp6
 GO:1901657	glycosyl compound metabolic process	biological_process	39947	inferred	8	3131462|4331495|6450122|6450138|6450161|6450162|6450195|6450198	atpB|Os03g0129300|cox1|cox3|cox2|nad1|atp6|nad7

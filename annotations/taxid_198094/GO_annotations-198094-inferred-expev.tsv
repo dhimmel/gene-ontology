@@ -1,6 +1,6 @@
 go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
-GO:0000988	protein binding transcription factor activity	molecular_function	198094	inferred	1	1088960	sigB
-GO:0000990	core RNA polymerase binding transcription factor activity	molecular_function	198094	inferred	1	1088960	sigB
+GO:0000988	transcription factor activity, protein binding	molecular_function	198094	inferred	1	1088960	sigB
+GO:0000990	transcription factor activity, core RNA polymerase binding	molecular_function	198094	inferred	1	1088960	sigB
 GO:0000996	core DNA-dependent RNA polymerase binding promoter specificity activity	molecular_function	198094	inferred	1	1088960	sigB
 GO:0003674	molecular_function	molecular_function	198094	inferred	2	1088797|1088960	eag|sigB
 GO:0005198	structural molecule activity	molecular_function	198094	inferred	1	1088797	eag

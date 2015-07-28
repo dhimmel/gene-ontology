@@ -1,6 +1,6 @@
 go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
 GO:0001539	cilium or flagellum-dependent cell motility	biological_process	220664	direct	3	3477217|3477218|3478209	PFL_RS08230|PFL_RS08235|PFL_RS08215
-GO:0003700	sequence-specific DNA binding transcription factor activity	molecular_function	220664	direct	3	3475381|3477218|3477874	PFL_RS17995|PFL_RS08235|PFL_RS16425
+GO:0003700	transcription factor activity, sequence-specific DNA binding	molecular_function	220664	direct	3	3475381|3477218|3477874	PFL_RS17995|PFL_RS08235|PFL_RS16425
 GO:0003995	acyl-CoA dehydrogenase activity	molecular_function	220664	direct	1	3478038	PFL_RS14100
 GO:0004497	monooxygenase activity	molecular_function	220664	direct	1	3476082	PFL_RS15135
 GO:0005198	structural molecule activity	molecular_function	220664	direct	1	3478209	PFL_RS08215

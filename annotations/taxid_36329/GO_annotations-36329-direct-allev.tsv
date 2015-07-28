@@ -3,7 +3,7 @@ GO:0000014	single-stranded DNA endodeoxyribonuclease activity	molecular_function
 GO:0000015	phosphopyruvate hydratase complex	cellular_component	36329	direct	1	810313	PF10_0155
 GO:0000027	ribosomal large subunit assembly	biological_process	36329	direct	3	812769|2655174|8444965	PFB0855c|PF07_0121|PFB0850c
 GO:0000036	ACP phosphopantetheine attachment site binding involved in fatty acid biosynthetic process	molecular_function	36329	direct	2	811136|812331	PFL0415w|PF14_0749
-GO:0000045	autophagic vacuole assembly	biological_process	36329	direct	1	810313	PF10_0155
+GO:0000045	autophagosome assembly	biological_process	36329	direct	1	810313	PF10_0155
 GO:0000055	ribosomal large subunit export from nucleus	biological_process	36329	direct	1	2655174	PF07_0121
 GO:0000070	mitotic sister chromatid segregation	biological_process	36329	direct	2	810864|813987	PF11_0317|MAL13P1.96
 GO:0000082	G1/S transition of mitotic cell cycle	biological_process	36329	direct	1	3885751	PFF1445c
@@ -66,7 +66,7 @@ GO:0003682	chromatin binding	molecular_function	36329	direct	5	810450|811253|811
 GO:0003684	damaged DNA binding	molecular_function	36329	direct	9	810272|810526|811836|812627|812652|812907|814293|2655088|2655325	PF10_0114|PF10_0369|PF14_0254|PFB0160w|PFB0265c|PFE0270c|PF13_0334|MAL7P1.145|PF08_0126
 GO:0003690	double-stranded DNA binding	molecular_function	36329	direct	2	810273|810864	PF10_0115|PF11_0317
 GO:0003697	single-stranded DNA binding	molecular_function	36329	direct	3	811975|812855|813853	PF14_0393|PFE0435c|MAL13P1.290
-GO:0003700	sequence-specific DNA binding transcription factor activity	molecular_function	36329	direct	8	810273|810301|810450|812658|813770|814022|814244|2655220	PF10_0115|PF10_0143|PF10_0293|PFB0290c|MAL13P1.213|PF13_0043|PF13_0279|MAL8P1.131
+GO:0003700	transcription factor activity, sequence-specific DNA binding	molecular_function	36329	direct	8	810273|810301|810450|812658|813770|814022|814244|2655220	PF10_0115|PF10_0143|PF10_0293|PFB0290c|MAL13P1.213|PF13_0043|PF13_0279|MAL8P1.131
 GO:0003712	transcription cofactor activity	molecular_function	36329	direct	1	811521	PFL2345c
 GO:0003713	transcription coactivator activity	molecular_function	36329	direct	1	810840	PF11_0293
 GO:0003714	transcription corepressor activity	molecular_function	36329	direct	1	2655210	MAL7P1.37

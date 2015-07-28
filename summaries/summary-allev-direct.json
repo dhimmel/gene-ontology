@@ -3,15 +3,22 @@
     [
       3702,
       "Arabidopsis thaliana",
-      5993,
-      178153,
+      6075,
+      179646,
       "annotations/taxid_3702/GO_annotations-3702-direct-allev.tsv"
+    ],
+    [
+      4528,
+      "Oryza longistaminata",
+      2,
+      2,
+      "annotations/taxid_4528/GO_annotations-4528-direct-allev.tsv"
     ],
     [
       4529,
       "Oryza rufipogon",
       2,
-      4,
+      2,
       "annotations/taxid_4529/GO_annotations-4529-direct-allev.tsv"
     ],
     [
@@ -20,6 +27,13 @@
       4,
       11,
       "annotations/taxid_4532/GO_annotations-4532-direct-allev.tsv"
+    ],
+    [
+      4535,
+      "Oryza officinalis",
+      4,
+      10,
+      "annotations/taxid_4535/GO_annotations-4535-direct-allev.tsv"
     ],
     [
       4536,
@@ -38,71 +52,71 @@
     [
       6239,
       "Caenorhabditis elegans",
-      4007,
-      63454,
+      4070,
+      66136,
       "annotations/taxid_6239/GO_annotations-6239-direct-allev.tsv"
     ],
     [
       7227,
       "Drosophila melanogaster",
-      6846,
-      77862,
+      6892,
+      78529,
       "annotations/taxid_7227/GO_annotations-7227-direct-allev.tsv"
     ],
     [
       7955,
       "Danio rerio",
-      7241,
-      112458,
+      7476,
+      116384,
       "annotations/taxid_7955/GO_annotations-7955-direct-allev.tsv"
     ],
     [
       9031,
       "Gallus gallus",
-      4828,
-      18695,
+      4974,
+      19150,
       "annotations/taxid_9031/GO_annotations-9031-direct-allev.tsv"
     ],
     [
       9606,
       "Homo sapiens",
-      15428,
-      241764,
+      15755,
+      247463,
       "annotations/taxid_9606/GO_annotations-9606-direct-allev.tsv"
     ],
     [
       9615,
       "Canis lupus familiaris",
-      3031,
-      7687,
+      3110,
+      7876,
       "annotations/taxid_9615/GO_annotations-9615-direct-allev.tsv"
     ],
     [
       9823,
       "Sus scrofa",
-      3999,
-      11720,
+      4107,
+      12114,
       "annotations/taxid_9823/GO_annotations-9823-direct-allev.tsv"
     ],
     [
       9913,
       "Bos taurus",
-      8701,
-      48324,
+      8942,
+      49838,
       "annotations/taxid_9913/GO_annotations-9913-direct-allev.tsv"
     ],
     [
       10090,
       "Mus musculus",
-      16031,
-      295590,
+      16283,
+      299712,
       "annotations/taxid_10090/GO_annotations-10090-direct-allev.tsv"
     ],
     [
       10116,
       "Rattus norvegicus",
-      15593,
-      230447,
+      15807,
+      231102,
       "annotations/taxid_10116/GO_annotations-10116-direct-allev.tsv"
     ],
     [
@@ -127,11 +141,25 @@
       "annotations/taxid_39947/GO_annotations-39947-direct-allev.tsv"
     ],
     [
+      40148,
+      "Oryza glumipatula",
+      4,
+      10,
+      "annotations/taxid_40148/GO_annotations-40148-direct-allev.tsv"
+    ],
+    [
       40149,
       "Oryza meridionalis",
       2,
       4,
       "annotations/taxid_40149/GO_annotations-40149-direct-allev.tsv"
+    ],
+    [
+      65489,
+      "Oryza barthii",
+      3,
+      9,
+      "annotations/taxid_65489/GO_annotations-65489-direct-allev.tsv"
     ],
     [
       198094,
@@ -150,8 +178,8 @@
     [
       214684,
       "Cryptococcus neoformans var. neoformans JEC21",
-      1916,
-      12114,
+      1915,
+      12113,
       "annotations/taxid_214684/GO_annotations-214684-direct-allev.tsv"
     ],
     [
@@ -171,8 +199,8 @@
     [
       227321,
       "Aspergillus nidulans FGSC A4",
-      1401,
-      22389,
+      1403,
+      22387,
       "annotations/taxid_227321/GO_annotations-227321-direct-allev.tsv"
     ],
     [
@@ -199,15 +227,15 @@
     [
       284812,
       "Schizosaccharomyces pombe 972h-",
-      4454,
-      34685,
+      4487,
+      34696,
       "annotations/taxid_284812/GO_annotations-284812-direct-allev.tsv"
     ],
     [
       352472,
       "Dictyostelium discoideum AX4",
-      3514,
-      47697,
+      3535,
+      47606,
       "annotations/taxid_352472/GO_annotations-352472-direct-allev.tsv"
     ],
     [
@@ -220,8 +248,8 @@
     [
       559292,
       "Saccharomyces cerevisiae S288c",
-      5161,
-      63117,
+      5197,
+      63224,
       "annotations/taxid_559292/GO_annotations-559292-direct-allev.tsv"
     ]
   ]

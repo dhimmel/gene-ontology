@@ -2,7 +2,8 @@ go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
 GO:0000165	MAPK cascade	biological_process	9823	direct	1	396764	SLC11A1
 GO:0000187	activation of MAPK activity	biological_process	9823	direct	1	445525	PLA2G1B
 GO:0000253	3-keto sterol reductase activity	molecular_function	9823	direct	1	397082	DHRS4
-GO:0001077	RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription	molecular_function	9823	direct	1	396840	SOX9
+GO:0000790	nuclear chromatin	cellular_component	9823	direct	2	397130|445521	HMGB2|HMGB1
+GO:0001077	transcriptional activator activity, RNA polymerase II core promoter proximal region sequence-specific binding	molecular_function	9823	direct	1	396840	SOX9
 GO:0001516	prostaglandin biosynthetic process	biological_process	9823	direct	1	100134955	FAM213B
 GO:0001556	oocyte maturation	biological_process	9823	direct	1	396891	RLN
 GO:0001616	growth hormone secretagogue receptor activity	molecular_function	9823	direct	1	397372	GHSR
@@ -12,7 +13,10 @@ GO:0001832	blastocyst growth	biological_process	9823	direct	1	396891	RLN
 GO:0001934	positive regulation of protein phosphorylation	biological_process	9823	direct	2	396884|397225	GH1|IL4
 GO:0001938	positive regulation of endothelial cell proliferation	biological_process	9823	direct	1	396965	PRL
 GO:0002446	neutrophil mediated immunity	biological_process	9823	direct	1	445525	PLA2G1B
+GO:0002755	MyD88-dependent toll-like receptor signaling pathway	biological_process	9823	direct	1	445521	HMGB1
 GO:0003677	DNA binding	molecular_function	9823	direct	4	396712|396913|397130|397671	LHX3|C-JUN|HMGB2|PPARG
+GO:0003690	double-stranded DNA binding	molecular_function	9823	direct	1	397130	HMGB2
+GO:0003697	single-stranded DNA binding	molecular_function	9823	direct	1	397130	HMGB2
 GO:0003774	motor activity	molecular_function	9823	direct	1	397085	MYO6
 GO:0003779	actin binding	molecular_function	9823	direct	1	396959	CARP
 GO:0003836	beta-galactoside (CMP) alpha-2,3-sialyltransferase activity	molecular_function	9823	direct	1	445537	ST3GAL1
@@ -22,6 +26,7 @@ GO:0003924	GTPase activity	molecular_function	9823	direct	1	397128	MX1
 GO:0004040	amidase activity	molecular_function	9823	direct	1	397098	ACR
 GO:0004052	arachidonate 12-lipoxygenase activity	molecular_function	9823	direct	1	396971	ALOX12
 GO:0004140	dephospho-CoA kinase activity	molecular_function	9823	direct	1	396688	COASY
+GO:0004175	endopeptidase activity	molecular_function	9823	direct	1	396922	CD46
 GO:0004222	metalloendopeptidase activity	molecular_function	9823	direct	1	397343	ADAM17
 GO:0004447	iodide peroxidase activity	molecular_function	9823	direct	1	403124	IYD
 GO:0004499	N,N-dimethylaniline monooxygenase activity	molecular_function	9823	direct	1	397132	FMO1
@@ -35,7 +40,8 @@ GO:0005096	GTPase activator activity	molecular_function	9823	direct	1	100155163	
 GO:0005102	receptor binding	molecular_function	9823	direct	1	445525	PLA2G1B
 GO:0005114	type II transforming growth factor beta receptor binding	molecular_function	9823	direct	1	397096	ENG
 GO:0005125	cytokine activity	molecular_function	9823	direct	1	397057	IL18
-GO:0005179	hormone activity	molecular_function	9823	direct	1	396863	POMC
+GO:0005159	insulin-like growth factor receptor binding	molecular_function	9823	direct	1	397415	INS
+GO:0005179	hormone activity	molecular_function	9823	direct	2	396863|397415	POMC|INS
 GO:0005391	sodium:potassium-exchanging ATPase activity	molecular_function	9823	direct	2	396898|397481	ATP1B1|ATP1A1
 GO:0005506	iron ion binding	molecular_function	9823	direct	1	396971	ALOX12
 GO:0005509	calcium ion binding	molecular_function	9823	direct	1	100301483	S100A12
@@ -45,18 +51,18 @@ GO:0005524	ATP binding	molecular_function	9823	direct	1	397481	ATP1A1
 GO:0005539	glycosaminoglycan binding	molecular_function	9823	direct	1	397096	ENG
 GO:0005576	extracellular region	cellular_component	9823	direct	1	396874	GSN
 GO:0005615	extracellular space	cellular_component	9823	direct	9	396728|396871|396960|396965|397196|397419|397691|780405|100037961	GHRL|NPG4|ALB|PRL|DPEP1|TTR|APOA1|APOA1BP|CTSB
-GO:0005622	intracellular	cellular_component	9823	direct	2	396764|445525	SLC11A1|PLA2G1B
-GO:0005623	cell	cellular_component	9823	direct	1	396863	POMC
-GO:0005634	nucleus	cellular_component	9823	direct	8	396712|396913|397077|397486|397487|733606|100048934|100513764	LHX3|C-JUN|FOXO1|PRM2|PRM1|TMSB4X|WEE1B|LOC100513764
+GO:0005622	intracellular	cellular_component	9823	direct	4	396764|397208|397402|445525	SLC11A1|CSF2|PLIN2|PLA2G1B
+GO:0005623	cell	cellular_component	9823	direct	3	396863|397130|445521	POMC|HMGB2|HMGB1
+GO:0005634	nucleus	cellular_component	9823	direct	10	396712|396913|397077|397486|397487|733606|100048934|100144492|100513764|100518636	LHX3|C-JUN|FOXO1|PRM2|PRM1|TMSB4X|WEE1B|CDK4|LOC100513764|GJA1
 GO:0005635	nuclear envelope	cellular_component	9823	direct	1	397245	ATP1B4
 GO:0005637	nuclear inner membrane	cellular_component	9823	direct	1	397245	ATP1B4
-GO:0005737	cytoplasm	cellular_component	9823	direct	11	396851|396959|397077|397085|397091|397128|397436|397493|397570|397652|733606	PIK3R5|CARP|FOXO1|MYO6|PRKAR1A|MX1|CASQ2|PRKAR2A|OAS1|PRKACA|TMSB4X
+GO:0005737	cytoplasm	cellular_component	9823	direct	13	396851|396959|397077|397085|397091|397128|397436|397493|397570|397652|733606|100144492|100518636	PIK3R5|CARP|FOXO1|MYO6|PRKAR1A|MX1|CASQ2|PRKAR2A|OAS1|PRKACA|TMSB4X|CDK4|GJA1
 GO:0005739	mitochondrion	cellular_component	9823	direct	1	397646	NLN
 GO:0005743	mitochondrial inner membrane	cellular_component	9823	direct	4	414412|780433|100048954|100524676	SDHB|SDHA|SDHD|SDHC
 GO:0005749	mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone)	cellular_component	9823	direct	4	414412|780433|100048954|100524676	SDHB|SDHA|SDHD|SDHC
 GO:0005789	endoplasmic reticulum membrane	cellular_component	9823	direct	1	397196	DPEP1
 GO:0005829	cytosol	cellular_component	9823	direct	4	396874|396894|397646|100134955	GSN|MDH1|NLN|FAM213B
-GO:0005886	plasma membrane	cellular_component	9823	direct	5	397018|397196|397676|404693|497059	SCARB1|DPEP1|ZAN|CAV1|SSTR2
+GO:0005886	plasma membrane	cellular_component	9823	direct	6	397018|397196|397491|397676|404693|497059	SCARB1|DPEP1|IGF1|ZAN|CAV1|SSTR2
 GO:0005887	integral component of plasma membrane	cellular_component	9823	direct	1	399501	ADRA2A
 GO:0005890	sodium:potassium-exchanging ATPase complex	cellular_component	9823	direct	2	396898|397481	ATP1B1|ATP1A1
 GO:0005901	caveola	cellular_component	9823	direct	2	397018|404693	SCARB1|CAV1
@@ -66,9 +72,12 @@ GO:0006054	N-acetylneuraminate metabolic process	biological_process	9823	direct	
 GO:0006082	organic acid metabolic process	biological_process	9823	direct	1	397132	FMO1
 GO:0006164	purine nucleotide biosynthetic process	biological_process	9823	direct	1	397570	OAS1
 GO:0006265	DNA topological change	biological_process	9823	direct	1	397130	HMGB2
+GO:0006334	nucleosome assembly	biological_process	9823	direct	2	397130|445521	HMGB2|HMGB1
 GO:0006355	regulation of transcription, DNA-templated	biological_process	9823	direct	1	396712	LHX3
+GO:0006366	transcription from RNA polymerase II promoter	biological_process	9823	direct	1	396840	SOX9
 GO:0006487	protein N-linked glycosylation	biological_process	9823	direct	1	445537	ST3GAL1
 GO:0006507	GPI anchor release	biological_process	9823	direct	1	397196	DPEP1
+GO:0006508	proteolysis	biological_process	9823	direct	1	396922	CD46
 GO:0006509	membrane protein ectodomain proteolysis	biological_process	9823	direct	1	397343	ADAM17
 GO:0006633	fatty acid biosynthetic process	biological_process	9823	direct	1	445525	PLA2G1B
 GO:0006883	cellular sodium ion homeostasis	biological_process	9823	direct	2	396898|397481	ATP1B1|ATP1A1
@@ -82,18 +91,23 @@ GO:0007179	transforming growth factor beta receptor signaling pathway	biological
 GO:0007186	G-protein coupled receptor signaling pathway	biological_process	9823	direct	2	396851|397372	PIK3R5|GHSR
 GO:0007194	negative regulation of adenylate cyclase activity	biological_process	9823	direct	1	399501	ADRA2A
 GO:0007202	activation of phospholipase C activity	biological_process	9823	direct	1	397638	CALCR
+GO:0007213	G-protein coupled acetylcholine receptor signaling pathway	biological_process	9823	direct	1	397099	CHRM1
 GO:0007339	binding of sperm to zona pellucida	biological_process	9823	direct	1	397676	ZAN
+GO:0007603	phototransduction, visible light	biological_process	9823	direct	1	397099	CHRM1
 GO:0008144	drug binding	molecular_function	9823	direct	1	397098	ACR
-GO:0008152	metabolic process	biological_process	9823	direct	3	396807|397085|397128	MYL6|MYO6|MX1
 GO:0008260	3-oxoacid CoA-transferase activity	molecular_function	9823	direct	1	396978	OXCT1
 GO:0008270	zinc ion binding	molecular_function	9823	direct	1	100301483	S100A12
 GO:0008284	positive regulation of cell proliferation	biological_process	9823	direct	1	397057	IL18
 GO:0008286	insulin receptor signaling pathway	biological_process	9823	direct	1	397077	FOXO1
 GO:0008301	DNA binding, bending	molecular_function	9823	direct	1	397130	HMGB2
 GO:0008307	structural constituent of muscle	molecular_function	9823	direct	1	396807	MYL6
+GO:0008610	lipid biosynthetic process	biological_process	9823	direct	1	397415	INS
 GO:0008625	extrinsic apoptotic signaling pathway via death domain receptors	biological_process	9823	direct	1	397057	IL18
 GO:0008747	N-acetylneuraminate lyase activity	molecular_function	9823	direct	1	397141	NPL
+GO:0009101	glycoprotein biosynthetic process	biological_process	9823	direct	1	397415	INS
 GO:0009404	toxin metabolic process	biological_process	9823	direct	1	397132	FMO1
+GO:0009611	response to wounding	biological_process	9823	direct	1	100518636	GJA1
+GO:0009649	entrainment of circadian clock	biological_process	9823	direct	1	397099	CHRM1
 GO:0009755	hormone-mediated signaling pathway	biological_process	9823	direct	1	397372	GHSR
 GO:0009986	cell surface	cellular_component	9823	direct	2	397372|445525	GHSR|PLA2G1B
 GO:0010107	potassium ion import	biological_process	9823	direct	2	396898|397481	ATP1B1|ATP1A1
@@ -105,11 +119,12 @@ GO:0010628	positive regulation of gene expression	biological_process	9823	direct
 GO:0010629	negative regulation of gene expression	biological_process	9823	direct	2	397077|397671	FOXO1|PPARG
 GO:0010730	negative regulation of hydrogen peroxide biosynthetic process	biological_process	9823	direct	1	396965	PRL
 GO:0010875	positive regulation of cholesterol efflux	biological_process	9823	direct	1	397671	PPARG
-GO:0014065	phosphatidylinositol 3-kinase signaling	biological_process	9823	direct	1	396851	PIK3R5
+GO:0014065	phosphatidylinositol 3-kinase signaling	biological_process	9823	direct	2	396851|397208	PIK3R5|CSF2
 GO:0014832	urinary bladder smooth muscle contraction	biological_process	9823	direct	1	397277	B2R
 GO:0015631	tubulin binding	molecular_function	9823	direct	1	494014	PRNP
 GO:0015758	glucose transport	biological_process	9823	direct	1	445525	PLA2G1B
 GO:0016020	membrane	cellular_component	9823	direct	1	396851	PIK3R5
+GO:0016021	integral component of membrane	cellular_component	9823	direct	1	396922	CD46
 GO:0016234	inclusion body	cellular_component	9823	direct	1	397189	MIOX
 GO:0016323	basolateral plasma membrane	cellular_component	9823	direct	1	397018	SCARB1
 GO:0016324	apical plasma membrane	cellular_component	9823	direct	1	397018	SCARB1
@@ -121,6 +136,7 @@ GO:0016757	transferase activity, transferring glycosyl groups	molecular_function
 GO:0017113	dihydropyrimidine dehydrogenase (NADP+) activity	molecular_function	9823	direct	1	397109	DPYD
 GO:0018105	peptidyl-serine phosphorylation	biological_process	9823	direct	1	397077	FOXO1
 GO:0018107	peptidyl-threonine phosphorylation	biological_process	9823	direct	1	397077	FOXO1
+GO:0019249	lactate biosynthetic process	biological_process	9823	direct	1	397415	INS
 GO:0019310	inositol catabolic process	biological_process	9823	direct	1	397189	MIOX
 GO:0019369	arachidonic acid metabolic process	biological_process	9823	direct	1	396971	ALOX12
 GO:0019370	leukotriene biosynthetic process	biological_process	9823	direct	1	445525	PLA2G1B
@@ -136,6 +152,8 @@ GO:0030170	pyridoxal phosphate binding	molecular_function	9823	direct	1	397500	A
 GO:0030317	sperm motility	biological_process	9823	direct	1	396891	RLN
 GO:0030335	positive regulation of cell migration	biological_process	9823	direct	1	397415	INS
 GO:0030374	ligand-dependent nuclear receptor transcription coactivator activity	molecular_function	9823	direct	1	397671	PPARG
+GO:0030409	glutamate formimidoyltransferase activity	molecular_function	9823	direct	1	397517	FTCD
+GO:0030412	formimidoyltetrahydrofolate cyclodeaminase activity	molecular_function	9823	direct	1	397517	FTCD
 GO:0030593	neutrophil chemotaxis	biological_process	9823	direct	2	397084|445525	TGFB2|PLA2G1B
 GO:0030818	negative regulation of cAMP biosynthetic process	biological_process	9823	direct	1	399501	ADRA2A
 GO:0030898	actin-dependent ATPase activity	molecular_function	9823	direct	1	396807	MYL6
@@ -146,6 +164,7 @@ GO:0031432	titin binding	molecular_function	9823	direct	1	396959	CARP
 GO:0031683	G-protein beta/gamma-subunit complex binding	molecular_function	9823	direct	1	396851	PIK3R5
 GO:0031692	alpha-1B adrenergic receptor binding	molecular_function	9823	direct	1	399501	ADRA2A
 GO:0031841	neuropeptide Y receptor binding	molecular_function	9823	direct	1	445018	PYY
+GO:0031929	TOR signaling	biological_process	9823	direct	1	397208	CSF2
 GO:0031941	filamentous actin	cellular_component	9823	direct	1	397085	MYO6
 GO:0031954	positive regulation of protein autophosphorylation	biological_process	9823	direct	1	397415	INS
 GO:0032052	bile acid binding	molecular_function	9823	direct	1	445525	PLA2G1B
@@ -162,13 +181,17 @@ GO:0032880	regulation of protein localization	biological_process	9823	direct	1	4
 GO:0032930	positive regulation of superoxide anion generation	biological_process	9823	direct	1	396724	OLR1
 GO:0033391	chromatoid body	cellular_component	9823	direct	1	431672	DDX4
 GO:0034097	response to cytokine	biological_process	9823	direct	1	396799	ITIH4
+GO:0034134	toll-like receptor 2 signaling pathway	biological_process	9823	direct	1	445521	HMGB1
+GO:0034142	toll-like receptor 4 signaling pathway	biological_process	9823	direct	1	445521	HMGB1
 GO:0034235	GPI anchor binding	molecular_function	9823	direct	1	397196	DPEP1
 GO:0034713	type I transforming growth factor beta receptor binding	molecular_function	9823	direct	1	397096	ENG
 GO:0035556	intracellular signal transduction	biological_process	9823	direct	1	445525	PLA2G1B
 GO:0036094	small molecule binding	molecular_function	9823	direct	2	396960|397419	ALB|TTR
+GO:0036120	cellular response to platelet-derived growth factor stimulus	biological_process	9823	direct	1	100518636	GJA1
 GO:0036376	sodium ion export from cell	biological_process	9823	direct	2	396898|397481	ATP1B1|ATP1A1
 GO:0038039	G-protein coupled receptor heterodimeric complex	cellular_component	9823	direct	1	497059	SSTR2
 GO:0042095	interferon-gamma biosynthetic process	biological_process	9823	direct	1	397057	IL18
+GO:0042158	lipoprotein biosynthetic process	biological_process	9823	direct	1	397415	INS
 GO:0042383	sarcolemma	cellular_component	9823	direct	1	397481	ATP1A1
 GO:0042523	positive regulation of tyrosine phosphorylation of Stat5 protein	biological_process	9823	direct	1	396884	GH1
 GO:0042585	germinal vesicle	cellular_component	9823	direct	2	397493|397652	PRKAR2A|PRKACA
@@ -179,24 +202,31 @@ GO:0043234	protein complex	cellular_component	9823	direct	1	397098	ACR
 GO:0043268	positive regulation of potassium ion transport	biological_process	9823	direct	1	399501	ADRA2A
 GO:0043400	cortisol secretion	biological_process	9823	direct	1	396863	POMC
 GO:0043406	positive regulation of MAP kinase activity	biological_process	9823	direct	1	396851	PIK3R5
+GO:0043491	protein kinase B signaling	biological_process	9823	direct	1	397208	CSF2
 GO:0043531	ADP binding	molecular_function	9823	direct	1	397085	MYO6
 GO:0043551	regulation of phosphatidylinositol 3-kinase activity	biological_process	9823	direct	1	396851	PIK3R5
 GO:0043651	linoleic acid metabolic process	biological_process	9823	direct	1	396971	ALOX12
+GO:0044378	non-sequence-specific DNA binding, bending	molecular_function	9823	direct	2	397130|445521	HMGB2|HMGB1
 GO:0044548	S100 protein binding	molecular_function	9823	direct	1	406192	ANXA2
 GO:0045019	negative regulation of nitric oxide biosynthetic process	biological_process	9823	direct	1	396965	PRL
 GO:0045056	transcytosis	biological_process	9823	direct	2	396801|397018	LDLR|SCARB1
 GO:0045071	negative regulation of viral genome replication	biological_process	9823	direct	2	397128|397570	MX1|OAS1
 GO:0045087	innate immune response	biological_process	9823	direct	2	397072|397347	C3|CD59
+GO:0045121	membrane raft	cellular_component	9823	direct	1	100518636	GJA1
 GO:0045177	apical part of cell	cellular_component	9823	direct	1	100151746	FLOT1
 GO:0045599	negative regulation of fat cell differentiation	biological_process	9823	direct	1	397077	FOXO1
+GO:0045721	negative regulation of gluconeogenesis	biological_process	9823	direct	1	397415	INS
 GO:0045740	positive regulation of DNA replication	biological_process	9823	direct	3	397415|397491|445525	INS|IGF1|PLA2G1B
 GO:0045762	positive regulation of adenylate cyclase activity	biological_process	9823	direct	1	397638	CALCR
 GO:0045892	negative regulation of transcription, DNA-templated	biological_process	9823	direct	1	397501	POU2F1
 GO:0045893	positive regulation of transcription, DNA-templated	biological_process	9823	direct	2	396712|396913	LHX3|C-JUN
+GO:0045907	positive regulation of vasoconstriction	biological_process	9823	direct	1	808504	COX2
 GO:0045908	negative regulation of vasodilation	biological_process	9823	direct	1	396724	OLR1
 GO:0045909	positive regulation of vasodilation	biological_process	9823	direct	1	397557	NOS3
 GO:0045927	positive regulation of growth	biological_process	9823	direct	1	397064	IGFBP2
 GO:0045944	positive regulation of transcription from RNA polymerase II promoter	biological_process	9823	direct	3	396840|397671|445525	SOX9|PPARG|PLA2G1B
+GO:0045957	negative regulation of complement activation, alternative pathway	biological_process	9823	direct	1	396922	CD46
+GO:0045959	negative regulation of complement activation, classical pathway	biological_process	9823	direct	1	396922	CD46
 GO:0046326	positive regulation of glucose import	biological_process	9823	direct	1	396891	RLN
 GO:0046427	positive regulation of JAK-STAT cascade	biological_process	9823	direct	1	397225	IL4
 GO:0046628	positive regulation of insulin receptor signaling pathway	biological_process	9823	direct	1	397415	INS
@@ -233,6 +263,7 @@ GO:0060283	negative regulation of oocyte development	biological_process	9823	dir
 GO:0060396	growth hormone receptor signaling pathway	biological_process	9823	direct	2	396884|397488	GH1|GHR
 GO:0060631	regulation of meiosis I	biological_process	9823	direct	1	100048934	WEE1B
 GO:0070324	thyroid hormone binding	molecular_function	9823	direct	1	397419	TTR
+GO:0070371	ERK1 and ERK2 cascade	biological_process	9823	direct	1	397208	CSF2
 GO:0070374	positive regulation of ERK1 and ERK2 cascade	biological_process	9823	direct	1	397595	GCG
 GO:0070506	high-density lipoprotein particle receptor activity	molecular_function	9823	direct	1	397018	SCARB1
 GO:0070995	NADPH oxidation	biological_process	9823	direct	1	397132	FMO1
@@ -240,13 +271,19 @@ GO:0071222	cellular response to lipopolysaccharide	biological_process	9823	direc
 GO:0071277	cellular response to calcium ion	biological_process	9823	direct	1	397196	DPEP1
 GO:0071357	cellular response to type I interferon	biological_process	9823	direct	2	397128|403324	MX1|CYP3A29
 GO:0071456	cellular response to hypoxia	biological_process	9823	direct	1	396965	PRL
+GO:0071673	positive regulation of smooth muscle cell chemotaxis	biological_process	9823	direct	1	100518636	GJA1
 GO:0071732	cellular response to nitric oxide	biological_process	9823	direct	1	397196	DPEP1
 GO:0071878	negative regulation of adrenergic receptor signaling pathway	biological_process	9823	direct	1	399501	ADRA2A
+GO:0072651	interferon-tau production	biological_process	9823	direct	1	397208	CSF2
 GO:0086009	membrane repolarization	biological_process	9823	direct	2	396898|397481	ATP1B1|ATP1A1
+GO:0090274	positive regulation of somatostatin secretion	biological_process	9823	direct	2	397304|397465	NPY|GAL
+GO:0090275	negative regulation of somatostatin secretion	biological_process	9823	direct	2	397304|397465	NPY|GAL
 GO:0090630	activation of GTPase activity	biological_process	9823	direct	1	100155163	LOC100155163
+GO:0097100	supercoiled DNA binding	molecular_function	9823	direct	1	397130	HMGB2
 GO:0097503	sialylation	biological_process	9823	direct	1	445537	ST3GAL1
 GO:1900073	regulation of neuromuscular synaptic transmission	biological_process	9823	direct	1	397277	B2R
 GO:1901020	negative regulation of calcium ion transmembrane transporter activity	biological_process	9823	direct	1	399501	ADRA2A
+GO:1901224	positive regulation of NIK/NF-kappaB signaling	biological_process	9823	direct	1	445521	HMGB1
 GO:1901253	negative regulation of intracellular transport of viral material	biological_process	9823	direct	1	397128	MX1
 GO:1903076	regulation of protein localization to plasma membrane	biological_process	9823	direct	1	397671	PPARG
 GO:1903142	positive regulation of establishment of endothelial barrier	biological_process	9823	direct	1	397225	IL4
@@ -255,6 +292,7 @@ GO:1903538	regulation of meiotic cell cycle process involved in oocyte maturatio
 GO:1903659	regulation of complement-dependent cytotoxicity	biological_process	9823	direct	1	414737	CDH5
 GO:1903660	negative regulation of complement-dependent cytotoxicity	biological_process	9823	direct	2	396721|397225	IL13|IL4
 GO:1903661	positive regulation of complement-dependent cytotoxicity	biological_process	9823	direct	1	397077	FOXO1
+GO:1904075	positive regulation of trophectodermal cell proliferation	biological_process	9823	direct	1	397208	CSF2
 GO:1904077	negative regulation of estrogen biosynthetic process	biological_process	9823	direct	1	396965	PRL
 GO:1904145	negative regulation of meiotic cell cycle process involved in oocyte maturation	biological_process	9823	direct	1	397652	PRKACA
 GO:1904146	positive regulation of meiotic cell cycle process involved in oocyte maturation	biological_process	9823	direct	1	397493	PRKAR2A

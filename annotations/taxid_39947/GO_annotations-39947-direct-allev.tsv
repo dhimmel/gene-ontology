@@ -2,7 +2,7 @@ go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
 GO:0000276	mitochondrial proton-transporting ATP synthase complex, coupling factor F(o)	cellular_component	39947	direct	1	6450195	atp6
 GO:0003674	molecular_function	molecular_function	39947	direct	1	3131470	cemA
 GO:0003677	DNA binding	molecular_function	39947	direct	6	4329923|4330574|4336260|4340156|4342050|4346474	Os02g0606200|Os02g0724000|Os04g0493000|Os06g0152200|Os06g0713000|Os09g0240200
-GO:0003700	sequence-specific DNA binding transcription factor activity	molecular_function	39947	direct	1	4327247	Os01g0922800
+GO:0003700	transcription factor activity, sequence-specific DNA binding	molecular_function	39947	direct	1	4327247	Os01g0922800
 GO:0003723	RNA binding	molecular_function	39947	direct	1	3131425	rpl20
 GO:0003735	structural constituent of ribosome	molecular_function	39947	direct	14	3131425|3131435|3131436|3131439|3131441|3131442|3131457|6450124|6450128|6450135|6450142|6450144|6450166|6450179	rpl20|rps11|rps14|rps16|rps19|rps2|rps4|rps11|rps1|rps19|rpl5|rps14|rps2|rps4
 GO:0003824	catalytic activity	molecular_function	39947	direct	1	4331500	Os03g0130100
