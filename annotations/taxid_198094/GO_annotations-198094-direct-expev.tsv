@@ -1,0 +1,6 @@
+go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0005198	structural molecule activity	molecular_function	198094	direct	1	1088797	eag
+GO:0006352	DNA-templated transcription, initiation	biological_process	198094	direct	1	1088960	sigB
+GO:0016987	sigma factor activity	molecular_function	198094	direct	1	1088960	sigB
+GO:0030115	S-layer	cellular_component	198094	direct	1	1088797	eag
+GO:0045229	external encapsulating structure organization	biological_process	198094	direct	1	1088797	eag

@@ -15,19 +15,11 @@ wget --timestamping --directory-prefix download/ ftp://ftp.ncbi.nih.gov/gene/DAT
 # Download the gene_info.gz file of Entrez Genes
 wget --timestamping --directory-prefix download/ ftp://ftp.ncbi.nih.gov/gene/DATA/gene_info.gz
 
-
 # Run python
-python code/process.py
+runipy --overwrite code/process.ipynb
 python code/create_web.py
 
-# Run R
-#Rscript code/gene-ontology.R
-
-# For local development, run
-#jekyll serve
-
-
 # Commit
-git add .
+git add --all
 git commit -m "Update with new data releases"
 git push origin gh-pages

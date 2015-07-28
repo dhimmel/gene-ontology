@@ -1,0 +1,46 @@
+go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0000988	protein binding transcription factor activity	molecular_function	198094	inferred	1	1088960	sigB
+GO:0000990	core RNA polymerase binding transcription factor activity	molecular_function	198094	inferred	1	1088960	sigB
+GO:0000996	core DNA-dependent RNA polymerase binding promoter specificity activity	molecular_function	198094	inferred	1	1088960	sigB
+GO:0003674	molecular_function	molecular_function	198094	inferred	2	1088797|1088960	eag|sigB
+GO:0005198	structural molecule activity	molecular_function	198094	inferred	1	1088797	eag
+GO:0005575	cellular_component	cellular_component	198094	inferred	1	1088797	eag
+GO:0005623	cell	cellular_component	198094	inferred	1	1088797	eag
+GO:0006139	nucleobase-containing compound metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0006351	transcription, DNA-templated	biological_process	198094	inferred	1	1088960	sigB
+GO:0006352	DNA-templated transcription, initiation	biological_process	198094	inferred	1	1088960	sigB
+GO:0006725	cellular aromatic compound metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0006807	nitrogen compound metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0008150	biological_process	biological_process	198094	inferred	2	1088797|1088960	eag|sigB
+GO:0008152	metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0009058	biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0009059	macromolecule biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0009987	cellular process	biological_process	198094	inferred	2	1088797|1088960	eag|sigB
+GO:0010467	gene expression	biological_process	198094	inferred	1	1088960	sigB
+GO:0016043	cellular component organization	biological_process	198094	inferred	1	1088797	eag
+GO:0016070	RNA metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0016987	sigma factor activity	molecular_function	198094	inferred	1	1088960	sigB
+GO:0018130	heterocycle biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0019438	aromatic compound biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0030115	S-layer	cellular_component	198094	inferred	1	1088797	eag
+GO:0030312	external encapsulating structure	cellular_component	198094	inferred	1	1088797	eag
+GO:0032774	RNA biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0034641	cellular nitrogen compound metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0034645	cellular macromolecule biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0034654	nucleobase-containing compound biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0043170	macromolecule metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0044237	cellular metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0044238	primary metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0044249	cellular biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0044260	cellular macromolecule metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0044271	cellular nitrogen compound biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0045229	external encapsulating structure organization	biological_process	198094	inferred	1	1088797	eag
+GO:0046483	heterocycle metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0071704	organic substance metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0071840	cellular component organization or biogenesis	biological_process	198094	inferred	1	1088797	eag
+GO:0071944	cell periphery	cellular_component	198094	inferred	1	1088797	eag
+GO:0090304	nucleic acid metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0097659	nucleic acid-templated transcription	biological_process	198094	inferred	1	1088960	sigB
+GO:1901360	organic cyclic compound metabolic process	biological_process	198094	inferred	1	1088960	sigB
+GO:1901362	organic cyclic compound biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
+GO:1901576	organic substance biosynthetic process	biological_process	198094	inferred	1	1088960	sigB

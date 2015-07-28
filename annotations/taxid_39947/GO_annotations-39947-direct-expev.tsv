@@ -1,0 +1,6 @@
+go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0005783	endoplasmic reticulum	cellular_component	39947	direct	1	4348869	Os10g0471100
+GO:0010025	wax biosynthetic process	biological_process	39947	direct	1	4348869	Os10g0471100
+GO:0010143	cutin biosynthetic process	biological_process	39947	direct	1	4348869	Os10g0471100
+GO:0043668	exine	cellular_component	39947	direct	1	4348869	Os10g0471100
+GO:0048653	anther development	biological_process	39947	direct	1	4348869	Os10g0471100

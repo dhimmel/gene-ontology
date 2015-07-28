@@ -1,0 +1,19 @@
+go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0001539	cilium or flagellum-dependent cell motility	biological_process	220664	direct	3	3477217|3477218|3478209	PFL_RS08230|PFL_RS08235|PFL_RS08215
+GO:0003700	sequence-specific DNA binding transcription factor activity	molecular_function	220664	direct	3	3475381|3477218|3477874	PFL_RS17995|PFL_RS08235|PFL_RS16425
+GO:0003995	acyl-CoA dehydrogenase activity	molecular_function	220664	direct	1	3478038	PFL_RS14100
+GO:0004497	monooxygenase activity	molecular_function	220664	direct	1	3476082	PFL_RS15135
+GO:0005198	structural molecule activity	molecular_function	220664	direct	1	3478209	PFL_RS08215
+GO:0006355	regulation of transcription, DNA-templated	biological_process	220664	direct	2	3475381|3477874	PFL_RS17995|PFL_RS16425
+GO:0006935	chemotaxis	biological_process	220664	direct	1	3477217	PFL_RS08230
+GO:0006950	response to stress	biological_process	220664	direct	1	3475381	PFL_RS17995
+GO:0009288	bacterial-type flagellum	cellular_component	220664	direct	1	3477217	PFL_RS08230
+GO:0009420	bacterial-type flagellum filament	cellular_component	220664	direct	1	3478209	PFL_RS08215
+GO:0015833	peptide transport	biological_process	220664	direct	1	3477058	PFL_RS14075
+GO:0016787	hydrolase activity	molecular_function	220664	direct	1	3480324	PFL_RS30160
+GO:0016989	sigma factor antagonist activity	molecular_function	220664	direct	1	3475797	PFL_RS07315
+GO:0019184	nonribosomal peptide biosynthetic process	biological_process	220664	direct	5	3476079|3476087|3479093|3479094|3479095	PFL_RS15120|PFL_RS15160|PFL_RS10840|PFL_RS10845|PFL_RS10850
+GO:0030639	polyketide biosynthetic process	biological_process	220664	direct	8	3476079|3476080|3476081|3476083|3476084|3476085|3476087|3480329	PFL_RS15120|PFL_RS15125|PFL_RS15130|PFL_RS15140|PFL_RS15145|PFL_RS15150|PFL_RS15160|PFL_RS30185
+GO:0034083	type III polyketide synthase complex	cellular_component	220664	direct	1	3480329	PFL_RS30185
+GO:0045892	negative regulation of transcription, DNA-templated	biological_process	220664	direct	1	3480325	PFL_RS30165
+GO:0047651	alkylhalidase activity	molecular_function	220664	direct	1	3477059	PFL_RS14080

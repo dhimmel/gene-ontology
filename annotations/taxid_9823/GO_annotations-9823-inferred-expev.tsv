@@ -1,0 +1,1262 @@
+go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0000003	reproduction	biological_process	9823	inferred	3	396891|397676|100048934	RLN|ZAN|WEE1B
+GO:0000165	MAPK cascade	biological_process	9823	inferred	1	396764	SLC11A1
+GO:0000166	nucleotide binding	molecular_function	9823	inferred	3	397085|397109|397481	MYO6|DPYD|ATP1A1
+GO:0000187	activation of MAPK activity	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0000253	3-keto sterol reductase activity	molecular_function	9823	inferred	1	397082	DHRS4
+GO:0000280	nuclear division	biological_process	9823	inferred	1	100048934	WEE1B
+GO:0000302	response to reactive oxygen species	biological_process	9823	inferred	1	397196	DPEP1
+GO:0000981	sequence-specific DNA binding RNA polymerase II transcription factor activity	molecular_function	9823	inferred	1	396840	SOX9
+GO:0000982	RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity	molecular_function	9823	inferred	1	396840	SOX9
+GO:0000988	protein binding transcription factor activity	molecular_function	9823	inferred	1	397671	PPARG
+GO:0000989	transcription factor binding transcription factor activity	molecular_function	9823	inferred	1	397671	PPARG
+GO:0001071	nucleic acid binding transcription factor activity	molecular_function	9823	inferred	1	396840	SOX9
+GO:0001077	RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription	molecular_function	9823	inferred	1	396840	SOX9
+GO:0001101	response to acid chemical	biological_process	9823	inferred	1	397671	PPARG
+GO:0001228	RNA polymerase II transcription regulatory region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription	molecular_function	9823	inferred	1	396840	SOX9
+GO:0001516	prostaglandin biosynthetic process	biological_process	9823	inferred	2	100127469|100134955	BDKRB1|FAM213B
+GO:0001556	oocyte maturation	biological_process	9823	inferred	1	396891	RLN
+GO:0001616	growth hormone secretagogue receptor activity	molecular_function	9823	inferred	1	397372	GHSR
+GO:0001653	peptide receptor activity	molecular_function	9823	inferred	1	397638	CALCR
+GO:0001664	G-protein coupled receptor binding	molecular_function	9823	inferred	2	399501|445018	ADRA2A|PYY
+GO:0001666	response to hypoxia	biological_process	9823	inferred	1	396965	PRL
+GO:0001674	female germ cell nucleus	cellular_component	9823	inferred	2	397493|397652	PRKAR2A|PRKACA
+GO:0001676	long-chain fatty acid metabolic process	biological_process	9823	inferred	2	396971|100127469	ALOX12|BDKRB1
+GO:0001701	in utero embryonic development	biological_process	9823	inferred	1	396891	RLN
+GO:0001730	2'-5'-oligoadenylate synthetase activity	molecular_function	9823	inferred	1	397570	OAS1
+GO:0001807	regulation of type IV hypersensitivity	biological_process	9823	inferred	1	396927	ZP3
+GO:0001809	positive regulation of type IV hypersensitivity	biological_process	9823	inferred	1	396927	ZP3
+GO:0001816	cytokine production	biological_process	9823	inferred	2	397057|445525	IL18|PLA2G1B
+GO:0001817	regulation of cytokine production	biological_process	9823	inferred	1	396965	PRL
+GO:0001819	positive regulation of cytokine production	biological_process	9823	inferred	1	396965	PRL
+GO:0001824	blastocyst development	biological_process	9823	inferred	1	396891	RLN
+GO:0001832	blastocyst growth	biological_process	9823	inferred	1	396891	RLN
+GO:0001882	nucleoside binding	molecular_function	9823	inferred	2	397085|397481	MYO6|ATP1A1
+GO:0001883	purine nucleoside binding	molecular_function	9823	inferred	2	397085|397481	MYO6|ATP1A1
+GO:0001932	regulation of protein phosphorylation	biological_process	9823	inferred	8	396851|396884|397225|397415|397488|397493|397595|445525	PIK3R5|GH1|IL4|INS|GHR|PRKAR2A|GCG|PLA2G1B
+GO:0001933	negative regulation of protein phosphorylation	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:0001934	positive regulation of protein phosphorylation	biological_process	9823	inferred	7	396851|396884|397225|397415|397488|397595|445525	PIK3R5|GH1|IL4|INS|GHR|GCG|PLA2G1B
+GO:0001936	regulation of endothelial cell proliferation	biological_process	9823	inferred	1	396965	PRL
+GO:0001938	positive regulation of endothelial cell proliferation	biological_process	9823	inferred	1	396965	PRL
+GO:0002237	response to molecule of bacterial origin	biological_process	9823	inferred	2	396764|396913	SLC11A1|C-JUN
+GO:0002252	immune effector process	biological_process	9823	inferred	3	397128|397570|445525	MX1|OAS1|PLA2G1B
+GO:0002376	immune system process	biological_process	9823	inferred	8	396913|397072|397084|397128|397347|397570|403324|445525	C-JUN|C3|TGFB2|MX1|CD59|OAS1|CYP3A29|PLA2G1B
+GO:0002443	leukocyte mediated immunity	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0002444	myeloid leukocyte mediated immunity	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0002446	neutrophil mediated immunity	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0002526	acute inflammatory response	biological_process	9823	inferred	1	396799	ITIH4
+GO:0002673	regulation of acute inflammatory response	biological_process	9823	inferred	1	396927	ZP3
+GO:0002675	positive regulation of acute inflammatory response	biological_process	9823	inferred	1	396927	ZP3
+GO:0002682	regulation of immune system process	biological_process	9823	inferred	3	396927|397084|445525	ZP3|TGFB2|PLA2G1B
+GO:0002684	positive regulation of immune system process	biological_process	9823	inferred	3	396927|397084|445525	ZP3|TGFB2|PLA2G1B
+GO:0002697	regulation of immune effector process	biological_process	9823	inferred	1	396927	ZP3
+GO:0002699	positive regulation of immune effector process	biological_process	9823	inferred	1	396927	ZP3
+GO:0002703	regulation of leukocyte mediated immunity	biological_process	9823	inferred	1	396927	ZP3
+GO:0002705	positive regulation of leukocyte mediated immunity	biological_process	9823	inferred	1	396927	ZP3
+GO:0002706	regulation of lymphocyte mediated immunity	biological_process	9823	inferred	1	396927	ZP3
+GO:0002708	positive regulation of lymphocyte mediated immunity	biological_process	9823	inferred	1	396927	ZP3
+GO:0002709	regulation of T cell mediated immunity	biological_process	9823	inferred	1	396927	ZP3
+GO:0002711	positive regulation of T cell mediated immunity	biological_process	9823	inferred	1	396927	ZP3
+GO:0002791	regulation of peptide secretion	biological_process	9823	inferred	1	497059	SSTR2
+GO:0002792	negative regulation of peptide secretion	biological_process	9823	inferred	1	497059	SSTR2
+GO:0002819	regulation of adaptive immune response	biological_process	9823	inferred	1	396927	ZP3
+GO:0002821	positive regulation of adaptive immune response	biological_process	9823	inferred	1	396927	ZP3
+GO:0002822	regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	biological_process	9823	inferred	1	396927	ZP3
+GO:0002824	positive regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	biological_process	9823	inferred	1	396927	ZP3
+GO:0002861	regulation of inflammatory response to antigenic stimulus	biological_process	9823	inferred	1	396927	ZP3
+GO:0002863	positive regulation of inflammatory response to antigenic stimulus	biological_process	9823	inferred	1	396927	ZP3
+GO:0002864	regulation of acute inflammatory response to antigenic stimulus	biological_process	9823	inferred	1	396927	ZP3
+GO:0002866	positive regulation of acute inflammatory response to antigenic stimulus	biological_process	9823	inferred	1	396927	ZP3
+GO:0002883	regulation of hypersensitivity	biological_process	9823	inferred	1	396927	ZP3
+GO:0002885	positive regulation of hypersensitivity	biological_process	9823	inferred	1	396927	ZP3
+GO:0003006	developmental process involved in reproduction	biological_process	9823	inferred	1	396891	RLN
+GO:0003008	system process	biological_process	9823	inferred	3	396863|397277|100127469	POMC|B2R|BDKRB1
+GO:0003012	muscle system process	biological_process	9823	inferred	2	397277|100127469	B2R|BDKRB1
+GO:0003014	renal system process	biological_process	9823	inferred	1	100127469	BDKRB1
+GO:0003674	molecular_function	molecular_function	9823	inferred	64	396688|396712|396724|396766|396807|396840|396851|396863|396875|396898|396913|396933|396940|396959|396960|396971|396978|397018|397057|397078|397082|397085|397096|397098|397109|397128|397130|397132|397134|397141|397189|397196|397317|397343|397372|397415|397419|397436|397481|397488|397493|397500|397570|397638|397652|397671|397676|399501|403124|406192|414283|414412|445018|445525|445537|494014|497059|733686|780433|100048954|100134955|100155163|100301483|100524676	COASY|LHX3|OLR1|CELA1|MYL6|SOX9|PIK3R5|POMC|ATP2A2|ATP1B1|C-JUN|FUT8|AMEL|CARP|ALB|ALOX12|OXCT1|SCARB1|IL18|TGFB1|DHRS4|MYO6|ENG|ACR|DPYD|MX1|HMGB2|FMO1|DAO1|NPL|MIOX|DPEP1|ACRBP|ADAM17|GHSR|INS|TTR|CASQ2|ATP1A1|GHR|PRKAR2A|ABAT|OAS1|CALCR|PRKACA|PPARG|ZAN|ADRA2A|IYD|ANXA2|ADCYAP1|SDHB|PYY|PLA2G1B|ST3GAL1|PRNP|SSTR2|TUBB2A|SDHA|SDHD|FAM213B|LOC100155163|S100A12|SDHC
+GO:0003676	nucleic acid binding	molecular_function	9823	inferred	4	396712|396913|397130|397671	LHX3|C-JUN|HMGB2|PPARG
+GO:0003677	DNA binding	molecular_function	9823	inferred	4	396712|396913|397130|397671	LHX3|C-JUN|HMGB2|PPARG
+GO:0003700	sequence-specific DNA binding transcription factor activity	molecular_function	9823	inferred	1	396840	SOX9
+GO:0003712	transcription cofactor activity	molecular_function	9823	inferred	1	397671	PPARG
+GO:0003713	transcription coactivator activity	molecular_function	9823	inferred	1	397671	PPARG
+GO:0003774	motor activity	molecular_function	9823	inferred	1	397085	MYO6
+GO:0003779	actin binding	molecular_function	9823	inferred	2	396959|397085	CARP|MYO6
+GO:0003824	catalytic activity	molecular_function	9823	inferred	24	396688|396807|396898|396933|396971|396978|397082|397085|397098|397109|397128|397132|397134|397141|397189|397343|397481|397500|397570|397652|403124|445525|445537|100134955	COASY|MYL6|ATP1B1|FUT8|ALOX12|OXCT1|DHRS4|MYO6|ACR|DPYD|MX1|FMO1|DAO1|NPL|MIOX|ADAM17|ATP1A1|ABAT|OAS1|PRKACA|IYD|PLA2G1B|ST3GAL1|FAM213B
+GO:0003836	beta-galactoside (CMP) alpha-2,3-sialyltransferase activity	molecular_function	9823	inferred	1	445537	ST3GAL1
+GO:0003867	4-aminobutyrate transaminase activity	molecular_function	9823	inferred	1	397500	ABAT
+GO:0003884	D-amino-acid oxidase activity	molecular_function	9823	inferred	1	397134	DAO1
+GO:0003924	GTPase activity	molecular_function	9823	inferred	1	397128	MX1
+GO:0004040	amidase activity	molecular_function	9823	inferred	1	397098	ACR
+GO:0004052	arachidonate 12-lipoxygenase activity	molecular_function	9823	inferred	1	396971	ALOX12
+GO:0004140	dephospho-CoA kinase activity	molecular_function	9823	inferred	1	396688	COASY
+GO:0004175	endopeptidase activity	molecular_function	9823	inferred	1	397343	ADAM17
+GO:0004222	metalloendopeptidase activity	molecular_function	9823	inferred	1	397343	ADAM17
+GO:0004447	iodide peroxidase activity	molecular_function	9823	inferred	1	403124	IYD
+GO:0004497	monooxygenase activity	molecular_function	9823	inferred	1	397132	FMO1
+GO:0004499	N,N-dimethylaniline monooxygenase activity	molecular_function	9823	inferred	1	397132	FMO1
+GO:0004595	pantetheine-phosphate adenylyltransferase activity	molecular_function	9823	inferred	1	396688	COASY
+GO:0004601	peroxidase activity	molecular_function	9823	inferred	1	403124	IYD
+GO:0004620	phospholipase activity	molecular_function	9823	inferred	1	445525	PLA2G1B
+GO:0004623	phospholipase A2 activity	molecular_function	9823	inferred	1	445525	PLA2G1B
+GO:0004672	protein kinase activity	molecular_function	9823	inferred	1	397652	PRKACA
+GO:0004674	protein serine/threonine kinase activity	molecular_function	9823	inferred	1	397652	PRKACA
+GO:0004690	cyclic nucleotide-dependent protein kinase activity	molecular_function	9823	inferred	1	397652	PRKACA
+GO:0004691	cAMP-dependent protein kinase activity	molecular_function	9823	inferred	1	397652	PRKACA
+GO:0004871	signal transducer activity	molecular_function	9823	inferred	3	397372|397638|399501	GHSR|CALCR|ADRA2A
+GO:0004872	receptor activity	molecular_function	9823	inferred	4	397018|397372|397638|399501	SCARB1|GHSR|CALCR|ADRA2A
+GO:0004888	transmembrane signaling receptor activity	molecular_function	9823	inferred	3	397372|397638|399501	GHSR|CALCR|ADRA2A
+GO:0004930	G-protein coupled receptor activity	molecular_function	9823	inferred	3	397372|397638|399501	GHSR|CALCR|ADRA2A
+GO:0004935	adrenergic receptor activity	molecular_function	9823	inferred	1	399501	ADRA2A
+GO:0004936	alpha-adrenergic receptor activity	molecular_function	9823	inferred	1	399501	ADRA2A
+GO:0004938	alpha2-adrenergic receptor activity	molecular_function	9823	inferred	1	399501	ADRA2A
+GO:0004948	calcitonin receptor activity	molecular_function	9823	inferred	1	397638	CALCR
+GO:0005096	GTPase activator activity	molecular_function	9823	inferred	1	100155163	LOC100155163
+GO:0005102	receptor binding	molecular_function	9823	inferred	7	396863|397057|397096|399501|414283|445018|445525	POMC|IL18|ENG|ADRA2A|ADCYAP1|PYY|PLA2G1B
+GO:0005114	type II transforming growth factor beta receptor binding	molecular_function	9823	inferred	1	397096	ENG
+GO:0005125	cytokine activity	molecular_function	9823	inferred	1	397057	IL18
+GO:0005126	cytokine receptor binding	molecular_function	9823	inferred	1	397096	ENG
+GO:0005160	transforming growth factor beta receptor binding	molecular_function	9823	inferred	1	397096	ENG
+GO:0005179	hormone activity	molecular_function	9823	inferred	2	396863|414283	POMC|ADCYAP1
+GO:0005198	structural molecule activity	molecular_function	9823	inferred	1	396807	MYL6
+GO:0005215	transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0005391	sodium:potassium-exchanging ATPase activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0005488	binding	molecular_function	9823	inferred	45	396712|396724|396766|396851|396863|396875|396898|396913|396940|396959|396960|396971|396978|397057|397078|397085|397096|397098|397109|397130|397196|397317|397415|397419|397436|397481|397488|397493|397500|397638|397671|397676|399501|406192|414283|414412|445018|445525|494014|497059|733686|780433|100048954|100301483|100524676	LHX3|OLR1|CELA1|PIK3R5|POMC|ATP2A2|ATP1B1|C-JUN|AMEL|CARP|ALB|ALOX12|OXCT1|IL18|TGFB1|MYO6|ENG|ACR|DPYD|HMGB2|DPEP1|ACRBP|INS|TTR|CASQ2|ATP1A1|GHR|PRKAR2A|ABAT|CALCR|PPARG|ZAN|ADRA2A|ANXA2|ADCYAP1|SDHB|PYY|PLA2G1B|PRNP|SSTR2|TUBB2A|SDHA|SDHD|S100A12|SDHC
+GO:0005496	steroid binding	molecular_function	9823	inferred	1	445525	PLA2G1B
+GO:0005506	iron ion binding	molecular_function	9823	inferred	1	396971	ALOX12
+GO:0005509	calcium ion binding	molecular_function	9823	inferred	1	100301483	S100A12
+GO:0005515	protein binding	molecular_function	9823	inferred	34	396724|396766|396851|396863|396875|396898|396940|396959|396978|397057|397078|397085|397096|397098|397109|397317|397415|397436|397481|397488|397493|397500|399501|406192|414283|414412|445018|445525|494014|497059|733686|780433|100048954|100524676	OLR1|CELA1|PIK3R5|POMC|ATP2A2|ATP1B1|AMEL|CARP|OXCT1|IL18|TGFB1|MYO6|ENG|ACR|DPYD|ACRBP|INS|CASQ2|ATP1A1|GHR|PRKAR2A|ABAT|ADRA2A|ANXA2|ADCYAP1|SDHB|PYY|PLA2G1B|PRNP|SSTR2|TUBB2A|SDHA|SDHD|SDHC
+GO:0005516	calmodulin binding	molecular_function	9823	inferred	1	397085	MYO6
+GO:0005524	ATP binding	molecular_function	9823	inferred	1	397481	ATP1A1
+GO:0005539	glycosaminoglycan binding	molecular_function	9823	inferred	1	397096	ENG
+GO:0005543	phospholipid binding	molecular_function	9823	inferred	1	397196	DPEP1
+GO:0005575	cellular_component	cellular_component	9823	inferred	59	396712|396728|396764|396851|396863|396871|396874|396894|396898|396913|396957|396959|396960|396965|397018|397077|397085|397091|397098|397110|397128|397154|397189|397192|397196|397245|397372|397396|397419|397436|397460|397481|397486|397487|397493|397500|397570|397646|397652|397676|397691|399501|404693|406192|414412|414915|431672|445525|497059|733606|780405|780433|100037961|100048934|100048954|100134955|100151746|100513764|100524676	LHX3|GHRL|SLC11A1|PIK3R5|POMC|NPG4|GSN|MDH1|ATP1B1|C-JUN|DCN|CARP|ALB|PRL|SCARB1|FOXO1|MYO6|PRKAR1A|ACR|SCG5|MX1|CHGB|MIOX|VTN|DPEP1|ATP1B4|GHSR|BGN|TTR|CASQ2|TNC|ATP1A1|PRM2|PRM1|PRKAR2A|ABAT|OAS1|NLN|PRKACA|ZAN|APOA1|ADRA2A|CAV1|ANXA2|SDHB|LGALS1|DDX4|PLA2G1B|SSTR2|TMSB4X|APOA1BP|SDHA|CTSB|WEE1B|SDHD|FAM213B|FLOT1|LOC100513764|SDHC
+GO:0005576	extracellular region	cellular_component	9823	inferred	10	396728|396871|396874|396960|396965|397196|397419|397691|780405|100037961	GHRL|NPG4|GSN|ALB|PRL|DPEP1|TTR|APOA1|APOA1BP|CTSB
+GO:0005615	extracellular space	cellular_component	9823	inferred	9	396728|396871|396960|396965|397196|397419|397691|780405|100037961	GHRL|NPG4|ALB|PRL|DPEP1|TTR|APOA1|APOA1BP|CTSB
+GO:0005622	intracellular	cellular_component	9823	inferred	34	396712|396764|396851|396874|396894|396913|396959|397077|397085|397091|397110|397128|397154|397189|397196|397245|397436|397486|397487|397493|397500|397570|397646|397652|414412|431672|445525|733606|780433|100048934|100048954|100134955|100513764|100524676	LHX3|SLC11A1|PIK3R5|GSN|MDH1|C-JUN|CARP|FOXO1|MYO6|PRKAR1A|SCG5|MX1|CHGB|MIOX|DPEP1|ATP1B4|CASQ2|PRM2|PRM1|PRKAR2A|ABAT|OAS1|NLN|PRKACA|SDHB|DDX4|PLA2G1B|TMSB4X|SDHA|WEE1B|SDHD|FAM213B|LOC100513764|SDHC
+GO:0005623	cell	cellular_component	9823	inferred	44	396712|396764|396851|396863|396874|396894|396898|396913|396959|397018|397077|397085|397091|397110|397128|397154|397189|397196|397245|397372|397436|397481|397486|397487|397493|397500|397570|397646|397652|397676|399501|404693|414412|431672|445525|497059|733606|780433|100048934|100048954|100134955|100151746|100513764|100524676	LHX3|SLC11A1|PIK3R5|POMC|GSN|MDH1|ATP1B1|C-JUN|CARP|SCARB1|FOXO1|MYO6|PRKAR1A|SCG5|MX1|CHGB|MIOX|DPEP1|ATP1B4|GHSR|CASQ2|ATP1A1|PRM2|PRM1|PRKAR2A|ABAT|OAS1|NLN|PRKACA|ZAN|ADRA2A|CAV1|SDHB|DDX4|PLA2G1B|SSTR2|TMSB4X|SDHA|WEE1B|SDHD|FAM213B|FLOT1|LOC100513764|SDHC
+GO:0005634	nucleus	cellular_component	9823	inferred	11	396712|396913|397077|397245|397486|397487|397493|397652|733606|100048934|100513764	LHX3|C-JUN|FOXO1|ATP1B4|PRM2|PRM1|PRKAR2A|PRKACA|TMSB4X|WEE1B|LOC100513764
+GO:0005635	nuclear envelope	cellular_component	9823	inferred	1	397245	ATP1B4
+GO:0005637	nuclear inner membrane	cellular_component	9823	inferred	1	397245	ATP1B4
+GO:0005737	cytoplasm	cellular_component	9823	inferred	23	396851|396874|396894|396959|397077|397085|397091|397110|397128|397154|397196|397436|397493|397570|397646|397652|414412|431672|733606|780433|100048954|100134955|100524676	PIK3R5|GSN|MDH1|CARP|FOXO1|MYO6|PRKAR1A|SCG5|MX1|CHGB|DPEP1|CASQ2|PRKAR2A|OAS1|NLN|PRKACA|SDHB|DDX4|TMSB4X|SDHA|SDHD|FAM213B|SDHC
+GO:0005739	mitochondrion	cellular_component	9823	inferred	5	397646|414412|780433|100048954|100524676	NLN|SDHB|SDHA|SDHD|SDHC
+GO:0005740	mitochondrial envelope	cellular_component	9823	inferred	4	414412|780433|100048954|100524676	SDHB|SDHA|SDHD|SDHC
+GO:0005743	mitochondrial inner membrane	cellular_component	9823	inferred	4	414412|780433|100048954|100524676	SDHB|SDHA|SDHD|SDHC
+GO:0005746	mitochondrial respiratory chain	cellular_component	9823	inferred	4	414412|780433|100048954|100524676	SDHB|SDHA|SDHD|SDHC
+GO:0005749	mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone)	cellular_component	9823	inferred	4	414412|780433|100048954|100524676	SDHB|SDHA|SDHD|SDHC
+GO:0005783	endoplasmic reticulum	cellular_component	9823	inferred	1	397196	DPEP1
+GO:0005789	endoplasmic reticulum membrane	cellular_component	9823	inferred	1	397196	DPEP1
+GO:0005829	cytosol	cellular_component	9823	inferred	4	396874|396894|397646|100134955	GSN|MDH1|NLN|FAM213B
+GO:0005856	cytoskeleton	cellular_component	9823	inferred	1	397085	MYO6
+GO:0005884	actin filament	cellular_component	9823	inferred	1	397085	MYO6
+GO:0005886	plasma membrane	cellular_component	9823	inferred	8	396898|397018|397196|397481|397676|399501|404693|497059	ATP1B1|SCARB1|DPEP1|ATP1A1|ZAN|ADRA2A|CAV1|SSTR2
+GO:0005887	integral component of plasma membrane	cellular_component	9823	inferred	4	396898|397481|399501|497059	ATP1B1|ATP1A1|ADRA2A|SSTR2
+GO:0005890	sodium:potassium-exchanging ATPase complex	cellular_component	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0005901	caveola	cellular_component	9823	inferred	2	397018|404693	SCARB1|CAV1
+GO:0005938	cell cortex	cellular_component	9823	inferred	1	397085	MYO6
+GO:0005942	phosphatidylinositol 3-kinase complex	cellular_component	9823	inferred	1	396851	PIK3R5
+GO:0005944	phosphatidylinositol 3-kinase complex, class IB	cellular_component	9823	inferred	1	396851	PIK3R5
+GO:0005975	carbohydrate metabolic process	biological_process	9823	inferred	2	397189|445537	MIOX|ST3GAL1
+GO:0006020	inositol metabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:0006040	amino sugar metabolic process	biological_process	9823	inferred	1	445537	ST3GAL1
+GO:0006054	N-acetylneuraminate metabolic process	biological_process	9823	inferred	1	445537	ST3GAL1
+GO:0006066	alcohol metabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:0006082	organic acid metabolic process	biological_process	9823	inferred	6	396971|397132|445525|445537|100127469|100134955	ALOX12|FMO1|PLA2G1B|ST3GAL1|BDKRB1|FAM213B
+GO:0006139	nucleobase-containing compound metabolic process	biological_process	9823	inferred	4	397130|397132|397570|445521	HMGB2|FMO1|OAS1|HMGB1
+GO:0006140	regulation of nucleotide metabolic process	biological_process	9823	inferred	3	397638|399501|414283	CALCR|ADRA2A|ADCYAP1
+GO:0006163	purine nucleotide metabolic process	biological_process	9823	inferred	1	397570	OAS1
+GO:0006164	purine nucleotide biosynthetic process	biological_process	9823	inferred	1	397570	OAS1
+GO:0006259	DNA metabolic process	biological_process	9823	inferred	2	397130|445521	HMGB2|HMGB1
+GO:0006265	DNA topological change	biological_process	9823	inferred	1	397130	HMGB2
+GO:0006266	DNA ligation	biological_process	9823	inferred	2	397130|445521	HMGB2|HMGB1
+GO:0006275	regulation of DNA replication	biological_process	9823	inferred	3	397415|397491|445525	INS|IGF1|PLA2G1B
+GO:0006281	DNA repair	biological_process	9823	inferred	2	397130|445521	HMGB2|HMGB1
+GO:0006355	regulation of transcription, DNA-templated	biological_process	9823	inferred	6	396712|396840|396913|397501|397671|445525	LHX3|SOX9|C-JUN|POU2F1|PPARG|PLA2G1B
+GO:0006357	regulation of transcription from RNA polymerase II promoter	biological_process	9823	inferred	3	396840|397671|445525	SOX9|PPARG|PLA2G1B
+GO:0006464	cellular protein modification process	biological_process	9823	inferred	3	396764|397077|445537	SLC11A1|FOXO1|ST3GAL1
+GO:0006468	protein phosphorylation	biological_process	9823	inferred	2	396764|397077	SLC11A1|FOXO1
+GO:0006469	negative regulation of protein kinase activity	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:0006486	protein glycosylation	biological_process	9823	inferred	1	445537	ST3GAL1
+GO:0006487	protein N-linked glycosylation	biological_process	9823	inferred	1	445537	ST3GAL1
+GO:0006505	GPI anchor metabolic process	biological_process	9823	inferred	1	397196	DPEP1
+GO:0006507	GPI anchor release	biological_process	9823	inferred	1	397196	DPEP1
+GO:0006508	proteolysis	biological_process	9823	inferred	1	397343	ADAM17
+GO:0006509	membrane protein ectodomain proteolysis	biological_process	9823	inferred	1	397343	ADAM17
+GO:0006629	lipid metabolic process	biological_process	9823	inferred	5	396971|397196|445525|100127469|100134955	ALOX12|DPEP1|PLA2G1B|BDKRB1|FAM213B
+GO:0006631	fatty acid metabolic process	biological_process	9823	inferred	4	396971|445525|100127469|100134955	ALOX12|PLA2G1B|BDKRB1|FAM213B
+GO:0006633	fatty acid biosynthetic process	biological_process	9823	inferred	3	445525|100127469|100134955	PLA2G1B|BDKRB1|FAM213B
+GO:0006636	unsaturated fatty acid biosynthetic process	biological_process	9823	inferred	3	445525|100127469|100134955	PLA2G1B|BDKRB1|FAM213B
+GO:0006643	membrane lipid metabolic process	biological_process	9823	inferred	1	397196	DPEP1
+GO:0006644	phospholipid metabolic process	biological_process	9823	inferred	1	397196	DPEP1
+GO:0006650	glycerophospholipid metabolic process	biological_process	9823	inferred	1	397196	DPEP1
+GO:0006664	glycolipid metabolic process	biological_process	9823	inferred	1	397196	DPEP1
+GO:0006690	icosanoid metabolic process	biological_process	9823	inferred	4	396971|445525|100127469|100134955	ALOX12|PLA2G1B|BDKRB1|FAM213B
+GO:0006691	leukotriene metabolic process	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0006692	prostanoid metabolic process	biological_process	9823	inferred	2	100127469|100134955	BDKRB1|FAM213B
+GO:0006693	prostaglandin metabolic process	biological_process	9823	inferred	2	100127469|100134955	BDKRB1|FAM213B
+GO:0006725	cellular aromatic compound metabolic process	biological_process	9823	inferred	4	397130|397132|397570|445521	HMGB2|FMO1|OAS1|HMGB1
+GO:0006732	coenzyme metabolic process	biological_process	9823	inferred	1	397132	FMO1
+GO:0006733	oxidoreduction coenzyme metabolic process	biological_process	9823	inferred	1	397132	FMO1
+GO:0006739	NADP metabolic process	biological_process	9823	inferred	1	397132	FMO1
+GO:0006753	nucleoside phosphate metabolic process	biological_process	9823	inferred	2	397132|397570	FMO1|OAS1
+GO:0006793	phosphorus metabolic process	biological_process	9823	inferred	5	396764|397077|397132|397196|397570	SLC11A1|FOXO1|FMO1|DPEP1|OAS1
+GO:0006796	phosphate-containing compound metabolic process	biological_process	9823	inferred	5	396764|397077|397132|397196|397570	SLC11A1|FOXO1|FMO1|DPEP1|OAS1
+GO:0006807	nitrogen compound metabolic process	biological_process	9823	inferred	4	397130|397132|397570|445521	HMGB2|FMO1|OAS1|HMGB1
+GO:0006810	transport	biological_process	9823	inferred	7	396801|396863|396898|397018|397085|397481|445525	LDLR|POMC|ATP1B1|SCARB1|MYO6|ATP1A1|PLA2G1B
+GO:0006811	ion transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0006812	cation transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0006813	potassium ion transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0006814	sodium ion transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0006869	lipid transport	biological_process	9823	inferred	1	396863	POMC
+GO:0006873	cellular ion homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0006875	cellular metal ion homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0006883	cellular sodium ion homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0006886	intracellular protein transport	biological_process	9823	inferred	1	397085	MYO6
+GO:0006897	endocytosis	biological_process	9823	inferred	2	397018|397085	SCARB1|MYO6
+GO:0006898	receptor-mediated endocytosis	biological_process	9823	inferred	1	397018	SCARB1
+GO:0006915	apoptotic process	biological_process	9823	inferred	1	397057	IL18
+GO:0006935	chemotaxis	biological_process	9823	inferred	2	397084|445525	TGFB2|PLA2G1B
+GO:0006936	muscle contraction	biological_process	9823	inferred	1	397277	B2R
+GO:0006937	regulation of muscle contraction	biological_process	9823	inferred	1	100127469	BDKRB1
+GO:0006939	smooth muscle contraction	biological_process	9823	inferred	1	397277	B2R
+GO:0006940	regulation of smooth muscle contraction	biological_process	9823	inferred	1	100127469	BDKRB1
+GO:0006950	response to stress	biological_process	9823	inferred	10	396799|396965|397072|397128|397130|397196|397347|397570|403324|445521	ITIH4|PRL|C3|MX1|HMGB2|DPEP1|CD59|OAS1|CYP3A29|HMGB1
+GO:0006952	defense response	biological_process	9823	inferred	6	396799|397072|397128|397347|397570|403324	ITIH4|C3|MX1|CD59|OAS1|CYP3A29
+GO:0006953	acute-phase response	biological_process	9823	inferred	1	396799	ITIH4
+GO:0006954	inflammatory response	biological_process	9823	inferred	1	396799	ITIH4
+GO:0006955	immune response	biological_process	9823	inferred	5	396913|397072|397128|397347|403324	C-JUN|C3|MX1|CD59|CYP3A29
+GO:0006974	cellular response to DNA damage stimulus	biological_process	9823	inferred	2	397130|445521	HMGB2|HMGB1
+GO:0006979	response to oxidative stress	biological_process	9823	inferred	1	397196	DPEP1
+GO:0006996	organelle organization	biological_process	9823	inferred	2	397130|100048934	HMGB2|WEE1B
+GO:0007049	cell cycle	biological_process	9823	inferred	1	100048934	WEE1B
+GO:0007126	meiotic nuclear division	biological_process	9823	inferred	1	100048934	WEE1B
+GO:0007143	female meiotic division	biological_process	9823	inferred	1	100048934	WEE1B
+GO:0007154	cell communication	biological_process	9823	inferred	11	396764|396851|396863|396884|397057|397077|397096|397372|397488|414283|445525	SLC11A1|PIK3R5|POMC|GH1|IL18|FOXO1|ENG|GHSR|GHR|ADCYAP1|PLA2G1B
+GO:0007165	signal transduction	biological_process	9823	inferred	10	396764|396851|396884|397057|397077|397096|397372|397488|414283|445525	SLC11A1|PIK3R5|GH1|IL18|FOXO1|ENG|GHSR|GHR|ADCYAP1|PLA2G1B
+GO:0007166	cell surface receptor signaling pathway	biological_process	9823	inferred	8	396851|396884|397057|397077|397096|397372|397488|414283	PIK3R5|GH1|IL18|FOXO1|ENG|GHSR|GHR|ADCYAP1
+GO:0007167	enzyme linked receptor protein signaling pathway	biological_process	9823	inferred	4	396884|397077|397096|397488	GH1|FOXO1|ENG|GHR
+GO:0007169	transmembrane receptor protein tyrosine kinase signaling pathway	biological_process	9823	inferred	3	396884|397077|397488	GH1|FOXO1|GHR
+GO:0007178	transmembrane receptor protein serine/threonine kinase signaling pathway	biological_process	9823	inferred	1	397096	ENG
+GO:0007179	transforming growth factor beta receptor signaling pathway	biological_process	9823	inferred	1	397096	ENG
+GO:0007186	G-protein coupled receptor signaling pathway	biological_process	9823	inferred	3	396851|397372|414283	PIK3R5|GHSR|ADCYAP1
+GO:0007187	G-protein coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger	biological_process	9823	inferred	1	414283	ADCYAP1
+GO:0007188	adenylate cyclase-modulating G-protein coupled receptor signaling pathway	biological_process	9823	inferred	1	414283	ADCYAP1
+GO:0007189	adenylate cyclase-activating G-protein coupled receptor signaling pathway	biological_process	9823	inferred	1	414283	ADCYAP1
+GO:0007194	negative regulation of adenylate cyclase activity	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0007202	activation of phospholipase C activity	biological_process	9823	inferred	1	397638	CALCR
+GO:0007267	cell-cell signaling	biological_process	9823	inferred	1	396863	POMC
+GO:0007275	multicellular organismal development	biological_process	9823	inferred	1	396891	RLN
+GO:0007276	gamete generation	biological_process	9823	inferred	1	396891	RLN
+GO:0007281	germ cell development	biological_process	9823	inferred	1	396891	RLN
+GO:0007292	female gamete generation	biological_process	9823	inferred	1	396891	RLN
+GO:0007338	single fertilization	biological_process	9823	inferred	1	397676	ZAN
+GO:0007339	binding of sperm to zona pellucida	biological_process	9823	inferred	1	397676	ZAN
+GO:0007588	excretion	biological_process	9823	inferred	1	100127469	BDKRB1
+GO:0008037	cell recognition	biological_process	9823	inferred	1	397676	ZAN
+GO:0008047	enzyme activator activity	molecular_function	9823	inferred	1	100155163	LOC100155163
+GO:0008092	cytoskeletal protein binding	molecular_function	9823	inferred	3	396959|397085|494014	CARP|MYO6|PRNP
+GO:0008104	protein localization	biological_process	9823	inferred	1	397085	MYO6
+GO:0008144	drug binding	molecular_function	9823	inferred	1	397098	ACR
+GO:0008150	biological_process	biological_process	9823	inferred	67	396712|396721|396724|396764|396799|396801|396807|396840|396851|396863|396884|396891|396898|396913|396927|396965|396971|397018|397057|397064|397072|397077|397082|397084|397085|397086|397091|397096|397122|397128|397130|397132|397134|397135|397189|397196|397225|397277|397343|397347|397372|397415|397481|397488|397491|397493|397501|397557|397570|397595|397638|397652|397671|397676|399500|399501|403324|414283|414737|445521|445525|445537|497059|100048934|100127469|100134955|100155163	LHX3|IL13|OLR1|SLC11A1|ITIH4|LDLR|MYL6|SOX9|PIK3R5|POMC|GH1|RLN|ATP1B1|C-JUN|ZP3|PRL|ALOX12|SCARB1|IL18|IGFBP2|C3|FOXO1|DHRS4|TGFB2|MYO6|TNF|PRKAR1A|ENG|IL1B1|MX1|HMGB2|FMO1|DAO1|CAST|MIOX|DPEP1|IL4|B2R|ADAM17|CD59|GHSR|INS|ATP1A1|GHR|IGF1|PRKAR2A|POU2F1|NOS3|OAS1|GCG|CALCR|PRKACA|PPARG|ZAN|IL6|ADRA2A|CYP3A29|ADCYAP1|CDH5|HMGB1|PLA2G1B|ST3GAL1|SSTR2|WEE1B|BDKRB1|FAM213B|LOC100155163
+GO:0008152	metabolic process	biological_process	9823	inferred	21	396764|396807|396971|397057|397077|397082|397085|397128|397130|397132|397134|397135|397189|397196|397343|397570|445521|445525|445537|100127469|100134955	SLC11A1|MYL6|ALOX12|IL18|FOXO1|DHRS4|MYO6|MX1|HMGB2|FMO1|DAO1|CAST|MIOX|DPEP1|ADAM17|OAS1|HMGB1|PLA2G1B|ST3GAL1|BDKRB1|FAM213B
+GO:0008219	cell death	biological_process	9823	inferred	1	397057	IL18
+GO:0008227	G-protein coupled amine receptor activity	molecular_function	9823	inferred	1	399501	ADRA2A
+GO:0008233	peptidase activity	molecular_function	9823	inferred	1	397343	ADAM17
+GO:0008237	metallopeptidase activity	molecular_function	9823	inferred	1	397343	ADAM17
+GO:0008260	3-oxoacid CoA-transferase activity	molecular_function	9823	inferred	1	396978	OXCT1
+GO:0008270	zinc ion binding	molecular_function	9823	inferred	1	100301483	S100A12
+GO:0008277	regulation of G-protein coupled receptor protein signaling pathway	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0008284	positive regulation of cell proliferation	biological_process	9823	inferred	4	396891|396965|397057|445525	RLN|PRL|IL18|PLA2G1B
+GO:0008286	insulin receptor signaling pathway	biological_process	9823	inferred	1	397077	FOXO1
+GO:0008289	lipid binding	molecular_function	9823	inferred	2	397196|445525	DPEP1|PLA2G1B
+GO:0008301	DNA binding, bending	molecular_function	9823	inferred	1	397130	HMGB2
+GO:0008307	structural constituent of muscle	molecular_function	9823	inferred	1	396807	MYL6
+GO:0008324	cation transmembrane transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0008373	sialyltransferase activity	molecular_function	9823	inferred	1	445537	ST3GAL1
+GO:0008410	CoA-transferase activity	molecular_function	9823	inferred	1	396978	OXCT1
+GO:0008483	transaminase activity	molecular_function	9823	inferred	1	397500	ABAT
+GO:0008528	G-protein coupled peptide receptor activity	molecular_function	9823	inferred	1	397638	CALCR
+GO:0008556	potassium-transporting ATPase activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0008610	lipid biosynthetic process	biological_process	9823	inferred	3	445525|100127469|100134955	PLA2G1B|BDKRB1|FAM213B
+GO:0008625	extrinsic apoptotic signaling pathway via death domain receptors	biological_process	9823	inferred	1	397057	IL18
+GO:0008643	carbohydrate transport	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0008645	hexose transport	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0008747	N-acetylneuraminate lyase activity	molecular_function	9823	inferred	1	397141	NPL
+GO:0009056	catabolic process	biological_process	9823	inferred	2	397135|397189	CAST|MIOX
+GO:0009057	macromolecule catabolic process	biological_process	9823	inferred	1	397135	CAST
+GO:0009058	biosynthetic process	biological_process	9823	inferred	5	397570|445525|445537|100127469|100134955	OAS1|PLA2G1B|ST3GAL1|BDKRB1|FAM213B
+GO:0009059	macromolecule biosynthetic process	biological_process	9823	inferred	1	445537	ST3GAL1
+GO:0009100	glycoprotein metabolic process	biological_process	9823	inferred	1	445537	ST3GAL1
+GO:0009101	glycoprotein biosynthetic process	biological_process	9823	inferred	1	445537	ST3GAL1
+GO:0009117	nucleotide metabolic process	biological_process	9823	inferred	2	397132|397570	FMO1|OAS1
+GO:0009165	nucleotide biosynthetic process	biological_process	9823	inferred	1	397570	OAS1
+GO:0009404	toxin metabolic process	biological_process	9823	inferred	1	397132	FMO1
+GO:0009566	fertilization	biological_process	9823	inferred	1	397676	ZAN
+GO:0009605	response to external stimulus	biological_process	9823	inferred	6	396764|396913|397084|397128|397570|445525	SLC11A1|C-JUN|TGFB2|MX1|OAS1|PLA2G1B
+GO:0009607	response to biotic stimulus	biological_process	9823	inferred	4	396764|396913|397128|397570	SLC11A1|C-JUN|MX1|OAS1
+GO:0009615	response to virus	biological_process	9823	inferred	2	397128|397570	MX1|OAS1
+GO:0009617	response to bacterium	biological_process	9823	inferred	2	396764|396913	SLC11A1|C-JUN
+GO:0009628	response to abiotic stimulus	biological_process	9823	inferred	1	396965	PRL
+GO:0009719	response to endogenous stimulus	biological_process	9823	inferred	7	396884|397077|397096|397196|397372|397488|445525	GH1|FOXO1|ENG|DPEP1|GHSR|GHR|PLA2G1B
+GO:0009725	response to hormone	biological_process	9823	inferred	6	396884|397077|397196|397372|397488|445525	GH1|FOXO1|DPEP1|GHSR|GHR|PLA2G1B
+GO:0009755	hormone-mediated signaling pathway	biological_process	9823	inferred	1	397372	GHSR
+GO:0009790	embryo development	biological_process	9823	inferred	1	396891	RLN
+GO:0009792	embryo development ending in birth or egg hatching	biological_process	9823	inferred	1	396891	RLN
+GO:0009889	regulation of biosynthetic process	biological_process	9823	inferred	12	396712|396840|396913|396965|397415|397491|397501|397638|397671|399501|414283|445525	LHX3|SOX9|C-JUN|PRL|INS|IGF1|POU2F1|CALCR|PPARG|ADRA2A|ADCYAP1|PLA2G1B
+GO:0009890	negative regulation of biosynthetic process	biological_process	9823	inferred	3	396965|397501|399501	PRL|POU2F1|ADRA2A
+GO:0009891	positive regulation of biosynthetic process	biological_process	9823	inferred	9	396712|396840|396913|397415|397491|397638|397671|414283|445525	LHX3|SOX9|C-JUN|INS|IGF1|CALCR|PPARG|ADCYAP1|PLA2G1B
+GO:0009892	negative regulation of metabolic process	biological_process	9823	inferred	6	396965|397077|397493|397501|397671|399501	PRL|FOXO1|PRKAR2A|POU2F1|PPARG|ADRA2A
+GO:0009893	positive regulation of metabolic process	biological_process	9823	inferred	16	396712|396724|396840|396851|396884|396913|397225|397415|397488|397491|397595|397638|397671|414283|445525|100155163	LHX3|OLR1|SOX9|PIK3R5|GH1|C-JUN|IL4|INS|GHR|IGF1|GCG|CALCR|PPARG|ADCYAP1|PLA2G1B|LOC100155163
+GO:0009914	hormone transport	biological_process	9823	inferred	1	396863	POMC
+GO:0009966	regulation of signal transduction	biological_process	9823	inferred	8	396851|396884|397225|397415|397595|399501|445525|100155163	PIK3R5|GH1|IL4|INS|GCG|ADRA2A|PLA2G1B|LOC100155163
+GO:0009967	positive regulation of signal transduction	biological_process	9823	inferred	6	396851|396884|397225|397415|397595|445525	PIK3R5|GH1|IL4|INS|GCG|PLA2G1B
+GO:0009968	negative regulation of signal transduction	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0009986	cell surface	cellular_component	9823	inferred	2	397372|445525	GHSR|PLA2G1B
+GO:0009987	cellular process	biological_process	9823	inferred	32	396764|396851|396863|396884|396891|396898|396913|396965|396971|397057|397077|397084|397085|397096|397128|397130|397132|397189|397196|397372|397481|397488|397570|397676|403324|414283|445521|445525|445537|100048934|100127469|100134955	SLC11A1|PIK3R5|POMC|GH1|RLN|ATP1B1|C-JUN|PRL|ALOX12|IL18|FOXO1|TGFB2|MYO6|ENG|MX1|HMGB2|FMO1|MIOX|DPEP1|GHSR|ATP1A1|GHR|OAS1|ZAN|CYP3A29|ADCYAP1|HMGB1|PLA2G1B|ST3GAL1|WEE1B|BDKRB1|FAM213B
+GO:0009988	cell-cell recognition	biological_process	9823	inferred	1	397676	ZAN
+GO:0009994	oocyte differentiation	biological_process	9823	inferred	1	396891	RLN
+GO:0010033	response to organic substance	biological_process	9823	inferred	13	396764|396799|396884|396913|397077|397096|397128|397196|397372|397488|397671|403324|445525	SLC11A1|ITIH4|GH1|C-JUN|FOXO1|ENG|MX1|DPEP1|GHSR|GHR|PPARG|CYP3A29|PLA2G1B
+GO:0010035	response to inorganic substance	biological_process	9823	inferred	1	397196	DPEP1
+GO:0010038	response to metal ion	biological_process	9823	inferred	1	397196	DPEP1
+GO:0010107	potassium ion import	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0010181	FMN binding	molecular_function	9823	inferred	1	397109	DPYD
+GO:0010243	response to organonitrogen compound	biological_process	9823	inferred	5	396884|397077|397196|397488|445525	GH1|FOXO1|DPEP1|GHR|PLA2G1B
+GO:0010310	regulation of hydrogen peroxide metabolic process	biological_process	9823	inferred	1	396965	PRL
+GO:0010468	regulation of gene expression	biological_process	9823	inferred	8	396712|396840|396913|397077|397225|397501|397671|445525	LHX3|SOX9|C-JUN|FOXO1|IL4|POU2F1|PPARG|PLA2G1B
+GO:0010517	regulation of phospholipase activity	biological_process	9823	inferred	1	397638	CALCR
+GO:0010518	positive regulation of phospholipase activity	biological_process	9823	inferred	1	397638	CALCR
+GO:0010522	regulation of calcium ion transport into cytosol	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0010524	positive regulation of calcium ion transport into cytosol	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0010556	regulation of macromolecule biosynthetic process	biological_process	9823	inferred	8	396712|396840|396913|397415|397491|397501|397671|445525	LHX3|SOX9|C-JUN|INS|IGF1|POU2F1|PPARG|PLA2G1B
+GO:0010557	positive regulation of macromolecule biosynthetic process	biological_process	9823	inferred	7	396712|396840|396913|397415|397491|397671|445525	LHX3|SOX9|C-JUN|INS|IGF1|PPARG|PLA2G1B
+GO:0010558	negative regulation of macromolecule biosynthetic process	biological_process	9823	inferred	1	397501	POU2F1
+GO:0010562	positive regulation of phosphorus metabolic process	biological_process	9823	inferred	9	396851|396884|397225|397415|397488|397595|397638|414283|445525	PIK3R5|GH1|IL4|INS|GHR|GCG|CALCR|ADCYAP1|PLA2G1B
+GO:0010563	negative regulation of phosphorus metabolic process	biological_process	9823	inferred	2	397493|399501	PRKAR2A|ADRA2A
+GO:0010564	regulation of cell cycle process	biological_process	9823	inferred	4	397091|397493|397652|100048934	PRKAR1A|PRKAR2A|PRKACA|WEE1B
+GO:0010565	regulation of cellular ketone metabolic process	biological_process	9823	inferred	1	396965	PRL
+GO:0010566	regulation of ketone biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:0010574	regulation of vascular endothelial growth factor production	biological_process	9823	inferred	1	396965	PRL
+GO:0010575	positive regulation of vascular endothelial growth factor production	biological_process	9823	inferred	1	396965	PRL
+GO:0010578	regulation of adenylate cyclase activity involved in G-protein coupled receptor signaling pathway	biological_process	9823	inferred	1	414283	ADCYAP1
+GO:0010579	positive regulation of adenylate cyclase activity involved in G-protein coupled receptor signaling pathway	biological_process	9823	inferred	1	414283	ADCYAP1
+GO:0010604	positive regulation of macromolecule metabolic process	biological_process	9823	inferred	12	396712|396840|396851|396884|396913|397225|397415|397488|397491|397595|397671|445525	LHX3|SOX9|PIK3R5|GH1|C-JUN|IL4|INS|GHR|IGF1|GCG|PPARG|PLA2G1B
+GO:0010605	negative regulation of macromolecule metabolic process	biological_process	9823	inferred	4	397077|397493|397501|397671	FOXO1|PRKAR2A|POU2F1|PPARG
+GO:0010628	positive regulation of gene expression	biological_process	9823	inferred	6	396712|396840|396913|397225|397671|445525	LHX3|SOX9|C-JUN|IL4|PPARG|PLA2G1B
+GO:0010629	negative regulation of gene expression	biological_process	9823	inferred	3	397077|397501|397671	FOXO1|POU2F1|PPARG
+GO:0010646	regulation of cell communication	biological_process	9823	inferred	13	396851|396884|397086|397122|397225|397277|397415|397595|399500|399501|445525|497059|100155163	PIK3R5|GH1|TNF|IL1B1|IL4|B2R|INS|GCG|IL6|ADRA2A|PLA2G1B|SSTR2|LOC100155163
+GO:0010647	positive regulation of cell communication	biological_process	9823	inferred	9	396851|396884|397086|397122|397225|397415|397595|399500|445525	PIK3R5|GH1|TNF|IL1B1|IL4|INS|GCG|IL6|PLA2G1B
+GO:0010648	negative regulation of cell communication	biological_process	9823	inferred	2	399501|497059	ADRA2A|SSTR2
+GO:0010720	positive regulation of cell development	biological_process	9823	inferred	2	397225|397493	IL4|PRKAR2A
+GO:0010721	negative regulation of cell development	biological_process	9823	inferred	2	397652|100048934	PRKACA|WEE1B
+GO:0010727	negative regulation of hydrogen peroxide metabolic process	biological_process	9823	inferred	1	396965	PRL
+GO:0010728	regulation of hydrogen peroxide biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:0010730	negative regulation of hydrogen peroxide biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:0010817	regulation of hormone levels	biological_process	9823	inferred	1	396863	POMC
+GO:0010827	regulation of glucose transport	biological_process	9823	inferred	1	396891	RLN
+GO:0010828	positive regulation of glucose transport	biological_process	9823	inferred	1	396891	RLN
+GO:0010863	positive regulation of phospholipase C activity	biological_process	9823	inferred	1	397638	CALCR
+GO:0010874	regulation of cholesterol efflux	biological_process	9823	inferred	1	397671	PPARG
+GO:0010875	positive regulation of cholesterol efflux	biological_process	9823	inferred	1	397671	PPARG
+GO:0010876	lipid localization	biological_process	9823	inferred	1	396863	POMC
+GO:0010894	negative regulation of steroid biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:0010941	regulation of cell death	biological_process	9823	inferred	3	396721|397086|397225	IL13|TNF|IL4
+GO:0010942	positive regulation of cell death	biological_process	9823	inferred	1	397086	TNF
+GO:0010948	negative regulation of cell cycle process	biological_process	9823	inferred	1	397652	PRKACA
+GO:0010959	regulation of metal ion transport	biological_process	9823	inferred	2	399501|445525	ADRA2A|PLA2G1B
+GO:0012501	programmed cell death	biological_process	9823	inferred	1	397057	IL18
+GO:0012505	endomembrane system	cellular_component	9823	inferred	4	397110|397154|397196|397245	SCG5|CHGB|DPEP1|ATP1B4
+GO:0014065	phosphatidylinositol 3-kinase signaling	biological_process	9823	inferred	1	396851	PIK3R5
+GO:0014832	urinary bladder smooth muscle contraction	biological_process	9823	inferred	1	397277	B2R
+GO:0014848	urinary tract smooth muscle contraction	biological_process	9823	inferred	1	397277	B2R
+GO:0015031	protein transport	biological_process	9823	inferred	1	397085	MYO6
+GO:0015075	ion transmembrane transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0015077	monovalent inorganic cation transmembrane transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0015079	potassium ion transmembrane transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0015081	sodium ion transmembrane transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0015399	primary active transmembrane transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0015405	P-P-bond-hydrolysis-driven transmembrane transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0015629	actin cytoskeleton	cellular_component	9823	inferred	1	397085	MYO6
+GO:0015631	tubulin binding	molecular_function	9823	inferred	1	494014	PRNP
+GO:0015662	ATPase activity, coupled to transmembrane movement of ions, phosphorylative mechanism	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0015672	monovalent inorganic cation transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0015749	monosaccharide transport	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0015758	glucose transport	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0015850	organic hydroxy compound transport	biological_process	9823	inferred	1	396863	POMC
+GO:0016020	membrane	cellular_component	9823	inferred	14	396851|396898|397018|397196|397245|397481|397676|399501|404693|414412|497059|780433|100048954|100524676	PIK3R5|ATP1B1|SCARB1|DPEP1|ATP1B4|ATP1A1|ZAN|ADRA2A|CAV1|SDHB|SSTR2|SDHA|SDHD|SDHC
+GO:0016021	integral component of membrane	cellular_component	9823	inferred	4	396898|397481|399501|497059	ATP1B1|ATP1A1|ADRA2A|SSTR2
+GO:0016023	cytoplasmic membrane-bounded vesicle	cellular_component	9823	inferred	3	397085|397110|397154	MYO6|SCG5|CHGB
+GO:0016043	cellular component organization	biological_process	9823	inferred	2	397130|100048934	HMGB2|WEE1B
+GO:0016052	carbohydrate catabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:0016053	organic acid biosynthetic process	biological_process	9823	inferred	3	445525|100127469|100134955	PLA2G1B|BDKRB1|FAM213B
+GO:0016192	vesicle-mediated transport	biological_process	9823	inferred	3	396801|397018|397085	LDLR|SCARB1|MYO6
+GO:0016209	antioxidant activity	molecular_function	9823	inferred	1	403124	IYD
+GO:0016234	inclusion body	cellular_component	9823	inferred	1	397189	MIOX
+GO:0016265	death	biological_process	9823	inferred	1	397057	IL18
+GO:0016298	lipase activity	molecular_function	9823	inferred	1	445525	PLA2G1B
+GO:0016301	kinase activity	molecular_function	9823	inferred	2	396688|397652	COASY|PRKACA
+GO:0016310	phosphorylation	biological_process	9823	inferred	2	396764|397077	SLC11A1|FOXO1
+GO:0016323	basolateral plasma membrane	cellular_component	9823	inferred	1	397018	SCARB1
+GO:0016324	apical plasma membrane	cellular_component	9823	inferred	1	397018	SCARB1
+GO:0016462	pyrophosphatase activity	molecular_function	9823	inferred	5	396807|396898|397085|397128|397481	MYL6|ATP1B1|MYO6|MX1|ATP1A1
+GO:0016477	cell migration	biological_process	9823	inferred	2	397084|445525	TGFB2|PLA2G1B
+GO:0016491	oxidoreductase activity	molecular_function	9823	inferred	8	396971|397082|397109|397132|397134|397189|403124|100134955	ALOX12|DHRS4|DPYD|FMO1|DAO1|MIOX|IYD|FAM213B
+GO:0016520	growth hormone-releasing hormone receptor activity	molecular_function	9823	inferred	1	397372	GHSR
+GO:0016521	pituitary adenylate cyclase activating polypeptide activity	molecular_function	9823	inferred	1	414283	ADCYAP1
+GO:0016614	oxidoreductase activity, acting on CH-OH group of donors	molecular_function	9823	inferred	2	397082|100134955	DHRS4|FAM213B
+GO:0016616	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	molecular_function	9823	inferred	2	397082|100134955	DHRS4|FAM213B
+GO:0016627	oxidoreductase activity, acting on the CH-CH group of donors	molecular_function	9823	inferred	1	397109	DPYD
+GO:0016628	oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor	molecular_function	9823	inferred	1	397109	DPYD
+GO:0016638	oxidoreductase activity, acting on the CH-NH2 group of donors	molecular_function	9823	inferred	1	397134	DAO1
+GO:0016641	oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor	molecular_function	9823	inferred	1	397134	DAO1
+GO:0016684	oxidoreductase activity, acting on peroxide as acceptor	molecular_function	9823	inferred	1	403124	IYD
+GO:0016701	oxidoreductase activity, acting on single donors with incorporation of molecular oxygen	molecular_function	9823	inferred	2	396971|397189	ALOX12|MIOX
+GO:0016702	oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen	molecular_function	9823	inferred	1	396971	ALOX12
+GO:0016705	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	molecular_function	9823	inferred	1	397132	FMO1
+GO:0016709	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen	molecular_function	9823	inferred	1	397132	FMO1
+GO:0016740	transferase activity	molecular_function	9823	inferred	7	396688|396933|396978|397500|397570|397652|445537	COASY|FUT8|OXCT1|ABAT|OAS1|PRKACA|ST3GAL1
+GO:0016757	transferase activity, transferring glycosyl groups	molecular_function	9823	inferred	2	396933|445537	FUT8|ST3GAL1
+GO:0016769	transferase activity, transferring nitrogenous groups	molecular_function	9823	inferred	1	397500	ABAT
+GO:0016772	transferase activity, transferring phosphorus-containing groups	molecular_function	9823	inferred	3	396688|397570|397652	COASY|OAS1|PRKACA
+GO:0016773	phosphotransferase activity, alcohol group as acceptor	molecular_function	9823	inferred	2	396688|397652	COASY|PRKACA
+GO:0016779	nucleotidyltransferase activity	molecular_function	9823	inferred	2	396688|397570	COASY|OAS1
+GO:0016782	transferase activity, transferring sulfur-containing groups	molecular_function	9823	inferred	1	396978	OXCT1
+GO:0016787	hydrolase activity	molecular_function	9823	inferred	8	396807|396898|397085|397098|397128|397343|397481|445525	MYL6|ATP1B1|MYO6|ACR|MX1|ADAM17|ATP1A1|PLA2G1B
+GO:0016788	hydrolase activity, acting on ester bonds	molecular_function	9823	inferred	1	445525	PLA2G1B
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	molecular_function	9823	inferred	1	397098	ACR
+GO:0016811	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides	molecular_function	9823	inferred	1	397098	ACR
+GO:0016817	hydrolase activity, acting on acid anhydrides	molecular_function	9823	inferred	5	396807|396898|397085|397128|397481	MYL6|ATP1B1|MYO6|MX1|ATP1A1
+GO:0016818	hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	molecular_function	9823	inferred	5	396807|396898|397085|397128|397481	MYL6|ATP1B1|MYO6|MX1|ATP1A1
+GO:0016820	hydrolase activity, acting on acid anhydrides, catalyzing transmembrane movement of substances	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0016829	lyase activity	molecular_function	9823	inferred	1	397141	NPL
+GO:0016830	carbon-carbon lyase activity	molecular_function	9823	inferred	1	397141	NPL
+GO:0016833	oxo-acid-lyase activity	molecular_function	9823	inferred	1	397141	NPL
+GO:0016887	ATPase activity	molecular_function	9823	inferred	3	396807|396898|397481	MYL6|ATP1B1|ATP1A1
+GO:0017046	peptide hormone binding	molecular_function	9823	inferred	1	397638	CALCR
+GO:0017076	purine nucleotide binding	molecular_function	9823	inferred	2	397085|397481	MYO6|ATP1A1
+GO:0017111	nucleoside-triphosphatase activity	molecular_function	9823	inferred	5	396807|396898|397085|397128|397481	MYL6|ATP1B1|MYO6|MX1|ATP1A1
+GO:0017113	dihydropyrimidine dehydrogenase (NADP+) activity	molecular_function	9823	inferred	1	397109	DPYD
+GO:0017157	regulation of exocytosis	biological_process	9823	inferred	1	396891	RLN
+GO:0017158	regulation of calcium ion-dependent exocytosis	biological_process	9823	inferred	1	396891	RLN
+GO:0018105	peptidyl-serine phosphorylation	biological_process	9823	inferred	1	397077	FOXO1
+GO:0018107	peptidyl-threonine phosphorylation	biological_process	9823	inferred	1	397077	FOXO1
+GO:0018130	heterocycle biosynthetic process	biological_process	9823	inferred	1	397570	OAS1
+GO:0018193	peptidyl-amino acid modification	biological_process	9823	inferred	1	397077	FOXO1
+GO:0018209	peptidyl-serine modification	biological_process	9823	inferred	1	397077	FOXO1
+GO:0018210	peptidyl-threonine modification	biological_process	9823	inferred	1	397077	FOXO1
+GO:0019207	kinase regulator activity	molecular_function	9823	inferred	1	396851	PIK3R5
+GO:0019216	regulation of lipid metabolic process	biological_process	9823	inferred	2	396851|396965	PIK3R5|PRL
+GO:0019218	regulation of steroid metabolic process	biological_process	9823	inferred	1	396965	PRL
+GO:0019219	regulation of nucleobase-containing compound metabolic process	biological_process	9823	inferred	11	396712|396840|396913|397415|397491|397501|397638|397671|399501|414283|445525	LHX3|SOX9|C-JUN|INS|IGF1|POU2F1|CALCR|PPARG|ADRA2A|ADCYAP1|PLA2G1B
+GO:0019220	regulation of phosphate metabolic process	biological_process	9823	inferred	11	396851|396884|397225|397415|397488|397493|397595|397638|399501|414283|445525	PIK3R5|GH1|IL4|INS|GHR|PRKAR2A|GCG|CALCR|ADRA2A|ADCYAP1|PLA2G1B
+GO:0019222	regulation of metabolic process	biological_process	9823	inferred	21	396712|396724|396840|396851|396884|396913|396965|397077|397225|397415|397488|397491|397493|397501|397595|397638|397671|399501|414283|445525|100155163	LHX3|OLR1|SOX9|PIK3R5|GH1|C-JUN|PRL|FOXO1|IL4|INS|GHR|IGF1|PRKAR2A|POU2F1|GCG|CALCR|PPARG|ADRA2A|ADCYAP1|PLA2G1B|LOC100155163
+GO:0019310	inositol catabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:0019362	pyridine nucleotide metabolic process	biological_process	9823	inferred	1	397132	FMO1
+GO:0019369	arachidonic acid metabolic process	biological_process	9823	inferred	2	396971|100127469	ALOX12|BDKRB1
+GO:0019370	leukotriene biosynthetic process	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0019371	cyclooxygenase pathway	biological_process	9823	inferred	1	100127469	BDKRB1
+GO:0019372	lipoxygenase pathway	biological_process	9823	inferred	1	396971	ALOX12
+GO:0019438	aromatic compound biosynthetic process	biological_process	9823	inferred	1	397570	OAS1
+GO:0019538	protein metabolic process	biological_process	9823	inferred	6	396764|397057|397077|397135|397343|445537	SLC11A1|IL18|FOXO1|CAST|ADAM17|ST3GAL1
+GO:0019637	organophosphate metabolic process	biological_process	9823	inferred	3	397132|397196|397570	FMO1|DPEP1|OAS1
+GO:0019725	cellular homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0019748	secondary metabolic process	biological_process	9823	inferred	1	397132	FMO1
+GO:0019751	polyol metabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:0019752	carboxylic acid metabolic process	biological_process	9823	inferred	5	396971|445525|445537|100127469|100134955	ALOX12|PLA2G1B|ST3GAL1|BDKRB1|FAM213B
+GO:0019829	cation-transporting ATPase activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0019866	organelle inner membrane	cellular_component	9823	inferred	5	397245|414412|780433|100048954|100524676	ATP1B4|SDHB|SDHA|SDHD|SDHC
+GO:0019898	extrinsic component of membrane	cellular_component	9823	inferred	1	396851	PIK3R5
+GO:0019899	enzyme binding	molecular_function	9823	inferred	3	396898|397481|397500	ATP1B1|ATP1A1|ABAT
+GO:0019953	sexual reproduction	biological_process	9823	inferred	2	396891|397676	RLN|ZAN
+GO:0020037	heme binding	molecular_function	9823	inferred	2	100048954|100524676	SDHD|SDHC
+GO:0021700	developmental maturation	biological_process	9823	inferred	1	396891	RLN
+GO:0022412	cellular process involved in reproduction in multicellular organism	biological_process	9823	inferred	1	396891	RLN
+GO:0022414	reproductive process	biological_process	9823	inferred	2	396891|397676	RLN|ZAN
+GO:0022804	active transmembrane transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0022857	transmembrane transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0022890	inorganic cation transmembrane transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0022891	substrate-specific transmembrane transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0022892	substrate-specific transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0022898	regulation of transmembrane transporter activity	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0023014	signal transduction by protein phosphorylation	biological_process	9823	inferred	1	396764	SLC11A1
+GO:0023051	regulation of signaling	biological_process	9823	inferred	13	396851|396884|397086|397122|397225|397277|397415|397595|399500|399501|445525|497059|100155163	PIK3R5|GH1|TNF|IL1B1|IL4|B2R|INS|GCG|IL6|ADRA2A|PLA2G1B|SSTR2|LOC100155163
+GO:0023052	signaling	biological_process	9823	inferred	11	396764|396851|396863|396884|397057|397077|397096|397372|397488|414283|445525	SLC11A1|PIK3R5|POMC|GH1|IL18|FOXO1|ENG|GHSR|GHR|ADCYAP1|PLA2G1B
+GO:0023056	positive regulation of signaling	biological_process	9823	inferred	9	396851|396884|397086|397122|397225|397415|397595|399500|445525	PIK3R5|GH1|TNF|IL1B1|IL4|INS|GCG|IL6|PLA2G1B
+GO:0023057	negative regulation of signaling	biological_process	9823	inferred	2	399501|497059	ADRA2A|SSTR2
+GO:0023061	signal release	biological_process	9823	inferred	1	396863	POMC
+GO:0030001	metal ion transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0030003	cellular cation homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0030004	cellular monovalent inorganic cation homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0030007	cellular potassium ion homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0030029	actin filament-based process	biological_process	9823	inferred	1	397085	MYO6
+GO:0030048	actin filament-based movement	biological_process	9823	inferred	1	397085	MYO6
+GO:0030139	endocytic vesicle	cellular_component	9823	inferred	1	397085	MYO6
+GO:0030141	secretory granule	cellular_component	9823	inferred	2	397110|397154	SCG5|CHGB
+GO:0030154	cell differentiation	biological_process	9823	inferred	1	396891	RLN
+GO:0030163	protein catabolic process	biological_process	9823	inferred	1	397135	CAST
+GO:0030170	pyridoxal phosphate binding	molecular_function	9823	inferred	1	397500	ABAT
+GO:0030228	lipoprotein particle receptor activity	molecular_function	9823	inferred	1	397018	SCARB1
+GO:0030234	enzyme regulator activity	molecular_function	9823	inferred	2	396851|100155163	PIK3R5|LOC100155163
+GO:0030246	carbohydrate binding	molecular_function	9823	inferred	1	397098	ACR
+GO:0030317	sperm motility	biological_process	9823	inferred	1	396891	RLN
+GO:0030334	regulation of cell migration	biological_process	9823	inferred	1	397415	INS
+GO:0030335	positive regulation of cell migration	biological_process	9823	inferred	1	397415	INS
+GO:0030374	ligand-dependent nuclear receptor transcription coactivator activity	molecular_function	9823	inferred	1	397671	PPARG
+GO:0030529	ribonucleoprotein complex	cellular_component	9823	inferred	1	431672	DDX4
+GO:0030554	adenyl nucleotide binding	molecular_function	9823	inferred	2	397085|397481	MYO6|ATP1A1
+GO:0030593	neutrophil chemotaxis	biological_process	9823	inferred	2	397084|445525	TGFB2|PLA2G1B
+GO:0030595	leukocyte chemotaxis	biological_process	9823	inferred	2	397084|445525	TGFB2|PLA2G1B
+GO:0030695	GTPase regulator activity	molecular_function	9823	inferred	1	100155163	LOC100155163
+GO:0030799	regulation of cyclic nucleotide metabolic process	biological_process	9823	inferred	3	397638|399501|414283	CALCR|ADRA2A|ADCYAP1
+GO:0030800	negative regulation of cyclic nucleotide metabolic process	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0030801	positive regulation of cyclic nucleotide metabolic process	biological_process	9823	inferred	2	397638|414283	CALCR|ADCYAP1
+GO:0030802	regulation of cyclic nucleotide biosynthetic process	biological_process	9823	inferred	3	397638|399501|414283	CALCR|ADRA2A|ADCYAP1
+GO:0030803	negative regulation of cyclic nucleotide biosynthetic process	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0030804	positive regulation of cyclic nucleotide biosynthetic process	biological_process	9823	inferred	2	397638|414283	CALCR|ADCYAP1
+GO:0030808	regulation of nucleotide biosynthetic process	biological_process	9823	inferred	3	397638|399501|414283	CALCR|ADRA2A|ADCYAP1
+GO:0030809	negative regulation of nucleotide biosynthetic process	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0030810	positive regulation of nucleotide biosynthetic process	biological_process	9823	inferred	2	397638|414283	CALCR|ADCYAP1
+GO:0030814	regulation of cAMP metabolic process	biological_process	9823	inferred	3	397638|399501|414283	CALCR|ADRA2A|ADCYAP1
+GO:0030815	negative regulation of cAMP metabolic process	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0030816	positive regulation of cAMP metabolic process	biological_process	9823	inferred	2	397638|414283	CALCR|ADCYAP1
+GO:0030817	regulation of cAMP biosynthetic process	biological_process	9823	inferred	3	397638|399501|414283	CALCR|ADRA2A|ADCYAP1
+GO:0030818	negative regulation of cAMP biosynthetic process	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0030819	positive regulation of cAMP biosynthetic process	biological_process	9823	inferred	2	397638|414283	CALCR|ADCYAP1
+GO:0030856	regulation of epithelial cell differentiation	biological_process	9823	inferred	1	397225	IL4
+GO:0030858	positive regulation of epithelial cell differentiation	biological_process	9823	inferred	1	397225	IL4
+GO:0030898	actin-dependent ATPase activity	molecular_function	9823	inferred	1	396807	MYL6
+GO:0030955	potassium ion binding	molecular_function	9823	inferred	1	397481	ATP1A1
+GO:0031012	extracellular matrix	cellular_component	9823	inferred	6	396957|397192|397396|397460|406192|414915	DCN|VTN|BGN|TNC|ANXA2|LGALS1
+GO:0031090	organelle membrane	cellular_component	9823	inferred	6	397196|397245|414412|780433|100048954|100524676	DPEP1|ATP1B4|SDHB|SDHA|SDHD|SDHC
+GO:0031224	intrinsic component of membrane	cellular_component	9823	inferred	4	396898|397481|399501|497059	ATP1B1|ATP1A1|ADRA2A|SSTR2
+GO:0031226	intrinsic component of plasma membrane	cellular_component	9823	inferred	4	396898|397481|399501|497059	ATP1B1|ATP1A1|ADRA2A|SSTR2
+GO:0031279	regulation of cyclase activity	biological_process	9823	inferred	3	397638|399501|414283	CALCR|ADRA2A|ADCYAP1
+GO:0031280	negative regulation of cyclase activity	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0031281	positive regulation of cyclase activity	biological_process	9823	inferred	2	397638|414283	CALCR|ADCYAP1
+GO:0031323	regulation of cellular metabolic process	biological_process	9823	inferred	19	396712|396724|396840|396851|396884|396913|396965|397225|397415|397488|397491|397493|397501|397595|397638|397671|399501|414283|445525	LHX3|OLR1|SOX9|PIK3R5|GH1|C-JUN|PRL|IL4|INS|GHR|IGF1|PRKAR2A|POU2F1|GCG|CALCR|PPARG|ADRA2A|ADCYAP1|PLA2G1B
+GO:0031324	negative regulation of cellular metabolic process	biological_process	9823	inferred	4	396965|397493|397501|399501	PRL|PRKAR2A|POU2F1|ADRA2A
+GO:0031325	positive regulation of cellular metabolic process	biological_process	9823	inferred	15	396712|396724|396840|396851|396884|396913|397225|397415|397488|397491|397595|397638|397671|414283|445525	LHX3|OLR1|SOX9|PIK3R5|GH1|C-JUN|IL4|INS|GHR|IGF1|GCG|CALCR|PPARG|ADCYAP1|PLA2G1B
+GO:0031326	regulation of cellular biosynthetic process	biological_process	9823	inferred	12	396712|396840|396913|396965|397415|397491|397501|397638|397671|399501|414283|445525	LHX3|SOX9|C-JUN|PRL|INS|IGF1|POU2F1|CALCR|PPARG|ADRA2A|ADCYAP1|PLA2G1B
+GO:0031327	negative regulation of cellular biosynthetic process	biological_process	9823	inferred	3	396965|397501|399501	PRL|POU2F1|ADRA2A
+GO:0031328	positive regulation of cellular biosynthetic process	biological_process	9823	inferred	9	396712|396840|396913|397415|397491|397638|397671|414283|445525	LHX3|SOX9|C-JUN|INS|IGF1|CALCR|PPARG|ADCYAP1|PLA2G1B
+GO:0031341	regulation of cell killing	biological_process	9823	inferred	4	396721|397077|397225|414737	IL13|FOXO1|IL4|CDH5
+GO:0031342	negative regulation of cell killing	biological_process	9823	inferred	2	396721|397225	IL13|IL4
+GO:0031343	positive regulation of cell killing	biological_process	9823	inferred	1	397077	FOXO1
+GO:0031347	regulation of defense response	biological_process	9823	inferred	1	396927	ZP3
+GO:0031349	positive regulation of defense response	biological_process	9823	inferred	1	396927	ZP3
+GO:0031399	regulation of protein modification process	biological_process	9823	inferred	8	396851|396884|397225|397415|397488|397493|397595|445525	PIK3R5|GH1|IL4|INS|GHR|PRKAR2A|GCG|PLA2G1B
+GO:0031400	negative regulation of protein modification process	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:0031401	positive regulation of protein modification process	biological_process	9823	inferred	7	396851|396884|397225|397415|397488|397595|445525	PIK3R5|GH1|IL4|INS|GHR|GCG|PLA2G1B
+GO:0031402	sodium ion binding	molecular_function	9823	inferred	1	397481	ATP1A1
+GO:0031406	carboxylic acid binding	molecular_function	9823	inferred	1	445525	PLA2G1B
+GO:0031410	cytoplasmic vesicle	cellular_component	9823	inferred	3	397085|397110|397154	MYO6|SCG5|CHGB
+GO:0031420	alkali metal ion binding	molecular_function	9823	inferred	1	397481	ATP1A1
+GO:0031432	titin binding	molecular_function	9823	inferred	1	396959	CARP
+GO:0031683	G-protein beta/gamma-subunit complex binding	molecular_function	9823	inferred	1	396851	PIK3R5
+GO:0031690	adrenergic receptor binding	molecular_function	9823	inferred	1	399501	ADRA2A
+GO:0031692	alpha-1B adrenergic receptor binding	molecular_function	9823	inferred	1	399501	ADRA2A
+GO:0031841	neuropeptide Y receptor binding	molecular_function	9823	inferred	1	445018	PYY
+GO:0031941	filamentous actin	cellular_component	9823	inferred	1	397085	MYO6
+GO:0031952	regulation of protein autophosphorylation	biological_process	9823	inferred	1	397415	INS
+GO:0031954	positive regulation of protein autophosphorylation	biological_process	9823	inferred	1	397415	INS
+GO:0031965	nuclear membrane	cellular_component	9823	inferred	1	397245	ATP1B4
+GO:0031966	mitochondrial membrane	cellular_component	9823	inferred	4	414412|780433|100048954|100524676	SDHB|SDHA|SDHD|SDHC
+GO:0031967	organelle envelope	cellular_component	9823	inferred	5	397245|414412|780433|100048954|100524676	ATP1B4|SDHB|SDHA|SDHD|SDHC
+GO:0031975	envelope	cellular_component	9823	inferred	5	397245|414412|780433|100048954|100524676	ATP1B4|SDHB|SDHA|SDHD|SDHC
+GO:0031982	vesicle	cellular_component	9823	inferred	3	397085|397110|397154	MYO6|SCG5|CHGB
+GO:0031988	membrane-bounded vesicle	cellular_component	9823	inferred	3	397085|397110|397154	MYO6|SCG5|CHGB
+GO:0032012	regulation of ARF protein signal transduction	biological_process	9823	inferred	1	100155163	LOC100155163
+GO:0032015	regulation of Ran protein signal transduction	biological_process	9823	inferred	1	100155163	LOC100155163
+GO:0032052	bile acid binding	molecular_function	9823	inferred	1	445525	PLA2G1B
+GO:0032101	regulation of response to external stimulus	biological_process	9823	inferred	1	396927	ZP3
+GO:0032103	positive regulation of response to external stimulus	biological_process	9823	inferred	1	396927	ZP3
+GO:0032144	4-aminobutyrate transaminase complex	cellular_component	9823	inferred	1	397500	ABAT
+GO:0032145	succinate-semialdehyde dehydrogenase binding	molecular_function	9823	inferred	1	397500	ABAT
+GO:0032147	activation of protein kinase activity	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0032268	regulation of cellular protein metabolic process	biological_process	9823	inferred	8	396851|396884|397225|397415|397488|397493|397595|445525	PIK3R5|GH1|IL4|INS|GHR|PRKAR2A|GCG|PLA2G1B
+GO:0032269	negative regulation of cellular protein metabolic process	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:0032270	positive regulation of cellular protein metabolic process	biological_process	9823	inferred	7	396851|396884|397225|397415|397488|397595|445525	PIK3R5|GH1|IL4|INS|GHR|GCG|PLA2G1B
+GO:0032350	regulation of hormone metabolic process	biological_process	9823	inferred	1	396965	PRL
+GO:0032351	negative regulation of hormone metabolic process	biological_process	9823	inferred	1	396965	PRL
+GO:0032353	negative regulation of hormone biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:0032368	regulation of lipid transport	biological_process	9823	inferred	4	397086|397122|397671|399500	TNF|IL1B1|PPARG|IL6
+GO:0032370	positive regulation of lipid transport	biological_process	9823	inferred	4	397086|397122|397671|399500	TNF|IL1B1|PPARG|IL6
+GO:0032371	regulation of sterol transport	biological_process	9823	inferred	1	397671	PPARG
+GO:0032373	positive regulation of sterol transport	biological_process	9823	inferred	1	397671	PPARG
+GO:0032374	regulation of cholesterol transport	biological_process	9823	inferred	1	397671	PPARG
+GO:0032376	positive regulation of cholesterol transport	biological_process	9823	inferred	1	397671	PPARG
+GO:0032377	regulation of intracellular lipid transport	biological_process	9823	inferred	1	397671	PPARG
+GO:0032379	positive regulation of intracellular lipid transport	biological_process	9823	inferred	1	397671	PPARG
+GO:0032380	regulation of intracellular sterol transport	biological_process	9823	inferred	1	397671	PPARG
+GO:0032382	positive regulation of intracellular sterol transport	biological_process	9823	inferred	1	397671	PPARG
+GO:0032383	regulation of intracellular cholesterol transport	biological_process	9823	inferred	1	397671	PPARG
+GO:0032385	positive regulation of intracellular cholesterol transport	biological_process	9823	inferred	1	397671	PPARG
+GO:0032386	regulation of intracellular transport	biological_process	9823	inferred	4	397128|397225|397671|445525	MX1|IL4|PPARG|PLA2G1B
+GO:0032387	negative regulation of intracellular transport	biological_process	9823	inferred	1	397128	MX1
+GO:0032388	positive regulation of intracellular transport	biological_process	9823	inferred	2	397671|445525	PPARG|PLA2G1B
+GO:0032403	protein complex binding	molecular_function	9823	inferred	2	396851|397085	PIK3R5|MYO6
+GO:0032409	regulation of transporter activity	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0032410	negative regulation of transporter activity	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0032412	regulation of ion transmembrane transporter activity	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0032413	negative regulation of ion transmembrane transporter activity	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0032439	endosome localization	biological_process	9823	inferred	1	397128	MX1
+GO:0032483	regulation of Rab protein signal transduction	biological_process	9823	inferred	1	100155163	LOC100155163
+GO:0032485	regulation of Ral protein signal transduction	biological_process	9823	inferred	1	100155163	LOC100155163
+GO:0032487	regulation of Rap protein signal transduction	biological_process	9823	inferred	1	100155163	LOC100155163
+GO:0032489	regulation of Cdc42 protein signal transduction	biological_process	9823	inferred	1	100155163	LOC100155163
+GO:0032496	response to lipopolysaccharide	biological_process	9823	inferred	2	396764|396913	SLC11A1|C-JUN
+GO:0032501	multicellular organismal process	biological_process	9823	inferred	6	396863|396891|397057|397277|445525|100127469	POMC|RLN|IL18|B2R|PLA2G1B|BDKRB1
+GO:0032502	developmental process	biological_process	9823	inferred	1	396891	RLN
+GO:0032504	multicellular organism reproduction	biological_process	9823	inferred	1	396891	RLN
+GO:0032526	response to retinoic acid	biological_process	9823	inferred	1	397671	PPARG
+GO:0032549	ribonucleoside binding	molecular_function	9823	inferred	2	397085|397481	MYO6|ATP1A1
+GO:0032550	purine ribonucleoside binding	molecular_function	9823	inferred	2	397085|397481	MYO6|ATP1A1
+GO:0032553	ribonucleotide binding	molecular_function	9823	inferred	3	397085|397109|397481	MYO6|DPYD|ATP1A1
+GO:0032555	purine ribonucleotide binding	molecular_function	9823	inferred	2	397085|397481	MYO6|ATP1A1
+GO:0032559	adenyl ribonucleotide binding	molecular_function	9823	inferred	2	397085|397481	MYO6|ATP1A1
+GO:0032609	interferon-gamma production	biological_process	9823	inferred	1	397057	IL18
+GO:0032637	interleukin-8 production	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0032787	monocarboxylic acid metabolic process	biological_process	9823	inferred	4	396971|445525|100127469|100134955	ALOX12|PLA2G1B|BDKRB1|FAM213B
+GO:0032841	calcitonin binding	molecular_function	9823	inferred	1	397638	CALCR
+GO:0032844	regulation of homeostatic process	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0032846	positive regulation of homeostatic process	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0032868	response to insulin	biological_process	9823	inferred	3	397077|397196|445525	FOXO1|DPEP1|PLA2G1B
+GO:0032869	cellular response to insulin stimulus	biological_process	9823	inferred	3	397077|397196|445525	FOXO1|DPEP1|PLA2G1B
+GO:0032870	cellular response to hormone stimulus	biological_process	9823	inferred	6	396884|397077|397196|397372|397488|445525	GH1|FOXO1|DPEP1|GHSR|GHR|PLA2G1B
+GO:0032879	regulation of localization	biological_process	9823	inferred	12	396891|397086|397122|397128|397225|397415|397671|399500|399501|414283|445525|497059	RLN|TNF|IL1B1|MX1|IL4|INS|PPARG|IL6|ADRA2A|ADCYAP1|PLA2G1B|SSTR2
+GO:0032880	regulation of protein localization	biological_process	9823	inferred	3	397225|397671|414283	IL4|PPARG|ADCYAP1
+GO:0032928	regulation of superoxide anion generation	biological_process	9823	inferred	1	396724	OLR1
+GO:0032930	positive regulation of superoxide anion generation	biological_process	9823	inferred	1	396724	OLR1
+GO:0032940	secretion by cell	biological_process	9823	inferred	1	396863	POMC
+GO:0032991	macromolecular complex	cellular_component	9823	inferred	12	396851|396898|397085|397098|397481|397500|414412|431672|497059|780433|100048954|100524676	PIK3R5|ATP1B1|MYO6|ACR|ATP1A1|ABAT|SDHB|DDX4|SSTR2|SDHA|SDHD|SDHC
+GO:0033036	macromolecule localization	biological_process	9823	inferred	2	396863|397085	POMC|MYO6
+GO:0033043	regulation of organelle organization	biological_process	9823	inferred	1	100048934	WEE1B
+GO:0033157	regulation of intracellular protein transport	biological_process	9823	inferred	1	397225	IL4
+GO:0033218	amide binding	molecular_function	9823	inferred	1	397638	CALCR
+GO:0033293	monocarboxylic acid binding	molecular_function	9823	inferred	1	445525	PLA2G1B
+GO:0033391	chromatoid body	cellular_component	9823	inferred	1	431672	DDX4
+GO:0033554	cellular response to stress	biological_process	9823	inferred	4	396965|397130|397196|445521	PRL|HMGB2|DPEP1|HMGB1
+GO:0033559	unsaturated fatty acid metabolic process	biological_process	9823	inferred	4	396971|445525|100127469|100134955	ALOX12|PLA2G1B|BDKRB1|FAM213B
+GO:0033619	membrane protein proteolysis	biological_process	9823	inferred	1	397343	ADAM17
+GO:0033673	negative regulation of kinase activity	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:0033674	positive regulation of kinase activity	biological_process	9823	inferred	2	396851|445525	PIK3R5|PLA2G1B
+GO:0033993	response to lipid	biological_process	9823	inferred	3	396764|396913|397671	SLC11A1|C-JUN|PPARG
+GO:0034097	response to cytokine	biological_process	9823	inferred	3	396799|397128|403324	ITIH4|MX1|CYP3A29
+GO:0034220	ion transmembrane transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0034235	GPI anchor binding	molecular_function	9823	inferred	1	397196	DPEP1
+GO:0034340	response to type I interferon	biological_process	9823	inferred	2	397128|403324	MX1|CYP3A29
+GO:0034599	cellular response to oxidative stress	biological_process	9823	inferred	1	397196	DPEP1
+GO:0034613	cellular protein localization	biological_process	9823	inferred	1	397085	MYO6
+GO:0034614	cellular response to reactive oxygen species	biological_process	9823	inferred	1	397196	DPEP1
+GO:0034641	cellular nitrogen compound metabolic process	biological_process	9823	inferred	4	397130|397132|397570|445521	HMGB2|FMO1|OAS1|HMGB1
+GO:0034645	cellular macromolecule biosynthetic process	biological_process	9823	inferred	1	445537	ST3GAL1
+GO:0034654	nucleobase-containing compound biosynthetic process	biological_process	9823	inferred	1	397570	OAS1
+GO:0034713	type I transforming growth factor beta receptor binding	molecular_function	9823	inferred	1	397096	ENG
+GO:0034762	regulation of transmembrane transport	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0034763	negative regulation of transmembrane transport	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0034765	regulation of ion transmembrane transport	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0034766	negative regulation of ion transmembrane transport	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0035014	phosphatidylinositol 3-kinase regulator activity	molecular_function	9823	inferred	1	396851	PIK3R5
+GO:0035020	regulation of Rac protein signal transduction	biological_process	9823	inferred	1	100155163	LOC100155163
+GO:0035023	regulation of Rho protein signal transduction	biological_process	9823	inferred	1	100155163	LOC100155163
+GO:0035036	sperm-egg recognition	biological_process	9823	inferred	1	397676	ZAN
+GO:0035091	phosphatidylinositol binding	molecular_function	9823	inferred	1	397196	DPEP1
+GO:0035556	intracellular signal transduction	biological_process	9823	inferred	3	396764|396851|445525	SLC11A1|PIK3R5|PLA2G1B
+GO:0035639	purine ribonucleoside triphosphate binding	molecular_function	9823	inferred	1	397481	ATP1A1
+GO:0035725	sodium ion transmembrane transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0035770	ribonucleoprotein granule	cellular_component	9823	inferred	1	431672	DDX4
+GO:0035929	steroid hormone secretion	biological_process	9823	inferred	1	396863	POMC
+GO:0035930	corticosteroid hormone secretion	biological_process	9823	inferred	1	396863	POMC
+GO:0035933	glucocorticoid secretion	biological_process	9823	inferred	1	396863	POMC
+GO:0036094	small molecule binding	molecular_function	9823	inferred	6	396960|397085|397109|397419|397481|445525	ALB|MYO6|DPYD|TTR|ATP1A1|PLA2G1B
+GO:0036211	protein modification process	biological_process	9823	inferred	3	396764|397077|445537	SLC11A1|FOXO1|ST3GAL1
+GO:0036293	response to decreased oxygen levels	biological_process	9823	inferred	1	396965	PRL
+GO:0036294	cellular response to decreased oxygen levels	biological_process	9823	inferred	1	396965	PRL
+GO:0036376	sodium ion export from cell	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0036464	cytoplasmic ribonucleoprotein granule	cellular_component	9823	inferred	1	431672	DDX4
+GO:0038023	signaling receptor activity	molecular_function	9823	inferred	3	397372|397638|399501	GHSR|CALCR|ADRA2A
+GO:0038024	cargo receptor activity	molecular_function	9823	inferred	1	397018	SCARB1
+GO:0038037	G-protein coupled receptor dimeric complex	cellular_component	9823	inferred	1	497059	SSTR2
+GO:0038039	G-protein coupled receptor heterodimeric complex	cellular_component	9823	inferred	1	497059	SSTR2
+GO:0040007	growth	biological_process	9823	inferred	1	396891	RLN
+GO:0040008	regulation of growth	biological_process	9823	inferred	1	397064	IGFBP2
+GO:0040011	locomotion	biological_process	9823	inferred	3	396891|397084|445525	RLN|TGFB2|PLA2G1B
+GO:0040012	regulation of locomotion	biological_process	9823	inferred	1	397415	INS
+GO:0040017	positive regulation of locomotion	biological_process	9823	inferred	1	397415	INS
+GO:0040020	regulation of meiotic nuclear division	biological_process	9823	inferred	1	100048934	WEE1B
+GO:0042089	cytokine biosynthetic process	biological_process	9823	inferred	1	397057	IL18
+GO:0042095	interferon-gamma biosynthetic process	biological_process	9823	inferred	1	397057	IL18
+GO:0042107	cytokine metabolic process	biological_process	9823	inferred	1	397057	IL18
+GO:0042127	regulation of cell proliferation	biological_process	9823	inferred	4	396891|396965|397057|445525	RLN|PRL|IL18|PLA2G1B
+GO:0042175	nuclear outer membrane-endoplasmic reticulum membrane network	cellular_component	9823	inferred	1	397196	DPEP1
+GO:0042221	response to chemical	biological_process	9823	inferred	15	396764|396799|396884|396913|396965|397077|397084|397096|397128|397196|397372|397488|397671|403324|445525	SLC11A1|ITIH4|GH1|C-JUN|PRL|FOXO1|TGFB2|ENG|MX1|DPEP1|GHSR|GHR|PPARG|CYP3A29|PLA2G1B
+GO:0042277	peptide binding	molecular_function	9823	inferred	1	397638	CALCR
+GO:0042312	regulation of vasodilation	biological_process	9823	inferred	2	396724|397557	OLR1|NOS3
+GO:0042325	regulation of phosphorylation	biological_process	9823	inferred	8	396851|396884|397225|397415|397488|397493|397595|445525	PIK3R5|GH1|IL4|INS|GHR|PRKAR2A|GCG|PLA2G1B
+GO:0042326	negative regulation of phosphorylation	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:0042327	positive regulation of phosphorylation	biological_process	9823	inferred	7	396851|396884|397225|397415|397488|397595|445525	PIK3R5|GH1|IL4|INS|GHR|GCG|PLA2G1B
+GO:0042330	taxis	biological_process	9823	inferred	2	397084|445525	TGFB2|PLA2G1B
+GO:0042383	sarcolemma	cellular_component	9823	inferred	1	397481	ATP1A1
+GO:0042391	regulation of membrane potential	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0042509	regulation of tyrosine phosphorylation of STAT protein	biological_process	9823	inferred	1	396884	GH1
+GO:0042522	regulation of tyrosine phosphorylation of Stat5 protein	biological_process	9823	inferred	1	396884	GH1
+GO:0042523	positive regulation of tyrosine phosphorylation of Stat5 protein	biological_process	9823	inferred	1	396884	GH1
+GO:0042531	positive regulation of tyrosine phosphorylation of STAT protein	biological_process	9823	inferred	1	396884	GH1
+GO:0042562	hormone binding	molecular_function	9823	inferred	2	397419|397638	TTR|CALCR
+GO:0042585	germinal vesicle	cellular_component	9823	inferred	2	397493|397652	PRKAR2A|PRKACA
+GO:0042592	homeostatic process	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0042623	ATPase activity, coupled	molecular_function	9823	inferred	3	396807|396898|397481	MYL6|ATP1B1|ATP1A1
+GO:0042625	ATPase activity, coupled to transmembrane movement of ions	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0042626	ATPase activity, coupled to transmembrane movement of substances	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0042802	identical protein binding	molecular_function	9823	inferred	5	396940|396978|397109|397415|397500	AMEL|OXCT1|DPYD|INS|ABAT
+GO:0042803	protein homodimerization activity	molecular_function	9823	inferred	3	396978|397109|397500	OXCT1|DPYD|ABAT
+GO:0042806	fucose binding	molecular_function	9823	inferred	1	397098	ACR
+GO:0042981	regulation of apoptotic process	biological_process	9823	inferred	3	396721|397086|397225	IL13|TNF|IL4
+GO:0043009	chordate embryonic development	biological_process	9823	inferred	1	396891	RLN
+GO:0043065	positive regulation of apoptotic process	biological_process	9823	inferred	1	397086	TNF
+GO:0043066	negative regulation of apoptotic process	biological_process	9823	inferred	2	396721|397225	IL13|IL4
+GO:0043067	regulation of programmed cell death	biological_process	9823	inferred	3	396721|397086|397225	IL13|TNF|IL4
+GO:0043068	positive regulation of programmed cell death	biological_process	9823	inferred	1	397086	TNF
+GO:0043069	negative regulation of programmed cell death	biological_process	9823	inferred	2	396721|397225	IL13|IL4
+GO:0043073	germ cell nucleus	cellular_component	9823	inferred	2	397493|397652	PRKAR2A|PRKACA
+GO:0043085	positive regulation of catalytic activity	biological_process	9823	inferred	5	396851|397638|414283|445525|100155163	PIK3R5|CALCR|ADCYAP1|PLA2G1B|LOC100155163
+GO:0043086	negative regulation of catalytic activity	biological_process	9823	inferred	2	397493|399501	PRKAR2A|ADRA2A
+GO:0043087	regulation of GTPase activity	biological_process	9823	inferred	1	100155163	LOC100155163
+GO:0043167	ion binding	molecular_function	9823	inferred	8	396971|397085|397109|397196|397481|397500|445525|100301483	ALOX12|MYO6|DPYD|DPEP1|ATP1A1|ABAT|PLA2G1B|S100A12
+GO:0043168	anion binding	molecular_function	9823	inferred	6	397085|397109|397196|397481|397500|445525	MYO6|DPYD|DPEP1|ATP1A1|ABAT|PLA2G1B
+GO:0043169	cation binding	molecular_function	9823	inferred	3	396971|397481|100301483	ALOX12|ATP1A1|S100A12
+GO:0043170	macromolecule metabolic process	biological_process	9823	inferred	8	396764|397057|397077|397130|397135|397343|445521|445537	SLC11A1|IL18|FOXO1|HMGB2|CAST|ADAM17|HMGB1|ST3GAL1
+GO:0043177	organic acid binding	molecular_function	9823	inferred	1	445525	PLA2G1B
+GO:0043207	response to external biotic stimulus	biological_process	9823	inferred	4	396764|396913|397128|397570	SLC11A1|C-JUN|MX1|OAS1
+GO:0043226	organelle	cellular_component	9823	inferred	21	396712|396913|397077|397085|397110|397154|397196|397245|397486|397487|397493|397646|397652|414412|431672|733606|780433|100048934|100048954|100513764|100524676	LHX3|C-JUN|FOXO1|MYO6|SCG5|CHGB|DPEP1|ATP1B4|PRM2|PRM1|PRKAR2A|NLN|PRKACA|SDHB|DDX4|TMSB4X|SDHA|WEE1B|SDHD|LOC100513764|SDHC
+GO:0043227	membrane-bounded organelle	cellular_component	9823	inferred	20	396712|396913|397077|397085|397110|397154|397196|397245|397486|397487|397493|397646|397652|414412|733606|780433|100048934|100048954|100513764|100524676	LHX3|C-JUN|FOXO1|MYO6|SCG5|CHGB|DPEP1|ATP1B4|PRM2|PRM1|PRKAR2A|NLN|PRKACA|SDHB|TMSB4X|SDHA|WEE1B|SDHD|LOC100513764|SDHC
+GO:0043228	non-membrane-bounded organelle	cellular_component	9823	inferred	2	397085|431672	MYO6|DDX4
+GO:0043229	intracellular organelle	cellular_component	9823	inferred	21	396712|396913|397077|397085|397110|397154|397196|397245|397486|397487|397493|397646|397652|414412|431672|733606|780433|100048934|100048954|100513764|100524676	LHX3|C-JUN|FOXO1|MYO6|SCG5|CHGB|DPEP1|ATP1B4|PRM2|PRM1|PRKAR2A|NLN|PRKACA|SDHB|DDX4|TMSB4X|SDHA|WEE1B|SDHD|LOC100513764|SDHC
+GO:0043231	intracellular membrane-bounded organelle	cellular_component	9823	inferred	20	396712|396913|397077|397085|397110|397154|397196|397245|397486|397487|397493|397646|397652|414412|733606|780433|100048934|100048954|100513764|100524676	LHX3|C-JUN|FOXO1|MYO6|SCG5|CHGB|DPEP1|ATP1B4|PRM2|PRM1|PRKAR2A|NLN|PRKACA|SDHB|TMSB4X|SDHA|WEE1B|SDHD|LOC100513764|SDHC
+GO:0043232	intracellular non-membrane-bounded organelle	cellular_component	9823	inferred	2	397085|431672	MYO6|DDX4
+GO:0043234	protein complex	cellular_component	9823	inferred	11	396851|396898|397085|397098|397481|397500|414412|497059|780433|100048954|100524676	PIK3R5|ATP1B1|MYO6|ACR|ATP1A1|ABAT|SDHB|SSTR2|SDHA|SDHD|SDHC
+GO:0043235	receptor complex	cellular_component	9823	inferred	1	497059	SSTR2
+GO:0043266	regulation of potassium ion transport	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0043268	positive regulation of potassium ion transport	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0043269	regulation of ion transport	biological_process	9823	inferred	2	399501|445525	ADRA2A|PLA2G1B
+GO:0043270	positive regulation of ion transport	biological_process	9823	inferred	2	399501|445525	ADRA2A|PLA2G1B
+GO:0043271	negative regulation of ion transport	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0043400	cortisol secretion	biological_process	9823	inferred	1	396863	POMC
+GO:0043405	regulation of MAP kinase activity	biological_process	9823	inferred	2	396851|445525	PIK3R5|PLA2G1B
+GO:0043406	positive regulation of MAP kinase activity	biological_process	9823	inferred	2	396851|445525	PIK3R5|PLA2G1B
+GO:0043408	regulation of MAPK cascade	biological_process	9823	inferred	3	396851|397595|445525	PIK3R5|GCG|PLA2G1B
+GO:0043410	positive regulation of MAPK cascade	biological_process	9823	inferred	3	396851|397595|445525	PIK3R5|GCG|PLA2G1B
+GO:0043412	macromolecule modification	biological_process	9823	inferred	3	396764|397077|445537	SLC11A1|FOXO1|ST3GAL1
+GO:0043413	macromolecule glycosylation	biological_process	9823	inferred	1	445537	ST3GAL1
+GO:0043434	response to peptide hormone	biological_process	9823	inferred	5	396884|397077|397196|397488|445525	GH1|FOXO1|DPEP1|GHR|PLA2G1B
+GO:0043436	oxoacid metabolic process	biological_process	9823	inferred	5	396971|445525|445537|100127469|100134955	ALOX12|PLA2G1B|ST3GAL1|BDKRB1|FAM213B
+GO:0043492	ATPase activity, coupled to movement of substances	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0043531	ADP binding	molecular_function	9823	inferred	1	397085	MYO6
+GO:0043547	positive regulation of GTPase activity	biological_process	9823	inferred	1	100155163	LOC100155163
+GO:0043549	regulation of kinase activity	biological_process	9823	inferred	3	396851|397493|445525	PIK3R5|PRKAR2A|PLA2G1B
+GO:0043550	regulation of lipid kinase activity	biological_process	9823	inferred	1	396851	PIK3R5
+GO:0043551	regulation of phosphatidylinositol 3-kinase activity	biological_process	9823	inferred	1	396851	PIK3R5
+GO:0043651	linoleic acid metabolic process	biological_process	9823	inferred	1	396971	ALOX12
+GO:0043900	regulation of multi-organism process	biological_process	9823	inferred	7	396891|397091|397128|397493|397570|397652|100048934	RLN|PRKAR1A|MX1|PRKAR2A|OAS1|PRKACA|WEE1B
+GO:0043901	negative regulation of multi-organism process	biological_process	9823	inferred	4	397128|397570|397652|100048934	MX1|OAS1|PRKACA|WEE1B
+GO:0043902	positive regulation of multi-organism process	biological_process	9823	inferred	2	396891|397493	RLN|PRKAR2A
+GO:0043903	regulation of symbiosis, encompassing mutualism through parasitism	biological_process	9823	inferred	2	397128|397570	MX1|OAS1
+GO:0044057	regulation of system process	biological_process	9823	inferred	6	396724|397086|397122|397557|399500|100127469	OLR1|TNF|IL1B1|NOS3|IL6|BDKRB1
+GO:0044060	regulation of endocrine process	biological_process	9823	inferred	3	397086|397122|399500	TNF|IL1B1|IL6
+GO:0044087	regulation of cellular component biogenesis	biological_process	9823	inferred	1	397595	GCG
+GO:0044089	positive regulation of cellular component biogenesis	biological_process	9823	inferred	1	397595	GCG
+GO:0044092	negative regulation of molecular function	biological_process	9823	inferred	2	397493|399501	PRKAR2A|ADRA2A
+GO:0044093	positive regulation of molecular function	biological_process	9823	inferred	6	396851|396913|397638|414283|445525|100155163	PIK3R5|C-JUN|CALCR|ADCYAP1|PLA2G1B|LOC100155163
+GO:0044237	cellular metabolic process	biological_process	9823	inferred	13	396764|396971|397077|397130|397132|397189|397196|397570|445521|445525|445537|100127469|100134955	SLC11A1|ALOX12|FOXO1|HMGB2|FMO1|MIOX|DPEP1|OAS1|HMGB1|PLA2G1B|ST3GAL1|BDKRB1|FAM213B
+GO:0044238	primary metabolic process	biological_process	9823	inferred	16	396764|396971|397057|397077|397130|397132|397135|397189|397196|397343|397570|445521|445525|445537|100127469|100134955	SLC11A1|ALOX12|IL18|FOXO1|HMGB2|FMO1|CAST|MIOX|DPEP1|ADAM17|OAS1|HMGB1|PLA2G1B|ST3GAL1|BDKRB1|FAM213B
+GO:0044248	cellular catabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:0044249	cellular biosynthetic process	biological_process	9823	inferred	5	397570|445525|445537|100127469|100134955	OAS1|PLA2G1B|ST3GAL1|BDKRB1|FAM213B
+GO:0044255	cellular lipid metabolic process	biological_process	9823	inferred	5	396971|397196|445525|100127469|100134955	ALOX12|DPEP1|PLA2G1B|BDKRB1|FAM213B
+GO:0044260	cellular macromolecule metabolic process	biological_process	9823	inferred	5	396764|397077|397130|445521|445537	SLC11A1|FOXO1|HMGB2|HMGB1|ST3GAL1
+GO:0044262	cellular carbohydrate metabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:0044267	cellular protein metabolic process	biological_process	9823	inferred	3	396764|397077|445537	SLC11A1|FOXO1|ST3GAL1
+GO:0044271	cellular nitrogen compound biosynthetic process	biological_process	9823	inferred	1	397570	OAS1
+GO:0044275	cellular carbohydrate catabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:0044281	small molecule metabolic process	biological_process	9823	inferred	8	396971|397132|397189|397570|445525|445537|100127469|100134955	ALOX12|FMO1|MIOX|OAS1|PLA2G1B|ST3GAL1|BDKRB1|FAM213B
+GO:0044282	small molecule catabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:0044283	small molecule biosynthetic process	biological_process	9823	inferred	3	445525|100127469|100134955	PLA2G1B|BDKRB1|FAM213B
+GO:0044446	intracellular organelle part	cellular_component	9823	inferred	7	397085|397196|397245|414412|780433|100048954|100524676	MYO6|DPEP1|ATP1B4|SDHB|SDHA|SDHD|SDHC
+GO:0044548	S100 protein binding	molecular_function	9823	inferred	1	406192	ANXA2
+GO:0044557	relaxation of smooth muscle	biological_process	9823	inferred	1	100127469	BDKRB1
+GO:0044699	single-organism process	biological_process	9823	inferred	33	396764|396801|396851|396863|396884|396891|396898|396971|397018|397057|397077|397082|397084|397085|397096|397130|397132|397134|397189|397196|397277|397372|397481|397488|397570|397676|414283|445521|445525|445537|100048934|100127469|100134955	SLC11A1|LDLR|PIK3R5|POMC|GH1|RLN|ATP1B1|ALOX12|SCARB1|IL18|FOXO1|DHRS4|TGFB2|MYO6|ENG|HMGB2|FMO1|DAO1|MIOX|DPEP1|B2R|GHSR|ATP1A1|GHR|OAS1|ZAN|ADCYAP1|HMGB1|PLA2G1B|ST3GAL1|WEE1B|BDKRB1|FAM213B
+GO:0044700	single organism signaling	biological_process	9823	inferred	11	396764|396851|396863|396884|397057|397077|397096|397372|397488|414283|445525	SLC11A1|PIK3R5|POMC|GH1|IL18|FOXO1|ENG|GHSR|GHR|ADCYAP1|PLA2G1B
+GO:0044702	single organism reproductive process	biological_process	9823	inferred	2	396891|397676	RLN|ZAN
+GO:0044703	multi-organism reproductive process	biological_process	9823	inferred	2	396891|397676	RLN|ZAN
+GO:0044707	single-multicellular organism process	biological_process	9823	inferred	6	396863|396891|397057|397277|445525|100127469	POMC|RLN|IL18|B2R|PLA2G1B|BDKRB1
+GO:0044710	single-organism metabolic process	biological_process	9823	inferred	14	396764|396971|397082|397130|397132|397134|397189|397196|397570|445521|445525|445537|100127469|100134955	SLC11A1|ALOX12|DHRS4|HMGB2|FMO1|DAO1|MIOX|DPEP1|OAS1|HMGB1|PLA2G1B|ST3GAL1|BDKRB1|FAM213B
+GO:0044711	single-organism biosynthetic process	biological_process	9823	inferred	4	397570|445525|100127469|100134955	OAS1|PLA2G1B|BDKRB1|FAM213B
+GO:0044712	single-organism catabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:0044723	single-organism carbohydrate metabolic process	biological_process	9823	inferred	2	397189|445537	MIOX|ST3GAL1
+GO:0044724	single-organism carbohydrate catabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:0044763	single-organism cellular process	biological_process	9823	inferred	28	396764|396851|396863|396884|396891|396898|396971|397057|397077|397084|397085|397096|397130|397132|397189|397196|397372|397481|397488|397570|397676|414283|445521|445525|445537|100048934|100127469|100134955	SLC11A1|PIK3R5|POMC|GH1|RLN|ATP1B1|ALOX12|IL18|FOXO1|TGFB2|MYO6|ENG|HMGB2|FMO1|MIOX|DPEP1|GHSR|ATP1A1|GHR|OAS1|ZAN|ADCYAP1|HMGB1|PLA2G1B|ST3GAL1|WEE1B|BDKRB1|FAM213B
+GO:0044765	single-organism transport	biological_process	9823	inferred	6	396801|396863|396898|397018|397481|445525	LDLR|POMC|ATP1B1|SCARB1|ATP1A1|PLA2G1B
+GO:0044767	single-organism developmental process	biological_process	9823	inferred	1	396891	RLN
+GO:0044853	plasma membrane raft	cellular_component	9823	inferred	2	397018|404693	SCARB1|CAV1
+GO:0044877	macromolecular complex binding	molecular_function	9823	inferred	2	396851|397085	PIK3R5|MYO6
+GO:0045019	negative regulation of nitric oxide biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:0045056	transcytosis	biological_process	9823	inferred	2	396801|397018	LDLR|SCARB1
+GO:0045069	regulation of viral genome replication	biological_process	9823	inferred	2	397128|397570	MX1|OAS1
+GO:0045071	negative regulation of viral genome replication	biological_process	9823	inferred	2	397128|397570	MX1|OAS1
+GO:0045087	innate immune response	biological_process	9823	inferred	4	397072|397128|397347|403324	C3|MX1|CD59|CYP3A29
+GO:0045121	membrane raft	cellular_component	9823	inferred	2	397018|404693	SCARB1|CAV1
+GO:0045177	apical part of cell	cellular_component	9823	inferred	2	397018|100151746	SCARB1|FLOT1
+GO:0045184	establishment of protein localization	biological_process	9823	inferred	1	397085	MYO6
+GO:0045257	succinate dehydrogenase complex (ubiquinone)	cellular_component	9823	inferred	4	414412|780433|100048954|100524676	SDHB|SDHA|SDHD|SDHC
+GO:0045273	respiratory chain complex II	cellular_component	9823	inferred	4	414412|780433|100048954|100524676	SDHB|SDHA|SDHD|SDHC
+GO:0045281	succinate dehydrogenase complex	cellular_component	9823	inferred	4	414412|780433|100048954|100524676	SDHB|SDHA|SDHD|SDHC
+GO:0045283	fumarate reductase complex	cellular_component	9823	inferred	4	414412|780433|100048954|100524676	SDHB|SDHA|SDHD|SDHC
+GO:0045428	regulation of nitric oxide biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:0045595	regulation of cell differentiation	biological_process	9823	inferred	6	397077|397091|397225|397493|397652|100048934	FOXO1|PRKAR1A|IL4|PRKAR2A|PRKACA|WEE1B
+GO:0045596	negative regulation of cell differentiation	biological_process	9823	inferred	3	397077|397652|100048934	FOXO1|PRKACA|WEE1B
+GO:0045597	positive regulation of cell differentiation	biological_process	9823	inferred	2	397225|397493	IL4|PRKAR2A
+GO:0045598	regulation of fat cell differentiation	biological_process	9823	inferred	1	397077	FOXO1
+GO:0045599	negative regulation of fat cell differentiation	biological_process	9823	inferred	1	397077	FOXO1
+GO:0045601	regulation of endothelial cell differentiation	biological_process	9823	inferred	1	397225	IL4
+GO:0045603	positive regulation of endothelial cell differentiation	biological_process	9823	inferred	1	397225	IL4
+GO:0045740	positive regulation of DNA replication	biological_process	9823	inferred	3	397415|397491|445525	INS|IGF1|PLA2G1B
+GO:0045744	negative regulation of G-protein coupled receptor protein signaling pathway	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0045761	regulation of adenylate cyclase activity	biological_process	9823	inferred	3	397638|399501|414283	CALCR|ADRA2A|ADCYAP1
+GO:0045762	positive regulation of adenylate cyclase activity	biological_process	9823	inferred	2	397638|414283	CALCR|ADCYAP1
+GO:0045786	negative regulation of cell cycle	biological_process	9823	inferred	1	397652	PRKACA
+GO:0045787	positive regulation of cell cycle	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:0045833	negative regulation of lipid metabolic process	biological_process	9823	inferred	1	396965	PRL
+GO:0045859	regulation of protein kinase activity	biological_process	9823	inferred	3	396851|397493|445525	PIK3R5|PRKAR2A|PLA2G1B
+GO:0045860	positive regulation of protein kinase activity	biological_process	9823	inferred	2	396851|445525	PIK3R5|PLA2G1B
+GO:0045892	negative regulation of transcription, DNA-templated	biological_process	9823	inferred	1	397501	POU2F1
+GO:0045893	positive regulation of transcription, DNA-templated	biological_process	9823	inferred	5	396712|396840|396913|397671|445525	LHX3|SOX9|C-JUN|PPARG|PLA2G1B
+GO:0045908	negative regulation of vasodilation	biological_process	9823	inferred	1	396724	OLR1
+GO:0045909	positive regulation of vasodilation	biological_process	9823	inferred	1	397557	NOS3
+GO:0045921	positive regulation of exocytosis	biological_process	9823	inferred	1	396891	RLN
+GO:0045927	positive regulation of growth	biological_process	9823	inferred	1	397064	IGFBP2
+GO:0045932	negative regulation of muscle contraction	biological_process	9823	inferred	1	100127469	BDKRB1
+GO:0045934	negative regulation of nucleobase-containing compound metabolic process	biological_process	9823	inferred	2	397501|399501	POU2F1|ADRA2A
+GO:0045935	positive regulation of nucleobase-containing compound metabolic process	biological_process	9823	inferred	9	396712|396840|396913|397415|397491|397638|397671|414283|445525	LHX3|SOX9|C-JUN|INS|IGF1|CALCR|PPARG|ADCYAP1|PLA2G1B
+GO:0045936	negative regulation of phosphate metabolic process	biological_process	9823	inferred	2	397493|399501	PRKAR2A|ADRA2A
+GO:0045937	positive regulation of phosphate metabolic process	biological_process	9823	inferred	9	396851|396884|397225|397415|397488|397595|397638|414283|445525	PIK3R5|GH1|IL4|INS|GHR|GCG|CALCR|ADCYAP1|PLA2G1B
+GO:0045939	negative regulation of steroid metabolic process	biological_process	9823	inferred	1	396965	PRL
+GO:0045944	positive regulation of transcription from RNA polymerase II promoter	biological_process	9823	inferred	3	396840|397671|445525	SOX9|PPARG|PLA2G1B
+GO:0045956	positive regulation of calcium ion-dependent exocytosis	biological_process	9823	inferred	1	396891	RLN
+GO:0045980	negative regulation of nucleotide metabolic process	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0045981	positive regulation of nucleotide metabolic process	biological_process	9823	inferred	2	397638|414283	CALCR|ADCYAP1
+GO:0045986	negative regulation of smooth muscle contraction	biological_process	9823	inferred	1	100127469	BDKRB1
+GO:0046164	alcohol catabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:0046174	polyol catabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:0046324	regulation of glucose import	biological_process	9823	inferred	1	396891	RLN
+GO:0046326	positive regulation of glucose import	biological_process	9823	inferred	1	396891	RLN
+GO:0046394	carboxylic acid biosynthetic process	biological_process	9823	inferred	3	445525|100127469|100134955	PLA2G1B|BDKRB1|FAM213B
+GO:0046425	regulation of JAK-STAT cascade	biological_process	9823	inferred	2	396884|397225	GH1|IL4
+GO:0046427	positive regulation of JAK-STAT cascade	biological_process	9823	inferred	2	396884|397225	GH1|IL4
+GO:0046456	icosanoid biosynthetic process	biological_process	9823	inferred	3	445525|100127469|100134955	PLA2G1B|BDKRB1|FAM213B
+GO:0046457	prostanoid biosynthetic process	biological_process	9823	inferred	2	100127469|100134955	BDKRB1|FAM213B
+GO:0046483	heterocycle metabolic process	biological_process	9823	inferred	4	397130|397132|397570|445521	HMGB2|FMO1|OAS1|HMGB1
+GO:0046486	glycerolipid metabolic process	biological_process	9823	inferred	1	397196	DPEP1
+GO:0046488	phosphatidylinositol metabolic process	biological_process	9823	inferred	1	397196	DPEP1
+GO:0046496	nicotinamide nucleotide metabolic process	biological_process	9823	inferred	1	397132	FMO1
+GO:0046578	regulation of Ras protein signal transduction	biological_process	9823	inferred	1	100155163	LOC100155163
+GO:0046626	regulation of insulin receptor signaling pathway	biological_process	9823	inferred	1	397415	INS
+GO:0046628	positive regulation of insulin receptor signaling pathway	biological_process	9823	inferred	1	397415	INS
+GO:0046822	regulation of nucleocytoplasmic transport	biological_process	9823	inferred	1	397225	IL4
+GO:0046825	regulation of protein export from nucleus	biological_process	9823	inferred	1	397225	IL4
+GO:0046872	metal ion binding	molecular_function	9823	inferred	3	396971|397481|100301483	ALOX12|ATP1A1|S100A12
+GO:0046873	metal ion transmembrane transporter activity	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0046879	hormone secretion	biological_process	9823	inferred	1	396863	POMC
+GO:0046883	regulation of hormone secretion	biological_process	9823	inferred	4	397086|397122|399500|497059	TNF|IL1B1|IL6|SSTR2
+GO:0046885	regulation of hormone biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:0046887	positive regulation of hormone secretion	biological_process	9823	inferred	3	397086|397122|399500	TNF|IL1B1|IL6
+GO:0046888	negative regulation of hormone secretion	biological_process	9823	inferred	1	497059	SSTR2
+GO:0046890	regulation of lipid biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:0046903	secretion	biological_process	9823	inferred	1	396863	POMC
+GO:0046906	tetrapyrrole binding	molecular_function	9823	inferred	2	100048954|100524676	SDHD|SDHC
+GO:0046907	intracellular transport	biological_process	9823	inferred	1	397085	MYO6
+GO:0046914	transition metal ion binding	molecular_function	9823	inferred	2	396971|100301483	ALOX12|S100A12
+GO:0046935	1-phosphatidylinositol-3-kinase regulator activity	molecular_function	9823	inferred	1	396851	PIK3R5
+GO:0046982	protein heterodimerization activity	molecular_function	9823	inferred	2	399501|497059	ADRA2A|SSTR2
+GO:0046983	protein dimerization activity	molecular_function	9823	inferred	5	396978|397109|397500|399501|497059	OXCT1|DPYD|ABAT|ADRA2A|SSTR2
+GO:0047017	prostaglandin-F synthase activity	molecular_function	9823	inferred	1	100134955	FAM213B
+GO:0048015	phosphatidylinositol-mediated signaling	biological_process	9823	inferred	1	396851	PIK3R5
+GO:0048017	inositol lipid-mediated signaling	biological_process	9823	inferred	1	396851	PIK3R5
+GO:0048029	monosaccharide binding	molecular_function	9823	inferred	1	397098	ACR
+GO:0048037	cofactor binding	molecular_function	9823	inferred	4	397109|397500|414412|100048954	DPYD|ABAT|SDHB|SDHD
+GO:0048038	quinone binding	molecular_function	9823	inferred	2	414412|100048954	SDHB|SDHD
+GO:0048039	ubiquinone binding	molecular_function	9823	inferred	2	414412|100048954	SDHB|SDHD
+GO:0048145	regulation of fibroblast proliferation	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0048146	positive regulation of fibroblast proliferation	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0048285	organelle fission	biological_process	9823	inferred	1	100048934	WEE1B
+GO:0048468	cell development	biological_process	9823	inferred	1	396891	RLN
+GO:0048469	cell maturation	biological_process	9823	inferred	1	396891	RLN
+GO:0048471	perinuclear region of cytoplasm	cellular_component	9823	inferred	2	396959|397085	CARP|MYO6
+GO:0048477	oogenesis	biological_process	9823	inferred	1	396891	RLN
+GO:0048518	positive regulation of biological process	biological_process	9823	inferred	29	396712|396724|396840|396851|396884|396891|396913|396927|396965|397057|397064|397077|397084|397086|397122|397225|397415|397488|397491|397493|397557|397595|397638|397671|399500|399501|414283|445525|100155163	LHX3|OLR1|SOX9|PIK3R5|GH1|RLN|C-JUN|ZP3|PRL|IL18|IGFBP2|FOXO1|TGFB2|TNF|IL1B1|IL4|INS|GHR|IGF1|PRKAR2A|NOS3|GCG|CALCR|PPARG|IL6|ADRA2A|ADCYAP1|PLA2G1B|LOC100155163
+GO:0048519	negative regulation of biological process	biological_process	9823	inferred	15	396721|396724|396965|397077|397128|397225|397493|397501|397570|397652|397671|399501|497059|100048934|100127469	IL13|OLR1|PRL|FOXO1|MX1|IL4|PRKAR2A|POU2F1|OAS1|PRKACA|PPARG|ADRA2A|SSTR2|WEE1B|BDKRB1
+GO:0048522	positive regulation of cellular process	biological_process	9823	inferred	22	396712|396724|396840|396851|396884|396891|396913|396965|397057|397086|397122|397225|397415|397488|397491|397493|397595|397638|397671|399500|414283|445525	LHX3|OLR1|SOX9|PIK3R5|GH1|RLN|C-JUN|PRL|IL18|TNF|IL1B1|IL4|INS|GHR|IGF1|PRKAR2A|GCG|CALCR|PPARG|IL6|ADCYAP1|PLA2G1B
+GO:0048523	negative regulation of cellular process	biological_process	9823	inferred	12	396721|396965|397077|397128|397225|397493|397501|397570|397652|399501|497059|100048934	IL13|PRL|FOXO1|MX1|IL4|PRKAR2A|POU2F1|OAS1|PRKACA|ADRA2A|SSTR2|WEE1B
+GO:0048525	negative regulation of viral process	biological_process	9823	inferred	2	397128|397570	MX1|OAS1
+GO:0048583	regulation of response to stimulus	biological_process	9823	inferred	10	396851|396884|396927|397084|397225|397415|397595|399501|445525|100155163	PIK3R5|GH1|ZP3|TGFB2|IL4|INS|GCG|ADRA2A|PLA2G1B|LOC100155163
+GO:0048584	positive regulation of response to stimulus	biological_process	9823	inferred	8	396851|396884|396927|397084|397225|397415|397595|445525	PIK3R5|GH1|ZP3|TGFB2|IL4|INS|GCG|PLA2G1B
+GO:0048585	negative regulation of response to stimulus	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0048589	developmental growth	biological_process	9823	inferred	1	396891	RLN
+GO:0048599	oocyte development	biological_process	9823	inferred	1	396891	RLN
+GO:0048609	multicellular organismal reproductive process	biological_process	9823	inferred	1	396891	RLN
+GO:0048856	anatomical structure development	biological_process	9823	inferred	1	396891	RLN
+GO:0048869	cellular developmental process	biological_process	9823	inferred	1	396891	RLN
+GO:0048870	cell motility	biological_process	9823	inferred	3	396891|397084|445525	RLN|TGFB2|PLA2G1B
+GO:0048878	chemical homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0050660	flavin adenine dinucleotide binding	molecular_function	9823	inferred	1	397109	DPYD
+GO:0050661	NADP binding	molecular_function	9823	inferred	1	397109	DPYD
+GO:0050662	coenzyme binding	molecular_function	9823	inferred	1	397109	DPYD
+GO:0050678	regulation of epithelial cell proliferation	biological_process	9823	inferred	2	396891|396965	RLN|PRL
+GO:0050679	positive regulation of epithelial cell proliferation	biological_process	9823	inferred	2	396891|396965	RLN|PRL
+GO:0050708	regulation of protein secretion	biological_process	9823	inferred	1	397671	PPARG
+GO:0050714	positive regulation of protein secretion	biological_process	9823	inferred	1	397671	PPARG
+GO:0050727	regulation of inflammatory response	biological_process	9823	inferred	1	396927	ZP3
+GO:0050729	positive regulation of inflammatory response	biological_process	9823	inferred	1	396927	ZP3
+GO:0050730	regulation of peptidyl-tyrosine phosphorylation	biological_process	9823	inferred	3	396884|397415|397488	GH1|INS|GHR
+GO:0050731	positive regulation of peptidyl-tyrosine phosphorylation	biological_process	9823	inferred	3	396884|397415|397488	GH1|INS|GHR
+GO:0050776	regulation of immune response	biological_process	9823	inferred	3	396927|397084|445525	ZP3|TGFB2|PLA2G1B
+GO:0050778	positive regulation of immune response	biological_process	9823	inferred	3	396927|397084|445525	ZP3|TGFB2|PLA2G1B
+GO:0050789	regulation of biological process	biological_process	9823	inferred	43	396712|396721|396724|396764|396840|396851|396884|396891|396913|396927|396965|397057|397064|397077|397084|397086|397091|397096|397122|397128|397225|397277|397372|397415|397488|397491|397493|397501|397557|397570|397595|397638|397652|397671|399500|399501|414283|414737|445525|497059|100048934|100127469|100155163	LHX3|IL13|OLR1|SLC11A1|SOX9|PIK3R5|GH1|RLN|C-JUN|ZP3|PRL|IL18|IGFBP2|FOXO1|TGFB2|TNF|PRKAR1A|ENG|IL1B1|MX1|IL4|B2R|GHSR|INS|GHR|IGF1|PRKAR2A|POU2F1|NOS3|OAS1|GCG|CALCR|PRKACA|PPARG|IL6|ADRA2A|ADCYAP1|CDH5|PLA2G1B|SSTR2|WEE1B|BDKRB1|LOC100155163
+GO:0050790	regulation of catalytic activity	biological_process	9823	inferred	7	396851|397493|397638|399501|414283|445525|100155163	PIK3R5|PRKAR2A|CALCR|ADRA2A|ADCYAP1|PLA2G1B|LOC100155163
+GO:0050792	regulation of viral process	biological_process	9823	inferred	2	397128|397570	MX1|OAS1
+GO:0050793	regulation of developmental process	biological_process	9823	inferred	6	397077|397091|397225|397493|397652|100048934	FOXO1|PRKAR1A|IL4|PRKAR2A|PRKACA|WEE1B
+GO:0050794	regulation of cellular process	biological_process	9823	inferred	37	396712|396721|396724|396764|396840|396851|396884|396891|396913|396965|397057|397077|397086|397091|397096|397122|397128|397225|397277|397372|397415|397488|397491|397493|397501|397570|397595|397638|397652|397671|399500|399501|414283|445525|497059|100048934|100155163	LHX3|IL13|OLR1|SLC11A1|SOX9|PIK3R5|GH1|RLN|C-JUN|PRL|IL18|FOXO1|TNF|PRKAR1A|ENG|IL1B1|MX1|IL4|B2R|GHSR|INS|GHR|IGF1|PRKAR2A|POU2F1|OAS1|GCG|CALCR|PRKACA|PPARG|IL6|ADRA2A|ADCYAP1|PLA2G1B|SSTR2|WEE1B|LOC100155163
+GO:0050801	ion homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0050804	regulation of synaptic transmission	biological_process	9823	inferred	1	397277	B2R
+GO:0050810	regulation of steroid biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:0050840	extracellular matrix binding	molecular_function	9823	inferred	1	397676	ZAN
+GO:0050886	endocrine process	biological_process	9823	inferred	1	396863	POMC
+GO:0050896	response to stimulus	biological_process	9823	inferred	23	396764|396799|396851|396884|396913|396965|397057|397072|397077|397084|397096|397128|397130|397196|397347|397372|397488|397570|397671|403324|414283|445521|445525	SLC11A1|ITIH4|PIK3R5|GH1|C-JUN|PRL|IL18|C3|FOXO1|TGFB2|ENG|MX1|HMGB2|DPEP1|CD59|GHSR|GHR|OAS1|PPARG|CYP3A29|ADCYAP1|HMGB1|PLA2G1B
+GO:0050900	leukocyte migration	biological_process	9823	inferred	2	397084|445525	TGFB2|PLA2G1B
+GO:0051015	actin filament binding	molecular_function	9823	inferred	1	397085	MYO6
+GO:0051046	regulation of secretion	biological_process	9823	inferred	6	396891|397086|397122|397671|399500|497059	RLN|TNF|IL1B1|PPARG|IL6|SSTR2
+GO:0051047	positive regulation of secretion	biological_process	9823	inferred	5	396891|397086|397122|397671|399500	RLN|TNF|IL1B1|PPARG|IL6
+GO:0051048	negative regulation of secretion	biological_process	9823	inferred	1	497059	SSTR2
+GO:0051049	regulation of transport	biological_process	9823	inferred	10	396891|397086|397122|397128|397225|397671|399500|399501|445525|497059	RLN|TNF|IL1B1|MX1|IL4|PPARG|IL6|ADRA2A|PLA2G1B|SSTR2
+GO:0051050	positive regulation of transport	biological_process	9823	inferred	7	396891|397086|397122|397671|399500|399501|445525	RLN|TNF|IL1B1|PPARG|IL6|ADRA2A|PLA2G1B
+GO:0051051	negative regulation of transport	biological_process	9823	inferred	3	397128|399501|497059	MX1|ADRA2A|SSTR2
+GO:0051052	regulation of DNA metabolic process	biological_process	9823	inferred	3	397415|397491|445525	INS|IGF1|PLA2G1B
+GO:0051054	positive regulation of DNA metabolic process	biological_process	9823	inferred	3	397415|397491|445525	INS|IGF1|PLA2G1B
+GO:0051055	negative regulation of lipid biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:0051056	regulation of small GTPase mediated signal transduction	biological_process	9823	inferred	1	100155163	LOC100155163
+GO:0051090	regulation of sequence-specific DNA binding transcription factor activity	biological_process	9823	inferred	2	396913|445525	C-JUN|PLA2G1B
+GO:0051091	positive regulation of sequence-specific DNA binding transcription factor activity	biological_process	9823	inferred	2	396913|445525	C-JUN|PLA2G1B
+GO:0051092	positive regulation of NF-kappaB transcription factor activity	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0051093	negative regulation of developmental process	biological_process	9823	inferred	3	397077|397652|100048934	FOXO1|PRKACA|WEE1B
+GO:0051094	positive regulation of developmental process	biological_process	9823	inferred	2	397225|397493	IL4|PRKAR2A
+GO:0051103	DNA ligation involved in DNA repair	biological_process	9823	inferred	2	397130|445521	HMGB2|HMGB1
+GO:0051117	ATPase binding	molecular_function	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0051128	regulation of cellular component organization	biological_process	9823	inferred	3	397595|397671|100048934	GCG|PPARG|WEE1B
+GO:0051130	positive regulation of cellular component organization	biological_process	9823	inferred	1	397595	GCG
+GO:0051171	regulation of nitrogen compound metabolic process	biological_process	9823	inferred	12	396712|396840|396913|396965|397415|397491|397501|397638|397671|399501|414283|445525	LHX3|SOX9|C-JUN|PRL|INS|IGF1|POU2F1|CALCR|PPARG|ADRA2A|ADCYAP1|PLA2G1B
+GO:0051172	negative regulation of nitrogen compound metabolic process	biological_process	9823	inferred	3	396965|397501|399501	PRL|POU2F1|ADRA2A
+GO:0051173	positive regulation of nitrogen compound metabolic process	biological_process	9823	inferred	9	396712|396840|396913|397415|397491|397638|397671|414283|445525	LHX3|SOX9|C-JUN|INS|IGF1|CALCR|PPARG|ADCYAP1|PLA2G1B
+GO:0051174	regulation of phosphorus metabolic process	biological_process	9823	inferred	11	396851|396884|397225|397415|397488|397493|397595|397638|399501|414283|445525	PIK3R5|GH1|IL4|INS|GHR|PRKAR2A|GCG|CALCR|ADRA2A|ADCYAP1|PLA2G1B
+GO:0051179	localization	biological_process	9823	inferred	10	396801|396863|396891|396898|397018|397084|397085|397128|397481|445525	LDLR|POMC|RLN|ATP1B1|SCARB1|TGFB2|MYO6|MX1|ATP1A1|PLA2G1B
+GO:0051186	cofactor metabolic process	biological_process	9823	inferred	1	397132	FMO1
+GO:0051213	dioxygenase activity	molecular_function	9823	inferred	1	396971	ALOX12
+GO:0051222	positive regulation of protein transport	biological_process	9823	inferred	1	397671	PPARG
+GO:0051223	regulation of protein transport	biological_process	9823	inferred	2	397225|397671	IL4|PPARG
+GO:0051234	establishment of localization	biological_process	9823	inferred	7	396801|396863|396898|397018|397085|397481|445525	LDLR|POMC|ATP1B1|SCARB1|MYO6|ATP1A1|PLA2G1B
+GO:0051239	regulation of multicellular organismal process	biological_process	9823	inferred	12	396724|396965|397086|397091|397122|397225|397493|397557|397652|399500|100048934|100127469	OLR1|PRL|TNF|PRKAR1A|IL1B1|IL4|PRKAR2A|NOS3|PRKACA|IL6|WEE1B|BDKRB1
+GO:0051240	positive regulation of multicellular organismal process	biological_process	9823	inferred	6	396965|397086|397122|397493|397557|399500	PRL|TNF|IL1B1|PRKAR2A|NOS3|IL6
+GO:0051241	negative regulation of multicellular organismal process	biological_process	9823	inferred	4	396724|397652|100048934|100127469	OLR1|PRKACA|WEE1B|BDKRB1
+GO:0051246	regulation of protein metabolic process	biological_process	9823	inferred	8	396851|396884|397225|397415|397488|397493|397595|445525	PIK3R5|GH1|IL4|INS|GHR|PRKAR2A|GCG|PLA2G1B
+GO:0051247	positive regulation of protein metabolic process	biological_process	9823	inferred	7	396851|396884|397225|397415|397488|397595|445525	PIK3R5|GH1|IL4|INS|GHR|GCG|PLA2G1B
+GO:0051248	negative regulation of protein metabolic process	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:0051252	regulation of RNA metabolic process	biological_process	9823	inferred	6	396712|396840|396913|397501|397671|445525	LHX3|SOX9|C-JUN|POU2F1|PPARG|PLA2G1B
+GO:0051253	negative regulation of RNA metabolic process	biological_process	9823	inferred	1	397501	POU2F1
+GO:0051254	positive regulation of RNA metabolic process	biological_process	9823	inferred	5	396712|396840|396913|397671|445525	LHX3|SOX9|C-JUN|PPARG|PLA2G1B
+GO:0051270	regulation of cellular component movement	biological_process	9823	inferred	1	397415	INS
+GO:0051272	positive regulation of cellular component movement	biological_process	9823	inferred	1	397415	INS
+GO:0051276	chromosome organization	biological_process	9823	inferred	1	397130	HMGB2
+GO:0051302	regulation of cell division	biological_process	9823	inferred	1	100048934	WEE1B
+GO:0051321	meiotic cell cycle	biological_process	9823	inferred	1	100048934	WEE1B
+GO:0051336	regulation of hydrolase activity	biological_process	9823	inferred	2	397638|100155163	CALCR|LOC100155163
+GO:0051338	regulation of transferase activity	biological_process	9823	inferred	3	396851|397493|445525	PIK3R5|PRKAR2A|PLA2G1B
+GO:0051339	regulation of lyase activity	biological_process	9823	inferred	3	397638|399501|414283	CALCR|ADRA2A|ADCYAP1
+GO:0051345	positive regulation of hydrolase activity	biological_process	9823	inferred	2	397638|100155163	CALCR|LOC100155163
+GO:0051347	positive regulation of transferase activity	biological_process	9823	inferred	2	396851|445525	PIK3R5|PLA2G1B
+GO:0051348	negative regulation of transferase activity	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:0051349	positive regulation of lyase activity	biological_process	9823	inferred	2	397638|414283	CALCR|ADCYAP1
+GO:0051350	negative regulation of lyase activity	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0051379	epinephrine binding	molecular_function	9823	inferred	1	399501	ADRA2A
+GO:0051445	regulation of meiotic cell cycle	biological_process	9823	inferred	4	397091|397493|397652|100048934	PRKAR1A|PRKAR2A|PRKACA|WEE1B
+GO:0051446	positive regulation of meiotic cell cycle	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:0051447	negative regulation of meiotic cell cycle	biological_process	9823	inferred	1	397652	PRKACA
+GO:0051536	iron-sulfur cluster binding	molecular_function	9823	inferred	1	414412	SDHB
+GO:0051537	2 iron, 2 sulfur cluster binding	molecular_function	9823	inferred	1	414412	SDHB
+GO:0051538	3 iron, 4 sulfur cluster binding	molecular_function	9823	inferred	1	414412	SDHB
+GO:0051539	4 iron, 4 sulfur cluster binding	molecular_function	9823	inferred	1	414412	SDHB
+GO:0051540	metal cluster binding	molecular_function	9823	inferred	1	414412	SDHB
+GO:0051592	response to calcium ion	biological_process	9823	inferred	1	397196	DPEP1
+GO:0051607	defense response to virus	biological_process	9823	inferred	2	397128|397570	MX1|OAS1
+GO:0051640	organelle localization	biological_process	9823	inferred	1	397128	MX1
+GO:0051641	cellular localization	biological_process	9823	inferred	3	396863|397085|397128	POMC|MYO6|MX1
+GO:0051649	establishment of localization in cell	biological_process	9823	inferred	2	396863|397085	POMC|MYO6
+GO:0051674	localization of cell	biological_process	9823	inferred	3	396891|397084|445525	RLN|TGFB2|PLA2G1B
+GO:0051704	multi-organism process	biological_process	9823	inferred	6	396764|396891|396913|397128|397570|397676	SLC11A1|RLN|C-JUN|MX1|OAS1|ZAN
+GO:0051707	response to other organism	biological_process	9823	inferred	4	396764|396913|397128|397570	SLC11A1|C-JUN|MX1|OAS1
+GO:0051716	cellular response to stimulus	biological_process	9823	inferred	18	396764|396851|396884|396913|396965|397057|397077|397084|397096|397128|397130|397196|397372|397488|403324|414283|445521|445525	SLC11A1|PIK3R5|GH1|C-JUN|PRL|IL18|FOXO1|TGFB2|ENG|MX1|HMGB2|DPEP1|GHSR|GHR|CYP3A29|ADCYAP1|HMGB1|PLA2G1B
+GO:0051726	regulation of cell cycle	biological_process	9823	inferred	4	397091|397493|397652|100048934	PRKAR1A|PRKAR2A|PRKACA|WEE1B
+GO:0051783	regulation of nuclear division	biological_process	9823	inferred	1	100048934	WEE1B
+GO:0051861	glycolipid binding	molecular_function	9823	inferred	1	397196	DPEP1
+GO:0051896	regulation of protein kinase B signaling	biological_process	9823	inferred	1	396851	PIK3R5
+GO:0051897	positive regulation of protein kinase B signaling	biological_process	9823	inferred	1	396851	PIK3R5
+GO:0051924	regulation of calcium ion transport	biological_process	9823	inferred	2	399501|445525	ADRA2A|PLA2G1B
+GO:0051926	negative regulation of calcium ion transport	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0051928	positive regulation of calcium ion transport	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:0052689	carboxylic ester hydrolase activity	molecular_function	9823	inferred	1	445525	PLA2G1B
+GO:0055065	metal ion homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0055067	monovalent inorganic cation homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0055075	potassium ion homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0055078	sodium ion homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0055080	cation homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0055082	cellular chemical homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0055085	transmembrane transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0055086	nucleobase-containing small molecule metabolic process	biological_process	9823	inferred	2	397132|397570	FMO1|OAS1
+GO:0055114	oxidation-reduction process	biological_process	9823	inferred	3	397082|397132|397134	DHRS4|FMO1|DAO1
+GO:0060046	regulation of acrosome reaction	biological_process	9823	inferred	1	396891	RLN
+GO:0060073	micturition	biological_process	9823	inferred	1	100127469	BDKRB1
+GO:0060085	smooth muscle relaxation of the bladder outlet	biological_process	9823	inferred	1	100127469	BDKRB1
+GO:0060089	molecular transducer activity	molecular_function	9823	inferred	4	397018|397372|397638|399501	SCARB1|GHSR|CALCR|ADRA2A
+GO:0060123	regulation of growth hormone secretion	biological_process	9823	inferred	1	497059	SSTR2
+GO:0060125	negative regulation of growth hormone secretion	biological_process	9823	inferred	1	497059	SSTR2
+GO:0060191	regulation of lipase activity	biological_process	9823	inferred	1	397638	CALCR
+GO:0060193	positive regulation of lipase activity	biological_process	9823	inferred	1	397638	CALCR
+GO:0060255	regulation of macromolecule metabolic process	biological_process	9823	inferred	15	396712|396840|396851|396884|396913|397077|397225|397415|397488|397491|397493|397501|397595|397671|445525	LHX3|SOX9|PIK3R5|GH1|C-JUN|FOXO1|IL4|INS|GHR|IGF1|PRKAR2A|POU2F1|GCG|PPARG|PLA2G1B
+GO:0060281	regulation of oocyte development	biological_process	9823	inferred	4	397091|397493|397652|100048934	PRKAR1A|PRKAR2A|PRKACA|WEE1B
+GO:0060282	positive regulation of oocyte development	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:0060283	negative regulation of oocyte development	biological_process	9823	inferred	2	397652|100048934	PRKACA|WEE1B
+GO:0060284	regulation of cell development	biological_process	9823	inferred	5	397091|397225|397493|397652|100048934	PRKAR1A|IL4|PRKAR2A|PRKACA|WEE1B
+GO:0060326	cell chemotaxis	biological_process	9823	inferred	2	397084|445525	TGFB2|PLA2G1B
+GO:0060341	regulation of cellular localization	biological_process	9823	inferred	9	396891|397086|397122|397128|397225|397671|399500|445525|497059	RLN|TNF|IL1B1|MX1|IL4|PPARG|IL6|PLA2G1B|SSTR2
+GO:0060396	growth hormone receptor signaling pathway	biological_process	9823	inferred	2	396884|397488	GH1|GHR
+GO:0060416	response to growth hormone	biological_process	9823	inferred	2	396884|397488	GH1|GHR
+GO:0060548	negative regulation of cell death	biological_process	9823	inferred	2	396721|397225	IL13|IL4
+GO:0060589	nucleoside-triphosphatase regulator activity	molecular_function	9823	inferred	1	100155163	LOC100155163
+GO:0060627	regulation of vesicle-mediated transport	biological_process	9823	inferred	1	396891	RLN
+GO:0060631	regulation of meiosis I	biological_process	9823	inferred	1	100048934	WEE1B
+GO:0060986	endocrine hormone secretion	biological_process	9823	inferred	1	396863	POMC
+GO:0065007	biological regulation	biological_process	9823	inferred	46	396712|396721|396724|396764|396840|396851|396863|396884|396891|396898|396913|396927|396965|397057|397064|397077|397084|397086|397091|397096|397122|397128|397225|397277|397372|397415|397481|397488|397491|397493|397501|397557|397570|397595|397638|397652|397671|399500|399501|414283|414737|445525|497059|100048934|100127469|100155163	LHX3|IL13|OLR1|SLC11A1|SOX9|PIK3R5|POMC|GH1|RLN|ATP1B1|C-JUN|ZP3|PRL|IL18|IGFBP2|FOXO1|TGFB2|TNF|PRKAR1A|ENG|IL1B1|MX1|IL4|B2R|GHSR|INS|ATP1A1|GHR|IGF1|PRKAR2A|POU2F1|NOS3|OAS1|GCG|CALCR|PRKACA|PPARG|IL6|ADRA2A|ADCYAP1|CDH5|PLA2G1B|SSTR2|WEE1B|BDKRB1|LOC100155163
+GO:0065008	regulation of biological quality	biological_process	9823	inferred	3	396863|396898|397481	POMC|ATP1B1|ATP1A1
+GO:0065009	regulation of molecular function	biological_process	9823	inferred	8	396851|396913|397493|397638|399501|414283|445525|100155163	PIK3R5|C-JUN|PRKAR2A|CALCR|ADRA2A|ADCYAP1|PLA2G1B|LOC100155163
+GO:0070011	peptidase activity, acting on L-amino acid peptides	molecular_function	9823	inferred	1	397343	ADAM17
+GO:0070085	glycosylation	biological_process	9823	inferred	1	445537	ST3GAL1
+GO:0070201	regulation of establishment of protein localization	biological_process	9823	inferred	2	397225|397671	IL4|PPARG
+GO:0070324	thyroid hormone binding	molecular_function	9823	inferred	1	397419	TTR
+GO:0070372	regulation of ERK1 and ERK2 cascade	biological_process	9823	inferred	1	397595	GCG
+GO:0070374	positive regulation of ERK1 and ERK2 cascade	biological_process	9823	inferred	1	397595	GCG
+GO:0070469	respiratory chain	cellular_component	9823	inferred	4	414412|780433|100048954|100524676	SDHB|SDHA|SDHD|SDHC
+GO:0070482	response to oxygen levels	biological_process	9823	inferred	1	396965	PRL
+GO:0070506	high-density lipoprotein particle receptor activity	molecular_function	9823	inferred	1	397018	SCARB1
+GO:0070566	adenylyltransferase activity	molecular_function	9823	inferred	2	396688|397570	COASY|OAS1
+GO:0070727	cellular macromolecule localization	biological_process	9823	inferred	1	397085	MYO6
+GO:0070848	response to growth factor	biological_process	9823	inferred	1	397096	ENG
+GO:0070887	cellular response to chemical stimulus	biological_process	9823	inferred	12	396884|396913|396965|397077|397084|397096|397128|397196|397372|397488|403324|445525	GH1|C-JUN|PRL|FOXO1|TGFB2|ENG|MX1|DPEP1|GHSR|GHR|CYP3A29|PLA2G1B
+GO:0070995	NADPH oxidation	biological_process	9823	inferred	1	397132	FMO1
+GO:0071103	DNA conformation change	biological_process	9823	inferred	1	397130	HMGB2
+GO:0071216	cellular response to biotic stimulus	biological_process	9823	inferred	1	396913	C-JUN
+GO:0071219	cellular response to molecule of bacterial origin	biological_process	9823	inferred	1	396913	C-JUN
+GO:0071222	cellular response to lipopolysaccharide	biological_process	9823	inferred	1	396913	C-JUN
+GO:0071241	cellular response to inorganic substance	biological_process	9823	inferred	1	397196	DPEP1
+GO:0071248	cellular response to metal ion	biological_process	9823	inferred	1	397196	DPEP1
+GO:0071277	cellular response to calcium ion	biological_process	9823	inferred	1	397196	DPEP1
+GO:0071310	cellular response to organic substance	biological_process	9823	inferred	10	396884|396913|397077|397096|397128|397196|397372|397488|403324|445525	GH1|C-JUN|FOXO1|ENG|MX1|DPEP1|GHSR|GHR|CYP3A29|PLA2G1B
+GO:0071345	cellular response to cytokine stimulus	biological_process	9823	inferred	2	397128|403324	MX1|CYP3A29
+GO:0071357	cellular response to type I interferon	biological_process	9823	inferred	2	397128|403324	MX1|CYP3A29
+GO:0071363	cellular response to growth factor stimulus	biological_process	9823	inferred	1	397096	ENG
+GO:0071375	cellular response to peptide hormone stimulus	biological_process	9823	inferred	5	396884|397077|397196|397488|445525	GH1|FOXO1|DPEP1|GHR|PLA2G1B
+GO:0071378	cellular response to growth hormone stimulus	biological_process	9823	inferred	2	396884|397488	GH1|GHR
+GO:0071396	cellular response to lipid	biological_process	9823	inferred	1	396913	C-JUN
+GO:0071417	cellular response to organonitrogen compound	biological_process	9823	inferred	5	396884|397077|397196|397488|445525	GH1|FOXO1|DPEP1|GHR|PLA2G1B
+GO:0071436	sodium ion export	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0071453	cellular response to oxygen levels	biological_process	9823	inferred	1	396965	PRL
+GO:0071456	cellular response to hypoxia	biological_process	9823	inferred	1	396965	PRL
+GO:0071495	cellular response to endogenous stimulus	biological_process	9823	inferred	7	396884|397077|397096|397196|397372|397488|445525	GH1|FOXO1|ENG|DPEP1|GHSR|GHR|PLA2G1B
+GO:0071559	response to transforming growth factor beta	biological_process	9823	inferred	1	397096	ENG
+GO:0071560	cellular response to transforming growth factor beta stimulus	biological_process	9823	inferred	1	397096	ENG
+GO:0071621	granulocyte chemotaxis	biological_process	9823	inferred	2	397084|445525	TGFB2|PLA2G1B
+GO:0071702	organic substance transport	biological_process	9823	inferred	3	396863|397085|445525	POMC|MYO6|PLA2G1B
+GO:0071704	organic substance metabolic process	biological_process	9823	inferred	16	396764|396971|397057|397077|397130|397132|397135|397189|397196|397343|397570|445521|445525|445537|100127469|100134955	SLC11A1|ALOX12|IL18|FOXO1|HMGB2|FMO1|CAST|MIOX|DPEP1|ADAM17|OAS1|HMGB1|PLA2G1B|ST3GAL1|BDKRB1|FAM213B
+GO:0071731	response to nitric oxide	biological_process	9823	inferred	1	397196	DPEP1
+GO:0071732	cellular response to nitric oxide	biological_process	9823	inferred	1	397196	DPEP1
+GO:0071804	cellular potassium ion transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0071805	potassium ion transmembrane transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0071840	cellular component organization or biogenesis	biological_process	9823	inferred	2	397130|100048934	HMGB2|WEE1B
+GO:0071855	neuropeptide receptor binding	molecular_function	9823	inferred	1	445018	PYY
+GO:0071877	regulation of adrenergic receptor signaling pathway	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0071878	negative regulation of adrenergic receptor signaling pathway	biological_process	9823	inferred	1	399501	ADRA2A
+GO:0071900	regulation of protein serine/threonine kinase activity	biological_process	9823	inferred	3	396851|397493|445525	PIK3R5|PRKAR2A|PLA2G1B
+GO:0071901	negative regulation of protein serine/threonine kinase activity	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:0071902	positive regulation of protein serine/threonine kinase activity	biological_process	9823	inferred	2	396851|445525	PIK3R5|PLA2G1B
+GO:0071944	cell periphery	cellular_component	9823	inferred	9	396898|397018|397085|397196|397481|397676|399501|404693|497059	ATP1B1|SCARB1|MYO6|DPEP1|ATP1A1|ZAN|ADRA2A|CAV1|SSTR2
+GO:0072330	monocarboxylic acid biosynthetic process	biological_process	9823	inferred	3	445525|100127469|100134955	PLA2G1B|BDKRB1|FAM213B
+GO:0072521	purine-containing compound metabolic process	biological_process	9823	inferred	1	397570	OAS1
+GO:0072522	purine-containing compound biosynthetic process	biological_process	9823	inferred	1	397570	OAS1
+GO:0072524	pyridine-containing compound metabolic process	biological_process	9823	inferred	1	397132	FMO1
+GO:0080090	regulation of primary metabolic process	biological_process	9823	inferred	18	396712|396840|396851|396884|396913|396965|397225|397415|397488|397491|397493|397501|397595|397638|397671|399501|414283|445525	LHX3|SOX9|PIK3R5|GH1|C-JUN|PRL|IL4|INS|GHR|IGF1|PRKAR2A|POU2F1|GCG|CALCR|PPARG|ADRA2A|ADCYAP1|PLA2G1B
+GO:0080134	regulation of response to stress	biological_process	9823	inferred	1	396927	ZP3
+GO:0086009	membrane repolarization	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0090068	positive regulation of cell cycle process	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:0090075	relaxation of muscle	biological_process	9823	inferred	1	100127469	BDKRB1
+GO:0090087	regulation of peptide transport	biological_process	9823	inferred	1	497059	SSTR2
+GO:0090257	regulation of muscle system process	biological_process	9823	inferred	1	100127469	BDKRB1
+GO:0090276	regulation of peptide hormone secretion	biological_process	9823	inferred	1	497059	SSTR2
+GO:0090278	negative regulation of peptide hormone secretion	biological_process	9823	inferred	1	497059	SSTR2
+GO:0090304	nucleic acid metabolic process	biological_process	9823	inferred	2	397130|445521	HMGB2|HMGB1
+GO:0090322	regulation of superoxide metabolic process	biological_process	9823	inferred	1	396724	OLR1
+GO:0090407	organophosphate biosynthetic process	biological_process	9823	inferred	1	397570	OAS1
+GO:0090533	cation-transporting ATPase complex	cellular_component	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0090630	activation of GTPase activity	biological_process	9823	inferred	1	100155163	LOC100155163
+GO:0097159	organic cyclic compound binding	molecular_function	9823	inferred	12	396712|396913|397085|397109|397130|397481|397500|397671|399501|445525|100048954|100524676	LHX3|C-JUN|MYO6|DPYD|HMGB2|ATP1A1|ABAT|PPARG|ADRA2A|PLA2G1B|SDHD|SDHC
+GO:0097190	apoptotic signaling pathway	biological_process	9823	inferred	1	397057	IL18
+GO:0097191	extrinsic apoptotic signaling pathway	biological_process	9823	inferred	1	397057	IL18
+GO:0097367	carbohydrate derivative binding	molecular_function	9823	inferred	5	397085|397096|397109|397196|397481	MYO6|ENG|DPYD|DPEP1|ATP1A1
+GO:0097503	sialylation	biological_process	9823	inferred	1	445537	ST3GAL1
+GO:0097529	myeloid leukocyte migration	biological_process	9823	inferred	2	397084|445525	TGFB2|PLA2G1B
+GO:0097530	granulocyte migration	biological_process	9823	inferred	2	397084|445525	TGFB2|PLA2G1B
+GO:0097642	calcitonin family receptor activity	molecular_function	9823	inferred	1	397638	CALCR
+GO:0097644	calcitonin family binding	molecular_function	9823	inferred	1	397638	CALCR
+GO:0097648	G-protein coupled receptor complex	cellular_component	9823	inferred	1	497059	SSTR2
+GO:0097651	phosphatidylinositol 3-kinase complex, class I	cellular_component	9823	inferred	1	396851	PIK3R5
+GO:0098533	ATPase dependent transmembrane transport complex	cellular_component	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0098542	defense response to other organism	biological_process	9823	inferred	2	397128|397570	MX1|OAS1
+GO:0098588	bounding membrane of organelle	cellular_component	9823	inferred	1	397196	DPEP1
+GO:0098589	membrane region	cellular_component	9823	inferred	3	397018|397196|404693	SCARB1|DPEP1|CAV1
+GO:0098590	plasma membrane region	cellular_component	9823	inferred	2	397018|404693	SCARB1|CAV1
+GO:0098655	cation transmembrane transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0098657	import into cell	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0098660	inorganic ion transmembrane transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0098662	inorganic cation transmembrane transport	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0098739	import across plasma membrane	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0098771	inorganic ion homeostasis	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:0098772	molecular function regulator	molecular_function	9823	inferred	2	396851|100155163	PIK3R5|LOC100155163
+GO:1900073	regulation of neuromuscular synaptic transmission	biological_process	9823	inferred	1	397277	B2R
+GO:1900076	regulation of cellular response to insulin stimulus	biological_process	9823	inferred	1	397415	INS
+GO:1900078	positive regulation of cellular response to insulin stimulus	biological_process	9823	inferred	1	397415	INS
+GO:1900193	regulation of oocyte maturation	biological_process	9823	inferred	3	397091|397493|397652	PRKAR1A|PRKAR2A|PRKACA
+GO:1900194	negative regulation of oocyte maturation	biological_process	9823	inferred	1	397652	PRKACA
+GO:1900195	positive regulation of oocyte maturation	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:1900274	regulation of phospholipase C activity	biological_process	9823	inferred	1	397638	CALCR
+GO:1900371	regulation of purine nucleotide biosynthetic process	biological_process	9823	inferred	3	397638|399501|414283	CALCR|ADRA2A|ADCYAP1
+GO:1900372	negative regulation of purine nucleotide biosynthetic process	biological_process	9823	inferred	1	399501	ADRA2A
+GO:1900373	positive regulation of purine nucleotide biosynthetic process	biological_process	9823	inferred	2	397638|414283	CALCR|ADCYAP1
+GO:1900542	regulation of purine nucleotide metabolic process	biological_process	9823	inferred	3	397638|399501|414283	CALCR|ADRA2A|ADCYAP1
+GO:1900543	negative regulation of purine nucleotide metabolic process	biological_process	9823	inferred	1	399501	ADRA2A
+GO:1900544	positive regulation of purine nucleotide metabolic process	biological_process	9823	inferred	2	397638|414283	CALCR|ADCYAP1
+GO:1901019	regulation of calcium ion transmembrane transporter activity	biological_process	9823	inferred	1	399501	ADRA2A
+GO:1901020	negative regulation of calcium ion transmembrane transporter activity	biological_process	9823	inferred	1	399501	ADRA2A
+GO:1901135	carbohydrate derivative metabolic process	biological_process	9823	inferred	2	397196|445537	DPEP1|ST3GAL1
+GO:1901137	carbohydrate derivative biosynthetic process	biological_process	9823	inferred	1	445537	ST3GAL1
+GO:1901252	regulation of intracellular transport of viral material	biological_process	9823	inferred	1	397128	MX1
+GO:1901253	negative regulation of intracellular transport of viral material	biological_process	9823	inferred	1	397128	MX1
+GO:1901265	nucleoside phosphate binding	molecular_function	9823	inferred	3	397085|397109|397481	MYO6|DPYD|ATP1A1
+GO:1901293	nucleoside phosphate biosynthetic process	biological_process	9823	inferred	1	397570	OAS1
+GO:1901338	catecholamine binding	molecular_function	9823	inferred	1	399501	ADRA2A
+GO:1901360	organic cyclic compound metabolic process	biological_process	9823	inferred	4	397130|397132|397570|445521	HMGB2|FMO1|OAS1|HMGB1
+GO:1901362	organic cyclic compound biosynthetic process	biological_process	9823	inferred	1	397570	OAS1
+GO:1901363	heterocyclic compound binding	molecular_function	9823	inferred	10	396712|396913|397085|397109|397130|397481|397500|397671|100048954|100524676	LHX3|C-JUN|MYO6|DPYD|HMGB2|ATP1A1|ABAT|PPARG|SDHD|SDHC
+GO:1901550	regulation of endothelial cell development	biological_process	9823	inferred	1	397225	IL4
+GO:1901552	positive regulation of endothelial cell development	biological_process	9823	inferred	1	397225	IL4
+GO:1901564	organonitrogen compound metabolic process	biological_process	9823	inferred	2	397132|397570	FMO1|OAS1
+GO:1901566	organonitrogen compound biosynthetic process	biological_process	9823	inferred	1	397570	OAS1
+GO:1901568	fatty acid derivative metabolic process	biological_process	9823	inferred	4	396971|445525|100127469|100134955	ALOX12|PLA2G1B|BDKRB1|FAM213B
+GO:1901570	fatty acid derivative biosynthetic process	biological_process	9823	inferred	3	445525|100127469|100134955	PLA2G1B|BDKRB1|FAM213B
+GO:1901575	organic substance catabolic process	biological_process	9823	inferred	2	397135|397189	CAST|MIOX
+GO:1901576	organic substance biosynthetic process	biological_process	9823	inferred	5	397570|445525|445537|100127469|100134955	OAS1|PLA2G1B|ST3GAL1|BDKRB1|FAM213B
+GO:1901615	organic hydroxy compound metabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:1901616	organic hydroxy compound catabolic process	biological_process	9823	inferred	1	397189	MIOX
+GO:1901652	response to peptide	biological_process	9823	inferred	5	396884|397077|397196|397488|445525	GH1|FOXO1|DPEP1|GHR|PLA2G1B
+GO:1901653	cellular response to peptide	biological_process	9823	inferred	5	396884|397077|397196|397488|445525	GH1|FOXO1|DPEP1|GHR|PLA2G1B
+GO:1901698	response to nitrogen compound	biological_process	9823	inferred	5	396884|397077|397196|397488|445525	GH1|FOXO1|DPEP1|GHR|PLA2G1B
+GO:1901699	cellular response to nitrogen compound	biological_process	9823	inferred	5	396884|397077|397196|397488|445525	GH1|FOXO1|DPEP1|GHR|PLA2G1B
+GO:1901700	response to oxygen-containing compound	biological_process	9823	inferred	8	396764|396884|396913|397077|397196|397488|397671|445525	SLC11A1|GH1|C-JUN|FOXO1|DPEP1|GHR|PPARG|PLA2G1B
+GO:1901701	cellular response to oxygen-containing compound	biological_process	9823	inferred	6	396884|396913|397077|397196|397488|445525	GH1|C-JUN|FOXO1|DPEP1|GHR|PLA2G1B
+GO:1901888	regulation of cell junction assembly	biological_process	9823	inferred	1	397595	GCG
+GO:1901890	positive regulation of cell junction assembly	biological_process	9823	inferred	1	397595	GCG
+GO:1902170	cellular response to reactive nitrogen species	biological_process	9823	inferred	1	397196	DPEP1
+GO:1902494	catalytic complex	cellular_component	9823	inferred	8	396851|396898|397481|397500|414412|780433|100048954|100524676	PIK3R5|ATP1B1|ATP1A1|ABAT|SDHB|SDHA|SDHD|SDHC
+GO:1902495	transmembrane transporter complex	cellular_component	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:1902531	regulation of intracellular signal transduction	biological_process	9823	inferred	6	396851|396884|397225|397595|445525|100155163	PIK3R5|GH1|IL4|GCG|PLA2G1B|LOC100155163
+GO:1902533	positive regulation of intracellular signal transduction	biological_process	9823	inferred	5	396851|396884|397225|397595|445525	PIK3R5|GH1|IL4|GCG|PLA2G1B
+GO:1902578	single-organism localization	biological_process	9823	inferred	6	396801|396863|396898|397018|397481|445525	LDLR|POMC|ATP1B1|SCARB1|ATP1A1|PLA2G1B
+GO:1902679	negative regulation of RNA biosynthetic process	biological_process	9823	inferred	1	397501	POU2F1
+GO:1902680	positive regulation of RNA biosynthetic process	biological_process	9823	inferred	5	396712|396840|396913|397671|445525	LHX3|SOX9|C-JUN|PPARG|PLA2G1B
+GO:1903034	regulation of response to wounding	biological_process	9823	inferred	1	396927	ZP3
+GO:1903036	positive regulation of response to wounding	biological_process	9823	inferred	1	396927	ZP3
+GO:1903076	regulation of protein localization to plasma membrane	biological_process	9823	inferred	1	397671	PPARG
+GO:1903140	regulation of establishment of endothelial barrier	biological_process	9823	inferred	1	397225	IL4
+GO:1903142	positive regulation of establishment of endothelial barrier	biological_process	9823	inferred	1	397225	IL4
+GO:1903169	regulation of calcium ion transmembrane transport	biological_process	9823	inferred	1	399501	ADRA2A
+GO:1903170	negative regulation of calcium ion transmembrane transport	biological_process	9823	inferred	1	399501	ADRA2A
+GO:1903348	positive regulation of bicellular tight junction assembly	biological_process	9823	inferred	1	397595	GCG
+GO:1903426	regulation of reactive oxygen species biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:1903427	negative regulation of reactive oxygen species biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:1903429	regulation of cell maturation	biological_process	9823	inferred	3	397091|397493|397652	PRKAR1A|PRKAR2A|PRKACA
+GO:1903430	negative regulation of cell maturation	biological_process	9823	inferred	1	397652	PRKACA
+GO:1903431	positive regulation of cell maturation	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:1903506	regulation of nucleic acid-templated transcription	biological_process	9823	inferred	6	396712|396840|396913|397501|397671|445525	LHX3|SOX9|C-JUN|POU2F1|PPARG|PLA2G1B
+GO:1903507	negative regulation of nucleic acid-templated transcription	biological_process	9823	inferred	1	397501	POU2F1
+GO:1903508	positive regulation of nucleic acid-templated transcription	biological_process	9823	inferred	5	396712|396840|396913|397671|445525	LHX3|SOX9|C-JUN|PPARG|PLA2G1B
+GO:1903509	liposaccharide metabolic process	biological_process	9823	inferred	1	397196	DPEP1
+GO:1903522	regulation of blood circulation	biological_process	9823	inferred	2	396724|397557	OLR1|NOS3
+GO:1903523	negative regulation of blood circulation	biological_process	9823	inferred	1	396724	OLR1
+GO:1903524	positive regulation of blood circulation	biological_process	9823	inferred	1	397557	NOS3
+GO:1903530	regulation of secretion by cell	biological_process	9823	inferred	6	396891|397086|397122|397671|399500|497059	RLN|TNF|IL1B1|PPARG|IL6|SSTR2
+GO:1903531	negative regulation of secretion by cell	biological_process	9823	inferred	1	497059	SSTR2
+GO:1903532	positive regulation of secretion by cell	biological_process	9823	inferred	5	396891|397086|397122|397671|399500	RLN|TNF|IL1B1|PPARG|IL6
+GO:1903538	regulation of meiotic cell cycle process involved in oocyte maturation	biological_process	9823	inferred	3	397091|397493|397652	PRKAR1A|PRKAR2A|PRKACA
+GO:1903649	regulation of cytoplasmic transport	biological_process	9823	inferred	2	397225|445525	IL4|PLA2G1B
+GO:1903651	positive regulation of cytoplasmic transport	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:1903659	regulation of complement-dependent cytotoxicity	biological_process	9823	inferred	4	396721|397077|397225|414737	IL13|FOXO1|IL4|CDH5
+GO:1903660	negative regulation of complement-dependent cytotoxicity	biological_process	9823	inferred	2	396721|397225	IL13|IL4
+GO:1903661	positive regulation of complement-dependent cytotoxicity	biological_process	9823	inferred	1	397077	FOXO1
+GO:1903725	regulation of phospholipid metabolic process	biological_process	9823	inferred	1	396851	PIK3R5
+GO:1903729	regulation of plasma membrane organization	biological_process	9823	inferred	1	397671	PPARG
+GO:1903827	regulation of cellular protein localization	biological_process	9823	inferred	2	397225|397671	IL4|PPARG
+GO:1903900	regulation of viral life cycle	biological_process	9823	inferred	2	397128|397570	MX1|OAS1
+GO:1903901	negative regulation of viral life cycle	biological_process	9823	inferred	2	397128|397570	MX1|OAS1
+GO:1904035	regulation of epithelial cell apoptotic process	biological_process	9823	inferred	3	396721|397086|397225	IL13|TNF|IL4
+GO:1904036	negative regulation of epithelial cell apoptotic process	biological_process	9823	inferred	2	396721|397225	IL13|IL4
+GO:1904037	positive regulation of epithelial cell apoptotic process	biological_process	9823	inferred	1	397086	TNF
+GO:1904062	regulation of cation transmembrane transport	biological_process	9823	inferred	1	399501	ADRA2A
+GO:1904063	negative regulation of cation transmembrane transport	biological_process	9823	inferred	1	399501	ADRA2A
+GO:1904076	regulation of estrogen biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:1904077	negative regulation of estrogen biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:1904145	negative regulation of meiotic cell cycle process involved in oocyte maturation	biological_process	9823	inferred	1	397652	PRKACA
+GO:1904146	positive regulation of meiotic cell cycle process involved in oocyte maturation	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:1990204	oxidoreductase complex	cellular_component	9823	inferred	4	414412|780433|100048954|100524676	SDHB|SDHA|SDHD|SDHC
+GO:1990234	transferase complex	cellular_component	9823	inferred	2	396851|397500	PIK3R5|ABAT
+GO:1990266	neutrophil migration	biological_process	9823	inferred	2	397084|445525	TGFB2|PLA2G1B
+GO:1990351	transporter complex	cellular_component	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:1990573	potassium ion import across plasma membrane	biological_process	9823	inferred	2	396898|397481	ATP1B1|ATP1A1
+GO:2000021	regulation of ion homeostasis	biological_process	9823	inferred	1	445525	PLA2G1B
+GO:2000026	regulation of multicellular organismal development	biological_process	9823	inferred	1	397225	IL4
+GO:2000112	regulation of cellular macromolecule biosynthetic process	biological_process	9823	inferred	8	396712|396840|396913|397415|397491|397501|397671|445525	LHX3|SOX9|C-JUN|INS|IGF1|POU2F1|PPARG|PLA2G1B
+GO:2000113	negative regulation of cellular macromolecule biosynthetic process	biological_process	9823	inferred	1	397501	POU2F1
+GO:2000145	regulation of cell motility	biological_process	9823	inferred	1	397415	INS
+GO:2000147	positive regulation of cell motility	biological_process	9823	inferred	1	397415	INS
+GO:2000182	regulation of progesterone biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:2000183	negative regulation of progesterone biosynthetic process	biological_process	9823	inferred	1	396965	PRL
+GO:2000241	regulation of reproductive process	biological_process	9823	inferred	5	396891|397091|397493|397652|100048934	RLN|PRKAR1A|PRKAR2A|PRKACA|WEE1B
+GO:2000242	negative regulation of reproductive process	biological_process	9823	inferred	2	397652|100048934	PRKACA|WEE1B
+GO:2000243	positive regulation of reproductive process	biological_process	9823	inferred	2	396891|397493	RLN|PRKAR2A
+GO:2000344	positive regulation of acrosome reaction	biological_process	9823	inferred	1	396891	RLN
+GO:2000351	regulation of endothelial cell apoptotic process	biological_process	9823	inferred	3	396721|397086|397225	IL13|TNF|IL4
+GO:2000352	negative regulation of endothelial cell apoptotic process	biological_process	9823	inferred	2	396721|397225	IL13|IL4
+GO:2000353	positive regulation of endothelial cell apoptotic process	biological_process	9823	inferred	1	397086	TNF
+GO:2000377	regulation of reactive oxygen species metabolic process	biological_process	9823	inferred	2	396724|396965	OLR1|PRL
+GO:2000378	negative regulation of reactive oxygen species metabolic process	biological_process	9823	inferred	1	396965	PRL
+GO:2000379	positive regulation of reactive oxygen species metabolic process	biological_process	9823	inferred	1	396724	OLR1
+GO:2000479	regulation of cAMP-dependent protein kinase activity	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:2000480	negative regulation of cAMP-dependent protein kinase activity	biological_process	9823	inferred	1	397493	PRKAR2A
+GO:2000810	regulation of bicellular tight junction assembly	biological_process	9823	inferred	1	397595	GCG
+GO:2000831	regulation of steroid hormone secretion	biological_process	9823	inferred	3	397086|397122|399500	TNF|IL1B1|IL6
+GO:2000833	positive regulation of steroid hormone secretion	biological_process	9823	inferred	3	397086|397122|399500	TNF|IL1B1|IL6
+GO:2000861	regulation of estrogen secretion	biological_process	9823	inferred	3	397086|397122|399500	TNF|IL1B1|IL6
+GO:2000863	positive regulation of estrogen secretion	biological_process	9823	inferred	3	397086|397122|399500	TNF|IL1B1|IL6
+GO:2000864	regulation of estradiol secretion	biological_process	9823	inferred	3	397086|397122|399500	TNF|IL1B1|IL6
+GO:2000866	positive regulation of estradiol secretion	biological_process	9823	inferred	3	397086|397122|399500	TNF|IL1B1|IL6
+GO:2001141	regulation of RNA biosynthetic process	biological_process	9823	inferred	6	396712|396840|396913|397501|397671|445525	LHX3|SOX9|C-JUN|POU2F1|PPARG|PLA2G1B

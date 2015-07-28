@@ -17,25 +17,18 @@ layout: page
 {{ include_to_markdownify | markdownify }}
 
 <form>
-  <div class="btn-group btn-group-justified" id="prop_button" data-toggle="buttons">
+  <div class="btn-group btn-group-justified" id="evidence_button" data-toggle="buttons">
     <label class="btn btn-default active">
-      <input type="radio" value="prop" name="prop" id="prop" checked="checked">Propagated</label>
+      <input type="radio" value="allev" name="evidence" id="allev" checked="checked">All Evidence</label>
     <label class="btn btn-default">
-      <input type="radio" value="unprop" name="prop" id="unprop">Unpropagated</label>
+      <input type="radio" value="expev" name="evidence" id="expev">Experimental Evidence Only</label>
   </div>
 
-  <div class="btn-group btn-group-justified" id="vocab_button" data-toggle="buttons">
+  <div class="btn-group btn-group-justified" id="annotation_type_button" data-toggle="buttons">
     <label class="btn btn-default active">
-      <input type="radio" value="entrez" name="vocab" id="entrez" checked="checked">Entrez</label>
+      <input type="radio" value="inferred" name="annotation_type" id="inferred" checked="checked">Inferred</label>
     <label class="btn btn-default">
-      <input type="radio" value="symbol" name="vocab" id="symbol">Symbol</label>
-  </div>
-
-  <div class="btn-group btn-group-justified" id="coding_button" data-toggle="buttons">
-    <label class="btn btn-default active">
-      <input type="radio" value="all" name="coding" id="all" checked="checked">All Genes</label>
-    <label class="btn btn-default">
-      <input type="radio" value="coding" name="coding" id="coding">Protein-coding Genes</label>
+      <input type="radio" value="direct" name="annotation_type" id="direct">Direct</label>
   </div>
 </form>
 

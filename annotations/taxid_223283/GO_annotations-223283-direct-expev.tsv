@@ -1,0 +1,57 @@
+go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0001900	positive regulation of cytolysis by symbiont of host cells	biological_process	223283	direct	2	1182111|1182506	hopF2|hopQ1-1
+GO:0001907	killing by symbiont of host cells	biological_process	223283	direct	11	1182111|1182506|1183006|1183008|1183009|1183011|1183013|1183018|1183041|1184330|1185781	hopF2|hopQ1-1|hopN1|hopAA1-1|hrpW1|hopM1|avrE1|hrpZ1|hrpK1|hopP1|hopAK1
+GO:0003956	NAD(P)+-protein-arginine ADP-ribosyltransferase activity	molecular_function	223283	direct	1	1182110	hopU1
+GO:0004725	protein tyrosine phosphatase activity	molecular_function	223283	direct	1	1186405	hopAO1
+GO:0004842	ubiquitin-protein transferase activity	molecular_function	223283	direct	1	1184744	hopAB2
+GO:0005515	protein binding	molecular_function	223283	direct	4	1183011|1184744|1186271|1186277	hopM1|hopAB2|hopS2|hopO1-2
+GO:0005576	extracellular region	cellular_component	223283	direct	1	1183017	hrpA1
+GO:0008234	cysteine-type peptidase activity	molecular_function	223283	direct	2	1182200|1183006	hopC1|hopN1
+GO:0008933	lytic transglycosylase activity	molecular_function	223283	direct	1	1183014	hrpH
+GO:0009405	pathogenesis	biological_process	223283	direct	39	1182110|1182111|1182200|1182505|1182535|1182656|1183006|1183008|1183009|1183011|1183013|1183014|1183017|1183039|1183040|1183041|1183205|1184330|1185679|1185781|1186012|1186276|1186280|1186363|1186364|1186365|1186366|1186369|1186370|1186372|1186390|1186391|1186392|1186393|1186394|1186395|1186397|1186405|1186410	hopU1|hopF2|hopC1|hopD1|hopAI1|hopAM1-1|hopN1|hopAA1-1|hrpW1|hopM1|avrE1|hrpH|hrpA1|hrpJ|hrpL|hrpK1|hopAF1|hopP1|avrPto1|hopAK1|hopE1|hopT1-2|hopS1|cfl|cfa1|cfa2|cfa3|cfa6|cfa7|cfa8|cmaD|cmaE|cmaA|cmaB|cmaC|cmaT|cmaU|hopAO1|hopG1
+GO:0009650	UV protection	biological_process	223283	direct	1	1182556	PSPTO_0927
+GO:0016337	single organismal cell-cell adhesion	biological_process	223283	direct	1	1183017	hrpA1
+GO:0019901	protein kinase binding	molecular_function	223283	direct	3	1182535|1184744|1185679	hopAI1|hopAB2|avrPto1
+GO:0020002	host cell plasma membrane	cellular_component	223283	direct	2	1182111|1185679	hopF2|avrPto1
+GO:0030247	polysaccharide binding	molecular_function	223283	direct	1	1183009	hrpW1
+GO:0030254	protein secretion by the type III secretion system	biological_process	223283	direct	7	1183009|1183014|1183017|1183018|1183039|1183041|1185781	hrpW1|hrpH|hrpA1|hrpZ1|hrpJ|hrpK1|hopAK1
+GO:0030257	type III protein secretion system complex	cellular_component	223283	direct	1	1183017	hrpA1
+GO:0030430	host cell cytoplasm	cellular_component	223283	direct	3	1182110|1184744|1186405	hopU1|hopAB2|hopAO1
+GO:0030639	polyketide biosynthetic process	biological_process	223283	direct	3	1186369|1186370|1186372	cfa6|cfa7|cfa8
+GO:0031267	small GTPase binding	molecular_function	223283	direct	1	1183011	hopM1
+GO:0031648	protein destabilization	biological_process	223283	direct	1	1183011	hopM1
+GO:0033645	host cell endomembrane system	cellular_component	223283	direct	1	1183011	hopM1
+GO:0033650	host cell mitochondrion	cellular_component	223283	direct	1	1183008	hopAA1-1
+GO:0033660	negative regulation by symbiont of host resistance gene-dependent defense response	biological_process	223283	direct	1	1184744	hopAB2
+GO:0033661	negative regulation by symbiont of defense-related host reactive oxygen species production	biological_process	223283	direct	6	1182535|1183011|1184744|1185679|1186405|1186459	hopAI1|hopM1|hopAB2|avrPto1|hopAO1|hopI1
+GO:0033663	negative regulation by symbiont of host defense-related protein level	biological_process	223283	direct	25	1182111|1182200|1182535|1183008|1183011|1183205|1184744|1185679|1186012|1186276|1186363|1186364|1186365|1186366|1186369|1186370|1186372|1186390|1186391|1186392|1186393|1186394|1186395|1186397|1186405	hopF2|hopC1|hopAI1|hopAA1-1|hopM1|hopAF1|hopAB2|avrPto1|hopE1|hopT1-2|cfl|cfa1|cfa2|cfa3|cfa6|cfa7|cfa8|cmaD|cmaE|cmaA|cmaB|cmaC|cmaT|cmaU|hopAO1
+GO:0033664	positive regulation by symbiont of host defense-related protein level	biological_process	223283	direct	1	1181652	hopK1
+GO:0033668	negative regulation by symbiont of host apoptotic process	biological_process	223283	direct	5	1182111|1182656|1184744|1186012|1186410	hopF2|hopAM1-1|hopAB2|hopE1|hopG1
+GO:0034054	negative regulation by symbiont of host defense-related programmed cell death	biological_process	223283	direct	8	1182110|1182111|1182505|1182656|1183006|1186012|1186405|1186410	hopU1|hopF2|hopD1|hopAM1-1|hopN1|hopE1|hopAO1|hopG1
+GO:0034055	positive regulation by symbiont of host defense-related programmed cell death	biological_process	223283	direct	9	1181652|1182111|1182506|1183008|1183011|1183013|1184744|1185679|1186403	hopK1|hopF2|hopQ1-1|hopAA1-1|hopM1|avrE1|hopAB2|avrPto1|hopV1
+GO:0034598	phosphothreonine lyase activity	molecular_function	223283	direct	1	1182535	hopAI1
+GO:0042398	cellular modified amino acid biosynthetic process	biological_process	223283	direct	6	1186390|1186391|1186392|1186393|1186394|1186395	cmaD|cmaE|cmaA|cmaB|cmaC|cmaT
+GO:0043657	host cell	cellular_component	223283	direct	23	1181652|1181669|1182199|1182200|1182506|1182512|1182534|1182535|1182656|1183006|1183013|1183042|1183205|1184950|1184951|1186012|1186271|1186276|1186277|1186280|1186403|1186410|1187040	hopK1|hopY1|hopH1|hopC1|hopQ1-1|hopR1|hopAH1|hopAI1|hopAM1-1|hopN1|avrE1|hopB1|hopAF1|hopAH2-1|hopAH2-2|hopE1|hopS2|hopT1-2|hopO1-2|hopS1|hopV1|hopG1|hopA1
+GO:0043683	type IV pilus biogenesis	biological_process	223283	direct	4	1182553|1182554|1182555|1182556	pilD|pilC|pilB|PSPTO_0927
+GO:0043711	pilus organization	biological_process	223283	direct	1	1183017	hrpA1
+GO:0044003	modification by symbiont of host morphology or physiology	biological_process	223283	direct	5	1182110|1182505|1183006|1183014|1186405	hopU1|hopD1|hopN1|hrpH|hopAO1
+GO:0050714	positive regulation of protein secretion	biological_process	223283	direct	1	1183040	hrpL
+GO:0051087	chaperone binding	molecular_function	223283	direct	6	1182111|1183006|1183011|1186271|1186280|1186403	hopF2|hopN1|hopM1|hopS2|hopS1|hopV1
+GO:0051883	killing of cells in other organism involved in symbiotic interaction	biological_process	223283	direct	1	1182656	hopAM1-1
+GO:0052004	negative regulation by symbiont of host salicylic acid-mediated defense response	biological_process	223283	direct	16	1183011|1183013|1186363|1186364|1186365|1186366|1186369|1186370|1186372|1186390|1186391|1186392|1186393|1186394|1186395|1186397	hopM1|avrE1|cfl|cfa1|cfa2|cfa3|cfa6|cfa7|cfa8|cmaD|cmaE|cmaA|cmaB|cmaC|cmaT|cmaU
+GO:0052018	modulation by symbiont of RNA levels in host	biological_process	223283	direct	2	1184744|1185679	hopAB2|avrPto1
+GO:0052021	modulation by symbiont of ethylene levels in host	biological_process	223283	direct	2	1184744|1185679	hopAB2|avrPto1
+GO:0052027	modulation by symbiont of host signal transduction pathway	biological_process	223283	direct	1	1182656	hopAM1-1
+GO:0052034	negative regulation by symbiont of microbe-associated molecular pattern-induced host innate immune response	biological_process	223283	direct	28	1182110|1182111|1182200|1182535|1182656|1183008|1183011|1183013|1183205|1184744|1185679|1186276|1186280|1186363|1186364|1186365|1186366|1186369|1186370|1186372|1186390|1186391|1186392|1186393|1186394|1186395|1186397|1186405	hopU1|hopF2|hopC1|hopAI1|hopAM1-1|hopAA1-1|hopM1|avrE1|hopAF1|hopAB2|avrPto1|hopT1-2|hopS1|cfl|cfa1|cfa2|cfa3|cfa6|cfa7|cfa8|cmaD|cmaE|cmaA|cmaB|cmaC|cmaT|cmaU|hopAO1
+GO:0052041	negative regulation by symbiont of host programmed cell death	biological_process	223283	direct	1	1184744	hopAB2
+GO:0052049	interaction with host via protein secreted by type III secretion system	biological_process	223283	direct	36	1181652|1181669|1182110|1182111|1182199|1182200|1182506|1182512|1182534|1182535|1182656|1183006|1183009|1183011|1183013|1183014|1183018|1183039|1183041|1183042|1183205|1184330|1184950|1184951|1185679|1185781|1186012|1186271|1186276|1186277|1186280|1186403|1186405|1186410|1186459|1187040	hopK1|hopY1|hopU1|hopF2|hopH1|hopC1|hopQ1-1|hopR1|hopAH1|hopAI1|hopAM1-1|hopN1|hrpW1|hopM1|avrE1|hrpH|hrpZ1|hrpJ|hrpK1|hopB1|hopAF1|hopP1|hopAH2-1|hopAH2-2|avrPto1|hopAK1|hopE1|hopS2|hopT1-2|hopO1-2|hopS1|hopV1|hopAO1|hopG1|hopI1|hopA1
+GO:0052056	negative regulation by symbiont of host molecular function	biological_process	223283	direct	1	1182110	hopU1
+GO:0052075	positive regulation by symbiont of host jasmonic acid-mediated defense response	biological_process	223283	direct	14	1186363|1186364|1186365|1186366|1186369|1186370|1186372|1186390|1186391|1186392|1186393|1186394|1186395|1186397	cfl|cfa1|cfa2|cfa3|cfa6|cfa7|cfa8|cmaD|cmaE|cmaA|cmaB|cmaC|cmaT|cmaU
+GO:0052078	negative regulation by symbiont of defense-related host MAP kinase-mediated signal transduction pathway	biological_process	223283	direct	4	1182535|1184744|1185679|1186405	hopAI1|hopAB2|avrPto1|hopAO1
+GO:0052079	positive regulation by symbiont of defense-related host MAP kinase-mediated signal transduction pathway	biological_process	223283	direct	1	1186405	hopAO1
+GO:0052087	negative regulation by symbiont of defense-related host callose deposition	biological_process	223283	direct	3	1182512|1184744|1185679	hopR1|hopAB2|avrPto1
+GO:0052158	modulation by symbiont of host resistance gene-dependent defense response	biological_process	223283	direct	1	1182110	hopU1
+GO:0052202	negative regulation by symbiont of defense-related host cell wall callose deposition	biological_process	223283	direct	6	1182110|1182535|1182656|1183011|1183013|1186405	hopU1|hopAI1|hopAM1-1|hopM1|avrE1|hopAO1
+GO:0052527	positive regulation by symbiont of host resistance gene-dependent defense response	biological_process	223283	direct	2	1184744|1185679	hopAB2|avrPto1
+GO:0075343	modulation by symbiont of abscisic acid levels in host	biological_process	223283	direct	1	1184744	hopAB2
+GO:0075346	modification by symbiont of host protein by ubiquitination	biological_process	223283	direct	2	1183011|1184744	hopM1|hopAB2

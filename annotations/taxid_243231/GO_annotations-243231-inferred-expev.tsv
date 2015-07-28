@@ -1,0 +1,21 @@
+go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0003674	molecular_function	molecular_function	243231	inferred	3	2685796|2685978|2686077	omcC|sfrB|sfrA
+GO:0003824	catalytic activity	molecular_function	243231	inferred	2	2685978|2686077	sfrB|sfrA
+GO:0006091	generation of precursor metabolites and energy	biological_process	243231	inferred	1	2685796	omcC
+GO:0008150	biological_process	biological_process	243231	inferred	1	2685796	omcC
+GO:0008152	metabolic process	biological_process	243231	inferred	1	2685796	omcC
+GO:0009055	electron carrier activity	molecular_function	243231	inferred	1	2685796	omcC
+GO:0009061	anaerobic respiration	biological_process	243231	inferred	1	2685796	omcC
+GO:0009987	cellular process	biological_process	243231	inferred	1	2685796	omcC
+GO:0015980	energy derivation by oxidation of organic compounds	biological_process	243231	inferred	1	2685796	omcC
+GO:0016491	oxidoreductase activity	molecular_function	243231	inferred	2	2685978|2686077	sfrB|sfrA
+GO:0016651	oxidoreductase activity, acting on NAD(P)H	molecular_function	243231	inferred	1	2686077	sfrA
+GO:0019645	anaerobic electron transport chain	biological_process	243231	inferred	1	2685796	omcC
+GO:0022900	electron transport chain	biological_process	243231	inferred	1	2685796	omcC
+GO:0022904	respiratory electron transport chain	biological_process	243231	inferred	1	2685796	omcC
+GO:0044237	cellular metabolic process	biological_process	243231	inferred	1	2685796	omcC
+GO:0044699	single-organism process	biological_process	243231	inferred	1	2685796	omcC
+GO:0044710	single-organism metabolic process	biological_process	243231	inferred	1	2685796	omcC
+GO:0044763	single-organism cellular process	biological_process	243231	inferred	1	2685796	omcC
+GO:0045333	cellular respiration	biological_process	243231	inferred	1	2685796	omcC
+GO:0055114	oxidation-reduction process	biological_process	243231	inferred	1	2685796	omcC

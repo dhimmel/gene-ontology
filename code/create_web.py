@@ -13,7 +13,6 @@ import requests
 
 import utilities
 
-
 taxids = list()
 for filename in os.listdir('annotations'):
     if not filename.startswith('taxid'):
@@ -39,31 +38,31 @@ for docsum in etree:
     taxdict[taxid]['common_name'] = item_dict['CommonName']
     taxdict[taxid]['division'] = item_dict['Division']
 
-prop_opts = ['prop', 'unprop']
-coding_opts = ['all', 'coding']
-vocab_opts = ['entrez', 'symbol']
+prop_opts = ['inferred', 'direct']
+ev_opts = ['allev', 'expev']
 
-for prop, vocab, coding in itertools.product(prop_opts, vocab_opts, coding_opts):
-    print prop, vocab, coding
+for prop, ev in itertools.product(prop_opts, ev_opts):
+    print(prop, ev)
     table = list()
     for taxid in taxids:
-        print taxid
-        path = utilities.annotation_path(taxid, prop, vocab, coding)
-        annotations = list(utilities.read_annotations(path))
-        stats = utilities.annotation_stats(annotations)
+        print(taxid)
+        path = utilities.get_annotation_path('annotations', taxid, prop, ev)
+        if not os.path.exists(path):
+            continue
+        annotation_df = utilities.read_annotation_df(path)
+        stats = utilities.annotation_stats(annotation_df)
         row = [taxid, taxdict[taxid]['scientific_name'], stats['terms'], stats['annotations'], path]
         table.append(row)
-    
+
     # write json for DataTables
-    json_file_name = 'summary-{}-{}-{}.json'.format(prop, vocab, coding)
+    json_file_name = 'summary-{}-{}.json'.format(ev, prop)
     json_path = os.path.join('summaries', json_file_name)
     with open(json_path, 'w') as write_file:
         json_data = {'data': table}
-        json.dump(json_data, write_file, indent = 2)
+        json.dump(json_data, write_file, indent = 2, cls=utilities.Encoder)
 
 
-##
-
+## Input file hashes
 datetime_format = '%Y-%m-%d %H:%M:%S'
 current_datetime = datetime.datetime.now().strftime(datetime_format)
 
@@ -87,6 +86,3 @@ output = template.render(files = files, date = current_datetime)
 
 with open('_includes/files.html', 'w') as write_file:
     write_file.write(output)
-
-
-

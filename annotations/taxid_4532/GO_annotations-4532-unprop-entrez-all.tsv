@@ -1,5 +1,0 @@
-go_id	go_term	go_domain	size	genes
-GO:0005739	mitochondrion	cellular_component	1	19909698
-GO:0008380	RNA splicing	biological_process	1	19909630
-GO:0009536	plastid	cellular_component	8	19909630|19909660|19909678|19909679|19909680|19909698|19909704|19909734
-GO:0016023	cytoplasmic membrane-bounded vesicle	cellular_component	1	19909679
