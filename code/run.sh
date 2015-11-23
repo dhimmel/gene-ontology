@@ -19,7 +19,7 @@ wget --timestamping --directory-prefix download/ ftp://ftp.ncbi.nih.gov/gene/DAT
 runipy --overwrite code/process.ipynb
 python code/create_web.py
 
-# Commit
-git add --all
-git commit -m "Update with new data releases"
-git push origin gh-pages
+# # Commit
+# git add --all
+# git commit -m "Update with new data releases"
+# git push origin gh-pages
