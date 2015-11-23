@@ -770,7 +770,7 @@ GO:0019538	protein metabolic process	biological_process	243231	direct	3	2685692|
 GO:0019546	arginine deiminase pathway	biological_process	243231	direct	1	2685626	aguA
 GO:0019552	glutamate catabolic process via 2-hydroxyglutarate	biological_process	243231	direct	1	2688415	GSU2944
 GO:0019605	butyrate metabolic process	biological_process	243231	direct	1	2686417	GSU1377
-GO:0019619	protocatechuate catabolic process	biological_process	243231	direct	1	2688072	GSU1313
+GO:0019619	3,4-dihydroxybenzoate catabolic process	biological_process	243231	direct	1	2688072	GSU1313
 GO:0019637	organophosphate metabolic process	biological_process	243231	direct	1	2686699	cobC
 GO:0019645	anaerobic electron transport chain	biological_process	243231	direct	2	2685796|2686014	omcC|omcB
 GO:0019678	propionate metabolic process, methylmalonyl pathway	biological_process	243231	direct	2	2687559|2688251	GSU3302|mceE

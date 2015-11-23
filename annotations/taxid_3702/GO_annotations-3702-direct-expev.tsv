@@ -2503,7 +2503,7 @@ GO:0019784	NEDD8-specific protease activity	molecular_function	3702	direct	1	836
 GO:0019787	ubiquitin-like protein transferase activity	molecular_function	3702	direct	1	829833	RCE1
 GO:0019789	SUMO transferase activity	molecular_function	3702	direct	3	820746|824956|836163	HPY2|SCE1|SIZ1
 GO:0019825	oxygen binding	molecular_function	3702	direct	3	816103|832659|842555	HB1|GA3|AT1G62580
-GO:0019827	stem cell maintenance	biological_process	3702	direct	9	816305|821632|827009|831548|835623|837318|838487|841542|842079	WUS|PLT1|NOV|TERT|TOP1ALPHA|TPST|ARR7|PLT2|AT1G56260
+GO:0019827	stem cell population maintenance	biological_process	3702	direct	9	816305|821632|827009|831548|835623|837318|838487|841542|842079	WUS|PLT1|NOV|TERT|TOP1ALPHA|TPST|ARR7|PLT2|AT1G56260
 GO:0019829	cation-transporting ATPase activity	molecular_function	3702	direct	1	832428	PDR2
 GO:0019843	rRNA binding	molecular_function	3702	direct	2	819817|837128	EMB2750|AT1G06190
 GO:0019853	L-ascorbic acid biosynthetic process	biological_process	3702	direct	11	818562|819187|819287|819288|821206|828732|828792|829509|831026|835603|843027	CYT1|PMM|AT2G46740|AT2G46750|VTC4|MIOX4|VTC2|AT4G33670|AT5G11540|VTC5|DIN9
@@ -2871,7 +2871,7 @@ GO:0034970	histone H3-R2 methylation	biological_process	3702	direct	2	819878|834
 GO:0034971	histone H3-R17 methylation	biological_process	3702	direct	2	819878|834961	PRMT4B|PRMT4A
 GO:0034972	histone H3-R26 methylation	biological_process	3702	direct	2	819878|834961	PRMT4B|PRMT4A
 GO:0034976	response to endoplasmic reticulum stress	biological_process	3702	direct	9	817854|819360|820249|824661|832289|834207|838779|839355|844087	PDIL2-3|UNE5|BZIP28|PDIL1-3|NAC089|BIP2|PDIL1-1|PDIL2-2|PDIL1-2
-GO:0035019	somatic stem cell maintenance	biological_process	3702	direct	1	834403	ZLL
+GO:0035019	somatic stem cell population maintenance	biological_process	3702	direct	1	834403	ZLL
 GO:0035024	negative regulation of Rho protein signal transduction	biological_process	3702	direct	1	828560	REN1
 GO:0035061	interchromatin granule	cellular_component	3702	direct	3	837433|839262|841976	ATSRP30|SR1|SR33
 GO:0035064	methylated histone binding	molecular_function	3702	direct	7	821986|829143|830444|831635|832690|838013|841881	ING1|VEL1|AL1|TFL2|AL4|AL7|ING2
@@ -2895,7 +2895,7 @@ GO:0035264	multicellular organism growth	biological_process	3702	direct	1	839666
 GO:0035265	organ growth	biological_process	3702	direct	9	819014|820292|822350|828322|830915|831213|835098|837932|838833	ARL|ELO1|PUX1|MRB1|AIL6|ABO1|ELO3|CYP78A5|AT1G22270
 GO:0035266	meristem growth	biological_process	3702	direct	2	826172|829025	AT4G07410|RPT2a
 GO:0035267	NuA4 histone acetyltransferase complex	cellular_component	3702	direct	1	822086	AT3G24880
-GO:0035278	negative regulation of translation involved in gene silencing by miRNA	biological_process	3702	direct	1	823960	AT3G48050
+GO:0035278	miRNA mediated inhition of translation	biological_process	3702	direct	1	823960	AT3G48050
 GO:0035279	mRNA cleavage involved in gene silencing by miRNA	biological_process	3702	direct	6	827839|837498|839574|3768747|3768750|5007946	HEN1|HYL1|DCL1|MIR166A|MIR164A|MIR393A
 GO:0035280	miRNA loading onto RISC involved in gene silencing by miRNA	biological_process	3702	direct	1	817722	SAD2
 GO:0035281	pre-miRNA export from nucleus	biological_process	3702	direct	1	819666	HST
@@ -4485,7 +4485,7 @@ GO:2000032	regulation of secondary shoot formation	biological_process	3702	direc
 GO:2000033	regulation of seed dormancy process	biological_process	3702	direct	6	814686|817946|821251|834623|835780|838057	RGA1|AGP30|RGL2|DOG1|ET2|GAI
 GO:2000034	regulation of seed maturation	biological_process	3702	direct	3	817597|829332|839574	HSI2|HSL1|DCL1
 GO:2000035	regulation of stem cell division	biological_process	3702	direct	1	831748	CTR1
-GO:2000036	regulation of stem cell maintenance	biological_process	3702	direct	1	820408	RBR1
+GO:2000036	regulation of stem cell population maintenance	biological_process	3702	direct	1	820408	RBR1
 GO:2000037	regulation of stomatal complex patterning	biological_process	3702	direct	5	818982|821676|823706|830450|841591	MPK6|MKK5|MPK3|ATNFXL2|MKK4
 GO:2000038	regulation of stomatal complex development	biological_process	3702	direct	6	818982|823706|826909|838606|840218|841591	MPK6|MPK3|STOMAGEN|ATSBT5.2|GTL1|MKK4
 GO:2000039	regulation of trichome morphogenesis	biological_process	3702	direct	3	822415|839401|3768521	MYB0|AN|TCL1

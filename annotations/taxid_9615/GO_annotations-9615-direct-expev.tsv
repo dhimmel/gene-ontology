@@ -7,7 +7,8 @@ GO:0004576	oligosaccharyl transferase activity	molecular_function	9615	direct	1	
 GO:0004993	serotonin receptor activity	molecular_function	9615	direct	1	403882	HTR2A
 GO:0005178	integrin binding	molecular_function	9615	direct	1	475471	SFRP2
 GO:0005198	structural molecule activity	molecular_function	9615	direct	1	403980	CAV1
-GO:0005509	calcium ion binding	molecular_function	9615	direct	1	404010	PNLIPRP1
+GO:0005432	calcium:sodium antiporter activity	molecular_function	9615	direct	1	475738	SLC8A1
+GO:0005509	calcium ion binding	molecular_function	9615	direct	2	404010|475738	PNLIPRP1|SLC8A1
 GO:0005515	protein binding	molecular_function	9615	direct	17	403498|403752|403774|403776|403845|403854|403880|403947|403958|403980|404006|442858|474680|477032|483134|612294|100856359	ARHGEF2|TJP1|RAB1A|TRDN|FN1|TJP2|STXBP2|RAB9A|RAB10|CAV1|SEC61A1|CDH1|HSPA4|CTNNB1|CASQ2|RAB13|RAPGEF2
 GO:0005615	extracellular space	cellular_component	9615	direct	1	475471	SFRP2
 GO:0005634	nucleus	cellular_component	9615	direct	2	403621|403924	PGR|MYC
@@ -21,7 +22,7 @@ GO:0005887	integral component of plasma membrane	cellular_component	9615	direct	
 GO:0005891	voltage-gated calcium channel complex	cellular_component	9615	direct	2	403776|483134	TRDN|CASQ2
 GO:0005901	caveola	cellular_component	9615	direct	1	403980	CAV1
 GO:0005911	cell-cell junction	cellular_component	9615	direct	4	403752|442858|477032|100856359	TJP1|CDH1|CTNNB1|RAPGEF2
-GO:0005923	bicellular tight junction	cellular_component	9615	direct	1	403752	TJP1
+GO:0005923	bicellular tight junction	cellular_component	9615	direct	2	403752|403844	TJP1|OCLN
 GO:0006486	protein glycosylation	biological_process	9615	direct	1	404012	DDOST
 GO:0006616	SRP-dependent cotranslational protein targeting to membrane, translocation	biological_process	9615	direct	2	403948|403953	TRAM1|SRP54
 GO:0006617	SRP-dependent cotranslational protein targeting to membrane, signal sequence recognition	biological_process	9615	direct	1	403953	SRP54
@@ -32,7 +33,9 @@ GO:0007267	cell-cell signaling	biological_process	9615	direct	1	475471	SFRP2
 GO:0007339	binding of sperm to zona pellucida	biological_process	9615	direct	1	403894	ZP3
 GO:0008134	transcription factor binding	molecular_function	9615	direct	1	403498	ARHGEF2
 GO:0008144	drug binding	molecular_function	9615	direct	1	403882	HTR2A
+GO:0008202	steroid metabolic process	biological_process	9615	direct	1	415129	CYP3A12
 GO:0008250	oligosaccharyltransferase complex	cellular_component	9615	direct	1	404012	DDOST
+GO:0008395	steroid hydroxylase activity	molecular_function	9615	direct	1	415129	CYP3A12
 GO:0008519	ammonium transmembrane transporter activity	molecular_function	9615	direct	2	403538|479040	RHBG|RHCG
 GO:0008565	protein transporter activity	molecular_function	9615	direct	1	404017	SEC61G
 GO:0008625	extrinsic apoptotic signaling pathway via death domain receptors	biological_process	9615	direct	1	403796	IL18
@@ -54,13 +57,17 @@ GO:0030674	protein binding, bridging	molecular_function	9615	direct	1	403776	TRD
 GO:0030859	polarized epithelial cell differentiation	biological_process	9615	direct	1	403958	RAB10
 GO:0030942	endoplasmic reticulum signal peptide binding	molecular_function	9615	direct	1	403953	SRP54
 GO:0031012	extracellular matrix	cellular_component	9615	direct	1	475471	SFRP2
+GO:0031226	intrinsic component of plasma membrane	cellular_component	9615	direct	1	475738	SLC8A1
 GO:0031410	cytoplasmic vesicle	cellular_component	9615	direct	2	403752|403938	TJP1|LMAN2
 GO:0032456	endocytic recycling	biological_process	9615	direct	2	403773|612294	RAB8A|RAB13
 GO:0032780	negative regulation of ATPase activity	biological_process	9615	direct	1	414755	PLN
 GO:0032873	negative regulation of stress-activated MAPK cascade	biological_process	9615	direct	1	403924	MYC
 GO:0033630	positive regulation of cell adhesion mediated by integrin	biological_process	9615	direct	1	475471	SFRP2
+GO:0035725	sodium ion transmembrane transport	biological_process	9615	direct	1	475738	SLC8A1
 GO:0042030	ATPase inhibitor activity	molecular_function	9615	direct	1	414755	PLN
 GO:0042095	interferon-gamma biosynthetic process	biological_process	9615	direct	1	403796	IL18
+GO:0042445	hormone metabolic process	biological_process	9615	direct	1	415129	CYP3A12
+GO:0042448	progesterone metabolic process	biological_process	9615	direct	1	415129	CYP3A12
 GO:0042493	response to drug	biological_process	9615	direct	2	403882|403924	HTR2A|MYC
 GO:0042997	negative regulation of Golgi to plasma membrane protein transport	biological_process	9615	direct	1	403935	ANXA13
 GO:0042998	positive regulation of Golgi to plasma membrane protein transport	biological_process	9615	direct	1	403935	ANXA13
@@ -73,6 +80,7 @@ GO:0045022	early endosome to late endosome transport	biological_process	9615	dir
 GO:0045047	protein targeting to ER	biological_process	9615	direct	3	403953|404006|404017	SRP54|SEC61A1|SEC61G
 GO:0045121	membrane raft	cellular_component	9615	direct	2	403933|403935	MAL|ANXA13
 GO:0048471	perinuclear region of cytoplasm	cellular_component	9615	direct	1	403938	LMAN2
+GO:0050649	testosterone 6-beta-hydroxylase activity	molecular_function	9615	direct	1	415129	CYP3A12
 GO:0050679	positive regulation of epithelial cell proliferation	biological_process	9615	direct	1	403924	MYC
 GO:0051209	release of sequestered calcium ion into cytosol	biological_process	9615	direct	1	403882	HTR2A
 GO:0051378	serotonin binding	molecular_function	9615	direct	1	403882	HTR2A
@@ -82,6 +90,7 @@ GO:0060316	positive regulation of ryanodine-sensitive calcium-release channel ac
 GO:0060546	negative regulation of necroptotic process	biological_process	9615	direct	1	403498	ARHGEF2
 GO:0061467	basolateral protein localization	biological_process	9615	direct	1	403958	RAB10
 GO:0070382	exocytic vesicle	cellular_component	9615	direct	1	403935	ANXA13
+GO:0070588	calcium ion transmembrane transport	biological_process	9615	direct	1	475738	SLC8A1
 GO:0070830	bicellular tight junction assembly	biological_process	9615	direct	3	403752|477032|612294	TJP1|CTNNB1|RAB13
 GO:0070836	caveola assembly	biological_process	9615	direct	1	403980	CAV1
 GO:0070888	E-box binding	molecular_function	9615	direct	1	403924	MYC
@@ -90,10 +99,10 @@ GO:0071356	cellular response to tumor necrosis factor	biological_process	9615	di
 GO:0071474	cellular hyperosmotic response	biological_process	9615	direct	1	403498	ARHGEF2
 GO:0072175	epithelial tube formation	biological_process	9615	direct	1	482252	PODXL
 GO:0072372	primary cilium	cellular_component	9615	direct	1	403958	RAB10
-GO:0072488	ammonium transmembrane transport	biological_process	9615	direct	2	403538|479040	RHBG|RHCG
 GO:0086036	regulation of cardiac muscle cell membrane potential	biological_process	9615	direct	1	403776	TRDN
 GO:0090002	establishment of protein localization to plasma membrane	biological_process	9615	direct	1	612294	RAB13
 GO:1901020	negative regulation of calcium ion transmembrane transporter activity	biological_process	9615	direct	1	414755	PLN
+GO:1901615	organic hydroxy compound metabolic process	biological_process	9615	direct	1	415129	CYP3A12
 GO:1901846	positive regulation of cell communication by electrical coupling involved in cardiac conduction	biological_process	9615	direct	1	403776	TRDN
 GO:1902042	negative regulation of extrinsic apoptotic signaling pathway via death domain receptors	biological_process	9615	direct	1	403498	ARHGEF2
 GO:1902081	negative regulation of calcium ion import into sarcoplasmic reticulum	biological_process	9615	direct	1	414755	PLN

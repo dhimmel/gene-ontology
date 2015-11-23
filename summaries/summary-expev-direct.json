@@ -10,71 +10,71 @@
     [
       6239,
       "Caenorhabditis elegans",
-      2401,
-      29727,
+      2538,
+      13900,
       "annotations/taxid_6239/GO_annotations-6239-direct-expev.tsv"
     ],
     [
       7227,
       "Drosophila melanogaster",
-      4836,
-      35764,
+      4940,
+      36849,
       "annotations/taxid_7227/GO_annotations-7227-direct-expev.tsv"
     ],
     [
       7955,
       "Danio rerio",
-      2640,
-      12638,
+      2677,
+      12898,
       "annotations/taxid_7955/GO_annotations-7955-direct-expev.tsv"
     ],
     [
       9031,
       "Gallus gallus",
-      667,
-      1288,
+      708,
+      1398,
       "annotations/taxid_9031/GO_annotations-9031-direct-expev.tsv"
     ],
     [
       9606,
       "Homo sapiens",
-      9738,
-      83191,
+      9907,
+      84903,
       "annotations/taxid_9606/GO_annotations-9606-direct-expev.tsv"
     ],
     [
       9615,
       "Canis lupus familiaris",
-      102,
-      155,
+      111,
+      165,
       "annotations/taxid_9615/GO_annotations-9615-direct-expev.tsv"
     ],
     [
       9823,
       "Sus scrofa",
-      304,
-      430,
+      317,
+      455,
       "annotations/taxid_9823/GO_annotations-9823-direct-expev.tsv"
     ],
     [
       9913,
       "Bos taurus",
-      642,
-      1308,
+      678,
+      1408,
       "annotations/taxid_9913/GO_annotations-9913-direct-expev.tsv"
     ],
     [
       10090,
       "Mus musculus",
-      10074,
-      75621,
+      10240,
+      75170,
       "annotations/taxid_10090/GO_annotations-10090-direct-expev.tsv"
     ],
     [
       10116,
       "Rattus norvegicus",
-      6642,
-      41743,
+      6836,
+      42876,
       "annotations/taxid_10116/GO_annotations-10116-direct-expev.tsv"
     ],
     [
@@ -143,22 +143,22 @@
     [
       284812,
       "Schizosaccharomyces pombe 972h-",
-      2507,
-      15879,
+      2481,
+      15786,
       "annotations/taxid_284812/GO_annotations-284812-direct-expev.tsv"
     ],
     [
       352472,
       "Dictyostelium discoideum AX4",
-      1018,
-      5120,
+      1040,
+      5242,
       "annotations/taxid_352472/GO_annotations-352472-direct-expev.tsv"
     ],
     [
       559292,
       "Saccharomyces cerevisiae S288c",
-      4471,
-      28523,
+      4508,
+      28773,
       "annotations/taxid_559292/GO_annotations-559292-direct-expev.tsv"
     ]
   ]

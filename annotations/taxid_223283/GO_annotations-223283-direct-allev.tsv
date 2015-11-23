@@ -784,7 +784,7 @@ GO:0019430	removal of superoxide radicals	biological_process	223283	direct	1	118
 GO:0019464	glycine decarboxylation via glycine cleavage system	biological_process	223283	direct	5	1181925|1181926|1182911|1182912|1182913	gcvT-1|gcvH-1|gcvT-2|gcvP|gcvH-2
 GO:0019491	ectoine biosynthetic process	biological_process	223283	direct	1	1183783	daT
 GO:0019534	toxin transporter activity	molecular_function	223283	direct	2	1182445|1186876	PSPTO_0820|PSPTO_5191
-GO:0019619	protocatechuate catabolic process	biological_process	223283	direct	1	1183993	pcaC-1
+GO:0019619	3,4-dihydroxybenzoate catabolic process	biological_process	223283	direct	1	1183993	pcaC-1
 GO:0019627	urea metabolic process	biological_process	223283	direct	3	1184061|1185923|1186594	ureG-1|PSPTO_4243|ureG-2
 GO:0019629	propionate catabolic process, 2-methylcitrate cycle	biological_process	223283	direct	1	1183941	PSPTO_2290
 GO:0019682	glyceraldehyde-3-phosphate metabolic process	biological_process	223283	direct	2	1182923|1183749	gap-1|gap-2

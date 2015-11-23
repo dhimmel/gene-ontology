@@ -3,8 +3,8 @@
     [
       3702,
       "Arabidopsis thaliana",
-      6075,
-      179646,
+      6074,
+      179645,
       "annotations/taxid_3702/GO_annotations-3702-direct-allev.tsv"
     ],
     [
@@ -43,6 +43,13 @@
       "annotations/taxid_4536/GO_annotations-4536-direct-allev.tsv"
     ],
     [
+      4537,
+      "Oryza punctata",
+      4,
+      11,
+      "annotations/taxid_4537/GO_annotations-4537-direct-allev.tsv"
+    ],
+    [
       4538,
       "Oryza glaberrima",
       2,
@@ -52,71 +59,71 @@
     [
       6239,
       "Caenorhabditis elegans",
-      4070,
-      66136,
+      4853,
+      79396,
       "annotations/taxid_6239/GO_annotations-6239-direct-allev.tsv"
     ],
     [
       7227,
       "Drosophila melanogaster",
-      6892,
-      78529,
+      6986,
+      80166,
       "annotations/taxid_7227/GO_annotations-7227-direct-allev.tsv"
     ],
     [
       7955,
       "Danio rerio",
-      7476,
-      116384,
+      7844,
+      125330,
       "annotations/taxid_7955/GO_annotations-7955-direct-allev.tsv"
     ],
     [
       9031,
       "Gallus gallus",
-      4974,
-      19150,
+      5179,
+      19957,
       "annotations/taxid_9031/GO_annotations-9031-direct-allev.tsv"
     ],
     [
       9606,
       "Homo sapiens",
-      15755,
-      247463,
+      15998,
+      255984,
       "annotations/taxid_9606/GO_annotations-9606-direct-allev.tsv"
     ],
     [
       9615,
       "Canis lupus familiaris",
-      3110,
-      7876,
+      3017,
+      7561,
       "annotations/taxid_9615/GO_annotations-9615-direct-allev.tsv"
     ],
     [
       9823,
       "Sus scrofa",
-      4107,
-      12114,
+      4222,
+      12464,
       "annotations/taxid_9823/GO_annotations-9823-direct-allev.tsv"
     ],
     [
       9913,
       "Bos taurus",
-      8942,
-      49838,
+      8919,
+      49686,
       "annotations/taxid_9913/GO_annotations-9913-direct-allev.tsv"
     ],
     [
       10090,
       "Mus musculus",
-      16283,
-      299712,
+      16640,
+      299414,
       "annotations/taxid_10090/GO_annotations-10090-direct-allev.tsv"
     ],
     [
       10116,
       "Rattus norvegicus",
-      15807,
-      231102,
+      16243,
+      239068,
       "annotations/taxid_10116/GO_annotations-10116-direct-allev.tsv"
     ],
     [
@@ -130,14 +137,14 @@
       39946,
       "Oryza sativa Indica Group",
       4,
-      173,
+      298,
       "annotations/taxid_39946/GO_annotations-39946-direct-allev.tsv"
     ],
     [
       39947,
       "Oryza sativa Japonica Group",
-      76,
-      4766,
+      83,
+      4789,
       "annotations/taxid_39947/GO_annotations-39947-direct-allev.tsv"
     ],
     [
@@ -185,8 +192,8 @@
     [
       220664,
       "Pseudomonas protegens Pf-5",
-      1434,
-      11102,
+      1433,
+      11100,
       "annotations/taxid_220664/GO_annotations-220664-direct-allev.tsv"
     ],
     [
@@ -199,8 +206,8 @@
     [
       227321,
       "Aspergillus nidulans FGSC A4",
-      1403,
-      22387,
+      3663,
+      32002,
       "annotations/taxid_227321/GO_annotations-227321-direct-allev.tsv"
     ],
     [
@@ -227,15 +234,15 @@
     [
       284812,
       "Schizosaccharomyces pombe 972h-",
-      4487,
-      34696,
+      4423,
+      34077,
       "annotations/taxid_284812/GO_annotations-284812-direct-allev.tsv"
     ],
     [
       352472,
       "Dictyostelium discoideum AX4",
-      3535,
-      47606,
+      3741,
+      52086,
       "annotations/taxid_352472/GO_annotations-352472-direct-allev.tsv"
     ],
     [
@@ -248,8 +255,8 @@
     [
       559292,
       "Saccharomyces cerevisiae S288c",
-      5197,
-      63224,
+      5497,
+      66034,
       "annotations/taxid_559292/GO_annotations-559292-direct-allev.tsv"
     ]
   ]

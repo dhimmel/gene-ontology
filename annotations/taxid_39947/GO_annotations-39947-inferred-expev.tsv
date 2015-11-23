@@ -1,4 +1,5 @@
 go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0000003	reproduction	biological_process	39947	inferred	1	4348869	Os10g0471100
 GO:0003006	developmental process involved in reproduction	biological_process	39947	inferred	1	4348869	Os10g0471100
 GO:0005575	cellular_component	cellular_component	39947	inferred	1	4348869	Os10g0471100
 GO:0005622	intracellular	cellular_component	39947	inferred	1	4348869	Os10g0471100

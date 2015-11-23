@@ -828,7 +828,7 @@ GO:0030433	ER-associated ubiquitin-dependent protein catabolic process	biologica
 GO:0030492	hemoglobin binding	molecular_function	36329	direct	1	812967	PFE0765w
 GO:0030497	fatty acid elongation	biological_process	36329	direct	1	812331	PF14_0749
 GO:0030507	spectrin binding	molecular_function	36329	direct	1	811041	PF11_0509
-GO:0030529	ribonucleoprotein complex	cellular_component	36329	direct	1	811282	PFL1150c
+GO:0030529	intracellular ribonucleoprotein complex	cellular_component	36329	direct	1	811282	PFL1150c
 GO:0030532	small nuclear ribonucleoprotein complex	cellular_component	36329	direct	1	810813	PF11_0266
 GO:0030544	Hsp70 protein binding	molecular_function	36329	direct	1	811166	PFL0565w
 GO:0030551	cyclic nucleotide binding	molecular_function	36329	direct	1	811754	PF14_0173

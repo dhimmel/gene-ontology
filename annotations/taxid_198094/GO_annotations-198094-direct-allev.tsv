@@ -814,7 +814,7 @@ GO:0019477	L-lysine catabolic process	biological_process	198094	direct	1	1085899
 GO:0019480	L-alanine oxidation to pyruvate via D-alanine	biological_process	198094	direct	2	1085099|1085612	dat2|dat1
 GO:0019538	protein metabolic process	biological_process	198094	direct	4	1085339|1087060|1087759|1088580	BA_4628|BA_1995|BA_2120|BA_3038
 GO:0019547	arginine catabolic process to ornithine	biological_process	198094	direct	1	1087589	rocF
-GO:0019619	protocatechuate catabolic process	biological_process	198094	direct	1	1088410	BA_2829
+GO:0019619	3,4-dihydroxybenzoate catabolic process	biological_process	198094	direct	1	1088410	BA_2829
 GO:0019645	anaerobic electron transport chain	biological_process	198094	direct	1	1085822	narI
 GO:0019725	cellular homeostasis	biological_process	198094	direct	2	1087140|1088030	nhaC2|nhaC1
 GO:0019835	cytolysis	biological_process	198094	direct	3	1084629|1085450|1085527	BA_3355|BA_5701|hlYIII
