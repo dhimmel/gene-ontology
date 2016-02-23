@@ -16,7 +16,7 @@ wget --timestamping --directory-prefix download/ ftp://ftp.ncbi.nih.gov/gene/DAT
 wget --timestamping --directory-prefix download/ ftp://ftp.ncbi.nih.gov/gene/DATA/gene_info.gz
 
 # Run python
-runipy --overwrite code/process.ipynb
+jupyter nbconvert --execute code/process.ipynb --inplace
 python code/create_web.py
 
 # # Commit
