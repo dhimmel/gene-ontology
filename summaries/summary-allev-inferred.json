@@ -3,8 +3,8 @@
     [
       3702,
       "Arabidopsis thaliana",
-      8629,
-      1314527,
+      8639,
+      1314530,
       "annotations/taxid_3702/GO_annotations-3702-inferred-allev.tsv"
     ],
     [
@@ -59,78 +59,78 @@
     [
       6239,
       "Caenorhabditis elegans",
-      7607,
-      518787,
+      7934,
+      560788,
       "annotations/taxid_6239/GO_annotations-6239-inferred-allev.tsv"
     ],
     [
       7227,
       "Drosophila melanogaster",
-      10099,
-      645431,
+      10203,
+      654456,
       "annotations/taxid_7227/GO_annotations-7227-inferred-allev.tsv"
     ],
     [
       7955,
       "Danio rerio",
-      11522,
-      763499,
+      11521,
+      742049,
       "annotations/taxid_7955/GO_annotations-7955-inferred-allev.tsv"
     ],
     [
       9031,
       "Gallus gallus",
-      9205,
-      170173,
+      9486,
+      179069,
       "annotations/taxid_9031/GO_annotations-9031-inferred-allev.tsv"
     ],
     [
       9606,
       "Homo sapiens",
-      20081,
-      1809269,
+      20526,
+      1855403,
       "annotations/taxid_9606/GO_annotations-9606-inferred-allev.tsv"
     ],
     [
       9615,
       "Canis lupus familiaris",
-      6559,
-      60123,
+      6892,
+      65477,
       "annotations/taxid_9615/GO_annotations-9615-inferred-allev.tsv"
     ],
     [
       9823,
       "Sus scrofa",
-      8216,
-      103801,
+      8356,
+      107343,
       "annotations/taxid_9823/GO_annotations-9823-inferred-allev.tsv"
     ],
     [
       9913,
       "Bos taurus",
-      13434,
-      425154,
+      13682,
+      439627,
       "annotations/taxid_9913/GO_annotations-9913-inferred-allev.tsv"
     ],
     [
       10090,
       "Mus musculus",
-      20566,
-      1632546,
+      20768,
+      1658404,
       "annotations/taxid_10090/GO_annotations-10090-inferred-allev.tsv"
     ],
     [
       10116,
       "Rattus norvegicus",
-      20264,
-      1672636,
+      20474,
+      1696173,
       "annotations/taxid_10116/GO_annotations-10116-inferred-allev.tsv"
     ],
     [
       36329,
       "Plasmodium falciparum 3D7",
-      2346,
-      48402,
+      2353,
+      48400,
       "annotations/taxid_36329/GO_annotations-36329-inferred-allev.tsv"
     ],
     [
@@ -171,57 +171,57 @@
     [
       198094,
       "Bacillus anthracis str. Ames",
-      1877,
-      56837,
+      2237,
+      76653,
       "annotations/taxid_198094/GO_annotations-198094-inferred-allev.tsv"
     ],
     [
       211586,
       "Shewanella oneidensis MR-1",
-      1290,
-      34083,
+      2158,
+      66375,
       "annotations/taxid_211586/GO_annotations-211586-inferred-allev.tsv"
     ],
     [
       214684,
       "Cryptococcus neoformans var. neoformans JEC21",
-      3874,
-      137471,
+      3882,
+      137570,
       "annotations/taxid_214684/GO_annotations-214684-inferred-allev.tsv"
     ],
     [
       220664,
       "Pseudomonas protegens Pf-5",
-      2560,
-      80089,
+      2609,
+      82288,
       "annotations/taxid_220664/GO_annotations-220664-inferred-allev.tsv"
     ],
     [
       223283,
-      "Pseudomonas syringae pv. tomato str. DC3000",
-      2133,
-      52146,
+      "[Pseudomonas syringae] pv. tomato str. DC3000",
+      2395,
+      61523,
       "annotations/taxid_223283/GO_annotations-223283-inferred-allev.tsv"
     ],
     [
       227321,
       "Aspergillus nidulans FGSC A4",
       6728,
-      196149,
+      195734,
       "annotations/taxid_227321/GO_annotations-227321-inferred-allev.tsv"
     ],
     [
       227377,
       "Coxiella burnetii RSA 493",
-      1521,
-      24576,
+      1654,
+      30243,
       "annotations/taxid_227377/GO_annotations-227377-inferred-allev.tsv"
     ],
     [
       243231,
       "Geobacter sulfurreducens PCA",
-      1811,
-      42319,
+      2027,
+      52427,
       "annotations/taxid_243231/GO_annotations-243231-inferred-allev.tsv"
     ],
     [
@@ -234,29 +234,29 @@
     [
       284812,
       "Schizosaccharomyces pombe 972h-",
-      7673,
-      311648,
+      7775,
+      313398,
       "annotations/taxid_284812/GO_annotations-284812-inferred-allev.tsv"
     ],
     [
       352472,
       "Dictyostelium discoideum AX4",
-      6079,
-      297178,
+      6159,
+      298695,
       "annotations/taxid_352472/GO_annotations-352472-inferred-allev.tsv"
     ],
     [
       511145,
       "Escherichia coli str. K-12 substr. MG1655",
       684,
-      55684,
+      55653,
       "annotations/taxid_511145/GO_annotations-511145-inferred-allev.tsv"
     ],
     [
       559292,
       "Saccharomyces cerevisiae S288c",
-      8282,
-      430136,
+      8304,
+      430947,
       "annotations/taxid_559292/GO_annotations-559292-inferred-allev.tsv"
     ]
   ]

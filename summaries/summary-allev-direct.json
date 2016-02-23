@@ -59,71 +59,71 @@
     [
       6239,
       "Caenorhabditis elegans",
-      4853,
-      79396,
+      5073,
+      84004,
       "annotations/taxid_6239/GO_annotations-6239-direct-allev.tsv"
     ],
     [
       7227,
       "Drosophila melanogaster",
-      6986,
-      80166,
+      7025,
+      81154,
       "annotations/taxid_7227/GO_annotations-7227-direct-allev.tsv"
     ],
     [
       7955,
       "Danio rerio",
-      7844,
-      125330,
+      7799,
+      120628,
       "annotations/taxid_7955/GO_annotations-7955-direct-allev.tsv"
     ],
     [
       9031,
       "Gallus gallus",
-      5179,
-      19957,
+      5382,
+      21031,
       "annotations/taxid_9031/GO_annotations-9031-direct-allev.tsv"
     ],
     [
       9606,
       "Homo sapiens",
-      15998,
-      255984,
+      16339,
+      262077,
       "annotations/taxid_9606/GO_annotations-9606-direct-allev.tsv"
     ],
     [
       9615,
       "Canis lupus familiaris",
-      3017,
-      7561,
+      3224,
+      8190,
       "annotations/taxid_9615/GO_annotations-9615-direct-allev.tsv"
     ],
     [
       9823,
       "Sus scrofa",
-      4222,
-      12464,
+      4322,
+      12940,
       "annotations/taxid_9823/GO_annotations-9823-direct-allev.tsv"
     ],
     [
       9913,
       "Bos taurus",
-      8919,
-      49686,
+      9099,
+      51079,
       "annotations/taxid_9913/GO_annotations-9913-direct-allev.tsv"
     ],
     [
       10090,
       "Mus musculus",
-      16640,
-      299414,
+      16804,
+      301230,
       "annotations/taxid_10090/GO_annotations-10090-direct-allev.tsv"
     ],
     [
       10116,
       "Rattus norvegicus",
-      16243,
-      239068,
+      16426,
+      240988,
       "annotations/taxid_10116/GO_annotations-10116-direct-allev.tsv"
     ],
     [
@@ -171,15 +171,15 @@
     [
       198094,
       "Bacillus anthracis str. Ames",
-      865,
-      11321,
+      1112,
+      12922,
       "annotations/taxid_198094/GO_annotations-198094-direct-allev.tsv"
     ],
     [
       211586,
       "Shewanella oneidensis MR-1",
-      509,
-      8020,
+      1070,
+      10348,
       "annotations/taxid_211586/GO_annotations-211586-direct-allev.tsv"
     ],
     [
@@ -192,36 +192,36 @@
     [
       220664,
       "Pseudomonas protegens Pf-5",
-      1433,
-      11100,
+      1472,
+      11289,
       "annotations/taxid_220664/GO_annotations-220664-direct-allev.tsv"
     ],
     [
       223283,
-      "Pseudomonas syringae pv. tomato str. DC3000",
-      903,
-      9127,
+      "[Pseudomonas syringae] pv. tomato str. DC3000",
+      1111,
+      9923,
       "annotations/taxid_223283/GO_annotations-223283-direct-allev.tsv"
     ],
     [
       227321,
       "Aspergillus nidulans FGSC A4",
-      3663,
-      32002,
+      3655,
+      31929,
       "annotations/taxid_227321/GO_annotations-227321-direct-allev.tsv"
     ],
     [
       227377,
       "Coxiella burnetii RSA 493",
-      622,
-      4038,
+      722,
+      4430,
       "annotations/taxid_227377/GO_annotations-227377-direct-allev.tsv"
     ],
     [
       243231,
       "Geobacter sulfurreducens PCA",
-      825,
-      6942,
+      950,
+      7680,
       "annotations/taxid_243231/GO_annotations-243231-direct-allev.tsv"
     ],
     [
@@ -234,15 +234,15 @@
     [
       284812,
       "Schizosaccharomyces pombe 972h-",
-      4423,
-      34077,
+      4491,
+      34290,
       "annotations/taxid_284812/GO_annotations-284812-direct-allev.tsv"
     ],
     [
       352472,
       "Dictyostelium discoideum AX4",
-      3741,
-      52086,
+      3785,
+      52054,
       "annotations/taxid_352472/GO_annotations-352472-direct-allev.tsv"
     ],
     [
@@ -255,8 +255,8 @@
     [
       559292,
       "Saccharomyces cerevisiae S288c",
-      5497,
-      66034,
+      5504,
+      66103,
       "annotations/taxid_559292/GO_annotations-559292-direct-allev.tsv"
     ]
   ]

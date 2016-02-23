@@ -2,7 +2,7 @@ go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
 GO:0000003	reproduction	biological_process	9031	direct	1	770134	GNRH1
 GO:0000077	DNA damage checkpoint	biological_process	9031	direct	1	424873	CEP63
 GO:0000086	G2/M transition of mitotic cell cycle	biological_process	9031	direct	2	374071|396252	KHDRBS1|CDK1
-GO:0000122	negative regulation of transcription from RNA polymerase II promoter	biological_process	9031	direct	2	373854|395526	TENM2|SOX14
+GO:0000122	negative regulation of transcription from RNA polymerase II promoter	biological_process	9031	direct	3	373854|395526|107051027	TENM2|SOX14|SOX21
 GO:0000146	microfilament motor activity	molecular_function	9031	direct	2	396072|396237	MYO1A|MYO5A
 GO:0000266	mitochondrial fission	biological_process	9031	direct	1	395222	MTFR1
 GO:0000287	magnesium ion binding	molecular_function	9031	direct	1	395417	SIK1
@@ -12,10 +12,11 @@ GO:0000413	protein peptidyl-prolyl isomerization	biological_process	9031	direct	
 GO:0000724	double-strand break repair via homologous recombination	biological_process	9031	direct	4	416687|419493|421314|100857742	FBXO18|MAD2L2|MCM8|MCM9
 GO:0000731	DNA synthesis involved in DNA repair	biological_process	9031	direct	1	404292	POLG
 GO:0000740	nuclear membrane fusion	biological_process	9031	direct	1	374193	GAPDH
-GO:0000790	nuclear chromatin	cellular_component	9031	direct	2	395715|396198	SERPINB10|PGR
+GO:0000790	nuclear chromatin	cellular_component	9031	direct	4	395715|396198|421724|422169	SERPINB10|PGR|HSF2|HSF3
 GO:0000922	spindle pole	cellular_component	9031	direct	1	424873	CEP63
 GO:0000975	regulatory region DNA binding	molecular_function	9031	direct	1	395974	IKZF1
 GO:0001042	RNA polymerase I core binding	molecular_function	9031	direct	1	423083	SPTY2D1
+GO:0001046	core promoter sequence-specific DNA binding	molecular_function	9031	direct	5	396185|420362|421724|421991|422169	CEBPB|LOC420362|HSF2|DNMT3A|HSF3
 GO:0001047	core promoter binding	molecular_function	9031	direct	2	373991|395433	CLOCK|NPAS2
 GO:0001158	enhancer sequence-specific DNA binding	molecular_function	9031	direct	4	374148|396185|396231|396391	SOX9|CEBPB|RXRG|GATA5
 GO:0001502	cartilage condensation	biological_process	9031	direct	2	374007|374148	CDH7|SOX9
@@ -35,16 +36,19 @@ GO:0001755	neural crest cell migration	biological_process	9031	direct	2	374148|3
 GO:0001756	somitogenesis	biological_process	9031	direct	1	421352	TGFB2
 GO:0001775	cell activation	biological_process	9031	direct	1	396399	TGFBR2
 GO:0001822	kidney development	biological_process	9031	direct	1	395802	PROX1
+GO:0001837	epithelial to mesenchymal transition	biological_process	9031	direct	1	395562	WNT11
 GO:0001889	liver development	biological_process	9031	direct	2	395802|427308	PROX1|ALDOB
 GO:0001895	retina homeostasis	biological_process	9031	direct	1	395615	SHH
+GO:0001933	negative regulation of protein phosphorylation	biological_process	9031	direct	1	386583	MMP2
 GO:0001945	lymph vessel development	biological_process	9031	direct	1	395802	PROX1
 GO:0001946	lymphangiogenesis	biological_process	9031	direct	1	395802	PROX1
 GO:0001947	heart looping	biological_process	9031	direct	1	395623	CER1
 GO:0001948	glycoprotein binding	molecular_function	9031	direct	1	396452	PRNP
 GO:0001965	G-protein alpha-subunit binding	molecular_function	9031	direct	1	751791	RHO
+GO:0001972	retinoic acid binding	molecular_function	9031	direct	1	374211	CRABP1
 GO:0002009	morphogenesis of an epithelium	biological_process	9031	direct	2	374148|396422	SOX9|VCL
 GO:0002011	morphogenesis of an epithelial sheet	biological_process	9031	direct	1	374243	WNT2B
-GO:0002020	protease binding	molecular_function	9031	direct	1	416235	SPINK5
+GO:0002020	protease binding	molecular_function	9031	direct	2	396416|416235	PTK2|SPINK5
 GO:0002062	chondrocyte differentiation	biological_process	9031	direct	1	374148	SOX9
 GO:0002063	chondrocyte development	biological_process	9031	direct	1	396030	BMPR1B
 GO:0002088	lens development in camera-type eye	biological_process	9031	direct	2	374243|395802	WNT2B|PROX1
@@ -67,7 +71,7 @@ GO:0003408	optic cup formation involved in camera-type eye development	biologica
 GO:0003420	regulation of growth plate cartilage chondrocyte proliferation	biological_process	9031	direct	2	395801|396281	IHH|PTHLH
 GO:0003430	growth plate cartilage chondrocyte growth	biological_process	9031	direct	1	395615	SHH
 GO:0003677	DNA binding	molecular_function	9031	direct	5	396339|396342|396546|420362|422169	TGIF1|TEF|HMX1|LOC420362|HSF3
-GO:0003682	chromatin binding	molecular_function	9031	direct	1	395348	ACTR6
+GO:0003682	chromatin binding	molecular_function	9031	direct	2	395348|422043	ACTR6|MCM3
 GO:0003713	transcription coactivator activity	molecular_function	9031	direct	1	395465	CITED4
 GO:0003714	transcription corepressor activity	molecular_function	9031	direct	3	395506|396381|396397	HDAC3|LHX1|LHX9
 GO:0003729	mRNA binding	molecular_function	9031	direct	1	395953	IGF2BP1
@@ -82,14 +86,17 @@ GO:0004059	aralkylamine N-acetyltransferase activity	molecular_function	9031	dir
 GO:0004069	L-aspartate:2-oxoglutarate aminotransferase activity	molecular_function	9031	direct	1	396533	GOT2
 GO:0004102	choline O-acetyltransferase activity	molecular_function	9031	direct	1	395314	CHAT
 GO:0004111	creatine kinase activity	molecular_function	9031	direct	2	396248|396507	CKB|CKM
+GO:0004198	calcium-dependent cysteine-type endopeptidase activity	molecular_function	9031	direct	1	396416	PTK2
+GO:0004222	metalloendopeptidase activity	molecular_function	9031	direct	1	386583	MMP2
 GO:0004419	hydroxymethylglutaryl-CoA lyase activity	molecular_function	9031	direct	1	396316	HMGCL
 GO:0004497	monooxygenase activity	molecular_function	9031	direct	1	395346	BCMO1
 GO:0004540	ribonuclease activity	molecular_function	9031	direct	2	396194|423668	ANG|RSFR
 GO:0004585	ornithine carbamoyltransferase activity	molecular_function	9031	direct	1	395735	OTC
 GO:0004674	protein serine/threonine kinase activity	molecular_function	9031	direct	1	395417	SIK1
+GO:0004713	protein tyrosine kinase activity	molecular_function	9031	direct	1	396416	PTK2
 GO:0004715	non-membrane spanning protein tyrosine kinase activity	molecular_function	9031	direct	1	427272	SYK
 GO:0004800	thyroxine 5'-deiodinase activity	molecular_function	9031	direct	1	373903	DIO2
-GO:0004843	ubiquitin-specific protease activity	molecular_function	9031	direct	1	395766	USP2
+GO:0004843	thiol-dependent ubiquitin-specific protease activity	molecular_function	9031	direct	1	395766	USP2
 GO:0004867	serine-type endopeptidase inhibitor activity	molecular_function	9031	direct	2	416235|416236	SPINK5|SPINK7
 GO:0004964	luteinizing hormone receptor activity	molecular_function	9031	direct	1	395776	LHCGR
 GO:0005004	GPI-linked ephrin receptor activity	molecular_function	9031	direct	1	396157	NTRK2
@@ -97,48 +104,54 @@ GO:0005025	transforming growth factor beta receptor activity, type I	molecular_f
 GO:0005057	receptor signaling protein activity	molecular_function	9031	direct	1	395246	ACVR1
 GO:0005102	receptor binding	molecular_function	9031	direct	1	396166	RBP4A
 GO:0005109	frizzled binding	molecular_function	9031	direct	1	374243	WNT2B
+GO:0005178	integrin binding	molecular_function	9031	direct	1	396416	PTK2
 GO:0005183	gonadotropin hormone-releasing hormone activity	molecular_function	9031	direct	1	770134	GNRH1
 GO:0005198	structural molecule activity	molecular_function	9031	direct	1	408032	BVES
 GO:0005242	inward rectifier potassium channel activity	molecular_function	9031	direct	1	427662	KCNJ12
 GO:0005244	voltage-gated ion channel activity	molecular_function	9031	direct	1	396157	NTRK2
+GO:0005501	retinoid binding	molecular_function	9031	direct	1	374211	CRABP1
 GO:0005509	calcium ion binding	molecular_function	9031	direct	3	373951|396058|396538	S100A6|OVAL|AGRN
-GO:0005515	protein binding	molecular_function	9031	direct	93	373918|373988|374034|374058|374065|374074|374124|374148|386572|386577|386578|395134|395135|395194|395246|395316|395487|395605|395606|395613|395654|395668|395688|395832|395846|395938|395992|396026|396035|396057|396102|396161|396166|396171|396185|396198|396200|396211|396218|396235|396237|396244|396251|396263|396270|396274|396277|396366|396389|396399|396416|396422|396431|396439|396442|396444|396450|396455|396487|396513|396522|396529|396538|408032|414142|414745|415654|415860|416018|416235|416362|417786|418300|418514|419070|419106|419980|421608|421716|423463|423504|424059|424598|424673|427820|428181|428767|613230|723780|770134|771417|100859133|100996929	ACTN1|TBX5|AFAP1|ITGB1|KCNMA1|HIRA|MIP|SOX9|GRB2|CHRNA5|CHRNA3|NDC80|NUF2|TLN1|ACVR1|CENPH|MYO6|CHRNB2|CHRNA4|CHRNB4|HBEGF|TENM1|PTPN1|PXN|GJA8|SOD1|CRTAP|OCLN|CTNNA2|STMN1|LRP8|HPCAL1|RBP4A|YAP1|CEBPB|PGR|TP53|MYH11|LYZ|ETS1|MYO5A|MYB|THRA|ACTN2|INCENP|CTCF|TTR|TPM1|NTN1|TGFBR2|PTK2|VCL|THRB|TNS1|SRC|SNAP25|GATA1|CTTN|HSPA5|EPHB2|CNN1|ATP1B1|AGRN|BVES|LEPRE1|CDH2|CENPT|CDH1|GATA2|SPINK5|PDLIM7|CNTN1|ZYX|CHAF1B|GDPD5|GATA3|PHB|LIN7B|CENPW|HSP90AA1|HSPA2|HSPD1|PRDX1|JUN|YWHAG|SKI|ANXA5|CNIH2|ASF1A|GNRH1|APITD1|PTGES3|MYL6
+GO:0005515	protein binding	molecular_function	9031	direct	94	373918|373988|374034|374058|374065|374074|374124|374148|386572|386577|386578|395134|395135|395194|395246|395316|395487|395560|395605|395606|395613|395654|395668|395688|395832|395846|395938|395992|396026|396035|396057|396102|396161|396166|396171|396185|396198|396200|396211|396218|396235|396237|396244|396251|396263|396270|396274|396277|396366|396389|396399|396416|396422|396431|396439|396442|396444|396450|396455|396487|396513|396522|396529|396538|408032|414142|414745|415654|415860|416018|416235|416362|417786|418300|418514|419070|419106|419980|421608|421716|423463|423504|424059|424598|424673|427820|428181|428767|613230|723780|770134|771417|100859133|100996929	ACTN1|TBX5|AFAP1|ITGB1|KCNMA1|HIRA|MIP|SOX9|GRB2|CHRNA5|CHRNA3|NDC80|NUF2|TLN1|ACVR1|CENPH|MYO6|NRP1|CHRNB2|CHRNA4|CHRNB4|HBEGF|TENM1|PTPN1|PXN|GJA8|SOD1|CRTAP|OCLN|CTNNA2|STMN1|LRP8|HPCAL1|RBP4A|YAP1|CEBPB|PGR|TP53|MYH11|LYZ|ETS1|MYO5A|MYB|THRA|ACTN2|INCENP|CTCF|TTR|TPM1|NTN1|TGFBR2|PTK2|VCL|THRB|TNS1|SRC|SNAP25|GATA1|CTTN|HSPA5|EPHB2|CNN1|ATP1B1|AGRN|BVES|LEPRE1|CDH2|CENPT|CDH1|GATA2|SPINK5|PDLIM7|CNTN1|ZYX|CHAF1B|GDPD5|GATA3|PHB|LIN7B|CENPW|HSP90AA1|HSPA2|HSPD1|PRDX1|JUN|YWHAG|SKI|ANXA5|CNIH2|ASF1A|GNRH1|APITD1|PTGES3|MYL6
 GO:0005518	collagen binding	molecular_function	9031	direct	3	395992|396447|414142	CRTAP|PPIB|LEPRE1
 GO:0005524	ATP binding	molecular_function	9031	direct	2	395417|423504	SIK1|HSPA2
 GO:0005576	extracellular region	cellular_component	9031	direct	8	396198|396235|419492|420897|423463|423504|428264|770134	PGR|ETS1|DRAXIN|OVALY|HSP90AA1|HSPA2|IL10|GNRH1
 GO:0005578	proteinaceous extracellular matrix	cellular_component	9031	direct	4	395209|395256|395650|100313508	RARRES1|MEPE|PHOSPHO1|OC-17
 GO:0005583	fibrillar collagen trimer	cellular_component	9031	direct	1	396243	COL1A2
+GO:0005604	basement membrane	cellular_component	9031	direct	1	386583	MMP2
 GO:0005605	basal lamina	cellular_component	9031	direct	1	396452	PRNP
-GO:0005615	extracellular space	cellular_component	9031	direct	29	373964|378781|378906|395097|395209|395256|395396|395515|395615|395623|395661|395801|396008|396054|396119|396145|396166|396197|396218|396241|396248|396277|396393|396413|396453|396471|396507|418090|100313508	MSTN|GH|ZP3|IGF2|RARRES1|MEPE|WNT3A|TXLNB|SHH|CER1|CHAT2|IHH|CHAT1|IFNG|FST|INS|RBP4A|ALB|LYZ|TF|CKB|TTR|LCN8|FGF2|PRL|LECT2|CKM|IGF1|OC-17
+GO:0005615	extracellular space	cellular_component	9031	direct	35	373964|374089|374090|378781|378906|386583|395097|395209|395256|395396|395515|395615|395623|395661|395801|395825|396008|396054|396119|396145|396166|396197|396218|396241|396248|396277|396332|396393|396413|396453|396471|396507|396536|418090|100313508	MSTN|SEMA3E|SEMA3C|GH|ZP3|MMP2|IGF2|RARRES1|MEPE|WNT3A|TXLNB|SHH|CER1|CHAT2|IHH|SEMA3A|CHAT1|IFNG|FST|INS|RBP4A|ALB|LYZ|TF|CKB|TTR|SEMA3D|LCN8|FGF2|PRL|LECT2|CKM|APOA1|IGF1|OC-17
 GO:0005622	intracellular	cellular_component	9031	direct	2	395246|395801	ACVR1|IHH
-GO:0005623	cell	cellular_component	9031	direct	35	373918|373951|373965|378897|378906|378926|395210|395314|395535|395832|395882|396013|396061|396176|396323|396377|396383|396399|396421|396422|396449|396452|396486|396504|408032|408251|414746|414841|414873|418300|420519|420898|421154|425457|751791	ACTN1|S100A6|CALD1|THY1|ZP3|ANKRD1|SPP1|CHAT|OLFM1|PXN|BPIFB2|MYBPC3|FASN|CSRP1|VIP|OPNP|ISL1|TGFBR2|OPN1LW|VCL|RBP|PRNP|OPN1MSW|ACACA|BVES|ADCYAP1|CYP2H1|CYP2C8|PDLIM3|ZYX|VIM|OVALX|MYBPH|MYBPC2|RHO
-GO:0005634	nucleus	cellular_component	9031	direct	40	373854|373905|373988|374096|374140|374148|374191|378905|378926|395132|395348|395668|395679|395802|395953|395974|396073|396099|396105|396185|396198|396200|396381|396383|396391|396392|396413|420420|421314|423463|423504|424673|427781|428181|428612|431605|693250|771113|100272166|100857742	TENM2|BASP1|TBX5|SMAD6|KHSRP|SOX9|PDCD4|FAM53A|ANKRD1|SMAD3|ACTR6|TENM1|SMAD5|PROX1|IGF2BP1|IKZF1|NKX2-5|ESR1|SOX2|CEBPB|PGR|TP53|LHX1|ISL1|GATA5|GATA4|FGF2|MYD88|MCM8|HSP90AA1|HSPA2|JUN|Pou5f3|SKI|OLIG2|PSIP1|H1F0|TESC|NANOG|MCM9
+GO:0005623	cell	cellular_component	9031	direct	56	373912|373918|373940|373951|373965|374058|374211|378897|378906|378926|386583|395210|395213|395314|395535|395560|395802|395832|395882|396013|396051|396052|396061|396105|396176|396231|396266|396323|396377|396382|396383|396393|396399|396416|396421|396422|396449|396452|396486|396504|408032|408251|414745|414746|414841|414873|418300|420519|420898|421154|421991|423463|423504|425457|751791|100859435	NOG|ACTN1|LHX3|S100A6|CALD1|ITGB1|CRABP1|THY1|ZP3|ANKRD1|MMP2|SPP1|RARA|CHAT|OLFM1|NRP1|PROX1|PXN|BPIFB2|MYBPC3|CYP1A1|CYP1A4|FASN|SOX2|CSRP1|RXRG|RARB|VIP|OPNP|ISL2|ISL1|LCN8|TGFBR2|PTK2|OPN1LW|VCL|RBP|PRNP|OPN1MSW|ACACA|BVES|ADCYAP1|CDH2|CYP2H1|CYP2C8|PDLIM3|ZYX|VIM|OVALX|MYBPH|DNMT3A|HSP90AA1|HSPA2|MYBPC2|RHO|EN2
+GO:0005634	nucleus	cellular_component	9031	direct	49	373854|373905|373943|373984|373988|374096|374140|374148|374191|378905|378926|386585|395132|395348|395668|395679|395802|395953|395974|396073|396099|396105|396185|396186|396198|396200|396251|396381|396383|396391|396392|396413|396431|420362|420420|421314|421724|422169|423463|423504|424673|427781|428181|428612|431605|693250|771113|100272166|100857742	TENM2|BASP1|TBX20|PCNA|TBX5|SMAD6|KHSRP|SOX9|PDCD4|FAM53A|ANKRD1|NR2F2|SMAD3|ACTR6|TENM1|SMAD5|PROX1|IGF2BP1|IKZF1|NKX2-5|ESR1|SOX2|CEBPB|BDNF|PGR|TP53|THRA|LHX1|ISL1|GATA5|GATA4|FGF2|THRB|LOC420362|MYD88|MCM8|HSF2|HSF3|HSP90AA1|HSPA2|JUN|Pou5f3|SKI|OLIG2|PSIP1|H1F0|TESC|NANOG|MCM9
 GO:0005640	nuclear outer membrane	cellular_component	9031	direct	1	395396	WNT3A
 GO:0005654	nucleoplasm	cellular_component	9031	direct	1	395715	SERPINB10
-GO:0005667	transcription factor complex	cellular_component	9031	direct	3	374004|374048|428181	MYOG|MYOD1|SKI
+GO:0005667	transcription factor complex	cellular_component	9031	direct	4	374004|374048|396231|428181	MYOG|MYOD1|RXRG|SKI
 GO:0005694	chromosome	cellular_component	9031	direct	1	395653	HPRT1
 GO:0005730	nucleolus	cellular_component	9031	direct	2	396413|423083	FGF2|SPTY2D1
-GO:0005737	cytoplasm	cellular_component	9031	direct	28	373905|373988|374001|374140|378926|395417|395515|395605|395668|395802|396072|396099|396176|396194|396227|396526|408032|416362|418300|420420|420761|422730|423463|423504|423540|423668|423787|771113	BASP1|TBX5|CHRNA7|KHSRP|ANKRD1|SIK1|TXLNB|CHRNB2|TENM1|PROX1|MYO1A|ESR1|CSRP1|ANG|HSPB1|ACTB|BVES|PDLIM7|ZYX|MYD88|AMPH|SLC7A2|HSP90AA1|HSPA2|KIAA0586|RSFR|ACTA2|TESC
+GO:0005737	cytoplasm	cellular_component	9031	direct	33	373905|373988|374001|374140|378926|395417|395515|395605|395668|395802|396072|396099|396176|396194|396227|396324|396416|396526|408032|416362|418300|420362|420420|420761|421724|422169|422730|423463|423504|423540|423668|423787|771113	BASP1|TBX5|CHRNA7|KHSRP|ANKRD1|SIK1|TXLNB|CHRNB2|TENM1|PROX1|MYO1A|ESR1|CSRP1|ANG|HSPB1|ACVR2A|PTK2|ACTB|BVES|PDLIM7|ZYX|LOC420362|MYD88|AMPH|HSF2|HSF3|SLC7A2|HSP90AA1|HSPA2|KIAA0586|RSFR|ACTA2|TESC
 GO:0005739	mitochondrion	cellular_component	9031	direct	3	395222|395824|396533	MTFR1|VDHAP|GOT2
 GO:0005743	mitochondrial inner membrane	cellular_component	9031	direct	1	396422	VCL
+GO:0005749	mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone)	cellular_component	9031	direct	1	395758	SDHA
+GO:0005765	lysosomal membrane	cellular_component	9031	direct	1	396220	LAMP1
 GO:0005768	endosome	cellular_component	9031	direct	1	374096	SMAD6
 GO:0005769	early endosome	cellular_component	9031	direct	1	374049	TPD52L1
 GO:0005783	endoplasmic reticulum	cellular_component	9031	direct	4	373854|395396|395668|414142	TENM2|WNT3A|TENM1|LEPRE1
 GO:0005794	Golgi apparatus	cellular_component	9031	direct	4	373854|395668|396421|422730	TENM2|TENM1|OPN1LW|SLC7A2
 GO:0005813	centrosome	cellular_component	9031	direct	2	423540|424873	KIAA0586|CEP63
-GO:0005829	cytosol	cellular_component	9031	direct	10	373951|374093|395396|395974|396188|396198|396413|423463|423504|100859133	S100A6|CRY1|WNT3A|IKZF1|HSP90AB1|PGR|FGF2|HSP90AA1|HSPA2|PTGES3
+GO:0005829	cytosol	cellular_component	9031	direct	11	373951|374093|374211|395396|395974|396188|396198|396413|423463|423504|100859133	S100A6|CRY1|CRABP1|WNT3A|IKZF1|HSP90AB1|PGR|FGF2|HSP90AA1|HSPA2|PTGES3
 GO:0005856	cytoskeleton	cellular_component	9031	direct	2	395668|396526	TENM1|ACTB
 GO:0005884	actin filament	cellular_component	9031	direct	4	373988|395487|396072|416362	TBX5|MYO6|MYO1A|PDLIM7
-GO:0005886	plasma membrane	cellular_component	9031	direct	9	373854|395668|395811|396297|396422|396526|422730|423463|101750199	TENM2|TENM1|SLC11A1|ANXA2|VCL|ACTB|SLC7A2|HSP90AA1|PALM
+GO:0005886	plasma membrane	cellular_component	9031	direct	12	373854|395560|395668|395811|396220|396297|396422|396526|414745|422730|423463|101750199	TENM2|NRP1|TENM1|SLC11A1|LAMP1|ANXA2|VCL|ACTB|CDH2|SLC7A2|HSP90AA1|PALM
 GO:0005887	integral component of plasma membrane	cellular_component	9031	direct	3	396092|396202|426883	ALCAM|NRCAM|ACCN2
 GO:0005902	microvillus	cellular_component	9031	direct	1	396072	MYO1A
 GO:0005903	brush border	cellular_component	9031	direct	1	396422	VCL
 GO:0005905	coated pit	cellular_component	9031	direct	1	395487	MYO6
-GO:0005911	cell-cell junction	cellular_component	9031	direct	2	396202|396422	NRCAM|VCL
+GO:0005911	cell-cell junction	cellular_component	9031	direct	3	396202|396422|414745	NRCAM|VCL|CDH2
 GO:0005912	adherens junction	cellular_component	9031	direct	2	396035|414745	CTNNA2|CDH2
+GO:0005913	cell-cell adherens junction	cellular_component	9031	direct	1	414745	CDH2
 GO:0005915	zonula adherens	cellular_component	9031	direct	2	373918|396422	ACTN1|VCL
 GO:0005923	bicellular tight junction	cellular_component	9031	direct	1	373918	ACTN1
-GO:0005925	focal adhesion	cellular_component	9031	direct	8	373918|395194|395832|396176|396422|396526|414873|418300	ACTN1|TLN1|PXN|CSRP1|VCL|ACTB|PDLIM3|ZYX
+GO:0005925	focal adhesion	cellular_component	9031	direct	9	373918|395194|395832|396176|396416|396422|396526|414873|418300	ACTN1|TLN1|PXN|CSRP1|PTK2|VCL|ACTB|PDLIM3|ZYX
 GO:0005927	muscle tendon junction	cellular_component	9031	direct	1	396422	VCL
 GO:0006089	lactate metabolic process	biological_process	9031	direct	1	396061	FASN
 GO:0006103	2-oxoglutarate metabolic process	biological_process	9031	direct	1	396533	GOT2
@@ -151,6 +164,7 @@ GO:0006355	regulation of transcription, DNA-templated	biological_process	9031	di
 GO:0006360	transcription from RNA polymerase I promoter	biological_process	9031	direct	1	423083	SPTY2D1
 GO:0006461	protein complex assembly	biological_process	9031	direct	2	396166|396277	RBP4A|TTR
 GO:0006468	protein phosphorylation	biological_process	9031	direct	2	395417|427272	SIK1|SYK
+GO:0006508	proteolysis	biological_process	9031	direct	1	396416	PTK2
 GO:0006531	aspartate metabolic process	biological_process	9031	direct	1	396533	GOT2
 GO:0006536	glutamate metabolic process	biological_process	9031	direct	1	396533	GOT2
 GO:0006590	thyroid hormone generation	biological_process	9031	direct	1	373903	DIO2
@@ -158,12 +172,14 @@ GO:0006606	protein import into nucleus	biological_process	9031	direct	1	378905	F
 GO:0006813	potassium ion transport	biological_process	9031	direct	1	427662	KCNJ12
 GO:0006876	cellular cadmium ion homeostasis	biological_process	9031	direct	1	395811	SLC11A1
 GO:0006897	endocytosis	biological_process	9031	direct	1	395487	MYO6
+GO:0006913	nucleocytoplasmic transport	biological_process	9031	direct	1	416362	PDLIM7
 GO:0006915	apoptotic process	biological_process	9031	direct	1	378781	GH
 GO:0006939	smooth muscle contraction	biological_process	9031	direct	1	768422	MLN
 GO:0006953	acute-phase response	biological_process	9031	direct	2	396241|396393	TF|LCN8
 GO:0006954	inflammatory response	biological_process	9031	direct	1	396393	LCN8
 GO:0006974	cellular response to DNA damage stimulus	biological_process	9031	direct	2	421314|100857742	MCM8|MCM9
 GO:0007005	mitochondrion organization	biological_process	9031	direct	1	395222	MTFR1
+GO:0007015	actin filament organization	biological_process	9031	direct	1	396416	PTK2
 GO:0007155	cell adhesion	biological_process	9031	direct	1	396092	ALCAM
 GO:0007156	homophilic cell adhesion via plasma membrane adhesion molecules	biological_process	9031	direct	4	373894|395215|396202|418525	SDK1|SDK2|NRCAM|DSCAM
 GO:0007158	neuron cell-cell adhesion	biological_process	9031	direct	2	396202|419825	NRCAM|CNTN2
@@ -187,21 +203,23 @@ GO:0007623	circadian rhythm	biological_process	9031	direct	2	374115|374116	ARNTL
 GO:0008013	beta-catenin binding	molecular_function	9031	direct	1	396422	VCL
 GO:0008021	synaptic vesicle	cellular_component	9031	direct	1	420761	AMPH
 GO:0008022	protein C-terminus binding	molecular_function	9031	direct	1	423463	HSP90AA1
-GO:0008045	motor neuron axon guidance	biological_process	9031	direct	2	396381|396397	LHX1|LHX9
+GO:0008045	motor neuron axon guidance	biological_process	9031	direct	3	395825|396381|396397	SEMA3A|LHX1|LHX9
 GO:0008134	transcription factor binding	molecular_function	9031	direct	2	374123|416362	UBE2I|PDLIM7
 GO:0008201	heparin binding	molecular_function	9031	direct	4	395107|396413|396538|420898	FGFRL1|FGF2|AGRN|OVALX
 GO:0008219	cell death	biological_process	9031	direct	2	414337|420407	CATH1|CATH2
-GO:0008283	cell proliferation	biological_process	9031	direct	5	374243|396145|396165|396413|418090	WNT2B|INS|BMP4|FGF2|IGF1
-GO:0008284	positive regulation of cell proliferation	biological_process	9031	direct	4	396393|420362|422169|423463	LCN8|LOC420362|HSF3|HSP90AA1
-GO:0008285	negative regulation of cell proliferation	biological_process	9031	direct	1	395107	FGFRL1
+GO:0008283	cell proliferation	biological_process	9031	direct	7	374213|374243|396145|396165|396324|396413|418090	ACVR2B|WNT2B|INS|BMP4|ACVR2A|FGF2|IGF1
+GO:0008284	positive regulation of cell proliferation	biological_process	9031	direct	5	396393|396416|420362|422169|423463	LCN8|PTK2|LOC420362|HSF3|HSP90AA1
+GO:0008285	negative regulation of cell proliferation	biological_process	9031	direct	2	395107|395562	FGFRL1|WNT11
 GO:0008301	DNA binding, bending	molecular_function	9031	direct	3	395724|396232|396482	HMGB1|HMGB3|HMGB2
 GO:0008584	male gonad development	biological_process	9031	direct	1	374148	SOX9
 GO:0008585	female gonad development	biological_process	9031	direct	1	414854	CYP19A1
 GO:0008889	glycerophosphodiester phosphodiesterase activity	molecular_function	9031	direct	1	419070	GDPD5
 GO:0009267	cellular response to starvation	biological_process	9031	direct	1	420105	STK11
+GO:0009268	response to pH	biological_process	9031	direct	1	396416	PTK2
 GO:0009374	biotin binding	molecular_function	9031	direct	1	395367	AVR2
-GO:0009408	response to heat	biological_process	9031	direct	5	396227|396507|418090|423463|423504	HSPB1|CKM|IGF1|HSP90AA1|HSPA2
+GO:0009408	response to heat	biological_process	9031	direct	9	396186|396227|396507|418090|420362|421991|422169|423463|423504	BDNF|HSPB1|CKM|IGF1|LOC420362|DNMT3A|HSF3|HSP90AA1|HSPA2
 GO:0009409	response to cold	biological_process	9031	direct	3	423463|423504|424059	HSP90AA1|HSPA2|HSPD1
+GO:0009416	response to light stimulus	biological_process	9031	direct	2	420362|421724	LOC420362|HSF2
 GO:0009615	response to virus	biological_process	9031	direct	3	396166|396197|396277	RBP4A|ALB|TTR
 GO:0009790	embryo development	biological_process	9031	direct	1	395983	MAPK9
 GO:0009791	post-embryonic development	biological_process	9031	direct	1	378926	ANKRD1
@@ -210,17 +228,19 @@ GO:0009880	embryonic pattern specification	biological_process	9031	direct	2	3956
 GO:0009888	tissue development	biological_process	9031	direct	1	395615	SHH
 GO:0009949	polarity specification of anterior/posterior axis	biological_process	9031	direct	1	395813	HAND2
 GO:0009952	anterior/posterior pattern specification	biological_process	9031	direct	1	395615	SHH
-GO:0009986	cell surface	cellular_component	9031	direct	2	395550|423463	LY6E|HSP90AA1
+GO:0009986	cell surface	cellular_component	9031	direct	3	395550|414745|423463	LY6E|CDH2|HSP90AA1
+GO:0010008	endosome membrane	cellular_component	9031	direct	1	396220	LAMP1
+GO:0010243	response to organonitrogen compound	biological_process	9031	direct	3	421724|423463|423504	HSF2|HSP90AA1|HSPA2
 GO:0010467	gene expression	biological_process	9031	direct	3	396145|396323|418090	INS|VIP|IGF1
 GO:0010468	regulation of gene expression	biological_process	9031	direct	3	373988|395615|396313	TBX5|SHH|FGF8
-GO:0010469	regulation of receptor activity	biological_process	9031	direct	1	396538	AGRN
-GO:0010628	positive regulation of gene expression	biological_process	9031	direct	15	378781|378926|395396|395535|395615|395623|395801|396099|396313|396452|396495|414337|420362|422169|423787	GH|ANKRD1|WNT3A|OLFM1|SHH|CER1|IHH|ESR1|FGF8|PRNP|IL8L2|CATH1|LOC420362|HSF3|ACTA2
-GO:0010629	negative regulation of gene expression	biological_process	9031	direct	7	378781|378926|395535|395623|414337|420407|100858343	GH|ANKRD1|OLFM1|CER1|CATH1|CATH2|CATH3
+GO:0010628	positive regulation of gene expression	biological_process	9031	direct	19	373943|378781|378926|395396|395535|395562|395615|395623|395801|396045|396099|396185|396313|396452|396495|414337|420362|422169|423787	TBX20|GH|ANKRD1|WNT3A|OLFM1|WNT11|SHH|CER1|IHH|GLI1|ESR1|CEBPB|FGF8|PRNP|IL8L2|CATH1|LOC420362|HSF3|ACTA2
+GO:0010629	negative regulation of gene expression	biological_process	9031	direct	9	373943|378781|378926|395535|395562|395623|414337|420407|100858343	TBX20|GH|ANKRD1|OLFM1|WNT11|CER1|CATH1|CATH2|CATH3
 GO:0010693	negative regulation of alkaline phosphatase activity	biological_process	9031	direct	1	374096	SMAD6
 GO:0010694	positive regulation of alkaline phosphatase activity	biological_process	9031	direct	3	395246|395615|395801	ACVR1|SHH|IHH
 GO:0010718	positive regulation of epithelial to mesenchymal transition	biological_process	9031	direct	4	378779|395246|395535|396399	BMP2|ACVR1|OLFM1|TGFBR2
 GO:0010756	positive regulation of plasminogen activation	biological_process	9031	direct	1	396413	FGF2
 GO:0010770	positive regulation of cell morphogenesis involved in differentiation	biological_process	9031	direct	2	395615|395801	SHH|IHH
+GO:0010812	negative regulation of cell-substrate adhesion	biological_process	9031	direct	1	396416	PTK2
 GO:0010831	positive regulation of myotube differentiation	biological_process	9031	direct	2	395396|396393	WNT3A|LCN8
 GO:0010842	retina layer formation	biological_process	9031	direct	5	373894|374243|395215|396388|418525	SDK1|WNT2B|SDK2|ACHE|DSCAM
 GO:0010870	positive regulation of receptor biosynthetic process	biological_process	9031	direct	1	396452	PRNP
@@ -228,13 +248,14 @@ GO:0010951	negative regulation of endopeptidase activity	biological_process	9031
 GO:0010976	positive regulation of neuron projection development	biological_process	9031	direct	2	395515|395953	TXLNB|IGF2BP1
 GO:0010977	negative regulation of neuron projection development	biological_process	9031	direct	1	396119	FST
 GO:0014036	neural crest cell fate specification	biological_process	9031	direct	1	374148	SOX9
+GO:0014070	response to organic cyclic compound	biological_process	9031	direct	3	421724|423463|423504	HSF2|HSP90AA1|HSPA2
 GO:0014802	terminal cisterna	cellular_component	9031	direct	1	395198	CASQ2
 GO:0014858	positive regulation of skeletal muscle cell proliferation	biological_process	9031	direct	1	395561	WNT4
 GO:0014866	skeletal myofibril assembly	biological_process	9031	direct	1	378926	ANKRD1
 GO:0015189	L-lysine transmembrane transporter activity	molecular_function	9031	direct	1	422730	SLC7A2
-GO:0015629	actin cytoskeleton	cellular_component	9031	direct	2	396422|414873	VCL|PDLIM3
+GO:0015629	actin cytoskeleton	cellular_component	9031	direct	4	373988|396422|414873|416362	TBX5|VCL|PDLIM3|PDLIM7
 GO:0015908	fatty acid transport	biological_process	9031	direct	1	396393	LCN8
-GO:0016020	membrane	cellular_component	9031	direct	7	374193|395797|395882|396220|396377|396399|416204	GAPDH|ENTPD2|BPIFB2|LAMP1|OPNP|TGFBR2|STK10
+GO:0016020	membrane	cellular_component	9031	direct	8	374193|395797|395882|396220|396324|396377|396399|416204	GAPDH|ENTPD2|BPIFB2|LAMP1|ACVR2A|OPNP|TGFBR2|STK10
 GO:0016021	integral component of membrane	cellular_component	9031	direct	1	396026	OCLN
 GO:0016037	light absorption	biological_process	9031	direct	3	396421|396486|751791	OPN1LW|OPN1MSW|RHO
 GO:0016038	absorption of visible light	biological_process	9031	direct	5	396377|396419|396421|396486|396525	OPNP|OPN1SW|OPN1LW|OPN1MSW|OPN2SW
@@ -246,15 +267,17 @@ GO:0016328	lateral plasma membrane	cellular_component	9031	direct	2	373918|39607
 GO:0016337	single organismal cell-cell adhesion	biological_process	9031	direct	2	373854|396035	TENM2|CTNNA2
 GO:0016338	calcium-independent cell-cell adhesion via plasma membrane cell-adhesion molecules	biological_process	9031	direct	1	396202	NRCAM
 GO:0016339	calcium-dependent cell-cell adhesion via plasma membrane cell adhesion molecules	biological_process	9031	direct	1	396202	NRCAM
+GO:0016360	sensory organ precursor cell fate determination	biological_process	9031	direct	1	396105	SOX2
 GO:0016363	nuclear matrix	cellular_component	9031	direct	2	395668|396198	TENM1|PGR
 GO:0016460	myosin II complex	cellular_component	9031	direct	1	100996929	MYL6
-GO:0016477	cell migration	biological_process	9031	direct	2	374007|395246	CDH7|ACVR1
+GO:0016477	cell migration	biological_process	9031	direct	3	374007|395246|395562	CDH7|ACVR1|WNT11
 GO:0016579	protein deubiquitination	biological_process	9031	direct	1	395766	USP2
 GO:0016605	PML body	cellular_component	9031	direct	1	373854	TENM2
 GO:0016607	nuclear speck	cellular_component	9031	direct	1	395668	TENM1
 GO:0016887	ATPase activity	molecular_function	9031	direct	2	395797|396072	ENTPD2|MYO1A
 GO:0017018	myosin phosphatase activity	molecular_function	9031	direct	1	396019	PPP1CB
 GO:0017022	myosin binding	molecular_function	9031	direct	1	395855	CALM
+GO:0017144	drug metabolic process	biological_process	9031	direct	2	396051|396052	CYP1A1|CYP1A4
 GO:0017148	negative regulation of translation	biological_process	9031	direct	1	395953	IGF2BP1
 GO:0017166	vinculin binding	molecular_function	9031	direct	3	373918|395832|396422	ACTN1|PXN|VCL
 GO:0018298	protein-chromophore linkage	biological_process	9031	direct	4	396377|396421|396486|751791	OPNP|OPN1LW|OPN1MSW|RHO
@@ -267,7 +290,8 @@ GO:0019841	retinol binding	molecular_function	9031	direct	1	396166	RBP4A
 GO:0019863	IgE binding	molecular_function	9031	direct	1	416236	SPINK7
 GO:0019864	IgG binding	molecular_function	9031	direct	1	416236	SPINK7
 GO:0019870	potassium channel inhibitor activity	molecular_function	9031	direct	1	416235	SPINK5
-GO:0019899	enzyme binding	molecular_function	9031	direct	1	373951	S100A6
+GO:0019899	enzyme binding	molecular_function	9031	direct	2	373951|396198	S100A6|PGR
+GO:0019901	protein kinase binding	molecular_function	9031	direct	1	420105	STK11
 GO:0019903	protein phosphatase binding	molecular_function	9031	direct	1	396442	SRC
 GO:0019904	protein domain specific binding	molecular_function	9031	direct	3	396166|396277|428181	RBP4A|TTR|SKI
 GO:0021508	floor plate formation	biological_process	9031	direct	1	395615	SHH
@@ -281,9 +305,11 @@ GO:0021545	cranial nerve development	biological_process	9031	direct	2	395654|613
 GO:0021575	hindbrain morphogenesis	biological_process	9031	direct	1	395213	RARA
 GO:0021631	optic nerve morphogenesis	biological_process	9031	direct	1	395615	SHH
 GO:0021650	vestibulocochlear nerve formation	biological_process	9031	direct	1	418090	IGF1
+GO:0021852	pyramidal neuron migration	biological_process	9031	direct	1	396416	PTK2
 GO:0021915	neural tube development	biological_process	9031	direct	2	395802|421352	PROX1|TGFB2
 GO:0021963	spinothalamic tract morphogenesis	biological_process	9031	direct	1	396513	EPHB2
 GO:0022008	neurogenesis	biological_process	9031	direct	1	396413	FGF2
+GO:0022035	rhombomere cell migration	biological_process	9031	direct	1	395560	NRP1
 GO:0030017	sarcomere	cellular_component	9031	direct	1	395515	TXLNB
 GO:0030018	Z disc	cellular_component	9031	direct	2	396422|414873	VCL|PDLIM3
 GO:0030027	lamellipodium	cellular_component	9031	direct	6	373918|396072|396526|414873|423787|100859435	ACTN1|MYO1A|ACTB|PDLIM3|ACTA2|EN2
@@ -307,8 +333,8 @@ GO:0030307	positive regulation of cell growth	biological_process	9031	direct	1	4
 GO:0030324	lung development	biological_process	9031	direct	2	396399|421352	TGFBR2|TGFB2
 GO:0030326	embryonic limb morphogenesis	biological_process	9031	direct	4	395615|395862|396313|776034	SHH|PITX2|FGF8|SP8
 GO:0030331	estrogen receptor binding	molecular_function	9031	direct	1	423463	HSP90AA1
-GO:0030335	positive regulation of cell migration	biological_process	9031	direct	1	396399	TGFBR2
-GO:0030424	axon	cellular_component	9031	direct	6	374001|395605|396035|396092|423463|770134	CHRNA7|CHRNB2|CTNNA2|ALCAM|HSP90AA1|GNRH1
+GO:0030335	positive regulation of cell migration	biological_process	9031	direct	2	373943|396399	TBX20|TGFBR2
+GO:0030424	axon	cellular_component	9031	direct	9	374001|374211|395560|395605|396035|396059|396092|423463|770134	CHRNA7|CRABP1|NRP1|CHRNB2|CTNNA2|L1CAM|ALCAM|HSP90AA1|GNRH1
 GO:0030425	dendrite	cellular_component	9031	direct	3	373854|374001|395605	TENM2|CHRNA7|CHRNB2
 GO:0030426	growth cone	cellular_component	9031	direct	4	373854|373905|395953|100859435	TENM2|BASP1|IGF2BP1|EN2
 GO:0030486	smooth muscle dense body	cellular_component	9031	direct	1	373918	ACTN1
@@ -319,15 +345,16 @@ GO:0030544	Hsp70 protein binding	molecular_function	9031	direct	1	396198	PGR
 GO:0030548	acetylcholine receptor regulator activity	molecular_function	9031	direct	1	396538	AGRN
 GO:0030593	neutrophil chemotaxis	biological_process	9031	direct	1	414337	CATH1
 GO:0030672	synaptic vesicle membrane	cellular_component	9031	direct	2	427955|101750199	GAP43|PALM
-GO:0030735	carnosine N-methyltransferase activity	molecular_function	9031	direct	1	427256	CARNMT1
+GO:0030735	carnosine N-methyltransferase activity	molecular_function	9031	direct	2	427256|771456	CARNMT1|LOC771456
 GO:0030819	positive regulation of cAMP biosynthetic process	biological_process	9031	direct	2	396323|408251	VIP|ADCYAP1
 GO:0030837	negative regulation of actin filament polymerization	biological_process	9031	direct	1	396227	HSPB1
 GO:0030851	granulocyte differentiation	biological_process	9031	direct	1	396471	LECT2
 GO:0030855	epithelial cell differentiation	biological_process	9031	direct	2	396035|408039	CTNNA2|KRT14
+GO:0030864	cortical actin cytoskeleton	cellular_component	9031	direct	1	416362	PDLIM7
 GO:0030898	actin-dependent ATPase activity	molecular_function	9031	direct	1	100996929	MYL6
 GO:0030900	forebrain development	biological_process	9031	direct	1	419492	DRAXIN
 GO:0030910	olfactory placode formation	biological_process	9031	direct	1	395802	PROX1
-GO:0031012	extracellular matrix	cellular_component	9031	direct	5	395210|395256|396071|396241|100313508	SPP1|MEPE|IBSP|TF|OC-17
+GO:0031012	extracellular matrix	cellular_component	9031	direct	6	386583|395210|395256|396071|396241|100313508	MMP2|SPP1|MEPE|IBSP|TF|OC-17
 GO:0031016	pancreas development	biological_process	9031	direct	1	395802	PROX1
 GO:0031032	actomyosin structure organization	biological_process	9031	direct	1	100996929	MYL6
 GO:0031214	biomineral tissue development	biological_process	9031	direct	1	100313508	OC-17
@@ -339,16 +366,20 @@ GO:0031252	cell leading edge	cellular_component	9031	direct	2	373918|396176	ACTN
 GO:0031290	retinal ganglion cell axon guidance	biological_process	9031	direct	1	396092	ALCAM
 GO:0031297	replication fork processing	biological_process	9031	direct	1	416687	FBXO18
 GO:0031334	positive regulation of protein complex assembly	biological_process	9031	direct	1	396160	WNT-1
+GO:0031397	negative regulation of protein ubiquitination	biological_process	9031	direct	1	421724	HSF2
 GO:0031404	chloride ion binding	molecular_function	9031	direct	1	396421	OPN1LW
 GO:0031410	cytoplasmic vesicle	cellular_component	9031	direct	1	422730	SLC7A2
 GO:0031490	chromatin DNA binding	molecular_function	9031	direct	2	395715|396198	SERPINB10|PGR
 GO:0031528	microvillus membrane	cellular_component	9031	direct	1	395755	PODXL
 GO:0031530	gonadotropin-releasing hormone receptor binding	molecular_function	9031	direct	1	770134	GNRH1
 GO:0031594	neuromuscular junction	cellular_component	9031	direct	1	396422	VCL
+GO:0031620	regulation of fever generation	biological_process	9031	direct	1	422169	HSF3
 GO:0031672	A band	cellular_component	9031	direct	2	421154|425457	MYBPH|MYBPC2
 GO:0031929	TOR signaling	biological_process	9031	direct	1	374268	PIK3AP1
-GO:0031941	filamentous actin	cellular_component	9031	direct	1	396237	MYO5A
+GO:0031941	filamentous actin	cellular_component	9031	direct	2	396237|416362	MYO5A|PDLIM7
+GO:0031953	negative regulation of protein autophosphorylation	biological_process	9031	direct	1	396416	PTK2
 GO:0031982	vesicle	cellular_component	9031	direct	1	396421	OPN1LW
+GO:0032092	positive regulation of protein binding	biological_process	9031	direct	1	396416	PTK2
 GO:0032099	negative regulation of appetite	biological_process	9031	direct	1	396196	GCG
 GO:0032100	positive regulation of appetite	biological_process	9031	direct	1	396061	FASN
 GO:0032217	riboflavin transporter activity	molecular_function	9031	direct	1	396449	RBP
@@ -356,7 +387,7 @@ GO:0032218	riboflavin transport	biological_process	9031	direct	1	396449	RBP
 GO:0032275	luteinizing hormone secretion	biological_process	9031	direct	1	770134	GNRH1
 GO:0032330	regulation of chondrocyte differentiation	biological_process	9031	direct	1	420588	SCIN
 GO:0032331	negative regulation of chondrocyte differentiation	biological_process	9031	direct	3	374096|395801|395829	SMAD6|IHH|WNT9A
-GO:0032332	positive regulation of chondrocyte differentiation	biological_process	9031	direct	1	396393	LCN8
+GO:0032332	positive regulation of chondrocyte differentiation	biological_process	9031	direct	2	396030|396393	BMPR1B|LCN8
 GO:0032392	DNA geometric change	biological_process	9031	direct	3	395724|396232|396482	HMGB1|HMGB3|HMGB2
 GO:0032403	protein complex binding	molecular_function	9031	direct	3	395992|396447|414142	CRTAP|PPIB|LEPRE1
 GO:0032417	positive regulation of sodium:proton antiporter activity	biological_process	9031	direct	1	423211	CHP1
@@ -364,12 +395,14 @@ GO:0032496	response to lipopolysaccharide	biological_process	9031	direct	2	39624
 GO:0032526	response to retinoic acid	biological_process	9031	direct	4	395213|395346|395615|396266	RARA|BCMO1|SHH|RARB
 GO:0032534	regulation of microvillus assembly	biological_process	9031	direct	1	395755	PODXL
 GO:0032570	response to progesterone	biological_process	9031	direct	3	396198|423463|423504	PGR|HSP90AA1|HSPA2
+GO:0032584	growth cone membrane	cellular_component	9031	direct	1	395560	NRP1
 GO:0032781	positive regulation of ATPase activity	biological_process	9031	direct	1	396013	MYBPC3
 GO:0032812	positive regulation of epinephrine secretion	biological_process	9031	direct	1	396323	VIP
 GO:0032868	response to insulin	biological_process	9031	direct	1	396130	SLC2A1
 GO:0032869	cellular response to insulin stimulus	biological_process	9031	direct	1	374268	PIK3AP1
+GO:0032880	regulation of protein localization	biological_process	9031	direct	1	416362	PDLIM7
 GO:0032922	circadian regulation of gene expression	biological_process	9031	direct	2	373991|395433	CLOCK|NPAS2
-GO:0032924	activin receptor signaling pathway	biological_process	9031	direct	1	395246	ACVR1
+GO:0032924	activin receptor signaling pathway	biological_process	9031	direct	3	374213|395246|396324	ACVR2B|ACVR1|ACVR2A
 GO:0032926	negative regulation of activin receptor signaling pathway	biological_process	9031	direct	1	396119	FST
 GO:0032963	collagen metabolic process	biological_process	9031	direct	1	414142	LEPRE1
 GO:0032967	positive regulation of collagen biosynthetic process	biological_process	9031	direct	1	374148	SOX9
@@ -377,8 +410,9 @@ GO:0032971	regulation of muscle filament sliding	biological_process	9031	direct	
 GO:0032991	macromolecular complex	cellular_component	9031	direct	4	395992|396277|396447|414142	CRTAP|TTR|PPIB|LEPRE1
 GO:0032993	protein-DNA complex	cellular_component	9031	direct	2	395974|396198	IKZF1|PGR
 GO:0033002	muscle cell proliferation	biological_process	9031	direct	1	373964	MSTN
-GO:0033142	progesterone receptor binding	molecular_function	9031	direct	2	423463|423504	HSP90AA1|HSPA2
+GO:0033142	progesterone receptor binding	molecular_function	9031	direct	3	423463|423504|100859133	HSP90AA1|HSPA2|PTGES3
 GO:0033189	response to vitamin A	biological_process	9031	direct	2	396166|396197	RBP4A|ALB
+GO:0033613	activating transcription factor binding	molecular_function	9031	direct	1	416362	PDLIM7
 GO:0033686	positive regulation of luteinizing hormone secretion	biological_process	9031	direct	3	395962|770134|100873157	FSHR|GNRH1|TGFB1
 GO:0033691	sialic acid binding	molecular_function	9031	direct	1	396538	AGRN
 GO:0033699	DNA 5'-adenosine monophosphate hydrolase activity	molecular_function	9031	direct	1	395173	APTX
@@ -386,17 +420,19 @@ GO:0034097	response to cytokine	biological_process	9031	direct	1	396393	LCN8
 GO:0034141	positive regulation of toll-like receptor 3 signaling pathway	biological_process	9031	direct	1	554219	IFNB
 GO:0034185	apolipoprotein binding	molecular_function	9031	direct	1	396154	VLDLR
 GO:0034333	adherens junction assembly	biological_process	9031	direct	1	396422	VCL
+GO:0034342	response to type III interferon	biological_process	9031	direct	1	419694	IFNLR1
 GO:0034592	synaptic vesicle lumen	cellular_component	9031	direct	1	427955	GAP43
 GO:0034605	cellular response to heat	biological_process	9031	direct	3	396252|420362|422169	CDK1|LOC420362|HSF3
 GO:0034653	retinoic acid catabolic process	biological_process	9031	direct	1	408183	CYP26A1
 GO:0034713	type I transforming growth factor beta receptor binding	molecular_function	9031	direct	1	396399	TGFBR2
 GO:0034765	regulation of ion transmembrane transport	biological_process	9031	direct	1	396157	NTRK2
 GO:0035108	limb morphogenesis	biological_process	9031	direct	1	396266	RARB
+GO:0035113	embryonic appendage morphogenesis	biological_process	9031	direct	1	395562	WNT11
 GO:0035115	embryonic forelimb morphogenesis	biological_process	9031	direct	2	373988|374243	TBX5|WNT2B
 GO:0035116	embryonic hindlimb morphogenesis	biological_process	9031	direct	1	396543	WNT8A
 GO:0035176	social behavior	biological_process	9031	direct	1	408251	ADCYAP1
 GO:0035374	chondroitin sulfate binding	molecular_function	9031	direct	1	396538	AGRN
-GO:0035498	carnosine metabolic process	biological_process	9031	direct	1	427256	CARNMT1
+GO:0035498	carnosine metabolic process	biological_process	9031	direct	2	427256|771456	CARNMT1|LOC771456
 GO:0035499	carnosine biosynthetic process	biological_process	9031	direct	1	100359387	CARNS1
 GO:0035556	intracellular signal transduction	biological_process	9031	direct	2	395246|395417	ACVR1|SIK1
 GO:0035710	CD4-positive, alpha-beta T cell activation	biological_process	9031	direct	1	395312	IL18
@@ -404,11 +440,14 @@ GO:0035725	sodium ion transmembrane transport	biological_process	9031	direct	1	4
 GO:0035846	oviduct epithelium development	biological_process	9031	direct	1	378781	GH
 GO:0035988	chondrocyte proliferation	biological_process	9031	direct	2	395801|396343	IHH|SDC3
 GO:0035989	tendon development	biological_process	9031	direct	1	374101	SCX
+GO:0035994	response to muscle stretch	biological_process	9031	direct	2	395832|396416	PXN|PTK2
 GO:0036032	neural crest cell delamination	biological_process	9031	direct	1	374148	SOX9
 GO:0036064	ciliary basal body	cellular_component	9031	direct	1	396377	OPNP
 GO:0036094	small molecule binding	molecular_function	9031	direct	2	396197|396277	ALB|TTR
 GO:0036446	myofibroblast differentiation	biological_process	9031	direct	1	396495	IL8L2
+GO:0038191	neuropilin binding	molecular_function	9031	direct	4	374089|374090|395825|396332	SEMA3E|SEMA3C|SEMA3A|SEMA3D
 GO:0040011	locomotion	biological_process	9031	direct	1	408251	ADCYAP1
+GO:0042056	chemoattractant activity	molecular_function	9031	direct	1	395562	WNT11
 GO:0042060	wound healing	biological_process	9031	direct	2	374007|396495	CDH7|IL8L2
 GO:0042116	macrophage activation	biological_process	9031	direct	2	396054|414337	IFNG|CATH1
 GO:0042118	endothelial cell activation	biological_process	9031	direct	1	395246	ACVR1
@@ -416,14 +455,14 @@ GO:0042289	MHC class II protein binding	molecular_function	9031	direct	1	1008572
 GO:0042325	regulation of phosphorylation	biological_process	9031	direct	1	374268	PIK3AP1
 GO:0042327	positive regulation of phosphorylation	biological_process	9031	direct	2	100859435|100873157	EN2|TGFB1
 GO:0042346	positive regulation of NF-kappaB import into nucleus	biological_process	9031	direct	1	420420	MYD88
-GO:0042383	sarcolemma	cellular_component	9031	direct	2	373918|396422	ACTN1|VCL
+GO:0042383	sarcolemma	cellular_component	9031	direct	3	373918|396416|396422	ACTN1|PTK2|VCL
 GO:0042384	cilium assembly	biological_process	9031	direct	1	423540	KIAA0586
 GO:0042393	histone binding	molecular_function	9031	direct	1	423083	SPTY2D1
 GO:0042470	melanosome	cellular_component	9031	direct	1	396007	PMEL
-GO:0042472	inner ear morphogenesis	biological_process	9031	direct	2	374103|395396	ZIC1|WNT3A
+GO:0042472	inner ear morphogenesis	biological_process	9031	direct	3	374103|395396|107051027	ZIC1|WNT3A|SOX21
 GO:0042479	positive regulation of eye photoreceptor cell development	biological_process	9031	direct	1	395754	NEUROD1
 GO:0042491	auditory receptor cell differentiation	biological_process	9031	direct	1	419106	GATA3
-GO:0042493	response to drug	biological_process	9031	direct	2	396393|396446	LCN8|ATP2A2
+GO:0042493	response to drug	biological_process	9031	direct	4	396393|396446|414746|420105	LCN8|ATP2A2|CYP2H1|STK11
 GO:0042572	retinol metabolic process	biological_process	9031	direct	1	395700	RPE65
 GO:0042574	retinal metabolic process	biological_process	9031	direct	1	395346	BCMO1
 GO:0042599	lamellar body	cellular_component	9031	direct	1	396377	OPNP
@@ -436,11 +475,11 @@ GO:0042733	embryonic digit morphogenesis	biological_process	9031	direct	1	396313
 GO:0042756	drinking behavior	biological_process	9031	direct	1	408251	ADCYAP1
 GO:0042770	signal transduction in response to DNA damage	biological_process	9031	direct	1	424873	CEP63
 GO:0042802	identical protein binding	molecular_function	9031	direct	6	373894|378906|395215|395719|396218|396416	SDK1|ZP3|SDK2|TK1|LYZ|PTK2
-GO:0042803	protein homodimerization activity	molecular_function	9031	direct	9	373918|373951|396091|396421|396422|396533|423463|428181|751791	ACTN1|S100A6|ATIC|OPN1LW|VCL|GOT2|HSP90AA1|SKI|RHO
+GO:0042803	protein homodimerization activity	molecular_function	9031	direct	13	373918|373951|395128|396091|396421|396422|396533|420362|421724|422169|423463|428181|751791	ACTN1|S100A6|HES4|ATIC|OPN1LW|VCL|GOT2|LOC420362|HSF2|HSF3|HSP90AA1|SKI|RHO
 GO:0042832	defense response to protozoan	biological_process	9031	direct	1	428264	IL10
 GO:0042834	peptidoglycan binding	molecular_function	9031	direct	1	100313508	OC-17
 GO:0042995	cell projection	cellular_component	9031	direct	1	420519	VIM
-GO:0043005	neuron projection	cellular_component	9031	direct	1	100859435	EN2
+GO:0043005	neuron projection	cellular_component	9031	direct	3	374211|414745|100859435	CRABP1|CDH2|EN2
 GO:0043009	chordate embryonic development	biological_process	9031	direct	1	395794	FOXD3
 GO:0043025	neuronal cell body	cellular_component	9031	direct	1	424059	HSPD1
 GO:0043049	otic placode formation	biological_process	9031	direct	1	395802	PROX1
@@ -457,17 +496,24 @@ GO:0043279	response to alkaloid	biological_process	9031	direct	1	770134	GNRH1
 GO:0043362	nucleate erythrocyte maturation	biological_process	9031	direct	1	395715	SERPINB10
 GO:0043385	mycotoxin metabolic process	biological_process	9031	direct	1	396051	CYP1A1
 GO:0043395	heparan sulfate proteoglycan binding	molecular_function	9031	direct	1	396538	AGRN
+GO:0043408	regulation of MAPK cascade	biological_process	9031	direct	1	386583	MMP2
+GO:0043433	negative regulation of sequence-specific DNA binding transcription factor activity	biological_process	9031	direct	1	416362	PDLIM7
 GO:0043508	negative regulation of JUN kinase activity	biological_process	9031	direct	1	374191	PDCD4
 GO:0043520	regulation of myosin II filament assembly	biological_process	9031	direct	1	396470	MYL1
 GO:0043524	negative regulation of neuron apoptotic process	biological_process	9031	direct	1	418090	IGF1
+GO:0043525	positive regulation of neuron apoptotic process	biological_process	9031	direct	1	374213	ACVR2B
 GO:0043549	regulation of kinase activity	biological_process	9031	direct	1	374268	PIK3AP1
-GO:0043565	sequence-specific DNA binding	molecular_function	9031	direct	5	395526|396105|396182|427781|428181	SOX14|SOX2|HHEX|Pou5f3|SKI
+GO:0043565	sequence-specific DNA binding	molecular_function	9031	direct	9	386585|395526|396105|396182|420362|422169|427781|428181|107051027	NR2F2|SOX14|SOX2|HHEX|LOC420362|HSF3|Pou5f3|SKI|SOX21
+GO:0043589	skin morphogenesis	biological_process	9031	direct	1	395562	WNT11
 GO:0043627	response to estrogen	biological_process	9031	direct	3	395465|396166|396198	CITED4|RBP4A|PGR
+GO:0043679	axon terminus	cellular_component	9031	direct	1	395560	NRP1
 GO:0043950	positive regulation of cAMP-mediated signaling	biological_process	9031	direct	1	395776	LHCGR
 GO:0044194	cytolytic granule	cellular_component	9031	direct	3	395661|396008|396471	CHAT2|CHAT1|LECT2
 GO:0044212	transcription regulatory region DNA binding	molecular_function	9031	direct	1	419106	GATA3
 GO:0044214	spanning component of plasma membrane	cellular_component	9031	direct	1	408032	BVES
-GO:0044297	cell body	cellular_component	9031	direct	2	396421|423787	OPN1LW|ACTA2
+GO:0044295	axonal growth cone	cellular_component	9031	direct	2	395560|396059	NRP1|L1CAM
+GO:0044297	cell body	cellular_component	9031	direct	4	395825|396421|414745|423787	SEMA3A|OPN1LW|CDH2|ACTA2
+GO:0044319	wound healing, spreading of cells	biological_process	9031	direct	1	396416	PTK2
 GO:0044344	cellular response to fibroblast growth factor stimulus	biological_process	9031	direct	1	374101	SCX
 GO:0044390	ubiquitin-like protein conjugating enzyme binding	molecular_function	9031	direct	1	374148	SOX9
 GO:0044548	S100 protein binding	molecular_function	9031	direct	1	373965	CALD1
@@ -478,14 +524,17 @@ GO:0045071	negative regulation of viral genome replication	biological_process	90
 GO:0045077	negative regulation of interferon-gamma biosynthetic process	biological_process	9031	direct	1	428264	IL10
 GO:0045095	keratin filament	cellular_component	9031	direct	1	408039	KRT14
 GO:0045159	myosin II binding	molecular_function	9031	direct	1	373965	CALD1
-GO:0045177	apical part of cell	cellular_component	9031	direct	1	378906	ZP3
+GO:0045165	cell fate commitment	biological_process	9031	direct	1	395562	WNT11
+GO:0045177	apical part of cell	cellular_component	9031	direct	2	378906|414745	ZP3|CDH2
+GO:0045178	basal part of cell	cellular_component	9031	direct	1	374213	ACVR2B
 GO:0045202	synapse	cellular_component	9031	direct	3	373894|395215|418525	SDK1|SDK2|DSCAM
 GO:0045211	postsynaptic membrane	cellular_component	9031	direct	1	396519	CALB1
 GO:0045214	sarcomere organization	biological_process	9031	direct	1	373918	ACTN1
 GO:0045294	alpha-catenin binding	molecular_function	9031	direct	1	396422	VCL
 GO:0045295	gamma-catenin binding	molecular_function	9031	direct	1	414745	CDH2
 GO:0045296	cadherin binding	molecular_function	9031	direct	1	396422	VCL
-GO:0045445	myoblast differentiation	biological_process	9031	direct	2	374004|378926	MYOG|ANKRD1
+GO:0045445	myoblast differentiation	biological_process	9031	direct	3	374004|378926|395562	MYOG|ANKRD1|WNT11
+GO:0045595	regulation of cell differentiation	biological_process	9031	direct	1	107051027	SOX21
 GO:0045663	positive regulation of myoblast differentiation	biological_process	9031	direct	3	395396|395862|396393	WNT3A|PITX2|LCN8
 GO:0045665	negative regulation of neuron differentiation	biological_process	9031	direct	3	374019|374243|396105	SOX3|WNT2B|SOX2
 GO:0045666	positive regulation of neuron differentiation	biological_process	9031	direct	1	419070	GDPD5
@@ -496,40 +545,46 @@ GO:0045732	positive regulation of protein catabolic process	biological_process	9
 GO:0045743	positive regulation of fibroblast growth factor receptor signaling pathway	biological_process	9031	direct	2	374243|396543	WNT2B|WNT8A
 GO:0045746	negative regulation of Notch signaling pathway	biological_process	9031	direct	1	419070	GDPD5
 GO:0045766	positive regulation of angiogenesis	biological_process	9031	direct	1	396413	FGF2
-GO:0045892	negative regulation of transcription, DNA-templated	biological_process	9031	direct	10	374191|395526|395974|396339|396381|396383|396397|396546|419106|420769	PDCD4|SOX14|IKZF1|TGIF1|LHX1|ISL1|LHX9|HMX1|GATA3|GLI3
-GO:0045893	positive regulation of transcription, DNA-templated	biological_process	9031	direct	6	395246|396105|396313|396342|396438|419106	ACVR1|SOX2|FGF8|TEF|TGFB3|GATA3
+GO:0045892	negative regulation of transcription, DNA-templated	biological_process	9031	direct	11	374191|395526|395974|396339|396381|396383|396397|396546|419106|420769|107051027	PDCD4|SOX14|IKZF1|TGIF1|LHX1|ISL1|LHX9|HMX1|GATA3|GLI3|SOX21
+GO:0045893	positive regulation of transcription, DNA-templated	biological_process	9031	direct	7	373988|395246|396105|396313|396342|396438|419106	TBX5|ACVR1|SOX2|FGF8|TEF|TGFB3|GATA3
 GO:0045918	negative regulation of cytolysis	biological_process	9031	direct	3	396054|554219|770778	IFNG|IFNB|IFNL3
 GO:0045944	positive regulation of transcription from RNA polymerase II promoter	biological_process	9031	direct	6	374004|374048|395862|396105|396342|417873	MYOG|MYOD1|PITX2|SOX2|TEF|MYF6
 GO:0046658	anchored component of plasma membrane	cellular_component	9031	direct	1	421431	MDGA1
 GO:0046670	positive regulation of retinal cell programmed cell death	biological_process	9031	direct	1	396119	FST
 GO:0046676	negative regulation of insulin secretion	biological_process	9031	direct	1	418090	IGF1
-GO:0046677	response to antibiotic	biological_process	9031	direct	4	395661|396008|396471|423463	CHAT2|CHAT1|LECT2|HSP90AA1
+GO:0046677	response to antibiotic	biological_process	9031	direct	6	395661|396008|396051|396052|396471|423463	CHAT2|CHAT1|CYP1A1|CYP1A4|LECT2|HSP90AA1
 GO:0046718	viral entry into host cell	biological_process	9031	direct	1	423463	HSP90AA1
+GO:0046777	protein autophosphorylation	biological_process	9031	direct	1	396416	PTK2
 GO:0046790	virion binding	molecular_function	9031	direct	2	396297|423463	ANXA2|HSP90AA1
 GO:0046881	positive regulation of follicle-stimulating hormone secretion	biological_process	9031	direct	1	100873157	TGFB1
 GO:0046887	positive regulation of hormone secretion	biological_process	9031	direct	1	408251	ADCYAP1
 GO:0046915	transition metal ion transmembrane transporter activity	molecular_function	9031	direct	1	395811	SLC11A1
 GO:0046951	ketone body biosynthetic process	biological_process	9031	direct	1	396316	HMGCL
-GO:0046982	protein heterodimerization activity	molecular_function	9031	direct	6	374004|374048|395633|396202|417873|428181	MYOG|MYOD1|MYF5|NRCAM|MYF6|SKI
+GO:0046982	protein heterodimerization activity	molecular_function	9031	direct	7	374004|374048|395128|395633|396202|417873|428181	MYOG|MYOD1|HES4|MYF5|NRCAM|MYF6|SKI
 GO:0047730	carnosine synthase activity	molecular_function	9031	direct	1	100359387	CARNS1
 GO:0048013	ephrin receptor signaling pathway	biological_process	9031	direct	1	396157	NTRK2
 GO:0048147	negative regulation of fibroblast proliferation	biological_process	9031	direct	1	396495	IL8L2
+GO:0048185	activin binding	molecular_function	9031	direct	2	374213|396324	ACVR2B|ACVR2A
 GO:0048242	epinephrine secretion	biological_process	9031	direct	1	396323	VIP
 GO:0048246	macrophage chemotaxis	biological_process	9031	direct	1	396495	IL8L2
 GO:0048247	lymphocyte chemotaxis	biological_process	9031	direct	1	396495	IL8L2
 GO:0048306	calcium-dependent protein binding	molecular_function	9031	direct	1	373951	S100A6
+GO:0048333	mesodermal cell differentiation	biological_process	9031	direct	2	374213|396324	ACVR2B|ACVR2A
 GO:0048382	mesendoderm development	biological_process	9031	direct	1	395623	CER1
-GO:0048471	perinuclear region of cytoplasm	cellular_component	9031	direct	2	396266|408032	RARB|BVES
+GO:0048471	perinuclear region of cytoplasm	cellular_component	9031	direct	3	396266|408032|416362	RARB|BVES|PDLIM7
 GO:0048536	spleen development	biological_process	9031	direct	2	396438|421352	TGFB3|TGFB2
 GO:0048566	embryonic digestive tract development	biological_process	9031	direct	3	374148|396438|421352	SOX9|TGFB3|TGFB2
 GO:0048568	embryonic organ development	biological_process	9031	direct	2	396399|421352	TGFBR2|TGFB2
 GO:0048668	collateral sprouting	biological_process	9031	direct	1	396157	NTRK2
 GO:0048672	positive regulation of collateral sprouting	biological_process	9031	direct	1	396157	NTRK2
+GO:0048703	embryonic viscerocranium morphogenesis	biological_process	9031	direct	1	395562	WNT11
 GO:0048704	embryonic skeletal system morphogenesis	biological_process	9031	direct	2	395509|396165	PDGFRA|BMP4
 GO:0048709	oligodendrocyte differentiation	biological_process	9031	direct	1	395483	SOX8
+GO:0048729	tissue morphogenesis	biological_process	9031	direct	1	395560	NRP1
 GO:0048730	epidermis morphogenesis	biological_process	9031	direct	1	420332	MYC
 GO:0048741	skeletal muscle fiber development	biological_process	9031	direct	1	373918	ACTN1
 GO:0048762	mesenchymal cell differentiation	biological_process	9031	direct	2	395246|396399	ACVR1|TGFBR2
+GO:0048839	inner ear development	biological_process	9031	direct	1	107051027	SOX21
 GO:0048846	axon extension involved in axon guidance	biological_process	9031	direct	1	396092	ALCAM
 GO:0048873	homeostasis of number of cells within a tissue	biological_process	9031	direct	1	374148	SOX9
 GO:0048877	homeostasis of number of retina cells	biological_process	9031	direct	1	395615	SHH
@@ -540,15 +595,16 @@ GO:0050679	positive regulation of epithelial cell proliferation	biological_proce
 GO:0050708	regulation of protein secretion	biological_process	9031	direct	1	100873157	TGFB1
 GO:0050731	positive regulation of peptidyl-tyrosine phosphorylation	biological_process	9031	direct	1	396452	PRNP
 GO:0050767	regulation of neurogenesis	biological_process	9031	direct	1	374096	SMAD6
-GO:0050821	protein stabilization	biological_process	9031	direct	2	423211|423463	CHP1|HSP90AA1
-GO:0050829	defense response to Gram-negative bacterium	biological_process	9031	direct	10	407777|414337|414341|414342|414343|420407|420898|423668|100858343|100858412	GAL7|CATH1|GAL10|GAL4|GAL9|CATH2|OVALX|RSFR|CATH3|CATHB1
-GO:0050830	defense response to Gram-positive bacterium	biological_process	9031	direct	8	414337|414341|414342|420407|420898|423668|100858343|100858412	CATH1|GAL10|GAL4|CATH2|OVALX|RSFR|CATH3|CATHB1
-GO:0050832	defense response to fungus	biological_process	9031	direct	2	414341|414342	GAL10|GAL4
+GO:0050821	protein stabilization	biological_process	9031	direct	3	421724|423211|423463	HSF2|CHP1|HSP90AA1
+GO:0050829	defense response to Gram-negative bacterium	biological_process	9031	direct	10	407777|414337|414341|414342|414343|420407|420898|423668|100858343|100858412	AvBD7|CATH1|AvBD10|AvBD4|AvBD9|CATH2|OVALX|RSFR|CATH3|CATHB1
+GO:0050830	defense response to Gram-positive bacterium	biological_process	9031	direct	8	414337|414341|414342|420407|420898|423668|100858343|100858412	CATH1|AvBD10|AvBD4|CATH2|OVALX|RSFR|CATH3|CATHB1
+GO:0050832	defense response to fungus	biological_process	9031	direct	2	414341|414342	AvBD10|AvBD4
 GO:0050839	cell adhesion molecule binding	molecular_function	9031	direct	2	396202|419825	NRCAM|CNTN2
 GO:0050853	B cell receptor signaling pathway	biological_process	9031	direct	1	427272	SYK
+GO:0050918	positive chemotaxis	biological_process	9031	direct	1	395562	WNT11
 GO:0051015	actin filament binding	molecular_function	9031	direct	1	100996929	MYL6
 GO:0051059	NF-kappaB binding	molecular_function	9031	direct	1	396033	NFKB1
-GO:0051087	chaperone binding	molecular_function	9031	direct	1	423463	HSP90AA1
+GO:0051087	chaperone binding	molecular_function	9031	direct	3	373988|395782|423463	TBX5|T|HSP90AA1
 GO:0051139	metal ion:proton antiporter activity	molecular_function	9031	direct	1	395811	SLC11A1
 GO:0051216	cartilage development	biological_process	9031	direct	2	395801|396313	IHH|FGF8
 GO:0051219	phosphoprotein binding	molecular_function	9031	direct	2	373918|396176	ACTN1|CSRP1
@@ -558,11 +614,14 @@ GO:0051289	protein homotetramerization	biological_process	9031	direct	1	427662	K
 GO:0051301	cell division	biological_process	9031	direct	1	396413	FGF2
 GO:0051371	muscle alpha-actinin binding	molecular_function	9031	direct	1	396422	VCL
 GO:0051393	alpha-actinin binding	molecular_function	9031	direct	5	373918|396176|396422|414873|418300	ACTN1|CSRP1|VCL|PDLIM3|ZYX
-GO:0051491	positive regulation of filopodium assembly	biological_process	9031	direct	1	373854	TENM2
-GO:0051607	defense response to virus	biological_process	9031	direct	3	396054|554219|770778	IFNG|IFNB|IFNL3
+GO:0051412	response to corticosterone	biological_process	9031	direct	1	396393	LCN8
+GO:0051491	positive regulation of filopodium assembly	biological_process	9031	direct	2	373854|395560	TENM2|NRP1
+GO:0051607	defense response to virus	biological_process	9031	direct	4	396054|419694|554219|770778	IFNG|IFNLR1|IFNB|IFNL3
 GO:0051673	membrane disruption in other organism	biological_process	9031	direct	2	414337|100858343	CATH1|CATH3
 GO:0051726	regulation of cell cycle	biological_process	9031	direct	1	378926	ANKRD1
 GO:0051879	Hsp90 protein binding	molecular_function	9031	direct	3	396099|396198|423463	ESR1|PGR|HSP90AA1
+GO:0051894	positive regulation of focal adhesion assembly	biological_process	9031	direct	1	396416	PTK2
+GO:0051895	negative regulation of focal adhesion assembly	biological_process	9031	direct	1	386583	MMP2
 GO:0052885	all-trans-retinyl-ester hydrolase, 11-cis retinol forming activity	molecular_function	9031	direct	1	395700	RPE65
 GO:0055013	cardiac muscle cell development	biological_process	9031	direct	1	395802	PROX1
 GO:0055014	atrial cardiac muscle cell development	biological_process	9031	direct	1	395534	MYH15
@@ -570,14 +629,17 @@ GO:0055089	fatty acid homeostasis	biological_process	9031	direct	1	396393	LCN8
 GO:0060001	minus-end directed microfilament motor activity	molecular_function	9031	direct	1	396237	MYO5A
 GO:0060002	plus-end directed microfilament motor activity	molecular_function	9031	direct	1	395487	MYO6
 GO:0060042	retina morphogenesis in camera-type eye	biological_process	9031	direct	1	395802	PROX1
+GO:0060055	angiogenesis involved in wound healing	biological_process	9031	direct	1	396416	PTK2
 GO:0060059	embryonic retina morphogenesis in camera-type eye	biological_process	9031	direct	1	395615	SHH
 GO:0060070	canonical Wnt signaling pathway	biological_process	9031	direct	2	374243|395396	WNT2B|WNT3A
+GO:0060071	Wnt signaling pathway, planar cell polarity pathway	biological_process	9031	direct	1	395562	WNT11
 GO:0060173	limb development	biological_process	9031	direct	5	374007|395141|395150|396313|420769	CDH7|HS6ST1|HS6ST2|FGF8|GLI3
 GO:0060174	limb bud formation	biological_process	9031	direct	2	373988|395813	TBX5|HAND2
 GO:0060197	cloacal septation	biological_process	9031	direct	1	396165	BMP4
 GO:0060219	camera-type eye photoreceptor cell differentiation	biological_process	9031	direct	2	374243|418525	WNT2B|DSCAM
 GO:0060290	transdifferentiation	biological_process	9031	direct	2	374004|374148	MYOG|SOX9
 GO:0060317	cardiac epithelial to mesenchymal transition	biological_process	9031	direct	7	374068|378779|395246|395535|396399|396438|415400	CDH5|BMP2|ACVR1|OLFM1|TGFBR2|TGFB3|CCNB2
+GO:0060325	face morphogenesis	biological_process	9031	direct	1	395562	WNT11
 GO:0060342	photoreceptor inner segment membrane	cellular_component	9031	direct	1	396421	OPN1LW
 GO:0060350	endochondral bone morphogenesis	biological_process	9031	direct	1	396030	BMPR1B
 GO:0060416	response to growth hormone	biological_process	9031	direct	1	395314	CHAT
@@ -590,18 +652,24 @@ GO:0060785	regulation of apoptosis involved in tissue homeostasis	biological_pro
 GO:0060828	regulation of canonical Wnt signaling pathway	biological_process	9031	direct	2	374243|396543	WNT2B|WNT8A
 GO:0060900	embryonic camera-type eye formation	biological_process	9031	direct	1	374243	WNT2B
 GO:0060959	cardiac neuron development	biological_process	9031	direct	1	395573	SOX10
+GO:0060973	cell migration involved in heart development	biological_process	9031	direct	1	373943	TBX20
 GO:0061035	regulation of cartilage development	biological_process	9031	direct	1	374148	SOX9
 GO:0061036	positive regulation of cartilage development	biological_process	9031	direct	1	396030	BMPR1B
+GO:0061037	negative regulation of cartilage development	biological_process	9031	direct	1	386583	MMP2
 GO:0061056	sclerotome development	biological_process	9031	direct	1	374101	SCX
 GO:0061072	iris morphogenesis	biological_process	9031	direct	2	374243|395829	WNT2B|WNT9A
 GO:0061075	positive regulation of neural retina development	biological_process	9031	direct	1	395615	SHH
 GO:0061077	chaperone-mediated protein folding	biological_process	9031	direct	3	395992|396447|414142	CRTAP|PPIB|LEPRE1
+GO:0061098	positive regulation of protein tyrosine kinase activity	biological_process	9031	direct	1	396416	PTK2
 GO:0061184	positive regulation of dermatome development	biological_process	9031	direct	1	395862	PITX2
 GO:0061303	cornea development in camera-type eye	biological_process	9031	direct	3	374243|395396|395829	WNT2B|WNT3A|WNT9A
 GO:0061459	L-arginine transmembrane transporter activity	molecular_function	9031	direct	1	422730	SLC7A2
+GO:0061550	cranial ganglion development	biological_process	9031	direct	1	374213	ACVR2B
 GO:0061560	cranial ganglion formation	biological_process	9031	direct	1	418090	IGF1
+GO:0061561	trigeminal ganglion formation	biological_process	9031	direct	1	414745	CDH2
+GO:0061563	trigeminal ganglion structural organization	biological_process	9031	direct	1	414745	CDH2
 GO:0065010	extracellular membrane-bounded organelle	cellular_component	9031	direct	1	395650	PHOSPHO1
-GO:0070207	protein homotrimerization	biological_process	9031	direct	3	396421|426883|751791	OPN1LW|ACCN2|RHO
+GO:0070207	protein homotrimerization	biological_process	9031	direct	6	396421|420362|421724|422169|426883|751791	OPN1LW|LOC420362|HSF2|HSF3|ACCN2|RHO
 GO:0070212	protein poly-ADP-ribosylation	biological_process	9031	direct	1	396199	PARP1
 GO:0070306	lens fiber cell differentiation	biological_process	9031	direct	1	430492	TDRD7
 GO:0070307	lens fiber cell development	biological_process	9031	direct	1	427937	WNT7B
@@ -616,10 +684,12 @@ GO:0070543	response to linoleic acid	biological_process	9031	direct	1	396393	LCN
 GO:0070555	response to interleukin-1	biological_process	9031	direct	1	396212	MT4
 GO:0070574	cadmium ion transmembrane transport	biological_process	9031	direct	1	395811	SLC11A1
 GO:0070673	response to interleukin-18	biological_process	9031	direct	1	396054	IFNG
+GO:0070852	cell body fiber	cellular_component	9031	direct	2	374211|395560	CRABP1|NRP1
 GO:0070888	E-box binding	molecular_function	9031	direct	4	374004|374048|395633|417873	MYOG|MYOD1|MYF5|MYF6
 GO:0070989	oxidative demethylation	biological_process	9031	direct	2	396051|396052	CYP1A1|CYP1A4
 GO:0071300	cellular response to retinoic acid	biological_process	9031	direct	1	374148	SOX9
 GO:0071363	cellular response to growth factor stimulus	biological_process	9031	direct	1	378926	ANKRD1
+GO:0071399	cellular response to linoleic acid	biological_process	9031	direct	1	396393	LCN8
 GO:0071467	cellular response to pH	biological_process	9031	direct	1	426883	ACCN2
 GO:0071468	cellular response to acidic pH	biological_process	9031	direct	1	423211	CHP1
 GO:0071492	cellular response to UV-A	biological_process	9031	direct	1	396066	AANAT
@@ -629,14 +699,14 @@ GO:0071679	commissural neuron axon guidance	biological_process	9031	direct	1	395
 GO:0071729	beak morphogenesis	biological_process	9031	direct	2	396165|396266	BMP4|RARB
 GO:0071772	response to BMP	biological_process	9031	direct	1	396073	NKX2-5
 GO:0071773	cellular response to BMP stimulus	biological_process	9031	direct	2	374101|374148	SCX|SOX9
-GO:0071774	response to fibroblast growth factor	biological_process	9031	direct	1	396313	FGF8
-GO:0071805	potassium ion transmembrane transport	biological_process	9031	direct	1	427662	KCNJ12
+GO:0071774	response to fibroblast growth factor	biological_process	9031	direct	2	396313|421991	FGF8|DNMT3A
 GO:0071944	cell periphery	cellular_component	9031	direct	2	396389|408032	NTN1|BVES
 GO:0072089	stem cell proliferation	biological_process	9031	direct	1	396413	FGF2
 GO:0072138	mesenchymal cell proliferation involved in ureteric bud development	biological_process	9031	direct	1	396165	BMP4
 GO:0072198	mesenchymal cell proliferation involved in ureter development	biological_process	9031	direct	1	396165	BMP4
 GO:0072498	embryonic skeletal joint development	biological_process	9031	direct	1	395829	WNT9A
 GO:0089717	spanning component of membrane	cellular_component	9031	direct	1	408032	BVES
+GO:0090090	negative regulation of canonical Wnt signaling pathway	biological_process	9031	direct	1	395562	WNT11
 GO:0090103	cochlea morphogenesis	biological_process	9031	direct	1	418090	IGF1
 GO:0090131	mesenchyme migration	biological_process	9031	direct	2	396438|423787	TGFB3|ACTA2
 GO:0090132	epithelium migration	biological_process	9031	direct	1	408032	BVES
@@ -653,8 +723,9 @@ GO:0090575	RNA polymerase II transcription factor complex	cellular_component	903
 GO:0090636	outer dense plaque of desmosome	cellular_component	9031	direct	2	373918|396422	ACTN1|VCL
 GO:0090637	inner dense plaque of desmosome	cellular_component	9031	direct	2	373918|396422	ACTN1|VCL
 GO:0097100	supercoiled DNA binding	molecular_function	9031	direct	1	395724	HMGB1
-GO:0097110	scaffold protein binding	molecular_function	9031	direct	1	396422	VCL
+GO:0097110	scaffold protein binding	molecular_function	9031	direct	2	373988|396422	TBX5|VCL
 GO:0097153	cysteine-type endopeptidase activity involved in apoptotic process	molecular_function	9031	direct	1	378781	GH
+GO:0097156	fasciculation of motor neuron axon	biological_process	9031	direct	1	395825	SEMA3A
 GO:0097264	self proteolysis	biological_process	9031	direct	1	395615	SHH
 GO:0097362	MCM8-MCM9 complex	cellular_component	9031	direct	2	421314|100857742	MCM8|MCM9
 GO:0097381	photoreceptor disc membrane	cellular_component	9031	direct	1	374093	CRY1
@@ -662,11 +733,16 @@ GO:0097433	dense body	cellular_component	9031	direct	2	373918|396526	ACTN1|ACTB
 GO:0097513	myosin II filament	cellular_component	9031	direct	1	100996929	MYL6
 GO:0097638	L-arginine import across plasma membrane	biological_process	9031	direct	1	422730	SLC7A2
 GO:0097639	L-lysine import across plasma membrane	biological_process	9031	direct	1	422730	SLC7A2
+GO:0098609	cell-cell adhesion	biological_process	9031	direct	1	414745	CDH2
 GO:0098723	skeletal muscle myofibril	cellular_component	9031	direct	1	396422	VCL
 GO:0098737	protein insertion into plasma membrane	biological_process	9031	direct	1	396452	PRNP
+GO:0098743	cell aggregation	biological_process	9031	direct	2	395560|414745	NRP1|CDH2
+GO:0099601	regulation of neurotransmitter receptor activity	biological_process	9031	direct	1	396538	AGRN
 GO:1900026	positive regulation of substrate adhesion-dependent cell spreading	biological_process	9031	direct	1	396343	SDC3
 GO:1900176	negative regulation of nodal signaling pathway involved in determination of lateral mesoderm left/right asymmetry	biological_process	9031	direct	1	395623	CER1
 GO:1901207	regulation of heart looping	biological_process	9031	direct	1	395623	CER1
+GO:1901215	negative regulation of neuron death	biological_process	9031	direct	1	100859435	EN2
+GO:1901389	negative regulation of transforming growth factor beta activation	biological_process	9031	direct	1	374213	ACVR2B
 GO:1901810	beta-carotene metabolic process	biological_process	9031	direct	1	395346	BCMO1
 GO:1902027	positive regulation of cartilage condensation	biological_process	9031	direct	1	374148	SOX9
 GO:1902444	riboflavin binding	molecular_function	9031	direct	1	396449	RBP
@@ -691,14 +767,23 @@ GO:1903011	negative regulation of bone development	biological_process	9031	direc
 GO:1903042	negative regulation of chondrocyte hypertrophy	biological_process	9031	direct	2	395801|396281	IHH|PTHLH
 GO:1903611	negative regulation of calcium-dependent ATPase activity	biological_process	9031	direct	1	373965	CALD1
 GO:1903859	regulation of dendrite extension	biological_process	9031	direct	1	396157	NTRK2
+GO:1903929	primary palate development	biological_process	9031	direct	1	395562	WNT11
+GO:1903935	response to sodium arsenite	biological_process	9031	direct	1	421724	HSF2
 GO:1904014	response to serotonin	biological_process	9031	direct	1	770134	GNRH1
+GO:1904237	positive regulation of substrate-dependent cell migration, cell attachment to substrate	biological_process	9031	direct	1	396416	PTK2
 GO:1904657	negative regulation of sensory perception of sweet taste	biological_process	9031	direct	1	396449	RBP
 GO:1904661	negative regulation of sensory perception of bitter taste	biological_process	9031	direct	1	396449	RBP
+GO:1904932	negative regulation of cartilage condensation	biological_process	9031	direct	1	386583	MMP2
 GO:1990138	neuron projection extension	biological_process	9031	direct	1	396092	ALCAM
 GO:1990239	steroid hormone binding	molecular_function	9031	direct	1	396198	PGR
+GO:1990314	cellular response to insulin-like growth factor stimulus	biological_process	9031	direct	1	386583	MMP2
 GO:1990357	terminal web	cellular_component	9031	direct	2	373918|396422	ACTN1|VCL
 GO:1990418	response to insulin-like growth factor stimulus	biological_process	9031	direct	1	418090	IGF1
 GO:1990430	extracellular matrix protein binding	molecular_function	9031	direct	2	395256|100313508	MEPE|OC-17
+GO:1990535	neuron projection maintenance	biological_process	9031	direct	1	395825	SEMA3A
+GO:1990782	protein tyrosine kinase binding	molecular_function	9031	direct	2	374058|395963	ITGB1|CAPN2
+GO:1990837	sequence-specific double-stranded DNA binding	molecular_function	9031	direct	2	396251|396431	THRA|THRB
+GO:2000009	negative regulation of protein localization to cell surface	biological_process	9031	direct	1	395825	SEMA3A
 GO:2000042	negative regulation of double-strand break repair via homologous recombination	biological_process	9031	direct	1	418092	PARPBP
 GO:2000144	positive regulation of DNA-templated transcription, initiation	biological_process	9031	direct	1	396185	CEBPB
 GO:2000177	regulation of neural precursor cell proliferation	biological_process	9031	direct	1	395615	SHH
@@ -706,4 +791,6 @@ GO:2000287	positive regulation of myotome development	biological_process	9031	di
 GO:2000288	positive regulation of myoblast proliferation	biological_process	9031	direct	2	378926|395862	ANKRD1|PITX2
 GO:2000379	positive regulation of reactive oxygen species metabolic process	biological_process	9031	direct	3	396054|554219|770778	IFNG|IFNB|IFNL3
 GO:2000617	positive regulation of histone H3-K9 acetylation	biological_process	9031	direct	1	396185	CEBPB
+GO:2000793	cell proliferation involved in heart valve development	biological_process	9031	direct	1	373943	TBX20
+GO:2000811	negative regulation of anoikis	biological_process	9031	direct	1	396416	PTK2
 GO:2000843	regulation of testosterone secretion	biological_process	9031	direct	1	770134	GNRH1

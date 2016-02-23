@@ -2,4 +2,4 @@ go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
 GO:0005739	mitochondrion	cellular_component	4537	direct	1	25193136	rpoA
 GO:0008380	RNA splicing	biological_process	4537	direct	1	25193063	matK
 GO:0009536	plastid	cellular_component	4537	direct	8	25193063|25193096|25193116|25193117|25193118|25193136|25193142|25193177	matK|psaA|petA|psbJ|psbL|rpoA|rpl16|ndhA
-GO:0016023	cytoplasmic membrane-bounded vesicle	cellular_component	4537	direct	1	25193117	psbJ
+GO:0016023	cytoplasmic, membrane-bounded vesicle	cellular_component	4537	direct	1	25193117	psbJ

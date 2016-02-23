@@ -37,8 +37,6 @@ GO:0048437	floral organ development	biological_process	39947	inferred	1	4348869	
 GO:0048438	floral whorl development	biological_process	39947	inferred	1	4348869	Os10g0471100
 GO:0048443	stamen development	biological_process	39947	inferred	1	4348869	Os10g0471100
 GO:0048466	androecium development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0048513	organ development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0048569	post-embryonic organ development	biological_process	39947	inferred	1	4348869	Os10g0471100
 GO:0048608	reproductive structure development	biological_process	39947	inferred	1	4348869	Os10g0471100
 GO:0048653	anther development	biological_process	39947	inferred	1	4348869	Os10g0471100
 GO:0048731	system development	biological_process	39947	inferred	1	4348869	Os10g0471100
@@ -47,4 +45,5 @@ GO:0048856	anatomical structure development	biological_process	39947	inferred	1	
 GO:0061458	reproductive system development	biological_process	39947	inferred	1	4348869	Os10g0471100
 GO:0071704	organic substance metabolic process	biological_process	39947	inferred	1	4348869	Os10g0471100
 GO:0090567	reproductive shoot system development	biological_process	39947	inferred	1	4348869	Os10g0471100
+GO:0099402	plant organ development	biological_process	39947	inferred	1	4348869	Os10g0471100
 GO:1901576	organic substance biosynthetic process	biological_process	39947	inferred	1	4348869	Os10g0471100

@@ -333,4 +333,5 @@ GO:1901576	organic substance biosynthetic process	biological_process	223283	infe
 GO:1902578	single-organism localization	biological_process	223283	inferred	7	1183009|1183014|1183017|1183018|1183039|1183041|1185781	hrpW1|hrpH|hrpA1|hrpZ1|hrpJ|hrpK1|hopAK1
 GO:1903530	regulation of secretion by cell	biological_process	223283	inferred	1	1183040	hrpL
 GO:1903532	positive regulation of secretion by cell	biological_process	223283	inferred	1	1183040	hrpL
+GO:1904951	positive regulation of establishment of protein localization	biological_process	223283	inferred	1	1183040	hrpL
 GO:2000031	regulation of salicylic acid mediated signaling pathway	biological_process	223283	inferred	16	1183011|1183013|1186363|1186364|1186365|1186366|1186369|1186370|1186372|1186390|1186391|1186392|1186393|1186394|1186395|1186397	hopM1|avrE1|cfl|cfa1|cfa2|cfa3|cfa6|cfa7|cfa8|cmaD|cmaE|cmaA|cmaB|cmaC|cmaT|cmaU

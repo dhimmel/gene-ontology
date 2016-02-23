@@ -4,7 +4,7 @@ GO:0001968	fibronectin binding	molecular_function	9615	direct	1	475471	SFRP2
 GO:0002455	humoral immune response mediated by circulating immunoglobulin	biological_process	9615	direct	2	403894|403988	ZP3|ZP2
 GO:0003677	DNA binding	molecular_function	9615	direct	1	403924	MYC
 GO:0004576	oligosaccharyl transferase activity	molecular_function	9615	direct	1	404012	DDOST
-GO:0004993	serotonin receptor activity	molecular_function	9615	direct	1	403882	HTR2A
+GO:0004993	G-protein coupled serotonin receptor activity	molecular_function	9615	direct	1	403882	HTR2A
 GO:0005178	integrin binding	molecular_function	9615	direct	1	475471	SFRP2
 GO:0005198	structural molecule activity	molecular_function	9615	direct	1	403980	CAV1
 GO:0005432	calcium:sodium antiporter activity	molecular_function	9615	direct	1	475738	SLC8A1
@@ -14,7 +14,7 @@ GO:0005615	extracellular space	cellular_component	9615	direct	1	475471	SFRP2
 GO:0005634	nucleus	cellular_component	9615	direct	2	403621|403924	PGR|MYC
 GO:0005737	cytoplasm	cellular_component	9615	direct	3	403744|403745|403884	MX2|MX1|TRIB2
 GO:0005764	lysosome	cellular_component	9615	direct	1	403403	PLA2G15
-GO:0005794	Golgi apparatus	cellular_component	9615	direct	3	403938|403958|442991	LMAN2|RAB10|SLC35A3
+GO:0005794	Golgi apparatus	cellular_component	9615	direct	4	403938|403958|442971|442991	LMAN2|RAB10|CLU|SLC35A3
 GO:0005802	trans-Golgi network	cellular_component	9615	direct	1	403958	RAB10
 GO:0005811	lipid particle	cellular_component	9615	direct	1	404008	RAB5A
 GO:0005886	plasma membrane	cellular_component	9615	direct	5	403538|403882|477032|479040|612294	RHBG|HTR2A|CTNNB1|RHCG|RAB13
@@ -82,6 +82,7 @@ GO:0045121	membrane raft	cellular_component	9615	direct	2	403933|403935	MAL|ANXA
 GO:0048471	perinuclear region of cytoplasm	cellular_component	9615	direct	1	403938	LMAN2
 GO:0050649	testosterone 6-beta-hydroxylase activity	molecular_function	9615	direct	1	415129	CYP3A12
 GO:0050679	positive regulation of epithelial cell proliferation	biological_process	9615	direct	1	403924	MYC
+GO:0051087	chaperone binding	molecular_function	9615	direct	1	442971	CLU
 GO:0051209	release of sequestered calcium ion into cytosol	biological_process	9615	direct	1	403882	HTR2A
 GO:0051378	serotonin binding	molecular_function	9615	direct	1	403882	HTR2A
 GO:0055037	recycling endosome	cellular_component	9615	direct	2	403958|612294	RAB10|RAB13

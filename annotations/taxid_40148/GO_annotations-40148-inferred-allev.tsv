@@ -14,7 +14,7 @@ GO:0008380	RNA splicing	biological_process	40148	inferred	1	25015881	matK
 GO:0009536	plastid	cellular_component	40148	inferred	7	25015867|25015880|25015881|25015894|25015902|25015906|25015931	psbJ|psbL|matK|rpoA|petA|psaA|ndhA
 GO:0009987	cellular process	biological_process	40148	inferred	1	25015881	matK
 GO:0010467	gene expression	biological_process	40148	inferred	1	25015881	matK
-GO:0016023	cytoplasmic membrane-bounded vesicle	cellular_component	40148	inferred	1	25015867	psbJ
+GO:0016023	cytoplasmic, membrane-bounded vesicle	cellular_component	40148	inferred	1	25015867	psbJ
 GO:0016070	RNA metabolic process	biological_process	40148	inferred	1	25015881	matK
 GO:0031410	cytoplasmic vesicle	cellular_component	40148	inferred	1	25015867	psbJ
 GO:0031982	vesicle	cellular_component	40148	inferred	1	25015867	psbJ

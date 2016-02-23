@@ -214,7 +214,7 @@ GO:0015966	diadenosine tetraphosphate biosynthetic process	biological_process	36
 GO:0015977	carbon fixation	biological_process	36329	direct	1	811828	PF14_0246
 GO:0016020	membrane	cellular_component	36329	direct	5	810351|811214|811363|812110|814549	PF10_0193|PFL0805w|PFL1555w|PF14_0528|PFC1045c
 GO:0016021	integral component of membrane	cellular_component	36329	direct	6	810547|812396|812618|813106|814104|814456	PF10_0390|PFD0310w|PFB0106c|PFE1460w|PF13_0133|PFC0590c
-GO:0016023	cytoplasmic membrane-bounded vesicle	cellular_component	36329	direct	1	812967	PFE0765w
+GO:0016023	cytoplasmic, membrane-bounded vesicle	cellular_component	36329	direct	1	812967	PFE0765w
 GO:0016070	RNA metabolic process	biological_process	36329	direct	1	3885813	PFF1500c
 GO:0016192	vesicle-mediated transport	biological_process	36329	direct	1	814040	PF13_0062
 GO:0016274	protein-arginine N-methyltransferase activity	molecular_function	36329	direct	1	811824	PF14_0242

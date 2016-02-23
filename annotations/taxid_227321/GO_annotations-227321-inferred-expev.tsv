@@ -272,7 +272,7 @@ GO:0046700	heterocycle catabolic process	biological_process	227321	inferred	1	28
 GO:0046907	intracellular transport	biological_process	227321	inferred	1	2876184	AN0411.2
 GO:0047490	pectin lyase activity	molecular_function	227321	inferred	1	2874575	AN2331.2
 GO:0048193	Golgi vesicle transport	biological_process	227321	inferred	1	2876184	AN0411.2
-GO:0048513	organ development	biological_process	227321	inferred	2	2873053|2873113	AN3634.2|AN3695.2
+GO:0048513	animal organ development	biological_process	227321	inferred	2	2873053|2873113	AN3634.2|AN3695.2
 GO:0048519	negative regulation of biological process	biological_process	227321	inferred	1	2876753	AN0974.2
 GO:0048523	negative regulation of cellular process	biological_process	227321	inferred	1	2876753	AN0974.2
 GO:0048608	reproductive structure development	biological_process	227321	inferred	2	2873053|2873113	AN3634.2|AN3695.2
