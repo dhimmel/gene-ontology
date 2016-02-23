@@ -14,4 +14,4 @@ The project includes a [website](http://git.dhimmel.com/gene-ontology/) for brow
 
 ## Execution
 
-`sh code/run.sh` downloads the latest input resources and rebuilds the annotation data.
+`sh code/run.sh > log.txt` downloads the latest input resources and rebuilds the annotation data.
