@@ -3,78 +3,78 @@
     [
       3702,
       "Arabidopsis thaliana",
-      4542,
-      44398,
+      4653,
+      45785,
       "annotations/taxid_3702/GO_annotations-3702-direct-expev.tsv"
     ],
     [
       6239,
       "Caenorhabditis elegans",
-      2598,
-      14190,
+      2743,
+      15123,
       "annotations/taxid_6239/GO_annotations-6239-direct-expev.tsv"
     ],
     [
       7227,
       "Drosophila melanogaster",
-      4948,
-      37605,
+      4993,
+      37822,
       "annotations/taxid_7227/GO_annotations-7227-direct-expev.tsv"
     ],
     [
       7955,
       "Danio rerio",
-      2705,
-      13191,
+      2738,
+      13419,
       "annotations/taxid_7955/GO_annotations-7955-direct-expev.tsv"
     ],
     [
       9031,
       "Gallus gallus",
-      795,
-      1627,
+      810,
+      1656,
       "annotations/taxid_9031/GO_annotations-9031-direct-expev.tsv"
     ],
     [
       9606,
       "Homo sapiens",
-      10054,
-      86254,
+      10174,
+      87092,
       "annotations/taxid_9606/GO_annotations-9606-direct-expev.tsv"
     ],
     [
       9615,
       "Canis lupus familiaris",
-      112,
-      167,
+      119,
+      175,
       "annotations/taxid_9615/GO_annotations-9615-direct-expev.tsv"
     ],
     [
       9823,
       "Sus scrofa",
-      350,
-      505,
+      367,
+      536,
       "annotations/taxid_9823/GO_annotations-9823-direct-expev.tsv"
     ],
     [
       9913,
       "Bos taurus",
-      692,
-      1437,
+      695,
+      1448,
       "annotations/taxid_9913/GO_annotations-9913-direct-expev.tsv"
     ],
     [
       10090,
       "Mus musculus",
-      10350,
-      76242,
+      10472,
+      77104,
       "annotations/taxid_10090/GO_annotations-10090-direct-expev.tsv"
     ],
     [
       10116,
       "Rattus norvegicus",
-      6922,
-      43464,
+      6976,
+      43885,
       "annotations/taxid_10116/GO_annotations-10116-direct-expev.tsv"
     ],
     [
@@ -123,7 +123,7 @@
       227321,
       "Aspergillus nidulans FGSC A4",
       61,
-      263,
+      261,
       "annotations/taxid_227321/GO_annotations-227321-direct-expev.tsv"
     ],
     [
@@ -144,21 +144,21 @@
       284812,
       "Schizosaccharomyces pombe 972h-",
       2542,
-      16030,
+      16037,
       "annotations/taxid_284812/GO_annotations-284812-direct-expev.tsv"
     ],
     [
       352472,
       "Dictyostelium discoideum AX4",
-      1063,
-      5377,
+      1071,
+      5412,
       "annotations/taxid_352472/GO_annotations-352472-direct-expev.tsv"
     ],
     [
       559292,
       "Saccharomyces cerevisiae S288c",
-      4518,
-      28826,
+      4537,
+      28914,
       "annotations/taxid_559292/GO_annotations-559292-direct-expev.tsv"
     ]
   ]

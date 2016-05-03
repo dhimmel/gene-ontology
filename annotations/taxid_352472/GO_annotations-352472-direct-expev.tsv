@@ -62,6 +62,7 @@ GO:0003677	DNA binding	molecular_function	352472	direct	8	8618603|8620676|862212
 GO:0003682	chromatin binding	molecular_function	352472	direct	1	8618603	sun1
 GO:0003700	transcription factor activity, sequence-specific DNA binding	molecular_function	352472	direct	4	8620870|8621095|8623058|8626787	stkA|gtaC|srfA|gbfA
 GO:0003723	RNA binding	molecular_function	352472	direct	3	8617403|8623868|8623892	drpp30|hcpB|hcpA
+GO:0003729	mRNA binding	molecular_function	352472	direct	1	8622225	pufA
 GO:0003746	translation elongation factor activity	molecular_function	352472	direct	2	8616783|8616922	efaAII|efaAI
 GO:0003755	peptidyl-prolyl cis-trans isomerase activity	molecular_function	352472	direct	1	8617195	cypE
 GO:0003756	protein disulfide isomerase activity	molecular_function	352472	direct	1	8620407	pdi1
@@ -115,13 +116,15 @@ GO:0004505	phenylalanine 4-monooxygenase activity	molecular_function	352472	dire
 GO:0004512	inositol-3-phosphate synthase activity	molecular_function	352472	direct	1	8625142	ino1
 GO:0004526	ribonuclease P activity	molecular_function	352472	direct	4	8617403|8622311|8624894|8626978	drpp30|drpp40|pRNA|drpp20
 GO:0004550	nucleoside diphosphate kinase activity	molecular_function	352472	direct	2	8618831|8619145	ndkC-1|ndkC-2
+GO:0004559	alpha-mannosidase activity	molecular_function	352472	direct	1	8628576	manA
 GO:0004560	alpha-L-fucosidase activity	molecular_function	352472	direct	1	8619691	alfA
+GO:0004563	beta-N-acetylhexosaminidase activity	molecular_function	352472	direct	1	8625929	nagA
 GO:0004588	orotate phosphoribosyltransferase activity	molecular_function	352472	direct	1	8622401	pyr56
 GO:0004590	orotidine-5'-phosphate decarboxylase activity	molecular_function	352472	direct	1	8622401	pyr56
 GO:0004620	phospholipase activity	molecular_function	352472	direct	1	8620697	plbA
 GO:0004630	phospholipase D activity	molecular_function	352472	direct	1	8622060	pldB
 GO:0004671	protein C-terminal S-isoprenylcysteine carboxyl O-methyltransferase activity	molecular_function	352472	direct	2	8618733|8619243	icmA-1|icmA-2
-GO:0004672	protein kinase activity	molecular_function	352472	direct	14	8616395|8618968|8619009|8620920|8621710|8622138|8624357|8624480|8625569|8625615|8626525|8626928|8628066|8628705	vwkA|spkA-1|spkA-2|dgkA|rckA|lkb1|erkB|krsA|erkA|svkA|roco4|pyk3|mhkA|atg1
+GO:0004672	protein kinase activity	molecular_function	352472	direct	15	8616395|8618968|8619009|8620920|8621710|8622138|8624159|8624357|8624480|8625569|8625615|8626525|8626928|8628066|8628705	vwkA|spkA-1|spkA-2|dgkA|rckA|lkb1|yakA|erkB|krsA|erkA|svkA|roco4|pyk3|mhkA|atg1
 GO:0004674	protein serine/threonine kinase activity	molecular_function	352472	direct	15	8616395|8616573|8617766|8618327|8618867|8619109|8620509|8620759|8622308|8624001|8624218|8625615|8626969|8627781|8628066	vwkA|pkbA|nek2|gskA|cak1-1|cak1-2|pakB|casK|mlkA|shkA|phg2|svkA|mhkB|mhkC|mhkA
 GO:0004683	calmodulin-dependent protein kinase activity	molecular_function	352472	direct	1	8627024	thyB
 GO:0004687	myosin light chain kinase activity	molecular_function	352472	direct	1	8622308	mlkA
@@ -139,6 +142,7 @@ GO:0004784	superoxide dismutase activity	molecular_function	352472	direct	2	8615
 GO:0004791	thioredoxin-disulfide reductase activity	molecular_function	352472	direct	1	8622741	trrA
 GO:0004797	thymidine kinase activity	molecular_function	352472	direct	1	8627024	thyB
 GO:0004860	protein kinase inhibitor activity	molecular_function	352472	direct	1	8617276	acbA
+GO:0004862	cAMP-dependent protein kinase inhibitor activity	molecular_function	352472	direct	1	8622094	pkaR
 GO:0004864	protein phosphatase inhibitor activity	molecular_function	352472	direct	1	8619370	dpiA
 GO:0004869	cysteine-type endopeptidase inhibitor activity	molecular_function	352472	direct	2	8622555|8628366	cpiB|cpiA
 GO:0004871	signal transducer activity	molecular_function	352472	direct	13	8616850|8617116|8618796|8618967|8619010|8619180|8619313|8620491|8621426|8623852|8624038|8624359|8625462	stlA|cf45-1|cf50-1|carA-1|carA-2|cf50-2|ctnA|gpaG|carC|rdeA|gpaA|pkaC|tagB
@@ -157,7 +161,7 @@ GO:0005388	calcium-transporting ATPase activity	molecular_function	352472	direct
 GO:0005483	soluble NSF attachment protein activity	molecular_function	352472	direct	2	8617770|8624941	snpC|snpA
 GO:0005504	fatty acid binding	molecular_function	352472	direct	2	8623443|8623444	hatA|hatB
 GO:0005509	calcium ion binding	molecular_function	352472	direct	18	8616670|8617591|8619616|8620217|8620298|8620713|8622104|8623937|8623967|8624173|8624174|8624175|8625286|8626727|8627466|8627981|8628760|8629269	abpA|cbpJ|cbpE|ncsA|cnrF|cbpA|calA|cbpD2|cbpD1|cbpF|cbpG|cbpC|cadA|cbpH|mlcB|pefA|iplA|pefB
-GO:0005515	protein binding	molecular_function	352472	direct	227	8615879|8615969|8616029|8616103|8616153|8616251|8616289|8616445|8616573|8616748|8616922|8616954|8617007|8617020|8617038|8617062|8617114|8617155|8617188|8617195|8617301|8617398|8617413|8617426|8617472|8617525|8617589|8617642|8617663|8617770|8617771|8617781|8617818|8618153|8618267|8618410|8618428|8618493|8618656|8618673|8618685|8618907|8618966|8618967|8618975|8618983|8618994|8619002|8619010|8619011|8619070|8619291|8619378|8619412|8619414|8619415|8619416|8619464|8619509|8619562|8619575|8619586|8619600|8619672|8619674|8619868|8619886|8619899|8619916|8619970|8620229|8620298|8620316|8620433|8620457|8620509|8620674|8620676|8620697|8620713|8620736|8620748|8620782|8620794|8620895|8620910|8620939|8620948|8620983|8621031|8621066|8621259|8621268|8621302|8621323|8621345|8621393|8621403|8621426|8621534|8621557|8621581|8621773|8621813|8621892|8621907|8621982|8622000|8622094|8622104|8622150|8622153|8622155|8622310|8622368|8622417|8622682|8622683|8622703|8622914|8623000|8623016|8623068|8623140|8623176|8623190|8623240|8623337|8623344|8623427|8623694|8623707|8623789|8623967|8624038|8624067|8624075|8624152|8624175|8624179|8624218|8624228|8624357|8624396|8624583|8624648|8624709|8624728|8624781|8624804|8624862|8624941|8625028|8625061|8625175|8625191|8625242|8625286|8625406|8625436|8625509|8625538|8625560|8625606|8625615|8625658|8625708|8625745|8625973|8625993|8626070|8626097|8626227|8626270|8626312|8626322|8626464|8626500|8626501|8626502|8626591|8626671|8626776|8626797|8626817|8626890|8626916|8626928|8626945|8626983|8627026|8627033|8627096|8627162|8627179|8627181|8627183|8627198|8627199|8627260|8627289|8627300|8627357|8627511|8627718|8627980|8627981|8627995|8628066|8628077|8628392|8628436|8628763|8628863|8628895|8628919|8628929|8629023|8629034|8629062|8629071|8629131|8629223|8629269|8629273|8629388|8629445	ChLim|ancA|icpA|cnbA|corA|abiA|hspD|acpA|pkbA|rac1B|efaAI|nxnA|snwA|racF1|gapA|gxcT|tubB|racH|pakA|cypE|racG|fttB|fpaA|mekA|adcC|rab11A|hspB|abpC|act8|snpC|wipA|numA|proC|rapgap1|p2xA|acpB|act16|act15|cdk1|ppr2|adrm1-1|vatD-1|mip1-1|carA-1|abpE-1|ap2a1-1|ap2a1-2|abpE-2|carA-2|mip1-2|vatD-2|adrm1-2|myoK|act20|act21|act19|act6|vatH|gpgA|act14|act9|act13|myoI|act12|act2|limF|gpbB|zizA|act22|syn8A|DDB_G0275459|cnrF|nsfA|gpaB|dhcA|pakB|canA|cotB|plbA|cbpA|ctxB|fbxA|pspB|cotA|vamp7B|chcA|apm2|gpbA|cotC|piaA|clc|racI|gxcA|elmoA|dymA|arcA|cotE|rac1A|carC|apm3|clmA|ndrA|mobA|empC|ap1b1|hspc300|vacB|aurK|pkaR|calA|racB|elmoE|forA|abcB4|osbA|dynD|tgrC1|tgrB1|act7|psmA4|racE|rab14|rasC|cfaD|aprA|rpl19|tor|ap1g1|cyrA|ptpC|midA|rac1C|arcB|cbpD1|gpaA|rhgA|gpaI|rasS|cbpC|eb1|phg2|rpkA|erkB|rnrA|regA|gpaH|docD|ripA|ndrC|gxcC|vamp7A|snpA|scrA|splB|rps15|forH|gpaD|cadA|repE|ku70|sumo|proB|ku80|mhcA|svkA|rplP0|tsg101|rab21|vatA|proA|DDB_G0287325|sibA|rgaA|syn7A|tubA|pirA|sibB|sibC|sibD|sibE|lis1|sadA|cdk5|cap|darA|act11|act4|pyk3|smkA|myoB|arfA|apm1|sevA|ctxA|act3|vacA|vasP|act1|arkA|gefQ|ap2s1|act5|act10|tom1|talA|rdiA|pefA|gnrA|mhkA|rapA|vatM|docC|lst8|mobB|DDB_G0292836|racL|vti1A|rasB|zizB|rasD|rps3|pcp|rasG|pefB|racC|dstC|wasA
+GO:0005515	protein binding	molecular_function	352472	direct	229	8615879|8615969|8616029|8616103|8616153|8616251|8616289|8616445|8616573|8616748|8616922|8616954|8617007|8617020|8617038|8617062|8617114|8617155|8617188|8617195|8617301|8617398|8617413|8617426|8617472|8617525|8617589|8617642|8617663|8617770|8617771|8617781|8617818|8618153|8618267|8618410|8618428|8618493|8618656|8618673|8618685|8618907|8618966|8618967|8618975|8618983|8618994|8619002|8619010|8619011|8619070|8619291|8619378|8619412|8619414|8619415|8619416|8619464|8619509|8619562|8619575|8619586|8619600|8619672|8619674|8619868|8619886|8619899|8619916|8619970|8620229|8620298|8620316|8620433|8620457|8620509|8620674|8620676|8620697|8620713|8620736|8620748|8620782|8620794|8620895|8620910|8620939|8620948|8620983|8621031|8621066|8621259|8621268|8621302|8621323|8621345|8621393|8621403|8621426|8621534|8621557|8621581|8621773|8621813|8621892|8621907|8621982|8622000|8622094|8622104|8622150|8622153|8622155|8622310|8622368|8622417|8622682|8622683|8622703|8622914|8623000|8623016|8623068|8623140|8623176|8623190|8623240|8623337|8623344|8623427|8623694|8623707|8623789|8623967|8624038|8624067|8624075|8624152|8624175|8624179|8624218|8624228|8624357|8624359|8624396|8624583|8624648|8624709|8624728|8624781|8624804|8624862|8624941|8625028|8625061|8625175|8625191|8625242|8625286|8625406|8625436|8625509|8625538|8625560|8625606|8625615|8625658|8625708|8625745|8625973|8625993|8626070|8626097|8626175|8626227|8626270|8626312|8626322|8626464|8626500|8626501|8626502|8626591|8626671|8626776|8626797|8626817|8626890|8626916|8626928|8626945|8626983|8627026|8627033|8627096|8627162|8627179|8627181|8627183|8627198|8627199|8627260|8627289|8627300|8627357|8627511|8627718|8627980|8627981|8627995|8628066|8628077|8628392|8628436|8628763|8628863|8628895|8628919|8628929|8629023|8629034|8629062|8629071|8629131|8629223|8629269|8629273|8629388|8629445	ChLim|ancA|icpA|cnbA|corA|abiA|hspD|acpA|pkbA|rac1B|efaAI|nxnA|snwA|racF1|gapA|gxcT|tubB|racH|pakA|cypE|racG|fttB|fpaA|mekA|adcC|rab11A|hspB|abpC|act8|snpC|wipA|numA|proC|rapgap1|p2xA|acpB|act16|act15|cdk1|ppr2|adrm1-1|vatD-1|mip1-1|carA-1|abpE-1|ap2a1-1|ap2a1-2|abpE-2|carA-2|mip1-2|vatD-2|adrm1-2|myoK|act20|act21|act19|act6|vatH|gpgA|act14|act9|act13|myoI|act12|act2|limF|gpbB|zizA|act22|syn8A|DDB_G0275459|cnrF|nsfA|gpaB|dhcA|pakB|canA|cotB|plbA|cbpA|ctxB|fbxA|pspB|cotA|vamp7B|chcA|apm2|gpbA|cotC|piaA|clc|racI|gxcA|elmoA|dymA|arcA|cotE|rac1A|carC|apm3|clmA|ndrA|mobA|empC|ap1b1|hspc300|vacB|aurK|pkaR|calA|racB|elmoE|forA|abcB4|osbA|dynD|tgrC1|tgrB1|act7|psmA4|racE|rab14|rasC|cfaD|aprA|rpl19|tor|ap1g1|cyrA|ptpC|midA|rac1C|arcB|cbpD1|gpaA|rhgA|gpaI|rasS|cbpC|eb1|phg2|rpkA|erkB|pkaC|rnrA|regA|gpaH|docD|ripA|ndrC|gxcC|vamp7A|snpA|scrA|splB|rps15|forH|gpaD|cadA|repE|ku70|sumo|proB|ku80|mhcA|svkA|rplP0|tsg101|rab21|vatA|proA|DDB_G0287325|sibA|talB|rgaA|syn7A|tubA|pirA|sibB|sibC|sibD|sibE|lis1|sadA|cdk5|cap|darA|act11|act4|pyk3|smkA|myoB|arfA|apm1|sevA|ctxA|act3|vacA|vasP|act1|arkA|gefQ|ap2s1|act5|act10|tom1|talA|rdiA|pefA|gnrA|mhkA|rapA|vatM|docC|lst8|mobB|DDB_G0292836|racL|vti1A|rasB|zizB|rasD|rps3|pcp|rasG|pefB|racC|dstC|wasA
 GO:0005516	calmodulin binding	molecular_function	352472	direct	10	8616395|8617781|8620674|8623318|8623344|8625286|8626225|8626485|8626776|8627024	vwkA|numA|canA|dwwA|cyrA|cadA|pgkA|cmbB|cdk5|thyB
 GO:0005522	profilin binding	molecular_function	352472	direct	6	8618975|8619002|8619378|8621323|8625191|8627319	abpE-1|abpE-2|myoK|dymA|forH|forF
 GO:0005524	ATP binding	molecular_function	352472	direct	14	8618267|8618327|8618367|8618520|8618656|8618831|8619145|8620457|8620920|8624633|8625606|8626154|8626753|8626983	p2xA|gskA|myoJ|sgkA|cdk1|ndkC-1|ndkC-2|dhcA|dgkA|sgkB|mhcA|pyrK|myoE|myoB
@@ -182,7 +186,7 @@ GO:0005737	cytoplasm	cellular_component	352472	direct	125	8615907|8615992|861618
 GO:0005739	mitochondrion	cellular_component	352472	direct	13	8616360|8620151|8620362|8620447|8620840|8622197|8622301|8622540|8623694|8625616|8625984|8626508|8626532	gabT|DDB_G0275625|recA|torA|trap1|DDB_G0279743|ndkM|cypD|midA|DDB_G0286429|5NT|hspA|aif
 GO:0005741	mitochondrial outer membrane	cellular_component	352472	direct	3	8616148|8618176|8621653	gemA|porA|dymB
 GO:0005759	mitochondrial matrix	cellular_component	352472	direct	3	8617631|8621210|8626796	fszB|fszA|mppB
-GO:0005764	lysosome	cellular_component	352472	direct	10	8616279|8616852|8617155|8617356|8618070|8619691|8622052|8623016|8626150|8628392	lmpA|rab7A|racH|tpp1|lvsB|alfA|ctsD|rab14|secG|vatM
+GO:0005764	lysosome	cellular_component	352472	direct	13	8616279|8616852|8617155|8617356|8618070|8619691|8622052|8623016|8625929|8626150|8628392|8628576|8628946	lmpA|rab7A|racH|tpp1|lvsB|alfA|ctsD|rab14|nagA|secG|vatM|manA|gluA
 GO:0005765	lysosomal membrane	cellular_component	352472	direct	2	8624862|8629029	vamp7A|DDB_G0293074
 GO:0005768	endosome	cellular_component	352472	direct	12	8619970|8619990|8620084|8620152|8620895|8624067|8624228|8624862|8626270|8627224|8628601|8628929	syn8A|vps32|abcG2|alxA|vamp7B|rhgA|rpkA|vamp7A|syn7A|comA|rab2A|vti1A
 GO:0005769	early endosome	cellular_component	352472	direct	2	8617013|8626097	fcsA|sibA
@@ -204,7 +208,7 @@ GO:0005829	cytosol	cellular_component	352472	direct	77	8615879|8616289|8616412|8
 GO:0005834	heterotrimeric G-protein complex	cellular_component	352472	direct	3	8619509|8620433|8620948	gpgA|gpaB|gpbA
 GO:0005840	ribosome	cellular_component	352472	direct	2	8618831|8619145	ndkC-1|ndkC-2
 GO:0005856	cytoskeleton	cellular_component	352472	direct	6	8617188|8618592|8618831|8619145|8622170|8625606	pakA|rps4|ndkC-1|ndkC-2|gxcDD|mhcA
-GO:0005868	cytoplasmic dynein complex	cellular_component	352472	direct	1	8620457	dhcA
+GO:0005868	cytoplasmic dynein complex	cellular_component	352472	direct	2	8620457|8622777	dhcA|dicA
 GO:0005874	microtubule	cellular_component	352472	direct	5	8617352|8620457|8624179|8625085|8626312	psaA|dhcA|eb1|atg9|tubA
 GO:0005876	spindle microtubule	cellular_component	352472	direct	1	8627935	kif11
 GO:0005881	cytoplasmic microtubule	cellular_component	352472	direct	1	8616256	tsuA
@@ -250,7 +254,7 @@ GO:0006390	transcription from mitochondrial promoter	biological_process	352472	d
 GO:0006412	translation	biological_process	352472	direct	4	8616783|8616922|8622562|8626305	efaAII|efaAI|pelo|cinC
 GO:0006414	translational elongation	biological_process	352472	direct	4	8616783|8616922|8618831|8619145	efaAII|efaAI|ndkC-1|ndkC-2
 GO:0006417	regulation of translation	biological_process	352472	direct	1	8618652	ifkA
-GO:0006468	protein phosphorylation	biological_process	352472	direct	22	8616395|8616412|8616573|8617766|8618327|8618652|8618656|8620347|8620509|8620759|8621710|8622946|8623302|8624218|8624480|8625569|8625615|8626776|8626928|8627024|8627509|8628066	vwkA|cdk8|pkbA|nek2|gskA|ifkA|cdk1|zakA|pakB|casK|rckA|dhkA|drkC|phg2|krsA|erkA|svkA|cdk5|pyk3|thyB|pkgB|mhkA
+GO:0006468	protein phosphorylation	biological_process	352472	direct	24	8616395|8616412|8616573|8617766|8618327|8618652|8618656|8620347|8620509|8620759|8621710|8622946|8623302|8624159|8624218|8624359|8624480|8625569|8625615|8626776|8626928|8627024|8627509|8628066	vwkA|cdk8|pkbA|nek2|gskA|ifkA|cdk1|zakA|pakB|casK|rckA|dhkA|drkC|yakA|phg2|pkaC|krsA|erkA|svkA|cdk5|pyk3|thyB|pkgB|mhkA
 GO:0006469	negative regulation of protein kinase activity	biological_process	352472	direct	1	8617276	acbA
 GO:0006470	protein dephosphorylation	biological_process	352472	direct	6	8616103|8617360|8620309|8620674|8621380|8624194	cnbA|mpl1|spnA|canA|ptpB|pppA
 GO:0006477	protein sulfation	biological_process	352472	direct	1	8615979	kil1
@@ -314,6 +318,8 @@ GO:0007032	endosome organization	biological_process	352472	direct	4	8617060|8621
 GO:0007033	vacuole organization	biological_process	352472	direct	1	8620910	chcA
 GO:0007040	lysosome organization	biological_process	352472	direct	2	8618070|8619990	lvsB|vps32
 GO:0007041	lysosomal transport	biological_process	352472	direct	3	8618070|8620910|8627033	lvsB|chcA|apm1
+GO:0007051	spindle organization	biological_process	352472	direct	1	8626583	kif13
+GO:0007052	mitotic spindle organization	biological_process	352472	direct	1	8625028	scrA
 GO:0007059	chromosome segregation	biological_process	352472	direct	2	8616029|8626312	icpA|tubA
 GO:0007067	mitotic nuclear division	biological_process	352472	direct	2	8616029|8619508	icpA|kif9
 GO:0007088	regulation of mitotic nuclear division	biological_process	352472	direct	1	8617781	numA
@@ -323,7 +329,7 @@ GO:0007156	homophilic cell adhesion via plasma membrane adhesion molecules	biolo
 GO:0007157	heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules	biological_process	352472	direct	2	8622682|8622683	tgrC1|tgrB1
 GO:0007162	negative regulation of cell adhesion	biological_process	352472	direct	1	8619313	ctnA
 GO:0007163	establishment or maintenance of cell polarity	biological_process	352472	direct	15	8615885|8616450|8617996|8618153|8618975|8619002|8620509|8621323|8623068|8623739|8623871|8625329|8626797|8626817|8627976	pakC|sahA|lrrA|rapgap1|abpE-1|abpE-2|pakB|dymA|rasC|gbpD|sodC|phdA|cap|darA|gbpC
-GO:0007165	signal transduction	biological_process	352472	direct	20	8616850|8617116|8618327|8618796|8619180|8619313|8619384|8619742|8619877|8620347|8622960|8623068|8624038|8624228|8624359|8624480|8625462|8626211|8626432|8626945	stlA|cf45-1|gskA|cf50-1|cf50-2|ctnA|acgA|pdeD|p2xB|zakA|crlA|rasC|gpaA|rpkA|pkaC|krsA|tagB|smlA|p2xE|smkA
+GO:0007165	signal transduction	biological_process	352472	direct	18	8616850|8617116|8618327|8618796|8619180|8619313|8619384|8619742|8620347|8622960|8623068|8624038|8624228|8624359|8624480|8625462|8626211|8626945	stlA|cf45-1|gskA|cf50-1|cf50-2|ctnA|acgA|pdeD|zakA|crlA|rasC|gpaA|rpkA|pkaC|krsA|tagB|smlA|smkA
 GO:0007166	cell surface receptor signaling pathway	biological_process	352472	direct	1	8624357	erkB
 GO:0007186	G-protein coupled receptor signaling pathway	biological_process	352472	direct	9	8618831|8619145|8621687|8623924|8624038|8624228|8624357|8625513|8625569	ndkC-1|ndkC-2|pikA|pikB|gpaA|rpkA|erkB|gpaE|erkA
 GO:0007188	adenylate cyclase-modulating G-protein coupled receptor signaling pathway	biological_process	352472	direct	6	8620433|8620948|8623068|8624989|8625716|8629223	gpaB|gpbA|rasC|dagA|pten|rasG
@@ -337,7 +343,7 @@ GO:0007234	osmosensory signaling via phosphorelay pathway	biological_process	352
 GO:0007260	tyrosine phosphorylation of STAT protein	biological_process	352472	direct	3	8624218|8625061|8626928	phg2|splB|pyk3
 GO:0007264	small GTPase mediated signal transduction	biological_process	352472	direct	3	8617525|8618918|8619059	rab11A|qkgA-1|qkgA-2
 GO:0007265	Ras protein signal transduction	biological_process	352472	direct	5	8619425|8623068|8624571|8627260|8629223	gefR|rasC|gefA|gefQ|rasG
-GO:0007275	multicellular organismal development	biological_process	352472	direct	19	8617227|8618327|8619313|8620152|8620840|8621710|8624635|8624999|8625108|8625109|8625462|8626106|8626211|8626787|8627033|8627199|8627348|8629062|8629388	gefB|gskA|ctnA|alxA|trap1|rckA|cudA|fadA|dia1|impA|tagB|abpD|smlA|gbfA|apm1|arkA|cupB|rasD|dstC
+GO:0007275	multicellular organism development	biological_process	352472	direct	19	8617227|8618327|8619313|8620152|8620840|8621710|8624635|8624999|8625108|8625109|8625462|8626106|8626211|8626787|8627033|8627199|8627348|8629062|8629388	gefB|gskA|ctnA|alxA|trap1|rckA|cudA|fadA|dia1|impA|tagB|abpD|smlA|gbfA|apm1|arkA|cupB|rasD|dstC
 GO:0007346	regulation of mitotic cell cycle	biological_process	352472	direct	1	8624704	gcsA
 GO:0007389	pattern specification process	biological_process	352472	direct	1	8620026	ampA
 GO:0007588	excretion	biological_process	352472	direct	3	8616194|8621061|8621332	amtC|amtA|amtB
@@ -411,9 +417,9 @@ GO:0010009	cytoplasmic side of endosome membrane	cellular_component	352472	direc
 GO:0010230	alternative respiration	biological_process	352472	direct	1	8621802	aoxA
 GO:0010314	phosphatidylinositol-5-phosphate binding	molecular_function	352472	direct	1	8624228	rpkA
 GO:0010389	regulation of G2/M transition of mitotic cell cycle	biological_process	352472	direct	1	8627717	rblA
-GO:0010447	response to acidic pH	biological_process	352472	direct	1	8623444	hatB
+GO:0010447	response to acidic pH	biological_process	352472	direct	3	8619384|8623247|8623444	acgA|acaA|hatB
 GO:0010467	gene expression	biological_process	352472	direct	4	8616153|8622060|8622474|8626103	corA|pldB|allC|forC
-GO:0010468	regulation of gene expression	biological_process	352472	direct	7	8619872|8622094|8623045|8623759|8625286|8626797|8626891	cmfA|pkaR|dstA|amiB|cadA|cap|aarA
+GO:0010468	regulation of gene expression	biological_process	352472	direct	8	8619872|8622094|8623045|8623759|8624159|8625286|8626797|8626891	cmfA|pkaR|dstA|amiB|yakA|cadA|cap|aarA
 GO:0010507	negative regulation of autophagy	biological_process	352472	direct	1	8623694	midA
 GO:0010586	miRNA metabolic process	biological_process	352472	direct	3	8616269|8622843|8627305	drnB|rrpC|rrpA
 GO:0010587	miRNA catabolic process	biological_process	352472	direct	1	8622843	rrpC
@@ -487,6 +493,7 @@ GO:0017064	fatty acid amide hydrolase activity	molecular_function	352472	direct	
 GO:0017112	Rab guanyl-nucleotide exchange factor activity	molecular_function	352472	direct	1	8617525	rab11A
 GO:0017124	SH3 domain binding	molecular_function	352472	direct	1	8617747	rzpA
 GO:0017137	Rab GTPase binding	molecular_function	352472	direct	3	8617341|8618267|8622804	phgA|p2xA|DDB_G0280955
+GO:0017148	negative regulation of translation	biological_process	352472	direct	1	8622225	pufA
 GO:0017160	Ral GTPase binding	molecular_function	352472	direct	1	8628077	rapA
 GO:0018106	peptidyl-histidine phosphorylation	biological_process	352472	direct	1	8622946	dhkA
 GO:0018107	peptidyl-threonine phosphorylation	biological_process	352472	direct	5	8616395|8618327|8626969|8627781|8628066	vwkA|gskA|mhkB|mhkC|mhkA
@@ -523,7 +530,7 @@ GO:0030027	lamellipodium	cellular_component	352472	direct	4	8616783|8616922|8621
 GO:0030036	actin cytoskeleton organization	biological_process	352472	direct	16	8617642|8618592|8618831|8618968|8619009|8619145|8621687|8622514|8623068|8623817|8623924|8624001|8626150|8626227|8627980|8628076	abpC|rps4|ndkC-1|spkA-1|spkA-2|ndkC-2|pikA|rab8A|rasC|sglA|pikB|shkA|secG|rgaA|rdiA|frmA
 GO:0030038	contractile actin filament bundle assembly	biological_process	352472	direct	1	8625606	mhcA
 GO:0030041	actin filament polymerization	biological_process	352472	direct	19	8617150|8617771|8618441|8619313|8620026|8620198|8620433|8620474|8622150|8622153|8622155|8623443|8623789|8624405|8624709|8625329|8626692|8627183|8627319	pakD|wipA|arpB|ctnA|ampA|nhe1|gpaB|myoG|racB|elmoE|forA|hatA|arcB|efa1B|docD|phdA|DDB_G0288569|vasP|forF
-GO:0030042	actin filament depolymerization	biological_process	352472	direct	2	8618702|8619274	cofC-1|cofC-2
+GO:0030042	actin filament depolymerization	biological_process	352472	direct	3	8618702|8619274|8628452	cofC-1|cofC-2|cofB
 GO:0030043	actin filament fragmentation	biological_process	352472	direct	1	8627096	sevA
 GO:0030046	parallel actin filament bundle assembly	biological_process	352472	direct	1	8621868	abpB
 GO:0030104	water homeostasis	biological_process	352472	direct	1	8619384	acgA
@@ -559,11 +566,11 @@ GO:0030435	sporulation resulting in formation of a cellular spore	biological_pro
 GO:0030472	mitotic spindle organization in nucleus	biological_process	352472	direct	1	8616029	icpA
 GO:0030488	tRNA methylation	biological_process	352472	direct	1	8626430	dnmA
 GO:0030496	midbody	cellular_component	352472	direct	2	8616448|8626286	kif12|mad1
-GO:0030552	cAMP binding	molecular_function	352472	direct	5	8618967|8619010|8621426|8622094|8626513	carA-1|carA-2|carC|pkaR|carB
+GO:0030552	cAMP binding	molecular_function	352472	direct	9	8618720|8618967|8619010|8619256|8621423|8621426|8622094|8625393|8626513	capA-1|carA-1|carA-2|capA-2|carD|carC|pkaR|pdsA|carB
 GO:0030553	cGMP binding	molecular_function	352472	direct	1	8627976	gbpC
 GO:0030554	adenyl nucleotide binding	molecular_function	352472	direct	1	8625606	mhcA
 GO:0030561	RNA 2'-O-ribose methylation guide activity	molecular_function	352472	direct	1	8623026	sno1
-GO:0030587	sorocarp development	biological_process	352472	direct	154	8615887|8615915|8615943|8616407|8616482|8616670|8616954|8617062|8617356|8617413|8617426|8617441|8617524|8617604|8617642|8617698|8617774|8617780|8617799|8617821|8617886|8618048|8618109|8618200|8618425|8618814|8618928|8618931|8618976|8619001|8619046|8619049|8619162|8619350|8619363|8619433|8619461|8619522|8619701|8619714|8619747|8619825|8619835|8619886|8619939|8620001|8620026|8620217|8620359|8620391|8620463|8620464|8620474|8620547|8620736|8620980|8621031|8621061|8621248|8621302|8621440|8621503|8621605|8621623|8621724|8621809|8622170|8622385|8622574|8622658|8622946|8623000|8623045|8623129|8623197|8623244|8623381|8623483|8623540|8623591|8623817|8623852|8623888|8623998|8624008|8624035|8624036|8624065|8624159|8624228|8624571|8624583|8624684|8624704|8624915|8624977|8624989|8625061|8625286|8625329|8625462|8625513|8625538|8625560|8625569|8625585|8625708|8625916|8625993|8626071|8626175|8626227|8626369|8626389|8626540|8626589|8626701|8626787|8626928|8626958|8626962|8626981|8627080|8627260|8627274|8627395|8627509|8627653|8627718|8627994|8628077|8628104|8628117|8628181|8628187|8628296|8628351|8628424|8628431|8628543|8628576|8628596|8628601|8628609|8628705|8629034|8629095|8629146|8629180|8629181|8629269|8629357|8629388|8629523	DDB_G0268266|dicB|cybA|gefV|acrA|abpA|nxnA|gxcT|tpp1|fpaA|mekA|mgp2|atg6A|gtaG|abpC|psmC1|med23|tcp1|atg7|yod1|abcA7|lvsD|grlA|rtoA|grlJ|fip-1|fpaB-1|cblA-1|DDB_G0273459|DDB_G0273515|cblA-2|fpaB-2|fip-2|DG1124|gnt15|ggtA|abcA5|sfbA|dhkC|DDB_G0274177|vatP|dmpA|pks17|gpbB|tipD|7E|ampA|ncsA|mlcR|DDB_G0276251|gefL|tipB|myoG|sepA|ctxB|DDB_G0277165|piaA|amtA|mlcE|elmoA|clcD|DDB_G0278333|alp|DG1105|DDB_G0278945|dimA|gxcDD|yelA|psrA|comH|dhkA|racE|dstA|comE|tipA|helC|DDB_G0282093|rapgapB|ppiA|DDB_G0282463|sglA|rdeA|DDB_G0283015|eppA|migA|mkkA|comD|splA|yakA|rpkA|gefA|regA|DDB_G0284619|gcsA|DDB_G0285083|gacT|dagA|splB|cadA|phdA|tagB|gpaE|proB|ku80|erkA|padA|tsg101|noxB|proA|prmt5|talB|rgaA|DG1037|cnrN|mkpA|roco5|DDB_G0288581|gbfA|pyk3|csaA|spiA|pde4|DDB_G0289377|gefQ|noxA|atg5|pkgB|usp12|talA|noxC|rapA|psenA|dimB|mfeA|ctrA|abcB3|adprt3|DDB_G0291926|culA|DDB_G0292162|manA|comG|rab2A|psenB|atg1|zizB|DG1098|DDB_G0293302|hssB|hssA|pefB|ponA|dstC|redA
+GO:0030587	sorocarp development	biological_process	352472	direct	155	8615887|8615915|8615943|8616407|8616482|8616670|8616954|8617062|8617356|8617413|8617426|8617441|8617524|8617604|8617642|8617698|8617774|8617780|8617799|8617821|8617886|8618048|8618109|8618200|8618425|8618814|8618928|8618931|8618976|8619001|8619046|8619049|8619162|8619350|8619363|8619433|8619461|8619522|8619701|8619714|8619747|8619825|8619835|8619886|8619939|8620001|8620026|8620217|8620359|8620391|8620463|8620464|8620474|8620547|8620736|8620980|8621031|8621061|8621248|8621302|8621440|8621503|8621605|8621623|8621724|8621809|8622170|8622225|8622385|8622574|8622658|8622946|8623000|8623045|8623129|8623197|8623244|8623381|8623483|8623540|8623591|8623817|8623852|8623888|8623998|8624008|8624035|8624036|8624065|8624159|8624228|8624571|8624583|8624684|8624704|8624915|8624977|8624989|8625061|8625286|8625329|8625462|8625513|8625538|8625560|8625569|8625585|8625708|8625916|8625993|8626071|8626175|8626227|8626369|8626389|8626540|8626589|8626701|8626787|8626928|8626958|8626962|8626981|8627080|8627260|8627274|8627395|8627509|8627653|8627718|8627994|8628077|8628104|8628117|8628181|8628187|8628296|8628351|8628424|8628431|8628543|8628576|8628596|8628601|8628609|8628705|8629034|8629095|8629146|8629180|8629181|8629269|8629357|8629388|8629523	DDB_G0268266|dicB|cybA|gefV|acrA|abpA|nxnA|gxcT|tpp1|fpaA|mekA|mgp2|atg6A|gtaG|abpC|psmC1|med23|tcp1|atg7|yod1|abcA7|lvsD|grlA|rtoA|grlJ|fip-1|fpaB-1|cblA-1|DDB_G0273459|DDB_G0273515|cblA-2|fpaB-2|fip-2|DG1124|gnt15|ggtA|abcA5|sfbA|dhkC|DDB_G0274177|vatP|dmpA|pks17|gpbB|tipD|7E|ampA|ncsA|mlcR|DDB_G0276251|gefL|tipB|myoG|sepA|ctxB|DDB_G0277165|piaA|amtA|mlcE|elmoA|clcD|DDB_G0278333|alp|DG1105|DDB_G0278945|dimA|gxcDD|pufA|yelA|psrA|comH|dhkA|racE|dstA|comE|tipA|helC|DDB_G0282093|rapgapB|ppiA|DDB_G0282463|sglA|rdeA|DDB_G0283015|eppA|migA|mkkA|comD|splA|yakA|rpkA|gefA|regA|DDB_G0284619|gcsA|DDB_G0285083|gacT|dagA|splB|cadA|phdA|tagB|gpaE|proB|ku80|erkA|padA|tsg101|noxB|proA|prmt5|talB|rgaA|DG1037|cnrN|mkpA|roco5|DDB_G0288581|gbfA|pyk3|csaA|spiA|pde4|DDB_G0289377|gefQ|noxA|atg5|pkgB|usp12|talA|noxC|rapA|psenA|dimB|mfeA|ctrA|abcB3|adprt3|DDB_G0291926|culA|DDB_G0292162|manA|comG|rab2A|psenB|atg1|zizB|DG1098|DDB_G0293302|hssB|hssA|pefB|ponA|dstC|redA
 GO:0030639	polyketide biosynthetic process	biological_process	352472	direct	2	8616850|8627855	stlA|stlB
 GO:0030659	cytoplasmic vesicle membrane	cellular_component	352472	direct	1	8628760	iplA
 GO:0030660	Golgi-associated vesicle membrane	cellular_component	352472	direct	1	8627224	comA
@@ -585,7 +592,7 @@ GO:0030838	positive regulation of actin filament polymerization	biological_proce
 GO:0030863	cortical cytoskeleton	cellular_component	352472	direct	4	8615879|8616153|8621868|8627199	ChLim|corA|abpB|arkA
 GO:0030864	cortical actin cytoskeleton	cellular_component	352472	direct	32	8616868|8617642|8617663|8618428|8618493|8618814|8618975|8619002|8619162|8619412|8619414|8619415|8619416|8619562|8619575|8619586|8619672|8619674|8619916|8620445|8620840|8622083|8622153|8622703|8624278|8626103|8626890|8626916|8627179|8627198|8627300|8627357	corB|abpC|act8|act16|act15|fip-1|abpE-1|abpE-2|fip-2|act20|act21|act19|act6|act14|act9|act13|act12|act2|act22|kif5|trap1|limE|elmoE|act7|arpC|forC|act11|act4|act3|act1|act5|act10
 GO:0030865	cortical cytoskeleton organization	biological_process	352472	direct	2	8617398|8623000	fttB|racE
-GO:0030866	cortical actin cytoskeleton organization	biological_process	352472	direct	8	8616868|8617227|8620736|8624152|8624276|8625606|8625745|8627162	corB|gefB|ctxB|rasS|dct|mhcA|rab21|ctxA
+GO:0030866	cortical actin cytoskeleton organization	biological_process	352472	direct	10	8616868|8617227|8619378|8620736|8622155|8624152|8624276|8625606|8625745|8627162	corB|gefB|myoK|ctxB|forA|rasS|dct|mhcA|rab21|ctxA
 GO:0030867	rough endoplasmic reticulum membrane	cellular_component	352472	direct	1	8627224	comA
 GO:0030898	actin-dependent ATPase activity	molecular_function	352472	direct	7	8618367|8620359|8621248|8622308|8625606|8626753|8626983	myoJ|mlcR|mlcE|mlkA|mhcA|myoE|myoB
 GO:0030950	establishment or maintenance of actin cytoskeleton polarity	biological_process	352472	direct	1	8629445	wasA
@@ -612,7 +619,7 @@ GO:0031150	sorocarp stalk development	biological_process	352472	direct	4	8617212
 GO:0031151	histone methyltransferase activity (H3-K79 specific)	molecular_function	352472	direct	1	8618027	dotA
 GO:0031152	aggregation involved in sorocarp development	biological_process	352472	direct	101	8615933|8616153|8616268|8616289|8616412|8616485|8616704|8616748|8616850|8617116|8617150|8617187|8617188|8617227|8617472|8617619|8617747|8617996|8618108|8618266|8618327|8618441|8618652|8618901|8618966|8618967|8618975|8619002|8619010|8619011|8619076|8619663|8619742|8619825|8620064|8620084|8620128|8620433|8620447|8620509|8620686|8620713|8620736|8620910|8620948|8621031|8621095|8621268|8621380|8621426|8621626|8621781|8621892|8622125|8622150|8622170|8622253|8622474|8622658|8622682|8622683|8623068|8623759|8623792|8623871|8624357|8624409|8624480|8624571|8624586|8624728|8624865|8624973|8624989|8625085|8625329|8625393|8625569|8625585|8625606|8625716|8625827|8626389|8626659|8626767|8626776|8626797|8626817|8626958|8627040|8627162|8627189|8627252|8628106|8628204|8628675|8628760|8628763|8628979|8629029|8629223	sodA|corA|krsB|hspD|cdk8|Dd5P4|pykA|rac1B|stlA|cf45-1|pakD|abcG22|pakA|gefB|adcC|abcG19|rzpA|lrrA|grlB|egeA|gskA|arpB|ifkA|comF-1|mip1-1|carA-1|abpE-1|abpE-2|carA-2|mip1-2|comF-2|adcB|pdeD|dmpA|mybB|abcG2|dio3|gpaB|torA|pakB|racF2|cbpA|ctxB|chcA|gpbA|piaA|gtaC|gxcA|ptpB|carC|plaA|adprt1A|ap1b1|cbfA|racB|gxcDD|ctnB|allC|comH|tgrC1|tgrB1|rasC|amiB|srfB|sodC|erkB|abcF2|krsA|gefA|dng1|ripA|limB|vmp1|dagA|atg9|phdA|pdsA|erkA|padA|mhcA|pten|tgrD1|cnrN|pikD|gadB|cdk5|cap|darA|csaA|set1|ctxA|srsA|abcG7|grlE|dia2|triA|iplA|lst8|abcG10|DDB_G0293074|rasG
 GO:0031153	slug development involved in sorocarp development	biological_process	352472	direct	13	8616213|8618425|8618569|8620001|8620123|8620421|8620676|8622760|8624976|8625085|8625569|8626525|8627842	pspA|grlJ|hbx4|7E|DDB_G0275747|expl3|cotB|2C|abcC9|atg9|erkA|roco4|DDB_G0290835
-GO:0031154	culmination involved in sorocarp development	biological_process	352472	direct	70	8616194|8616380|8617276|8617747|8617758|8617996|8618070|8618200|8618327|8618618|8619466|8619939|8620001|8620464|8620748|8621066|8621207|8621274|8621423|8621449|8621554|8621597|8622088|8622299|8622368|8622499|8622603|8622658|8622741|8622760|8623045|8623058|8623096|8623169|8623197|8623311|8623312|8623335|8623359|8623408|8623694|8624036|8624359|8624455|8624635|8624816|8624865|8624991|8625391|8625606|8626103|8626150|8626227|8626236|8626345|8626430|8626513|8626569|8626891|8626962|8627099|8627100|8627436|8628067|8628204|8628675|8628745|8629014|8629193|8629215	amtC|tipC|acbA|rzpA|ecmB|lrrA|lvsB|rtoA|gskA|gsr|paxB|tipD|7E|tipB|fbxA|clc|phyA|ugpB|carD|ecmA|rsc12|dhkK|bzpF|DDB_G0279945|osbA|abcC2|abcC13|comH|trrA|2C|dstA|srfA|abcG5|mybC|tipA|comB|DDB_G0281917|mybE|ahhA|abcG24|midA|comD|pkaC|DDB_G0284177|cudA|abcC8|limB|dutA|abcF1|mhcA|forC|secG|rgaA|abcC6|abcC3|dnmA|carB|expl7|aarA|spiA|abcG16|dmtA|grxA|ecmF|dia2|triA|abcB5|cpnA|sigB|abcB1
+GO:0031154	culmination involved in sorocarp development	biological_process	352472	direct	71	8616194|8616380|8617276|8617747|8617758|8617996|8618070|8618200|8618327|8618618|8619466|8619939|8620001|8620464|8620748|8621066|8621207|8621274|8621423|8621449|8621554|8621597|8622088|8622094|8622299|8622368|8622499|8622603|8622658|8622741|8622760|8623045|8623058|8623096|8623169|8623197|8623311|8623312|8623335|8623359|8623408|8623694|8624036|8624359|8624455|8624635|8624816|8624865|8624991|8625391|8625606|8626103|8626150|8626227|8626236|8626345|8626430|8626513|8626569|8626891|8626962|8627099|8627100|8627436|8628067|8628204|8628675|8628745|8629014|8629193|8629215	amtC|tipC|acbA|rzpA|ecmB|lrrA|lvsB|rtoA|gskA|gsr|paxB|tipD|7E|tipB|fbxA|clc|phyA|ugpB|carD|ecmA|rsc12|dhkK|bzpF|pkaR|DDB_G0279945|osbA|abcC2|abcC13|comH|trrA|2C|dstA|srfA|abcG5|mybC|tipA|comB|DDB_G0281917|mybE|ahhA|abcG24|midA|comD|pkaC|DDB_G0284177|cudA|abcC8|limB|dutA|abcF1|mhcA|forC|secG|rgaA|abcC6|abcC3|dnmA|carB|expl7|aarA|spiA|abcG16|dmtA|grxA|ecmF|dia2|triA|abcB5|cpnA|sigB|abcB1
 GO:0031156	regulation of sorocarp development	biological_process	352472	direct	13	8616395|8617188|8618027|8618685|8619291|8620674|8622094|8624218|8624804|8625615|8626928|8627717|8628013	vwkA|pakA|dotA|adrm1-1|adrm1-2|canA|pkaR|phg2|gxcC|svkA|pyk3|rblA|cln3
 GO:0031157	regulation of aggregate size involved in sorocarp development	biological_process	352472	direct	8	8620520|8622514|8623176|8624075|8625513|8625569|8626776|8629014	rab8B|rab8A|aprA|gpaI|gpaE|erkA|cdk5|cpnA
 GO:0031158	negative regulation of aggregate size involved in sorocarp development	biological_process	352472	direct	9	8618652|8618796|8618918|8619059|8619180|8619313|8623817|8624557|8629459	ifkA|cf50-1|qkgA-1|qkgA-2|cf50-2|ctnA|sglA|cf60|alrA
@@ -690,7 +697,6 @@ GO:0032956	regulation of actin cytoskeleton organization	biological_process	3524
 GO:0032959	inositol trisphosphate biosynthetic process	biological_process	352472	direct	1	8628866	plc
 GO:0032981	mitochondrial respiratory chain complex I assembly	biological_process	352472	direct	1	8623694	midA
 GO:0032982	myosin filament	cellular_component	352472	direct	1	8625606	mhcA
-GO:0033109	cortical actin cytoskeleton stabilization	biological_process	352472	direct	2	8619378|8622155	myoK|forA
 GO:0033192	calmodulin-dependent protein phosphatase activity	molecular_function	352472	direct	2	8616103|8620674	cnbA|canA
 GO:0033204	ribonuclease P RNA binding	molecular_function	352472	direct	1	8626680	pop4
 GO:0033275	actin-myosin filament sliding	biological_process	352472	direct	3	8618367|8625606|8626983	myoJ|mhcA|myoB
@@ -738,6 +744,7 @@ GO:0036065	fucosylation	biological_process	352472	direct	1	8624308	pgtA
 GO:0036089	cleavage furrow formation	biological_process	352472	direct	2	8620547|8627162	sepA|ctxA
 GO:0036090	cleavage furrow ingression	biological_process	352472	direct	2	8617398|8627718	fttB|talA
 GO:0036176	response to neutral pH	biological_process	352472	direct	1	8621025	vatB
+GO:0036186	early phagosome membrane	cellular_component	352472	direct	1	8620457	dhcA
 GO:0036360	sorocarp stalk morphogenesis	biological_process	352472	direct	5	8616698|8620421|8626227|8626891|8627162	roco11|expl3|rgaA|aarA|ctxA
 GO:0036444	calcium ion transmembrane import into mitochondrion	biological_process	352472	direct	1	8625616	DDB_G0286429
 GO:0036453	transitive RNA interference	biological_process	352472	direct	2	8616269|8622843	drnB|rrpC
@@ -766,7 +773,7 @@ GO:0042742	defense response to bacterium	biological_process	352472	direct	8	8615
 GO:0042744	hydrogen peroxide catabolic process	biological_process	352472	direct	2	8617104|8619320	catB|catA
 GO:0042800	histone methyltransferase activity (H3-K4 specific)	molecular_function	352472	direct	1	8627040	set1
 GO:0042802	identical protein binding	molecular_function	352472	direct	4	8621323|8621691|8621982|8626958	dymA|pah|vacB|csaA
-GO:0042803	protein homodimerization activity	molecular_function	352472	direct	21	8616516|8617747|8618582|8618603|8619384|8619886|8621809|8622682|8622683|8622903|8623045|8624179|8624276|8625286|8625606|8627024|8627162|8627224|8627981|8628117|8629388	dstB|rzpA|qdpr|sun1|acgA|gpbB|dimA|tgrC1|tgrB1|kif3|dstA|eb1|dct|cadA|mhcA|thyB|ctxA|comA|pefA|dimB|dstC
+GO:0042803	protein homodimerization activity	molecular_function	352472	direct	22	8616516|8617747|8618582|8618603|8619384|8619886|8620457|8621809|8622682|8622683|8622903|8623045|8624179|8624276|8625286|8625606|8627024|8627162|8627224|8627981|8628117|8629388	dstB|rzpA|qdpr|sun1|acgA|gpbB|dhcA|dimA|tgrC1|tgrB1|kif3|dstA|eb1|dct|cadA|mhcA|thyB|ctxA|comA|pefA|dimB|dstC
 GO:0042995	cell projection	cellular_component	352472	direct	4	8616153|8621345|8624278|8628615	corA|arcA|arpC|myoM
 GO:0043015	gamma-tubulin binding	molecular_function	352472	direct	1	8624353	spc98
 GO:0043052	thermotaxis	biological_process	352472	direct	6	8617442|8617642|8620463|8623694|8629014|8629062	gefE|abpC|gefL|midA|cpnA|rasD
@@ -774,8 +781,6 @@ GO:0043086	negative regulation of catalytic activity	biological_process	352472	d
 GO:0043087	regulation of GTPase activity	biological_process	352472	direct	5	8617301|8618327|8620736|8623483|8627162	racG|gskA|ctxB|rapgapB|ctxA
 GO:0043100	pyrimidine nucleobase salvage	biological_process	352472	direct	1	8626154	pyrK
 GO:0043130	ubiquitin binding	molecular_function	352472	direct	2	8627511|8629223	tom1|rasG
-GO:0043146	spindle stabilization	biological_process	352472	direct	1	8626583	kif13
-GO:0043148	mitotic spindle stabilization	biological_process	352472	direct	1	8625028	scrA
 GO:0043157	response to cation stress	biological_process	352472	direct	9	8616103|8616225|8620674|8627073|8627348|8627349|8627408|8629366|8629388	cnbA|cupA|canA|cupC|cupB|cupF|cupG|cupD|dstC
 GO:0043173	nucleotide salvage	biological_process	352472	direct	1	8626154	pyrK
 GO:0043178	alcohol binding	molecular_function	352472	direct	1	8625550	agps
@@ -786,9 +791,9 @@ GO:0043295	glutathione binding	molecular_function	352472	direct	2	8618618|862743
 GO:0043325	phosphatidylinositol-3,4-bisphosphate binding	molecular_function	352472	direct	1	8624989	dagA
 GO:0043326	chemotaxis to folate	biological_process	352472	direct	14	8616251|8616256|8617996|8618327|8619466|8620026|8620948|8623068|8623998|8624357|8625242|8625513|8628958|8629223	abiA|tsuA|lrrA|gskA|paxB|ampA|gpbA|rasC|eppA|erkB|gpaD|gpaE|phlp1|rasG
 GO:0043327	chemotaxis to cAMP	biological_process	352472	direct	51	8616256|8616268|8616573|8616850|8617038|8617062|8617150|8617188|8617360|8617426|8617771|8617818|8617996|8618327|8618441|8618966|8619011|8619403|8619466|8620198|8620447|8620474|8620736|8620948|8621031|8621687|8622060|8622153|8623000|8623068|8623344|8623924|8623998|8624038|8624357|8624728|8625028|8625569|8625716|8626150|8626164|8626227|8626659|8626945|8627162|8627509|8628106|8628763|8628958|8629034|8629223	tsuA|krsB|pkbA|stlA|gapA|gxcT|pakD|pakA|mpl1|mekA|wipA|proC|lrrA|gskA|arpB|mip1-1|mip1-2|gefM|paxB|nhe1|torA|myoG|ctxB|gpbA|piaA|pikA|pldB|elmoE|racE|rasC|cyrA|pikB|eppA|gpaA|erkB|ripA|scrA|erkA|pten|secG|limD1|rgaA|pikD|smkA|ctxA|pkgB|grlE|lst8|phlp1|zizB|rasG
-GO:0043405	regulation of MAP kinase activity	biological_process	352472	direct	2	8617472|8619663	adcC|adcB
-GO:0043406	positive regulation of MAP kinase activity	biological_process	352472	direct	2	8623068|8625242	rasC|gpaD
-GO:0043407	negative regulation of MAP kinase activity	biological_process	352472	direct	2	8617360|8629223	mpl1|rasG
+GO:0043405	regulation of MAP kinase activity	biological_process	352472	direct	3	8617472|8619663|8624359	adcC|adcB|pkaC
+GO:0043406	positive regulation of MAP kinase activity	biological_process	352472	direct	3	8623068|8625242|8626227	rasC|gpaD|rgaA
+GO:0043407	negative regulation of MAP kinase activity	biological_process	352472	direct	3	8617360|8624571|8629223	mpl1|gefA|rasG
 GO:0043491	protein kinase B signaling	biological_process	352472	direct	1	8623068	rasC
 GO:0043495	protein anchor	molecular_function	352472	direct	1	8629357	ponA
 GO:0043497	regulation of protein heterodimerization activity	biological_process	352472	direct	1	8628958	phlp1
@@ -815,7 +820,7 @@ GO:0044351	macropinocytosis	biological_process	352472	direct	8	8616215|8616573|8
 GO:0044354	macropinosome	cellular_component	352472	direct	8	8620846|8621348|8622153|8623924|8626103|8626164|8626797|8628964	nramp1|limC|elmoE|pikB|forC|limD1|cap|adcA
 GO:0044655	phagosome reneutralization	biological_process	352472	direct	2	8626692|8626983	DDB_G0288569|myoB
 GO:0044656	regulation of post-lysosomal vacuole size	biological_process	352472	direct	2	8621323|8626983	dymA|myoB
-GO:0044671	sorocarp spore cell differentiation	biological_process	352472	direct	12	8616267|8616412|8616482|8616850|8620674|8623516|8624357|8626103|8626320|8626891|8628104|8628609	aph1|cdk8|acrA|stlA|canA|dhkD|erkB|forC|ncstn|aarA|psenA|psenB
+GO:0044671	sorocarp spore cell differentiation	biological_process	352472	direct	13	8616267|8616412|8616482|8616850|8620674|8623516|8624357|8624359|8626103|8626320|8626891|8628104|8628609	aph1|cdk8|acrA|stlA|canA|dhkD|erkB|pkaC|forC|ncstn|aarA|psenA|psenB
 GO:0045010	actin nucleation	biological_process	352472	direct	4	8622155|8625191|8627183|8629357	forA|forH|vasP|ponA
 GO:0045159	myosin II binding	molecular_function	352472	direct	5	8617188|8621302|8626969|8627260|8628066	pakA|elmoA|mhkB|gefQ|mhkA
 GO:0045160	myosin I complex	cellular_component	352472	direct	1	8627466	mlcB
@@ -828,8 +833,8 @@ GO:0045335	phagocytic vesicle	cellular_component	352472	direct	287	8615879|86159
 GO:0045454	cell redox homeostasis	biological_process	352472	direct	3	8618618|8622741|8627436	gsr|trrA|grxA
 GO:0045499	chemorepellent activity	molecular_function	352472	direct	1	8623176	aprA
 GO:0045502	dynein binding	molecular_function	352472	direct	1	8624179	eb1
-GO:0045504	dynein heavy chain binding	molecular_function	352472	direct	2	8620457|8626591	dhcA|lis1
-GO:0045505	dynein intermediate chain binding	molecular_function	352472	direct	1	8622777	dicA
+GO:0045504	dynein heavy chain binding	molecular_function	352472	direct	2	8622777|8626591	dicA|lis1
+GO:0045505	dynein intermediate chain binding	molecular_function	352472	direct	1	8620457	dhcA
 GO:0045595	regulation of cell differentiation	biological_process	352472	direct	9	8618200|8620748|8620870|8621809|8625202|8625462|8627100|8627992|8629052	rtoA|fbxA|stkA|dimA|mkcA|tagB|dmtA|warA|tagA
 GO:0045597	positive regulation of cell differentiation	biological_process	352472	direct	2	8619872|8628444	cmfA|psiA
 GO:0045744	negative regulation of G-protein coupled receptor protein signaling pathway	biological_process	352472	direct	1	8624075	gpaI
@@ -953,6 +958,8 @@ GO:0051896	regulation of protein kinase B signaling	biological_process	352472	di
 GO:0051897	positive regulation of protein kinase B signaling	biological_process	352472	direct	5	8617227|8621031|8623068|8624571|8629223	gefB|piaA|rasC|gefA|rasG
 GO:0055037	recycling endosome	cellular_component	352472	direct	2	8620026|8626097	ampA|sibA
 GO:0055074	calcium ion homeostasis	biological_process	352472	direct	2	8628104|8628609	psenA|psenB
+GO:0060001	minus-end directed microfilament motor activity	molecular_function	352472	direct	1	8620457	dhcA
+GO:0060002	plus-end directed microfilament motor activity	molecular_function	352472	direct	1	8627956	kif1
 GO:0060100	positive regulation of phagocytosis, engulfment	biological_process	352472	direct	1	8621581	ndrA
 GO:0060151	peroxisome localization	biological_process	352472	direct	1	8621653	dymB
 GO:0060176	regulation of aggregation involved in sorocarp development	biological_process	352472	direct	9	8616256|8616412|8618327|8618733|8619243|8619748|8620347|8621095|8622060	tsuA|cdk8|gskA|icmA-1|icmA-2|cycC|zakA|gtaC|pldB
@@ -964,7 +971,7 @@ GO:0061098	positive regulation of protein tyrosine kinase activity	biological_pr
 GO:0061118	regulation of positive chemotaxis to cAMP	biological_process	352472	direct	3	8618327|8620198|8620347	gskA|nhe1|zakA
 GO:0061122	positive regulation of positive chemotaxis to cAMP	biological_process	352472	direct	2	8622104|8623068	calA|rasC
 GO:0061245	establishment or maintenance of bipolar cell polarity	biological_process	352472	direct	1	8626891	aarA
-GO:0061474	phagolysosome membrane	cellular_component	352472	direct	3	8621025|8624228|8626692	vatB|rpkA|DDB_G0288569
+GO:0061474	phagolysosome membrane	cellular_component	352472	direct	4	8620457|8621025|8624228|8626692	dhcA|vatB|rpkA|DDB_G0288569
 GO:0061615	glycolytic process through fructose-6-phosphate	biological_process	352472	direct	1	8619591	pfkA
 GO:0070012	oligopeptidase activity	molecular_function	352472	direct	1	8619723	dpoA
 GO:0070060	'de novo' actin filament nucleation	biological_process	352472	direct	2	8617076|8627319	forE|forF
@@ -990,9 +997,11 @@ GO:0071470	cellular response to osmotic stress	biological_process	352472	direct	
 GO:0071476	cellular hypotonic response	biological_process	352472	direct	8	8617525|8618267|8619877|8619878|8620298|8621653|8626432|8626571	rab11A|p2xA|p2xB|p2xC|cnrF|dymB|p2xE|p2xD
 GO:0071539	protein localization to centrosome	biological_process	352472	direct	1	8626591	lis1
 GO:0071889	14-3-3 protein binding	molecular_function	352472	direct	1	8625606	mhcA
-GO:0071901	negative regulation of protein serine/threonine kinase activity	biological_process	352472	direct	2	8621423|8625716	carD|pten
+GO:0071901	negative regulation of protein serine/threonine kinase activity	biological_process	352472	direct	3	8621423|8622094|8625716	carD|pkaR|pten
 GO:0071902	positive regulation of protein serine/threonine kinase activity	biological_process	352472	direct	2	8621031|8622138	piaA|lkb1
 GO:0071944	cell periphery	cellular_component	352472	direct	3	8619886|8620026|8622368	gpbB|ampA|osbA
+GO:0072382	minus-end-directed vesicle transport along microtubule	biological_process	352472	direct	1	8620457	dhcA
+GO:0072383	plus-end-directed vesicle transport along microtubule	biological_process	352472	direct	1	8627956	kif1
 GO:0072386	plus-end-directed organelle transport along microtubule	biological_process	352472	direct	1	8627956	kif1
 GO:0072583	clathrin-mediated endocytosis	biological_process	352472	direct	1	8620910	chcA
 GO:0072592	oxygen metabolic process	biological_process	352472	direct	1	8621207	phyA
@@ -1006,7 +1015,7 @@ GO:0090073	positive regulation of protein homodimerization activity	biological_p
 GO:0090116	C-5 methylation of cytosine	biological_process	352472	direct	1	8626430	dnmA
 GO:0090141	positive regulation of mitochondrial fission	biological_process	352472	direct	1	8623694	midA
 GO:0090307	mitotic spindle assembly	biological_process	352472	direct	2	8620457|8624939	dhcA|kif4
-GO:0090382	phagosome maturation	biological_process	352472	direct	2	8618975|8619002	abpE-1|abpE-2
+GO:0090382	phagosome maturation	biological_process	352472	direct	3	8618975|8619002|8620457	abpE-1|abpE-2|dhcA
 GO:0090383	phagosome acidification	biological_process	352472	direct	1	8621323	dymA
 GO:0090501	RNA phosphodiester bond hydrolysis	biological_process	352472	direct	3	8617403|8622311|8626978	drpp30|drpp40|drpp20
 GO:0090502	RNA phosphodiester bond hydrolysis, endonucleolytic	biological_process	352472	direct	3	8617403|8622311|8626978	drpp30|drpp40|drpp20
@@ -1027,7 +1036,7 @@ GO:1900027	regulation of ruffle assembly	biological_process	352472	direct	2	8621
 GO:1900370	positive regulation of RNA interference	biological_process	352472	direct	1	8618629	helF
 GO:1900426	positive regulation of defense response to bacterium	biological_process	352472	direct	1	8624228	rpkA
 GO:1900756	protein processing in phagocytic vesicle	biological_process	352472	direct	1	8621323	dymA
-GO:1901261	regulation of sorocarp spore cell differentiation	biological_process	352472	direct	1	8620128	dio3
+GO:1901261	regulation of sorocarp spore cell differentiation	biological_process	352472	direct	2	8620128|8624359	dio3|pkaC
 GO:1901262	negative regulation of sorocarp spore cell differentiation	biological_process	352472	direct	1	8618569	hbx4
 GO:1901263	positive regulation of sorocarp spore cell differentiation	biological_process	352472	direct	2	8622060|8622138	pldB|lkb1
 GO:1901355	response to rapamycin	biological_process	352472	direct	1	8619759	DDB_G0275225
@@ -1046,7 +1055,6 @@ GO:1903666	positive regulation of asexual reproduction	biological_process	352472
 GO:1903669	positive regulation of chemorepellent activity	biological_process	352472	direct	6	8618918|8619059|8623140|8624648|8626389|8627717	qkgA-1|qkgA-2|cfaD|gpaH|cnrN|rblA
 GO:1903831	signal transduction involved in cellular response to ammonium ion	biological_process	352472	direct	1	8619701	dhkC
 GO:1903988	ferrous iron export	biological_process	352472	direct	1	8620846	nramp1
-GO:1904030	negative regulation of cyclin-dependent protein kinase activity	biological_process	352472	direct	1	8617276	acbA
 GO:1904171	negative regulation of bleb assembly	biological_process	352472	direct	1	8622155	forA
 GO:1904359	regulation of spore germination	biological_process	352472	direct	1	8621437	dhkB
 GO:1904360	negative regulation of spore germination	biological_process	352472	direct	1	8619384	acgA

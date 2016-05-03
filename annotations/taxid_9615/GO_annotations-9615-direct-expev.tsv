@@ -6,9 +6,10 @@ GO:0003677	DNA binding	molecular_function	9615	direct	1	403924	MYC
 GO:0004576	oligosaccharyl transferase activity	molecular_function	9615	direct	1	404012	DDOST
 GO:0004993	G-protein coupled serotonin receptor activity	molecular_function	9615	direct	1	403882	HTR2A
 GO:0005178	integrin binding	molecular_function	9615	direct	1	475471	SFRP2
+GO:0005179	hormone activity	molecular_function	9615	direct	1	484038	VIP
 GO:0005198	structural molecule activity	molecular_function	9615	direct	1	403980	CAV1
 GO:0005432	calcium:sodium antiporter activity	molecular_function	9615	direct	1	475738	SLC8A1
-GO:0005509	calcium ion binding	molecular_function	9615	direct	2	404010|475738	PNLIPRP1|SLC8A1
+GO:0005509	calcium ion binding	molecular_function	9615	direct	3	403762|404010|475738	BGLAP|PNLIPRP1|SLC8A1
 GO:0005515	protein binding	molecular_function	9615	direct	17	403498|403752|403774|403776|403845|403854|403880|403947|403958|403980|404006|442858|474680|477032|483134|612294|100856359	ARHGEF2|TJP1|RAB1A|TRDN|FN1|TJP2|STXBP2|RAB9A|RAB10|CAV1|SEC61A1|CDH1|HSPA4|CTNNB1|CASQ2|RAB13|RAPGEF2
 GO:0005615	extracellular space	cellular_component	9615	direct	1	475471	SFRP2
 GO:0005634	nucleus	cellular_component	9615	direct	2	403621|403924	PGR|MYC
@@ -17,6 +18,7 @@ GO:0005764	lysosome	cellular_component	9615	direct	1	403403	PLA2G15
 GO:0005794	Golgi apparatus	cellular_component	9615	direct	4	403938|403958|442971|442991	LMAN2|RAB10|CLU|SLC35A3
 GO:0005802	trans-Golgi network	cellular_component	9615	direct	1	403958	RAB10
 GO:0005811	lipid particle	cellular_component	9615	direct	1	404008	RAB5A
+GO:0005829	cytosol	cellular_component	9615	direct	1	404007	RAB7A
 GO:0005886	plasma membrane	cellular_component	9615	direct	5	403538|403882|477032|479040|612294	RHBG|HTR2A|CTNNB1|RHCG|RAB13
 GO:0005887	integral component of plasma membrane	cellular_component	9615	direct	1	403610	FZD6
 GO:0005891	voltage-gated calcium channel complex	cellular_component	9615	direct	2	403776|483134	TRDN|CASQ2
@@ -41,6 +43,7 @@ GO:0008565	protein transporter activity	molecular_function	9615	direct	1	404017	
 GO:0008625	extrinsic apoptotic signaling pathway via death domain receptors	biological_process	9615	direct	1	403796	IL18
 GO:0009615	response to virus	biological_process	9615	direct	1	403744	MX2
 GO:0009986	cell surface	cellular_component	9615	direct	4	403752|403844|403852|403854	TJP1|OCLN|TJP3|TJP2
+GO:0010579	positive regulation of adenylate cyclase activity involved in G-protein coupled receptor signaling pathway	biological_process	9615	direct	1	484038	VIP
 GO:0010737	protein kinase A signaling	biological_process	9615	direct	1	612294	RAB13
 GO:0010880	regulation of release of sequestered calcium ion into cytosol by sarcoplasmic reticulum	biological_process	9615	direct	2	403776|483134	TRDN|CASQ2
 GO:0015696	ammonium transport	biological_process	9615	direct	2	403538|479040	RHBG|RHCG
@@ -62,6 +65,7 @@ GO:0031410	cytoplasmic vesicle	cellular_component	9615	direct	2	403752|403938	TJ
 GO:0032456	endocytic recycling	biological_process	9615	direct	2	403773|612294	RAB8A|RAB13
 GO:0032780	negative regulation of ATPase activity	biological_process	9615	direct	1	414755	PLN
 GO:0032873	negative regulation of stress-activated MAPK cascade	biological_process	9615	direct	1	403924	MYC
+GO:0032880	regulation of protein localization	biological_process	9615	direct	1	484038	VIP
 GO:0033630	positive regulation of cell adhesion mediated by integrin	biological_process	9615	direct	1	475471	SFRP2
 GO:0035725	sodium ion transmembrane transport	biological_process	9615	direct	1	475738	SLC8A1
 GO:0042030	ATPase inhibitor activity	molecular_function	9615	direct	1	414755	PLN
@@ -79,6 +83,7 @@ GO:0044860	protein localization to plasma membrane raft	biological_process	9615	
 GO:0045022	early endosome to late endosome transport	biological_process	9615	direct	1	404007	RAB7A
 GO:0045047	protein targeting to ER	biological_process	9615	direct	3	403953|404006|404017	SRP54|SEC61A1|SEC61G
 GO:0045121	membrane raft	cellular_component	9615	direct	2	403933|403935	MAL|ANXA13
+GO:0045732	positive regulation of protein catabolic process	biological_process	9615	direct	1	484038	VIP
 GO:0048471	perinuclear region of cytoplasm	cellular_component	9615	direct	1	403938	LMAN2
 GO:0050649	testosterone 6-beta-hydroxylase activity	molecular_function	9615	direct	1	415129	CYP3A12
 GO:0050679	positive regulation of epithelial cell proliferation	biological_process	9615	direct	1	403924	MYC
@@ -86,6 +91,8 @@ GO:0051087	chaperone binding	molecular_function	9615	direct	1	442971	CLU
 GO:0051209	release of sequestered calcium ion into cytosol	biological_process	9615	direct	1	403882	HTR2A
 GO:0051378	serotonin binding	molecular_function	9615	direct	1	403882	HTR2A
 GO:0055037	recycling endosome	cellular_component	9615	direct	2	403958|612294	RAB10|RAB13
+GO:0060285	cilium-dependent cell motility	biological_process	9615	direct	1	488089	CCDC39
+GO:0060287	epithelial cilium movement involved in determination of left/right asymmetry	biological_process	9615	direct	1	488089	CCDC39
 GO:0060315	negative regulation of ryanodine-sensitive calcium-release channel activity	biological_process	9615	direct	1	483134	CASQ2
 GO:0060316	positive regulation of ryanodine-sensitive calcium-release channel activity	biological_process	9615	direct	1	403776	TRDN
 GO:0060546	negative regulation of necroptotic process	biological_process	9615	direct	1	403498	ARHGEF2

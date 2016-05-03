@@ -356,7 +356,7 @@ GO:0006265	DNA topological change	biological_process	243231	direct	3	2685711|268
 GO:0006269	DNA replication, synthesis of RNA primer	biological_process	243231	direct	1	2686785	dnaG
 GO:0006270	DNA replication initiation	biological_process	243231	direct	1	2808007	dnaA
 GO:0006275	regulation of DNA replication	biological_process	243231	direct	1	2808007	dnaA
-GO:0006278	RNA-dependent DNA replication	biological_process	243231	direct	1	2685989	GSU1363
+GO:0006278	RNA-dependent DNA biosynthetic process	biological_process	243231	direct	1	2685989	GSU1363
 GO:0006281	DNA repair	biological_process	243231	direct	28	2685262|2685314|2685647|2685709|2685756|2685871|2685903|2685943|2686004|2686006|2686368|2686379|2686439|2686552|2686635|2686850|2687161|2687164|2687378|2687415|2687451|2687470|2687634|2687781|2687956|2688202|2688260|2688274	recB|recC|mutM|recO|mfd|GSU2168|tag|GSU2758|nfo|ogt|GSU3266|uvrB|uvrA|recF|GSU0386|GSU2829|ligA|recD|xth|GSU1613|ssb-2|radA|ssb-1|GSU1450|recN|GSU3371|recR|uvrC
 GO:0006282	regulation of DNA repair	biological_process	243231	direct	3	2685264|2687977|2688558	lexA-2|recX|lexA-1
 GO:0006298	mismatch repair	biological_process	243231	direct	2	2688110|2688694	mutL|mutS-1

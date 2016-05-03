@@ -3,85 +3,85 @@
     [
       3702,
       "Arabidopsis thaliana",
-      7074,
-      353758,
+      7196,
+      366028,
       "annotations/taxid_3702/GO_annotations-3702-inferred-expev.tsv"
     ],
     [
       6239,
       "Caenorhabditis elegans",
-      5040,
-      125168,
+      5268,
+      134118,
       "annotations/taxid_6239/GO_annotations-6239-inferred-expev.tsv"
     ],
     [
       7227,
       "Drosophila melanogaster",
-      7914,
-      368899,
+      7993,
+      377042,
       "annotations/taxid_7227/GO_annotations-7227-inferred-expev.tsv"
     ],
     [
       7955,
       "Danio rerio",
-      5371,
-      135522,
+      5447,
+      137870,
       "annotations/taxid_7955/GO_annotations-7955-inferred-expev.tsv"
     ],
     [
       9031,
       "Gallus gallus",
-      2507,
-      13688,
+      2564,
+      14027,
       "annotations/taxid_9031/GO_annotations-9031-inferred-expev.tsv"
     ],
     [
       9606,
       "Homo sapiens",
-      14631,
-      679762,
+      14797,
+      682184,
       "annotations/taxid_9606/GO_annotations-9606-inferred-expev.tsv"
     ],
     [
       9615,
       "Canis lupus familiaris",
-      664,
-      1691,
+      733,
+      1813,
       "annotations/taxid_9615/GO_annotations-9615-inferred-expev.tsv"
     ],
     [
       9823,
       "Sus scrofa",
-      1589,
-      5240,
+      1635,
+      5559,
       "annotations/taxid_9823/GO_annotations-9823-inferred-expev.tsv"
     ],
     [
       9913,
       "Bos taurus",
-      2482,
-      14338,
+      2504,
+      14530,
       "annotations/taxid_9913/GO_annotations-9913-inferred-expev.tsv"
     ],
     [
       10090,
       "Mus musculus",
-      14503,
-      644477,
+      14658,
+      653341,
       "annotations/taxid_10090/GO_annotations-10090-inferred-expev.tsv"
     ],
     [
       10116,
       "Rattus norvegicus",
-      10864,
-      326226,
+      10956,
+      331078,
       "annotations/taxid_10116/GO_annotations-10116-inferred-expev.tsv"
     ],
     [
       36329,
       "Plasmodium falciparum 3D7",
-      1223,
-      10826,
+      1225,
+      10857,
       "annotations/taxid_36329/GO_annotations-36329-inferred-expev.tsv"
     ],
     [
@@ -115,8 +115,8 @@
     [
       223283,
       "[Pseudomonas syringae] pv. tomato str. DC3000",
-      336,
-      4079,
+      334,
+      4065,
       "annotations/taxid_223283/GO_annotations-223283-inferred-expev.tsv"
     ],
     [
@@ -143,22 +143,22 @@
     [
       284812,
       "Schizosaccharomyces pombe 972h-",
-      5696,
-      141222,
+      5708,
+      141542,
       "annotations/taxid_284812/GO_annotations-284812-inferred-expev.tsv"
     ],
     [
       352472,
       "Dictyostelium discoideum AX4",
-      2564,
-      51130,
+      2577,
+      52010,
       "annotations/taxid_352472/GO_annotations-352472-inferred-expev.tsv"
     ],
     [
       559292,
       "Saccharomyces cerevisiae S288c",
-      7475,
-      310245,
+      7516,
+      311430,
       "annotations/taxid_559292/GO_annotations-559292-inferred-expev.tsv"
     ]
   ]

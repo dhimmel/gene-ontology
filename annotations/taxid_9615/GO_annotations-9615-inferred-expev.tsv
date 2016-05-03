@@ -4,6 +4,7 @@ GO:0000145	exocyst	cellular_component	9615	inferred	1	403958	RAB10
 GO:0000323	lytic vacuole	cellular_component	9615	inferred	1	403403	PLA2G15
 GO:0000975	regulatory region DNA binding	molecular_function	9615	inferred	1	403924	MYC
 GO:0001067	regulatory region nucleic acid binding	molecular_function	9615	inferred	1	403924	MYC
+GO:0001539	cilium or flagellum-dependent cell motility	biological_process	9615	inferred	1	488089	CCDC39
 GO:0001738	morphogenesis of a polarized epithelium	biological_process	9615	inferred	1	403958	RAB10
 GO:0001765	membrane raft assembly	biological_process	9615	inferred	1	403980	CAV1
 GO:0001816	cytokine production	biological_process	9615	inferred	1	403796	IL18
@@ -18,7 +19,9 @@ GO:0002443	leukocyte mediated immunity	biological_process	9615	inferred	2	403894
 GO:0002449	lymphocyte mediated immunity	biological_process	9615	inferred	2	403894|403988	ZP3|ZP2
 GO:0002455	humoral immune response mediated by circulating immunoglobulin	biological_process	9615	inferred	2	403894|403988	ZP3|ZP2
 GO:0002460	adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	biological_process	9615	inferred	2	403894|403988	ZP3|ZP2
-GO:0003674	molecular_function	molecular_function	9615	inferred	30	403498|403538|403752|403774|403776|403845|403854|403880|403882|403924|403947|403953|403958|403980|404006|404010|404012|404017|414755|415129|442858|442971|474680|475471|475738|477032|479040|483134|612294|100856359	ARHGEF2|RHBG|TJP1|RAB1A|TRDN|FN1|TJP2|STXBP2|HTR2A|MYC|RAB9A|SRP54|RAB10|CAV1|SEC61A1|PNLIPRP1|DDOST|SEC61G|PLN|CYP3A12|CDH1|CLU|HSPA4|SFRP2|SLC8A1|CTNNB1|RHCG|CASQ2|RAB13|RAPGEF2
+GO:0003341	cilium movement	biological_process	9615	inferred	1	488089	CCDC39
+GO:0003351	epithelial cilium movement	biological_process	9615	inferred	1	488089	CCDC39
+GO:0003674	molecular_function	molecular_function	9615	inferred	32	403498|403538|403752|403762|403774|403776|403845|403854|403880|403882|403924|403947|403953|403958|403980|404006|404010|404012|404017|414755|415129|442858|442971|474680|475471|475738|477032|479040|483134|484038|612294|100856359	ARHGEF2|RHBG|TJP1|BGLAP|RAB1A|TRDN|FN1|TJP2|STXBP2|HTR2A|MYC|RAB9A|SRP54|RAB10|CAV1|SEC61A1|PNLIPRP1|DDOST|SEC61G|PLN|CYP3A12|CDH1|CLU|HSPA4|SFRP2|SLC8A1|CTNNB1|RHCG|CASQ2|VIP|RAB13|RAPGEF2
 GO:0003676	nucleic acid binding	molecular_function	9615	inferred	1	403924	MYC
 GO:0003677	DNA binding	molecular_function	9615	inferred	1	403924	MYC
 GO:0003824	catalytic activity	molecular_function	9615	inferred	2	404012|415129	DDOST|CYP3A12
@@ -31,30 +34,32 @@ GO:0004888	transmembrane signaling receptor activity	molecular_function	9615	inf
 GO:0004930	G-protein coupled receptor activity	molecular_function	9615	inferred	1	403882	HTR2A
 GO:0004993	G-protein coupled serotonin receptor activity	molecular_function	9615	inferred	1	403882	HTR2A
 GO:0005048	signal sequence binding	molecular_function	9615	inferred	1	403953	SRP54
-GO:0005102	receptor binding	molecular_function	9615	inferred	1	475471	SFRP2
+GO:0005102	receptor binding	molecular_function	9615	inferred	2	475471|484038	SFRP2|VIP
 GO:0005178	integrin binding	molecular_function	9615	inferred	1	475471	SFRP2
+GO:0005179	hormone activity	molecular_function	9615	inferred	1	484038	VIP
 GO:0005198	structural molecule activity	molecular_function	9615	inferred	1	403980	CAV1
 GO:0005215	transporter activity	molecular_function	9615	inferred	4	403538|404017|475738|479040	RHBG|SEC61G|SLC8A1|RHCG
 GO:0005432	calcium:sodium antiporter activity	molecular_function	9615	inferred	1	475738	SLC8A1
-GO:0005488	binding	molecular_function	9615	inferred	24	403498|403752|403774|403776|403845|403854|403880|403882|403924|403947|403953|403958|403980|404006|404010|442858|442971|474680|475471|475738|477032|483134|612294|100856359	ARHGEF2|TJP1|RAB1A|TRDN|FN1|TJP2|STXBP2|HTR2A|MYC|RAB9A|SRP54|RAB10|CAV1|SEC61A1|PNLIPRP1|CDH1|CLU|HSPA4|SFRP2|SLC8A1|CTNNB1|CASQ2|RAB13|RAPGEF2
-GO:0005509	calcium ion binding	molecular_function	9615	inferred	2	404010|475738	PNLIPRP1|SLC8A1
-GO:0005515	protein binding	molecular_function	9615	inferred	19	403498|403752|403774|403776|403845|403854|403880|403947|403958|403980|404006|442858|442971|474680|475471|477032|483134|612294|100856359	ARHGEF2|TJP1|RAB1A|TRDN|FN1|TJP2|STXBP2|RAB9A|RAB10|CAV1|SEC61A1|CDH1|CLU|HSPA4|SFRP2|CTNNB1|CASQ2|RAB13|RAPGEF2
-GO:0005575	cellular_component	cellular_component	9615	inferred	38	403403|403434|403538|403610|403621|403744|403745|403752|403767|403776|403809|403844|403852|403854|403882|403884|403907|403924|403933|403935|403938|403958|403980|403988|404006|404008|404012|442858|442971|442991|475471|475738|477032|479040|482252|483134|612294|100856359	PLA2G15|AMN|RHBG|FZD6|PGR|MX2|MX1|TJP1|CUBN|TRDN|RRBP1|OCLN|TJP3|TJP2|HTR2A|TRIB2|PNN|MYC|MAL|ANXA13|LMAN2|RAB10|CAV1|ZP2|SEC61A1|RAB5A|DDOST|CDH1|CLU|SLC35A3|SFRP2|SLC8A1|CTNNB1|RHCG|PODXL|CASQ2|RAB13|RAPGEF2
+GO:0005488	binding	molecular_function	9615	inferred	26	403498|403752|403762|403774|403776|403845|403854|403880|403882|403924|403947|403953|403958|403980|404006|404010|442858|442971|474680|475471|475738|477032|483134|484038|612294|100856359	ARHGEF2|TJP1|BGLAP|RAB1A|TRDN|FN1|TJP2|STXBP2|HTR2A|MYC|RAB9A|SRP54|RAB10|CAV1|SEC61A1|PNLIPRP1|CDH1|CLU|HSPA4|SFRP2|SLC8A1|CTNNB1|CASQ2|VIP|RAB13|RAPGEF2
+GO:0005509	calcium ion binding	molecular_function	9615	inferred	3	403762|404010|475738	BGLAP|PNLIPRP1|SLC8A1
+GO:0005515	protein binding	molecular_function	9615	inferred	20	403498|403752|403774|403776|403845|403854|403880|403947|403958|403980|404006|442858|442971|474680|475471|477032|483134|484038|612294|100856359	ARHGEF2|TJP1|RAB1A|TRDN|FN1|TJP2|STXBP2|RAB9A|RAB10|CAV1|SEC61A1|CDH1|CLU|HSPA4|SFRP2|CTNNB1|CASQ2|VIP|RAB13|RAPGEF2
+GO:0005575	cellular_component	cellular_component	9615	inferred	39	403403|403434|403538|403610|403621|403744|403745|403752|403767|403776|403809|403844|403852|403854|403882|403884|403907|403924|403933|403935|403938|403958|403980|403988|404006|404007|404008|404012|442858|442971|442991|475471|475738|477032|479040|482252|483134|612294|100856359	PLA2G15|AMN|RHBG|FZD6|PGR|MX2|MX1|TJP1|CUBN|TRDN|RRBP1|OCLN|TJP3|TJP2|HTR2A|TRIB2|PNN|MYC|MAL|ANXA13|LMAN2|RAB10|CAV1|ZP2|SEC61A1|RAB7A|RAB5A|DDOST|CDH1|CLU|SLC35A3|SFRP2|SLC8A1|CTNNB1|RHCG|PODXL|CASQ2|RAB13|RAPGEF2
 GO:0005576	extracellular region	cellular_component	9615	inferred	1	475471	SFRP2
 GO:0005615	extracellular space	cellular_component	9615	inferred	1	475471	SFRP2
-GO:0005622	intracellular	cellular_component	9615	inferred	20	403403|403621|403744|403745|403752|403776|403809|403884|403924|403935|403938|403958|403988|404006|404008|404012|442971|442991|483134|612294	PLA2G15|PGR|MX2|MX1|TJP1|TRDN|RRBP1|TRIB2|MYC|ANXA13|LMAN2|RAB10|ZP2|SEC61A1|RAB5A|DDOST|CLU|SLC35A3|CASQ2|RAB13
-GO:0005623	cell	cellular_component	9615	inferred	33	403403|403434|403538|403610|403621|403744|403745|403752|403767|403776|403809|403844|403852|403854|403882|403884|403924|403935|403938|403958|403980|403988|404006|404008|404012|442971|442991|475738|477032|479040|482252|483134|612294	PLA2G15|AMN|RHBG|FZD6|PGR|MX2|MX1|TJP1|CUBN|TRDN|RRBP1|OCLN|TJP3|TJP2|HTR2A|TRIB2|MYC|ANXA13|LMAN2|RAB10|CAV1|ZP2|SEC61A1|RAB5A|DDOST|CLU|SLC35A3|SLC8A1|CTNNB1|RHCG|PODXL|CASQ2|RAB13
+GO:0005622	intracellular	cellular_component	9615	inferred	21	403403|403621|403744|403745|403752|403776|403809|403884|403924|403935|403938|403958|403988|404006|404007|404008|404012|442971|442991|483134|612294	PLA2G15|PGR|MX2|MX1|TJP1|TRDN|RRBP1|TRIB2|MYC|ANXA13|LMAN2|RAB10|ZP2|SEC61A1|RAB7A|RAB5A|DDOST|CLU|SLC35A3|CASQ2|RAB13
+GO:0005623	cell	cellular_component	9615	inferred	34	403403|403434|403538|403610|403621|403744|403745|403752|403767|403776|403809|403844|403852|403854|403882|403884|403924|403935|403938|403958|403980|403988|404006|404007|404008|404012|442971|442991|475738|477032|479040|482252|483134|612294	PLA2G15|AMN|RHBG|FZD6|PGR|MX2|MX1|TJP1|CUBN|TRDN|RRBP1|OCLN|TJP3|TJP2|HTR2A|TRIB2|MYC|ANXA13|LMAN2|RAB10|CAV1|ZP2|SEC61A1|RAB7A|RAB5A|DDOST|CLU|SLC35A3|SLC8A1|CTNNB1|RHCG|PODXL|CASQ2|RAB13
 GO:0005634	nucleus	cellular_component	9615	inferred	2	403621|403924	PGR|MYC
-GO:0005737	cytoplasm	cellular_component	9615	inferred	16	403403|403744|403745|403752|403776|403809|403884|403935|403938|403958|404006|404012|442971|442991|483134|612294	PLA2G15|MX2|MX1|TJP1|TRDN|RRBP1|TRIB2|ANXA13|LMAN2|RAB10|SEC61A1|DDOST|CLU|SLC35A3|CASQ2|RAB13
+GO:0005737	cytoplasm	cellular_component	9615	inferred	17	403403|403744|403745|403752|403776|403809|403884|403935|403938|403958|404006|404007|404012|442971|442991|483134|612294	PLA2G15|MX2|MX1|TJP1|TRDN|RRBP1|TRIB2|ANXA13|LMAN2|RAB10|SEC61A1|RAB7A|DDOST|CLU|SLC35A3|CASQ2|RAB13
 GO:0005764	lysosome	cellular_component	9615	inferred	1	403403	PLA2G15
 GO:0005768	endosome	cellular_component	9615	inferred	2	403958|612294	RAB10|RAB13
-GO:0005773	vacuole	cellular_component	9615	inferred	1	403403	PLA2G15
+GO:0005773	vacuole	cellular_component	9615	inferred	3	403403|403958|612294	PLA2G15|RAB10|RAB13
 GO:0005783	endoplasmic reticulum	cellular_component	9615	inferred	5	403776|403809|404006|404012|483134	TRDN|RRBP1|SEC61A1|DDOST|CASQ2
 GO:0005789	endoplasmic reticulum membrane	cellular_component	9615	inferred	3	403809|404006|404012	RRBP1|SEC61A1|DDOST
 GO:0005794	Golgi apparatus	cellular_component	9615	inferred	4	403938|403958|442971|442991	LMAN2|RAB10|CLU|SLC35A3
 GO:0005798	Golgi-associated vesicle	cellular_component	9615	inferred	1	403938	LMAN2
 GO:0005802	trans-Golgi network	cellular_component	9615	inferred	1	403958	RAB10
 GO:0005811	lipid particle	cellular_component	9615	inferred	1	404008	RAB5A
+GO:0005829	cytosol	cellular_component	9615	inferred	1	404007	RAB7A
 GO:0005886	plasma membrane	cellular_component	9615	inferred	14	403434|403538|403610|403767|403776|403882|403935|403980|475738|477032|479040|482252|483134|612294	AMN|RHBG|FZD6|CUBN|TRDN|HTR2A|ANXA13|CAV1|SLC8A1|CTNNB1|RHCG|PODXL|CASQ2|RAB13
 GO:0005887	integral component of plasma membrane	cellular_component	9615	inferred	1	403610	FZD6
 GO:0005891	voltage-gated calcium channel complex	cellular_component	9615	inferred	2	403776|483134	TRDN|CASQ2
@@ -64,6 +69,7 @@ GO:0005923	bicellular tight junction	cellular_component	9615	inferred	2	403752|4
 GO:0005929	cilium	cellular_component	9615	inferred	1	403958	RAB10
 GO:0005938	cell cortex	cellular_component	9615	inferred	1	403958	RAB10
 GO:0005975	carbohydrate metabolic process	biological_process	9615	inferred	1	404012	DDOST
+GO:0006140	regulation of nucleotide metabolic process	biological_process	9615	inferred	1	484038	VIP
 GO:0006461	protein complex assembly	biological_process	9615	inferred	1	403953	SRP54
 GO:0006464	cellular protein modification process	biological_process	9615	inferred	1	404012	DDOST
 GO:0006486	protein glycosylation	biological_process	9615	inferred	1	404012	DDOST
@@ -93,26 +99,34 @@ GO:0006970	response to osmotic stress	biological_process	9615	inferred	1	403498	
 GO:0006972	hyperosmotic response	biological_process	9615	inferred	1	403498	ARHGEF2
 GO:0006996	organelle organization	biological_process	9615	inferred	1	403980	CAV1
 GO:0007009	plasma membrane organization	biological_process	9615	inferred	3	403958|403980|612294	RAB10|CAV1|RAB13
+GO:0007017	microtubule-based process	biological_process	9615	inferred	1	488089	CCDC39
+GO:0007018	microtubule-based movement	biological_process	9615	inferred	1	488089	CCDC39
+GO:0007034	vacuolar transport	biological_process	9615	inferred	3	403773|404007|612294	RAB8A|RAB7A|RAB13
 GO:0007043	cell-cell junction assembly	biological_process	9615	inferred	3	403752|477032|612294	TJP1|CTNNB1|RAB13
-GO:0007154	cell communication	biological_process	9615	inferred	5	403796|403809|403882|475471|612294	IL18|RRBP1|HTR2A|SFRP2|RAB13
+GO:0007154	cell communication	biological_process	9615	inferred	6	403796|403809|403882|475471|484038|612294	IL18|RRBP1|HTR2A|SFRP2|VIP|RAB13
 GO:0007155	cell adhesion	biological_process	9615	inferred	1	403907	PNN
-GO:0007165	signal transduction	biological_process	9615	inferred	4	403796|403809|403882|612294	IL18|RRBP1|HTR2A|RAB13
+GO:0007165	signal transduction	biological_process	9615	inferred	5	403796|403809|403882|484038|612294	IL18|RRBP1|HTR2A|VIP|RAB13
 GO:0007166	cell surface receptor signaling pathway	biological_process	9615	inferred	1	403796	IL18
 GO:0007174	epidermal growth factor catabolic process	biological_process	9615	inferred	1	404007	RAB7A
-GO:0007186	G-protein coupled receptor signaling pathway	biological_process	9615	inferred	1	403882	HTR2A
+GO:0007186	G-protein coupled receptor signaling pathway	biological_process	9615	inferred	2	403882|484038	HTR2A|VIP
+GO:0007187	G-protein coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger	biological_process	9615	inferred	1	484038	VIP
+GO:0007188	adenylate cyclase-modulating G-protein coupled receptor signaling pathway	biological_process	9615	inferred	1	484038	VIP
+GO:0007189	adenylate cyclase-activating G-protein coupled receptor signaling pathway	biological_process	9615	inferred	1	484038	VIP
 GO:0007204	positive regulation of cytosolic calcium ion concentration	biological_process	9615	inferred	1	403882	HTR2A
 GO:0007210	serotonin receptor signaling pathway	biological_process	9615	inferred	1	403882	HTR2A
 GO:0007267	cell-cell signaling	biological_process	9615	inferred	1	475471	SFRP2
-GO:0007275	multicellular organismal development	biological_process	9615	inferred	1	482252	PODXL
+GO:0007275	multicellular organism development	biological_process	9615	inferred	2	482252|488089	PODXL|CCDC39
 GO:0007338	single fertilization	biological_process	9615	inferred	1	403894	ZP3
 GO:0007339	binding of sperm to zona pellucida	biological_process	9615	inferred	1	403894	ZP3
+GO:0007368	determination of left/right symmetry	biological_process	9615	inferred	1	488089	CCDC39
+GO:0007389	pattern specification process	biological_process	9615	inferred	1	488089	CCDC39
 GO:0008016	regulation of heart contraction	biological_process	9615	inferred	1	403776	TRDN
 GO:0008037	cell recognition	biological_process	9615	inferred	1	403894	ZP3
 GO:0008104	protein localization	biological_process	9615	inferred	7	403948|403953|403958|403980|404006|404017|612294	TRAM1|SRP54|RAB10|CAV1|SEC61A1|SEC61G|RAB13
 GO:0008105	asymmetric protein localization	biological_process	9615	inferred	1	403958	RAB10
 GO:0008134	transcription factor binding	molecular_function	9615	inferred	1	403498	ARHGEF2
 GO:0008144	drug binding	molecular_function	9615	inferred	1	403882	HTR2A
-GO:0008150	biological_process	biological_process	9615	inferred	31	403498|403538|403744|403752|403773|403776|403796|403809|403882|403894|403907|403924|403935|403948|403953|403958|403980|403988|404006|404007|404012|404017|414755|415129|475471|475738|477032|479040|482252|483134|612294	ARHGEF2|RHBG|MX2|TJP1|RAB8A|TRDN|IL18|RRBP1|HTR2A|ZP3|PNN|MYC|ANXA13|TRAM1|SRP54|RAB10|CAV1|ZP2|SEC61A1|RAB7A|DDOST|SEC61G|PLN|CYP3A12|SFRP2|SLC8A1|CTNNB1|RHCG|PODXL|CASQ2|RAB13
+GO:0008150	biological_process	biological_process	9615	inferred	33	403498|403538|403744|403752|403773|403776|403796|403809|403882|403894|403907|403924|403935|403948|403953|403958|403980|403988|404006|404007|404012|404017|414755|415129|475471|475738|477032|479040|482252|483134|484038|488089|612294	ARHGEF2|RHBG|MX2|TJP1|RAB8A|TRDN|IL18|RRBP1|HTR2A|ZP3|PNN|MYC|ANXA13|TRAM1|SRP54|RAB10|CAV1|ZP2|SEC61A1|RAB7A|DDOST|SEC61G|PLN|CYP3A12|SFRP2|SLC8A1|CTNNB1|RHCG|PODXL|CASQ2|VIP|CCDC39|RAB13
 GO:0008152	metabolic process	biological_process	9615	inferred	4	403796|404007|404012|415129	IL18|RAB7A|DDOST|CYP3A12
 GO:0008202	steroid metabolic process	biological_process	9615	inferred	1	415129	CYP3A12
 GO:0008207	C21-steroid hormone metabolic process	biological_process	9615	inferred	1	415129	CYP3A12
@@ -137,13 +151,20 @@ GO:0009607	response to biotic stimulus	biological_process	9615	inferred	1	403744
 GO:0009615	response to virus	biological_process	9615	inferred	1	403744	MX2
 GO:0009628	response to abiotic stimulus	biological_process	9615	inferred	1	403498	ARHGEF2
 GO:0009653	anatomical structure morphogenesis	biological_process	9615	inferred	2	403958|482252	RAB10|PODXL
+GO:0009799	specification of symmetry	biological_process	9615	inferred	1	488089	CCDC39
+GO:0009855	determination of bilateral symmetry	biological_process	9615	inferred	1	488089	CCDC39
 GO:0009888	tissue development	biological_process	9615	inferred	2	403958|482252	RAB10|PODXL
+GO:0009889	regulation of biosynthetic process	biological_process	9615	inferred	1	484038	VIP
+GO:0009891	positive regulation of biosynthetic process	biological_process	9615	inferred	1	484038	VIP
 GO:0009892	negative regulation of metabolic process	biological_process	9615	inferred	2	403924|414755	MYC|PLN
+GO:0009893	positive regulation of metabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:0009894	regulation of catabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:0009896	positive regulation of catabolic process	biological_process	9615	inferred	1	484038	VIP
 GO:0009966	regulation of signal transduction	biological_process	9615	inferred	6	403498|403776|403924|404007|475471|483134	ARHGEF2|TRDN|MYC|RAB7A|SFRP2|CASQ2
 GO:0009967	positive regulation of signal transduction	biological_process	9615	inferred	1	403776	TRDN
 GO:0009968	negative regulation of signal transduction	biological_process	9615	inferred	5	403498|403924|404007|475471|483134	ARHGEF2|MYC|RAB7A|SFRP2|CASQ2
 GO:0009986	cell surface	cellular_component	9615	inferred	4	403752|403844|403852|403854	TJP1|OCLN|TJP3|TJP2
-GO:0009987	cellular process	biological_process	9615	inferred	17	403498|403752|403796|403809|403882|403894|403948|403953|403958|403980|404007|404012|415129|475471|475738|477032|612294	ARHGEF2|TJP1|IL18|RRBP1|HTR2A|ZP3|TRAM1|SRP54|RAB10|CAV1|RAB7A|DDOST|CYP3A12|SFRP2|SLC8A1|CTNNB1|RAB13
+GO:0009987	cellular process	biological_process	9615	inferred	19	403498|403752|403796|403809|403882|403894|403948|403953|403958|403980|404007|404012|415129|475471|475738|477032|484038|488089|612294	ARHGEF2|TJP1|IL18|RRBP1|HTR2A|ZP3|TRAM1|SRP54|RAB10|CAV1|RAB7A|DDOST|CYP3A12|SFRP2|SLC8A1|CTNNB1|VIP|CCDC39|RAB13
 GO:0009988	cell-cell recognition	biological_process	9615	inferred	1	403894	ZP3
 GO:0010033	response to organic substance	biological_process	9615	inferred	1	403498	ARHGEF2
 GO:0010035	response to inorganic substance	biological_process	9615	inferred	1	403752	TJP1
@@ -153,7 +174,11 @@ GO:0010469	regulation of receptor activity	biological_process	9615	inferred	2	40
 GO:0010522	regulation of calcium ion transport into cytosol	biological_process	9615	inferred	2	403776|483134	TRDN|CASQ2
 GO:0010523	negative regulation of calcium ion transport into cytosol	biological_process	9615	inferred	1	483134	CASQ2
 GO:0010524	positive regulation of calcium ion transport into cytosol	biological_process	9615	inferred	1	403776	TRDN
+GO:0010562	positive regulation of phosphorus metabolic process	biological_process	9615	inferred	1	484038	VIP
 GO:0010563	negative regulation of phosphorus metabolic process	biological_process	9615	inferred	1	403924	MYC
+GO:0010578	regulation of adenylate cyclase activity involved in G-protein coupled receptor signaling pathway	biological_process	9615	inferred	1	484038	VIP
+GO:0010579	positive regulation of adenylate cyclase activity involved in G-protein coupled receptor signaling pathway	biological_process	9615	inferred	1	484038	VIP
+GO:0010604	positive regulation of macromolecule metabolic process	biological_process	9615	inferred	1	484038	VIP
 GO:0010605	negative regulation of macromolecule metabolic process	biological_process	9615	inferred	1	403924	MYC
 GO:0010646	regulation of cell communication	biological_process	9615	inferred	6	403498|403776|403924|404007|475471|483134	ARHGEF2|TRDN|MYC|RAB7A|SFRP2|CASQ2
 GO:0010647	positive regulation of cell communication	biological_process	9615	inferred	1	403776	TRDN
@@ -189,19 +214,19 @@ GO:0016064	immunoglobulin mediated immune response	biological_process	9615	infer
 GO:0016192	vesicle-mediated transport	biological_process	9615	inferred	4	403773|403958|404007|612294	RAB8A|RAB10|RAB7A|RAB13
 GO:0016197	endosomal transport	biological_process	9615	inferred	3	403773|404007|612294	RAB8A|RAB7A|RAB13
 GO:0016234	inclusion body	cellular_component	9615	inferred	1	403988	ZP2
-GO:0016265	death	biological_process	9615	inferred	1	403796	IL18
 GO:0016323	basolateral plasma membrane	cellular_component	9615	inferred	2	403538|403935	RHBG|ANXA13
 GO:0016324	apical plasma membrane	cellular_component	9615	inferred	4	403434|403767|403935|482252	AMN|CUBN|ANXA13|PODXL
 GO:0016337	single organismal cell-cell adhesion	biological_process	9615	inferred	1	403907	PNN
-GO:0016482	cytoplasmic transport	biological_process	9615	inferred	8	403882|403948|403953|403958|404006|404007|404017|612294	HTR2A|TRAM1|SRP54|RAB10|SEC61A1|RAB7A|SEC61G|RAB13
+GO:0016482	cytosolic transport	biological_process	9615	inferred	1	404007	RAB7A
 GO:0016491	oxidoreductase activity	molecular_function	9615	inferred	1	415129	CYP3A12
 GO:0016528	sarcoplasm	cellular_component	9615	inferred	2	403776|483134	TRDN|CASQ2
 GO:0016529	sarcoplasmic reticulum	cellular_component	9615	inferred	2	403776|483134	TRDN|CASQ2
 GO:0016740	transferase activity	molecular_function	9615	inferred	1	404012	DDOST
 GO:0016757	transferase activity, transferring glycosyl groups	molecular_function	9615	inferred	1	404012	DDOST
 GO:0016758	transferase activity, transferring hexosyl groups	molecular_function	9615	inferred	1	404012	DDOST
-GO:0019220	regulation of phosphate metabolic process	biological_process	9615	inferred	1	403924	MYC
-GO:0019222	regulation of metabolic process	biological_process	9615	inferred	2	403924|414755	MYC|PLN
+GO:0019219	regulation of nucleobase-containing compound metabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:0019220	regulation of phosphate metabolic process	biological_process	9615	inferred	2	403924|484038	MYC|VIP
+GO:0019222	regulation of metabolic process	biological_process	9615	inferred	3	403924|414755|484038	MYC|PLN|VIP
 GO:0019538	protein metabolic process	biological_process	9615	inferred	3	403796|404007|404012	IL18|RAB7A|DDOST
 GO:0019724	B cell mediated immunity	biological_process	9615	inferred	2	403894|403988	ZP3|ZP2
 GO:0019725	cellular homeostasis	biological_process	9615	inferred	1	403882	HTR2A
@@ -210,13 +235,14 @@ GO:0022414	reproductive process	biological_process	9615	inferred	1	403894	ZP3
 GO:0022607	cellular component assembly	biological_process	9615	inferred	5	403752|403953|403980|477032|612294	TJP1|SRP54|CAV1|CTNNB1|RAB13
 GO:0022610	biological adhesion	biological_process	9615	inferred	1	403907	PNN
 GO:0022804	active transmembrane transporter activity	molecular_function	9615	inferred	1	475738	SLC8A1
+GO:0022853	active ion transmembrane transporter activity	molecular_function	9615	inferred	1	475738	SLC8A1
 GO:0022857	transmembrane transporter activity	molecular_function	9615	inferred	3	403538|475738|479040	RHBG|SLC8A1|RHCG
 GO:0022890	inorganic cation transmembrane transporter activity	molecular_function	9615	inferred	3	403538|475738|479040	RHBG|SLC8A1|RHCG
 GO:0022891	substrate-specific transmembrane transporter activity	molecular_function	9615	inferred	3	403538|475738|479040	RHBG|SLC8A1|RHCG
 GO:0022892	substrate-specific transporter activity	molecular_function	9615	inferred	4	403538|404017|475738|479040	RHBG|SEC61G|SLC8A1|RHCG
 GO:0022898	regulation of transmembrane transporter activity	biological_process	9615	inferred	3	403776|414755|483134	TRDN|PLN|CASQ2
 GO:0023051	regulation of signaling	biological_process	9615	inferred	6	403498|403776|403924|404007|475471|483134	ARHGEF2|TRDN|MYC|RAB7A|SFRP2|CASQ2
-GO:0023052	signaling	biological_process	9615	inferred	5	403796|403809|403882|475471|612294	IL18|RRBP1|HTR2A|SFRP2|RAB13
+GO:0023052	signaling	biological_process	9615	inferred	6	403796|403809|403882|475471|484038|612294	IL18|RRBP1|HTR2A|SFRP2|VIP|RAB13
 GO:0023056	positive regulation of signaling	biological_process	9615	inferred	1	403776	TRDN
 GO:0023057	negative regulation of signaling	biological_process	9615	inferred	5	403498|403924|404007|475471|483134	ARHGEF2|MYC|RAB7A|SFRP2|CASQ2
 GO:0030001	metal ion transport	biological_process	9615	inferred	2	403882|475738	HTR2A|SLC8A1
@@ -232,6 +258,16 @@ GO:0030163	protein catabolic process	biological_process	9615	inferred	1	404007	R
 GO:0030176	integral component of endoplasmic reticulum membrane	cellular_component	9615	inferred	2	403809|404006	RRBP1|SEC61A1
 GO:0030234	enzyme regulator activity	molecular_function	9615	inferred	1	414755	PLN
 GO:0030674	protein binding, bridging	molecular_function	9615	inferred	1	403776	TRDN
+GO:0030799	regulation of cyclic nucleotide metabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:0030801	positive regulation of cyclic nucleotide metabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:0030802	regulation of cyclic nucleotide biosynthetic process	biological_process	9615	inferred	1	484038	VIP
+GO:0030804	positive regulation of cyclic nucleotide biosynthetic process	biological_process	9615	inferred	1	484038	VIP
+GO:0030808	regulation of nucleotide biosynthetic process	biological_process	9615	inferred	1	484038	VIP
+GO:0030810	positive regulation of nucleotide biosynthetic process	biological_process	9615	inferred	1	484038	VIP
+GO:0030814	regulation of cAMP metabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:0030816	positive regulation of cAMP metabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:0030817	regulation of cAMP biosynthetic process	biological_process	9615	inferred	1	484038	VIP
+GO:0030819	positive regulation of cAMP biosynthetic process	biological_process	9615	inferred	1	484038	VIP
 GO:0030855	epithelial cell differentiation	biological_process	9615	inferred	1	403958	RAB10
 GO:0030859	polarized epithelial cell differentiation	biological_process	9615	inferred	1	403958	RAB10
 GO:0030942	endoplasmic reticulum signal peptide binding	molecular_function	9615	inferred	1	403953	SRP54
@@ -240,10 +276,15 @@ GO:0031090	organelle membrane	cellular_component	9615	inferred	3	403809|404006|4
 GO:0031224	intrinsic component of membrane	cellular_component	9615	inferred	6	403610|403776|403809|404006|475738|483134	FZD6|TRDN|RRBP1|SEC61A1|SLC8A1|CASQ2
 GO:0031226	intrinsic component of plasma membrane	cellular_component	9615	inferred	2	403610|475738	FZD6|SLC8A1
 GO:0031227	intrinsic component of endoplasmic reticulum membrane	cellular_component	9615	inferred	2	403809|404006	RRBP1|SEC61A1
+GO:0031279	regulation of cyclase activity	biological_process	9615	inferred	1	484038	VIP
+GO:0031281	positive regulation of cyclase activity	biological_process	9615	inferred	1	484038	VIP
 GO:0031300	intrinsic component of organelle membrane	cellular_component	9615	inferred	2	403809|404006	RRBP1|SEC61A1
 GO:0031301	integral component of organelle membrane	cellular_component	9615	inferred	2	403809|404006	RRBP1|SEC61A1
-GO:0031323	regulation of cellular metabolic process	biological_process	9615	inferred	1	403924	MYC
+GO:0031323	regulation of cellular metabolic process	biological_process	9615	inferred	2	403924|484038	MYC|VIP
 GO:0031324	negative regulation of cellular metabolic process	biological_process	9615	inferred	1	403924	MYC
+GO:0031325	positive regulation of cellular metabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:0031326	regulation of cellular biosynthetic process	biological_process	9615	inferred	1	484038	VIP
+GO:0031328	positive regulation of cellular biosynthetic process	biological_process	9615	inferred	1	484038	VIP
 GO:0031399	regulation of protein modification process	biological_process	9615	inferred	1	403924	MYC
 GO:0031400	negative regulation of protein modification process	biological_process	9615	inferred	1	403924	MYC
 GO:0031410	cytoplasmic vesicle	cellular_component	9615	inferred	3	403752|403935|403938	TJP1|ANXA13|LMAN2
@@ -264,8 +305,8 @@ GO:0032412	regulation of ion transmembrane transporter activity	biological_proce
 GO:0032413	negative regulation of ion transmembrane transporter activity	biological_process	9615	inferred	2	414755|483134	PLN|CASQ2
 GO:0032414	positive regulation of ion transmembrane transporter activity	biological_process	9615	inferred	1	403776	TRDN
 GO:0032456	endocytic recycling	biological_process	9615	inferred	2	403773|612294	RAB8A|RAB13
-GO:0032501	multicellular organismal process	biological_process	9615	inferred	2	403796|482252	IL18|PODXL
-GO:0032502	developmental process	biological_process	9615	inferred	2	403958|482252	RAB10|PODXL
+GO:0032501	multicellular organismal process	biological_process	9615	inferred	3	403796|482252|488089	IL18|PODXL|CCDC39
+GO:0032502	developmental process	biological_process	9615	inferred	3	403958|482252|488089	RAB10|PODXL|CCDC39
 GO:0032609	interferon-gamma production	biological_process	9615	inferred	1	403796	IL18
 GO:0032780	negative regulation of ATPase activity	biological_process	9615	inferred	1	414755	PLN
 GO:0032844	regulation of homeostatic process	biological_process	9615	inferred	3	403776|403882|483134	TRDN|HTR2A|CASQ2
@@ -273,8 +314,8 @@ GO:0032845	negative regulation of homeostatic process	biological_process	9615	in
 GO:0032846	positive regulation of homeostatic process	biological_process	9615	inferred	2	403776|483134	TRDN|CASQ2
 GO:0032872	regulation of stress-activated MAPK cascade	biological_process	9615	inferred	1	403924	MYC
 GO:0032873	negative regulation of stress-activated MAPK cascade	biological_process	9615	inferred	1	403924	MYC
-GO:0032879	regulation of localization	biological_process	9615	inferred	5	403776|403882|403935|414755|483134	TRDN|HTR2A|ANXA13|PLN|CASQ2
-GO:0032880	regulation of protein localization	biological_process	9615	inferred	1	403935	ANXA13
+GO:0032879	regulation of localization	biological_process	9615	inferred	6	403776|403882|403935|414755|483134|484038	TRDN|HTR2A|ANXA13|PLN|CASQ2|VIP
+GO:0032880	regulation of protein localization	biological_process	9615	inferred	2	403935|484038	ANXA13|VIP
 GO:0032991	macromolecular complex	cellular_component	9615	inferred	4	403776|403958|404012|483134	TRDN|RAB10|DDOST|CASQ2
 GO:0033036	macromolecule localization	biological_process	9615	inferred	7	403948|403953|403958|403980|404006|404017|612294	TRAM1|SRP54|RAB10|CAV1|SEC61A1|SEC61G|RAB13
 GO:0033157	regulation of intracellular protein transport	biological_process	9615	inferred	1	403935	ANXA13
@@ -309,6 +350,7 @@ GO:0035556	intracellular signal transduction	biological_process	9615	inferred	1	
 GO:0035725	sodium ion transmembrane transport	biological_process	9615	inferred	1	475738	SLC8A1
 GO:0036211	protein modification process	biological_process	9615	inferred	1	404012	DDOST
 GO:0038023	signaling receptor activity	molecular_function	9615	inferred	1	403882	HTR2A
+GO:0040011	locomotion	biological_process	9615	inferred	1	488089	CCDC39
 GO:0042030	ATPase inhibitor activity	molecular_function	9615	inferred	1	414755	PLN
 GO:0042058	regulation of epidermal growth factor receptor signaling pathway	biological_process	9615	inferred	1	404007	RAB7A
 GO:0042059	negative regulation of epidermal growth factor receptor signaling pathway	biological_process	9615	inferred	1	404007	RAB7A
@@ -317,6 +359,7 @@ GO:0042095	interferon-gamma biosynthetic process	biological_process	9615	inferre
 GO:0042107	cytokine metabolic process	biological_process	9615	inferred	1	403796	IL18
 GO:0042127	regulation of cell proliferation	biological_process	9615	inferred	1	403924	MYC
 GO:0042175	nuclear outer membrane-endoplasmic reticulum membrane network	cellular_component	9615	inferred	3	403809|404006|404012	RRBP1|SEC61A1|DDOST
+GO:0042176	regulation of protein catabolic process	biological_process	9615	inferred	1	484038	VIP
 GO:0042180	cellular ketone metabolic process	biological_process	9615	inferred	1	415129	CYP3A12
 GO:0042221	response to chemical	biological_process	9615	inferred	4	403498|403752|403882|403924	ARHGEF2|TJP1|HTR2A|MYC
 GO:0042277	peptide binding	molecular_function	9615	inferred	1	403953	SRP54
@@ -336,16 +379,17 @@ GO:0043001	Golgi to plasma membrane protein transport	biological_process	9615	in
 GO:0043066	negative regulation of apoptotic process	biological_process	9615	inferred	3	403498|403924|475471	ARHGEF2|MYC|SFRP2
 GO:0043067	regulation of programmed cell death	biological_process	9615	inferred	3	403498|403924|475471	ARHGEF2|MYC|SFRP2
 GO:0043069	negative regulation of programmed cell death	biological_process	9615	inferred	3	403498|403924|475471	ARHGEF2|MYC|SFRP2
+GO:0043085	positive regulation of catalytic activity	biological_process	9615	inferred	1	484038	VIP
 GO:0043086	negative regulation of catalytic activity	biological_process	9615	inferred	1	414755	PLN
-GO:0043167	ion binding	molecular_function	9615	inferred	3	403882|404010|475738	HTR2A|PNLIPRP1|SLC8A1
-GO:0043169	cation binding	molecular_function	9615	inferred	3	403882|404010|475738	HTR2A|PNLIPRP1|SLC8A1
+GO:0043167	ion binding	molecular_function	9615	inferred	4	403762|403882|404010|475738	BGLAP|HTR2A|PNLIPRP1|SLC8A1
+GO:0043169	cation binding	molecular_function	9615	inferred	4	403762|403882|404010|475738	BGLAP|HTR2A|PNLIPRP1|SLC8A1
 GO:0043170	macromolecule metabolic process	biological_process	9615	inferred	3	403796|404007|404012	IL18|RAB7A|DDOST
 GO:0043176	amine binding	molecular_function	9615	inferred	1	403882	HTR2A
 GO:0043207	response to external biotic stimulus	biological_process	9615	inferred	1	403744	MX2
 GO:0043226	organelle	cellular_component	9615	inferred	16	403403|403621|403752|403776|403809|403924|403935|403938|403958|404006|404008|404012|442971|442991|483134|612294	PLA2G15|PGR|TJP1|TRDN|RRBP1|MYC|ANXA13|LMAN2|RAB10|SEC61A1|RAB5A|DDOST|CLU|SLC35A3|CASQ2|RAB13
-GO:0043227	membrane-bounded organelle	cellular_component	9615	inferred	14	403403|403621|403776|403809|403924|403935|403938|403958|404006|404012|442971|442991|483134|612294	PLA2G15|PGR|TRDN|RRBP1|MYC|ANXA13|LMAN2|RAB10|SEC61A1|DDOST|CLU|SLC35A3|CASQ2|RAB13
+GO:0043227	membrane-bounded organelle	cellular_component	9615	inferred	15	403403|403621|403752|403776|403809|403924|403935|403938|403958|404006|404012|442971|442991|483134|612294	PLA2G15|PGR|TJP1|TRDN|RRBP1|MYC|ANXA13|LMAN2|RAB10|SEC61A1|DDOST|CLU|SLC35A3|CASQ2|RAB13
 GO:0043228	non-membrane-bounded organelle	cellular_component	9615	inferred	1	404008	RAB5A
-GO:0043229	intracellular organelle	cellular_component	9615	inferred	16	403403|403621|403752|403776|403809|403924|403935|403938|403958|404006|404008|404012|442971|442991|483134|612294	PLA2G15|PGR|TJP1|TRDN|RRBP1|MYC|ANXA13|LMAN2|RAB10|SEC61A1|RAB5A|DDOST|CLU|SLC35A3|CASQ2|RAB13
+GO:0043229	intracellular organelle	cellular_component	9615	inferred	15	403403|403621|403776|403809|403924|403935|403938|403958|404006|404008|404012|442971|442991|483134|612294	PLA2G15|PGR|TRDN|RRBP1|MYC|ANXA13|LMAN2|RAB10|SEC61A1|RAB5A|DDOST|CLU|SLC35A3|CASQ2|RAB13
 GO:0043231	intracellular membrane-bounded organelle	cellular_component	9615	inferred	14	403403|403621|403776|403809|403924|403935|403938|403958|404006|404012|442971|442991|483134|612294	PLA2G15|PGR|TRDN|RRBP1|MYC|ANXA13|LMAN2|RAB10|SEC61A1|DDOST|CLU|SLC35A3|CASQ2|RAB13
 GO:0043232	intracellular non-membrane-bounded organelle	cellular_component	9615	inferred	1	404008	RAB5A
 GO:0043234	protein complex	cellular_component	9615	inferred	4	403776|403958|404012|483134	TRDN|RAB10|DDOST|CASQ2
@@ -365,7 +409,7 @@ GO:0044057	regulation of system process	biological_process	9615	inferred	1	40377
 GO:0044085	cellular component biogenesis	biological_process	9615	inferred	5	403752|403953|403980|477032|612294	TJP1|SRP54|CAV1|CTNNB1|RAB13
 GO:0044091	membrane biogenesis	biological_process	9615	inferred	1	403980	CAV1
 GO:0044092	negative regulation of molecular function	biological_process	9615	inferred	2	414755|483134	PLN|CASQ2
-GO:0044093	positive regulation of molecular function	biological_process	9615	inferred	1	403776	TRDN
+GO:0044093	positive regulation of molecular function	biological_process	9615	inferred	2	403776|484038	TRDN|VIP
 GO:0044212	transcription regulatory region DNA binding	molecular_function	9615	inferred	1	403924	MYC
 GO:0044237	cellular metabolic process	biological_process	9615	inferred	3	404007|404012|415129	RAB7A|DDOST|CYP3A12
 GO:0044238	primary metabolic process	biological_process	9615	inferred	4	403796|404007|404012|415129	IL18|RAB7A|DDOST|CYP3A12
@@ -378,16 +422,16 @@ GO:0044267	cellular protein metabolic process	biological_process	9615	inferred	2
 GO:0044281	small molecule metabolic process	biological_process	9615	inferred	1	415129	CYP3A12
 GO:0044325	ion channel binding	molecular_function	9615	inferred	1	403776	TRDN
 GO:0044446	intracellular organelle part	cellular_component	9615	inferred	5	403809|403938|403958|404006|404012	RRBP1|LMAN2|RAB10|SEC61A1|DDOST
-GO:0044699	single-organism process	biological_process	9615	inferred	23	403538|403752|403773|403796|403809|403882|403894|403907|403948|403953|403958|403980|404006|404007|404012|404017|415129|475471|475738|477032|479040|482252|612294	RHBG|TJP1|RAB8A|IL18|RRBP1|HTR2A|ZP3|PNN|TRAM1|SRP54|RAB10|CAV1|SEC61A1|RAB7A|DDOST|SEC61G|CYP3A12|SFRP2|SLC8A1|CTNNB1|RHCG|PODXL|RAB13
-GO:0044700	single organism signaling	biological_process	9615	inferred	5	403796|403809|403882|475471|612294	IL18|RRBP1|HTR2A|SFRP2|RAB13
+GO:0044699	single-organism process	biological_process	9615	inferred	25	403538|403752|403773|403796|403809|403882|403894|403907|403948|403953|403958|403980|404006|404007|404012|404017|415129|475471|475738|477032|479040|482252|484038|488089|612294	RHBG|TJP1|RAB8A|IL18|RRBP1|HTR2A|ZP3|PNN|TRAM1|SRP54|RAB10|CAV1|SEC61A1|RAB7A|DDOST|SEC61G|CYP3A12|SFRP2|SLC8A1|CTNNB1|RHCG|PODXL|VIP|CCDC39|RAB13
+GO:0044700	single organism signaling	biological_process	9615	inferred	6	403796|403809|403882|475471|484038|612294	IL18|RRBP1|HTR2A|SFRP2|VIP|RAB13
 GO:0044702	single organism reproductive process	biological_process	9615	inferred	1	403894	ZP3
 GO:0044703	multi-organism reproductive process	biological_process	9615	inferred	1	403894	ZP3
-GO:0044707	single-multicellular organism process	biological_process	9615	inferred	2	403796|482252	IL18|PODXL
+GO:0044707	single-multicellular organism process	biological_process	9615	inferred	3	403796|482252|488089	IL18|PODXL|CCDC39
 GO:0044710	single-organism metabolic process	biological_process	9615	inferred	2	404012|415129	DDOST|CYP3A12
 GO:0044723	single-organism carbohydrate metabolic process	biological_process	9615	inferred	1	404012	DDOST
-GO:0044763	single-organism cellular process	biological_process	9615	inferred	15	403752|403796|403809|403882|403894|403948|403953|403958|403980|404012|415129|475471|475738|477032|612294	TJP1|IL18|RRBP1|HTR2A|ZP3|TRAM1|SRP54|RAB10|CAV1|DDOST|CYP3A12|SFRP2|SLC8A1|CTNNB1|RAB13
+GO:0044763	single-organism cellular process	biological_process	9615	inferred	17	403752|403796|403809|403882|403894|403948|403953|403958|403980|404012|415129|475471|475738|477032|484038|488089|612294	TJP1|IL18|RRBP1|HTR2A|ZP3|TRAM1|SRP54|RAB10|CAV1|DDOST|CYP3A12|SFRP2|SLC8A1|CTNNB1|VIP|CCDC39|RAB13
 GO:0044765	single-organism transport	biological_process	9615	inferred	12	403538|403773|403882|403948|403953|403958|404006|404007|404017|475738|479040|612294	RHBG|RAB8A|HTR2A|TRAM1|SRP54|RAB10|SEC61A1|RAB7A|SEC61G|SLC8A1|RHCG|RAB13
-GO:0044767	single-organism developmental process	biological_process	9615	inferred	2	403958|482252	RAB10|PODXL
+GO:0044767	single-organism developmental process	biological_process	9615	inferred	3	403958|482252|488089	RAB10|PODXL|CCDC39
 GO:0044795	trans-Golgi network to recycling endosome transport	biological_process	9615	inferred	1	612294	RAB13
 GO:0044802	single-organism membrane organization	biological_process	9615	inferred	5	403948|403953|403958|403980|612294	TRAM1|SRP54|RAB10|CAV1|RAB13
 GO:0044853	plasma membrane raft	cellular_component	9615	inferred	1	403980	CAV1
@@ -401,36 +445,46 @@ GO:0045121	membrane raft	cellular_component	9615	inferred	3	403933|403935|403980
 GO:0045177	apical part of cell	cellular_component	9615	inferred	4	403434|403767|403935|482252	AMN|CUBN|ANXA13|PODXL
 GO:0045184	establishment of protein localization	biological_process	9615	inferred	6	403948|403953|403958|404006|404017|612294	TRAM1|SRP54|RAB10|SEC61A1|SEC61G|RAB13
 GO:0045216	cell-cell junction organization	biological_process	9615	inferred	3	403752|477032|612294	TJP1|CTNNB1|RAB13
+GO:0045732	positive regulation of protein catabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:0045761	regulation of adenylate cyclase activity	biological_process	9615	inferred	1	484038	VIP
+GO:0045762	positive regulation of adenylate cyclase activity	biological_process	9615	inferred	1	484038	VIP
 GO:0045785	positive regulation of cell adhesion	biological_process	9615	inferred	1	475471	SFRP2
+GO:0045935	positive regulation of nucleobase-containing compound metabolic process	biological_process	9615	inferred	1	484038	VIP
 GO:0045936	negative regulation of phosphate metabolic process	biological_process	9615	inferred	1	403924	MYC
-GO:0046872	metal ion binding	molecular_function	9615	inferred	2	404010|475738	PNLIPRP1|SLC8A1
+GO:0045937	positive regulation of phosphate metabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:0045981	positive regulation of nucleotide metabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:0046872	metal ion binding	molecular_function	9615	inferred	3	403762|404010|475738	BGLAP|PNLIPRP1|SLC8A1
 GO:0046873	metal ion transmembrane transporter activity	molecular_function	9615	inferred	1	475738	SLC8A1
 GO:0046907	intracellular transport	biological_process	9615	inferred	9	403773|403882|403948|403953|403958|404006|404007|404017|612294	RAB8A|HTR2A|TRAM1|SRP54|RAB10|SEC61A1|RAB7A|SEC61G|RAB13
 GO:0047484	regulation of response to osmotic stress	biological_process	9615	inferred	1	403498	ARHGEF2
 GO:0048193	Golgi vesicle transport	biological_process	9615	inferred	1	403958	RAB10
 GO:0048471	perinuclear region of cytoplasm	cellular_component	9615	inferred	1	403938	LMAN2
-GO:0048518	positive regulation of biological process	biological_process	9615	inferred	6	403776|403894|403924|403935|475471|483134	TRDN|ZP3|MYC|ANXA13|SFRP2|CASQ2
+GO:0048518	positive regulation of biological process	biological_process	9615	inferred	7	403776|403894|403924|403935|475471|483134|484038	TRDN|ZP3|MYC|ANXA13|SFRP2|CASQ2|VIP
 GO:0048519	negative regulation of biological process	biological_process	9615	inferred	8	403498|403882|403924|403935|404007|414755|475471|483134	ARHGEF2|HTR2A|MYC|ANXA13|RAB7A|PLN|SFRP2|CASQ2
-GO:0048522	positive regulation of cellular process	biological_process	9615	inferred	5	403776|403924|403935|475471|483134	TRDN|MYC|ANXA13|SFRP2|CASQ2
+GO:0048522	positive regulation of cellular process	biological_process	9615	inferred	6	403776|403924|403935|475471|483134|484038	TRDN|MYC|ANXA13|SFRP2|CASQ2|VIP
 GO:0048523	negative regulation of cellular process	biological_process	9615	inferred	8	403498|403882|403924|403935|404007|414755|475471|483134	ARHGEF2|HTR2A|MYC|ANXA13|RAB7A|PLN|SFRP2|CASQ2
 GO:0048583	regulation of response to stimulus	biological_process	9615	inferred	6	403498|403776|403924|404007|475471|483134	ARHGEF2|TRDN|MYC|RAB7A|SFRP2|CASQ2
 GO:0048584	positive regulation of response to stimulus	biological_process	9615	inferred	1	403776	TRDN
 GO:0048585	negative regulation of response to stimulus	biological_process	9615	inferred	5	403498|403924|404007|475471|483134	ARHGEF2|MYC|RAB7A|SFRP2|CASQ2
 GO:0048646	anatomical structure formation involved in morphogenesis	biological_process	9615	inferred	1	482252	PODXL
 GO:0048729	tissue morphogenesis	biological_process	9615	inferred	2	403958|482252	RAB10|PODXL
-GO:0048856	anatomical structure development	biological_process	9615	inferred	2	403958|482252	RAB10|PODXL
+GO:0048856	anatomical structure development	biological_process	9615	inferred	3	403958|482252|488089	RAB10|PODXL|CCDC39
 GO:0048869	cellular developmental process	biological_process	9615	inferred	1	403958	RAB10
+GO:0048870	cell motility	biological_process	9615	inferred	1	488089	CCDC39
 GO:0048878	chemical homeostasis	biological_process	9615	inferred	1	403882	HTR2A
 GO:0050649	testosterone 6-beta-hydroxylase activity	molecular_function	9615	inferred	1	415129	CYP3A12
 GO:0050678	regulation of epithelial cell proliferation	biological_process	9615	inferred	1	403924	MYC
 GO:0050679	positive regulation of epithelial cell proliferation	biological_process	9615	inferred	1	403924	MYC
-GO:0050789	regulation of biological process	biological_process	9615	inferred	13	403498|403776|403796|403809|403882|403894|403924|403935|404007|414755|475471|483134|612294	ARHGEF2|TRDN|IL18|RRBP1|HTR2A|ZP3|MYC|ANXA13|RAB7A|PLN|SFRP2|CASQ2|RAB13
-GO:0050790	regulation of catalytic activity	biological_process	9615	inferred	1	414755	PLN
+GO:0050789	regulation of biological process	biological_process	9615	inferred	14	403498|403776|403796|403809|403882|403894|403924|403935|404007|414755|475471|483134|484038|612294	ARHGEF2|TRDN|IL18|RRBP1|HTR2A|ZP3|MYC|ANXA13|RAB7A|PLN|SFRP2|CASQ2|VIP|RAB13
+GO:0050790	regulation of catalytic activity	biological_process	9615	inferred	2	414755|484038	PLN|VIP
 GO:0050793	regulation of developmental process	biological_process	9615	inferred	1	403894	ZP3
-GO:0050794	regulation of cellular process	biological_process	9615	inferred	12	403498|403776|403796|403809|403882|403924|403935|404007|414755|475471|483134|612294	ARHGEF2|TRDN|IL18|RRBP1|HTR2A|MYC|ANXA13|RAB7A|PLN|SFRP2|CASQ2|RAB13
+GO:0050794	regulation of cellular process	biological_process	9615	inferred	13	403498|403776|403796|403809|403882|403924|403935|404007|414755|475471|483134|484038|612294	ARHGEF2|TRDN|IL18|RRBP1|HTR2A|MYC|ANXA13|RAB7A|PLN|SFRP2|CASQ2|VIP|RAB13
 GO:0050801	ion homeostasis	biological_process	9615	inferred	1	403882	HTR2A
 GO:0050839	cell adhesion molecule binding	molecular_function	9615	inferred	1	475471	SFRP2
-GO:0050896	response to stimulus	biological_process	9615	inferred	10	403498|403744|403752|403796|403809|403882|403894|403924|403988|612294	ARHGEF2|MX2|TJP1|IL18|RRBP1|HTR2A|ZP3|MYC|ZP2|RAB13
+GO:0050848	regulation of calcium-mediated signaling	biological_process	9615	inferred	2	403776|483134	TRDN|CASQ2
+GO:0050849	negative regulation of calcium-mediated signaling	biological_process	9615	inferred	1	483134	CASQ2
+GO:0050850	positive regulation of calcium-mediated signaling	biological_process	9615	inferred	1	403776	TRDN
+GO:0050896	response to stimulus	biological_process	9615	inferred	11	403498|403744|403752|403796|403809|403882|403894|403924|403988|484038|612294	ARHGEF2|MX2|TJP1|IL18|RRBP1|HTR2A|ZP3|MYC|ZP2|VIP|RAB13
 GO:0051049	regulation of transport	biological_process	9615	inferred	4	403776|403935|414755|483134	TRDN|ANXA13|PLN|CASQ2
 GO:0051050	positive regulation of transport	biological_process	9615	inferred	2	403776|403935	TRDN|ANXA13
 GO:0051051	negative regulation of transport	biological_process	9615	inferred	3	403935|414755|483134	ANXA13|PLN|CASQ2
@@ -439,8 +493,10 @@ GO:0051094	positive regulation of developmental process	biological_process	9615	
 GO:0051128	regulation of cellular component organization	biological_process	9615	inferred	1	403935	ANXA13
 GO:0051129	negative regulation of cellular component organization	biological_process	9615	inferred	1	403935	ANXA13
 GO:0051130	positive regulation of cellular component organization	biological_process	9615	inferred	1	403935	ANXA13
-GO:0051174	regulation of phosphorus metabolic process	biological_process	9615	inferred	1	403924	MYC
-GO:0051179	localization	biological_process	9615	inferred	13	403538|403773|403882|403948|403953|403958|403980|404006|404007|404017|475738|479040|612294	RHBG|RAB8A|HTR2A|TRAM1|SRP54|RAB10|CAV1|SEC61A1|RAB7A|SEC61G|SLC8A1|RHCG|RAB13
+GO:0051171	regulation of nitrogen compound metabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:0051173	positive regulation of nitrogen compound metabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:0051174	regulation of phosphorus metabolic process	biological_process	9615	inferred	2	403924|484038	MYC|VIP
+GO:0051179	localization	biological_process	9615	inferred	14	403538|403773|403882|403948|403953|403958|403980|404006|404007|404017|475738|479040|488089|612294	RHBG|RAB8A|HTR2A|TRAM1|SRP54|RAB10|CAV1|SEC61A1|RAB7A|SEC61G|SLC8A1|RHCG|CCDC39|RAB13
 GO:0051209	release of sequestered calcium ion into cytosol	biological_process	9615	inferred	1	403882	HTR2A
 GO:0051222	positive regulation of protein transport	biological_process	9615	inferred	1	403935	ANXA13
 GO:0051223	regulation of protein transport	biological_process	9615	inferred	1	403935	ANXA13
@@ -448,7 +504,8 @@ GO:0051224	negative regulation of protein transport	biological_process	9615	infe
 GO:0051234	establishment of localization	biological_process	9615	inferred	12	403538|403773|403882|403948|403953|403958|404006|404007|404017|475738|479040|612294	RHBG|RAB8A|HTR2A|TRAM1|SRP54|RAB10|SEC61A1|RAB7A|SEC61G|SLC8A1|RHCG|RAB13
 GO:0051239	regulation of multicellular organismal process	biological_process	9615	inferred	2	403776|403894	TRDN|ZP3
 GO:0051240	positive regulation of multicellular organismal process	biological_process	9615	inferred	2	403776|403894	TRDN|ZP3
-GO:0051246	regulation of protein metabolic process	biological_process	9615	inferred	1	403924	MYC
+GO:0051246	regulation of protein metabolic process	biological_process	9615	inferred	2	403924|484038	MYC|VIP
+GO:0051247	positive regulation of protein metabolic process	biological_process	9615	inferred	1	484038	VIP
 GO:0051248	negative regulation of protein metabolic process	biological_process	9615	inferred	1	403924	MYC
 GO:0051279	regulation of release of sequestered calcium ion into cytosol	biological_process	9615	inferred	2	403776|483134	TRDN|CASQ2
 GO:0051280	negative regulation of release of sequestered calcium ion into cytosol	biological_process	9615	inferred	1	483134	CASQ2
@@ -457,15 +514,18 @@ GO:0051282	regulation of sequestering of calcium ion	biological_process	9615	inf
 GO:0051283	negative regulation of sequestering of calcium ion	biological_process	9615	inferred	1	403882	HTR2A
 GO:0051284	positive regulation of sequestering of calcium ion	biological_process	9615	inferred	1	483134	CASQ2
 GO:0051336	regulation of hydrolase activity	biological_process	9615	inferred	1	414755	PLN
+GO:0051339	regulation of lyase activity	biological_process	9615	inferred	1	484038	VIP
 GO:0051346	negative regulation of hydrolase activity	biological_process	9615	inferred	1	414755	PLN
+GO:0051349	positive regulation of lyase activity	biological_process	9615	inferred	1	484038	VIP
 GO:0051378	serotonin binding	molecular_function	9615	inferred	1	403882	HTR2A
 GO:0051480	regulation of cytosolic calcium ion concentration	biological_process	9615	inferred	1	403882	HTR2A
 GO:0051592	response to calcium ion	biological_process	9615	inferred	1	403752	TJP1
 GO:0051641	cellular localization	biological_process	9615	inferred	10	403773|403882|403948|403953|403958|403980|404006|404007|404017|612294	RAB8A|HTR2A|TRAM1|SRP54|RAB10|CAV1|SEC61A1|RAB7A|SEC61G|RAB13
 GO:0051649	establishment of localization in cell	biological_process	9615	inferred	9	403773|403882|403948|403953|403958|404006|404007|404017|612294	RAB8A|HTR2A|TRAM1|SRP54|RAB10|SEC61A1|RAB7A|SEC61G|RAB13
+GO:0051674	localization of cell	biological_process	9615	inferred	1	488089	CCDC39
 GO:0051704	multi-organism process	biological_process	9615	inferred	2	403744|403894	MX2|ZP3
 GO:0051707	response to other organism	biological_process	9615	inferred	1	403744	MX2
-GO:0051716	cellular response to stimulus	biological_process	9615	inferred	6	403498|403752|403796|403809|403882|612294	ARHGEF2|TJP1|IL18|RRBP1|HTR2A|RAB13
+GO:0051716	cellular response to stimulus	biological_process	9615	inferred	7	403498|403752|403796|403809|403882|484038|612294	ARHGEF2|TJP1|IL18|RRBP1|HTR2A|VIP|RAB13
 GO:0051924	regulation of calcium ion transport	biological_process	9615	inferred	3	403776|414755|483134	TRDN|PLN|CASQ2
 GO:0051926	negative regulation of calcium ion transport	biological_process	9615	inferred	2	414755|483134	PLN|CASQ2
 GO:0051928	positive regulation of calcium ion transport	biological_process	9615	inferred	1	403776	TRDN
@@ -477,7 +537,9 @@ GO:0055082	cellular chemical homeostasis	biological_process	9615	inferred	1	4038
 GO:0055085	transmembrane transport	biological_process	9615	inferred	4	403882|403948|403953|475738	HTR2A|TRAM1|SRP54|SLC8A1
 GO:0060089	molecular transducer activity	molecular_function	9615	inferred	1	403882	HTR2A
 GO:0060090	binding, bridging	molecular_function	9615	inferred	1	403776	TRDN
-GO:0060255	regulation of macromolecule metabolic process	biological_process	9615	inferred	1	403924	MYC
+GO:0060255	regulation of macromolecule metabolic process	biological_process	9615	inferred	2	403924|484038	MYC|VIP
+GO:0060285	cilium-dependent cell motility	biological_process	9615	inferred	1	488089	CCDC39
+GO:0060287	epithelial cilium movement involved in determination of left/right asymmetry	biological_process	9615	inferred	1	488089	CCDC39
 GO:0060314	regulation of ryanodine-sensitive calcium-release channel activity	biological_process	9615	inferred	2	403776|483134	TRDN|CASQ2
 GO:0060315	negative regulation of ryanodine-sensitive calcium-release channel activity	biological_process	9615	inferred	1	483134	CASQ2
 GO:0060316	positive regulation of ryanodine-sensitive calcium-release channel activity	biological_process	9615	inferred	1	403776	TRDN
@@ -497,9 +559,9 @@ GO:0061024	membrane organization	biological_process	9615	inferred	5	403948|40395
 GO:0061467	basolateral protein localization	biological_process	9615	inferred	1	403958	RAB10
 GO:0065002	intracellular protein transmembrane transport	biological_process	9615	inferred	2	403948|403953	TRAM1|SRP54
 GO:0065003	macromolecular complex assembly	biological_process	9615	inferred	1	403953	SRP54
-GO:0065007	biological regulation	biological_process	9615	inferred	14	403498|403776|403796|403809|403882|403894|403924|403935|404007|414755|415129|475471|483134|612294	ARHGEF2|TRDN|IL18|RRBP1|HTR2A|ZP3|MYC|ANXA13|RAB7A|PLN|CYP3A12|SFRP2|CASQ2|RAB13
+GO:0065007	biological regulation	biological_process	9615	inferred	15	403498|403776|403796|403809|403882|403894|403924|403935|404007|414755|415129|475471|483134|484038|612294	ARHGEF2|TRDN|IL18|RRBP1|HTR2A|ZP3|MYC|ANXA13|RAB7A|PLN|CYP3A12|SFRP2|CASQ2|VIP|RAB13
 GO:0065008	regulation of biological quality	biological_process	9615	inferred	4	403776|403882|415129|483134	TRDN|HTR2A|CYP3A12|CASQ2
-GO:0065009	regulation of molecular function	biological_process	9615	inferred	3	403776|414755|483134	TRDN|PLN|CASQ2
+GO:0065009	regulation of molecular function	biological_process	9615	inferred	4	403776|414755|483134|484038	TRDN|PLN|CASQ2|VIP
 GO:0070085	glycosylation	biological_process	9615	inferred	1	404012	DDOST
 GO:0070160	occluding junction	cellular_component	9615	inferred	2	403752|403844	TJP1|OCLN
 GO:0070161	anchoring junction	cellular_component	9615	inferred	1	403907	PNN
@@ -545,7 +607,7 @@ GO:0072594	establishment of protein localization to organelle	biological_process
 GO:0072599	establishment of protein localization to endoplasmic reticulum	biological_process	9615	inferred	4	403948|403953|404006|404017	TRAM1|SRP54|SEC61A1|SEC61G
 GO:0072657	protein localization to membrane	biological_process	9615	inferred	5	403948|403953|403958|403980|612294	TRAM1|SRP54|RAB10|CAV1|RAB13
 GO:0072659	protein localization to plasma membrane	biological_process	9615	inferred	3	403958|403980|612294	RAB10|CAV1|RAB13
-GO:0080090	regulation of primary metabolic process	biological_process	9615	inferred	1	403924	MYC
+GO:0080090	regulation of primary metabolic process	biological_process	9615	inferred	2	403924|484038	MYC|VIP
 GO:0080134	regulation of response to stress	biological_process	9615	inferred	3	403498|403924|475471	ARHGEF2|MYC|SFRP2
 GO:0080135	regulation of cellular response to stress	biological_process	9615	inferred	3	403498|403924|475471	ARHGEF2|MYC|SFRP2
 GO:0086036	regulation of cardiac muscle cell membrane potential	biological_process	9615	inferred	1	403776	TRDN
@@ -563,6 +625,7 @@ GO:0097159	organic cyclic compound binding	molecular_function	9615	inferred	2	40
 GO:0097190	apoptotic signaling pathway	biological_process	9615	inferred	1	403796	IL18
 GO:0097191	extrinsic apoptotic signaling pathway	biological_process	9615	inferred	1	403796	IL18
 GO:0097553	calcium ion transmembrane import into cytosol	biological_process	9615	inferred	1	403882	HTR2A
+GO:0097708	intracellular vesicle	cellular_component	9615	inferred	3	403752|403935|403938	TJP1|ANXA13|LMAN2
 GO:0098588	bounding membrane of organelle	cellular_component	9615	inferred	3	403809|404006|404012	RRBP1|SEC61A1|DDOST
 GO:0098589	membrane region	cellular_component	9615	inferred	7	403434|403538|403767|403933|403935|403980|482252	AMN|RHBG|CUBN|MAL|ANXA13|CAV1|PODXL
 GO:0098590	plasma membrane region	cellular_component	9615	inferred	6	403434|403538|403767|403935|403980|482252	AMN|RHBG|CUBN|ANXA13|CAV1|PODXL
@@ -578,10 +641,16 @@ GO:0098796	membrane protein complex	cellular_component	9615	inferred	3	403776|40
 GO:0098797	plasma membrane protein complex	cellular_component	9615	inferred	2	403776|483134	TRDN|CASQ2
 GO:0098805	whole membrane	cellular_component	9615	inferred	7	403434|403538|403767|403933|403935|403980|482252	AMN|RHBG|CUBN|MAL|ANXA13|CAV1|PODXL
 GO:0098857	membrane microdomain	cellular_component	9615	inferred	3	403933|403935|403980	MAL|ANXA13|CAV1
+GO:0098927	vesicle-mediated transport between endosomal compartments	biological_process	9615	inferred	1	404007	RAB7A
 GO:0099503	secretory vesicle	cellular_component	9615	inferred	1	403935	ANXA13
 GO:0099516	ion antiporter activity	molecular_function	9615	inferred	1	475738	SLC8A1
 GO:0099568	cytoplasmic region	cellular_component	9615	inferred	1	403958	RAB10
 GO:0099589	serotonin receptor activity	molecular_function	9615	inferred	1	403882	HTR2A
+GO:0099600	transmembrane receptor activity	molecular_function	9615	inferred	1	403882	HTR2A
+GO:1900371	regulation of purine nucleotide biosynthetic process	biological_process	9615	inferred	1	484038	VIP
+GO:1900373	positive regulation of purine nucleotide biosynthetic process	biological_process	9615	inferred	1	484038	VIP
+GO:1900542	regulation of purine nucleotide metabolic process	biological_process	9615	inferred	1	484038	VIP
+GO:1900544	positive regulation of purine nucleotide metabolic process	biological_process	9615	inferred	1	484038	VIP
 GO:1901019	regulation of calcium ion transmembrane transporter activity	biological_process	9615	inferred	3	403776|414755|483134	TRDN|PLN|CASQ2
 GO:1901020	negative regulation of calcium ion transmembrane transporter activity	biological_process	9615	inferred	2	414755|483134	PLN|CASQ2
 GO:1901021	positive regulation of calcium ion transmembrane transporter activity	biological_process	9615	inferred	1	403776	TRDN

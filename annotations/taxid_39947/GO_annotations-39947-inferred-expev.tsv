@@ -1,49 +1,49 @@
 go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
-GO:0000003	reproduction	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0003006	developmental process involved in reproduction	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0005575	cellular_component	cellular_component	39947	inferred	1	4348869	Os10g0471100
-GO:0005622	intracellular	cellular_component	39947	inferred	1	4348869	Os10g0471100
-GO:0005623	cell	cellular_component	39947	inferred	1	4348869	Os10g0471100
-GO:0005737	cytoplasm	cellular_component	39947	inferred	1	4348869	Os10g0471100
-GO:0005783	endoplasmic reticulum	cellular_component	39947	inferred	1	4348869	Os10g0471100
-GO:0007275	multicellular organismal development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0008150	biological_process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0008152	metabolic process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0009058	biosynthetic process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0009059	macromolecule biosynthetic process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0009791	post-embryonic development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0009908	flower development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0010025	wax biosynthetic process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0010143	cutin biosynthetic process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0010166	wax metabolic process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0012505	endomembrane system	cellular_component	39947	inferred	1	4348869	Os10g0471100
-GO:0022414	reproductive process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0031012	extracellular matrix	cellular_component	39947	inferred	1	4348869	Os10g0471100
-GO:0032501	multicellular organismal process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0032502	developmental process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0043170	macromolecule metabolic process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0043226	organelle	cellular_component	39947	inferred	1	4348869	Os10g0471100
-GO:0043227	membrane-bounded organelle	cellular_component	39947	inferred	1	4348869	Os10g0471100
-GO:0043229	intracellular organelle	cellular_component	39947	inferred	1	4348869	Os10g0471100
-GO:0043231	intracellular membrane-bounded organelle	cellular_component	39947	inferred	1	4348869	Os10g0471100
-GO:0043667	pollen wall	cellular_component	39947	inferred	1	4348869	Os10g0471100
-GO:0043668	exine	cellular_component	39947	inferred	1	4348869	Os10g0471100
-GO:0044699	single-organism process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0044702	single organism reproductive process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0044707	single-multicellular organism process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0044767	single-organism developmental process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0048367	shoot system development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0048437	floral organ development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0048438	floral whorl development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0048443	stamen development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0048466	androecium development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0048608	reproductive structure development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0048653	anther development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0048731	system development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0048827	phyllome development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0048856	anatomical structure development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0061458	reproductive system development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0071704	organic substance metabolic process	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0090567	reproductive shoot system development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:0099402	plant organ development	biological_process	39947	inferred	1	4348869	Os10g0471100
-GO:1901576	organic substance biosynthetic process	biological_process	39947	inferred	1	4348869	Os10g0471100
+GO:0000003	reproduction	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0003006	developmental process involved in reproduction	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0005575	cellular_component	cellular_component	39947	inferred	1	4348869	LOC4348869
+GO:0005622	intracellular	cellular_component	39947	inferred	1	4348869	LOC4348869
+GO:0005623	cell	cellular_component	39947	inferred	1	4348869	LOC4348869
+GO:0005737	cytoplasm	cellular_component	39947	inferred	1	4348869	LOC4348869
+GO:0005783	endoplasmic reticulum	cellular_component	39947	inferred	1	4348869	LOC4348869
+GO:0007275	multicellular organism development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0008150	biological_process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0008152	metabolic process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0009058	biosynthetic process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0009059	macromolecule biosynthetic process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0009791	post-embryonic development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0009908	flower development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0010025	wax biosynthetic process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0010143	cutin biosynthetic process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0010166	wax metabolic process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0012505	endomembrane system	cellular_component	39947	inferred	1	4348869	LOC4348869
+GO:0022414	reproductive process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0031012	extracellular matrix	cellular_component	39947	inferred	1	4348869	LOC4348869
+GO:0032501	multicellular organismal process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0032502	developmental process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0043170	macromolecule metabolic process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0043226	organelle	cellular_component	39947	inferred	1	4348869	LOC4348869
+GO:0043227	membrane-bounded organelle	cellular_component	39947	inferred	1	4348869	LOC4348869
+GO:0043229	intracellular organelle	cellular_component	39947	inferred	1	4348869	LOC4348869
+GO:0043231	intracellular membrane-bounded organelle	cellular_component	39947	inferred	1	4348869	LOC4348869
+GO:0043667	pollen wall	cellular_component	39947	inferred	1	4348869	LOC4348869
+GO:0043668	exine	cellular_component	39947	inferred	1	4348869	LOC4348869
+GO:0044699	single-organism process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0044702	single organism reproductive process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0044707	single-multicellular organism process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0044767	single-organism developmental process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0048367	shoot system development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0048437	floral organ development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0048438	floral whorl development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0048443	stamen development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0048466	androecium development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0048608	reproductive structure development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0048653	anther development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0048731	system development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0048827	phyllome development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0048856	anatomical structure development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0061458	reproductive system development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0071704	organic substance metabolic process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0090567	reproductive shoot system development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0099402	plant organ development	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:1901576	organic substance biosynthetic process	biological_process	39947	inferred	1	4348869	LOC4348869
