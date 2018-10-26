@@ -5,12 +5,12 @@ import json
 
 import pandas
 
-import obo # https://github.com/dhimmel/obo
+import obonet # https://github.com/dhimmel/obonet
 # csv.field_size_limit(sys.maxsize)
 
 def read_entrez_file(path, column_names, dtype=None):
     """Read entrez text file format into a pandas.DataFrame"""
-    return pandas.read_table(path, comment='#', names=column_names, na_values=['-'], dtype=dtype)
+    return pandas.read_table(path, comment='#', names=column_names, na_values=['-'], dtype=dtype, index_col=False)
 
 def read_gene2go(download_dir):
     """Read gene ontology annotations by Entrez"""
@@ -69,7 +69,7 @@ def read_go(download_dir):
     """Read the Gene Ontology from an OBO"""
     path = os.path.join(download_dir, 'go-basic.obo')
     with open(path) as read_file:
-        graph = obo.read_obo(read_file)
+        graph = obonet.read_obo(read_file)
     return graph
 
 def graph_to_dataframe(graph):
@@ -78,7 +78,7 @@ def graph_to_dataframe(graph):
     for node, data in graph.nodes(data=True):
         rows.append((node, data['name'], data['namespace']))
     go_df = pandas.DataFrame(rows, columns=['go_id', 'go_name', 'go_domain'])
-    go_df = go_df.sort('go_id')
+    go_df = go_df.sort_values('go_id')
     return go_df
 
 def get_annotation_path(annotation_dir, tax_id, ev_type, annotation_type, mkdir=False):
