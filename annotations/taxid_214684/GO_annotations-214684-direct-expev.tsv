@@ -1,0 +1,10 @@
+go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0000905	sporocarp development involved in asexual reproduction	biological_process	214684	direct	1	3255560	CNB01190
+GO:0000909	sporocarp development involved in sexual reproduction	biological_process	214684	direct	1	3255560	CNB01190
+GO:0005634	nucleus	cellular_component	214684	direct	1	3259088	CNH00970
+GO:0006351	transcription, DNA-templated	biological_process	214684	direct	1	3259088	CNH00970
+GO:0006688	glycosphingolipid biosynthetic process	biological_process	214684	direct	1	3254907	CXT1
+GO:0009405	pathogenesis	biological_process	214684	direct	1	3254907	CXT1
+GO:0035252	UDP-xylosyltransferase activity	molecular_function	214684	direct	1	3254907	CXT1
+GO:0042306	regulation of protein import into nucleus	biological_process	214684	direct	1	3258948	CNG00250
+GO:0045227	capsule polysaccharide biosynthetic process	biological_process	214684	direct	1	3254907	CXT1

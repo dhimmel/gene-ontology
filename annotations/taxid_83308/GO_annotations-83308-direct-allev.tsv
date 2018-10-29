@@ -1,0 +1,3 @@
+go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0008380	RNA splicing	biological_process	83308	direct	1	32886624	matK
+GO:0009536	plastid	cellular_component	83308	direct	1	32886624	matK

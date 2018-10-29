@@ -1,49 +1,417 @@
 go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
-GO:0000003	reproduction	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0003006	developmental process involved in reproduction	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0005575	cellular_component	cellular_component	39947	inferred	1	4348869	LOC4348869
-GO:0005622	intracellular	cellular_component	39947	inferred	1	4348869	LOC4348869
-GO:0005623	cell	cellular_component	39947	inferred	1	4348869	LOC4348869
-GO:0005737	cytoplasm	cellular_component	39947	inferred	1	4348869	LOC4348869
-GO:0005783	endoplasmic reticulum	cellular_component	39947	inferred	1	4348869	LOC4348869
-GO:0007275	multicellular organism development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0008150	biological_process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0008152	metabolic process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0009058	biosynthetic process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0009059	macromolecule biosynthetic process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0009791	post-embryonic development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0009908	flower development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0010025	wax biosynthetic process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0010143	cutin biosynthetic process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0010166	wax metabolic process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0012505	endomembrane system	cellular_component	39947	inferred	1	4348869	LOC4348869
-GO:0022414	reproductive process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0031012	extracellular matrix	cellular_component	39947	inferred	1	4348869	LOC4348869
-GO:0032501	multicellular organismal process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0032502	developmental process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0043170	macromolecule metabolic process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0043226	organelle	cellular_component	39947	inferred	1	4348869	LOC4348869
-GO:0043227	membrane-bounded organelle	cellular_component	39947	inferred	1	4348869	LOC4348869
-GO:0043229	intracellular organelle	cellular_component	39947	inferred	1	4348869	LOC4348869
-GO:0043231	intracellular membrane-bounded organelle	cellular_component	39947	inferred	1	4348869	LOC4348869
-GO:0043667	pollen wall	cellular_component	39947	inferred	1	4348869	LOC4348869
-GO:0043668	exine	cellular_component	39947	inferred	1	4348869	LOC4348869
-GO:0044699	single-organism process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0044702	single organism reproductive process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0044707	single-multicellular organism process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0044767	single-organism developmental process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0048367	shoot system development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0048437	floral organ development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0048438	floral whorl development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0048443	stamen development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0048466	androecium development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0048608	reproductive structure development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0048653	anther development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0048731	system development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0048827	phyllome development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0048856	anatomical structure development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0061458	reproductive system development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0071704	organic substance metabolic process	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0090567	reproductive shoot system development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:0099402	plant organ development	biological_process	39947	inferred	1	4348869	LOC4348869
-GO:1901576	organic substance biosynthetic process	biological_process	39947	inferred	1	4348869	LOC4348869
+GO:0000003	reproduction	biological_process	39947	inferred	6	4340185|4340310|4341462|4342080|4347514|9266285	LOC4340185|LOC4340310|LOC4341462|LOC4342080|LOC4347514|LOC9266285
+GO:0000170	sphingosine hydroxylase activity	molecular_function	39947	inferred	1	9268279	LOC9268279
+GO:0000228	nuclear chromosome	cellular_component	39947	inferred	1	4347514	LOC4347514
+GO:0000237	leptotene	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0000238	zygotene	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0000279	M phase	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0000280	nuclear division	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0000902	cell morphogenesis	biological_process	39947	inferred	2	4330018|4338204	LOC4330018|LOC4338204
+GO:0001101	response to acid chemical	biological_process	39947	inferred	3	4325061|4327304|4335984	LOC4325061|LOC4327304|LOC4335984
+GO:0001763	morphogenesis of a branching structure	biological_process	39947	inferred	1	4336591	LOC4336591
+GO:0003002	regionalization	biological_process	39947	inferred	1	4342080	LOC4342080
+GO:0003006	developmental process involved in reproduction	biological_process	39947	inferred	6	4340185|4340310|4341462|4342080|4347514|9266285	LOC4340185|LOC4340310|LOC4341462|LOC4342080|LOC4347514|LOC9266285
+GO:0003674	molecular_function	molecular_function	39947	inferred	12	4325052|4325061|4325200|4325621|4328512|4334290|4335984|4340547|4340677|4347630|4349897|9268279	LOC4325052|LOC4325061|LOC4325200|LOC4325621|LOC4328512|LOC4334290|LOC4335984|LOC4340547|LOC4340677|LOC4347630|LOC4349897|LOC9268279
+GO:0003676	nucleic acid binding	molecular_function	39947	inferred	1	4325061	LOC4325061
+GO:0003677	DNA binding	molecular_function	39947	inferred	1	4325061	LOC4325061
+GO:0003700	DNA-binding transcription factor activity	molecular_function	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:0003824	catalytic activity	molecular_function	39947	inferred	9	4325052|4325200|4325621|4334290|4335984|4340547|4340677|4349897|9268279	LOC4325052|LOC4325200|LOC4325621|LOC4334290|LOC4335984|LOC4340547|LOC4340677|LOC4349897|LOC9268279
+GO:0003887	DNA-directed DNA polymerase activity	molecular_function	39947	inferred	1	4325052	LOC4325052
+GO:0003896	DNA primase activity	molecular_function	39947	inferred	1	4325052	LOC4325052
+GO:0003899	DNA-directed 5'-3' RNA polymerase activity	molecular_function	39947	inferred	1	4325052	LOC4325052
+GO:0004069	L-aspartate:2-oxoglutarate aminotransferase activity	molecular_function	39947	inferred	1	4325621	LOC4325621
+GO:0004332	fructose-bisphosphate aldolase activity	molecular_function	39947	inferred	1	4349897	LOC4349897
+GO:0004347	glucose-6-phosphate isomerase activity	molecular_function	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0004497	monooxygenase activity	molecular_function	39947	inferred	1	4335984	LOC4335984
+GO:0004765	shikimate kinase activity	molecular_function	39947	inferred	1	4340547	LOC4340547
+GO:0005215	transporter activity	molecular_function	39947	inferred	1	4347630	LOC4347630
+GO:0005319	lipid transporter activity	molecular_function	39947	inferred	1	4347630	LOC4347630
+GO:0005488	binding	molecular_function	39947	inferred	1	4325061	LOC4325061
+GO:0005548	phospholipid transporter activity	molecular_function	39947	inferred	1	4347630	LOC4347630
+GO:0005575	cellular_component	cellular_component	39947	inferred	11	4325052|4325061|4327304|4328512|4330018|4334290|4337699|4340547|4340677|4343617|4347514	LOC4325052|LOC4325061|LOC4327304|LOC4328512|LOC4330018|LOC4334290|LOC4337699|LOC4340547|LOC4340677|LOC4343617|LOC4347514
+GO:0005622	intracellular	cellular_component	39947	inferred	11	4325052|4325061|4327304|4328512|4330018|4334290|4337699|4340547|4340677|4343617|4347514	LOC4325052|LOC4325061|LOC4327304|LOC4328512|LOC4330018|LOC4334290|LOC4337699|LOC4340547|LOC4340677|LOC4343617|LOC4347514
+GO:0005623	cell	cellular_component	39947	inferred	11	4325052|4325061|4327304|4328512|4330018|4334290|4337699|4340547|4340677|4343617|4347514	LOC4325052|LOC4325061|LOC4327304|LOC4328512|LOC4330018|LOC4334290|LOC4337699|LOC4340547|LOC4340677|LOC4343617|LOC4347514
+GO:0005634	nucleus	cellular_component	39947	inferred	7	4325052|4325061|4327304|4328512|4330018|4337699|4347514	LOC4325052|LOC4325061|LOC4327304|LOC4328512|LOC4330018|LOC4337699|LOC4347514
+GO:0005694	chromosome	cellular_component	39947	inferred	1	4347514	LOC4347514
+GO:0005737	cytoplasm	cellular_component	39947	inferred	4	4334290|4340547|4340677|4343617	LOC4334290|LOC4340547|LOC4340677|LOC4343617
+GO:0005768	endosome	cellular_component	39947	inferred	1	4343617	LOC4343617
+GO:0005769	early endosome	cellular_component	39947	inferred	1	4343617	LOC4343617
+GO:0005829	cytosol	cellular_component	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0005886	plasma membrane	cellular_component	39947	inferred	1	4343617	LOC4343617
+GO:0005975	carbohydrate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0005996	monosaccharide metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006006	glucose metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006066	alcohol metabolic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:0006082	organic acid metabolic process	biological_process	39947	inferred	5	4328512|4334290|4335984|4340547|4340677	LOC4328512|LOC4334290|LOC4335984|LOC4340547|LOC4340677
+GO:0006090	pyruvate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006091	generation of precursor metabolites and energy	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006094	gluconeogenesis	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006096	glycolytic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006139	nucleobase-containing compound metabolic process	biological_process	39947	inferred	3	4325052|4334290|4340677	LOC4325052|LOC4334290|LOC4340677
+GO:0006163	purine nucleotide metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006164	purine nucleotide biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006165	nucleoside diphosphate phosphorylation	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006259	DNA metabolic process	biological_process	39947	inferred	1	4325052	LOC4325052
+GO:0006260	DNA replication	biological_process	39947	inferred	1	4325052	LOC4325052
+GO:0006261	DNA-dependent DNA replication	biological_process	39947	inferred	1	4325052	LOC4325052
+GO:0006270	DNA replication initiation	biological_process	39947	inferred	1	4325052	LOC4325052
+GO:0006271	DNA strand elongation involved in DNA replication	biological_process	39947	inferred	1	4325052	LOC4325052
+GO:0006273	lagging strand elongation	biological_process	39947	inferred	1	4325052	LOC4325052
+GO:0006355	regulation of transcription, DNA-templated	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:0006520	cellular amino acid metabolic process	biological_process	39947	inferred	1	4340547	LOC4340547
+GO:0006629	lipid metabolic process	biological_process	39947	inferred	3	4328512|4335984|9268279	LOC4328512|LOC4335984|LOC9268279
+GO:0006643	membrane lipid metabolic process	biological_process	39947	inferred	1	9268279	LOC9268279
+GO:0006665	sphingolipid metabolic process	biological_process	39947	inferred	1	9268279	LOC9268279
+GO:0006714	sesquiterpenoid metabolic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:0006720	isoprenoid metabolic process	biological_process	39947	inferred	2	4328512|4335984	LOC4328512|LOC4335984
+GO:0006721	terpenoid metabolic process	biological_process	39947	inferred	2	4328512|4335984	LOC4328512|LOC4335984
+GO:0006725	cellular aromatic compound metabolic process	biological_process	39947	inferred	4	4325052|4334290|4340547|4340677	LOC4325052|LOC4334290|LOC4340547|LOC4340677
+GO:0006732	coenzyme metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006733	oxidoreduction coenzyme metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006753	nucleoside phosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006754	ATP biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006757	ATP generation from ADP	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006793	phosphorus metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006796	phosphate-containing compound metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0006807	nitrogen compound metabolic process	biological_process	39947	inferred	5	4325052|4334290|4340547|4340677|9268279	LOC4325052|LOC4334290|LOC4340547|LOC4340677|LOC9268279
+GO:0006950	response to stress	biological_process	39947	inferred	3	4325061|4328512|4351983	LOC4325061|LOC4328512|LOC4351983
+GO:0006952	defense response	biological_process	39947	inferred	2	4328512|4351983	LOC4328512|LOC4351983
+GO:0006970	response to osmotic stress	biological_process	39947	inferred	1	4325061	LOC4325061
+GO:0006996	organelle organization	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0007049	cell cycle	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0007059	chromosome segregation	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0007127	meiosis I	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0007128	meiotic prophase I	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0007129	synapsis	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0007154	cell communication	biological_process	39947	inferred	2	4327304|4333680	LOC4327304|LOC4333680
+GO:0007165	signal transduction	biological_process	39947	inferred	2	4327304|4333680	LOC4327304|LOC4333680
+GO:0007186	G protein-coupled receptor signaling pathway	biological_process	39947	inferred	1	4333680	LOC4333680
+GO:0007275	multicellular organism development	biological_process	39947	inferred	10	4325061|4327304|4330018|4336591|4340185|4340310|4341462|4342080|4347514|9266285	LOC4325061|LOC4327304|LOC4330018|LOC4336591|LOC4340185|LOC4340310|LOC4341462|LOC4342080|LOC4347514|LOC9266285
+GO:0007389	pattern specification process	biological_process	39947	inferred	1	4342080	LOC4342080
+GO:0007568	aging	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:0008150	biological_process	biological_process	39947	inferred	21	4325052|4325061|4325772|4327304|4328512|4330018|4333680|4334290|4335984|4336591|4338204|4340185|4340310|4340547|4340677|4341462|4342080|4347514|4351983|9266285|9268279	LOC4325052|LOC4325061|LOC4325772|LOC4327304|LOC4328512|LOC4330018|LOC4333680|LOC4334290|LOC4335984|LOC4336591|LOC4338204|LOC4340185|LOC4340310|LOC4340547|LOC4340677|LOC4341462|LOC4342080|LOC4347514|LOC4351983|LOC9266285|LOC9268279
+GO:0008152	metabolic process	biological_process	39947	inferred	8	4325052|4328512|4330018|4334290|4335984|4340547|4340677|9268279	LOC4325052|LOC4328512|LOC4330018|LOC4334290|LOC4335984|LOC4340547|LOC4340677|LOC9268279
+GO:0008299	isoprenoid biosynthetic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:0008378	galactosyltransferase activity	molecular_function	39947	inferred	1	4325200	LOC4325200
+GO:0008483	transaminase activity	molecular_function	39947	inferred	1	4325621	LOC4325621
+GO:0008610	lipid biosynthetic process	biological_process	39947	inferred	2	4335984|9268279	LOC4335984|LOC9268279
+GO:0008652	cellular amino acid biosynthetic process	biological_process	39947	inferred	1	4340547	LOC4340547
+GO:0009056	catabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009058	biosynthetic process	biological_process	39947	inferred	6	4325052|4334290|4335984|4340547|4340677|9268279	LOC4325052|LOC4334290|LOC4335984|LOC4340547|LOC4340677|LOC9268279
+GO:0009059	macromolecule biosynthetic process	biological_process	39947	inferred	1	4325052	LOC4325052
+GO:0009072	aromatic amino acid family metabolic process	biological_process	39947	inferred	1	4340547	LOC4340547
+GO:0009073	aromatic amino acid family biosynthetic process	biological_process	39947	inferred	1	4340547	LOC4340547
+GO:0009108	coenzyme biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009117	nucleotide metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009123	nucleoside monophosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009124	nucleoside monophosphate biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009126	purine nucleoside monophosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009127	purine nucleoside monophosphate biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009132	nucleoside diphosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009135	purine nucleoside diphosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009141	nucleoside triphosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009142	nucleoside triphosphate biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009144	purine nucleoside triphosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009145	purine nucleoside triphosphate biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009150	purine ribonucleotide metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009152	purine ribonucleotide biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009156	ribonucleoside monophosphate biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009161	ribonucleoside monophosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009165	nucleotide biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009166	nucleotide catabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009167	purine ribonucleoside monophosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009168	purine ribonucleoside monophosphate biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009179	purine ribonucleoside diphosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009185	ribonucleoside diphosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009199	ribonucleoside triphosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009201	ribonucleoside triphosphate biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009205	purine ribonucleoside triphosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009206	purine ribonucleoside triphosphate biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009259	ribonucleotide metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009260	ribonucleotide biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0009266	response to temperature stimulus	biological_process	39947	inferred	1	4325061	LOC4325061
+GO:0009314	response to radiation	biological_process	39947	inferred	2	4340185|4341462	LOC4340185|LOC4341462
+GO:0009409	response to cold	biological_process	39947	inferred	1	4325061	LOC4325061
+GO:0009414	response to water deprivation	biological_process	39947	inferred	1	4325061	LOC4325061
+GO:0009415	response to water	biological_process	39947	inferred	1	4325061	LOC4325061
+GO:0009416	response to light stimulus	biological_process	39947	inferred	2	4340185|4341462	LOC4340185|LOC4341462
+GO:0009536	plastid	cellular_component	39947	inferred	1	4340547	LOC4340547
+GO:0009540	zeaxanthin epoxidase [overall] activity	molecular_function	39947	inferred	1	4335984	LOC4335984
+GO:0009553	embryo sac development	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0009554	megasporogenesis	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0009555	pollen development	biological_process	39947	inferred	3	4325061|4340310|4347514	LOC4325061|LOC4340310|LOC4347514
+GO:0009556	microsporogenesis	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0009628	response to abiotic stimulus	biological_process	39947	inferred	3	4325061|4340185|4341462	LOC4325061|LOC4340185|LOC4341462
+GO:0009648	photoperiodism	biological_process	39947	inferred	2	4340185|4341462	LOC4340185|LOC4341462
+GO:0009651	response to salt stress	biological_process	39947	inferred	1	4325061	LOC4325061
+GO:0009653	anatomical structure morphogenesis	biological_process	39947	inferred	3	4330018|4336591|4338204	LOC4330018|LOC4336591|LOC4338204
+GO:0009685	gibberellin metabolic process	biological_process	39947	inferred	1	4328512	LOC4328512
+GO:0009687	abscisic acid metabolic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:0009688	abscisic acid biosynthetic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:0009719	response to endogenous stimulus	biological_process	39947	inferred	6	4325061|4327304|4330018|4335984|4336591|4338204	LOC4325061|LOC4327304|LOC4330018|LOC4335984|LOC4336591|LOC4338204
+GO:0009725	response to hormone	biological_process	39947	inferred	6	4325061|4327304|4330018|4335984|4336591|4338204	LOC4325061|LOC4327304|LOC4330018|LOC4335984|LOC4336591|LOC4338204
+GO:0009733	response to auxin	biological_process	39947	inferred	1	4336591	LOC4336591
+GO:0009737	response to abscisic acid	biological_process	39947	inferred	2	4325061|4335984	LOC4325061|LOC4335984
+GO:0009741	response to brassinosteroid	biological_process	39947	inferred	2	4330018|4338204	LOC4330018|LOC4338204
+GO:0009753	response to jasmonic acid	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:0009755	hormone-mediated signaling pathway	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:0009791	post-embryonic development	biological_process	39947	inferred	5	4340185|4340310|4341462|4342080|9266285	LOC4340185|LOC4340310|LOC4341462|LOC4342080|LOC9266285
+GO:0009826	unidimensional cell growth	biological_process	39947	inferred	2	4330018|4338204	LOC4330018|LOC4338204
+GO:0009850	auxin metabolic process	biological_process	39947	inferred	1	4330018	LOC4330018
+GO:0009867	jasmonic acid mediated signaling pathway	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:0009888	tissue development	biological_process	39947	inferred	1	4342080	LOC4342080
+GO:0009889	regulation of biosynthetic process	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:0009900	dehiscence	biological_process	39947	inferred	1	4340310	LOC4340310
+GO:0009901	anther dehiscence	biological_process	39947	inferred	1	4340310	LOC4340310
+GO:0009908	flower development	biological_process	39947	inferred	2	4340310|4342080	LOC4340310|LOC4342080
+GO:0009909	regulation of flower development	biological_process	39947	inferred	2	4325772|4342080	LOC4325772|LOC4342080
+GO:0009987	cellular process	biological_process	39947	inferred	12	4325052|4327304|4328512|4330018|4333680|4334290|4335984|4338204|4340547|4340677|4347514|9268279	LOC4325052|LOC4327304|LOC4328512|LOC4330018|LOC4333680|LOC4334290|LOC4335984|LOC4338204|LOC4340547|LOC4340677|LOC4347514|LOC9268279
+GO:0010016	shoot system morphogenesis	biological_process	39947	inferred	1	4336591	LOC4336591
+GO:0010033	response to organic substance	biological_process	39947	inferred	6	4325061|4327304|4330018|4335984|4336591|4338204	LOC4325061|LOC4327304|LOC4330018|LOC4335984|LOC4336591|LOC4338204
+GO:0010035	response to inorganic substance	biological_process	39947	inferred	1	4325061	LOC4325061
+GO:0010073	meristem maintenance	biological_process	39947	inferred	1	4342080	LOC4342080
+GO:0010075	regulation of meristem growth	biological_process	39947	inferred	1	4342080	LOC4342080
+GO:0010080	regulation of floral meristem growth	biological_process	39947	inferred	1	4342080	LOC4342080
+GO:0010150	leaf senescence	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:0010152	pollen maturation	biological_process	39947	inferred	2	4325061|4340310	LOC4325061|LOC4340310
+GO:0010223	secondary shoot formation	biological_process	39947	inferred	1	4336591	LOC4336591
+GO:0010229	inflorescence development	biological_process	39947	inferred	3	4340185|4341462|9266285	LOC4340185|LOC4341462|LOC9266285
+GO:0010346	shoot axis formation	biological_process	39947	inferred	1	4336591	LOC4336591
+GO:0010468	regulation of gene expression	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:0010556	regulation of macromolecule biosynthetic process	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:0010817	regulation of hormone levels	biological_process	39947	inferred	2	4328512|4330018	LOC4328512|LOC4330018
+GO:0010941	regulation of cell death	biological_process	39947	inferred	1	4340310	LOC4340310
+GO:0012505	endomembrane system	cellular_component	39947	inferred	1	4343617	LOC4343617
+GO:0014070	response to organic cyclic compound	biological_process	39947	inferred	2	4330018|4338204	LOC4330018|LOC4338204
+GO:0016020	membrane	cellular_component	39947	inferred	1	4343617	LOC4343617
+GO:0016043	cellular component organization	biological_process	39947	inferred	3	4330018|4338204|4347514	LOC4330018|LOC4338204|LOC4347514
+GO:0016049	cell growth	biological_process	39947	inferred	2	4330018|4338204	LOC4330018|LOC4338204
+GO:0016051	carbohydrate biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0016052	carbohydrate catabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0016053	organic acid biosynthetic process	biological_process	39947	inferred	4	4334290|4335984|4340547|4340677	LOC4334290|LOC4335984|LOC4340547|LOC4340677
+GO:0016070	RNA metabolic process	biological_process	39947	inferred	1	4325052	LOC4325052
+GO:0016101	diterpenoid metabolic process	biological_process	39947	inferred	1	4328512	LOC4328512
+GO:0016106	sesquiterpenoid biosynthetic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:0016114	terpenoid biosynthetic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:0016301	kinase activity	molecular_function	39947	inferred	1	4340547	LOC4340547
+GO:0016310	phosphorylation	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0016491	oxidoreductase activity	molecular_function	39947	inferred	2	4335984|9268279	LOC4335984|LOC9268279
+GO:0016705	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	molecular_function	39947	inferred	1	4335984	LOC4335984
+GO:0016709	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen	molecular_function	39947	inferred	1	4335984	LOC4335984
+GO:0016740	transferase activity	molecular_function	39947	inferred	4	4325052|4325200|4325621|4340547	LOC4325052|LOC4325200|LOC4325621|LOC4340547
+GO:0016757	transferase activity, transferring glycosyl groups	molecular_function	39947	inferred	1	4325200	LOC4325200
+GO:0016758	transferase activity, transferring hexosyl groups	molecular_function	39947	inferred	1	4325200	LOC4325200
+GO:0016769	transferase activity, transferring nitrogenous groups	molecular_function	39947	inferred	1	4325621	LOC4325621
+GO:0016772	transferase activity, transferring phosphorus-containing groups	molecular_function	39947	inferred	2	4325052|4340547	LOC4325052|LOC4340547
+GO:0016773	phosphotransferase activity, alcohol group as acceptor	molecular_function	39947	inferred	1	4340547	LOC4340547
+GO:0016779	nucleotidyltransferase activity	molecular_function	39947	inferred	1	4325052	LOC4325052
+GO:0016829	lyase activity	molecular_function	39947	inferred	1	4349897	LOC4349897
+GO:0016830	carbon-carbon lyase activity	molecular_function	39947	inferred	1	4349897	LOC4349897
+GO:0016832	aldehyde-lyase activity	molecular_function	39947	inferred	1	4349897	LOC4349897
+GO:0016853	isomerase activity	molecular_function	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0016860	intramolecular oxidoreductase activity	molecular_function	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0016861	intramolecular oxidoreductase activity, interconverting aldoses and ketoses	molecular_function	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0017144	drug metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0018130	heterocycle biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0019219	regulation of nucleobase-containing compound metabolic process	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:0019222	regulation of metabolic process	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:0019318	hexose metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0019319	hexose biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0019359	nicotinamide nucleotide biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0019362	pyridine nucleotide metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0019363	pyridine nucleotide biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0019438	aromatic compound biosynthetic process	biological_process	39947	inferred	3	4334290|4340547|4340677	LOC4334290|LOC4340547|LOC4340677
+GO:0019439	aromatic compound catabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0019637	organophosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0019693	ribose phosphate metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0019752	carboxylic acid metabolic process	biological_process	39947	inferred	5	4328512|4334290|4335984|4340547|4340677	LOC4328512|LOC4334290|LOC4335984|LOC4340547|LOC4340677
+GO:0019953	sexual reproduction	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0021700	developmental maturation	biological_process	39947	inferred	2	4325061|4340310	LOC4325061|LOC4340310
+GO:0022402	cell cycle process	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0022403	cell cycle phase	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0022414	reproductive process	biological_process	39947	inferred	6	4340185|4340310|4341462|4342080|4347514|9266285	LOC4340185|LOC4340310|LOC4341462|LOC4342080|LOC4347514|LOC9266285
+GO:0022616	DNA strand elongation	biological_process	39947	inferred	1	4325052	LOC4325052
+GO:0022622	root system development	biological_process	39947	inferred	1	4330018	LOC4330018
+GO:0023052	signaling	biological_process	39947	inferred	2	4327304|4333680	LOC4327304|LOC4333680
+GO:0030148	sphingolipid biosynthetic process	biological_process	39947	inferred	1	9268279	LOC9268279
+GO:0031323	regulation of cellular metabolic process	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:0031326	regulation of cellular biosynthetic process	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:0031410	cytoplasmic vesicle	cellular_component	39947	inferred	1	4343617	LOC4343617
+GO:0031974	membrane-enclosed lumen	cellular_component	39947	inferred	1	4347514	LOC4347514
+GO:0031981	nuclear lumen	cellular_component	39947	inferred	1	4347514	LOC4347514
+GO:0031982	vesicle	cellular_component	39947	inferred	1	4343617	LOC4343617
+GO:0032501	multicellular organismal process	biological_process	39947	inferred	10	4325061|4327304|4330018|4336591|4340185|4340310|4341462|4342080|4347514|9266285	LOC4325061|LOC4327304|LOC4330018|LOC4336591|LOC4340185|LOC4340310|LOC4341462|LOC4342080|LOC4347514|LOC9266285
+GO:0032502	developmental process	biological_process	39947	inferred	11	4325061|4327304|4330018|4336591|4338204|4340185|4340310|4341462|4342080|4347514|9266285	LOC4325061|LOC4327304|LOC4330018|LOC4336591|LOC4338204|LOC4340185|LOC4340310|LOC4341462|LOC4342080|LOC4347514|LOC9266285
+GO:0032504	multicellular organism reproduction	biological_process	39947	inferred	1	4340310	LOC4340310
+GO:0032787	monocarboxylic acid metabolic process	biological_process	39947	inferred	3	4334290|4335984|4340677	LOC4334290|LOC4335984|LOC4340677
+GO:0032870	cellular response to hormone stimulus	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:0032989	cellular component morphogenesis	biological_process	39947	inferred	2	4330018|4338204	LOC4330018|LOC4338204
+GO:0033993	response to lipid	biological_process	39947	inferred	4	4325061|4330018|4335984|4338204	LOC4325061|LOC4330018|LOC4335984|LOC4338204
+GO:0034061	DNA polymerase activity	molecular_function	39947	inferred	1	4325052	LOC4325052
+GO:0034062	5'-3' RNA polymerase activity	molecular_function	39947	inferred	1	4325052	LOC4325052
+GO:0034293	sexual sporulation	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0034404	nucleobase-containing small molecule biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0034641	cellular nitrogen compound metabolic process	biological_process	39947	inferred	3	4325052|4334290|4340677	LOC4325052|LOC4334290|LOC4340677
+GO:0034645	cellular macromolecule biosynthetic process	biological_process	39947	inferred	1	4325052	LOC4325052
+GO:0034654	nucleobase-containing compound biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0034655	nucleobase-containing compound catabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0040007	growth	biological_process	39947	inferred	2	4330018|4338204	LOC4330018|LOC4338204
+GO:0040008	regulation of growth	biological_process	39947	inferred	1	4342080	LOC4342080
+GO:0040034	regulation of development, heterochronic	biological_process	39947	inferred	2	4340185|9266285	LOC4340185|LOC9266285
+GO:0042221	response to chemical	biological_process	39947	inferred	6	4325061|4327304|4330018|4335984|4336591|4338204	LOC4325061|LOC4327304|LOC4330018|LOC4335984|LOC4336591|LOC4338204
+GO:0042445	hormone metabolic process	biological_process	39947	inferred	2	4328512|4330018	LOC4328512|LOC4330018
+GO:0042866	pyruvate biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0043067	regulation of programmed cell death	biological_process	39947	inferred	1	4340310	LOC4340310
+GO:0043170	macromolecule metabolic process	biological_process	39947	inferred	1	4325052	LOC4325052
+GO:0043226	organelle	cellular_component	39947	inferred	9	4325052|4325061|4327304|4328512|4330018|4337699|4340547|4343617|4347514	LOC4325052|LOC4325061|LOC4327304|LOC4328512|LOC4330018|LOC4337699|LOC4340547|LOC4343617|LOC4347514
+GO:0043227	membrane-bounded organelle	cellular_component	39947	inferred	9	4325052|4325061|4327304|4328512|4330018|4337699|4340547|4343617|4347514	LOC4325052|LOC4325061|LOC4327304|LOC4328512|LOC4330018|LOC4337699|LOC4340547|LOC4343617|LOC4347514
+GO:0043228	non-membrane-bounded organelle	cellular_component	39947	inferred	1	4347514	LOC4347514
+GO:0043229	intracellular organelle	cellular_component	39947	inferred	9	4325052|4325061|4327304|4328512|4330018|4337699|4340547|4343617|4347514	LOC4325052|LOC4325061|LOC4327304|LOC4328512|LOC4330018|LOC4337699|LOC4340547|LOC4343617|LOC4347514
+GO:0043231	intracellular membrane-bounded organelle	cellular_component	39947	inferred	8	4325052|4325061|4327304|4328512|4330018|4337699|4340547|4347514	LOC4325052|LOC4325061|LOC4327304|LOC4328512|LOC4330018|LOC4337699|LOC4340547|LOC4347514
+GO:0043232	intracellular non-membrane-bounded organelle	cellular_component	39947	inferred	1	4347514	LOC4347514
+GO:0043233	organelle lumen	cellular_component	39947	inferred	1	4347514	LOC4347514
+GO:0043288	apocarotenoid metabolic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:0043289	apocarotenoid biosynthetic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:0043436	oxoacid metabolic process	biological_process	39947	inferred	5	4328512|4334290|4335984|4340547|4340677	LOC4328512|LOC4334290|LOC4335984|LOC4340547|LOC4340677
+GO:0043565	sequence-specific DNA binding	molecular_function	39947	inferred	1	4325061	LOC4325061
+GO:0043934	sporulation	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0044237	cellular metabolic process	biological_process	39947	inferred	8	4325052|4328512|4330018|4334290|4335984|4340547|4340677|9268279	LOC4325052|LOC4328512|LOC4330018|LOC4334290|LOC4335984|LOC4340547|LOC4340677|LOC9268279
+GO:0044238	primary metabolic process	biological_process	39947	inferred	7	4325052|4328512|4334290|4335984|4340547|4340677|9268279	LOC4325052|LOC4328512|LOC4334290|LOC4335984|LOC4340547|LOC4340677|LOC9268279
+GO:0044248	cellular catabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0044249	cellular biosynthetic process	biological_process	39947	inferred	6	4325052|4334290|4335984|4340547|4340677|9268279	LOC4325052|LOC4334290|LOC4335984|LOC4340547|LOC4340677|LOC9268279
+GO:0044255	cellular lipid metabolic process	biological_process	39947	inferred	3	4328512|4335984|9268279	LOC4328512|LOC4335984|LOC9268279
+GO:0044260	cellular macromolecule metabolic process	biological_process	39947	inferred	1	4325052	LOC4325052
+GO:0044270	cellular nitrogen compound catabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0044271	cellular nitrogen compound biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0044281	small molecule metabolic process	biological_process	39947	inferred	5	4328512|4334290|4335984|4340547|4340677	LOC4328512|LOC4334290|LOC4335984|LOC4340547|LOC4340677
+GO:0044283	small molecule biosynthetic process	biological_process	39947	inferred	4	4334290|4335984|4340547|4340677	LOC4334290|LOC4335984|LOC4340547|LOC4340677
+GO:0044422	organelle part	cellular_component	39947	inferred	1	4347514	LOC4347514
+GO:0044424	intracellular part	cellular_component	39947	inferred	11	4325052|4325061|4327304|4328512|4330018|4334290|4337699|4340547|4340677|4343617|4347514	LOC4325052|LOC4325061|LOC4327304|LOC4328512|LOC4330018|LOC4334290|LOC4337699|LOC4340547|LOC4340677|LOC4343617|LOC4347514
+GO:0044428	nuclear part	cellular_component	39947	inferred	1	4347514	LOC4347514
+GO:0044444	cytoplasmic part	cellular_component	39947	inferred	4	4334290|4340547|4340677|4343617	LOC4334290|LOC4340547|LOC4340677|LOC4343617
+GO:0044446	intracellular organelle part	cellular_component	39947	inferred	1	4347514	LOC4347514
+GO:0044464	cell part	cellular_component	39947	inferred	11	4325052|4325061|4327304|4328512|4330018|4334290|4337699|4340547|4340677|4343617|4347514	LOC4325052|LOC4325061|LOC4327304|LOC4328512|LOC4330018|LOC4334290|LOC4337699|LOC4340547|LOC4340677|LOC4343617|LOC4347514
+GO:0044703	multi-organism reproductive process	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0044848	biological phase	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0045132	meiotic chromosome segregation	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0045143	homologous chromosome segregation	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0046031	ADP metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0046034	ATP metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0046165	alcohol biosynthetic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:0046364	monosaccharide biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0046390	ribose phosphate biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0046394	carboxylic acid biosynthetic process	biological_process	39947	inferred	4	4334290|4335984|4340547|4340677	LOC4334290|LOC4335984|LOC4340547|LOC4340677
+GO:0046434	organophosphate catabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0046467	membrane lipid biosynthetic process	biological_process	39947	inferred	1	9268279	LOC9268279
+GO:0046483	heterocycle metabolic process	biological_process	39947	inferred	3	4325052|4334290|4340677	LOC4325052|LOC4334290|LOC4340677
+GO:0046496	nicotinamide nucleotide metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0046700	heterocycle catabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0046939	nucleotide phosphorylation	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0047274	galactinol-sucrose galactosyltransferase activity	molecular_function	39947	inferred	1	4325200	LOC4325200
+GO:0048229	gametophyte development	biological_process	39947	inferred	3	4325061|4340310|4347514	LOC4325061|LOC4340310|LOC4347514
+GO:0048236	plant-type sporogenesis	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0048285	organelle fission	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0048364	root development	biological_process	39947	inferred	1	4330018	LOC4330018
+GO:0048366	leaf development	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:0048367	shoot system development	biological_process	39947	inferred	7	4327304|4336591|4340185|4340310|4341462|4342080|9266285	LOC4327304|LOC4336591|LOC4340185|LOC4340310|LOC4341462|LOC4342080|LOC9266285
+GO:0048437	floral organ development	biological_process	39947	inferred	1	4340310	LOC4340310
+GO:0048438	floral whorl development	biological_process	39947	inferred	1	4340310	LOC4340310
+GO:0048443	stamen development	biological_process	39947	inferred	1	4340310	LOC4340310
+GO:0048466	androecium development	biological_process	39947	inferred	1	4340310	LOC4340310
+GO:0048506	regulation of timing of meristematic phase transition	biological_process	39947	inferred	2	4340185|9266285	LOC4340185|LOC9266285
+GO:0048507	meristem development	biological_process	39947	inferred	1	4342080	LOC4342080
+GO:0048509	regulation of meristem development	biological_process	39947	inferred	3	4340185|4342080|9266285	LOC4340185|LOC4342080|LOC9266285
+GO:0048510	regulation of timing of transition from vegetative to reproductive phase	biological_process	39947	inferred	2	4340185|9266285	LOC4340185|LOC9266285
+GO:0048572	short-day photoperiodism	biological_process	39947	inferred	1	4340185	LOC4340185
+GO:0048580	regulation of post-embryonic development	biological_process	39947	inferred	2	4325772|4342080	LOC4325772|LOC4342080
+GO:0048589	developmental growth	biological_process	39947	inferred	2	4330018|4338204	LOC4330018|LOC4338204
+GO:0048608	reproductive structure development	biological_process	39947	inferred	5	4340185|4340310|4341462|4342080|9266285	LOC4340185|LOC4340310|LOC4341462|LOC4342080|LOC9266285
+GO:0048609	multicellular organismal reproductive process	biological_process	39947	inferred	1	4340310	LOC4340310
+GO:0048638	regulation of developmental growth	biological_process	39947	inferred	1	4342080	LOC4342080
+GO:0048646	anatomical structure formation involved in morphogenesis	biological_process	39947	inferred	1	4336591	LOC4336591
+GO:0048653	anther development	biological_process	39947	inferred	1	4340310	LOC4340310
+GO:0048731	system development	biological_process	39947	inferred	8	4327304|4330018|4336591|4340185|4340310|4341462|4342080|9266285	LOC4327304|LOC4330018|LOC4336591|LOC4340185|LOC4340310|LOC4341462|LOC4342080|LOC9266285
+GO:0048827	phyllome development	biological_process	39947	inferred	2	4327304|4340310	LOC4327304|LOC4340310
+GO:0048831	regulation of shoot system development	biological_process	39947	inferred	2	4325772|4342080	LOC4325772|LOC4342080
+GO:0048832	specification of plant organ number	biological_process	39947	inferred	1	4342080	LOC4342080
+GO:0048833	specification of floral organ number	biological_process	39947	inferred	1	4342080	LOC4342080
+GO:0048856	anatomical structure development	biological_process	39947	inferred	11	4325061|4327304|4330018|4336591|4338204|4340185|4340310|4341462|4342080|4347514|9266285	LOC4325061|LOC4327304|LOC4330018|LOC4336591|LOC4338204|LOC4340185|LOC4340310|LOC4341462|LOC4342080|LOC4347514|LOC9266285
+GO:0048869	cellular developmental process	biological_process	39947	inferred	3	4330018|4338204|4347514	LOC4330018|LOC4338204|LOC4347514
+GO:0050789	regulation of biological process	biological_process	39947	inferred	9	4325061|4325772|4327304|4328512|4333680|4340185|4340310|4342080|9266285	LOC4325061|LOC4325772|LOC4327304|LOC4328512|LOC4333680|LOC4340185|LOC4340310|LOC4342080|LOC9266285
+GO:0050793	regulation of developmental process	biological_process	39947	inferred	4	4325772|4340185|4342080|9266285	LOC4325772|LOC4340185|LOC4342080|LOC9266285
+GO:0050794	regulation of cellular process	biological_process	39947	inferred	5	4325061|4327304|4328512|4333680|4340310	LOC4325061|LOC4327304|LOC4328512|LOC4333680|LOC4340310
+GO:0050896	response to stimulus	biological_process	39947	inferred	11	4325061|4327304|4328512|4330018|4333680|4335984|4336591|4338204|4340185|4341462|4351983	LOC4325061|LOC4327304|LOC4328512|LOC4330018|LOC4333680|LOC4335984|LOC4336591|LOC4338204|LOC4340185|LOC4341462|LOC4351983
+GO:0051171	regulation of nitrogen compound metabolic process	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:0051186	cofactor metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0051188	cofactor biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0051239	regulation of multicellular organismal process	biological_process	39947	inferred	2	4325772|4342080	LOC4325772|LOC4342080
+GO:0051252	regulation of RNA metabolic process	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:0051276	chromosome organization	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0051321	meiotic cell cycle	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0051324	prophase	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0051704	multi-organism process	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0051716	cellular response to stimulus	biological_process	39947	inferred	2	4327304|4333680	LOC4327304|LOC4333680
+GO:0055086	nucleobase-containing small molecule metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0060255	regulation of macromolecule metabolic process	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:0060560	developmental growth involved in morphogenesis	biological_process	39947	inferred	2	4330018|4338204	LOC4330018|LOC4338204
+GO:0061458	reproductive system development	biological_process	39947	inferred	5	4340185|4340310|4341462|4342080|9266285	LOC4340185|LOC4340310|LOC4341462|LOC4342080|LOC9266285
+GO:0061982	meiosis I cell cycle process	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0065007	biological regulation	biological_process	39947	inferred	10	4325061|4325772|4327304|4328512|4330018|4333680|4340185|4340310|4342080|9266285	LOC4325061|LOC4325772|LOC4327304|LOC4328512|LOC4330018|LOC4333680|LOC4340185|LOC4340310|LOC4342080|LOC9266285
+GO:0065008	regulation of biological quality	biological_process	39947	inferred	2	4328512|4330018	LOC4328512|LOC4330018
+GO:0070013	intracellular organelle lumen	cellular_component	39947	inferred	1	4347514	LOC4347514
+GO:0070192	chromosome organization involved in meiotic cell cycle	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0070887	cellular response to chemical stimulus	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:0071229	cellular response to acid chemical	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:0071310	cellular response to organic substance	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:0071395	cellular response to jasmonic acid stimulus	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:0071495	cellular response to endogenous stimulus	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:0071704	organic substance metabolic process	biological_process	39947	inferred	7	4325052|4328512|4334290|4335984|4340547|4340677|9268279	LOC4325052|LOC4328512|LOC4334290|LOC4335984|LOC4340547|LOC4340677|LOC9268279
+GO:0071840	cellular component organization or biogenesis	biological_process	39947	inferred	3	4330018|4338204|4347514	LOC4330018|LOC4338204|LOC4347514
+GO:0071944	cell periphery	cellular_component	39947	inferred	1	4343617	LOC4343617
+GO:0072330	monocarboxylic acid biosynthetic process	biological_process	39947	inferred	3	4334290|4335984|4340677	LOC4334290|LOC4335984|LOC4340677
+GO:0072521	purine-containing compound metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0072522	purine-containing compound biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0072524	pyridine-containing compound metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0072525	pyridine-containing compound biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0080090	regulation of primary metabolic process	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:0090304	nucleic acid metabolic process	biological_process	39947	inferred	1	4325052	LOC4325052
+GO:0090407	organophosphate biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:0090567	reproductive shoot system development	biological_process	39947	inferred	5	4340185|4340310|4341462|4342080|9266285	LOC4340185|LOC4340310|LOC4341462|LOC4342080|LOC9266285
+GO:0090693	plant organ senescence	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:0097159	organic cyclic compound binding	molecular_function	39947	inferred	1	4325061	LOC4325061
+GO:0097305	response to alcohol	biological_process	39947	inferred	2	4325061|4335984	LOC4325061|LOC4335984
+GO:0097708	intracellular vesicle	cellular_component	39947	inferred	1	4343617	LOC4343617
+GO:0097747	RNA polymerase activity	molecular_function	39947	inferred	1	4325052	LOC4325052
+GO:0098762	meiotic cell cycle phase	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0098764	meiosis I cell cycle phase	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0098813	nuclear chromosome segregation	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0099402	plant organ development	biological_process	39947	inferred	3	4327304|4330018|4340310	LOC4327304|LOC4330018|LOC4340310
+GO:0140013	meiotic nuclear division	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:0140097	catalytic activity, acting on DNA	molecular_function	39947	inferred	1	4325052	LOC4325052
+GO:0140098	catalytic activity, acting on RNA	molecular_function	39947	inferred	1	4325052	LOC4325052
+GO:0140110	transcription regulator activity	molecular_function	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:1901135	carbohydrate derivative metabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:1901137	carbohydrate derivative biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:1901292	nucleoside phosphate catabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:1901293	nucleoside phosphate biosynthetic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:1901360	organic cyclic compound metabolic process	biological_process	39947	inferred	4	4325052|4334290|4340547|4340677	LOC4325052|LOC4334290|LOC4340547|LOC4340677
+GO:1901361	organic cyclic compound catabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:1901362	organic cyclic compound biosynthetic process	biological_process	39947	inferred	3	4334290|4340547|4340677	LOC4334290|LOC4340547|LOC4340677
+GO:1901363	heterocyclic compound binding	molecular_function	39947	inferred	1	4325061	LOC4325061
+GO:1901564	organonitrogen compound metabolic process	biological_process	39947	inferred	4	4334290|4340547|4340677|9268279	LOC4334290|LOC4340547|LOC4340677|LOC9268279
+GO:1901566	organonitrogen compound biosynthetic process	biological_process	39947	inferred	4	4334290|4340547|4340677|9268279	LOC4334290|LOC4340547|LOC4340677|LOC9268279
+GO:1901575	organic substance catabolic process	biological_process	39947	inferred	2	4334290|4340677	LOC4334290|LOC4340677
+GO:1901576	organic substance biosynthetic process	biological_process	39947	inferred	6	4325052|4334290|4335984|4340547|4340677|9268279	LOC4325052|LOC4334290|LOC4335984|LOC4340547|LOC4340677|LOC9268279
+GO:1901615	organic hydroxy compound metabolic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:1901617	organic hydroxy compound biosynthetic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:1901700	response to oxygen-containing compound	biological_process	39947	inferred	5	4325061|4327304|4330018|4335984|4338204	LOC4325061|LOC4327304|LOC4330018|LOC4335984|LOC4338204
+GO:1901701	cellular response to oxygen-containing compound	biological_process	39947	inferred	1	4327304	LOC4327304
+GO:1902644	tertiary alcohol metabolic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:1902645	tertiary alcohol biosynthetic process	biological_process	39947	inferred	1	4335984	LOC4335984
+GO:1903046	meiotic cell cycle process	biological_process	39947	inferred	1	4347514	LOC4347514
+GO:1903506	regulation of nucleic acid-templated transcription	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:1905393	plant organ formation	biological_process	39947	inferred	1	4336591	LOC4336591
+GO:2000026	regulation of multicellular organismal development	biological_process	39947	inferred	2	4325772|4342080	LOC4325772|LOC4342080
+GO:2000112	regulation of cellular macromolecule biosynthetic process	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512
+GO:2000241	regulation of reproductive process	biological_process	39947	inferred	2	4325772|4342080	LOC4325772|LOC4342080
+GO:2001141	regulation of RNA biosynthetic process	biological_process	39947	inferred	2	4325061|4328512	LOC4325061|LOC4328512

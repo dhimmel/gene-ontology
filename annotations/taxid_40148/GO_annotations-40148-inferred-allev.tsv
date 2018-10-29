@@ -1,8 +1,8 @@
 go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
-GO:0005575	cellular_component	cellular_component	40148	inferred	7	25015867|25015880|25015881|25015894|25015902|25015906|25015931	psbJ|psbL|matK|rpoA|petA|psaA|ndhA
-GO:0005622	intracellular	cellular_component	40148	inferred	7	25015867|25015880|25015881|25015894|25015902|25015906|25015931	psbJ|psbL|matK|rpoA|petA|psaA|ndhA
-GO:0005623	cell	cellular_component	40148	inferred	7	25015867|25015880|25015881|25015894|25015902|25015906|25015931	psbJ|psbL|matK|rpoA|petA|psaA|ndhA
-GO:0005737	cytoplasm	cellular_component	40148	inferred	7	25015867|25015880|25015881|25015894|25015902|25015906|25015931	psbJ|psbL|matK|rpoA|petA|psaA|ndhA
+GO:0005575	cellular_component	cellular_component	40148	inferred	3	25015867|25015881|25015894	psbJ|matK|rpoA
+GO:0005622	intracellular	cellular_component	40148	inferred	3	25015867|25015881|25015894	psbJ|matK|rpoA
+GO:0005623	cell	cellular_component	40148	inferred	3	25015867|25015881|25015894	psbJ|matK|rpoA
+GO:0005737	cytoplasm	cellular_component	40148	inferred	3	25015867|25015881|25015894	psbJ|matK|rpoA
 GO:0005739	mitochondrion	cellular_component	40148	inferred	1	25015894	rpoA
 GO:0006139	nucleobase-containing compound metabolic process	biological_process	40148	inferred	1	25015881	matK
 GO:0006396	RNA processing	biological_process	40148	inferred	1	25015881	matK
@@ -11,23 +11,23 @@ GO:0006807	nitrogen compound metabolic process	biological_process	40148	inferred
 GO:0008150	biological_process	biological_process	40148	inferred	1	25015881	matK
 GO:0008152	metabolic process	biological_process	40148	inferred	1	25015881	matK
 GO:0008380	RNA splicing	biological_process	40148	inferred	1	25015881	matK
-GO:0009536	plastid	cellular_component	40148	inferred	7	25015867|25015880|25015881|25015894|25015902|25015906|25015931	psbJ|psbL|matK|rpoA|petA|psaA|ndhA
+GO:0009536	plastid	cellular_component	40148	inferred	1	25015881	matK
 GO:0009987	cellular process	biological_process	40148	inferred	1	25015881	matK
 GO:0010467	gene expression	biological_process	40148	inferred	1	25015881	matK
-GO:0016023	cytoplasmic, membrane-bounded vesicle	cellular_component	40148	inferred	1	25015867	psbJ
 GO:0016070	RNA metabolic process	biological_process	40148	inferred	1	25015881	matK
 GO:0031410	cytoplasmic vesicle	cellular_component	40148	inferred	1	25015867	psbJ
 GO:0031982	vesicle	cellular_component	40148	inferred	1	25015867	psbJ
-GO:0031988	membrane-bounded vesicle	cellular_component	40148	inferred	1	25015867	psbJ
 GO:0034641	cellular nitrogen compound metabolic process	biological_process	40148	inferred	1	25015881	matK
 GO:0043170	macromolecule metabolic process	biological_process	40148	inferred	1	25015881	matK
-GO:0043226	organelle	cellular_component	40148	inferred	7	25015867|25015880|25015881|25015894|25015902|25015906|25015931	psbJ|psbL|matK|rpoA|petA|psaA|ndhA
-GO:0043227	membrane-bounded organelle	cellular_component	40148	inferred	7	25015867|25015880|25015881|25015894|25015902|25015906|25015931	psbJ|psbL|matK|rpoA|petA|psaA|ndhA
-GO:0043229	intracellular organelle	cellular_component	40148	inferred	7	25015867|25015880|25015881|25015894|25015902|25015906|25015931	psbJ|psbL|matK|rpoA|petA|psaA|ndhA
-GO:0043231	intracellular membrane-bounded organelle	cellular_component	40148	inferred	7	25015867|25015880|25015881|25015894|25015902|25015906|25015931	psbJ|psbL|matK|rpoA|petA|psaA|ndhA
+GO:0043226	organelle	cellular_component	40148	inferred	3	25015867|25015881|25015894	psbJ|matK|rpoA
+GO:0043227	membrane-bounded organelle	cellular_component	40148	inferred	3	25015867|25015881|25015894	psbJ|matK|rpoA
+GO:0043229	intracellular organelle	cellular_component	40148	inferred	3	25015867|25015881|25015894	psbJ|matK|rpoA
+GO:0043231	intracellular membrane-bounded organelle	cellular_component	40148	inferred	2	25015881|25015894	matK|rpoA
 GO:0044237	cellular metabolic process	biological_process	40148	inferred	1	25015881	matK
 GO:0044238	primary metabolic process	biological_process	40148	inferred	1	25015881	matK
-GO:0044260	cellular macromolecule metabolic process	biological_process	40148	inferred	1	25015881	matK
+GO:0044424	intracellular part	cellular_component	40148	inferred	3	25015867|25015881|25015894	psbJ|matK|rpoA
+GO:0044444	cytoplasmic part	cellular_component	40148	inferred	3	25015867|25015881|25015894	psbJ|matK|rpoA
+GO:0044464	cell part	cellular_component	40148	inferred	3	25015867|25015881|25015894	psbJ|matK|rpoA
 GO:0046483	heterocycle metabolic process	biological_process	40148	inferred	1	25015881	matK
 GO:0071704	organic substance metabolic process	biological_process	40148	inferred	1	25015881	matK
 GO:0090304	nucleic acid metabolic process	biological_process	40148	inferred	1	25015881	matK

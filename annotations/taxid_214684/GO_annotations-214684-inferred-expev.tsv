@@ -1,0 +1,117 @@
+go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0000003	reproduction	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0000271	polysaccharide biosynthetic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0000905	sporocarp development involved in asexual reproduction	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0000909	sporocarp development involved in sexual reproduction	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0003006	developmental process involved in reproduction	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0003674	molecular_function	molecular_function	214684	inferred	1	3254907	CXT1
+GO:0003824	catalytic activity	molecular_function	214684	inferred	1	3254907	CXT1
+GO:0005575	cellular_component	cellular_component	214684	inferred	1	3259088	CNH00970
+GO:0005622	intracellular	cellular_component	214684	inferred	1	3259088	CNH00970
+GO:0005623	cell	cellular_component	214684	inferred	1	3259088	CNH00970
+GO:0005634	nucleus	cellular_component	214684	inferred	1	3259088	CNH00970
+GO:0005975	carbohydrate metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0005976	polysaccharide metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0006139	nucleobase-containing compound metabolic process	biological_process	214684	inferred	1	3259088	CNH00970
+GO:0006351	transcription, DNA-templated	biological_process	214684	inferred	1	3259088	CNH00970
+GO:0006629	lipid metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0006643	membrane lipid metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0006664	glycolipid metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0006665	sphingolipid metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0006687	glycosphingolipid metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0006688	glycosphingolipid biosynthetic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0006725	cellular aromatic compound metabolic process	biological_process	214684	inferred	1	3259088	CNH00970
+GO:0006807	nitrogen compound metabolic process	biological_process	214684	inferred	2	3254907|3259088	CXT1|CNH00970
+GO:0007275	multicellular organism development	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0008150	biological_process	biological_process	214684	inferred	4	3254907|3255560|3258948|3259088	CXT1|CNB01190|CNG00250|CNH00970
+GO:0008152	metabolic process	biological_process	214684	inferred	2	3254907|3259088	CXT1|CNH00970
+GO:0008194	UDP-glycosyltransferase activity	molecular_function	214684	inferred	1	3254907	CXT1
+GO:0008610	lipid biosynthetic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0009058	biosynthetic process	biological_process	214684	inferred	2	3254907|3259088	CXT1|CNH00970
+GO:0009059	macromolecule biosynthetic process	biological_process	214684	inferred	2	3254907|3259088	CXT1|CNH00970
+GO:0009247	glycolipid biosynthetic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0009405	pathogenesis	biological_process	214684	inferred	1	3254907	CXT1
+GO:0009987	cellular process	biological_process	214684	inferred	2	3254907|3259088	CXT1|CNH00970
+GO:0010467	gene expression	biological_process	214684	inferred	1	3259088	CNH00970
+GO:0016043	cellular component organization	biological_process	214684	inferred	1	3254907	CXT1
+GO:0016051	carbohydrate biosynthetic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0016070	RNA metabolic process	biological_process	214684	inferred	1	3259088	CNH00970
+GO:0016740	transferase activity	molecular_function	214684	inferred	1	3254907	CXT1
+GO:0016757	transferase activity, transferring glycosyl groups	molecular_function	214684	inferred	1	3254907	CXT1
+GO:0016763	transferase activity, transferring pentosyl groups	molecular_function	214684	inferred	1	3254907	CXT1
+GO:0018130	heterocycle biosynthetic process	biological_process	214684	inferred	1	3259088	CNH00970
+GO:0019438	aromatic compound biosynthetic process	biological_process	214684	inferred	1	3259088	CNH00970
+GO:0019953	sexual reproduction	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0019954	asexual reproduction	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0022414	reproductive process	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0030148	sphingolipid biosynthetic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0030582	reproductive fruiting body development	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0030584	sporocarp development	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0032386	regulation of intracellular transport	biological_process	214684	inferred	1	3258948	CNG00250
+GO:0032501	multicellular organismal process	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0032502	developmental process	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0032774	RNA biosynthetic process	biological_process	214684	inferred	1	3259088	CNH00970
+GO:0032879	regulation of localization	biological_process	214684	inferred	1	3258948	CNG00250
+GO:0032880	regulation of protein localization	biological_process	214684	inferred	1	3258948	CNG00250
+GO:0033157	regulation of intracellular protein transport	biological_process	214684	inferred	1	3258948	CNG00250
+GO:0033692	cellular polysaccharide biosynthetic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0034637	cellular carbohydrate biosynthetic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0034641	cellular nitrogen compound metabolic process	biological_process	214684	inferred	1	3259088	CNH00970
+GO:0034645	cellular macromolecule biosynthetic process	biological_process	214684	inferred	2	3254907|3259088	CXT1|CNH00970
+GO:0034654	nucleobase-containing compound biosynthetic process	biological_process	214684	inferred	1	3259088	CNH00970
+GO:0035252	UDP-xylosyltransferase activity	molecular_function	214684	inferred	1	3254907	CXT1
+GO:0042285	xylosyltransferase activity	molecular_function	214684	inferred	1	3254907	CXT1
+GO:0042306	regulation of protein import into nucleus	biological_process	214684	inferred	1	3258948	CNG00250
+GO:0043170	macromolecule metabolic process	biological_process	214684	inferred	2	3254907|3259088	CXT1|CNH00970
+GO:0043226	organelle	cellular_component	214684	inferred	1	3259088	CNH00970
+GO:0043227	membrane-bounded organelle	cellular_component	214684	inferred	1	3259088	CNH00970
+GO:0043229	intracellular organelle	cellular_component	214684	inferred	1	3259088	CNH00970
+GO:0043231	intracellular membrane-bounded organelle	cellular_component	214684	inferred	1	3259088	CNH00970
+GO:0044237	cellular metabolic process	biological_process	214684	inferred	2	3254907|3259088	CXT1|CNH00970
+GO:0044238	primary metabolic process	biological_process	214684	inferred	2	3254907|3259088	CXT1|CNH00970
+GO:0044249	cellular biosynthetic process	biological_process	214684	inferred	2	3254907|3259088	CXT1|CNH00970
+GO:0044255	cellular lipid metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0044260	cellular macromolecule metabolic process	biological_process	214684	inferred	2	3254907|3259088	CXT1|CNH00970
+GO:0044262	cellular carbohydrate metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0044264	cellular polysaccharide metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0044271	cellular nitrogen compound biosynthetic process	biological_process	214684	inferred	1	3259088	CNH00970
+GO:0044419	interspecies interaction between organisms	biological_process	214684	inferred	1	3254907	CXT1
+GO:0044424	intracellular part	cellular_component	214684	inferred	1	3259088	CNH00970
+GO:0044464	cell part	cellular_component	214684	inferred	1	3259088	CNH00970
+GO:0044703	multi-organism reproductive process	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0045226	extracellular polysaccharide biosynthetic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0045227	capsule polysaccharide biosynthetic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0045229	external encapsulating structure organization	biological_process	214684	inferred	1	3254907	CXT1
+GO:0045230	capsule organization	biological_process	214684	inferred	1	3254907	CXT1
+GO:0046379	extracellular polysaccharide metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0046467	membrane lipid biosynthetic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:0046483	heterocycle metabolic process	biological_process	214684	inferred	1	3259088	CNH00970
+GO:0046822	regulation of nucleocytoplasmic transport	biological_process	214684	inferred	1	3258948	CNG00250
+GO:0048608	reproductive structure development	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0048731	system development	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0048856	anatomical structure development	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0050789	regulation of biological process	biological_process	214684	inferred	1	3258948	CNG00250
+GO:0051049	regulation of transport	biological_process	214684	inferred	1	3258948	CNG00250
+GO:0051223	regulation of protein transport	biological_process	214684	inferred	1	3258948	CNG00250
+GO:0051704	multi-organism process	biological_process	214684	inferred	2	3254907|3255560	CXT1|CNB01190
+GO:0060341	regulation of cellular localization	biological_process	214684	inferred	1	3258948	CNG00250
+GO:0061458	reproductive system development	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0065007	biological regulation	biological_process	214684	inferred	1	3258948	CNG00250
+GO:0070201	regulation of establishment of protein localization	biological_process	214684	inferred	1	3258948	CNG00250
+GO:0071704	organic substance metabolic process	biological_process	214684	inferred	2	3254907|3259088	CXT1|CNH00970
+GO:0071840	cellular component organization or biogenesis	biological_process	214684	inferred	1	3254907	CXT1
+GO:0075259	spore-bearing structure development	biological_process	214684	inferred	1	3255560	CNB01190
+GO:0090087	regulation of peptide transport	biological_process	214684	inferred	1	3258948	CNG00250
+GO:0090304	nucleic acid metabolic process	biological_process	214684	inferred	1	3259088	CNH00970
+GO:0097659	nucleic acid-templated transcription	biological_process	214684	inferred	1	3259088	CNH00970
+GO:1900180	regulation of protein localization to nucleus	biological_process	214684	inferred	1	3258948	CNG00250
+GO:1901135	carbohydrate derivative metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:1901137	carbohydrate derivative biosynthetic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:1901360	organic cyclic compound metabolic process	biological_process	214684	inferred	1	3259088	CNH00970
+GO:1901362	organic cyclic compound biosynthetic process	biological_process	214684	inferred	1	3259088	CNH00970
+GO:1901564	organonitrogen compound metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:1901566	organonitrogen compound biosynthetic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:1901576	organic substance biosynthetic process	biological_process	214684	inferred	2	3254907|3259088	CXT1|CNH00970
+GO:1903509	liposaccharide metabolic process	biological_process	214684	inferred	1	3254907	CXT1
+GO:1903827	regulation of cellular protein localization	biological_process	214684	inferred	1	3258948	CNG00250
+GO:1904589	regulation of protein import	biological_process	214684	inferred	1	3258948	CNG00250

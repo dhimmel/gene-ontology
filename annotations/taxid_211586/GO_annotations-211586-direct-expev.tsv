@@ -1,6 +1,7 @@
 go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
 GO:0000104	succinate dehydrogenase activity	molecular_function	211586	direct	1	1172176	cymA
-GO:0003700	transcription factor activity, sequence-specific DNA binding	molecular_function	211586	direct	1	1170077	fnr
+GO:0003700	DNA-binding transcription factor activity	molecular_function	211586	direct	1	1170077	fnr
 GO:0006355	regulation of transcription, DNA-templated	biological_process	211586	direct	1	1170077	fnr
 GO:0008940	nitrate reductase activity	molecular_function	211586	direct	1	1172176	cymA
 GO:0009061	anaerobic respiration	biological_process	211586	direct	1	1170077	fnr
+GO:0055114	oxidation-reduction process	biological_process	211586	direct	1	1172176	cymA
