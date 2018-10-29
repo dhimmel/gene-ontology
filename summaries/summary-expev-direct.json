@@ -3,93 +3,107 @@
     [
       3702,
       "Arabidopsis thaliana",
-      4653,
-      45785,
+      5018,
+      52229,
       "annotations/taxid_3702/GO_annotations-3702-direct-expev.tsv"
+    ],
+    [
+      4896,
+      "Schizosaccharomyces pombe",
+      2739,
+      10699,
+      "annotations/taxid_4896/GO_annotations-4896-direct-expev.tsv"
     ],
     [
       6239,
       "Caenorhabditis elegans",
-      2743,
-      15123,
+      3105,
+      17717,
       "annotations/taxid_6239/GO_annotations-6239-direct-expev.tsv"
     ],
     [
       7227,
       "Drosophila melanogaster",
-      4993,
-      37822,
+      5557,
+      36551,
       "annotations/taxid_7227/GO_annotations-7227-direct-expev.tsv"
     ],
     [
       7955,
       "Danio rerio",
-      2738,
-      13419,
+      3216,
+      16444,
       "annotations/taxid_7955/GO_annotations-7955-direct-expev.tsv"
     ],
     [
       9031,
       "Gallus gallus",
-      810,
-      1656,
+      1001,
+      2101,
       "annotations/taxid_9031/GO_annotations-9031-direct-expev.tsv"
     ],
     [
       9606,
       "Homo sapiens",
-      10174,
-      87092,
+      11345,
+      95411,
       "annotations/taxid_9606/GO_annotations-9606-direct-expev.tsv"
     ],
     [
       9615,
       "Canis lupus familiaris",
-      119,
-      175,
+      160,
+      246,
       "annotations/taxid_9615/GO_annotations-9615-direct-expev.tsv"
     ],
     [
       9823,
       "Sus scrofa",
-      367,
-      536,
+      389,
+      637,
       "annotations/taxid_9823/GO_annotations-9823-direct-expev.tsv"
     ],
     [
       9913,
       "Bos taurus",
-      695,
-      1448,
+      824,
+      1723,
       "annotations/taxid_9913/GO_annotations-9913-direct-expev.tsv"
     ],
     [
       10090,
       "Mus musculus",
-      10472,
-      77104,
+      11450,
+      86896,
       "annotations/taxid_10090/GO_annotations-10090-direct-expev.tsv"
     ],
     [
       10116,
       "Rattus norvegicus",
-      6976,
-      43885,
+      7367,
+      48809,
       "annotations/taxid_10116/GO_annotations-10116-direct-expev.tsv"
     ],
     [
       36329,
       "Plasmodium falciparum 3D7",
-      356,
-      1217,
+      527,
+      2021,
       "annotations/taxid_36329/GO_annotations-36329-direct-expev.tsv"
     ],
     [
       39947,
       "Oryza sativa Japonica Group",
-      5,
-      5,
+      58,
+      79,
       "annotations/taxid_39947/GO_annotations-39947-direct-expev.tsv"
+    ],
+    [
+      195103,
+      "Clostridium perfringens ATCC 13124",
+      8,
+      10,
+      "annotations/taxid_195103/GO_annotations-195103-direct-expev.tsv"
     ],
     [
       198094,
@@ -101,22 +115,22 @@
     [
       211586,
       "Shewanella oneidensis MR-1",
-      5,
-      5,
+      6,
+      6,
       "annotations/taxid_211586/GO_annotations-211586-direct-expev.tsv"
     ],
     [
-      220664,
-      "Pseudomonas protegens Pf-5",
-      18,
-      34,
-      "annotations/taxid_220664/GO_annotations-220664-direct-expev.tsv"
+      214684,
+      "Cryptococcus neoformans var. neoformans JEC21",
+      9,
+      9,
+      "annotations/taxid_214684/GO_annotations-214684-direct-expev.tsv"
     ],
     [
       223283,
-      "[Pseudomonas syringae] pv. tomato str. DC3000",
-      56,
-      313,
+      "Pseudomonas syringae pv. tomato str. DC3000",
+      58,
+      317,
       "annotations/taxid_223283/GO_annotations-223283-direct-expev.tsv"
     ],
     [
@@ -134,31 +148,24 @@
       "annotations/taxid_243231/GO_annotations-243231-direct-expev.tsv"
     ],
     [
-      265669,
-      "Listeria monocytogenes serotype 4b str. F2365",
-      2,
-      2,
-      "annotations/taxid_265669/GO_annotations-265669-direct-expev.tsv"
-    ],
-    [
-      284812,
-      "Schizosaccharomyces pombe 972h-",
-      2542,
-      16037,
-      "annotations/taxid_284812/GO_annotations-284812-direct-expev.tsv"
-    ],
-    [
       352472,
       "Dictyostelium discoideum AX4",
-      1071,
-      5412,
+      1168,
+      5182,
       "annotations/taxid_352472/GO_annotations-352472-direct-expev.tsv"
     ],
     [
+      511145,
+      "Escherichia coli str. K-12 substr. MG1655",
+      3122,
+      13076,
+      "annotations/taxid_511145/GO_annotations-511145-direct-expev.tsv"
+    ],
+    [
       559292,
-      "Saccharomyces cerevisiae S288c",
-      4537,
-      28914,
+      "Saccharomyces cerevisiae S288C",
+      4676,
+      26319,
       "annotations/taxid_559292/GO_annotations-559292-direct-expev.tsv"
     ]
   ]

@@ -1,0 +1,9 @@
+go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0004565	beta-galactosidase activity	molecular_function	195103	direct	1	29571762	CPF_RS05500
+GO:0004629	phospholipase C activity	molecular_function	195103	direct	1	29569865	CPF_RS00225
+GO:0005975	carbohydrate metabolic process	biological_process	195103	direct	1	29571762	CPF_RS05500
+GO:0006508	proteolysis	biological_process	195103	direct	1	29569999	CPF_RS14110
+GO:0008206	bile acid metabolic process	biological_process	195103	direct	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:0008236	serine-type peptidase activity	molecular_function	195103	direct	1	29569999	CPF_RS14110
+GO:0019836	hemolysis by symbiont of host erythrocytes	biological_process	195103	direct	1	29569865	CPF_RS00225
+GO:0045302	choloylglycine hydrolase activity	molecular_function	195103	direct	2	29571540|29572173	CPF_RS06580|CPF_RS03505

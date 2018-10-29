@@ -1,0 +1,5 @@
+go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0005739	mitochondrion	cellular_component	65491	direct	1	32890654	rpoA
+GO:0008380	RNA splicing	biological_process	65491	direct	1	32890585	matK
+GO:0009536	plastid	cellular_component	65491	direct	1	32890585	matK
+GO:0031410	cytoplasmic vesicle	cellular_component	65491	direct	1	32890635	psbJ

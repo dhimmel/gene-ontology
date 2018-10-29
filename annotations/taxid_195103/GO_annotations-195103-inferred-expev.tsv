@@ -1,0 +1,66 @@
+go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
+GO:0001897	cytolysis by symbiont of host cells	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0001906	cell killing	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0001907	killing by symbiont of host cells	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0003674	molecular_function	molecular_function	195103	inferred	5	29569865|29569999|29571540|29571762|29572173	CPF_RS00225|CPF_RS14110|CPF_RS06580|CPF_RS05500|CPF_RS03505
+GO:0003824	catalytic activity	molecular_function	195103	inferred	5	29569865|29569999|29571540|29571762|29572173	CPF_RS00225|CPF_RS14110|CPF_RS06580|CPF_RS05500|CPF_RS03505
+GO:0004553	hydrolase activity, hydrolyzing O-glycosyl compounds	molecular_function	195103	inferred	1	29571762	CPF_RS05500
+GO:0004565	beta-galactosidase activity	molecular_function	195103	inferred	1	29571762	CPF_RS05500
+GO:0004620	phospholipase activity	molecular_function	195103	inferred	1	29569865	CPF_RS00225
+GO:0004629	phospholipase C activity	molecular_function	195103	inferred	1	29569865	CPF_RS00225
+GO:0005975	carbohydrate metabolic process	biological_process	195103	inferred	1	29571762	CPF_RS05500
+GO:0006082	organic acid metabolic process	biological_process	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:0006508	proteolysis	biological_process	195103	inferred	1	29569999	CPF_RS14110
+GO:0006629	lipid metabolic process	biological_process	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:0006807	nitrogen compound metabolic process	biological_process	195103	inferred	1	29569999	CPF_RS14110
+GO:0008081	phosphoric diester hydrolase activity	molecular_function	195103	inferred	1	29569865	CPF_RS00225
+GO:0008150	biological_process	biological_process	195103	inferred	5	29569865|29569999|29571540|29571762|29572173	CPF_RS00225|CPF_RS14110|CPF_RS06580|CPF_RS05500|CPF_RS03505
+GO:0008152	metabolic process	biological_process	195103	inferred	4	29569999|29571540|29571762|29572173	CPF_RS14110|CPF_RS06580|CPF_RS05500|CPF_RS03505
+GO:0008202	steroid metabolic process	biological_process	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:0008206	bile acid metabolic process	biological_process	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:0008233	peptidase activity	molecular_function	195103	inferred	1	29569999	CPF_RS14110
+GO:0008236	serine-type peptidase activity	molecular_function	195103	inferred	1	29569999	CPF_RS14110
+GO:0009987	cellular process	biological_process	195103	inferred	3	29569865|29571540|29572173	CPF_RS00225|CPF_RS06580|CPF_RS03505
+GO:0015925	galactosidase activity	molecular_function	195103	inferred	1	29571762	CPF_RS05500
+GO:0016298	lipase activity	molecular_function	195103	inferred	1	29569865	CPF_RS00225
+GO:0016787	hydrolase activity	molecular_function	195103	inferred	5	29569865|29569999|29571540|29571762|29572173	CPF_RS00225|CPF_RS14110|CPF_RS06580|CPF_RS05500|CPF_RS03505
+GO:0016788	hydrolase activity, acting on ester bonds	molecular_function	195103	inferred	1	29569865	CPF_RS00225
+GO:0016798	hydrolase activity, acting on glycosyl bonds	molecular_function	195103	inferred	1	29571762	CPF_RS05500
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	molecular_function	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:0016811	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides	molecular_function	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:0017171	serine hydrolase activity	molecular_function	195103	inferred	1	29569999	CPF_RS14110
+GO:0019538	protein metabolic process	biological_process	195103	inferred	1	29569999	CPF_RS14110
+GO:0019752	carboxylic acid metabolic process	biological_process	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:0019835	cytolysis	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0019836	hemolysis by symbiont of host erythrocytes	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0031640	killing of cells of other organism	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0032787	monocarboxylic acid metabolic process	biological_process	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:0035821	modification of morphology or physiology of other organism	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0042578	phosphoric ester hydrolase activity	molecular_function	195103	inferred	1	29569865	CPF_RS00225
+GO:0043170	macromolecule metabolic process	biological_process	195103	inferred	1	29569999	CPF_RS14110
+GO:0043436	oxoacid metabolic process	biological_process	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:0044003	modification by symbiont of host morphology or physiology	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0044004	disruption by symbiont of host cell	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0044179	hemolysis in other organism	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0044237	cellular metabolic process	biological_process	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:0044238	primary metabolic process	biological_process	195103	inferred	4	29569999|29571540|29571762|29572173	CPF_RS14110|CPF_RS06580|CPF_RS05500|CPF_RS03505
+GO:0044281	small molecule metabolic process	biological_process	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:0044364	disruption of cells of other organism	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0044403	symbiont process	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0044419	interspecies interaction between organisms	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0044764	multi-organism cellular process	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0045302	choloylglycine hydrolase activity	molecular_function	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:0051701	interaction with host	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0051704	multi-organism process	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0051715	cytolysis in other organism	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0051801	cytolysis in other organism involved in symbiotic interaction	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0051817	modification of morphology or physiology of other organism involved in symbiotic interaction	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0051818	disruption of cells of other organism involved in symbiotic interaction	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0051883	killing of cells in other organism involved in symbiotic interaction	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0052331	hemolysis in other organism involved in symbiotic interaction	biological_process	195103	inferred	1	29569865	CPF_RS00225
+GO:0070011	peptidase activity, acting on L-amino acid peptides	molecular_function	195103	inferred	1	29569999	CPF_RS14110
+GO:0071704	organic substance metabolic process	biological_process	195103	inferred	4	29569999|29571540|29571762|29572173	CPF_RS14110|CPF_RS06580|CPF_RS05500|CPF_RS03505
+GO:0140096	catalytic activity, acting on a protein	molecular_function	195103	inferred	1	29569999	CPF_RS14110
+GO:1901360	organic cyclic compound metabolic process	biological_process	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505
+GO:1901564	organonitrogen compound metabolic process	biological_process	195103	inferred	1	29569999	CPF_RS14110
+GO:1901615	organic hydroxy compound metabolic process	biological_process	195103	inferred	2	29571540|29572173	CPF_RS06580|CPF_RS03505

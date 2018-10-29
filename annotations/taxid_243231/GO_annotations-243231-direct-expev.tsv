@@ -1,5 +1,5 @@
 go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
-GO:0009055	electron carrier activity	molecular_function	243231	direct	1	2685796	omcC
+GO:0009055	electron transfer activity	molecular_function	243231	direct	1	2685796	omcC
 GO:0016491	oxidoreductase activity	molecular_function	243231	direct	1	2685978	sfrB
 GO:0016651	oxidoreductase activity, acting on NAD(P)H	molecular_function	243231	direct	1	2686077	sfrA
 GO:0019645	anaerobic electron transport chain	biological_process	243231	direct	1	2685796	omcC

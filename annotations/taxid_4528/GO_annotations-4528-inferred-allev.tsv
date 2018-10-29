@@ -22,7 +22,9 @@ GO:0043229	intracellular organelle	cellular_component	4528	inferred	1	25016006	m
 GO:0043231	intracellular membrane-bounded organelle	cellular_component	4528	inferred	1	25016006	matK
 GO:0044237	cellular metabolic process	biological_process	4528	inferred	1	25016006	matK
 GO:0044238	primary metabolic process	biological_process	4528	inferred	1	25016006	matK
-GO:0044260	cellular macromolecule metabolic process	biological_process	4528	inferred	1	25016006	matK
+GO:0044424	intracellular part	cellular_component	4528	inferred	1	25016006	matK
+GO:0044444	cytoplasmic part	cellular_component	4528	inferred	1	25016006	matK
+GO:0044464	cell part	cellular_component	4528	inferred	1	25016006	matK
 GO:0046483	heterocycle metabolic process	biological_process	4528	inferred	1	25016006	matK
 GO:0071704	organic substance metabolic process	biological_process	4528	inferred	1	25016006	matK
 GO:0090304	nucleic acid metabolic process	biological_process	4528	inferred	1	25016006	matK

@@ -6,11 +6,11 @@ GO:0004725	protein tyrosine phosphatase activity	molecular_function	223283	direc
 GO:0004842	ubiquitin-protein transferase activity	molecular_function	223283	direct	1	1184744	hopAB2
 GO:0005515	protein binding	molecular_function	223283	direct	4	1183011|1184744|1186271|1186277	hopM1|hopAB2|hopS2|hopO1-2
 GO:0005576	extracellular region	cellular_component	223283	direct	1	1183017	hrpA1
+GO:0006355	regulation of transcription, DNA-templated	biological_process	223283	direct	2	1183015|1183016	hrpR|hrpS
 GO:0008234	cysteine-type peptidase activity	molecular_function	223283	direct	2	1182200|1183006	hopC1|hopN1
 GO:0008933	lytic transglycosylase activity	molecular_function	223283	direct	1	1183014	hrpH
 GO:0009405	pathogenesis	biological_process	223283	direct	39	1182110|1182111|1182200|1182505|1182535|1182656|1183006|1183008|1183009|1183011|1183013|1183014|1183017|1183039|1183040|1183041|1183205|1184330|1185679|1185781|1186012|1186276|1186280|1186363|1186364|1186365|1186366|1186369|1186370|1186372|1186390|1186391|1186392|1186393|1186394|1186395|1186397|1186405|1186410	hopU1|hopF2|hopC1|hopD1|hopAI1|hopAM1-1|hopN1|hopAA1-1|hrpW1|hopM1|avrE1|hrpH|hrpA1|hrpJ|hrpL|hrpK1|hopAF1|hopP1|avrPto1|hopAK1|hopE1|hopT1-2|hopS1|cfl|cfa1|cfa2|cfa3|cfa6|cfa7|cfa8|cmaD|cmaE|cmaA|cmaB|cmaC|cmaT|cmaU|hopAO1|hopG1
 GO:0009650	UV protection	biological_process	223283	direct	1	1182556	PSPTO_0927
-GO:0016337	single organismal cell-cell adhesion	biological_process	223283	direct	1	1183017	hrpA1
 GO:0019901	protein kinase binding	molecular_function	223283	direct	3	1182535|1184744|1185679	hopAI1|hopAB2|avrPto1
 GO:0020002	host cell plasma membrane	cellular_component	223283	direct	2	1182111|1185679	hopF2|avrPto1
 GO:0030247	polysaccharide binding	molecular_function	223283	direct	1	1183009	hrpW1
@@ -55,3 +55,5 @@ GO:0052202	negative regulation by symbiont of defense-related host cell wall cal
 GO:0052527	positive regulation by symbiont of host resistance gene-dependent defense response	biological_process	223283	direct	2	1184744|1185679	hopAB2|avrPto1
 GO:0075343	modulation by symbiont of abscisic acid levels in host	biological_process	223283	direct	1	1184744	hopAB2
 GO:0075346	modification by symbiont of host protein by ubiquitination	biological_process	223283	direct	2	1183011|1184744	hopM1|hopAB2
+GO:0098609	cell-cell adhesion	biological_process	223283	direct	1	1183017	hrpA1
+GO:0140110	transcription regulator activity	molecular_function	223283	direct	2	1183015|1183016	hrpR|hrpS

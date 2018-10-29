@@ -1,13 +1,12 @@
 go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
 GO:0000104	succinate dehydrogenase activity	molecular_function	211586	inferred	1	1172176	cymA
-GO:0001071	nucleic acid binding transcription factor activity	molecular_function	211586	inferred	1	1170077	fnr
 GO:0003674	molecular_function	molecular_function	211586	inferred	2	1170077|1172176	fnr|cymA
-GO:0003700	transcription factor activity, sequence-specific DNA binding	molecular_function	211586	inferred	1	1170077	fnr
+GO:0003700	DNA-binding transcription factor activity	molecular_function	211586	inferred	1	1170077	fnr
 GO:0003824	catalytic activity	molecular_function	211586	inferred	1	1172176	cymA
 GO:0006091	generation of precursor metabolites and energy	biological_process	211586	inferred	1	1170077	fnr
 GO:0006355	regulation of transcription, DNA-templated	biological_process	211586	inferred	1	1170077	fnr
-GO:0008150	biological_process	biological_process	211586	inferred	1	1170077	fnr
-GO:0008152	metabolic process	biological_process	211586	inferred	1	1170077	fnr
+GO:0008150	biological_process	biological_process	211586	inferred	2	1170077|1172176	fnr|cymA
+GO:0008152	metabolic process	biological_process	211586	inferred	2	1170077|1172176	fnr|cymA
 GO:0008940	nitrate reductase activity	molecular_function	211586	inferred	1	1172176	cymA
 GO:0009061	anaerobic respiration	biological_process	211586	inferred	1	1170077	fnr
 GO:0009889	regulation of biosynthetic process	biological_process	211586	inferred	1	1170077	fnr
@@ -23,18 +22,16 @@ GO:0019222	regulation of metabolic process	biological_process	211586	inferred	1	
 GO:0031323	regulation of cellular metabolic process	biological_process	211586	inferred	1	1170077	fnr
 GO:0031326	regulation of cellular biosynthetic process	biological_process	211586	inferred	1	1170077	fnr
 GO:0044237	cellular metabolic process	biological_process	211586	inferred	1	1170077	fnr
-GO:0044699	single-organism process	biological_process	211586	inferred	1	1170077	fnr
-GO:0044710	single-organism metabolic process	biological_process	211586	inferred	1	1170077	fnr
-GO:0044763	single-organism cellular process	biological_process	211586	inferred	1	1170077	fnr
 GO:0045333	cellular respiration	biological_process	211586	inferred	1	1170077	fnr
 GO:0050789	regulation of biological process	biological_process	211586	inferred	1	1170077	fnr
 GO:0050794	regulation of cellular process	biological_process	211586	inferred	1	1170077	fnr
 GO:0051171	regulation of nitrogen compound metabolic process	biological_process	211586	inferred	1	1170077	fnr
 GO:0051252	regulation of RNA metabolic process	biological_process	211586	inferred	1	1170077	fnr
-GO:0055114	oxidation-reduction process	biological_process	211586	inferred	1	1170077	fnr
+GO:0055114	oxidation-reduction process	biological_process	211586	inferred	2	1170077|1172176	fnr|cymA
 GO:0060255	regulation of macromolecule metabolic process	biological_process	211586	inferred	1	1170077	fnr
 GO:0065007	biological regulation	biological_process	211586	inferred	1	1170077	fnr
 GO:0080090	regulation of primary metabolic process	biological_process	211586	inferred	1	1170077	fnr
+GO:0140110	transcription regulator activity	molecular_function	211586	inferred	1	1170077	fnr
 GO:1903506	regulation of nucleic acid-templated transcription	biological_process	211586	inferred	1	1170077	fnr
 GO:2000112	regulation of cellular macromolecule biosynthetic process	biological_process	211586	inferred	1	1170077	fnr
 GO:2001141	regulation of RNA biosynthetic process	biological_process	211586	inferred	1	1170077	fnr

@@ -1,7 +1,4 @@
 go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
-GO:0000988	transcription factor activity, protein binding	molecular_function	198094	inferred	1	1088960	sigB
-GO:0000990	transcription factor activity, core RNA polymerase binding	molecular_function	198094	inferred	1	1088960	sigB
-GO:0000996	core DNA-dependent RNA polymerase binding promoter specificity activity	molecular_function	198094	inferred	1	1088960	sigB
 GO:0003674	molecular_function	molecular_function	198094	inferred	2	1088797|1088960	eag|sigB
 GO:0005198	structural molecule activity	molecular_function	198094	inferred	1	1088797	eag
 GO:0005575	cellular_component	cellular_component	198094	inferred	1	1088797	eag
@@ -34,6 +31,7 @@ GO:0044238	primary metabolic process	biological_process	198094	inferred	1	108896
 GO:0044249	cellular biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
 GO:0044260	cellular macromolecule metabolic process	biological_process	198094	inferred	1	1088960	sigB
 GO:0044271	cellular nitrogen compound biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
+GO:0044464	cell part	cellular_component	198094	inferred	1	1088797	eag
 GO:0045229	external encapsulating structure organization	biological_process	198094	inferred	1	1088797	eag
 GO:0046483	heterocycle metabolic process	biological_process	198094	inferred	1	1088960	sigB
 GO:0071704	organic substance metabolic process	biological_process	198094	inferred	1	1088960	sigB
@@ -41,6 +39,7 @@ GO:0071840	cellular component organization or biogenesis	biological_process	1980
 GO:0071944	cell periphery	cellular_component	198094	inferred	1	1088797	eag
 GO:0090304	nucleic acid metabolic process	biological_process	198094	inferred	1	1088960	sigB
 GO:0097659	nucleic acid-templated transcription	biological_process	198094	inferred	1	1088960	sigB
+GO:0140110	transcription regulator activity	molecular_function	198094	inferred	1	1088960	sigB
 GO:1901360	organic cyclic compound metabolic process	biological_process	198094	inferred	1	1088960	sigB
 GO:1901362	organic cyclic compound biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
 GO:1901576	organic substance biosynthetic process	biological_process	198094	inferred	1	1088960	sigB
