@@ -3,169 +3,92 @@
     [
       3702,
       "Arabidopsis thaliana",
-      7659,
-      428994,
+      7604,
+      356280,
       "annotations/taxid_3702/GO_annotations-3702-inferred-expev.tsv"
     ],
     [
       4896,
       "Schizosaccharomyces pombe",
-      6049,
-      124470,
+      5341,
+      104700,
       "annotations/taxid_4896/GO_annotations-4896-inferred-expev.tsv"
     ],
     [
       6239,
       "Caenorhabditis elegans",
-      5876,
-      155325,
+      5694,
+      140792,
       "annotations/taxid_6239/GO_annotations-6239-inferred-expev.tsv"
     ],
     [
       7227,
       "Drosophila melanogaster",
-      8807,
-      356765,
+      8941,
+      323203,
       "annotations/taxid_7227/GO_annotations-7227-inferred-expev.tsv"
     ],
     [
       7955,
       "Danio rerio",
-      6090,
-      155465,
+      6456,
+      171734,
       "annotations/taxid_7955/GO_annotations-7955-inferred-expev.tsv"
-    ],
-    [
-      9031,
-      "Gallus gallus",
-      2983,
-      17163,
-      "annotations/taxid_9031/GO_annotations-9031-inferred-expev.tsv"
     ],
     [
       9606,
       "Homo sapiens",
-      16223,
-      773188,
+      16979,
+      792753,
       "annotations/taxid_9606/GO_annotations-9606-inferred-expev.tsv"
-    ],
-    [
-      9615,
-      "Canis lupus familiaris",
-      819,
-      2524,
-      "annotations/taxid_9615/GO_annotations-9615-inferred-expev.tsv"
-    ],
-    [
-      9823,
-      "Sus scrofa",
-      1654,
-      6751,
-      "annotations/taxid_9823/GO_annotations-9823-inferred-expev.tsv"
-    ],
-    [
-      9913,
-      "Bos taurus",
-      2778,
-      16918,
-      "annotations/taxid_9913/GO_annotations-9913-inferred-expev.tsv"
     ],
     [
       10090,
       "Mus musculus",
-      15843,
-      724232,
+      16487,
+      749127,
       "annotations/taxid_10090/GO_annotations-10090-inferred-expev.tsv"
     ],
     [
       10116,
       "Rattus norvegicus",
-      11607,
-      373477,
+      11681,
+      317254,
       "annotations/taxid_10116/GO_annotations-10116-inferred-expev.tsv"
     ],
     [
       36329,
       "Plasmodium falciparum 3D7",
-      1620,
-      19732,
+      1931,
+      28456,
       "annotations/taxid_36329/GO_annotations-36329-inferred-expev.tsv"
-    ],
-    [
-      39947,
-      "Oryza sativa Japonica Group",
-      416,
-      979,
-      "annotations/taxid_39947/GO_annotations-39947-inferred-expev.tsv"
-    ],
-    [
-      195103,
-      "Clostridium perfringens ATCC 13124",
-      65,
-      106,
-      "annotations/taxid_195103/GO_annotations-195103-inferred-expev.tsv"
-    ],
-    [
-      198094,
-      "Bacillus anthracis str. Ames",
-      44,
-      47,
-      "annotations/taxid_198094/GO_annotations-198094-inferred-expev.tsv"
-    ],
-    [
-      211586,
-      "Shewanella oneidensis MR-1",
-      36,
-      40,
-      "annotations/taxid_211586/GO_annotations-211586-inferred-expev.tsv"
-    ],
-    [
-      214684,
-      "Cryptococcus neoformans var. neoformans JEC21",
-      116,
-      133,
-      "annotations/taxid_214684/GO_annotations-214684-inferred-expev.tsv"
-    ],
-    [
-      223283,
-      "Pseudomonas syringae pv. tomato str. DC3000",
-      351,
-      4074,
-      "annotations/taxid_223283/GO_annotations-223283-inferred-expev.tsv"
     ],
     [
       227321,
       "Aspergillus nidulans FGSC A4",
-      373,
-      1982,
+      1427,
+      9656,
       "annotations/taxid_227321/GO_annotations-227321-inferred-expev.tsv"
-    ],
-    [
-      243231,
-      "Geobacter sulfurreducens PCA",
-      17,
-      23,
-      "annotations/taxid_243231/GO_annotations-243231-inferred-expev.tsv"
     ],
     [
       352472,
       "Dictyostelium discoideum AX4",
-      2746,
-      41027,
+      2804,
+      45453,
       "annotations/taxid_352472/GO_annotations-352472-inferred-expev.tsv"
     ],
     [
       511145,
       "Escherichia coli str. K-12 substr. MG1655",
-      5028,
-      110612,
+      4911,
+      93956,
       "annotations/taxid_511145/GO_annotations-511145-inferred-expev.tsv"
     ],
     [
       559292,
       "Saccharomyces cerevisiae S288C",
-      7734,
-      308615,
+      7267,
+      243878,
       "annotations/taxid_559292/GO_annotations-559292-inferred-expev.tsv"
     ]
   ]

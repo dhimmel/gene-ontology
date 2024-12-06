@@ -1,3 +1,0 @@
-go_id	go_name	go_domain	tax_id	annotation_type	size	gene_ids	gene_symbols
-GO:0005739	mitochondrion	cellular_component	4536	direct	4	2885898|2885908|2885960|2885961	rpl20|psaB|rps16|rpoA
-GO:0031410	cytoplasmic vesicle	cellular_component	4536	direct	22	2885881|2885886|2885887|2885888|2885892|2885893|2885896|2885901|2885902|2885906|2885910|2885911|2885912|2885913|2885919|2885921|2885925|2885927|2885938|2885952|2885956|2885963	petG|petL|psbK|petN|psbT|psbZ|matK|ndhC|ndhD|atpH|ndhF|ndhG|psbI|psbJ|psbM|ccsA|psbN|cemA|psaJ|psbF|psaI|ndhE
